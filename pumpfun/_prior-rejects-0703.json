@@ -1,0 +1,73 @@
+{
+ "tag": "0703",
+ "inwindow_prior_fails": [
+  {
+   "mint": "HGcVEA6uF6LnxLnPTuuyYcuFKgomZDyCoFTBad9Dsobn",
+   "symbol": "ELON",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "pFibPnQk8ekCCtuBoQFJqeJjHVo92dAME3uH8A4pump",
+   "symbol": "ElonThrust",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "6X3cMFWWNQSV2pdK5nLyGfNvGUXV6oar45xusbSV3rmg",
+   "symbol": "BOUNCER",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "6VdcMnBTCj4tJVwtNdJZNzWeYmxzMnygVSzcfY35pump",
+   "symbol": "Irene",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "4tf5GEXU1dt7Vfj21oCu4P96ZEKEm3zMYqpzZsoCDeer",
+   "symbol": "Deer",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "5j7gTphd94qDXTft1ccXZZqdZo19dinTz4aFyJBXnEUY",
+   "symbol": "Irene",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "HiKU8Lsa8aUFkhtCMWp3ySCcpZ899zEhRqzvEgnSpump",
+   "symbol": "FSR",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "8DQzWohFEMWruKUC5G2hEgBcs4bhJ1y7oJuyxZHpump",
+   "symbol": "LULU",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "Aoh85TCPn6yYuumHhDi7tJoTT3x3pCvWLqcaa8A6J5rm",
+   "symbol": "Irene",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "YwCKitMEdf7nagejZbvpDvxDui5CdoQ3NuJsE5Tpump",
+   "symbol": "Chase",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "BMRjts1YYzGuQSygo3R3gepv5jhgWMrYcU5tAjX3rSoL",
+   "symbol": "HASHED",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "Gmh5hNtCycP6YSyU1Cd4Q77oDL9BdgoBoTWcSMvQpump",
+   "symbol": "PITBULL",
+   "verdict": "PRIOR_FAIL_STANDS"
+  }
+ ],
+ "new": [],
+ "young_prescreen_fails": [
+  "ROADSTER",
+  "normie",
+  "Chase9TXN",
+  "Irene_NqZa_copycat",
+  "USDC_impersonation"
+ ]
+}

@@ -1,0 +1,477 @@
+{
+  "summary": {
+    "tag": "0509",
+    "symbol": "FSR",
+    "safe": "FSR",
+    "mint": "HiKU8Lsa8aUFkhtCMWp3ySCcpZ899zEhRqzvEgnSpump",
+    "verdict": "FAIL",
+    "fails": [
+      "creatorBal 0 (dev sold/empty)",
+      "age ~0.5h borderline \u226430m entry window",
+      "16\u00d71\u20135% holder band (botty)",
+      "top10 ex-pool ~24\u201327% after removing pumpswap LP (concentration)",
+      "graphInsiders 4; rug score 13911 (Large LP Unlocked + Low Liquidity)",
+      "socials: status-tweet only (x.com/solana/status/\u2026) + otcdesks.cash; not real project socials",
+      "post-grad pumpswap chase ~$63k",
+      "cabal funder 5tzFki\u2026 @ ~19.6 SOL into a top holder"
+    ],
+    "age_h": 0.543,
+    "mc": 62992,
+    "h1": 49.58,
+    "m5": 24.54,
+    "dexId": "pumpswap",
+    "phase": "pumpswap/post-grad",
+    "creator": "7KocpDKH8W5CRtNSWpDuKtXxVDFaKQNGVgT2W5tiC3Cm",
+    "creatorBal": 0.0,
+    "creatorBal_pct": 0.0,
+    "band_1_5": 16,
+    "top10_ex_curve_pct": 25.96,
+    "socials": {
+      "dex": [
+        {
+          "url": "https://x.com/solana/status/2111012313625219264",
+          "type": "twitter"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://otcdesks.cash/coin/HiKU8Lsa8aUFkhtCMWp3ySCcpZ899zEhRqzvEgnSpump",
+          "label": "Website"
+        }
+      ]
+    },
+    "rugScore": 13911,
+    "score_normalised": 55,
+    "risks": [
+      [
+        "Large Amount of LP Unlocked",
+        "danger",
+        11000
+      ],
+      [
+        "Low Liquidity",
+        "danger",
+        2910
+      ]
+    ],
+    "graphInsiders": 4,
+    "cabal_hits": [
+      {
+        "funder": "5tzFki\u2026",
+        "n": 1,
+        "sol": 19.64,
+        "note": "prior cabal"
+      }
+    ],
+    "txh1": {
+      "buys": 575,
+      "sells": 435
+    },
+    "volh1": 38521.55,
+    "totalHolders": 1150,
+    "name": "Flying Solana Roadster"
+  },
+  "rugcheck_excerpt": {
+    "mint": "HiKU8Lsa8aUFkhtCMWp3ySCcpZ899zEhRqzvEgnSpump",
+    "creator": "7KocpDKH8W5CRtNSWpDuKtXxVDFaKQNGVgT2W5tiC3Cm",
+    "creatorBalance": 0,
+    "score": 13911,
+    "graphInsidersDetected": 4,
+    "rugged": false,
+    "tokenMeta": {
+      "name": "Flying Solana Roadster",
+      "symbol": "FSR",
+      "uri": "https://metadata.j7tracker.io/m/yC1hx4jWnO",
+      "mutable": false,
+      "updateAuthority": "11111111111111111111111111111111"
+    },
+    "fileMeta": {
+      "description": "",
+      "name": "Flying Solana Roadster",
+      "symbol": "FSR",
+      "image": "https://axiomtrading-v2.axiom-cdn.io/6PJss6NgsdTNJmEHiNhd4nYXbDhShixNNDDYYHnApump.webp"
+    },
+    "totalHolders": 1150,
+    "risks": [
+      {
+        "name": "Large Amount of LP Unlocked",
+        "value": "100.00%",
+        "description": "A large amount of LP tokens are unlocked, allowing the owner to remove liquidity at any point.",
+        "score": 11000,
+        "level": "danger"
+      },
+      {
+        "name": "Low Liquidity",
+        "value": "$89.10",
+        "description": "Low amount of liquidity in the token pool",
+        "score": 2910,
+        "level": "danger"
+      }
+    ]
+  },
+  "topHolders": [
+    {
+      "address": "DQ5KEzkcEFUJGKEFHJ9yscVubqFZs2QhWDJgta9Nihba",
+      "amount": 172871200737407,
+      "decimals": 6,
+      "pct": 18.887441901361875,
+      "uiAmount": 172871200.737407,
+      "uiAmountString": "172871200.737407",
+      "owner": "EUkYYrHLbVkk2Tf6MNKHJPQ5TZCVfSgipsqUqdJQEMwf",
+      "insider": false
+    },
+    {
+      "address": "FHKdqiGugtANtszxuEDBqmPSMF6Ebini4b1KmXcymsG9",
+      "amount": 31876569199074,
+      "decimals": 6,
+      "pct": 3.4827481164823793,
+      "uiAmount": 31876569.199074,
+      "uiAmountString": "31876569.199074",
+      "owner": "98AAcSx1g481St7Z694J3GGvX14hWsvR9aSQFiARhHYB",
+      "insider": false
+    },
+    {
+      "address": "GeWhPXia85ry74WGdagp6cf5EVndvhWDFWbeNhAiiZjD",
+      "amount": 30051211224632,
+      "decimals": 6,
+      "pct": 3.283314419346031,
+      "uiAmount": 30051211.224632,
+      "uiAmountString": "30051211.224632",
+      "owner": "Hgg5PieErK1Q3q4gcRZF2hTCaLXHHz7NwsWkh3ccwD7j",
+      "insider": false
+    },
+    {
+      "address": "51cHTiofJPbcZGu9wmruNPQDUnVF3Pu4J98tG7EbJEFE",
+      "amount": 28143938375437,
+      "decimals": 6,
+      "pct": 3.0749309235667917,
+      "uiAmount": 28143938.375437,
+      "uiAmountString": "28143938.375437",
+      "owner": "5qzWSVW93ZZjVDdCFBuoeCoxJayux2B8xY7etXMy4PA1",
+      "insider": false
+    },
+    {
+      "address": "EvgzaGxjy3twByRpwF6FqN9DiUwrfrGgtFhzKfUHc9db",
+      "amount": 22616963328062,
+      "decimals": 6,
+      "pct": 2.471068512405883,
+      "uiAmount": 22616963.328062,
+      "uiAmountString": "22616963.328062",
+      "owner": "hh1esnZWcmtGLwAN6PvPdttfRNXg2PhA9mQJH7hkbHq",
+      "insider": false
+    },
+    {
+      "address": "D3XNJBx3J6XUMWEvoPPv48DFAmiK89VBzRpdwN9CoSra",
+      "amount": 22372967358073,
+      "decimals": 6,
+      "pct": 2.4444101697341387,
+      "uiAmount": 22372967.358073,
+      "uiAmountString": "22372967.358073",
+      "owner": "9UEmmduVkps6xghCxTM7koLNgRJLEAtZNRYMMG68jVrs",
+      "insider": false
+    },
+    {
+      "address": "EtwBBoFa9sHdbneRov1Px6qKYYd7ifSUtLL49vTmCMeq",
+      "amount": 22219304522668,
+      "decimals": 6,
+      "pct": 2.4276213821065276,
+      "uiAmount": 22219304.522668,
+      "uiAmountString": "22219304.522668",
+      "owner": "9ecRdqNCBxwReiY2pxtnLeayeBzE1CrSSmKKJJGdmsaJ",
+      "insider": false
+    },
+    {
+      "address": "ixWsVMKGaNXn5QbxSF8kT4Gg9zqkUpAtZhP7Yxu98p3",
+      "amount": 22150750562148,
+      "decimals": 6,
+      "pct": 2.4201313609757285,
+      "uiAmount": 22150750.562148,
+      "uiAmountString": "22150750.562148",
+      "owner": "J517xwf6u1RpsQnCzu3bRfeGBG5tyWvy1HBKQtwEaEsX",
+      "insider": false
+    },
+    {
+      "address": "8VDSNdh4AptUr6efJuqTeJdTgkSwaQi6ia3BtEf1dkTU",
+      "amount": 20869140349606,
+      "decimals": 6,
+      "pct": 2.2801060801520663,
+      "uiAmount": 20869140.349606,
+      "uiAmountString": "20869140.349606",
+      "owner": "Arc4r1hf9g5hrwras3kec3XpELDa4v3hbaatHwaJsARq",
+      "insider": false
+    },
+    {
+      "address": "E7EMU2XnJN463UNSsuYzkPGJQmxxQCUWoBzUTvMDSUzg",
+      "amount": 18683544897243,
+      "decimals": 6,
+      "pct": 2.041313806191454,
+      "uiAmount": 18683544.897243,
+      "uiAmountString": "18683544.897243",
+      "owner": "6GC1BDUBgwn94djr9unanra1aR5GJKwD6GDRp9i7berY",
+      "insider": false
+    },
+    {
+      "address": "GSdSpEMHcDixX8yxYvYmRtMgi8tvJBjADLsJfUSHKcAi",
+      "amount": 18663589275311,
+      "decimals": 6,
+      "pct": 2.039133508673774,
+      "uiAmount": 18663589.275311,
+      "uiAmountString": "18663589.275311",
+      "owner": "EA9TnaqEZXq5VNGHuyV8169ydLWvJq5uAJiv43boLBBf",
+      "insider": false
+    },
+    {
+      "address": "FFU83XShVAKXBCkKWShuayVfCA9wYjvMcLXkb6SFa5RU",
+      "amount": 16193715878242,
+      "decimals": 6,
+      "pct": 1.769281791951327,
+      "uiAmount": 16193715.878242,
+      "uiAmountString": "16193715.878242",
+      "owner": "E12wbjwE8yvKAtntWGewzoDwKWfZBJuv1GkD1sf51yPe",
+      "insider": false
+    },
+    {
+      "address": "4mFjChrzKDtBpVj8DQtWtuDR7DVwCKLUkJN1kdFbextR",
+      "amount": 15258033155860,
+      "decimals": 6,
+      "pct": 1.6670516172217427,
+      "uiAmount": 15258033.15586,
+      "uiAmountString": "15258033.15586",
+      "owner": "22urQscTuS6krAwABTmXytydD9yrSGWg43zM5FLAGvrR",
+      "insider": false
+    },
+    {
+      "address": "HFwh5vpsvnsjUrVEH9r6qHGnppT7YXBZhQZdpiH3gkuw",
+      "amount": 14212595882352,
+      "decimals": 6,
+      "pct": 1.552829955772799,
+      "uiAmount": 14212595.882352,
+      "uiAmountString": "14212595.882352",
+      "owner": "ASVzakePP6GNg9r95d4LPZHJDMXun6L6E4um4pu5ybJk",
+      "insider": false
+    },
+    {
+      "address": "DdfZrZVzfw4akTPrXNyoctdcgXmiFaunHDE49xUSK9gV",
+      "amount": 13810917582984,
+      "decimals": 6,
+      "pct": 1.5089436663851574,
+      "uiAmount": 13810917.582984,
+      "uiAmountString": "13810917.582984",
+      "owner": "6egy4829HYuiLdnAHd8DRgHJGx7naq4k5HXgQVEEHeog",
+      "insider": false
+    },
+    {
+      "address": "Db8wvkhzxbcr5MUqj4aCd5Ndefvyo51mK1b2sdBRVJzw",
+      "amount": 13607324580603,
+      "decimals": 6,
+      "pct": 1.4866996431609762,
+      "uiAmount": 13607324.580603,
+      "uiAmountString": "13607324.580603",
+      "owner": "EY8yPRNUPph8GfbUeJDtH8YHBppRuorizSERqNJTvgUv",
+      "insider": false
+    },
+    {
+      "address": "8apbuJTkq5xMKTEN4GUKhNZYeiRftAPF8jZUR5EjgH5y",
+      "amount": 13495832208021,
+      "decimals": 6,
+      "pct": 1.4745182867487752,
+      "uiAmount": 13495832.208021,
+      "uiAmountString": "13495832.208021",
+      "owner": "6kxS4kyVvqm4qupoA4Cn76AMxCCnCG7hJCX3D9JS5usM",
+      "insider": false
+    },
+    {
+      "address": "87wLixMdYPntEoHP99cdfVHyibYPGbzMB7oeHNGomR82",
+      "amount": 8791067668063,
+      "decimals": 6,
+      "pct": 0.9604883816576146,
+      "uiAmount": 8791067.668063,
+      "uiAmountString": "8791067.668063",
+      "owner": "5sHt8PNXpHE4Ttzqu9qxWVVxRejWHTAb342U6ZEEWBqX",
+      "insider": false
+    },
+    {
+      "address": "3esmTe4sPqq6apRgpBPprwFtEFBVWbPYz3RehmyHhwqR",
+      "amount": 8599455324420,
+      "decimals": 6,
+      "pct": 0.9395533329467637,
+      "uiAmount": 8599455.32442,
+      "uiAmountString": "8599455.32442",
+      "owner": "5mMv9A2sabeof3vV7MLQABh8dfbXtPgjgmzFo1x27m86",
+      "insider": false
+    },
+    {
+      "address": "6F2fuw4mbemMmLtGFfPNNQLcenM2RtAvumh3U1qHkksZ",
+      "amount": 8420738575189,
+      "decimals": 6,
+      "pct": 0.9200272221573315,
+      "uiAmount": 8420738.575189,
+      "uiAmountString": "8420738.575189",
+      "owner": "CvHSYvRbVxeBu1hf1MSZvKZ1FrSeQKVSqjYoV95BiDER",
+      "insider": false
+    }
+  ],
+  "funders": {
+    "98AAcSx1g481St7Z694J3GGvX14hWsvR9aSQFiARhHYB": {
+      "pct": 3.48,
+      "ntx": 1000,
+      "oldest": 1790545631,
+      "funder": [
+        "GSczWirTpXvn2QZ75cZqhmkvLL3jtLmLfELPmnoKA7Co",
+        1e-06
+      ]
+    },
+    "Hgg5PieErK1Q3q4gcRZF2hTCaLXHHz7NwsWkh3ccwD7j": {
+      "pct": 3.28,
+      "ntx": 1000,
+      "oldest": 1791556282,
+      "funder": null
+    },
+    "5qzWSVW93ZZjVDdCFBuoeCoxJayux2B8xY7etXMy4PA1": {
+      "pct": 3.07,
+      "ntx": 1000,
+      "oldest": 1790925892,
+      "funder": null
+    },
+    "hh1esnZWcmtGLwAN6PvPdttfRNXg2PhA9mQJH7hkbHq": {
+      "pct": 2.47,
+      "ntx": 1000,
+      "oldest": 1789740116,
+      "funder": null
+    },
+    "9UEmmduVkps6xghCxTM7koLNgRJLEAtZNRYMMG68jVrs": {
+      "pct": 2.44,
+      "ntx": 523,
+      "oldest": 1790516703,
+      "funder": [
+        "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+        19.645258
+      ]
+    },
+    "9ecRdqNCBxwReiY2pxtnLeayeBzE1CrSSmKKJJGdmsaJ": {
+      "pct": 2.43,
+      "ntx": 1000,
+      "oldest": 1792003826,
+      "funder": null
+    },
+    "J517xwf6u1RpsQnCzu3bRfeGBG5tyWvy1HBKQtwEaEsX": {
+      "pct": 2.42,
+      "ntx": 1000,
+      "oldest": 1791841540,
+      "funder": null
+    },
+    "Arc4r1hf9g5hrwras3kec3XpELDa4v3hbaatHwaJsARq": {
+      "pct": 2.28,
+      "ntx": 1000,
+      "oldest": 1791971972,
+      "funder": null
+    },
+    "6GC1BDUBgwn94djr9unanra1aR5GJKwD6GDRp9i7berY": {
+      "pct": 2.04,
+      "ntx": 255,
+      "oldest": 1791142736,
+      "funder": [
+        "FpwQQhQQoEaVu3WU2qZMfF1hx48YyfwsLoRgXG83E99Q",
+        167.915054737
+      ]
+    },
+    "EA9TnaqEZXq5VNGHuyV8169ydLWvJq5uAJiv43boLBBf": {
+      "pct": 2.04,
+      "ntx": 1000,
+      "oldest": 1791437694,
+      "funder": null
+    },
+    "E12wbjwE8yvKAtntWGewzoDwKWfZBJuv1GkD1sf51yPe": {
+      "pct": 1.77,
+      "ntx": 172,
+      "oldest": 1792110740,
+      "funder": [
+        "9nW5DvxVT4iaXbr6Fvfa8DApaQuzTXbBRHC5UGoGLLt3",
+        32.694673017
+      ]
+    },
+    "22urQscTuS6krAwABTmXytydD9yrSGWg43zM5FLAGvrR": {
+      "pct": 1.67,
+      "ntx": 49,
+      "oldest": 1791841754,
+      "funder": [
+        "iGdFcQoyR2MwbXMHQskhmNsqddZ6rinsipHc4TNSdwu",
+        0.056587
+      ]
+    }
+  },
+  "dex_pair": {
+    "chainId": "solana",
+    "dexId": "pumpswap",
+    "url": "https://dexscreener.com/solana/eukyyrhlbvkk2tf6mnkhjpq5tzcvfsgipsquqdjqemwf",
+    "pairAddress": "EUkYYrHLbVkk2Tf6MNKHJPQ5TZCVfSgipsqUqdJQEMwf",
+    "baseToken": {
+      "address": "HiKU8Lsa8aUFkhtCMWp3ySCcpZ899zEhRqzvEgnSpump",
+      "name": "Flying Solana Roadster",
+      "symbol": "FSR"
+    },
+    "quoteToken": {
+      "address": "DFMt2FyLpB6ekPNAzVErLXgpSnJ9CRf1VnxBAkTLpump",
+      "name": "Flying Tesla Roadster",
+      "symbol": "FTR"
+    },
+    "priceNative": "0.01038",
+    "priceUsd": "0.00006299",
+    "txns": {
+      "m5": {
+        "buys": 69,
+        "sells": 35
+      },
+      "h1": {
+        "buys": 575,
+        "sells": 435
+      },
+      "h6": {
+        "buys": 575,
+        "sells": 435
+      },
+      "h24": {
+        "buys": 575,
+        "sells": 435
+      }
+    },
+    "volume": {
+      "h24": 38521.55,
+      "h6": 38521.55,
+      "h1": 38521.55,
+      "m5": 4387.57
+    },
+    "priceChange": {
+      "m5": 24.54,
+      "h1": 49.58,
+      "h6": 49.58,
+      "h24": 49.58
+    },
+    "liquidity": {
+      "usd": 19678.98,
+      "base": 170135723,
+      "quote": 1477323
+    },
+    "fdv": 62992,
+    "marketCap": 62992,
+    "pairCreatedAt": 1792140190000,
+    "info": {
+      "imageUrl": "https://cdn.dexscreener.com/cms/images/9lC5Jk9HvgwgYc9s?width=800&height=800&quality=95&format=auto",
+      "header": "https://cdn.dexscreener.com/cms/images/HxHNuLfbt11LS4ug?width=1500&height=500&quality=95&format=auto",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HiKU8Lsa8aUFkhtCMWp3ySCcpZ899zEhRqzvEgnSpump?timestamp=1792141800000",
+      "websites": [
+        {
+          "url": "https://otcdesks.cash/coin/HiKU8Lsa8aUFkhtCMWp3ySCcpZ899zEhRqzvEgnSpump",
+          "label": "Website"
+        }
+      ],
+      "socials": [
+        {
+          "url": "https://x.com/solana/status/2111012313625219264",
+          "type": "twitter"
+        }
+      ]
+    }
+  },
+  "pf_coin_note": "frontend-api-v3 /coins/{mint} returned 404 this run (same as 0501); used RugCheck+Dex for creator/socials"
+}

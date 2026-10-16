@@ -1,0 +1,54 @@
+{
+  "mint": "94BfFHQrAHewvj2aCb1vdCTViCRFGRPnvAu7SJG1pump",
+  "symbol": "GALAX",
+  "name": "GalaxMines",
+  "score": 1,
+  "rugged": false,
+  "creator": "3GfEWLBQgpP8mSGNsL2UpEi2BsDhbwgXmGbrZ37KF9rg",
+  "creatorBalance": 7645868722525,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalHolders": 181,
+  "graphInsiders": 24,
+  "top10_ex_curve_pct": 15.59,
+  "band_1_5": 12,
+  "whale_pct": 2.25,
+  "phase": "pumpfun mc~11815.55 age=2.24h h1=-14.47 m5=-2.59 buys=96 curve_sol~29.577057697",
+  "socials": [
+    [
+      "twitter",
+      "https://x.com/GalaxMines"
+    ],
+    [
+      "telegram",
+      "https://t.me/galaxmines"
+    ],
+    [
+      "website",
+      "https://galaxmines.com/"
+    ]
+  ],
+  "mc": 11815.55,
+  "age_h": 2.24,
+  "h1": -14.47,
+  "m5": -2.59,
+  "buys_h1": 96,
+  "sells_h1": 86,
+  "decision": "FAIL",
+  "reasons": [
+    "12 wallets in 1-5% band",
+    "graphInsiders 24",
+    "coordinated funders: 3x 5tzFkiKs\u2026, 3x u6PJ8DtQ\u2026"
+  ],
+  "risks": [],
+  "shared_funders": [
+    {
+      "funder": "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+      "count": 3
+    },
+    {
+      "funder": "u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w",
+      "count": 3
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+X Explore/Trending capture
+Run: Wednesday, Sep 30, 2026, ~2:47 PM ET
+Account/session: @P7RIM3 confirmed signed in (profile link https://x.com/P7RIM3).
+URL: https://x.com/explore/tabs/trending
+Method: CDP playwright on Chrome :9225 (computerUse unavailable to nested executor)
+No trending original posted.
+
+Visible Global Trending / US / category topics:
+- Flydubai — Trending in United States; with Omani, Smit Machchhar
+- Kroger — Trending in United States
+- ETBs — Trending in United States
+- Unites States — Politics
+- Mahle — Sports
+- WNBA — Sports
+- Family Guy — with Seth MacFarlane, Mark Wahlberg
+- Iraq — Politics
+- #OlandriaxVaqueraSS27 / #VaqueraNYCSS27 — Fashion
+- Bulletproof — Music
+- Sanchez / Brandon Marsh / Matt Olson — Sports
+- Senate Democrats — Politics
+- Matty O / Cullman / Shayy — US
+- Tinashe — Music
+- Pokemon Center — US
+- Death to America — Politics (with IRGC) — avoid
+- David Grusch — Entertainment
+- $LQDA — US ticker
+
+Today's News panel:
+- David Grusch on Joe Rogan Experience #2560 — News · 628 posts (was ~558 at 14:41)
+- xAI Owns dot.com Domain Redirecting to Grok Bot Following OpenAI's Dots Launch — News · 119 posts (was ~112)
+- Debate on X over whether vibe coding requires basic programming knowledge — Other · 130 posts (was ~125)
+
+Decision: TRENDING_SKIP no_fit — same set as 14:30/14:41 scans; no new fast-rising verifiable sky/security/agents/OSINT angle worth the last extra slot (2/3 already used: LASST + Nvidia). Politics/sports/fashion/entertainment skipped. Screenshot: /workspace/x-plan/run-20260930-1445-trending.png

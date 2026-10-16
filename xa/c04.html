@@ -1,0 +1,16 @@
+<html><head><meta charset="utf-8"></head><body><p>You don't need an account, an API key or any money. You need a terminal with three free tools.</p>
+<ol>
+<li><strong>curl</strong> fetches web pages and APIs. It's already on macOS and Linux, and on Windows 10/11 it ships with the system (<code>curl.exe</code>).</li>
+<li><strong>jq</strong> reads JSON. Install it from <a href="https://jqlang.org/">jqlang.org</a> (<code>brew install jq</code> on macOS, <code>sudo apt install jq</code> on Debian/Ubuntu).</li>
+<li><strong>Python 3</strong> runs the two small scripts below. Only the standard library is used, so there's nothing to <code>pip install</code>.</li>
+</ol>
+<p>Run this to confirm everything is there:</p>
+<pre><code class="language-bash">curl --version | head -1; jq --version; python3 --version
+</code></pre>
+<p>Expected output (your versions can differ):</p>
+<pre><code class="language-text">curl 8.14.1 (x86_64-pc-linux-gnu) libcurl/8.14.1 ...
+jq-1.7
+Python 3.13.5
+</code></pre>
+<p>The second command in the screenshot asks Polymarket whether my connection may trade. From a US address the answer is <code>{"blocked":true,"country":"US"}</code>. Reading public data is fine from anywhere; trading on polymarket.com is not (more on that in section 18).</p>
+<h2>5. Step 1: pull the leaderboard</h2></body></html>

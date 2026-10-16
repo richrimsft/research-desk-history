@@ -1,0 +1,25 @@
+{
+ "tag": "0714",
+ "symbol": "Deer",
+ "mint": "4tf5GEXU1dt7Vfj21oCu4P96ZEKEm3zMYqpzZsoCDeer",
+ "age_h": 2.74,
+ "mc": 130912,
+ "h1": 208,
+ "m5": 37.31,
+ "dexId": "pumpswap",
+ "phase": "prior_recheck",
+ "verdict": "PRIOR_FAIL_STANDS",
+ "reasons": [
+  "RC improved vs 0703 (score 1, liq ~$28.7k, authorities revoked) \u2014 rechecked",
+  "creatorBal 0",
+  "19\u00d71\u20135% band on 1149 holders",
+  "top10 excl. pool (6YkyyE 12.3%) \u224827% \u2014 at/over 25% limit",
+  "post-grad chase (h1 +208, m5 +37)",
+  "non-pump mint suffix; no socials"
+ ],
+ "creatorBalance": 0,
+ "rc_score": 1,
+ "band_1_5": 19,
+ "graphInsiders": 0,
+ "rc_file": "rc-Deer-0714.json"
+}

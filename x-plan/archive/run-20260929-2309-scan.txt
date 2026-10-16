@@ -1,0 +1,27 @@
+X inbound scan report
+Run: 2026-09-29 23:10 ET (cutoff approximately 23:07 ET)
+
+SIGNED_IN: Confirmed in the live X browser as P7RIM3 (@P7RIM3).
+LIVE_SCAN: Refreshed https://x.com/notifications and https://x.com/notifications/mentions while signed in.
+NEW_COUNT: 0
+
+ALL timeline observed (relative times shown by X):
+- Likes-only cards: @KEKerboxerGlory 24m, @DelBerrX 32m, @_Tempus__Fugit_ and five others 48m, @dhandha786 and two others 2h, @pullingUp22 2h, @snowtrees32283 2h, @thechillguy_07 3h, and several other likes-only cards at 3h. Ignored as instructed.
+- Reply/mention: @Cobra17298328, 1h, “I can’t see what this bitch is saying, cause he immediately blocked me” — known skip; already handled.
+- Reply/mention: @juneauxwhoitis, 2h, “Overflowing with perceptions you are!” — known skip; over two beats.
+- Reply/mention: @FiresOfTruth, 3h, “Check the link in my bio to watch a film I made with darcy” — known skip; bio-link/sales thread over two beats.
+- Reply/mention: @FiresOfTruth, 3h, quote-only post about Alex B being missing — known skip; quote/missing thread over two beats.
+- Reply/mention: @FiresOfTruth, 3h, “He’s a human being” — known skip; thread over two beats.
+- Reply/mention: @grok, 4h, America.gov architectural-stop explanation — known skip; beat 3+.
+
+MENTIONS timeline observed (relative times shown by X):
+- @Cobra17298328, 1h, “I can’t see what this bitch is saying, cause he immediately blocked me” — known skip.
+- @juneauxwhoitis, 2h, “Overflowing with perceptions you are!” — known skip.
+- @FiresOfTruth, 3h, “Check the link in my bio to watch a film I made with darcy” — known skip.
+- @FiresOfTruth, 3h, quote-only Alex B/missing post — known skip.
+- @FiresOfTruth, 3h, “He’s a human being” — known skip.
+- @grok, 4h, America.gov explanation — known skip.
+
+NEW CANDIDATES: None. All inbound reply/mention cards were older than the approximately 23:07 ET cutoff; no safe unreplied inbound was found.
+ACTIONS: No replies posted. No flags for threats, self-harm, or illegal content in any newer candidate (there were no newer candidates). Trending/Explore was skipped. No likes, follows, reposts, DMs, or settings/account changes performed.
+BLOCKERS: None.

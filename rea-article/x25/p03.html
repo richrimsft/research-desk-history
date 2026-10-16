@@ -1,0 +1,22 @@
+<!doctype html><meta charset=utf-8><body><p><em>REA&#x27;s own &quot;How REA works&quot; diagram in the README</em></p>
+<p>REA's README sums it up in one line: <em>"See a feature you like. Understand how it works, down to the binary level."</em> In practice, it's a loop with four steps.</p>
+<ol>
+<li><strong>Ask.</strong> You give your agent a specific, testable question about a local target, like "How does this binary decide the password is correct?" A vague "reverse this app" gets vague results.</li>
+<li><strong>Inspect and trace.</strong> The agent calls REA tools over MCP: <code>open_binary</code>, <code>search_strings</code>, <code>trace_feature</code>, <code>xrefs</code>, <code>procedure_pseudo_code</code> and <code>read_bytes</code>, out of roughly 170 tools in 6.4.0. REA drives a real analysis engine underneath (Ghidra, Hopper or IDA for native code; its own static analyzers for JavaScript, Electron, .NET, EVM and more). README: <em>"Analysis runs locally, and results include the evidence and limitations behind each conclusion."</em></li>
+<li><strong>Read the evidence.</strong> Every result is an <strong>Evidence record</strong> with a content-addressed ID (<code>ev_…</code>), the target's SHA-256, the provider and version, a <code>confidence</code> (<code>observed</code>, <code>derived</code> or <code>inferred</code>) and a list of <code>limitations</code>. Gaps become <strong>residual unknowns</strong> (<code>unk_…</code>) that you can record, list and resolve later.</li>
+<li><strong>Use what you learn.</strong> Explain the behavior, write your own implementation from a behavioral spec, write tests, or flag a security issue. REA's showcases do exactly this. One is a <a href="https://rea.tools/showcase/dx-ball/">DX-Ball sound-pan reconstruction</a> that, per the README, <em>"passes 3,205 original-x86 cases and reproduces all 63 compiled function bytes."</em></li>
+</ol>
+<p><strong>A 60-second glossary for absolute beginners:</strong></p>
+<ul>
+<li><strong>Binary / executable:</strong> the compiled program your computer runs (<code>.exe</code> on Windows, ELF on Linux, Mach-O on macOS). It's machine code, not readable source.</li>
+<li><strong>Disassembler / decompiler:</strong> tools that turn machine code back into assembly (disassembler) or C-like <strong>pseudocode</strong> (decompiler). Ghidra, Hopper and IDA do both.</li>
+<li><strong>String:</strong> readable text stored inside a binary, like error messages and prompts. Strings are usually the fastest clue to where a feature lives.</li>
+<li><strong>Cross-reference (xref):</strong> a place in the code that uses an address, such as "this instruction loads that string." Following xrefs is how you get from visible text to the code behind it.</li>
+<li><strong>MCP (Model Context Protocol):</strong> the standard that lets an AI agent call external tools. REA is an MCP server, so your agent can call <code>trace_feature</code> the same way it calls a web search.</li>
+<li><strong>Evidence record (<code>ev_…</code>):</strong> REA's receipt for one result. It carries the target hash, tool, parameters, result, confidence and limitations.</li>
+<li><strong>Residual unknown (<code>unk_…</code>):</strong> a question REA (or you) recorded because the evidence doesn't settle it yet.</li>
+<li><strong>Static vs runtime:</strong> <em>static</em> reads files without running them; <em>runtime</em> runs or observes the program. REA keeps the two strictly apart.</li>
+</ul>
+<p>The same workflows are available from your terminal through the <code>rea</code> CLI. I use both below: first the CLI, so you can see every raw output, then the same investigation through my agent over MCP.</p>
+<p>A quick note on privacy, from the README FAQ: <em>"REA analyzes targets locally. Your agent receives the tool results, and its model provider has its own data policy."</em> So REA doesn't upload your target, but whatever results your agent reads go to your model provider.</p>
+<h1>3. Legal and ethical limits, in REA's own words</h1></body>

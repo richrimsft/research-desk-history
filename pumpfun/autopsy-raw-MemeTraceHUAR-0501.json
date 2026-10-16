@@ -1,0 +1,215 @@
+{
+  "mint": "HUARGQHB7ovbPkUaYUmsqGBCLG4uHpCEr3q8zGcupump",
+  "symbol": "MemeTrace",
+  "pair": {
+    "dexId": "pumpfun",
+    "marketCap": 16670.26,
+    "pairCreatedAt": 1792141225000,
+    "priceChange": {
+      "m5": 49.03,
+      "h1": 377,
+      "h6": 377,
+      "h24": 377
+    },
+    "volume": {
+      "h24": 85490.98,
+      "h6": 85490.98,
+      "h1": 85490.98,
+      "m5": 68742.94
+    },
+    "txns": {
+      "m5": {
+        "buys": 820,
+        "sells": 516
+      },
+      "h1": {
+        "buys": 988,
+        "sells": 638
+      },
+      "h6": {
+        "buys": 988,
+        "sells": 638
+      },
+      "h24": {
+        "buys": 988,
+        "sells": 638
+      }
+    },
+    "url": "https://dexscreener.com/solana/7k5xprcoxgey4ykpxefkm7gat8k8izj89y2ca5r1xkhg",
+    "liquidity": null
+  },
+  "pf": {
+    "creator": null,
+    "name": null,
+    "symbol": null,
+    "usd_market_cap": null,
+    "market_cap": null,
+    "created_timestamp": null,
+    "twitter": null,
+    "telegram": null,
+    "website": null,
+    "virtual_sol_reserves": null,
+    "complete": null,
+    "reply_count": null
+  },
+  "rug": {
+    "score": 1,
+    "score_norm": 1,
+    "risks": [],
+    "graphInsiders": 0,
+    "creator": "6a29wP5CM4XPvqUz8aTNjDXK7WcS9kRSedF8nabf52LR",
+    "topHolders": [
+      {
+        "address": "3RSbJFYRsGCCB6puudLzqDUpLfmLxc2NaVXJMHifKN34",
+        "amount": 331086678444379,
+        "decimals": 6,
+        "pct": 33.10866796739545,
+        "uiAmount": 331086678.444379,
+        "uiAmountString": "331086678.444379",
+        "owner": "7K5XPrCoxGey4YKPXEfkM7GAT8K8izJ89Y2CA5R1xkhG",
+        "insider": false
+      },
+      {
+        "address": "ACMUxLn7KTdfAap8ETbXJSrqeiFowrDKPjUzyTgxaUje",
+        "amount": 30718097028922,
+        "decimals": 6,
+        "pct": 3.0718097143001546,
+        "uiAmount": 30718097.028922,
+        "uiAmountString": "30718097.028922",
+        "owner": "ardinRsN1mNYVeoJWTBsWeYeXvuR9UUDGMsCDKpb6AT",
+        "insider": false
+      },
+      {
+        "address": "7KvxxECD5rma7KwURFdb4qpxdgd3Hkvr4jm5kuEkmwsz",
+        "amount": 29651306510343,
+        "decimals": 6,
+        "pct": 2.9651306620460747,
+        "uiAmount": 29651306.510343,
+        "uiAmountString": "29651306.510343",
+        "owner": "AQ46kfYT3hW28Xg5gWHrJkzFSz1oGWBHC3FsTbqgMEco",
+        "insider": false
+      },
+      {
+        "address": "2dtDonZ2zqM6drQgbphEL41n3rnMLns6BBfrZ7W96q1o",
+        "amount": 29393500290683,
+        "decimals": 6,
+        "pct": 2.939350039984332,
+        "uiAmount": 29393500.290683,
+        "uiAmountString": "29393500.290683",
+        "owner": "DePxtKV64QagrqRECzPwNUUexSG26whjmxS8bXMG86YV",
+        "insider": false
+      },
+      {
+        "address": "9LznbPHgKr8qGu6SJLUAA2Czrv5FiKFRButRUVTH9JEr",
+        "amount": 23180580771986,
+        "decimals": 6,
+        "pct": 2.3180580858073045,
+        "uiAmount": 23180580.771986,
+        "uiAmountString": "23180580.771986",
+        "owner": "EqiFgyNw6kgrmYstWyrP8VjKhka7XEmKTZzHSmwpr1Zb",
+        "insider": false
+      },
+      {
+        "address": "9hS7kU55aRBii9hsywDgwVhYKdqp1nw2GVuYWm11dg9m",
+        "amount": 21450090123804,
+        "decimals": 6,
+        "pct": 2.1450090203464423,
+        "uiAmount": 21450090.123804,
+        "uiAmountString": "21450090.123804",
+        "owner": "2dGSH9EX8R3e9woXckbuZuja4wo4vDUP31SfD2kntVYW",
+        "insider": false
+      },
+      {
+        "address": "BwqCvVHcYjYXD1eUGmGArPxN66n7Z3TyQ6FTDLD54T9H",
+        "amount": 18293544174043,
+        "decimals": 6,
+        "pct": 1.8293544241980777,
+        "uiAmount": 18293544.174043,
+        "uiAmountString": "18293544.174043",
+        "owner": "74MTB18BJbac1qLo1VveaDXsKjSixKH2gjKSvcu7oZ66",
+        "insider": false
+      },
+      {
+        "address": "DkQzn1tAxyvpaUPayST5hgkvhoZ6ZtZjmoUAGqvhDSH2",
+        "amount": 17549528325014,
+        "decimals": 6,
+        "pct": 1.7549528390188684,
+        "uiAmount": 17549528.325014,
+        "uiAmountString": "17549528.325014",
+        "owner": "xeXxcKTGSYEXc9Ab7LJui9U7SYWkq7LMhpDEhMV7Y13",
+        "insider": false
+      },
+      {
+        "address": "417XtZErPxbNDnzaMWzd1kmyUKEr6PKiMvTgiCydwNao",
+        "amount": 17370107638348,
+        "decimals": 6,
+        "pct": 1.7370107702856359,
+        "uiAmount": 17370107.638348,
+        "uiAmountString": "17370107.638348",
+        "owner": "6rfC6omPwi4byDeLErtZDkePPrvbwNk67KQRU72YQQuU",
+        "insider": false
+      },
+      {
+        "address": "8kbDiFmMghq2Djaoy2RzzRP4a1VhQdLAvjF9pMdrAZxg",
+        "amount": 17297303676564,
+        "decimals": 6,
+        "pct": 1.7297303740801981,
+        "uiAmount": 17297303.676564,
+        "uiAmountString": "17297303.676564",
+        "owner": "GDDyWRziR4AuiK6goqWkgjGVyJVvTCnobwict6kWZmhM",
+        "insider": false
+      },
+      {
+        "address": "AT3AtWTUEnxF43h2peuJtWRDyaJHC5mx2eKKKdkyhsyw",
+        "amount": 16274726935988,
+        "decimals": 6,
+        "pct": 1.6274726996428381,
+        "uiAmount": 16274726.935988,
+        "uiAmountString": "16274726.935988",
+        "owner": "3iBQjUM1pPkLxFgUSm1m79nXo5LDuaEwmECBtHwcnaAE",
+        "insider": false
+      },
+      {
+        "address": "3w8cMCAnnSJ4LhpAee2wq6nDeSs2ErGYwuLGVKbamptD",
+        "amount": 15765341481388,
+        "decimals": 6,
+        "pct": 1.5765341539936646,
+        "uiAmount": 15765341.481388,
+        "uiAmountString": "15765341.481388",
+        "owner": "AjbYXGehLngocYkDiUahjwTWyp1mGuf7E3sgYiwDsozy",
+        "insider": false
+      },
+      {
+        "address": "DAsCMGxzNCAYLWVaw72mgjPKNqfz3JJoe53htwMHE8Pw",
+        "amount": 15504863955163,
+        "decimals": 6,
+        "pct": 1.5504864012744297,
+        "uiAmount": 15504863.955163,
+        "uiAmountString": "15504863.955163",
+        "owner": "3YrKUeE71Gz4fhDgCN2smERhVtKEbBdVsDJWyFi7juNm",
+        "insider": false
+      },
+      {
+        "address": "5Ei3wEZeP7WwuPivqPUfzWjihfg4P55ssm95DekZRQDs",
+        "amount": 15030898591173,
+        "decimals": 6,
+        "pct": 1.5030898646994104,
+        "uiAmount": 15030898.591173,
+        "uiAmountString": "15030898.591173",
+        "owner": "AupabNAtRVrrRL2qG7neoNSnSJm9SDWgfYfUQd2t1sZZ",
+        "insider": false
+      },
+      {
+        "address": "E7bTS25a1yDrvjrWA8JU434scVAaJRYFuJHYtzABCiYR",
+        "amount": 14092908634520,
+        "decimals": 6,
+        "pct": 1.4092908686857637,
+        "uiAmount": 14092908.63452,
+        "uiAmountString": "14092908.63452",
+        "owner": "2jN8i5hytmmodaMyv2Z3sBLMnZaShazE1GSg3As3aGy4",
+        "insider": false
+      }
+    ]
+  },
+  "creatorBal": 0.0
+}

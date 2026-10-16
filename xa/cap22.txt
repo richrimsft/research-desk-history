@@ -1,0 +1,1 @@
+The same wallet's Closed tab: if this is all you're shown, you're being shown half the record.

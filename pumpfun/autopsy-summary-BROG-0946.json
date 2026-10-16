@@ -1,0 +1,31 @@
+{
+  "tag": "0946",
+  "symbol": "BROG",
+  "mint": "CUfBVs7KERYJmCZohsWEFZoZVXzV1dhNm7tteWuPpump",
+  "age_h": 0.35,
+  "mc": 215918,
+  "h1": 392,
+  "m5": 36.47,
+  "dex": "pumpswap",
+  "phase": "too_young",
+  "verdict": "FAIL",
+  "reasons": [
+    "age 0.35h <30m \u2014 no-buy by narrative-age",
+    "creatorBalance 0 / sold out"
+  ],
+  "rc_score": 1,
+  "top10ex_pct": 16.44,
+  "lp_pct_guess": 0,
+  "band_1_5_count": 0,
+  "max_identical_0.1": 0,
+  "identical_band_val": null,
+  "tight_2.3_2.5_count": 0,
+  "creator": "9dm7seQymmgVPXoreH6edtqcVVaPgi8qc1qvB15Y8Gny",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "graphInsiders": 0,
+  "totalHolders": 748,
+  "risks": [],
+  "meta_name": "Blue Frog"
+}

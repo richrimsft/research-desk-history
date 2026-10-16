@@ -1,0 +1,64 @@
+X notifications scan — @P7RIM3
+Scan time: 2026-09-30 13:32 ET (requested run label 20260930-1331)
+Cutoff: 2026-09-30T13:28:14-04:00
+Account confirmation: signed in as P7RIM3 (@P7RIM3).
+Pages checked: https://x.com/notifications (All), https://x.com/notifications/mentions (Mentions)
+
+RESULT
+NEW_COUNT: 0
+No visible reply/mention arrived after the cutoff. No reply/post/like/follow/repost/DM/settings action taken.
+
+ALL TAB — visible reply/mention cards, top to bottom
+1. @KittyMcfeisty2 — 27m — https://x.com/KittyMcfeisty2/status/2105343324580143460
+   Replying to @P7RIM3 and @KittyMcFeisty
+   Exact text: “This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh”
+   Our reply: No visible reply (0 Replies). Known skip: beat 3 for this thread.
+2. @KittyMcfeisty2 — 42m — https://x.com/KittyMcfeisty2/status/2105339423638651351
+   Replying to @P7RIM3 and @KittyMcFeisty
+   Exact text: “🙄 🤦‍♀️”
+   Our reply: Yes/appears already replied (1 Reply).
+3. @KittyMcfeisty2 — 1h — https://x.com/KittyMcfeisty2/status/2105333564132712947
+   Replying to @P7RIM3 and @KittyMcFeisty
+   Exact text: “What’s new is this shit needs to stop. Beyond ridiculous”
+   Our reply: Yes/appears already replied (1 Reply).
+4. @Cobra17298328 — 15h — https://x.com/Cobra17298328/status/2105112514090402040
+   Replying to @P7RIM3, @skeptic_vaibhav, and @artaimemes
+   Exact text: “I can’t see what this bitch is saying, cause he immediately blocked me”
+   Our reply: Yes/appears already replied (1 Reply). Known skip.
+
+Other All notifications visible were follows, likes-only, or liked-your-reply cards and were ignored.
+
+MENTIONS TAB — visible cards, top to bottom
+1. @KittyMcfeisty2 — 27m — https://x.com/KittyMcfeisty2/status/2105343324580143460
+   Exact text: “This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh”
+   Our reply: No visible reply (0 Replies). Known skip: third beat.
+2. @KittyMcfeisty2 — 42m — https://x.com/KittyMcfeisty2/status/2105339423638651351
+   Exact text: “🙄 🤦‍♀️”
+   Our reply: Yes/appears already replied (1 Reply).
+3. @KittyMcfeisty2 — 1h — https://x.com/KittyMcfeisty2/status/2105333564132712947
+   Exact text: “What’s new is this shit needs to stop. Beyond ridiculous”
+   Our reply: Yes/appears already replied (1 Reply).
+4. @Cobra17298328 — 15h — https://x.com/Cobra17298328/status/2105112514090402040
+   Exact text: “I can’t see what this bitch is saying, cause he immediately blocked me”
+   Our reply: Yes/appears already replied (1 Reply). Known skip.
+5. @juneauxwhoitis — 16h — https://x.com/juneauxwhoitis/status/2105094896663371987
+   Replying to @P7RIM3 and @OverlyTrev
+   Exact text: “Overflowing with perceptions you are!”
+   Our reply: Yes/appears already replied or thread has prior beats (2 Replies). Known skip: over two beats.
+6. @FiresOfTruth — 17h — https://x.com/FiresOfTruth/status/2105080875058704611
+   Replying to @P7RIM3 and @thehiddenpod
+   Exact text: “Check the link in my bio to watch a film I made with darcy”
+   Our reply: No visible reply (0 Replies). Known skip: bio promo/sales.
+7. @FiresOfTruth — 18h — https://x.com/FiresOfTruth/status/2105074701802651949
+   Replying to @P7RIM3; quote-post text: “Alex B is currently missing. #fishtanklive”
+   Our reply: No visible reply (0 Replies). Known skip: FiresOfTruth bio/quote promo.
+
+KNOWN SKIPS STILL VISIBLE
+- @KittyMcfeisty2 status 2105343324580143460: clarification/third beat; do not reply.
+- @KittyMcfeisty2 earlier statuses 2105339423638651351 and 2105333564132712947: already two beats/our replies; no new action.
+- @Cobra17298328 status 2105112514090402040: already replied.
+- @juneauxwhoitis: over two beats.
+- @FiresOfTruth: bio promo/quote promo.
+- No @RyanILoveYouSo card visible.
+
+Classification: no new items, so no new thread-type or blocked-item entries. The visible known-skip material is bait/other, agent/bait, other, and sales/promo as noted above; none was acted on.

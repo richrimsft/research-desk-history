@@ -1,0 +1,28 @@
+SCAN_REPORT 2026-09-30 ~21:25 ET
+cutoff: 2026-09-30T21:03:19-04:00
+NEW_COUNT: 0
+replies_posted: 0
+originals_posted: 0
+badge: was 1 (Brian Edward + B Laidlaw likes on existing reply); cleared after opening All
+held: none pending
+originals: all slots DONE; extras 3/3; skipped this run
+screenshots:
+  /workspace/x-plan/run-20260930-2125-notifications.png
+  /workspace/x-plan/run-20260930-2125-mentions.png
+ITEM_CONSIDERED:
+- @BrianEdwardMKE + @laidlaw76 | 2m | Like only | SKIP
+- @MadamHaus | https://x.com/MadamHaus/status/2105460336006672836 | 35m | 0hour GIF | SKIP_0HOUR_CANCELLED
+- @mom_agency_ | 1h | Liked post | SKIP
+- @Eagles | 1h | Injury update notif | SKIP
+- @DrumondArt | https://x.com/DrumondArt/status/2105451230445154557 | 1h | Emoji spam | SKIP
+- @Sonic1994DC + @rilo0x | 1h | Likes | SKIP
+- @Maskedrider26 | 1h | Liked reply | SKIP
+- @MaverickDarby +6 | 1h | Likes | SKIP
+- @stareatmehuman + @RUNjOutdoors | 1h | Likes | SKIP
+- @stonkspark | https://x.com/stonkspark/status/2105435508927005103 | 2h | already handled | SKIP
+- @SafetyNotorious | https://x.com/SafetyNotorious/status/2105431749333602704 | 2h | ableist slur quote | SKIP_FLAG_NO_ENGAGE
+- @GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | 3h | already handled | SKIP
+- @zebralife2002 | https://x.com/zebralife2002/status/2105361123503440350 | 7h | already handled | SKIP
+- @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105343324580143460 | 8h | two-beat | SKIP
+flags: prior @SafetyNotorious only (no new)
+blockers: none

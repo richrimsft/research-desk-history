@@ -1,0 +1,125 @@
+{
+  "as_of": "2026-10-15T19:17:49-04:00",
+  "sol_usd": 105.25,
+  "wallet": "BXc3ju3mY68Kx9bM5f7akE2urdsNe7SiSpMmxzsVjyNF",
+  "sol_balance": 0.007658134,
+  "sol_usd_value": 0.806,
+  "holdings": [
+    {
+      "symbol": "SPOOKY",
+      "mint": "CZ3X9XUxSTc1hN9iGPteG3iKoXGC4q332bmWi4JBpump",
+      "tokens": 22382.885667,
+      "priceUsd": 0.0002769,
+      "usd": 6.1978,
+      "marketCap": 264627,
+      "fdv": 264627,
+      "entry_mc": 335000,
+      "pnl_pct": -21.01,
+      "liquidity_usd": 47559.36,
+      "priceChange": {
+        "m5": 10.29,
+        "h1": 33.47,
+        "h6": 164,
+        "h24": 164
+      },
+      "txns": {
+        "m5": {
+          "buys": 23,
+          "sells": 8
+        },
+        "h1": {
+          "buys": 723,
+          "sells": 421
+        }
+      },
+      "volume": {
+        "m5": 1359.81,
+        "h1": 100892.06,
+        "h6": 185098.1,
+        "h24": 281579.85
+      },
+      "pairAddress": "3hUwrAajx6NyWezqkAXW3nHCmKLv1Vq7wDcBZVetoqy1",
+      "dexId": "pumpswap",
+      "pairCreatedAt": 1791938569000,
+      "url": "https://dexscreener.com/solana/3huwraajx6nywezqkaxw3nhcmklv1vq7wdcbzvetoqy1"
+    },
+    {
+      "symbol": "SYCAMORE",
+      "mint": "3EC7gRDGKgqPHc9ipJxxChoeyseE2xAbQHZUSSTfpump",
+      "tokens": 19904.206434,
+      "priceUsd": 0.0003368,
+      "usd": 6.7037,
+      "marketCap": 326631,
+      "fdv": 326631,
+      "entry_mc": 300000,
+      "pnl_pct": 8.88,
+      "liquidity_usd": 54619.05,
+      "priceChange": {
+        "m5": 0.09,
+        "h1": 3.57,
+        "h6": 31.03,
+        "h24": 564
+      },
+      "txns": {
+        "m5": {
+          "buys": 20,
+          "sells": 14
+        },
+        "h1": {
+          "buys": 263,
+          "sells": 198
+        }
+      },
+      "volume": {
+        "m5": 4561.83,
+        "h1": 61031.77,
+        "h6": 369837.24,
+        "h24": 3927626.67
+      },
+      "pairAddress": "5cX7awH9czi1VKK2SFabfCSzyVbytf7KBExiJiP6jYDq",
+      "dexId": "pumpswap",
+      "pairCreatedAt": 1792050621000,
+      "url": "https://dexscreener.com/solana/5cx7awh9czi1vkk2sfabfcszyvbytf7kbexijip6jydq"
+    },
+    {
+      "symbol": "NULLCASH",
+      "mint": "31GYUbJW5vjF1o7VM5SGP9Emj5WDBHb1cdcR8BM6pump",
+      "tokens": 166289.823205,
+      "priceUsd": 3.236e-05,
+      "usd": 5.3811,
+      "marketCap": 32366.4,
+      "fdv": 32366.4,
+      "entry_mc": 24200,
+      "pnl_pct": 33.75,
+      "liquidity_usd": null,
+      "priceChange": {
+        "m5": 18.33,
+        "h1": 58.42,
+        "h6": 119,
+        "h24": 963
+      },
+      "txns": {
+        "m5": {
+          "buys": 32,
+          "sells": 13
+        },
+        "h1": {
+          "buys": 124,
+          "sells": 86
+        }
+      },
+      "volume": {
+        "m5": 1821.86,
+        "h1": 10755.66,
+        "h6": 127497.24,
+        "h24": 240166.46
+      },
+      "pairAddress": "7VWTxyQJuoVLrbmwRTWFMqqxNpGABPxgHZVbZhMAnoXq",
+      "dexId": "pumpfun",
+      "pairCreatedAt": 1792082426000,
+      "url": "https://dexscreener.com/solana/7vwtxyqjuovlrbmwrtwfmqqxnpgabpxghzvbzhmanoxq"
+    }
+  ],
+  "est_total_tokens_usd": 18.2827,
+  "est_total_with_sol": 19.0887
+}

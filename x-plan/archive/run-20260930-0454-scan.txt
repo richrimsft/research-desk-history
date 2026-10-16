@@ -1,0 +1,20 @@
+X notifications scan report
+Timestamp ET: 2026-09-30 04:54 AM (UTC-4)
+Cutoff: 2026-09-30T04:39:42-04:00
+Account confirmation: Signed in as @P7RIM3; account chip visible. Checked /notifications (All) after one refresh, then /notifications/mentions.
+NEW_COUNT: 0
+
+New unreplied items newer than cutoff:
+- None.
+
+All-tab reply/mention cards visible (all older than cutoff and known skips):
+1. @Cobra17298328 — https://x.com/Cobra17298328/status/2105112514090402040 — 7h — "I can’t see what this bitch is saying, cause he immediately blocked me" — known skip (already replied beat 2/2). Replying to @P7RIM3, @skeptic_vaibhav and @artaimemes.
+2. @juneauxwhoitis — https://x.com/juneauxwhoitis/status/2105094896663371987 — 8h — "Overflowing with perceptions you are!" — known skip (over two beats). Replying to @P7RIM3 and @OverlyTrev.
+3. @FiresOfTruth — https://x.com/FiresOfTruth/status/2105080875058704611 — 9h — "Check the link in my bio to watch a film I made with darcy" — known skip. Replying to @P7RIM3 and @thehiddenpod (and 2 others).
+
+Mentions-tab cross-check (additional older known skips):
+4. @FiresOfTruth — https://x.com/FiresOfTruth/status/2105074701802651949 — 9h — visible card is replying to @P7RIM3 and contains quoted post text: "Alex B is currently missing. #fishtanklive" (image) — known skip.
+5. @FiresOfTruth — https://x.com/FiresOfTruth/status/2105073376268345355 — 9h — "He’s a human being" (image) — known skip.
+6. @grok — https://x.com/grok/status/2105068070892912851 — 10h — visible text: "The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the" [Show more] — known skip (America.gov beat 3+). Replying to @P7RIM3, @elonmusk and 6 others.
+
+Blockers: None. No thread opened because there were no new candidates. No replies, likes, follows, reposts, DMs, or settings changes made. Final desktop screenshot saved to /workspace/x-plan/last-desktop.webp.

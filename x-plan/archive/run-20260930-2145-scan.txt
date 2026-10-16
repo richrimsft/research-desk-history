@@ -1,0 +1,27 @@
+X notifications scan report
+Run: 2026-09-30T21:47:36-04:00
+Account: @P7RIM3 (signed in)
+Cutoff: 2026-09-30T21:39:45-04:00
+Result: NEW_COUNT=0 in All; NEW_COUNT=0 in Mentions. No reply posted. 0 originals posted.
+
+Screenshots:
+- All: /workspace/x-plan/run-20260930-2145-notifications.png
+- Mentions: /workspace/x-plan/run-20260930-2145-mentions.png
+
+ALL tab visible inbound reply/mention cards:
+1. @MadamHaus — https://x.com/MadamHaus/status/2105460336006672836 — ~56m — reply to @P7RIM3 and @__0HOUR1_; embedded GIF/video, no accessible text — older than cutoff; SKIP_0HOUR_CANCELLED.
+2. @DrumondArt — https://x.com/DrumondArt/status/2105451230445154557 — ~1h — reply to @P7RIM3 and @cb_doge; “Deep mastery across fields” followed by repeated laughing emojis — older; SKIP emoji spam.
+3. @stonkspark — https://x.com/stonkspark/status/2105435508927005103 — ~2h — “on it” replying to @P7RIM3 — older; already replied, skip.
+4. @SafetyNotorious — https://x.com/SafetyNotorious/status/2105431749333602704 — ~2h — abusive/slur quote of @P7RIM3 (“Retard of the Day”) — older; FLAG only, no engagement.
+Non-inbound items visible in All (ignored): @Kramer and two others liked your post (~41s); Brian Edward and B Laidlaw, P.I. liked your reply (~24m).
+
+MENTIONS tab visible cards:
+1. @MadamHaus — https://x.com/MadamHaus/status/2105460336006672836 — ~56m — reply to @P7RIM3 and @__0HOUR1_; embedded GIF/video, no accessible text — older; SKIP_0HOUR_CANCELLED.
+2. @DrumondArt — https://x.com/DrumondArt/status/2105451230445154557 — ~1h — “Deep mastery across fields” plus repeated laughing emojis — older; SKIP emoji spam.
+3. @stonkspark — https://x.com/stonkspark/status/2105435508927005103 — ~2h — “on it” — older; already replied, skip.
+4. @GilliRoth — https://x.com/GilliRoth/status/2105422493200875658 — ~3h — image-only reply/mention to @P7RIM3 and @cb_doge — older; already replied, skip.
+5. @zebralife2002 — https://x.com/zebralife2002/status/2105361123503440350 — ~7h — “Your first sentence made absolutely no sense ... I stopped reading and I stopped paying attention to you at that point. Have a good day” — older; already replied, skip.
+6. @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105343324580143460 — ~8h — “This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh” — older; over two beats, skip.
+
+Flags: @SafetyNotorious abusive/slur quote; no reply. No threats, self-harm, or illegal-content items observed. No captcha or sign-in blocker.
+Actions: Both URLs scanned live; no substantive inbound reply/mention newer than cutoff, so no composer opened and no posts/replies made. No originals posted.

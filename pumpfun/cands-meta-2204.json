@@ -1,0 +1,17 @@
+{
+  "stats": {
+    "scanned": 168,
+    "skip_own": 1,
+    "skip_prior": 2,
+    "fail_mc": 129,
+    "fail_liq": 15,
+    "fail_age": 2,
+    "fail_h1": 19,
+    "fail_buys": 0,
+    "fail_botty": 1
+  },
+  "n_mints": 243,
+  "n_pairs": 168,
+  "n_passers": 0,
+  "ts": "2026-10-15 22:06 ET"
+}

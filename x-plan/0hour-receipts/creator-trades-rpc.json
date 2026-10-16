@@ -1,0 +1,142 @@
+[
+  {
+    "sig": "3wh1RHe2KoaK5dEaGhTvMe18X1JQ18LfmMTwLx4u4isEXvSebLonELkFrg2DHu15o9aHMMfCzWS3VzNQegPGgcze",
+    "time_et": "2026-09-28 09:15:49 UTC-04:00",
+    "blockTime": 1790601349,
+    "kind": "sell",
+    "token_delta": -73961211.149786,
+    "pre": 73961211.149786,
+    "post": 0.0,
+    "sol_delta": -0.001521034,
+    "all_mint_owners_pre": {
+      "7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon": 73961211.149786
+    },
+    "all_mint_owners_post": {
+      "BLzCkNPGJvLKgVvU393VuQxW7wr2YjPq3YBQWjyLKBTo": 73961211.149786,
+      "7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon": 0.0
+    }
+  },
+  {
+    "sig": "i2wDjMx9qmh86zXHFUrqnV9EsTFLRx8nZ8bLsj2x5GHKiyYUgfvgPyro1974YdemHhvPtxzjesmwZ5BhtSuFTxa",
+    "time_et": "2026-09-26 23:42:36 UTC-04:00",
+    "blockTime": 1790480556,
+    "kind": "buy",
+    "token_delta": 26143451.759130992,
+    "pre": 47817759.390655,
+    "post": 73961211.149786,
+    "sol_delta": -1.658290855,
+    "all_mint_owners_pre": {
+      "6ftEageN6T6dy9WZ4DGpy8JLvWyo3DsrvdhDqEqbV7Es": 657228783.765213,
+      "7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon": 47817759.390655
+    },
+    "all_mint_owners_post": {
+      "6ftEageN6T6dy9WZ4DGpy8JLvWyo3DsrvdhDqEqbV7Es": 631085332.006082,
+      "7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon": 73961211.149786
+    }
+  },
+  {
+    "sig": "hgiFzDwuTBitnQqHE33hQC3tbsCTFoQHQZKGKMBkWsEHVCVho5UJAYYxQAce3FDud6pqYhNsFGrL5Rmj8ihKMM1",
+    "time_et": "2026-09-26 22:10:11 UTC-04:00",
+    "blockTime": 1790475011,
+    "kind": "sell",
+    "token_delta": -25.0,
+    "pre": 47817784.390655,
+    "post": 47817759.390655,
+    "sol_delta": 0.0,
+    "all_mint_owners_pre": {
+      "6ftEageN6T6dy9WZ4DGpy8JLvWyo3DsrvdhDqEqbV7Es": 652523239.473565,
+      "7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon": 47817784.390655
+    },
+    "all_mint_owners_post": {
+      "6ftEageN6T6dy9WZ4DGpy8JLvWyo3DsrvdhDqEqbV7Es": 652523264.473565,
+      "7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon": 47817759.390655
+    }
+  },
+  {
+    "sig": "Sch1p2cYbTgMtAxuCHBe1zmMUBgXanwF3K94BvobZ7TP6G89wqiUsqkpd24oaab7JdGaPjQMtj8sxgzhJE8DeEm",
+    "time_et": "2026-09-26 21:59:12 UTC-04:00",
+    "blockTime": 1790474352,
+    "kind": "sell",
+    "token_delta": -6785675.873438999,
+    "pre": 54603460.264094,
+    "post": 47817784.390655,
+    "sol_delta": 0.00148844,
+    "all_mint_owners_pre": {
+      "6ftEageN6T6dy9WZ4DGpy8JLvWyo3DsrvdhDqEqbV7Es": 645892108.412049,
+      "7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon": 54603460.264094
+    },
+    "all_mint_owners_post": {
+      "6ftEageN6T6dy9WZ4DGpy8JLvWyo3DsrvdhDqEqbV7Es": 652677784.285488,
+      "7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon": 47817784.390655
+    }
+  },
+  {
+    "sig": "3GHk1kw2iXtqNNN14zho4ZDUiK5xqotv3VAhxCtKsM18rFsRA17p6dhGE65cVuRqEv71V7Z3njgZert9odeJqkB1",
+    "time_et": "2026-09-26 16:29:52 UTC-04:00",
+    "blockTime": 1790454592,
+    "kind": "buy",
+    "token_delta": 6489844.019711003,
+    "pre": 48113616.244383,
+    "post": 54603460.264094,
+    "sol_delta": -0.208039857,
+    "all_mint_owners_pre": {
+      "6ftEageN6T6dy9WZ4DGpy8JLvWyo3DsrvdhDqEqbV7Es": 943472524.281158,
+      "7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon": 48113616.244383
+    },
+    "all_mint_owners_post": {
+      "6ftEageN6T6dy9WZ4DGpy8JLvWyo3DsrvdhDqEqbV7Es": 936982680.261447,
+      "7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon": 54603460.264094
+    }
+  },
+  {
+    "sig": "5XrpzDjKLCXBbAfPGegjPj9fu21ebBKKY7RGQv48Jt2ScHPPaYQLiaAcDh4A6QQgCvF9ctXurZTELxzpcTy1QxpL",
+    "time_et": "2026-09-26 16:29:48 UTC-04:00",
+    "blockTime": 1790454588,
+    "kind": "buy",
+    "token_delta": 6629646.481839001,
+    "pre": 41483969.762544,
+    "post": 48113616.244383,
+    "sol_delta": -0.209777136,
+    "all_mint_owners_pre": {
+      "6ftEageN6T6dy9WZ4DGpy8JLvWyo3DsrvdhDqEqbV7Es": 950107369.675125,
+      "7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon": 41483969.762544
+    },
+    "all_mint_owners_post": {
+      "6ftEageN6T6dy9WZ4DGpy8JLvWyo3DsrvdhDqEqbV7Es": 943477723.193286,
+      "7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon": 48113616.244383
+    }
+  },
+  {
+    "sig": "pGaKQHaK3bcKJckE9KT2UjWpz8ke9x8TRvgiiPQvZnDdH9sos5KogxLQcz1F7ArTDcaCmYaQ3TGDn8mYEtWrbrJ",
+    "time_et": "2026-09-26 16:29:37 UTC-04:00",
+    "blockTime": 1790454577,
+    "kind": "buy",
+    "token_delta": 27122540.419908,
+    "pre": 14361429.342636,
+    "post": 41483969.762544,
+    "sol_delta": -0.826135973,
+    "all_mint_owners_pre": {
+      "6ftEageN6T6dy9WZ4DGpy8JLvWyo3DsrvdhDqEqbV7Es": 976328810.60938,
+      "7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon": 14361429.342636
+    },
+    "all_mint_owners_post": {
+      "6ftEageN6T6dy9WZ4DGpy8JLvWyo3DsrvdhDqEqbV7Es": 949206270.189472,
+      "7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon": 41483969.762544
+    }
+  },
+  {
+    "sig": "WLQM5bae2maW87YYqK7dTC2h93XKtSHhDaPpmhMBNCJDGELc38tzQEvNhPVmKeRWVzFgpLZL6PMFYGmVVLWPVqR",
+    "time_et": "2026-09-26 16:29:25 UTC-04:00",
+    "blockTime": 1790454565,
+    "kind": "buy",
+    "token_delta": 14361429.342636,
+    "pre": 0,
+    "post": 14361429.342636,
+    "sol_delta": -0.423117886,
+    "all_mint_owners_pre": {},
+    "all_mint_owners_post": {
+      "6ftEageN6T6dy9WZ4DGpy8JLvWyo3DsrvdhDqEqbV7Es": 985638570.657364,
+      "7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon": 14361429.342636
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "symbol": "123456",
+  "score": 1,
+  "creatorBalance": 0,
+  "top10_ex_curve": 33.69,
+  "top_pcts": [
+    8.29,
+    6.72,
+    6.25,
+    6.23,
+    1.44,
+    1.28,
+    1.25,
+    0.9,
+    0.7,
+    0.63
+  ],
+  "insiderNetworks": null,
+  "totalHolders": 787,
+  "verdict": "FAIL"
+}

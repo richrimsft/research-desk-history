@@ -1,0 +1,2 @@
+Rabbit holes, attack surface, whatever shouldn’t be exposed.
+Sky objects, agentic AI, OSINT with receipts — not vibes.

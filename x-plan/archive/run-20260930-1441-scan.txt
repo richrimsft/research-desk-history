@@ -1,0 +1,25 @@
+X reply-responder scan report
+Run: Wednesday, Sep 30, 2026, ~2:42 PM ET
+Account/session: @P7RIM3 confirmed signed in (account menu and profile label visible).
+Cutoff: 2026-09-30T14:33:04-04:00
+
+RESULT
+No new unreplied inbound reply/mention newer than cutoff. No posts made. No FLAG_USER items.
+
+ALL notifications (https://x.com/notifications)
+Visible reply/mention cards:
+1. @zebralife2002 / Paul Kelly — displayed 26 minutes ago (about 2:16 PM ET), status https://x.com/zebralife2002/status/2105361123503440350. Text: “Your first sentence made absolutely no sense \"you guys are handing outside of a person\" I stop reading and I stopped paying attention to you at that point. Have a good day”. Newer than cutoff: NO. Already replied: YES — https://x.com/P7RIM3/status/2105362879817925052. Status: skip_already_handled.
+2. @KittyMcfeisty2 / Piper Paprikas — displayed 1 hour ago, status https://x.com/KittyMcfeisty2/status/2105343324580143460. Text: “This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh”. Newer than cutoff: NO. Already replied / thread over two beats: YES. Status: skip_over_two_beats.
+3. @KittyMcfeisty2 — displayed 1 hour ago, status https://x.com/KittyMcfeisty2/status/2105339423638651351. Text: “🙄 🤦‍♀️”. Newer than cutoff: NO. Already replied: YES — https://x.com/P7RIM3/status/2105340672056476010. Status: skip_already_handled.
+4. @KittyMcfeisty2 — displayed 2 hours ago, status https://x.com/KittyMcfeisty2/status/2105333564132712947. Text: “What’s new is this shit needs to stop. Beyond ridiculous”. Newer than cutoff: NO. Already replied: YES — https://x.com/P7RIM3/status/2105335287660564885. Status: skip_already_handled.
+Other visible All-timeline cards were unlabeled/empty non-reply notification cards and were ignored.
+
+MENTIONS (https://x.com/notifications/mentions)
+The same four reply/mention cards were visible, plus older known cards:
+- @Cobra17298328 — 16 hours ago, https://x.com/Cobra17298328/status/2105112514090402040, “I can’t see what this bitch is saying, cause he immediately blocked me”; older, already handled/beat 2 of 2; skip_already_handled.
+- @juneauxwhoitis — 18 hours ago, https://x.com/juneauxwhoitis/status/2105094896663371987, “Overflowing with perceptions you are!”; older, known two-beat thread; skip_over_two_beats.
+- @FiresOfTruth — 19 hours ago, https://x.com/FiresOfTruth/status/2105080875058704611, “Check the link in my bio to watch a film I made with darcy”; older bio/sales-style promo; skip_known.
+No new unreplied mention after cutoff.
+
+POSTING
+Replies posted this run: none. FLAG_USER: none. Likes/follows/reposts/DMs/settings/bio/pin untouched.

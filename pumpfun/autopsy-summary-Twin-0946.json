@@ -1,0 +1,31 @@
+{
+  "tag": "0946",
+  "symbol": "Twin",
+  "mint": "7Jain9Efy7C4HvGkEPkNUUiGUmgu5tkff7NWvCvGpump",
+  "age_h": 0.18,
+  "mc": 49751,
+  "h1": 9.59,
+  "m5": 18.51,
+  "dex": "pumpswap",
+  "phase": "too_young",
+  "verdict": "FAIL",
+  "reasons": [
+    "age 0.18h <30m \u2014 no-buy by narrative-age",
+    "creatorBalance 0 / sold out"
+  ],
+  "rc_score": 1,
+  "top10ex_pct": 20.81,
+  "lp_pct_guess": 21.64,
+  "band_1_5_count": 19,
+  "max_identical_0.1": 3,
+  "identical_band_val": 1.7,
+  "tight_2.3_2.5_count": 0,
+  "creator": "539bMJjHmCwXHj1XphaKRrZMSD1CEiFefMLAW4ZdD4rh",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "graphInsiders": 0,
+  "totalHolders": 999,
+  "risks": [],
+  "meta_name": "We Ate Off That"
+}

@@ -1,0 +1,30 @@
+{
+  "sym": "roadster",
+  "mint": "CbAeScGTv9sjGHtDRQsfqHzgSWupueN4Nduz7mBSpump",
+  "verdict": "REJECT",
+  "why": "PRIOR reject stands: creatorBalance 0; graphInsidersDetected 5; top10 ex-curve ~29.5%; crowded ROADSTER copycat + borrowed-tweet socials (prior).",
+  "score": 1,
+  "creatorBalance": 0,
+  "graphInsidersDetected": 5,
+  "insiderNetworks": 1,
+  "top10_ex_curve_pct": 29.51,
+  "top_ex_curve_pcts": [
+    3.21,
+    3.2,
+    3.19,
+    3.16,
+    3.04,
+    2.86,
+    2.86,
+    2.77,
+    2.74,
+    2.47
+  ],
+  "risks": [],
+  "mc_dex": 26217,
+  "age_h": 2.32,
+  "h1": 207,
+  "tx1h": "377b/255s",
+  "dex": "pumpfun",
+  "m5": 53.22
+}

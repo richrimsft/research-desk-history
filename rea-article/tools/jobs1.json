@@ -1,0 +1,22 @@
+[
+{"url":"https://github.com/morluto/rea","out":"/workspace/rea-article/img/01-github-repo.png"},
+{"url":"https://github.com/morluto/rea#quick-start","text":"Set up your agent","out":"/workspace/rea-article/img/02-readme-quickstart.png"},
+{"url":"https://github.com/morluto/rea#how-rea-works","text":"Your agent calls REA through MCP","out":"/workspace/rea-article/img/03-readme-how-it-works.png"},
+{"url":"https://github.com/morluto/rea/blob/main/DISCLAIMER.md","text":"REA is built for lawful analysis","out":"/workspace/rea-article/img/04-disclaimer.png"},
+{"url":"https://github.com/morluto/rea/releases/tag/rea-agents-6.4.0","out":"/workspace/rea-article/img/05-release-6.4.0.png"},
+{"url":"https://www.npmjs.com/package/rea-agents","out":"/workspace/rea-article/img/06-npm-package.png"},
+{"url":"https://github.com/morluto/rea/blob/main/docs/installation.md#supported-agents","text":"Setup can configure these clients","out":"/workspace/rea-article/img/07-supported-agents.png"},
+{"url":"https://github.com/morluto/rea/blob/main/docs/client-configuration.md#other-client-settings","text":"is detected from","out":"/workspace/rea-article/img/08-grok-bot-config.png"},
+{"url":"https://github.com/morluto/rea/blob/main/docs/installation.md#ghidra","text":"REA connects to an existing Ghidra installation","out":"/workspace/rea-article/img/09-ghidra-docs.png"},
+{"url":"https://github.com/morluto/rea/blob/main/docs/windows-ghidra-p0.md","out":"/workspace/rea-article/img/10-windows-ghidra-p0.png"},
+{"url":"https://rea.tools/","out":"/workspace/rea-article/img/11-rea-tools-site.png","wait":3000},
+{"url":"https://rea.tools/showcase/","out":"/workspace/rea-article/img/12-rea-showcase.png","wait":3000},
+{"url":"https://github.com/morluto/rea/blob/main/docs/android-analysis.md","out":"/workspace/rea-article/img/13-android-docs.png"},
+{"url":"https://github.com/morluto/rea/blob/main/docs/firmware-analysis.md","out":"/workspace/rea-article/img/14-firmware-docs.png"},
+{"url":"https://github.com/morluto/rea/blob/main/docs/evm-bytecode.md","out":"/workspace/rea-article/img/15-evm-docs.png"},
+{"url":"https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.1.4_build","out":"/workspace/rea-article/img/16-ghidra-release.png"},
+{"url":"https://nodejs.org/en/download","out":"/workspace/rea-article/img/17-nodejs-download.png","wait":3000},
+{"url":"https://adoptium.net/temurin/releases/?version=21","out":"/workspace/rea-article/img/18-adoptium-jdk21.png","wait":4000},
+{"url":"https://api.github.com/repos/morluto/rea","out":"/workspace/rea-article/img/19-github-api-stars.png"},
+{"url":"https://www.anthropic.com/pricing","text":"Opus","out":"/workspace/rea-article/img/20-anthropic-pricing.png","wait":3000}
+]

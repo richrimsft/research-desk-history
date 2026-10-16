@@ -1,0 +1,5 @@
+run: 2026-09-30 ~11:49 ET Explore
+trends seen: IRGC, Giannis, Becton, $ZAMA, #gooddaydetroit, #HelloJimtober
+news rows: Minneapolis robotaxi monitor vote (~211 posts); Trump AI Accord typo (~65K, ~15h); Aztec UFO documentary (~601, ~16h)
+judgment: no_fit — politics/sports/fluff/low-volume; extras 0/3 unused; spacing OK after 09:56 ET original
+action: TRENDING_SKIP no_fit

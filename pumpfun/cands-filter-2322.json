@@ -1,0 +1,21 @@
+[
+  {
+    "sym": "GTA",
+    "mint": "6S7jwQuVipHuEaASAZ9Kn7r3Zy3jkebhAMFxnuWnpump",
+    "dex": "pumpswap",
+    "mc": 40231,
+    "liq": 15818,
+    "age": 1.14,
+    "m5": -4.17,
+    "h1": 0.01,
+    "buys": 492,
+    "sells": 371,
+    "vh1": 35194,
+    "ok_mc": true,
+    "ok_age": true,
+    "ok_flow": true,
+    "botty": false,
+    "thin": false,
+    "prior": false
+  }
+]

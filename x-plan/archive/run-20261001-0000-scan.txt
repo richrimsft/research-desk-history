@@ -1,0 +1,28 @@
+SCAN_ALL url=https://x.com/notifications
+NEW_COUNT=0
+screenshot=/workspace/x-plan/run-20261001-0000-notifications.png
+SCAN_MENTIONS url=https://x.com/notifications/mentions
+NEW_COUNT=0
+screenshot=/workspace/x-plan/run-20261001-0000-mentions.png
+SIGNED_IN_AS=@P7RIM3
+ITEM_CONSIDERED handle=@iLLuminuttee (Filetofsoul) | age=53m | type=like | status_url=not exposed in notification card | text=Just watched the JRE episode. The whole thing is just crazy. | newer_than_cutoff=no | action=skip like/old
+ITEM_CONSIDERED handle=@zachrf1014 (zachary Fleischauer) | age=1h | type=like | status_url=not exposed in notification card | text=The comments here are hilarious! Wow | newer_than_cutoff=no | action=skip like/old
+ITEM_CONSIDERED handle=@MchStereo | age=1h | type=like | status_url=not exposed in notification card | text=Cool story, but zero proof. Just a trust me bro, I worked in government | newer_than_cutoff=no | action=skip like/old
+ITEM_CONSIDERED handle=@scullyspier | age=1h | type=repost | status_url=not exposed in notification card | text=We need more of this | newer_than_cutoff=no | action=skip repost/old
+ITEM_CONSIDERED handle=@scullyspier and 3 others | age=1h | type=like | status_url=not exposed in notification card | text=liked your post | newer_than_cutoff=no | action=skip like/old
+ITEM_CONSIDERED handle=Demosthenes Twin and 2 others | age=1h | type=like | status_url=not exposed in notification card | text=liked your reply | newer_than_cutoff=no | action=skip like/old
+ITEM_CONSIDERED handle=@misterg792000 (Steve G) | age=1h | type=reply/mention | status_url=https://x.com/misterg792000/status/2105483189200261612 | text=Buddy, he didn't invent either one of those things. He just bought the company that did. | newer_than_cutoff=no | action=skip old; no reply
+ITEM_CONSIDERED handle=@misterg792000 (Steve G) | age=1h | type=like | status_url=not exposed in notification card | text=Ok that tracks. Deep mastery across fields, not just wearing a lot of hats. Thanks for the card. For Meridian specifically — which domains already have his shipped receipts? | newer_than_cutoff=no | action=skip like/old
+ITEM_CONSIDERED handle=quote notification | age=5h | type=quote | status_url=not exposed in notification card | text=quote of a P7RIM3 $0HOUR1 post | newer_than_cutoff=no | action=skip entirely per 0hour cancellation
+ITEM_CONSIDERED handle=@misterg792000 (Steve G) | age=1h | type=reply/mention | status_url=https://x.com/misterg792000/status/2105479038823178432 | text=Name a single field he has demonstrated "deep mastery" of. Name a single thing he has invented. | newer_than_cutoff=no | action=skip old; no reply
+ITEM_CONSIDERED handle=@MadamHaus | age=3h | type=reply/mention | status_url=not exposed in notification card | text=reply to @P7RIM3 and @__0HOUR1_, embedded video/GIF | newer_than_cutoff=no | action=skip 0hour/old
+ITEM_CONSIDERED handle=@DrumondArt | age=3h | type=reply/mention | status_url=not exposed in notification card | text=emoji-only laughing reply to @P7RIM3 and @cb_doge | newer_than_cutoff=no | action=skip emoji-only/old
+ITEM_CONSIDERED handle=@stonkspark | age=4h | type=reply/mention | status_url=not exposed in notification card | text=on it | newer_than_cutoff=no | action=skip old
+ITEM_CONSIDERED handle=@GilliRoth | age=5h | type=reply/mention | status_url=https://x.com/GilliRoth/status/2105404282220564784 | text=image reply to @P7RIM3 and @cb_doge | newer_than_cutoff=no | action=skip old
+ITEM_CONSIDERED handle=@zebralife2002 (Paul Kelly) | age=9h | type=reply/mention | status_url=not exposed in notification card | text=Your first sentence made absolutely no sense ... Have a good day | newer_than_cutoff=no | action=skip old
+ITEM_CONSIDERED handle=@KittyMcfeisty2 (Piper Paprikas #2nd account) | age=10h | type=reply/mention/quote | status_url=not exposed in notification card | text=This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh | newer_than_cutoff=no | action=skip old
+REPLIES_POSTED=none
+FLAGS=none
+BLOCKERS=none
+next_cutoff=2026-10-01T00:02:06-04:00
+NEW_COUNT total qualifying new unreplied items found=0

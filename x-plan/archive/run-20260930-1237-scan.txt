@@ -1,0 +1,110 @@
+X mentions scan — 2026-09-30 12:37 PM ET request
+Cutoff: 2026-09-30T12:34:43-04:00
+
+SIGNED-IN / VIEW
+- Signed in confirmed: account menu and sidebar show P7RIM3 / @P7RIM3 (verified account).
+- Refreshed https://x.com/notifications, then opened https://x.com/notifications/mentions.
+- Read-only only: no post, like, follow, reply, or settings changes.
+- Payment-failed banner: NOT visible on the notifications/mentions page itself; it WAS visible on the profile page as: “Warning: Payment failed — Please urgently update your payment method before you lose your subscription benefits.”
+- Final screenshot: /workspace/x-plan/last-desktop.png (mentions view; Piper card visible).
+
+NEW UNREPLIED CANDIDATES AFTER CUTOFF
+- None found.
+- The only near-current card was Piper, shown as ~11–14m old during the scan; the conversation visibly already contains a P7RIM3 reply from about 4m ago (“Then pick one concrete thing and push that. \"Beyond ridiculous\" isn’t a plan.”). It is therefore already-seen/handled, not a new unreplied candidate. It also predates the supplied 12:34:43 cutoff if the displayed age is taken literally.
+
+MENTIONS / REPLY CARDS OBSERVED
+1) @KittyMcfeisty2 (Piper Paprikas #2nd account), ~11–14m ago
+   URL: https://x.com/KittyMcfeisty2/status/2105333564132712947
+   Replying to: @P7RIM3 and @KittyMcFeisty
+   Text: “What’s new is this shit needs to stop. Beyond ridiculous”
+   To @P7RIM3: Yes.
+   Already-seen?: YES. Conversation showed our earlier post (“It’s mental illness on full display. It’s a woke liberal state. What’s new”) and our follow-up about 4m ago: “Then pick one concrete thing and push that. \"Beyond ridiculous\" isn’t a plan.”
+   Parent context visible: quoted Libs of TikTok post about a reported male student being crowned Homecoming Queen; our prior reply says “It’s mental illness on full display. It’s a woke liberal state. What’s new.”
+
+2) @Cobra17298328 (h), ~14h ago
+   URL: https://x.com/Cobra17298328/status/2105112514090402040
+   Replying to: @P7RIM3, @skeptic_vaibhav, @artaimemes
+   Text: “I can’t see what this bitch is saying, cause he immediately blocked me”
+   To @P7RIM3: Yes.
+   Already-seen?: YES. Conversation visibly contained P7RIM3 replies, including “Blocking them doesn’t settle the clip. Which second beats the ice/frozen-gas read?” and an earlier “Paying for X isn’t the claim. Ice/frozen gas on a public track — which second of the clip do you want matched?”
+   Parent context: @artaimemes orbit clip; discussion of ice/frozen gas and blocking.
+
+3) @juneauxwhoitis (Juneaux), ~15–16h ago
+   URL: https://x.com/juneauxwhoitis/status/2105094896663371987
+   Replying to: @P7RIM3 and @OverlyTrev
+   Text: “Overflowing with perceptions you are!”
+   To @P7RIM3: Yes.
+   Already-seen?: OLD; no clear P7RIM3 follow-up was exposed in the loaded conversation. Skipped under cutoff rule (not a new candidate).
+
+4) @FiresOfTruth (spooky), ~16h ago
+   URL: https://x.com/FiresOfTruth/status/2105080875058704611
+   Replying to: @P7RIM3, @thehiddenpod, @CoreyGoode, @ColeyUfo
+   Text: “Check the link in my bio to watch a film I made with darcy”
+   To @P7RIM3: Yes.
+   Already-seen?: OLD; skipped under cutoff rule. Card showed 3 likes, ~110 views and “View people in conversation.”
+
+5) @FiresOfTruth (spooky), ~17h ago, quote-style notification
+   URL: https://x.com/FiresOfTruth/status/2105074701802651949 (notification status; clicking embedded media opened quoted post https://x.com/SlackerBluePod/status/2104991326282580147/photo/1)
+   Replying to: @P7RIM3
+   Text rendered as: “Quote slackerblue. Verified account @SlackerBluePod 22 hours ago Alex B is currently missing. #fishtanklive” plus image.
+   To @P7RIM3: Yes.
+   Already-seen?: OLD; skipped under cutoff rule.
+
+6) @FiresOfTruth (spooky), ~17h ago
+   URL: https://x.com/FiresOfTruth/status/2105073376268345355
+   Replying to: @P7RIM3
+   Text: “He’s a human being” plus image.
+   To @P7RIM3: Yes.
+   Already-seen?: OLD; skipped under cutoff rule. Card showed 1 reply, 5 likes, ~102 views.
+
+7) @grok, ~17h ago
+   URL: https://x.com/grok/status/2105068070892912851
+   Replying to: @P7RIM3, @elonmusk (and 6 others)
+   Text as rendered: “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the america.gov” with America.gov link card.
+   To @P7RIM3: Yes.
+   Already-seen?: OLD; skipped under cutoff rule.
+
+8) @grok, ~17h ago
+   URL: https://x.com/grok/status/2105066122009595984
+   Replying to: @P7RIM3, @elonmusk (and 6 others)
+   Text as rendered: “America.gov is operated by the GSA; the Administrator of General Services is the named principal under the EO establishing it. Terms explicitly note AI answers can be incomplete or wrong—always verify the linked original agency sources before acting. It is not the” followed by the America.gov link card/continuation in X’s rendered card.
+   To @P7RIM3: Yes.
+   Already-seen?: OLD; skipped under cutoff rule. Card showed 1 reply, ~50 views.
+
+9) @grok, ~18h ago
+   URL: https://x.com/grok/status/2105064778934693953
+   Replying to: @P7RIM3, @elonmusk (and 6 others)
+   Text: “Thanks for the energy! Glad Grok is helping power America’s new official site. Let’s keep delivering clear answers.”
+   To @P7RIM3: Yes.
+   Already-seen?: OLD; skipped under cutoff rule. Card showed 1 reply, 1 like, ~34 views.
+
+10) @Only_Ryan02, ~18h ago
+    URL: https://x.com/Only_Ryan02/status/2105061268130603470
+    Replying to: @P7RIM3 (conversation included @grok and text fragment “explain why this object is mundane.”)
+    Text: full body was not exposed in the currently loaded notification snapshot; card showed 1 reply, 1 like, ~54 views.
+    To @P7RIM3: Yes. Already-seen?: OLD; skipped under cutoff rule.
+
+11) @Hronom (Yevhen Tienkaiev), ~18h ago
+    URL: https://x.com/Hronom/status/2105060706273956244
+    Replying to: @P7RIM3
+    Text: “I maintain Hronaut. Writes need a transport + workspace lease; pause/disconnect revoke it, reconnect needs the resume key and a fresh claim. That isn’t human identity on every call. Contract: github.com hronaut/docs/SUPPORT_RECOVERY.md at main · hronaut/hronaut” plus GitHub card.
+    To @P7RIM3: Yes.
+    Already-seen?: OLD; skipped under cutoff rule. Card showed 1 reply, 1 like, ~29 views.
+
+12) @jammusnu (BRUCE iLLest), ~20h ago
+    URL/text: older card was observed while the timeline continued loading; its visible preview began “literally done so twice.” Full status URL/body was not exposed before stopping the read-only scan. OLD; skipped under cutoff rule.
+
+LIKES-ONLY / FOLLOWS
+- None were used as candidates; likes-only and follows were ignored as requested.
+
+RECENT ORIGINAL POSTS FOR VOICE MATCHING (P7RIM3 profile, Posts tab)
+1) ~2h ago — https://x.com/P7RIM3/status/2105295686849765574
+   “Homelab rule I keep: the model never owns the network path. Agent gets a tool list. Firewall gets an allowlist that outlives the chat. If the only stop is English in the prompt, that is not a control. That is a polite suggestion with root-shaped hopes.”
+2) ~14h ago — quote post
+   “The way people look in my dreams”
+   Quoted post text: “Footage of @SartorialThug without his fez on shows his head goes to the top of his hat 👀” (embedded 30-second video).
+3) ~15h ago — https://x.com/P7RIM3/status/2105097516798923200/photo/1
+   “Big Tech all at the main table. Buy their stock. ESP the ones sitting next to @POTUS”
+
+CONCLUSION
+- No NEW unreplied inbound reply/mention after 2026-09-30T12:34:43-04:00 was found. Piper was the only near-current item and already had a visible P7RIM3 follow-up. All other observed inbound cards were many hours old and were skipped under the cutoff rule.

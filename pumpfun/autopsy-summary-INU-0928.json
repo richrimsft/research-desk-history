@@ -1,0 +1,26 @@
+{
+  "tag": "0928",
+  "symbol": "INU",
+  "mint": "5xri1bAx8YEYe5JZ25tehxcxehfJD76NJq5YbGFepump",
+  "tag_role": "YOUNG_prescreen",
+  "verdict": "FAIL",
+  "age_h": 0.14,
+  "mc": 16919,
+  "dex": "pumpfun",
+  "h1": 258,
+  "m5": 61.6,
+  "phase": "pumpfun",
+  "reasons": [
+    "too young (<30m) \u2014 no-buy by narrative-age rule",
+    "creatorBal 0 (dev sold early)",
+    "19\u00d7 1\u20135% holder band"
+  ],
+  "creatorBalance": 0,
+  "creator": "BPjmaBuzWskyGeJoPPkGXbSRKTpb4AMucq37Jr7xf72A",
+  "band_1_5": 19,
+  "top10ex_est": 22.37,
+  "totalHolders": 398,
+  "score": 1,
+  "fetched_at": "2026-10-16T09:28ET",
+  "rc_file": "rc-INU-0928.json"
+}

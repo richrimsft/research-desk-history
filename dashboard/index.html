@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>P7RIM3 HQ: PICK YOUR BRANCH</title>
+<style>
+  :root {
+    --bg: #050508;
+    --panel: #0e0e14;
+    --card: #14141c;
+    --border: #2a2a38;
+    --text: #f5f5f7;
+    --muted: #8b8b9a;
+    --pink: #ff2d95;
+    --pink-dim: #ff2d9533;
+    --blue: #3b82f6;
+    --green: #22c55e;
+    --orange: #f59e0b;
+    --purple: #a855f7;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 36px 8px;
+  }
+  header h1 {
+    font-size: 28px;
+    letter-spacing: 0.04em;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  header .stats {
+    color: var(--muted);
+    font-size: 12px;
+    margin-top: 4px;
+    letter-spacing: 0.08em;
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .profile img {
+    width: 40px; height: 40px; border-radius: 50%;
+    border: 2px solid var(--pink); object-fit: cover;
+  }
+  .tree {
+    padding: 12px 36px 280px;
+    position: relative;
+  }
+  .prompt {
+    display: inline-block;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    margin: 8px 0 18px;
+  }
+  .branches {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+  }
+  .branch {
+    flex: 1 1 180px;
+    min-width: 160px;
+    border: 1px solid var(--border);
+    background: var(--card);
+    border-radius: 12px;
+    padding: 14px 16px;
+    cursor: pointer;
+    transition: border-color .15s, box-shadow .15s, transform .12s;
+    position: relative;
+  }
+  .branch:hover { transform: translateY(-1px); }
+  .branch.active {
+    box-shadow: 0 0 0 1px var(--accent), 0 0 24px color-mix(in srgb, var(--accent) 35%, transparent);
+    border-color: var(--accent);
+  }
+  .branch .letter {
+    font-size: 11px; letter-spacing: .14em; color: var(--accent); font-weight: 700;
+  }
+  .branch .name { font-size: 15px; font-weight: 700; margin-top: 4px; }
+  .branch .sub { font-size: 11px; color: var(--muted); margin-top: 4px; line-height: 1.35; }
+  .branch[data-b="A"] { --accent: var(--blue); }
+  .branch[data-b="B"] { --accent: var(--pink); }
+  .branch[data-b="C"] { --accent: var(--green); }
+  .branch[data-b="D"] { --accent: var(--orange); }
+
+  .rail {
+    margin: 18px 0 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .rail .tag {
+    border: 1px solid var(--border);
+    background: #12121a;
+    color: var(--muted);
+    font-size: 11px;
+    letter-spacing: .1em;
+    padding: 6px 12px;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .rail .tag.on {
+    color: #fff;
+    border-color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 22%, #12121a);
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 14px;
+    margin-top: 10px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: border-color .15s, box-shadow .15s;
+    position: relative;
+  }
+  .card:hover { border-color: #444; }
+  .card.selected {
+    border-color: var(--pink);
+    box-shadow: 0 0 0 1px var(--pink), 0 0 28px var(--pink-dim);
+  }
+  .card.read::after {
+    content: "✓";
+    position: absolute; top: 8px; right: 10px;
+    background: var(--green); color: #041; width: 20px; height: 20px;
+    border-radius: 50%; font-size: 12px; display: grid; place-items: center;
+  }
+  .card .thumb {
+    height: 120px; background: #0a0a10 center/cover no-repeat;
+    border-bottom: 1px solid var(--border);
+  }
+  .card .body { padding: 12px 14px 14px; }
+  .card .num {
+    font-size: 11px; color: var(--pink); letter-spacing: .1em; font-weight: 700;
+  }
+  .card .cat { font-size: 10px; color: var(--muted); letter-spacing: .08em; margin-top: 2px; }
+  .card .title { font-size: 14px; font-weight: 700; margin-top: 6px; line-height: 1.3; }
+  .card .meta { font-size: 11px; color: var(--muted); margin-top: 8px; }
+
+  .drawer {
+    position: fixed; left: 18px; right: 18px; bottom: 0;
+    background: linear-gradient(180deg, #16161f 0%, #0c0c12 100%);
+    border: 1px solid var(--border);
+    border-bottom: none;
+    border-radius: 22px 22px 0 0;
+    padding: 22px 26px 16px;
+    transform: translateY(110%);
+    transition: transform .28s cubic-bezier(.2,.8,.2,1);
+    z-index: 40;
+    box-shadow: 0 -20px 60px #000a;
+    max-height: 46vh;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .drawer.open { transform: translateY(0); }
+  .drawer-top {
+    display: grid;
+    grid-template-columns: 180px 1fr auto;
+    gap: 20px;
+    align-items: start;
+  }
+  .drawer .big-thumb {
+    width: 180px; height: 120px; border-radius: 14px;
+    background: #0a0a10 center/cover no-repeat;
+    border: 1px solid var(--border);
+  }
+  .drawer h2 { font-size: 22px; font-weight: 800; }
+  .drawer .source {
+    margin-top: 6px; font-size: 12px; color: var(--muted);
+    display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
+  }
+  .drawer .source a { color: var(--pink); text-decoration: none; }
+  .drawer .inside {
+    margin-top: 12px; font-size: 13px; line-height: 1.45; color: #d4d4de;
+  }
+  .drawer .inside .arrow { color: var(--pink); font-weight: 700; margin-right: 6px; }
+  .drawer .actions {
+    display: flex; flex-direction: column; align-items: flex-end; gap: 10px;
+  }
+  .btn {
+    background: #fff; color: #111; border: none; border-radius: 999px;
+    padding: 12px 22px; font-weight: 700; font-size: 14px; cursor: pointer;
+  }
+  .btn.done { background: var(--green); color: #042; }
+  .progress { font-size: 13px; color: var(--muted); letter-spacing: .06em; }
+  .strip {
+    display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px;
+  }
+  .strip .mini {
+    flex: 0 0 auto; width: 64px; height: 40px; border-radius: 8px;
+    background: #0a0a10 center/cover no-repeat; border: 1px solid var(--border);
+    cursor: pointer; opacity: .75;
+  }
+  .strip .mini.on { opacity: 1; border-color: var(--pink); }
+  .close-x {
+    position: absolute; top: 14px; right: 18px;
+    background: transparent; border: none; color: var(--muted);
+    font-size: 20px; cursor: pointer;
+  }
+  .kraken-table {
+    width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 8px;
+  }
+  .kraken-table th, .kraken-table td {
+    text-align: left; padding: 4px 8px; border-bottom: 1px solid #222;
+    color: #ccc;
+  }
+  .kraken-table th { color: var(--muted); font-weight: 600; }
+  .badge {
+    display: inline-block; padding: 2px 8px; border-radius: 999px;
+    font-size: 10px; letter-spacing: .06em; border: 1px solid var(--border);
+  }
+  .badge.ok { color: var(--green); border-color: #14532d; }
+  .badge.warn { color: var(--orange); border-color: #78350f; }
+  footer {
+    position: fixed; bottom: 0; left: 0; right: 0; height: 0; pointer-events: none;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>P7RIM3 HQ: PICK YOUR BRANCH</h1>
+    <div class="stats" id="statsLine">—</div>
+  </div>
+  <div class="profile">
+    <span>@P7RIM3</span>
+    <img src="assets/avatar.png" alt="@P7RIM3" />
+  </div>
+</header>
+
+<main class="tree">
+  <div class="prompt">WHICH BRANCH FIRST?</div>
+  <div class="branches" id="branches"></div>
+  <div class="rail" id="rail"></div>
+  <div class="cards" id="cards"></div>
+</main>
+
+<aside class="drawer" id="drawer" aria-live="polite">
+  <button class="close-x" id="closeDrawer" aria-label="Close">×</button>
+  <div class="drawer-top">
+    <div class="big-thumb" id="dThumb"></div>
+    <div>
+      <h2 id="dTitle">—</h2>
+      <div class="source" id="dSource"></div>
+      <div class="inside" id="dInside"></div>
+      <div id="dExtra"></div>
+    </div>
+    <div class="actions">
+      <button class="btn" id="markBtn">Mark as read</button>
+      <div class="progress" id="progress">0/0</div>
+    </div>
+  </div>
+  <div class="strip" id="strip"></div>
+</aside>
+
+<script>
+/*HQ_DATA_START*/
+window.HQ_DATA = {
+  "generated_at": "2026-10-13 13:13 ET",
+  "user": "@P7RIM3",
+  "kraken": {
+    "latest": {
+      "raw": "2026-10-13 10:00 ET total=$108.15 BTC=0.00054272($45.14@83165.5) ETH=0.0140707926($35.18@2500.21) SOL=0.2533370024($27.02@106.67) USD=0.81 open_orders=0 action=none (cash below min order; wide overnight range but BTC/ETH/SOL up ~1.7/2.3/1.0% vs 24h open; +0.3% vs last snapshot; no setup justified; dust alts ignored)",
+      "ts": "2026-10-13 10:00 ET",
+      "total": 108.15,
+      "action": "none",
+      "note": "cash below min order; wide overnight range but BTC/ETH/SOL up ~1.7/2.3/1.0% vs 24h open; +0.3% vs last snapshot; no setup justified; dust alts ignored",
+      "open_orders": 0,
+      "holdings": [
+        {
+          "asset": "BTC",
+          "qty": 0.00054272,
+          "usd": 45.14,
+          "price": 83165.5
+        },
+        {
+          "asset": "ETH",
+          "qty": 0.0140707926,
+          "usd": 35.18,
+          "price": 2500.21
+        },
+        {
+          "asset": "SOL",
+          "qty": 0.2533370024,
+          "usd": 27.02,
+          "price": 106.67
+        },
+        {
+          "asset": "USD",
+          "qty": 0.81,
+          "usd": null,
+          "price": null
+        }
+      ]
+    },
+    "history": [
+      {
+        "raw": "2026-10-09 17:49 ET total=$119.05 BTC=0.00054272($44.76@82477.8) ETH=0.01406942($34.93@2482.74) SOL=0.31899214($34.77@109.01) USD=4.58 open_orders=0 action=none (cash below min order; no setup justified)",
+        "ts": "2026-10-09 17:49 ET",
+        "total": 119.05,
+        "action": "none",
+        "note": "cash below min order; no setup justified",
+        "open_orders": 0,
+        "holdings": [
+          {
+            "asset": "BTC",
+            "qty": 0.00054272,
+            "usd": 44.76,
+            "price": 82477.8
+          },
+          {
+            "asset": "ETH",
+            "qty": 0.01406942,
+            "usd": 34.93,
+            "price": 2482.74
+          },
+          {
+            "asset": "SOL",
+            "qty": 0.31899214,
+            "usd": 34.77,
+            "price": 109.01
+          },
+          {
+            "asset": "USD",
+            "qty": 4.58,
+            "usd": null,
+            "price": null
+          }
+        ]
+      },
+      {
+        "raw": "2026-10-10 09:42 ET total=$119.62 BTC=0.00054272($44.91@82749.4) ETH=0.01406942($35.12@2495.96) SOL=0.31899214($35.01@109.75) USD=4.58 open_orders=0 action=none (quiet market, +0.5% vs last; cash below min order; dust alts ignored)",
+        "ts": "2026-10-10 09:42 ET",
+        "total": 119.62,
+        "action": "none",
+        "note": "quiet market, +0.5% vs last; cash below min order; dust alts ignored",
+        "open_orders": 0,
+        "holdings": [
+          {
+            "asset": "BTC",
+            "qty": 0.00054272,
+            "usd": 44.91,
+            "price": 82749.4
+          },
+          {
+            "asset": "ETH",
+            "qty": 0.01406942,
+            "usd": 35.12,
+            "price": 2495.96
+          },
+          {
+            "asset": "SOL",
+            "qty": 0.31899214,
+            "usd": 35.01,
+            "price": 109.75
+          },
+          {
+            "asset": "USD",
+            "qty": 4.58,
+            "usd": null,
+            "price": null
+          }
+        ]
+      },
+      {
+        "raw": "2026-10-10 17:49 ET total=$119.28 BTC=0.00054272($45.05@83016.9) ETH=0.01406942($35.28@2507.41) SOL=0.04899214($5.40@110.25) ADA=129.37574244($32.73@0.253006) USD=0.81 open_orders=0 action=none (both 12:29 rotation orders filled; -0.3% vs last; cash below min order; no setup justified)",
+        "ts": "2026-10-10 17:49 ET",
+        "total": 119.28,
+        "action": "none",
+        "note": "both 12:29 rotation orders filled; -0.3% vs last; cash below min order; no setup justified",
+        "open_orders": 0,
+        "holdings": [
+          {
+            "asset": "BTC",
+            "qty": 0.00054272,
+            "usd": 45.05,
+            "price": 83016.9
+          },
+          {
+            "asset": "ETH",
+            "qty": 0.01406942,
+            "usd": 35.28,
+            "price": 2507.41
+          },
+          {
+            "asset": "SOL",
+            "qty": 0.04899214,
+            "usd": 5.4,
+            "price": 110.25
+          },
+          {
+            "asset": "ADA",
+            "qty": 129.37574244,
+            "usd": 32.73,
+            "price": 0.253006
+          },
+          {
+            "asset": "USD",
+            "qty": 0.81,
+            "usd": null,
+            "price": null
+          }
+        ]
+      },
+      {
+        "raw": "2026-10-11 09:43 ET total=$118.55 BTC=0.00054272($45.05@83014.5) ETH=0.01406942($35.21@2502.31) SOL=0.04899214($5.36@109.40) ADA=129.37574244($32.11@0.248230) USD=0.81 open_orders=0 action=none (quiet Sunday, -0.6% vs last; ADA -2.7% vs entry but no rule-based exit; cash below min order; dust alts ignored)",
+        "ts": "2026-10-11 09:43 ET",
+        "total": 118.55,
+        "action": "none",
+        "note": "quiet Sunday, -0.6% vs last; ADA -2.7% vs entry but no rule-based exit; cash below min order; dust alts ignored",
+        "open_orders": 0,
+        "holdings": [
+          {
+            "asset": "BTC",
+            "qty": 0.00054272,
+            "usd": 45.05,
+            "price": 83014.5
+          },
+          {
+            "asset": "ETH",
+            "qty": 0.01406942,
+            "usd": 35.21,
+            "price": 2502.31
+          },
+          {
+            "asset": "SOL",
+            "qty": 0.04899214,
+            "usd": 5.36,
+            "price": 109.4
+          },
+          {
+            "asset": "ADA",
+            "qty": 129.37574244,
+            "usd": 32.11,
+            "price": 0.24823
+          },
+          {
+            "asset": "USD",
+            "qty": 0.81,
+            "usd": null,
+            "price": null
+          }
+        ]
+      },
+      {
+        "raw": "2026-10-11 17:47 ET total=$119.50 BTC=0.00054272($45.25@83370.9) ETH=0.01406942($35.50@2522.90) SOL=0.04899214($5.41@110.46) ADA=129.37574244($32.53@0.251441) USD=0.81 open_orders=0 action=none (mild bounce, +0.8% vs last; ADA -1.4% vs entry, no rule-based exit; cash below min order; dust alts ignored)",
+        "ts": "2026-10-11 17:47 ET",
+        "total": 119.5,
+        "action": "none",
+        "note": "mild bounce, +0.8% vs last; ADA -1.4% vs entry, no rule-based exit; cash below min order; dust alts ignored",
+        "open_orders": 0,
+        "holdings": [
+          {
+            "asset": "BTC",
+            "qty": 0.00054272,
+            "usd": 45.25,
+            "price": 83370.9
+          },
+          {
+            "asset": "ETH",
+            "qty": 0.01406942,
+            "usd": 35.5,
+            "price": 2522.9
+          },
+          {
+            "asset": "SOL",
+            "qty": 0.04899214,
+            "usd": 5.41,
+            "price": 110.46
+          },
+          {
+            "asset": "ADA",
+            "qty": 129.37574244,
+            "usd": 32.53,
+            "price": 0.251441
+          },
+          {
+            "asset": "USD",
+            "qty": 0.81,
+            "usd": null,
+            "price": null
+          }
+        ]
+      },
+      {
+        "raw": "2026-10-12 10:06 ET total=$109.17 BTC=0.00054272($44.90@82734.3) ETH=0.01406942($35.64@2532.94) SOL=0.25328403($27.82@109.84) USD=0.81 open_orders=0 action=none (cash below min order; quiet overnight, -8.6% vs last mostly from prior ADA\u2192SOL swap + SOL withdrawals after 17:47 check; no setup justified; dust alts ignored)",
+        "ts": "2026-10-12 10:06 ET",
+        "total": 109.17,
+        "action": "none",
+        "note": "cash below min order; quiet overnight, -8.6% vs last mostly from prior ADA\u2192SOL swap + SOL withdrawals after 17:47 check; no setup justified; dust alts ignored",
+        "open_orders": 0,
+        "holdings": [
+          {
+            "asset": "BTC",
+            "qty": 0.00054272,
+            "usd": 44.9,
+            "price": 82734.3
+          },
+          {
+            "asset": "ETH",
+            "qty": 0.01406942,
+            "usd": 35.64,
+            "price": 2532.94
+          },
+          {
+            "asset": "SOL",
+            "qty": 0.25328403,
+            "usd": 27.82,
+            "price": 109.84
+          },
+          {
+            "asset": "USD",
+            "qty": 0.81,
+            "usd": null,
+            "price": null
+          }
+        ]
+      },
+      {
+        "raw": "2026-10-12 17:53 ET total=$107.83 BTC=0.00054272($44.85@82636.6) ETH=0.0140694194($35.06@2491.85) SOL=0.2532840315($27.11@107.03) USD=0.81 open_orders=0 action=none (cash below min order; mild red session BTC/ETH/SOL -0.1/-1.6/-2.6% vs morning; -1.2% vs last snapshot; no setup justified; dust alts ignored)",
+        "ts": "2026-10-12 17:53 ET",
+        "total": 107.83,
+        "action": "none",
+        "note": "cash below min order; mild red session BTC/ETH/SOL -0.1/-1.6/-2.6% vs morning; -1.2% vs last snapshot; no setup justified; dust alts ignored",
+        "open_orders": 0,
+        "holdings": [
+          {
+            "asset": "BTC",
+            "qty": 0.00054272,
+            "usd": 44.85,
+            "price": 82636.6
+          },
+          {
+            "asset": "ETH",
+            "qty": 0.0140694194,
+            "usd": 35.06,
+            "price": 2491.85
+          },
+          {
+            "asset": "SOL",
+            "qty": 0.2532840315,
+            "usd": 27.11,
+            "price": 107.03
+          },
+          {
+            "asset": "USD",
+            "qty": 0.81,
+            "usd": null,
+            "price": null
+          }
+        ]
+      },
+      {
+        "raw": "2026-10-13 10:00 ET total=$108.15 BTC=0.00054272($45.14@83165.5) ETH=0.0140707926($35.18@2500.21) SOL=0.2533370024($27.02@106.67) USD=0.81 open_orders=0 action=none (cash below min order; wide overnight range but BTC/ETH/SOL up ~1.7/2.3/1.0% vs 24h open; +0.3% vs last snapshot; no setup justified; dust alts ignored)",
+        "ts": "2026-10-13 10:00 ET",
+        "total": 108.15,
+        "action": "none",
+        "note": "cash below min order; wide overnight range but BTC/ETH/SOL up ~1.7/2.3/1.0% vs 24h open; +0.3% vs last snapshot; no setup justified; dust alts ignored",
+        "open_orders": 0,
+        "holdings": [
+          {
+            "asset": "BTC",
+            "qty": 0.00054272,
+            "usd": 45.14,
+            "price": 83165.5
+          },
+          {
+            "asset": "ETH",
+            "qty": 0.0140707926,
+            "usd": 35.18,
+            "price": 2500.21
+          },
+          {
+            "asset": "SOL",
+            "qty": 0.2533370024,
+            "usd": 27.02,
+            "price": 106.67
+          },
+          {
+            "asset": "USD",
+            "qty": 0.81,
+            "usd": null,
+            "price": null
+          }
+        ]
+      }
+    ],
+    "trades": [
+      {
+        "ts": "2026-10-09 11:05:09",
+        "pair": "XBTUSD",
+        "side": "buy",
+        "otype": "limit",
+        "qty": 0.00054272,
+        "price": 82915.6,
+        "reason": "user-approved"
+      },
+      {
+        "ts": "2026-10-09 11:05:11",
+        "pair": "ETHUSD",
+        "side": "buy",
+        "otype": "limit",
+        "qty": 0.01406306,
+        "price": 2488.79,
+        "reason": "user-approved"
+      },
+      {
+        "ts": "2026-10-09 11:05:13",
+        "pair": "SOLUSD",
+        "side": "buy",
+        "otype": "limit",
+        "qty": 0.2276867,
+        "price": 109.8,
+        "reason": "user-approved"
+      },
+      {
+        "ts": "2026-10-10 12:29:36",
+        "pair": "SOLUSD",
+        "side": "sell",
+        "otype": "limit",
+        "qty": 0.27,
+        "price": 110.13,
+        "reason": "rotate into ADA, user-approved"
+      },
+      {
+        "ts": "2026-10-10 12:29:47",
+        "pair": "ADAUSD",
+        "side": "buy",
+        "otype": "limit",
+        "qty": 129.37574244,
+        "price": 0.255071,
+        "reason": "rotate from SOL, user-approved"
+      }
+    ],
+    "rules": {
+      "spot_only": [
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "no_leverage": true,
+      "stop_under_usd": 60.0,
+      "summary": "Spot BTC/ETH/SOL only. No leverage, margin, futures, or shorting. Stop trading if total value drops under $60. Limit orders; show user the plan before first trade of a session. Max 2 new trades/day; max 50% of USD cash in any one pair."
+    }
+  },
+  "files": {
+    "playbook_pdf": {
+      "path": "rea-project/PLAYBOOK.pdf",
+      "exists": true,
+      "bytes": 223660,
+      "mtime": "2026-10-13 13:08 ET"
+    },
+    "playbook_md": {
+      "path": "rea-project/PLAYBOOK.md",
+      "exists": true,
+      "bytes": 14413,
+      "mtime": "2026-10-13 13:06 ET"
+    },
+    "re_article_pdf": {
+      "path": "re-article/article.pdf",
+      "exists": true,
+      "bytes": 6436845,
+      "mtime": "2026-10-12 13:20 ET"
+    },
+    "part2_4k": {
+      "path": "x-followup/part2_4k.mp4",
+      "exists": true,
+      "bytes": 87200615,
+      "mtime": "2026-10-12 13:17 ET"
+    },
+    "avatar": {
+      "path": "p7rim3-avatar-square.png",
+      "exists": true,
+      "bytes": 747122,
+      "mtime": "2026-10-09 13:29 ET"
+    },
+    "header": {
+      "path": "p7rim3-header.png",
+      "exists": true,
+      "bytes": 941726,
+      "mtime": "2026-10-09 13:33 ET"
+    },
+    "snapshots_log": {
+      "path": "markets/snapshots.log",
+      "exists": true,
+      "bytes": 2285,
+      "mtime": "2026-10-13 10:00 ET"
+    },
+    "trades_log": {
+      "path": "markets/trades.log",
+      "exists": true,
+      "bytes": 986,
+      "mtime": "2026-10-10 12:29 ET"
+    }
+  }
+};
+/*HQ_DATA_END*/
+</script>
+<script>
+(function () {
+  const ACCENT = { A: "#3b82f6", B: "#ff2d95", C: "#22c55e", D: "#f59e0b" };
+  const BRANCHES = [
+    { id: "A", name: "BOTS", sub: "Research Desk · Signal" },
+    { id: "B", name: "ROUTINES", sub: "Kraken · Content · Scout · Engagement" },
+    { id: "C", name: "GUIDES & PROJECTS", sub: "REA Playbook · RE article · X video · Assets" },
+    { id: "D", name: "KRAKEN", sub: "Snapshot · Trades · Rules" },
+  ];
+
+  function fmtBytes(n) {
+    if (n == null) return "—";
+    if (n < 1024) return n + " B";
+    if (n < 1024 * 1024) return (n / 1024).toFixed(1) + " KB";
+    return (n / (1024 * 1024)).toFixed(1) + " MB";
+  }
+
+  function buildCards(data) {
+    const f = (data && data.files) || {};
+    const k = (data && data.kraken) || {};
+    const latest = k.latest || {};
+    const holdings = latest.holdings || [];
+    const holdStr = holdings
+      .filter((h) => h.asset !== "USD" || (h.usd != null ? h.usd : h.qty) > 0)
+      .map((h) => {
+        if (h.usd != null) return h.asset + " $" + h.usd.toFixed(2);
+        return h.asset + " " + h.qty;
+      })
+      .join(" · ");
+
+    const cards = [
+      // A — Bots
+      {
+        id: 1, branch: "A", group: "RESEARCH DESK",
+        title: "Research Desk — Research",
+        thumb: "assets/sheet1-codila.jpg",
+        source: "P7RIM3 · Research Desk",
+        inside: "Primary research bot: REA investigations, web/GitHub scouting, drafting guides. Speaks as @P7RIM3. Does not post or trade without approval.",
+      },
+      {
+        id: 2, branch: "A", group: "RESEARCH DESK",
+        title: "Research Desk — Kraken trading",
+        thumb: "assets/sheet6-trading-paper.jpg",
+        source: "P7RIM3 · Markets Desk",
+        inside: "Owns Kraken spot trading under Markets Desk rules. Proposes limit orders; user approves before send. Spot BTC/ETH/SOL only, no leverage, stop under $60.",
+      },
+      {
+        id: 3, branch: "A", group: "RESEARCH DESK",
+        title: "Research Desk — X growth",
+        thumb: "assets/card-video1.jpg",
+        source: "P7RIM3 · @P7RIM3",
+        inside: "X content: captions, replies, video posts, engagement tips. Drafts only unless you explicitly approve a specific post.",
+      },
+      {
+        id: 4, branch: "A", group: "SIGNAL",
+        title: "Signal — Daily article pinning",
+        thumb: "assets/sheet3-akarixbt.jpg",
+        source: "P7RIM3 · Signal",
+        inside: "Pins and surfaces the day’s research article / long-form for the account. Coordinates with Research Desk on what goes live.",
+      },
+      {
+        id: 5, branch: "A", group: "SIGNAL",
+        title: "Signal — Other work",
+        thumb: "assets/av1d.jpg",
+        source: "P7RIM3 · Signal",
+        inside: "Secondary Signal tasks outside pinning (ops handoffs, paused Kraken routine ownership transferred to Research Desk on Oct 9).",
+      },
+
+      // B — Routines
+      {
+        id: 6, branch: "B", group: "KRAKEN",
+        title: "Kraken check — 9:41 AM ET",
+        thumb: "assets/sheet6-trading-paper.jpg",
+        source: "Routine · daily",
+        inside: "Morning account snapshot + rule check. Writes /workspace/markets/snapshots.log. Proposes trades only when cash and rules allow; never withdraws.",
+      },
+      {
+        id: 7, branch: "B", group: "KRAKEN",
+        title: "Kraken check — 5:41 PM ET",
+        thumb: "assets/sheet6-trading-paper.jpg",
+        source: "Routine · daily",
+        inside: "Evening account snapshot + rule check. Same Markets Desk constraints as the morning run.",
+      },
+      {
+        id: 8, branch: "B", group: "CONTENT",
+        title: "Content planner — 8:06 AM ET",
+        thumb: "assets/sheet12-av1dlive-attach.jpg",
+        source: "Routine · weekdays",
+        inside: "Three post ideas with drafts and sources for approval. Never posts on its own.",
+      },
+      {
+        id: 9, branch: "B", group: "SCOUT",
+        title: "GitHub / HN RE scout — 9:06 AM ET",
+        thumb: "assets/card-re-topic.jpg",
+        source: "Routine · weekdays",
+        inside: "Best new GitHub and Hacker News finds related to REA / reverse engineering. Stays quiet when nothing is worth sharing.",
+      },
+      {
+        id: 10, branch: "B", group: "ENGAGEMENT",
+        title: "Engagement check — 5:06 PM ET",
+        thumb: "assets/tenzo.jpg",
+        source: "Routine · weekdays",
+        inside: "How recent @P7RIM3 posts performed plus one tip for tomorrow.",
+      },
+
+      // C — Guides & projects
+      {
+        id: 11, branch: "C", group: "REA PLAYBOOK",
+        title: "REA Playbook (PDF)",
+        thumb: "assets/playbook.png",
+        source: "file · rea-project/PLAYBOOK.pdf",
+        pathKey: "playbook_pdf",
+        inside: "Combined cheat-sheet playbook: target maps, copy-paste prompts, memory routing, lean bot layout. Path: /workspace/rea-project/PLAYBOOK.pdf",
+      },
+      {
+        id: 12, branch: "C", group: "REA PLAYBOOK",
+        title: "§0–2 Ground rules · Loop · Setup",
+        thumb: "assets/sheet1-codila.jpg",
+        source: "PLAYBOOK.md §§ 0–2",
+        inside: "Ground rules, investigation loop (S1 Codila + official REA), box-only setup & readiness. Nothing installed on user machines.",
+      },
+      {
+        id: 13, branch: "C", group: "REA PLAYBOOK",
+        title: "§3–4 Target maps · Prompt pack",
+        thumb: "assets/sheet3-akarixbt.jpg",
+        source: "PLAYBOOK.md §§ 3–4",
+        inside: "Maps desktop / JS / Electron / web / Android / firmware / contracts → user-rea tools, plus copy-paste prompt pack.",
+      },
+      {
+        id: 14, branch: "C", group: "REA PLAYBOOK",
+        title: "§5–6 Memory · Team manager",
+        thumb: "assets/sheet4-memory.jpg",
+        source: "PLAYBOOK.md §§ 5–6",
+        inside: "Unknowns, evidence & memory routing; team-manager pattern for multi-bot REA work.",
+      },
+      {
+        id: 15, branch: "C", group: "REA PLAYBOOK",
+        title: "§7–9 Trading · Cost · Lean layout",
+        thumb: "assets/sheet6-trading-paper.jpg",
+        source: "PLAYBOOK.md §§ 7–9",
+        inside: "Authorized trading-software workflow (paper first), cost-efficient multi-worker runs, lean agent + routine layout for @P7RIM3.",
+      },
+      {
+        id: 16, branch: "C", group: "RE GUIDE",
+        title: "Reverse-engineering beginner guide",
+        thumb: "assets/card-ghidra.jpg",
+        source: "file · re-article/article.pdf",
+        pathKey: "re_article_pdf",
+        inside: "Beginner path: GitHub topic → vetting tools → first crackme in Ghidra. Screenshots + legal practice binary. Path: /workspace/re-article/article.pdf",
+      },
+      {
+        id: 17, branch: "C", group: "X VIDEO",
+        title: "X follow-up video (4K)",
+        thumb: "assets/video.png",
+        source: "file · x-followup/part2_4k.mp4",
+        pathKey: "part2_4k",
+        inside: "Part 2 4K render for @P7RIM3. Path: /workspace/x-followup/part2_4k.mp4",
+      },
+      {
+        id: 18, branch: "C", group: "ASSETS",
+        title: "X avatar (square)",
+        thumb: "assets/avatar.png",
+        source: "file · p7rim3-avatar-square.png",
+        pathKey: "avatar",
+        inside: "Profile avatar asset used on X and this dashboard.",
+      },
+      {
+        id: 19, branch: "C", group: "ASSETS",
+        title: "X header / banner",
+        thumb: "assets/header.png",
+        source: "file · p7rim3-header.png",
+        pathKey: "header",
+        inside: "Profile header/banner asset for @P7RIM3.",
+      },
+
+      // D — Kraken
+      {
+        id: 20, branch: "D", group: "SNAPSHOT",
+        title: "Latest portfolio snapshot",
+        thumb: "assets/sheet6-trading-paper.jpg",
+        source: "markets/snapshots.log",
+        pathKey: "snapshots_log",
+        krakenKind: "snapshot",
+        inside: latest.ts
+          ? ("As of " + latest.ts + ": total $" + (latest.total != null ? latest.total.toFixed(2) : "—") +
+             ". Holdings: " + (holdStr || "—") +
+             ". Action: " + (latest.action || "—") +
+             (latest.note ? " — " + latest.note : ""))
+          : "No snapshots yet in /workspace/markets/snapshots.log",
+      },
+      {
+        id: 21, branch: "D", group: "TRADES",
+        title: "Recent trades",
+        thumb: "assets/sheet6-trading-paper.jpg",
+        source: "markets/trades.log",
+        pathKey: "trades_log",
+        krakenKind: "trades",
+        inside: (k.trades && k.trades.length)
+          ? (k.trades.length + " logged trade(s). Latest: " +
+             (k.trades[k.trades.length - 1].pair || "") + " " +
+             (k.trades[k.trades.length - 1].side || "") + " @" +
+             (k.trades[k.trades.length - 1].price != null ? k.trades[k.trades.length - 1].price : ""))
+          : "No trades logged yet.",
+      },
+      {
+        id: 22, branch: "D", group: "RULES",
+        title: "Markets Desk rules",
+        thumb: "assets/sheet6-trading-paper.jpg",
+        source: "markets/RULES.md",
+        krakenKind: "rules",
+        inside: (k.rules && k.rules.summary) ||
+          "Spot BTC/ETH/SOL, no leverage, stop under $60.",
+      },
+    ];
+    return cards;
+  }
+
+  const STORE_KEY = "p7rim3_hq_read_v1";
+  let state = {
+    branch: "B",
+    group: null,
+    selected: null,
+    read: new Set(JSON.parse(localStorage.getItem(STORE_KEY) || "[]")),
+  };
+
+  const elBranches = document.getElementById("branches");
+  const elRail = document.getElementById("rail");
+  const elCards = document.getElementById("cards");
+  const elDrawer = document.getElementById("drawer");
+  const elStrip = document.getElementById("strip");
+  const data = window.HQ_DATA || {};
+  const CARDS = buildCards(data);
+
+  document.getElementById("statsLine").textContent =
+    CARDS.length + " CARDS / " +
+    BRANCHES.length + " BRANCHES / " +
+    "READ " + state.read.size + "/" + CARDS.length +
+    (data.generated_at ? " · DATA " + data.generated_at : "");
+
+  function saveRead() {
+    localStorage.setItem(STORE_KEY, JSON.stringify([...state.read]));
+    document.getElementById("statsLine").textContent =
+      CARDS.length + " CARDS / " + BRANCHES.length + " BRANCHES / READ " +
+      state.read.size + "/" + CARDS.length +
+      (data.generated_at ? " · DATA " + data.generated_at : "");
+    document.getElementById("progress").textContent =
+      state.read.size + "/" + CARDS.length;
+  }
+
+  function renderBranches() {
+    elBranches.innerHTML = "";
+    BRANCHES.forEach((b) => {
+      const d = document.createElement("div");
+      d.className = "branch" + (state.branch === b.id ? " active" : "");
+      d.dataset.b = b.id;
+      d.style.setProperty("--accent", ACCENT[b.id]);
+      d.innerHTML =
+        '<div class="letter">' + b.id + "</div>" +
+        '<div class="name">' + b.name + "</div>" +
+        '<div class="sub">' + b.sub + '</div>';
+      d.onclick = () => {
+        state.branch = b.id;
+        state.group = null;
+        renderAll();
+      };
+      elBranches.appendChild(d);
+    });
+  }
+
+  function groupsFor(branch) {
+    const g = [];
+    CARDS.filter((c) => c.branch === branch).forEach((c) => {
+      if (!g.includes(c.group)) g.push(c.group);
+    });
+    return g;
+  }
+
+  function renderRail() {
+    elRail.innerHTML = "";
+    elRail.style.setProperty("--accent", ACCENT[state.branch]);
+    const groups = groupsFor(state.branch);
+    const all = document.createElement("div");
+    all.className = "tag" + (state.group == null ? " on" : "");
+    all.textContent = "ALL";
+    all.onclick = () => { state.group = null; renderAll(); };
+    elRail.appendChild(all);
+    groups.forEach((g) => {
+      const t = document.createElement("div");
+      t.className = "tag" + (state.group === g ? " on" : "");
+      t.textContent = g;
+      t.onclick = () => { state.group = g; renderAll(); };
+      elRail.appendChild(t);
+    });
+  }
+
+  function visibleCards() {
+    return CARDS.filter(
+      (c) => c.branch === state.branch && (state.group == null || c.group === state.group)
+    );
+  }
+
+  function renderCards() {
+    elCards.innerHTML = "";
+    visibleCards().forEach((c) => {
+      const d = document.createElement("div");
+      d.className =
+        "card" +
+        (state.selected === c.id ? " selected" : "") +
+        (state.read.has(c.id) ? " read" : "");
+      d.innerHTML =
+        '<div class="thumb" style="background-image:url(\'' + c.thumb + '\')"></div>' +
+        '<div class="body">' +
+        '<div class="num">' + String(c.id).padStart(2, "0") + "</div>" +
+        '<div class="cat">' + c.group + "</div>" +
+        '<div class="title">' + c.title + "</div>" +
+        '<div class="meta">' + c.source + '</div>' +
+        "</div>";
+      d.onclick = () => openCard(c.id);
+      elCards.appendChild(d);
+    });
+  }
+
+  function fileLine(card) {
+    if (!card.pathKey || !data.files || !data.files[card.pathKey]) return "";
+    const meta = data.files[card.pathKey];
+    if (!meta.exists) return '<p class="meta">Missing: ' + meta.path + "</p>";
+    return (
+      '<p class="meta">' +
+      meta.path + " · " + fmtBytes(meta.bytes) + " · " + meta.mtime +
+      "</p>"
+    );
+  }
+
+  function krakenExtra(card) {
+    const k = data.kraken || {};
+    if (card.krakenKind === "snapshot") {
+      const h = (k.latest && k.latest.holdings) || [];
+      if (!h.length) return "";
+      let rows = h
+        .map(
+          (x) =>
+            "<tr><td>" +
+            x.asset +
+            "</td><td>" +
+            x.qty +
+            "</td><td>" +
+            (x.usd != null ? "$" + x.usd.toFixed(2) : "—") +
+            "</td><td>" +
+            (x.price != null ? x.price : "—") +
+            "</td></tr>"
+        )
+        .join("");
+      const total = k.latest && k.latest.total;
+      const stop = (k.rules && k.rules.stop_under_usd) || 60;
+      const badge =
+        total != null && total < stop
+          ? '<span class="badge warn">BELOW STOP $' + stop + "</span>"
+          : '<span class="badge ok">ABOVE STOP $' + stop + "</span>";
+      return (
+        badge +
+        '<table class="kraken-table"><thead><tr><th>Asset</th><th>Qty</th><th>USD</th><th>Px</th></tr></thead><tbody>' +
+        rows +
+        "</tbody></table>"
+      );
+    }
+    if (card.krakenKind === "trades") {
+      const t = k.trades || [];
+      if (!t.length) return "";
+      let rows = t
+        .map(
+          (x) =>
+            "<tr><td>" +
+            (x.ts || "") +
+            "</td><td>" +
+            (x.pair || "") +
+            "</td><td>" +
+            (x.side || "") +
+            "</td><td>" +
+            (x.qty != null ? x.qty : "") +
+            "</td><td>" +
+            (x.price != null ? x.price : "") +
+            "</td><td>" +
+            (x.reason || "") +
+            "</td></tr>"
+        )
+        .join("");
+      return (
+        '<table class="kraken-table"><thead><tr><th>Time</th><th>Pair</th><th>Side</th><th>Qty</th><th>Px</th><th>Reason</th></tr></thead><tbody>' +
+        rows +
+        "</tbody></table>"
+      );
+    }
+    if (card.krakenKind === "rules") {
+      const r = k.rules || {};
+      return (
+        '<p class="meta" style="margin-top:8px">Spot: ' +
+        (r.spot_only || []).join(", ") +
+        " · No leverage: " +
+        (r.no_leverage ? "yes" : "?") +
+        " · Stop under $" +
+        (r.stop_under_usd != null ? r.stop_under_usd : 60) +
+        "</p>"
+      );
+    }
+    return "";
+  }
+
+  function openCard(id) {
+    const c = CARDS.find((x) => x.id === id);
+    if (!c) return;
+    state.selected = id;
+    document.getElementById("dThumb").style.backgroundImage =
+      "url('" + c.thumb + "')";
+    document.getElementById("dTitle").textContent = c.title;
+    document.getElementById("dSource").innerHTML =
+      "<span>" + c.source + "</span>" + fileLine(c);
+    document.getElementById("dInside").innerHTML =
+      '<span class="arrow">→</span><strong>What\'s inside</strong><div style="margin-top:6px">' +
+      c.inside +
+      "</div>";
+    document.getElementById("dExtra").innerHTML = krakenExtra(c);
+    const btn = document.getElementById("markBtn");
+    if (state.read.has(id)) {
+      btn.textContent = "Read ✓";
+      btn.classList.add("done");
+    } else {
+      btn.textContent = "Mark as read";
+      btn.classList.remove("done");
+    }
+    document.getElementById("progress").textContent =
+      state.read.size + "/" + CARDS.length;
+    renderStrip();
+    elDrawer.classList.add("open");
+    renderCards();
+  }
+
+  function renderStrip() {
+    elStrip.innerHTML = "";
+    visibleCards().forEach((c) => {
+      const m = document.createElement("div");
+      m.className = "mini" + (state.selected === c.id ? " on" : "");
+      m.style.backgroundImage = "url('" + c.thumb + "')";
+      m.title = c.title;
+      m.onclick = () => openCard(c.id);
+      elStrip.appendChild(m);
+    });
+  }
+
+  document.getElementById("markBtn").onclick = () => {
+    if (state.selected == null) return;
+    if (state.read.has(state.selected)) state.read.delete(state.selected);
+    else state.read.add(state.selected);
+    saveRead();
+    openCard(state.selected);
+  };
+  document.getElementById("closeDrawer").onclick = () => {
+    elDrawer.classList.remove("open");
+    state.selected = null;
+    renderCards();
+  };
+
+  function renderAll() {
+    renderBranches();
+    renderRail();
+    renderCards();
+    if (state.selected != null) {
+      const still = CARDS.find(
+        (c) => c.id === state.selected && c.branch === state.branch
+      );
+      if (!still) {
+        elDrawer.classList.remove("open");
+        state.selected = null;
+      } else renderStrip();
+    }
+  }
+
+  saveRead();
+  renderAll();
+  const params = new URLSearchParams(location.search);
+  if (params.get("open")) {
+    const id = parseInt(params.get("open"), 10);
+    const card = CARDS.find((c) => c.id === id);
+    if (card) {
+      state.branch = card.branch;
+      state.group = null;
+      renderAll();
+      openCard(id);
+    }
+  }
+})();
+</script>
+</body>
+</html>

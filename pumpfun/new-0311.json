@@ -1,0 +1,24 @@
+[
+  {
+    "symbol": "ROADSTER",
+    "mint": "TB6QtGti9j2zadAryKYKCm7tX1zVvTH4ZQcoXd9pump",
+    "decision": "FAIL",
+    "reasons": [
+      "obvious ROADSTER/DarkStar narrative copycat (skip list)",
+      "creatorBalance 0",
+      "26 graph insiders; RC score 33029; top10 ex-LP ~54% with single whale ~25%",
+      "18 wallets in 1-5% band"
+    ]
+  },
+  {
+    "symbol": "miBrains",
+    "mint": "7m8uQMAD1hkKuf4ooWFhJuBq4hSD8PoBcwojDLfQpump",
+    "decision": "FAIL",
+    "reasons": [
+      "age <30m entry window (0.08h)",
+      "creatorBalance 0",
+      "no socials",
+      "botty buy rate on tiny mc; 19 wallets in 1-5% band"
+    ]
+  }
+]

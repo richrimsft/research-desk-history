@@ -1,0 +1,53 @@
+[
+  {
+    "mint": "D4rzv9WAXJh9QZw1MjqfrtuSrmrkV4DckPTKBoMnpump",
+    "sym": "CCAT",
+    "dex": "pumpswap",
+    "mc": 95847.0,
+    "liq": "26496.76",
+    "v24": 215246.0,
+    "v1": 215246.17,
+    "m5": 37.6,
+    "h1": 118.0,
+    "h24": 118.0,
+    "tx": {
+      "buys": 3144,
+      "sells": 2064
+    },
+    "age": 0.6
+  },
+  {
+    "mint": "DkKywKToJSbMFzWDU79Lga9CjMhX6NWfMgkQurQZpump",
+    "sym": "ELON-SAN",
+    "dex": "pumpswap",
+    "mc": 84572.0,
+    "liq": "25657.24",
+    "v24": 276667.0,
+    "v1": 40536.79,
+    "m5": -1.41,
+    "h1": 8.16,
+    "h24": 54.54,
+    "tx": {
+      "buys": 580,
+      "sells": 350
+    },
+    "age": 2.2
+  },
+  {
+    "mint": "5b8F5y5uK3JgRTowCxfKbtMS3397DtSwxKMHjRZhpump",
+    "sym": "Optimus",
+    "dex": "pumpfun",
+    "mc": 19809.32,
+    "liq": "None",
+    "v24": 38781.0,
+    "v1": 3210.68,
+    "m5": 1.08,
+    "h1": 20.8,
+    "h24": 277.0,
+    "tx": {
+      "buys": 27,
+      "sells": 12
+    },
+    "age": 3.2
+  }
+]

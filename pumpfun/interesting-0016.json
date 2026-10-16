@@ -1,0 +1,110 @@
+{
+  "strict": [
+    {
+      "sym": "123456",
+      "mint": "hps4Xy4goXuV9zxdTAuF35tN58Gpks8Ho5zX529pump",
+      "dex": "pumpfun",
+      "mc": 43220.48,
+      "liq": null,
+      "age_h": 0.82,
+      "h1": 1276,
+      "m5": null,
+      "buys": 354,
+      "sells": 182,
+      "v1": 48551.09,
+      "prior": true,
+      "note": "prior reject"
+    },
+    {
+      "sym": "roadster",
+      "mint": "CbAeScGTv9sjGHtDRQsfqHzgSWupueN4Nduz7mBSpump",
+      "dex": "pumpfun",
+      "mc": 21702.94,
+      "liq": null,
+      "age_h": 2.27,
+      "h1": 151,
+      "m5": -4.01,
+      "buys": 358,
+      "sells": 249,
+      "v1": 32043.59,
+      "prior": true,
+      "note": "prior reject"
+    },
+    {
+      "sym": "ROADSTER",
+      "mint": "Eizz6UJUBmoH4CxqLR5XBRyEGfoaKeckjmsraobSpump",
+      "dex": "pumpswap",
+      "mc": 20023,
+      "liq": 10836.52,
+      "age_h": 1.87,
+      "h1": 79.07,
+      "m5": 14.5,
+      "buys": 180,
+      "sells": 108,
+      "v1": 9165.71,
+      "prior": true,
+      "note": "prior reject"
+    }
+  ],
+  "loose": [
+    {
+      "sym": "123456",
+      "mint": "hps4Xy4goXuV9zxdTAuF35tN58Gpks8Ho5zX529pump",
+      "dex": "pumpfun",
+      "mc": 43220.48,
+      "liq": null,
+      "age_h": 0.82,
+      "h1": 1276,
+      "m5": null,
+      "buys": 354,
+      "sells": 182,
+      "v1": 48551.09,
+      "prior": true,
+      "note": "prior reject"
+    },
+    {
+      "sym": "roadster",
+      "mint": "CbAeScGTv9sjGHtDRQsfqHzgSWupueN4Nduz7mBSpump",
+      "dex": "pumpfun",
+      "mc": 21702.94,
+      "liq": null,
+      "age_h": 2.27,
+      "h1": 151,
+      "m5": -4.01,
+      "buys": 358,
+      "sells": 249,
+      "v1": 32043.59,
+      "prior": true,
+      "note": "prior reject"
+    },
+    {
+      "sym": "ROADSTER",
+      "mint": "Eizz6UJUBmoH4CxqLR5XBRyEGfoaKeckjmsraobSpump",
+      "dex": "pumpswap",
+      "mc": 20023,
+      "liq": 10836.52,
+      "age_h": 1.87,
+      "h1": 79.07,
+      "m5": 14.5,
+      "buys": 180,
+      "sells": 108,
+      "v1": 9165.71,
+      "prior": true,
+      "note": "prior reject"
+    },
+    {
+      "sym": "WAITIE",
+      "mint": "zVXkMzD6TL5mvbNzV46D61k5crc6cpfGLEcvoBipump",
+      "dex": "pumpswap",
+      "mc": 64220,
+      "liq": 20130.48,
+      "age_h": 0.57,
+      "h1": 15.8,
+      "m5": -15.75,
+      "buys": 1527,
+      "sells": 1172,
+      "v1": 100194.62,
+      "prior": true
+    }
+  ]
+}

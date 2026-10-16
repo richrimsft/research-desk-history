@@ -1,0 +1,11 @@
+posted yes
+exact URL: https://x.com/P7RIM3/status/2105351807958388940
+exact text that went live:
+Nvidia’s answer to rogue agents isn’t another pledge.
+
+Open Agent Safety Platform (Sep 28): OpenShell + Sentry on BlueField-4. Policy outside the prompt. Quarantine in milliseconds.
+
+OpenAI not on the supporter list (TechCrunch).
+
+Kill path on the wire beats vibes in the model. Why is that still the hard sell?
+timestamp: Wednesday, Sep 30, 2026, 1:38 PM (UTC-4)

@@ -1,0 +1,72 @@
+{
+ "too_young": [
+  {
+   "symbol": "OPTIMA",
+   "name": "OptimaLabs",
+   "mint": "DdVXE425xZe27FhY41PR8dwfL3VczYdyJJAWDC1jpump",
+   "mc": 24571.05,
+   "age_h": 0.09,
+   "h1": 577,
+   "m5": 577,
+   "h24": 577,
+   "buys": 548,
+   "sells": 380,
+   "vol_h1": 45856.81,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/758mzl7jmsbbip5izarkbij5k1askakjgjmrcqzjoq5w",
+   "pairCreatedAt": 1792149408000
+  },
+  {
+   "symbol": "FTR",
+   "name": "Falling Tesla Roadster",
+   "mint": "9sv13ToY5M3Y1RHAz7bgHtMWskCjWQhEk6ZECHERpump",
+   "mc": 822330,
+   "age_h": 0.25,
+   "h1": 1438,
+   "m5": 108,
+   "h24": 1438,
+   "buys": 6058,
+   "sells": 1263,
+   "vol_h1": 853170.59,
+   "dex": "pumpswap",
+   "liq": 79064.41,
+   "url": "https://dexscreener.com/solana/7uxbwtebpwc4xhcr4ramsxeklw65h8tlmurqtpawvgpe",
+   "pairCreatedAt": 1792148803000
+  },
+  {
+   "symbol": "ONE",
+   "name": "ONE",
+   "mint": "Bsn9bTnFDErq43WW89knsfHQ6U6V6JawWHC2hTNcpump",
+   "mc": 10630.21,
+   "age_h": 0.28,
+   "h1": 250,
+   "m5": 3.83,
+   "h24": 250,
+   "buys": 804,
+   "sells": 517,
+   "vol_h1": 42461.85,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/7xgc4dsyocc3znbmuj7nb3uc3wtwftnhq9fzzepvpunz",
+   "pairCreatedAt": 1792148724000
+  },
+  {
+   "symbol": "GRAB",
+   "name": "LandGrab",
+   "mint": "5rB2Z8xPrUGX75mL8Q7BZLjdKFtzaJYHhtPKMazSpump",
+   "mc": 12895.1,
+   "age_h": 0.34,
+   "h1": 309,
+   "m5": 17.89,
+   "h24": 309,
+   "buys": 173,
+   "sells": 102,
+   "vol_h1": 10916.42,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/fu1zn5xpv43afpzk97n2r4tsylomkz61ybpzglrvfya",
+   "pairCreatedAt": 1792148506000
+  }
+ ]
+}

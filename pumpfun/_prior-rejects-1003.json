@@ -1,0 +1,117 @@
+[
+ {
+  "symbol": "Audaster",
+  "mint": "3xmzHi86JTUdye7bUuT9TdBPZLeBK9nBCA44JHRdpump",
+  "verdict": "FAIL",
+  "reasons": [
+   "creatorBal 0 (dev sold out early)"
+  ],
+  "age_h": 0.6,
+  "mc": 1435908
+ },
+ {
+  "symbol": "ETR",
+  "mint": "BALftXRKPbjbQ3h7dwQHNTRF7NH6hCiqwaLQWa5Zpump",
+  "verdict": "FAIL",
+  "reasons": [
+   "18\u00d7 1\u20135% holder band",
+   "8\u00d7 tight 1.8\u20132.0% sniper band"
+  ],
+  "age_h": 0.67,
+  "mc": 240111
+ },
+ {
+  "symbol": "RIBBIT",
+  "mint": "78ZBbCJkwQjXxRJJ2xv4gXU1BZvAayrvysqF4bmZpump",
+  "verdict": "FAIL",
+  "reasons": [
+   "creatorBal 0 (dev sold out early)",
+   "16\u00d7 1\u20135% holder band",
+   "6\u00d7 tight 1.1\u20131.3% sniper band",
+   "9 graph insiders"
+  ],
+  "age_h": 0.74,
+  "mc": 99592
+ },
+ {
+  "symbol": "Irene",
+  "mint": "6N4BHPN8rvN2aGLKHF8XRcSdzugvcFz2s1379qUyXDbo",
+  "verdict": "FAIL",
+  "reasons": [
+   "creator 42.2%>5%",
+   "top10ex 50.74%>30%",
+   "9\u00d7 identical ~0.9% holdings",
+   "RC Low Liquidity"
+  ],
+  "age_h": 2.68,
+  "mc": 52380
+ },
+ {
+  "symbol": "INU",
+  "mint": "5xri1bAx8YEYe5JZ25tehxcxehfJD76NJq5YbGFepump",
+  "verdict": "FAIL",
+  "reasons": [
+   "creatorBal 0 (dev sold out early)",
+   "top10ex 27.51% elevated >25%",
+   "18\u00d7 1\u20135% holder band"
+  ],
+  "age_h": 0.75,
+  "mc": 14977.54
+ },
+ {
+  "symbol": "UMBRA",
+  "mint": "Axbj7JdzBrmqNdiQE7maSz2jrFhDnXJsWwe9NWzSpump",
+  "verdict": "FAIL",
+  "reasons": [
+   "age 0.45h <30m \u2014 no-buy by narrative-age",
+   "RC Copycat token",
+   "top10ex 27.97% elevated >25%",
+   "18\u00d7 1\u20135% holder band",
+   "7\u00d7 tight 1.2\u20131.4% sniper band"
+  ],
+  "age_h": 0.45,
+  "mc": 37179.55
+ },
+ {
+  "symbol": "Konasu",
+  "mint": "93RFugk8jVwxBjAL3WY1uiGgA2UNqE9oRuHNrGMipump",
+  "verdict": "FAIL",
+  "reasons": [
+   "age 0.47h <30m \u2014 no-buy by narrative-age",
+   "creatorBal 0 (dev sold out early)",
+   "19\u00d7 1\u20135% holder band",
+   "5\u00d7 tight 1.1\u20131.3% sniper band"
+  ],
+  "age_h": 0.47,
+  "mc": 16387.68
+ },
+ {
+  "symbol": "BFRG",
+  "mint": "FMwuYPDgxXBvAr49AcybfuvhFy43LakM94ZTuKgFpump",
+  "verdict": "FAIL",
+  "reasons": [
+   "age 0.47h <30m \u2014 no-buy by narrative-age",
+   "creatorBal 0 (dev sold out early)",
+   "top10ex 25.14% elevated >25%",
+   "19\u00d7 1\u20135% holder band",
+   "7\u00d7 tight 1.1\u20131.3% sniper band",
+   "RC Low Liquidity"
+  ],
+  "age_h": 0.47,
+  "mc": 13936.5
+ },
+ {
+  "symbol": "Twin",
+  "mint": "7Jain9Efy7C4HvGkEPkNUUiGUmgu5tkff7NWvCvGpump",
+  "verdict": "FAIL",
+  "reasons": [
+   "age 0.48h <30m \u2014 no-buy by narrative-age",
+   "creatorBal 0 (dev sold out early)",
+   "19\u00d7 1\u20135% holder band",
+   "7\u00d7 tight 1.0\u20131.2% sniper band",
+   "5 graph insiders"
+  ],
+  "age_h": 0.48,
+  "mc": 147533
+ }
+]

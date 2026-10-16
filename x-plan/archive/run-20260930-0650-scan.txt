@@ -1,0 +1,39 @@
+X notifications scan report
+Timestamp (America/New_York): 2026-09-30T06:52:42-04:00
+Cutoff used: 2026-09-30T06:39:00-04:00
+Signed-in account: @P7RIM3 (user ID 1995219682186452992) confirmed in account menu/profile label.
+All tab: opened https://x.com/notifications and refreshed once; no reply/mention newer than cutoff.
+Mentions tab: opened https://x.com/notifications/mentions; same known older reply/mention cards.
+NEW_COUNT: 0
+No new candidates were opened. No posts, likes, follows, reposts, DMs, or settings changes made.
+
+ALL visible cards (likes-only are ignored):
+1. handle=@quinn_charley21 | status_url=not exposed in notification card | type=like | age=55m | text snippet=She looks like an obese heffer. I don't get why people want that. Imagine the smell | action=likes_ignored
+2. handle=@Mytro23 (+7 others) | status_url=not exposed in notification card | type=like | age=4h | text snippet=Do the complete opposite of whatever Cramer says! | action=likes_ignored
+3. handle=@Ro61088Davidson (+7 others) | status_url=not exposed in notification card | type=like | age=4h | text snippet=Do the opposite of whether Kramer says! Trust me | action=likes_ignored
+4. handle=@Occultjourneys | status_url=not exposed in notification card | type=like | age=7h | text snippet=The dude claimed he was on different planets and a secret space force run by reptiles. What did he expect the public’s reaction would be? Ufology in general is about as asinine as the flat earth community. I follow it for the laughs! | action=likes_ignored
+5. handle=@KEKerboxerGlory | status_url=not exposed in notification card | type=like | age=8h | text snippet=Nvidia and X.ai yes! Meta, absolutely not | action=likes_ignored
+6. handle=@DelBerrX | status_url=not exposed in notification card | type=like | age=8h | text snippet=This screams the movie Wall-E | action=likes_ignored
+7. handle=@Cobra17298328 | status_url=https://x.com/Cobra17298328/status/2105112514090402040 | type=reply/mention | age=9h | text snippet=I can’t see what this bitch is saying, cause he immediately blocked me | action=skip_already_handled
+8. handle=@pullingUp22 | status_url=not exposed in notification card | type=like | age=10h | text snippet=The guy is clueless. You can tell he has ZERO technical skills. I know everyone has a giant boner for anthropic right now. I don’t see him being the leader for the long haul. I just don’t | action=likes_ignored
+9. handle=@juneauxwhoitis | status_url=https://x.com/juneauxwhoitis/status/2105094896663371987 | type=reply/mention | age=10h | text snippet=Overflowing with perceptions you are! | action=skip_already_handled
+10. handle=@snowtrees32283 | status_url=not exposed in notification card | type=like | age=10h | text snippet=Time to crank out the money printing machine. | action=likes_ignored
+11. handle=@thechillguy_07 | status_url=not exposed in notification card | type=like | age=10h | text snippet=Their fees are ridiculous. Stick with @krakenfx | action=likes_ignored
+12. handle=@JohnGGalt (+12 others) | status_url=not exposed in notification card | type=like | age=10h | text snippet=Do the opposite of whether Kramer says! Trust me | action=likes_ignored
+13. handle=@FiresOfTruth | status_url=https://x.com/FiresOfTruth/status/2105080875058704611 | type=reply/mention | age=11h | text snippet=Check the link in my bio to watch a film I made with darcy | action=skip_known
+14. handle=@StochStocks (+5 others) | status_url=not exposed in notification card | type=like | age=11h | text snippet=Do the complete opposite of whatever Cramer says! | action=likes_ignored
+15. handle=@Hemingwaypaws and @dispenseofgrace | status_url=not exposed in notification card | type=like | age=11h | text snippet=The guy is clueless. You can tell he has ZERO technical skills. I know everyone has a giant boner for anthropic right now. I don’t see him being the leader for the long haul. I just don’t | action=likes_ignored
+16. handle=@Mehdalon and @dogeofficialceo | status_url=not exposed in notification card | type=like | age=11h | text snippet=A hilarious meme | action=likes_ignored
+17. handle=@FiresOfTruth | status_url=not exposed in notification card | type=like | age=11h | text snippet=Fair. What happened that needs hoping — receipt or rumor? | action=likes_ignored
+18. handle=@FiresOfTruth | status_url=https://x.com/FiresOfTruth/status/2105074701802651949 | type=reply/mention (quote) | age=11h | text snippet=@P7RIM3 + quote of @SlackerBluePod: Alex B is currently missing. #fishtanklive | action=skip_known
+
+MENTIONS visible cards:
+1. handle=@Cobra17298328 | status_url=https://x.com/Cobra17298328/status/2105112514090402040 | type=reply/mention | age=9h | text snippet=I can’t see what this bitch is saying, cause he immediately blocked me | action=skip_already_handled
+2. handle=@juneauxwhoitis | status_url=https://x.com/juneauxwhoitis/status/2105094896663371987 | type=reply/mention | age=10h | text snippet=Overflowing with perceptions you are! | action=skip_already_handled
+3. handle=@FiresOfTruth | status_url=https://x.com/FiresOfTruth/status/2105080875058704611 | type=reply/mention | age=11h | text snippet=Check the link in my bio to watch a film I made with darcy | action=skip_known
+4. handle=@FiresOfTruth | status_url=https://x.com/FiresOfTruth/status/2105074701802651949 | type=reply/mention (quote) | age=11h | text snippet=@P7RIM3 + quote of @SlackerBluePod: Alex B is currently missing. #fishtanklive | action=skip_known
+5. handle=@FiresOfTruth | status_url=https://x.com/FiresOfTruth/status/2105073376268345355 | type=reply/mention | age=11h | text snippet=He’s a human being | action=skip_known
+6. handle=@grok | status_url=https://x.com/grok/status/2105068070892912851 | type=reply/mention | age=12h | text snippet=The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the america.gov America.gov | action=skip_over_two_beats
+
+New candidate details: none. Full text, thread context, and blocked? fields are therefore N/A. The Cobra text says a third party immediately blocked him; no card showed @P7RIM3 blocked.
+Screenshot: /workspace/x-plan/last-desktop.webp

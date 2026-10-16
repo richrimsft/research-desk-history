@@ -1,0 +1,16 @@
+X notifications scan — 2026-09-29 23:47 ET
+
+Account confirmed: @P7RIM3 (signed in).
+Checked: https://x.com/notifications (All; refreshed once) and https://x.com/notifications/mentions.
+
+NEW_COUNT=0
+
+Visible reply/mention cards (all older than ~23:44 ET and already handled/known; no new response candidate):
+- @Cobra17298328 — https://x.com/Cobra17298328/status/2105112514090402040 — “I can’t see what this bitch is saying, cause he immediately blocked me” — 1h — known handled.
+- @juneauxwhoitis — https://x.com/juneauxwhoitis/status/2105094896663371987 — “Overflowing with perceptions you are!” — 3h — known handled.
+- @FiresOfTruth — https://x.com/FiresOfTruth/status/2105080875058704611 — “Check the link in my bio to watch a film I made with darcy” — 4h — known/skip.
+- @FiresOfTruth — https://x.com/FiresOfTruth/status/2105074701802651949 — quote card; “Alex B is currently missing. #fishtanklive” — 4h — known/skip.
+- @FiresOfTruth — https://x.com/FiresOfTruth/status/2105073376268345355 — “He’s a human being” — 4h — known/skip.
+- @grok — https://x.com/grok/status/2105068070892912851 — “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the America.gov...” (UI truncates) — 4h — known/skip.
+
+All-tab also showed newer like notifications (e.g. 2m, 27m), excluded per request because they are likes/own-post engagement, not inbound replies/mentions. No login wall or block encountered. No interactions performed.

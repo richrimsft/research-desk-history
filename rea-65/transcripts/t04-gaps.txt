@@ -1,0 +1,14 @@
+$ rea --help | grep -E 'inspect-(go-binary|sqlite-database|pcap-capture|packet-capture|wasm-artifact|rust-binary|electron-fuses)|compare-wasm-interfaces'
+  compare-wasm-interfaces                 Compare core WASM interfaces from two exact inspection Evidence records
+  inspect-electron-fuses                  Inspect packaged Electron fuse bytes without launching the application
+  inspect-go-binary                       Inspect embedded Go compiler, modules and build settings without target execution
+  inspect-packet-capture                  Inspect an existing packet capture with caller-supplied TShark
+  inspect-pcap-capture                    Inspect one pcap/pcapng capture: endpoints, DNS, TLS SNI, and protocol distribution
+  inspect-rust-binary                     Inspect an embedded cargo-auditable Rust dependency list without target execution
+  inspect-sqlite-database                 Inspect SQLite schema and optional ordinary-table rows from a local snapshot
+  inspect-wasm-artifact                   Inspect an explicit local WASM artifact with WABT
+
+$ grep -m1 'version:' ~/.local/lib/node_modules/rea-agents/skills/reverse-engineer-anything/SKILL.md; grep -m1 'version:' /workspace/rea-src/.agents/skills/reverse-engineer-anything/SKILL.md
+  version: "42"
+  version: "42"
+

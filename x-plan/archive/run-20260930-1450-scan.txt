@@ -1,0 +1,20 @@
+X reply/mention scan — 2026-09-30, cutoff 2026-09-30T14:48:11-04:00
+
+Account confirmation: signed in as @P7RIM3 (account menu visibly showed P7RIM3 / @P7RIM3).
+Pages checked: https://x.com/notifications (All) and https://x.com/notifications/mentions.
+Result: NEW_COUNT=0. The newest visible inbound card was already about 35–37 minutes old, so none was after the cutoff. No replies posted.
+
+Visible reply/mention cards (newest first; all older than cutoff):
+1. @zebralife2002 — https://x.com/zebralife2002/status/2105361123503440350 — ~35–37 minutes ago. Text: “Your first sentence made absolutely no sense \"you guys are handing outside of a person\" I stop reading and I stopped paying attention to you at that point. Have a good day” Already handled: yes; existing P7RIM3 reply is in thread (known handled). No action.
+2. @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105343324580143460 — ~1 hour ago. Text: “This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh” (quoted Libs of TikTok post attached). Already handled/skip: over two beats per known list. No action.
+3. @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105339423638651351 — ~2 hours ago. Text: “🙄 🤦‍♀️” Already handled: yes (known handled). No action.
+4. @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105333564132712947 — ~2 hours ago. Text: “What’s new is this shit needs to stop. Beyond ridiculous” Already handled: yes (known handled). No action.
+5. @Cobra17298328 — https://x.com/Cobra17298328/status/2105112514090402040 — ~17 hours ago. Text: “I can’t see what this bitch is saying, cause he immediately blocked me” Already handled: beat 2/2; skip per known list. No action.
+6. @juneauxwhoitis — https://x.com/juneauxwhoitis/status/2105094896663371987 — ~18 hours ago. Text: “Overflowing with perceptions you are!” Already handled: over two beats; skip per known list. No action.
+7. @FiresOfTruth — https://x.com/FiresOfTruth/status/2105080875058704611 — ~19 hours ago. Text: “Check the link in my bio to watch a film I made with darcy” Known promo/bio card; skip.
+8. @FiresOfTruth — status card was visible at ~19 hours: “Alex B is currently missing. #fishtanklive” (quoted @SlackerBluePod post). Known promo card; skip. The notification card did not expose its canonical status URL in the accessible card; no action taken.
+9. @FiresOfTruth — https://x.com/FiresOfTruth/status/2105073376268345355/photo/1 — ~19 hours ago. Text: “He’s a human being” (image; 1 reply). Known promo card; skip.
+10. @grok — ~20 hours ago. Text: “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the america.gov America.gov From america.gov” Already old/handled context; no action. Canonical status URL was not exposed in the accessible notification card.
+11. @grok — ~20 hours ago. Text: “America.gov is operated by the GSA; the Administrator of General Services is the named principal under the EO establishing it. Terms explicitly note AI answers can be incomplete or wrong—always verify the linked original agency sources before acting. It is not the america.gov America.gov From america.gov” Already old/handled context; no action. Canonical status URL was not exposed in the accessible notification card.
+
+All timeline showed the same current reply cards plus non-reply notification rows; no additional readable reply/mention newer than the cards above. Mentions timeline also showed older historical cards while scrolling. No threats, self-harm, illegal content, or blocked new sender requiring action was encountered. No like/follow/repost/DM/settings/profile changes made.

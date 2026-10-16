@@ -1,0 +1,21 @@
+{
+ "symbol": "BDOG",
+ "mint": "G6NnKQTgN7Dmo9yrJXwoqiDm35FznQmQ1qXVFAXPpump",
+ "tag": "0730",
+ "age_h": 3.13,
+ "mc": 11174.52,
+ "dex": "pumpfun",
+ "verdict": "FAIL",
+ "reasons": [
+  "creatorBal 0",
+  "19x 1-5% band on top20 non-pool (222 holders)"
+ ],
+ "rc": "rc-BDOG-0730.json",
+ "score": 1,
+ "creatorBalance": 0,
+ "band_1_5": 19,
+ "top10_ex_pool_pct": 27.07,
+ "totalHolders": 222,
+ "graphInsiders": 0,
+ "risks": []
+}

@@ -1,0 +1,72 @@
+{
+ "too_young": [
+  {
+   "symbol": "VP",
+   "name": "Voxperps",
+   "mint": "3rSfVix6BUoPS8n3fdG1pKdcziRNtxkjpgjJzoUZpump",
+   "mc": 48190,
+   "age_h": 0.15,
+   "h1": 8.33,
+   "m5": -36.4,
+   "h24": 8.33,
+   "buys": 1811,
+   "sells": 1313,
+   "vol_h1": 153195.13,
+   "dex": "pumpswap",
+   "liq": 17728,
+   "url": "https://dexscreener.com/solana/n7xv7q5aw2keaaawew6k6xxsshtfldrtqwciojzr3bd",
+   "pairCreatedAt": 1792153508000
+  },
+  {
+   "symbol": "CAT",
+   "name": "CatCoin",
+   "mint": "9nQNALg2SqBC9HT3e8dEG2EeoFZBBfBmFRoN19xXpump",
+   "mc": 10340.06,
+   "age_h": 0.16,
+   "h1": 142,
+   "m5": -15.44,
+   "h24": 142,
+   "buys": 699,
+   "sells": 502,
+   "vol_h1": 55333.42,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/cnkwkpdazwcqjeemrsa23p5abzjghckmmpbbekz2tq9m",
+   "pairCreatedAt": 1792153493000
+  },
+  {
+   "symbol": "TripleT",
+   "name": "Tesla Trump Tits",
+   "mint": "8TB7iWUaUrtf9BApnESAaRLjTB5Faj7Tm2eGm9Yopump",
+   "mc": 18908.33,
+   "age_h": 0.17,
+   "h1": 424,
+   "m5": 1.27,
+   "h24": 424,
+   "buys": 324,
+   "sells": 211,
+   "vol_h1": 50246.48,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/3sd2xdwzdipfmrnkedj1jbbbdhnrv3wvp9dn3ij9vgrn",
+   "pairCreatedAt": 1792153459000
+  },
+  {
+   "symbol": "FI",
+   "name": "Flying Inu",
+   "mint": "GjuiYGJi3QNtsa9PEsEyvpDwpVxejBQoQrrGRpyFpump",
+   "mc": 52257,
+   "age_h": 0.39,
+   "h1": 19.89,
+   "m5": -6.51,
+   "h24": 19.89,
+   "buys": 3037,
+   "sells": 2343,
+   "vol_h1": 170190.69,
+   "dex": "pumpswap",
+   "liq": 18246.3,
+   "url": "https://dexscreener.com/solana/dck1anxtyh25xxgxwa1kpux6jtayzjjne5glnbh6jisn",
+   "pairCreatedAt": 1792152653000
+  }
+ ]
+}

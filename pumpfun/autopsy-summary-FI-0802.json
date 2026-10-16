@@ -1,0 +1,67 @@
+{
+ "mint": "GjuiYGJi3QNtsa9PEsEyvpDwpVxejBQoQrrGRpyFpump",
+ "symbol": "FI",
+ "mc": 11188,
+ "age_h": 0.06,
+ "dex": "pumpfun",
+ "tag": "young_prescreen",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "creatorBal 0",
+  "13x 1-5% band on 421 holders",
+  "too young (<30m) \u2014 do not buy"
+ ],
+ "rc": "rc-FI-0802.json",
+ "score": 1,
+ "creatorBalance": 0,
+ "creator": "3MgNJG734NLcWmMwx7XCGdJwE3aC4Lr3",
+ "band_1_5": 13,
+ "top10ex_est": 21.81,
+ "excl_high": [
+  [
+   "48BcJaeZKCMQ",
+   33.36433799726047
+  ]
+ ],
+ "totalHolders": 421,
+ "graphInsiders": null,
+ "risks": [],
+ "links_n": 1,
+ "top_holders_sample": [
+  [
+   33.36,
+   "48BcJaeZKCMQ16oU"
+  ],
+  [
+   3.99,
+   "F92gNfE4rVbv8M9d"
+  ],
+  [
+   3.05,
+   "EVeyoUHKaDb2dvYY"
+  ],
+  [
+   2.42,
+   "A8fAuAukroXxGzy9"
+  ],
+  [
+   2.4,
+   "Hjq3AewM7zFGsGp5"
+  ],
+  [
+   2.32,
+   "S8J61WFHL35PfYUg"
+  ],
+  [
+   2.06,
+   "6uMaWnNW7siuoqf5"
+  ],
+  [
+   1.55,
+   "FkM8GFQrvTBroSJC"
+  ]
+ ],
+ "h1": 113,
+ "m5": 113,
+ "liq": null
+}

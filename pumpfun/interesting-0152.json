@@ -1,0 +1,84 @@
+{
+  "strict": [],
+  "new": [],
+  "loose": [
+    {
+      "sym": "DarkStar",
+      "mint": "3vMEBLJAAwx7MaHTmT6Sk5ddZfWXwLmVeBWVUpTapump",
+      "dex": "pumpfun",
+      "mc": 13006,
+      "age": 1.68,
+      "h1": 289,
+      "m5": 25.41,
+      "buys": 402,
+      "sells": 327,
+      "v1": 40062,
+      "prior": true
+    },
+    {
+      "sym": "FLOKI",
+      "mint": "FTbLCDt9XQUF3VnqRikkM3XNnbRMXJUPUtpra51Dpump",
+      "dex": "pumpfun",
+      "mc": 8861,
+      "age": 2.29,
+      "h1": 72.46,
+      "m5": 0.13,
+      "buys": 143,
+      "sells": 95,
+      "v1": 9109,
+      "prior": true
+    },
+    {
+      "sym": "VIMP",
+      "mint": "9HwgyhM3gPP5GNoqeb5SWPiF83qFnMvbhaao75bZpump",
+      "dex": "pumpswap",
+      "mc": 29446,
+      "age": 1.8,
+      "h1": -11.56,
+      "m5": 15.82,
+      "buys": 504,
+      "sells": 380,
+      "v1": 35045,
+      "prior": true
+    },
+    {
+      "sym": "RIZO",
+      "mint": "2AX8GEVb2P6hVBVPVjjb1eSsRdgWVsnopArAt94tpump",
+      "dex": "pumpswap",
+      "mc": 16990,
+      "age": 0.85,
+      "h1": -63.04,
+      "m5": 7.24,
+      "buys": 2526,
+      "sells": 1974,
+      "v1": 270844,
+      "prior": true
+    },
+    {
+      "sym": "SXTR",
+      "mint": "GU3JGZr26TXN6TUhWoMurimGbB4fFFW13774bXEipump",
+      "dex": "pumpswap",
+      "mc": 382905,
+      "age": 1.83,
+      "h1": 18.64,
+      "m5": 12.07,
+      "buys": 4953,
+      "sells": 2960,
+      "v1": 215953,
+      "prior": true
+    },
+    {
+      "sym": "GUILD",
+      "mint": "ABmp7kvhMFXEUvjq9cybBPPbrju8uv8GTQPCDbvLpump",
+      "dex": "pumpfun",
+      "mc": 27390,
+      "age": 1.94,
+      "h1": 1.24,
+      "m5": 5.97,
+      "buys": 80,
+      "sells": 48,
+      "v1": 5021,
+      "prior": true
+    }
+  ]
+}

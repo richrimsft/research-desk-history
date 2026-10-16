@@ -1,0 +1,40 @@
+{
+  "tag": "0603",
+  "symbol": "YERN",
+  "safe": "YERN",
+  "mint": "PdtREY9H6Fp9jVMpG36aywtCgxTtsQZetmehKqgyern",
+  "verdict": "FAIL",
+  "fails": [
+    "creatorBal 0 (creator is fee-share PDA; no dev bag visible)",
+    "19\u00d7 wallets in 1\u20135% band (sniper/distribution pattern) on only 149 holders",
+    "holder 4qFGc44W (2.03%) funded by known cabal 5tzFki\u2026",
+    "X @yerndotfun created 2026-10-14 (24 followers, 10 tweets) \u2014 brand-new"
+  ],
+  "age_h": 0.58,
+  "mc": 16706,
+  "h1": 414,
+  "m5": -8.03,
+  "dexId": "pumpfun",
+  "phase": "pumpfun curve (Printr-config; curve acct holds 38.65% of supply, SOL reserve not readable via lamports)",
+  "creator": "5LfEwgbWR8BuKYNn62zYvM3mQM8ou9c6L4eSXoRFR3uQ",
+  "creatorBal": 0,
+  "creator_wallet": {
+    "creator": "5LfEwgbWR8BuKYNn62zYvM3mQM8ou9c6L4eSXoRFR3uQ",
+    "ntx": 152,
+    "age_h": 0.6,
+    "sol": 0.00585216
+  },
+  "band_1_5": 19,
+  "top10_ex_curve_pct": 23.22,
+  "rugScore": 1,
+  "score_normalised": 1,
+  "risks": [],
+  "graphInsiders": 0,
+  "txh1": {
+    "buys": 213,
+    "sells": 107
+  },
+  "volh1": 19838,
+  "totalHolders": 149,
+  "structure_notes": "3.13 8df8zbEd ntx 1000 age_h 300.1 funder None\n2.95 F43GGGAh ntx 1000 age_h 588.0 funder None\n2.38 rF28YtQj ntx 1000 age_h 596.0 funder None\n2.32 EUU7217B ntx 618 age_h 307.2 funder ('8cqVWWfvqCaK2bdP5aug91EUTXscsMF5d2rGHGDj4PTW', 2.415990925)\n2.17 EeKNznnh ntx 1000 age_h 240.3 funder None\n2.12 Fh3rr6Fm ntx 1000 age_h 433.7 funder None\n2.06 AS4BPcQT ntx 1000 age_h 1292.0 funder ('G6cGwxmPK6zvENJ83zG2YAz9ARkocdx9YxmrBYyB5Kmq', 5.0)\n2.05 DA7RT5Tq ntx 1000 age_h 629.8 funder None\n2.03 4qFGc44W ntx 790 age_h 699.1 funder ('5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9', 0.61666634)\n2.02 7aaiiCG9 ntx 1000 age_h 161.7 funder None\n1.72 G6x5HsD7 ntx 1000 age_h 103.1 funder None\n1.68 6EKPuDPA ntx 1000 age_h 2933.7 funder ('3vS9JYtNWGMNoHNaNYiZsNDeXkTzCUhH9G17YE1Ua53f', 1e-09)\n"
+}

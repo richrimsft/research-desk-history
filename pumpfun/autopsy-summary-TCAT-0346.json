@@ -1,0 +1,44 @@
+{
+  "mint": "34HExr1pEVFWkx99AXVwSBPcy3XmBYKkSyorxPzVpump",
+  "symbol": "TCAT",
+  "name": "Tesla Roadster Cat",
+  "score": 1,
+  "rugged": false,
+  "creator": "4iuW9pArKp9Nbg8AKZKaSzoT35DqRcfDYMF82q2qNahN",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalHolders": 141,
+  "graphInsiders": 0,
+  "top10_ex_curve_pct": 24.06,
+  "band_1_5": 19,
+  "whale_pct": 3.2,
+  "phase": "pumpfun mc~13152 age=1.39h h1=253 m5=6.48 buys=216 curve ~1.0 SOL in bond",
+  "socials": [
+    [
+      "twitter",
+      "https://x.com/josh_sol_degen/status/2110995391487578544"
+    ]
+  ],
+  "mc": 13151.57,
+  "age_h": 1.39,
+  "h1": 253,
+  "m5": 6.48,
+  "buys_h1": 216,
+  "sells_h1": 119,
+  "decision": "FAIL",
+  "reasons": [
+    "creatorBalance 0 (dev sold/out)",
+    "19 wallets in 1-5% band",
+    "no project X (status/empty only); brand-new or near-empty socials"
+  ],
+  "shared_funder": "9vuZEThFbNQAvp64nEWbUq1qbnGAUnW1Ue7bn3tpfDig",
+  "shared_funder_count": 1,
+  "shared_funder_wallets": [
+    [
+      "4u6Mw95CuEmQvayvojnKSDsTLQnns5YQSovpWZQVUoMZ",
+      3.2,
+      4.322379615
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "mint": "8EtQDY7hUddahsbJ8stYYe64ZV9NkGhdrY44Df3npump",
+  "symbol": "Cloudboi",
+  "name": "Cloudboi Coin",
+  "score": 1,
+  "rugged": false,
+  "creator": "9eFPErJ6Hv8dP5UUkbBVSmF9GxKjCsfhzviBnqvsUFez",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalHolders": 455,
+  "graphInsiders": 0,
+  "top10_ex_curve_pct": 20.74,
+  "band_1_5": 19,
+  "phase": "pumpfun mc~14544 age=0.24h h1=240 m5=-8.82 buys=1049",
+  "socials": "none",
+  "mc": 14544.47,
+  "age_h": 0.24,
+  "h1": 240,
+  "m5": -8.82,
+  "buys_h1": 1049,
+  "sells_h1": 732,
+  "decision": "FAIL",
+  "reasons": [
+    "age <30m entry window (0.24h)",
+    "creatorBalance 0 (dev sold/out)",
+    "no project socials",
+    "19 wallets in 1-5% band"
+  ]
+}

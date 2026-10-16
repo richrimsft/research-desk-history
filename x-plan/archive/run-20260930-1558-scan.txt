@@ -1,0 +1,81 @@
+X notification scan
+===================
+Scan time: 2026-09-30 about 15:59-16:00 ET
+Cutoff: 2026-09-30T15:20:13-04:00
+Account: signed in as P7RIM3 (@P7RIM3), confirmed in account menu (Log out @P7RIM3).
+Pages scanned:
+- https://x.com/notifications
+- https://x.com/notifications/mentions
+Screenshots:
+- /workspace/x-plan/run-20260930-1558-notifications.png
+- /workspace/x-plan/run-20260930-1558-mentions.png
+
+Visible inbound reply/mention cards (same seven on Mentions; All also shows likes/follows)
+--------------------------------------------------------------------------------
+1) Display name: Paul Kelly
+   Handle: @zebralife2002
+   Tweet: https://x.com/zebralife2002/status/2105361123503440350
+   Relative time: 1h (2026-09-30T18:16:22.000Z (~14:16 ET))
+   Full text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+   Disposition: SKIP — already handled; existing reply https://x.com/P7RIM3/status/2105362879817925052. Pre-cutoff.
+
+2) Display name: Piper Paprikas #2nd account
+   Handle: @KittyMcfeisty2
+   Tweet: https://x.com/KittyMcfeisty2/status/2105343324580143460
+   Relative time: 2h (2026-09-30T17:05:38.000Z)
+   Full text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh
+   Disposition: SKIP — Kitty thread already at two beats / handled; pre-cutoff.
+
+3) Display name: Piper Paprikas #2nd account
+   Handle: @KittyMcfeisty2
+   Tweet: https://x.com/KittyMcfeisty2/status/2105339423638651351
+   Relative time: 3h (2026-09-30T16:50:08.000Z)
+   Full text: 🙄 🤦‍♀️ (emoji-only; card text truncated to counts)
+   Disposition: SKIP — Kitty thread already at two beats / handled; pre-cutoff.
+
+4) Display name: Piper Paprikas #2nd account
+   Handle: @KittyMcfeisty2
+   Tweet: https://x.com/KittyMcfeisty2/status/2105333564132712947
+   Relative time: 3h (2026-09-30T16:26:51.000Z)
+   Full text: What’s new is this shit needs to stop. Beyond ridiculous
+   Disposition: SKIP — Kitty thread already at two beats / handled; pre-cutoff.
+
+5) Display name: h
+   Handle: @Cobra17298328
+   Tweet: https://x.com/Cobra17298328/status/2105112514090402040
+   Relative time: 18h (2026-09-30T01:48:29.000Z)
+   Full text: I can’t see what this bitch is saying, cause he immediately blocked me
+   Disposition: SKIP — known beat 2 of 2 done; pre-cutoff.
+
+6) Display name: Juneaux
+   Handle: @juneauxwhoitis
+   Tweet: https://x.com/juneauxwhoitis/status/2105094896663371987
+   Relative time: 19h (2026-09-30T00:38:28.000Z)
+   Full text: Overflowing with perceptions you are!
+   Disposition: SKIP — known two-beat thread; pre-cutoff.
+
+7) Display name: spooky
+   Handle: @FiresOfTruth
+   Tweet: https://x.com/FiresOfTruth/status/2105080875058704611
+   Relative time: 20h (2026-09-29T23:42:45.000Z)
+   Full text: Check the link in my bio to watch a film I made with darcy
+   Disposition: SKIP — bio promo; pre-cutoff.
+
+Other visible cards on /notifications (ignored)
+------------------------------------------------------------
+- Debra, 2h: followed you
+- Strange Rain and 8 others, 3h: liked your reply (Cramer)
+- Hidden In Plain Sight and 2 others, 6h: liked your reply (ufology)
+- Quinn Charley, 10h: liked your reply
+- Davidson Robsinson and 7 others, 13h: liked your reply (Kramer)
+- G Reed, 17h: liked your reply (Nvidia/X.ai)
+
+USER_APPROVED re-check
+- Vaibhav reply live: https://x.com/P7RIM3/status/2105039551156662565 (title confirms P7RIM3 reply to @skeptic_vaibhav)
+- Cobra reply live: https://x.com/P7RIM3/status/2105039656379445659 (title confirms P7RIM3 reply to @Cobra17298328)
+
+Result
+------
+NEW_COUNT 0
+No unreplied inbound reply/mention newer than 2026-09-30T15:20:13-04:00. No replies posted. No likes/follows/reposts/bio/pin/settings changes. TRENDING_SKIP extras_full (Explore skipped).
+Raw JSON: /tmp/x-scan-1558-out.json

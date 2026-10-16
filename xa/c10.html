@@ -1,0 +1,16 @@
+<html><head><meta charset="utf-8"></head><body><p>My scanner ran the same two reads on every wallet: closed positions (up to the 1,000 cap), then open positions, counting a price-0 position as a loss and an unredeemed $1 position as a win. Then a small script summarizes it (it reads my scan files, so it's here to show the method; <code>check_wallet.py</code> is the one you can run on any wallet):</p>
+<pre><code class="language-bash">python3 funnel.py
+</code></pre>
+<pre><code class="language-text">wallets scanned ............................ 5,916
+  with 10+ resolved bets ................... 5,350
+'never lose' (raw /closed-positions) ....... 1,808
+'never lose' after counting dead bets ...... 315
+  ...and full history visible (&lt;1,000 cap) . 7
+  ...of those, 95c+ 'penny pickers' ........ 4
+median win rate  raw 85%  -&gt;  corrected 55%
+wallets in profit raw 4,816  -&gt;  corrected 3,888
+'never lose' wallets that flipped .......... 1,493  (hidden losses $560M)
+wallets capped at 1,000 closed rows ........ 2,119
+</code></pre>
+<p>Read that bottom line twice. 2,119 of the 5,350 wallets hit the cap, so for 40% of the wallets with 10+ resolved bets, nobody can tell you their real win rate from this data. Any bot that says it can is reading the cap as a perfect record.</p>
+<h2>11. The "everyone wins" illusion</h2></body></html>

@@ -1,0 +1,28 @@
+X notifications scan — 2026-09-30 19:05 ET
+Cutoff: 2026-09-30T19:03:24-04:00
+
+Signed-in confirmation: Yes. X account menu visibly showed P7RIM3 / @P7RIM3.
+Pages scanned:
+- https://x.com/notifications (All)
+- https://x.com/notifications/mentions (Mentions)
+
+NEW_COUNT: 0
+POSTED_COUNT: 0
+
+Visible reply/mention cards (All):
+1. @SafetyNotorious — https://x.com/SafetyNotorious/status/2105431749333602704 — displayed 8m — text: "P7RIM3 - Retard of the Day" [image/award emoji also shown]. This is a quote-notification of our post, not an inbound reply; older than cutoff based on displayed age; SKIP per quote-not-reply rule and known pre-cutoff skip.
+2. @GilliRoth — https://x.com/GilliRoth/status/2105422493200875658 — displayed 45m — [image-only]. Replying to @P7RIM3 and @cb_doge. Older than cutoff; SKIP, already handled (known reply https://x.com/P7RIM3/status/2105426194468405542).
+
+Other visible All notifications were likes, repost of our reply, or follow; ignored per instructions.
+
+Visible reply/mention cards (Mentions):
+1. @GilliRoth — https://x.com/GilliRoth/status/2105422493200875658 — displayed 45m — [image-only]. Replying to @P7RIM3 and @cb_doge. Older than cutoff; SKIP, already handled (known reply https://x.com/P7RIM3/status/2105426194468405542).
+2. @zebralife2002 — https://x.com/zebralife2002/status/2105361123503440350 — displayed 4h — text: "Your first sentence made absolutely no sense \"you guys are handing outside of a person\" I stop reading and I stopped paying attention to you at that point. Have a good day" Replying to @P7RIM3 and @Brand0n. Older than cutoff; SKIP, already handled (known reply https://x.com/P7RIM3/status/2105362879817925052).
+3. @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105343324580143460 — displayed 5h — text: "This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh" Replying to @P7RIM3 and @KittyMcFeisty; includes quoted @libsoftiktok post. Older than cutoff; SKIP, KittyMcfeisty2 thread has over two beats.
+4. @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105339423638651351 — displayed 6h — [image-only/emoji-only: 🙄 🤦‍♀️]. Replying to @P7RIM3 and @KittyMcFeisty. Older than cutoff; SKIP, KittyMcfeisty2 thread has over two beats.
+
+No visible card was newer than the cutoff. No eligible new unreplied inbound replies/mentions. No replies posted. No threats, self-harm, or illegal-content flags. No likes, follows, reposts, DMs, originals, profile, or settings changes performed.
+
+Screenshots:
+- /workspace/x-plan/run-20260930-1905-notifications.png
+- /workspace/x-plan/run-20260930-1905-mentions.png

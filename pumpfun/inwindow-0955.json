@@ -1,0 +1,38 @@
+[
+ {
+  "symbol": "OPTIMA",
+  "name": "OptimaLabs",
+  "mint": "DdVXE425xZe27FhY41PR8dwfL3VczYdyJJAWDC1jpump",
+  "mc": 171712,
+  "age_h": 2.52,
+  "h1": 34.12,
+  "m5": 11.49,
+  "h24": 302,
+  "buys": 818,
+  "sells": 611,
+  "vol_h1": 75015.48,
+  "dex": "pumpswap",
+  "liq": 35627.56,
+  "url": "https://dexscreener.com/solana/fc7tguyshk8gyhbnggcz26bgsptsuevczhqpynv7truh",
+  "pairCreatedAt": 1792149886000,
+  "tag": "PRIOR"
+ },
+ {
+  "symbol": "BERT",
+  "name": "Tokenmaxxing BERT",
+  "mint": "6bnxDNE7WzGistby4toDe6ezt27myUy2MiCXrk2epump",
+  "mc": 39373,
+  "age_h": 1.03,
+  "h1": 20.9,
+  "m5": 24.43,
+  "h24": -13.62,
+  "buys": 8590,
+  "sells": 6527,
+  "vol_h1": 645981.63,
+  "dex": "pumpswap",
+  "liq": 16825.5,
+  "url": "https://dexscreener.com/solana/f4bkpxmeyy5ax1qz54ngn4kdazgkot6zag2wwjahygxg",
+  "pairCreatedAt": 1792155257000,
+  "tag": "PRIOR"
+ }
+]

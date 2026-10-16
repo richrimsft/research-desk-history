@@ -1,0 +1,142 @@
+[
+{
+"src": "/workspace/rea-65/transcripts/t01-tco.txt",
+"out": "/workspace/rea-65/img/10-term-tco.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 t.co \u2192 release page, published 8:32 AM ET"
+},
+{
+"src": "/workspace/rea-65/transcripts/t02-update.txt",
+"out": "/workspace/rea-65/img/11-term-update.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 npm update to 6.5.0 + git pull"
+},
+{
+"src": "/workspace/rea-65/transcripts/t03-doctor-ghidra.txt",
+"out": "/workspace/rea-65/img/12-term-doctor-ghidra.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 rea doctor --provider ghidra"
+},
+{
+"src": "/workspace/rea-65/transcripts/t04-gaps.txt",
+"out": "/workspace/rea-65/img/13-term-gaps-closed.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 yesterday's missing routes, now in rea --help"
+},
+{
+"src": "/workspace/rea-65/transcripts/t06-js-selected.txt",
+"out": "/workspace/rea-65/img/20-term-js-selected.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 analyze-javascript-application --source-path"
+},
+{
+"src": "/workspace/rea-65/transcripts/t07-js-full.txt",
+"out": "/workspace/rea-65/img/21-term-js-full.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 selected vs full analysis"
+},
+{
+"src": "/workspace/rea-65/transcripts/t08-recover.txt",
+"out": "/workspace/rea-65/img/22-term-recover.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 recover-javascript-sources across webpack chunks"
+},
+{
+"src": "/workspace/rea-65/transcripts/t09-mcp-paged.txt",
+"out": "/workspace/rea-65/img/23-term-mcp-paged.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 MCP session: summary first, then pages"
+},
+{
+"src": "/workspace/rea-65/transcripts/t10-cli-view.txt",
+"out": "/workspace/rea-65/img/24-term-cli-view.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 inspect-analysis-view from the CLI"
+},
+{
+"src": "/workspace/rea-65/transcripts/t11-sqlite.txt",
+"out": "/workspace/rea-65/img/30-term-sqlite.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 inspect-sqlite-database (inventory)"
+},
+{
+"src": "/workspace/rea-65/transcripts/t12-sqlite-rows.txt",
+"out": "/workspace/rea-65/img/31-term-sqlite-rows.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 inspect-sqlite-database (rows)"
+},
+{
+"src": "/workspace/rea-65/transcripts/t13-pcap.txt",
+"out": "/workspace/rea-65/img/32-term-pcap.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 inspect-pcap-capture"
+},
+{
+"src": "/workspace/rea-65/transcripts/t14-packets.txt",
+"out": "/workspace/rea-65/img/33-term-packets.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 inspect-packet-capture (fields, paging, payload)"
+},
+{
+"src": "/workspace/rea-65/transcripts/t15-wasm.txt",
+"out": "/workspace/rea-65/img/34-term-wasm.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 inspect-wasm-artifact (WABT 1.0.42)"
+},
+{
+"src": "/workspace/rea-65/transcripts/t16-wasm-compare.txt",
+"out": "/workspace/rea-65/img/35-term-wasm-compare.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 compare-wasm-interfaces v1 \u2192 v2"
+},
+{
+"src": "/workspace/rea-65/transcripts/t17-go.txt",
+"out": "/workspace/rea-65/img/36-term-go.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 inspect-go-binary"
+},
+{
+"src": "/workspace/rea-65/transcripts/t18-rust.txt",
+"out": "/workspace/rea-65/img/37-term-rust.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 inspect-rust-binary (cargo-auditable)"
+},
+{
+"src": "/workspace/rea-65/transcripts/t19-fuses.txt",
+"out": "/workspace/rea-65/img/38-term-fuses.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 inspect-electron-fuses: stock vs hardened"
+},
+{
+"src": "/workspace/rea-65/transcripts/t20-connector.txt",
+"out": "/workspace/rea-65/img/39-term-connector.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 Grok Bot rea connector on 6.5.0"
+},
+{
+"src": "/workspace/rea-65/transcripts/t30-tool-installs.txt",
+"out": "/workspace/rea-65/img/40-term-tools.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 Android / firmware / .NET tools installed"
+},
+{
+"src": "/workspace/rea-65/transcripts/t31-android.txt",
+"out": "/workspace/rea-65/img/41-term-android.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 inspect-android-package + class search (JADX)"
+},
+{
+"src": "/workspace/rea-65/transcripts/t32-android-method.txt",
+"out": "/workspace/rea-65/img/42-term-android-method.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 inspect-android-method + Apktool + adb"
+},
+{
+"src": "/workspace/rea-65/transcripts/t33-firmware.txt",
+"out": "/workspace/rea-65/img/43-term-firmware.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 Binwalk regions + Unblob extraction"
+},
+{
+"src": "/workspace/rea-65/transcripts/t34-firmware-ghidra.txt",
+"out": "/workspace/rea-65/img/44-term-firmware-ghidra.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 extracted ELF \u2192 Ghidra"
+},
+{
+"src": "/workspace/rea-65/transcripts/t35-dotnet.txt",
+"out": "/workspace/rea-65/img/45-term-dotnet.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 managed .NET inspection"
+},
+{
+"src": "/workspace/rea-65/transcripts/t36-doctor-all.txt",
+"out": "/workspace/rea-65/img/46-term-doctor-all.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 unscoped rea doctor + route clients"
+},
+{
+"src": "/workspace/rea-65/transcripts/t22-snags.txt",
+"out": "/workspace/rea-65/img/50-term-snags.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 real snags from today"
+},
+{
+"src": "/workspace/rea-65/transcripts/t21-stars.txt",
+"out": "/workspace/rea-65/img/51-term-stars.png",
+"title": "box@grokbot: /workspace/re/lab65 \u2014 GitHub API, today"
+}
+]

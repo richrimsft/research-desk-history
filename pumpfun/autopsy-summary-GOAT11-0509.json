@@ -1,0 +1,67 @@
+{
+  "tag": "0509",
+  "symbol": "GOAT11",
+  "safe": "GOAT11",
+  "mint": "GjkMsvYmuFR37SyKnJoD8DwccLb3HKMQBnNe5Nqbpump",
+  "verdict": "FAIL",
+  "fails": [
+    "post-grad chase: pumpswap ~$168\u2013175k only ~40m after launch (pair 04:35 ET); do not chase graduation spikes",
+    "botty volume: ~6.4k buys / 5.2k sells / ~$1.5M vol h1 on ~$170k mc (~9x churn)",
+    "cabal funder 5tzFki\u2026 hits 2 top holders (known from GALAX/POKESQUAD/Dragon)",
+    "X @GOAT11SOL near-empty: 21 followers, 5 tweets (account old but dormant/repurposed)"
+  ],
+  "age_h": 0.669,
+  "mc": 168828,
+  "h1": 292,
+  "m5": 13.51,
+  "dexId": "pumpswap",
+  "phase": "pumpswap/post-grad",
+  "creator": "BEWzEmGUFj33AvebSqUQwnG6Xab4C6Eaz9mxWU9FtP8n",
+  "creatorBal": 449588.812635,
+  "creatorBal_pct": 0.0463,
+  "band_1_5": 3,
+  "top10_ex_curve_pct": 10.61,
+  "socials": {
+    "dex": [
+      {
+        "url": "https://x.com/GOAT11SOL",
+        "type": "twitter"
+      },
+      {
+        "url": "https://t.me/GOAT11SOL",
+        "type": "telegram"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://goat11.top/",
+        "label": "Website"
+      }
+    ]
+  },
+  "rugScore": 1,
+  "score_normalised": 1,
+  "risks": [],
+  "graphInsiders": 0,
+  "cabal_hits": [
+    {
+      "funder": "5tzFki\u2026",
+      "n": 2,
+      "note": "prior GALAX/POKESQUAD/Dragon"
+    }
+  ],
+  "txh1": {
+    "buys": 6413,
+    "sells": 5198
+  },
+  "volh1": 1498914.42,
+  "totalHolders": 1468,
+  "x_account": {
+    "username": "GOAT11SOL",
+    "followers": 21,
+    "tweets": 5,
+    "created": "2014-06-09",
+    "note": "near-empty"
+  },
+  "structure_notes": "creatorBal ~0.05% OK; band_1_5=3 OK; top10_ex_pool~10.6% OK; has X/TG/site URLs but X empty; LP creator still holds unlocked LP ~22%"
+}

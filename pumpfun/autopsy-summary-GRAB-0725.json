@@ -1,0 +1,20 @@
+{
+ "symbol": "GRAB",
+ "mint": "5rB2Z8xPrUGX75mL8Q7BZLjdKFtzaJYHhtPKMazSpump",
+ "tag": "0725",
+ "age_h": 0.41,
+ "mc": 15063,
+ "dex": "pumpfun",
+ "verdict": "FAIL_PRESCREEN_PRIOR",
+ "reasons": [
+  "prior FAIL_PRESCREEN",
+  "creatorBal \u22480",
+  "19x 1-5% band on top20 (109 holders)",
+  "too young (<30m) \u2014 do not buy"
+ ],
+ "rc": "rc-GRAB-0725.json",
+ "score": 1,
+ "creatorBalance": 1,
+ "band_1_5": 19,
+ "totalHolders": 109
+}

@@ -1,0 +1,3 @@
+OSINT is not a new product category. It is looking at what is already public and writing down what it means.
+
+If your “breakthrough” is a page that has been on the Internet Archive for years, you did not discover it. You indexed it.

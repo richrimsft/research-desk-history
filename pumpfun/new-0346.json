@@ -1,0 +1,52 @@
+[
+  {
+    "mint": "34HExr1pEVFWkx99AXVwSBPcy3XmBYKkSyorxPzVpump",
+    "symbol": "TCAT",
+    "name": "Tesla Roadster Cat",
+    "mc": 13899.93,
+    "age_h": 1.35,
+    "h1": 273,
+    "m5": 13.98,
+    "h24": 342,
+    "buys_h1": 214,
+    "sells_h1": 118,
+    "vol_h1": 19693.08,
+    "dexId": "pumpfun",
+    "url": "https://dexscreener.com/solana/eqtlreoez77rkmn2ygwebzvuggqyif4kv9vajjxqjveo",
+    "pairAddress": "EQTLREoEZ77rkmN2YGWEbzvUGGQyif4kv9VAJjXqjveo",
+    "liq": null,
+    "socials": [
+      {
+        "url": "https://x.com/josh_sol_degen/status/2110995391487578544",
+        "type": "twitter"
+      }
+    ],
+    "websites": [],
+    "status": "NEW"
+  },
+  {
+    "mint": "GgmAS6ibUzxNnABcMnGtNiYEdJSP8FiDpa8DqM2Zpump",
+    "symbol": "CatNose",
+    "name": "Tesla Origins",
+    "mc": 11364.7,
+    "age_h": 0.22,
+    "h1": 80.2,
+    "m5": 15.2,
+    "h24": 80.2,
+    "buys_h1": 158,
+    "sells_h1": 93,
+    "vol_h1": 14511.15,
+    "dexId": "pumpfun",
+    "url": "https://dexscreener.com/solana/ehycdsiyltepeyacpmgqd7inkxxxa7xwfuszwzwthi7p",
+    "pairAddress": "EhYCDSiYLTEpeYACPmGQD7inkXxXa7XwfuszwZwTHi7p",
+    "liq": null,
+    "socials": [
+      {
+        "url": "https://x.com/dddddddddBa/status/2110997848997437680",
+        "type": "twitter"
+      }
+    ],
+    "websites": [],
+    "status": "NEW"
+  }
+]

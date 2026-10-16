@@ -1,0 +1,65 @@
+{
+  "symbol": "RL",
+  "name": "Roadster League",
+  "creator": "5UhknMjzFXboCPgtNVhaJGiy7KRYBxYz5AUsaX1LxHeK",
+  "creatorBalance": 0,
+  "score": 1,
+  "risks": [],
+  "graphInsiders": 4,
+  "totalHolders": 241,
+  "top10_ex_curve_pct": 24.17,
+  "top10": [
+    {
+      "pct": 3.2,
+      "owner": "11111111111111111111111111111111",
+      "ui": 0
+    },
+    {
+      "pct": 2.9,
+      "owner": "48bBwziHua9YXm3DHouTrDBUJWjXeegNtHU3eM9T8CYc",
+      "ui": 28988205.461449
+    },
+    {
+      "pct": 2.55,
+      "owner": "5orrqY7iuJ68YNYNFS3aDaoNBAJQCPhaygT5r1dHqGN4",
+      "ui": 25456537.955282
+    },
+    {
+      "pct": 2.5,
+      "owner": "3qGR7kmYJeDTUpE2wJ7utTUq3AXkuzSWR5hiBFJvjLuF",
+      "ui": 24996807.075363
+    },
+    {
+      "pct": 2.37,
+      "owner": "HiTQFV69Ef58dP1eJYtk4EgHGBbw7JtQLYRZGawxUwrD",
+      "ui": 23650971.155033
+    },
+    {
+      "pct": 2.34,
+      "owner": "FnRUeYxNCJyWeAatC8BqZXSsWYYYLcBadebX2n3Aavpp",
+      "ui": 23420078.843097
+    },
+    {
+      "pct": 2.12,
+      "owner": "6MkqQcHN2oWGPDzA5dz8bnsGKvjHtWPd1tunZqgLLWMa",
+      "ui": 21209579.385495
+    },
+    {
+      "pct": 2.08,
+      "owner": "3QeMyX7QFGiUFwn1e3SqVeuXogSxJp3Qb46yFEGpEsQE",
+      "ui": 20767762.665376
+    },
+    {
+      "pct": 2.07,
+      "owner": "78MxomHXLjbm3KAuBVyob71WehZdNqz4c9veLEPKBDQA",
+      "ui": 20688845.775581
+    },
+    {
+      "pct": 2.06,
+      "owner": "42auJGmy2rvCZgiKSYeKLPfs3W88976hqcz3ysjt2e3f",
+      "ui": 20579541.500298
+    }
+  ],
+  "mintAuthority": null,
+  "freezeAuthority": null
+}

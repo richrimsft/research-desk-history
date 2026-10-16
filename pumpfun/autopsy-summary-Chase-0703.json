@@ -1,0 +1,18 @@
+{
+ "tag": "0703",
+ "symbol": "Chase",
+ "mint": "9TXNTWV5v7M3Ch4bBVFNknXJGaJTW2NQDMKkuD3vSLEm",
+ "age_h": 0.27,
+ "mc": 4905511,
+ "h1": 22773,
+ "m5": 16.63,
+ "dexId": "pumpswap",
+ "phase": "too_young_postgrad",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "age 0.27h <30m \u2014 no-buy",
+  "prior 0650: RC score 32839; single holder 99.2%; LP unlocked; post-grad chase",
+  "still mega PumpSwap chase after insane h1 %"
+ ],
+ "note": "reuse rc-Chase-0650.json; not re-fetched"
+}

@@ -1,0 +1,44 @@
+{"where": "trades", "wallet": "0x42811a04202d471323a87c33885677187aff1a5a", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-15T09:28:53-04:00"}
+{"where": "trades", "wallet": "0x62cc44286b3f96ec598bea66f7a3c4068c42e037", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-15T11:08:17-04:00"}
+{"where": "trades", "wallet": "0x1fb5d3ba3e6a72f098fb9cf5fe5e08ff1f4ccabd", "err": "URLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)'))", "ts": "2026-10-15T11:21:46-04:00"}
+{"where": "trades", "wallet": "0x70d43599216fc93cc2573af9e5ebc340613b6491", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-15T11:25:49-04:00"}
+{"where": "trades", "wallet": "0xe21cff72d4004e36d6047e837c198e33fe99b754", "err": "URLError(TimeoutError('timed out'))", "ts": "2026-10-15T11:40:36-04:00"}
+{"where": "trades", "wallet": "0x321e2890cc90f475b25011c76a296f2b6bf99292", "err": "URLError(TimeoutError('timed out'))", "ts": "2026-10-15T11:40:48-04:00"}
+{"where": "trades", "wallet": "0x8326762d2239458020f43876bbd4c6c0a1729361", "err": "TimeoutError('The read operation timed out')", "ts": "2026-10-15T13:16:59-04:00"}
+{"where": "trades", "wallet": "0xfdf17710c572a46e992978d380cd27b1538c7195", "err": "TimeoutError('The read operation timed out')", "ts": "2026-10-15T13:17:26-04:00"}
+{"where": "trades", "wallet": "0x9db721a4551691b8790647806be84d52a1019d83", "err": "URLError(TimeoutError('_ssl.c:1012: The handshake operation timed out'))", "ts": "2026-10-15T14:30:12-04:00"}
+{"where": "trades", "wallet": "0x1fb5d3ba3e6a72f098fb9cf5fe5e08ff1f4ccabd", "err": "URLError(TimeoutError('timed out'))", "ts": "2026-10-15T15:05:35-04:00"}
+{"where": "trades", "wallet": "0x452fd4176ccd6bebe2e34e3b4da0c951bd71f59b", "err": "TimeoutError('The read operation timed out')", "ts": "2026-10-15T16:10:46-04:00"}
+{"where": "trades", "wallet": "0x42811a04202d471323a87c33885677187aff1a5a", "err": "TimeoutError('The read operation timed out')", "ts": "2026-10-15T16:11:25-04:00"}
+{"where": "trades", "wallet": "0x5325d07f2b78a12c1a2f51ee953051f282cdc31d", "err": "TimeoutError('The read operation timed out')", "ts": "2026-10-15T16:11:52-04:00"}
+{"where": "trades", "wallet": "0x1b6022ae41ad7a0b387a88c17885c754436ca55b", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-15T16:34:04-04:00"}
+{"where": "trades", "wallet": "0x28c02ed40fa5b0582d79c13aad81f5e5679aad9a", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-15T16:45:58-04:00"}
+{"where": "trades", "wallet": "0x81938ac7e75b2e463d9547b5bfd563b759198c82", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-15T17:42:30-04:00"}
+{"where": "trades", "wallet": "0x28c02ed40fa5b0582d79c13aad81f5e5679aad9a", "err": "TimeoutError('The read operation timed out')", "ts": "2026-10-15T18:58:44-04:00"}
+{"where": "trades", "wallet": "0xfb038b47ffa7d44836836c7923270bddd5671a23", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-15T19:03:33-04:00"}
+{"where": "trades", "wallet": "0xe57ab8ec1bd537476c1986e9768fbbc2ec99e196", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-15T19:32:32-04:00"}
+{"where": "trades", "wallet": "0xfd39c48d1e5e6214c4a16d2d7f950f4a355b9ec8", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-15T19:38:30-04:00"}
+{"where": "trades", "wallet": "0xf3108f5e30c3f81348e22be5c60cc54f0e41c809", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-15T19:38:41-04:00"}
+{"where": "trades", "wallet": "0x92e11775eb6ab102db0502b0c6192d83b8266d73", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-15T21:02:39-04:00"}
+{"where": "trades", "wallet": "0x8326762d2239458020f43876bbd4c6c0a1729361", "err": "TimeoutError('The read operation timed out')", "ts": "2026-10-15T21:28:55-04:00"}
+{"where": "trades", "wallet": "0x70d43599216fc93cc2573af9e5ebc340613b6491", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-15T23:19:13-04:00"}
+{"where": "trades", "wallet": "0x41089eef56a28358b10dc0de33bd55494869a80d", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T00:00:25-04:00"}
+{"where": "trades", "wallet": "0x81938ac7e75b2e463d9547b5bfd563b759198c82", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T00:32:39-04:00"}
+{"where": "trades", "wallet": "0xadf01f74b5686db836a72fc5be99355fffd4bc52", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T01:39:53-04:00"}
+{"where": "trades", "wallet": "0x691fd030b65f88a73905ba30674bdc839a85877a", "err": "TimeoutError('The read operation timed out')", "ts": "2026-10-16T01:53:06-04:00"}
+{"where": "trades", "wallet": "0x08adfef53c221e3990a900be70119f2915f0208e", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T02:05:24-04:00"}
+{"where": "trades", "wallet": "0x322b2e7c44237c9fed01d534cd1c96687d52aa0c", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T02:31:31-04:00"}
+{"where": "trades", "wallet": "0x5bc2e8bcc5c9c395ac20c23cc3be28fcc1eb3e11", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T04:15:12-04:00"}
+{"where": "trades", "wallet": "0xa2dccd83971d56fb4e7ce45c491a968b29a249f9", "err": "URLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)'))", "ts": "2026-10-16T04:17:59-04:00"}
+{"where": "trades", "wallet": "0x766ad04100f0057799045d9b71cd0fd4f239ae64", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T04:36:01-04:00"}
+{"where": "trades", "wallet": "0x22b5990635a0caa02f8a835499315a7029efcc20", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T04:42:02-04:00"}
+{"where": "trades", "wallet": "0x0b14cac497137dddea6a2b26e94a6bac931e3ca3", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T05:01:07-04:00"}
+{"where": "trades", "wallet": "0x840db70940108f4d68b8565ac865f21a69c045b2", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T05:01:10-04:00"}
+{"where": "trades", "wallet": "0x246b6f2cf1eb3c74ab82b5d7288ef49baeed1196", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T05:12:08-04:00"}
+{"where": "trades", "wallet": "0x58f0985b139469e39ebf1785effbaf45f562185a", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T05:18:02-04:00"}
+{"where": "trades", "wallet": "0xf3108f5e30c3f81348e22be5c60cc54f0e41c809", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T05:18:16-04:00"}
+{"where": "trades", "wallet": "0xcc4279c50a907c73d3b8c1faf993b1d651cf6bd4", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T05:18:21-04:00"}
+{"where": "trades", "wallet": "0xcc4279c50a907c73d3b8c1faf993b1d651cf6bd4", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T05:41:22-04:00"}
+{"where": "trades", "wallet": "0x733b2ffa4ebfd125ee71e8b673bd08273abd7260", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T06:11:06-04:00"}
+{"where": "trades", "wallet": "0xe57ab8ec1bd537476c1986e9768fbbc2ec99e196", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T06:23:07-04:00"}
+{"where": "trades", "wallet": "0xcce2b7c71f21e358b8e5e797e586cbc03160d58b", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-16T06:29:08-04:00"}

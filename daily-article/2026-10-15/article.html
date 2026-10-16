@@ -1,0 +1,334 @@
+<!doctype html><html><head><meta charset='utf-8'><title>1,808 Polymarket wallets never lose. Only 7 hold up.</title><style>@page{size:A4;margin:15mm 14mm}
+body{font-family:'DejaVu Sans',sans-serif;font-size:10.3pt;line-height:1.5;color:#1f2328}
+h1{font-size:21pt;line-height:1.2} h2{font-size:14.5pt;border-bottom:1px solid #d0d7de;padding-bottom:3px;margin-top:22px;page-break-after:avoid}
+figure{margin:8px 0;page-break-inside:avoid;text-align:center} figure img{max-width:100%;max-height:205mm;border:1px solid #d0d7de}
+figcaption{font-size:8.3pt;color:#57606a;margin-top:3px}
+pre{background:#f6f8fa;border:1px solid #d0d7de;padding:8px;font-size:7.9pt;white-space:pre-wrap;word-break:break-all}
+code{font-family:'DejaVu Sans Mono',monospace;font-size:8.6pt;background:#f6f8fa}
+blockquote{border-left:4px solid #d0d7de;margin:8px 0;padding:2px 12px;color:#424a53}
+a{color:#0969da;word-break:break-all}</style></head><body><figure><img src="cover-1500x500.png"/><figcaption>Cover image (1500x500)</figcaption></figure><h1>1,808 Polymarket wallets "never lose." I checked. Only 7 hold up.</h1>
+<p><em>By P7RIM3 (<a href="https://x.com/P7RIM3">@P7RIM3</a>) · Thursday, October 15, 2026 (ET) · paper test, public data only, no money traded</em></p>
+<blockquote>
+<p><strong>How I checked this.</strong> Every number below comes from my own runs on my Grok Bot box against Polymarket's public APIs, or from the linked sources. The wallet scan ran Oct 15, 2026, 2:55 to 4:10 AM ET. The arbitrage and copy-trading simulators were frozen for this article at 10:44 AM ET. Every terminal image shows the exact command and its real output. Web images are real screenshots of the live pages. Charts are drawn straight from those files. Nothing here is financial advice, and I never placed a real order.</p>
+</blockquote>
+<h2>1. The post that keeps going viral</h2>
+<figure><img src="img/h01-hook.png" alt="A copy-paste post claims an AI bot turned $2K into $12K in one night. The video's own frame says DEMO COPY."/><figcaption>A copy-paste post claims an AI bot turned $2K into $12K in one night. The video's own frame says DEMO COPY.</figcaption></figure>
+<p>You've seen it. "I AM QUITTING MY JOB TO GO FULL IN CLAUDE." The AI scanned Polymarket, found the wallets that win, copied them, and "turned $2K into $12K in one night." Then: comment "Claude," like, repost and follow, and they'll DM you the bot.</p>
+<p>I pulled every copy of that exact sentence from X's full-archive search. It's been posted <strong>28 times by 18 accounts</strong> between July 29 and October 13, 2026, for <strong>182,982 views</strong> combined. The "one night" has lasted 11 weeks. Every copy I pulled attaches the same 16.9-second video, and its first frame literally says <strong>"DEMO COPY"</strong>, shows a balance of USD 104,220, and lists a market called "SpaceX Starship orbit 2025?" in a 2026 post.</p>
+<p>Its cousins are everywhere too. A <a href="https://x.com/SimslearnAi/status/2107696709124177935">coffee-shop story</a> claims Claude "scanned 14,000 wallets in 4 minutes. Returned 47." A <a href="https://x.com/monicaa_AI/status/2109111053120610448">67-year-old grandfather</a> supposedly has "168 trades. A claimed 100% win rate." The idea under all of them is the same: some wallets never lose, a bot can find them, and you can copy them.</p>
+<p>So I built it myself, in paper mode, with only public data. I scanned 5,916 wallets, ran a live copy-trader on the "best" ones, and ran a 19-hour hunt for the free-dollar arbitrage these posts love. Here's how to do every step yourself, and what actually came out.</p>
+<h2>2. The short version</h2>
+<figure><img src="img/c01-funnel.png" alt="The funnel from 5,916 wallets to 7 real zero-loss records."/><figcaption>The funnel from 5,916 wallets to 7 real zero-loss records.</figcaption></figure>
+<ul>
+<li><strong>"Never lose" is mostly a data bug.</strong> 1,808 of 5,350 wallets look perfect in Polymarket's closed-positions list. Count the bets that expired worthless and 315 still look perfect. Only 7 of those have a history short enough to fully verify.</li>
+<li><strong>The 7 survivors are nothing to copy.</strong> 4 buy at 95 cents or more and pick up pennies. The other 3 have 13 to 26 bets each.</li>
+<li><strong>The typical wallet is a coin flip.</strong> Median win rate drops from 85% to 55% once losses are counted, and 1,493 "perfect" wallets were hiding about $560M in losses.</li>
+<li><strong>The arbitrage isn't there.</strong> 0 opportunities after fees across 197 five-minute markets. The cheapest pair I ever saw cost $1.0012 for a $1 payout.</li>
+<li><strong>Copying costs you.</strong> My live paper copier paid more than the wallet on 20 of 23 copies of the "top" group, and both groups are red so far (small sample, details below).</li>
+</ul>
+<h2>3. Polymarket in 90 seconds</h2>
+<figure><img src="img/w06-positions.png" alt="Polymarket's own docs: every prediction is an outcome token, and your position is your balance of it."/><figcaption>Polymarket's own docs: every prediction is an outcome token, and your position is your balance of it.</figcaption></figure>
+<p>If you've never used it, here's all you need for this article.</p>
+<ol>
+<li>Every market is a yes/no question, like "Will Bitcoin be up or down at 10:35 AM?" Each side is a token you can buy for between 1 and 99 cents.</li>
+<li>The price is roughly the crowd's probability. A 70-cent "Yes" means the market thinks it's about 70% likely.</li>
+<li>When the market resolves, Polymarket's <a href="https://docs.polymarket.com/concepts/resolution">resolution docs</a> say it plainly: "Winning tokens become redeemable for $1.00 each. Losing tokens become worthless ($0.00)."</li>
+<li>Every trade is public. Anyone can look up any wallet's trades and positions through Polymarket's free <a href="https://data-api.polymarket.com/v2/openapi.json">Data API</a>. That's what every "AI found the winning wallets" post is reading, and it's what I read too.</li>
+</ol>
+<p>Point 3 is the whole story. A winner gets redeemed and becomes a "closed position." A loser is worth $0, so there's nothing to redeem, and it can just sit there.</p>
+<h2>4. Setup: what you need</h2>
+<figure><img src="img/t00-setup.png" alt="My tool versions, plus Polymarket's own geoblock check from my box."/><figcaption>My tool versions, plus Polymarket's own geoblock check from my box.</figcaption></figure>
+<p>You don't need an account, an API key or any money. You need a terminal with three free tools.</p>
+<ol>
+<li><strong>curl</strong> fetches web pages and APIs. It's already on macOS and Linux, and on Windows 10/11 it ships with the system (<code>curl.exe</code>).</li>
+<li><strong>jq</strong> reads JSON. Install it from <a href="https://jqlang.org/">jqlang.org</a> (<code>brew install jq</code> on macOS, <code>sudo apt install jq</code> on Debian/Ubuntu).</li>
+<li><strong>Python 3</strong> runs the two small scripts below. Only the standard library is used, so there's nothing to <code>pip install</code>.</li>
+</ol>
+<p>Run this to confirm everything is there:</p>
+<pre><code class="language-bash">curl --version | head -1; jq --version; python3 --version
+</code></pre>
+<p>Expected output (your versions can differ):</p>
+<pre><code class="language-text">curl 8.14.1 (x86_64-pc-linux-gnu) libcurl/8.14.1 ...
+jq-1.7
+Python 3.13.5
+</code></pre>
+<p>The second command in the screenshot asks Polymarket whether my connection may trade. From a US address the answer is <code>{"blocked":true,"country":"US"}</code>. Reading public data is fine from anywhere; trading on polymarket.com is not (more on that in section 18).</p>
+<h2>5. Step 1: pull the leaderboard</h2>
+<figure><img src="img/t01-leaderboard.png" alt="The top 5 all-time wallets by profit, straight from the public leaderboard."/><figcaption>The top 5 all-time wallets by profit, straight from the public leaderboard.</figcaption></figure>
+<p>Every "I scanned thousands of wallets" post starts here. The leaderboard lists wallets ranked by profit (PNL) or volume (VOL) over a day, week, month or all time.</p>
+<pre><code class="language-bash">curl -s &quot;https://data-api.polymarket.com/v1/leaderboard?timePeriod=ALL&amp;orderBy=PNL&amp;limit=5&quot; \
+  | jq -r '.[] | &quot;#\(.rank)  \(.userName)  \(.proxyWallet[0:10])…  P&amp;L $\(.pnl|floor)&quot;'
+</code></pre>
+<p>Expected output (as of 10:33 AM ET today):</p>
+<pre><code class="language-text">#1  Theo4  0x56687bf4…  P&amp;L $22053933
+#2  swisstony  0x204f72f3…  P&amp;L $18418889
+#3  Fredi9999  0x1f2dd6d4…  P&amp;L $16619506
+</code></pre>
+<p>My scanner did this for all four time periods, both rankings, up to 2,000 deep, which gave 8,254 unique wallets. I added 1,610 more from the latest 10,000 public trades, for 9,864 in total. The API slowed to about half a wallet per second, so I stopped after 5,916, all of them leaderboard wallets. That's already a sample biased toward winners, which only makes the result below more striking.</p>
+<h2>6. Step 2: the raw "never lose" check</h2>
+<figure><img src="img/t02-raw.png" alt="Wallet 0x918b… shows 41 closed bets, 41 wins, 0 losses, and $1.97M profit."/><figcaption>Wallet 0x918b… shows 41 closed bets, 41 wins, 0 losses, and $1.97M profit.</figcaption></figure>
+<p>Now read one wallet's closed positions the way the viral bots do. I'll use wallet <code>0x918b42a06ff25eaaa4a79eca9da6a9de46f4ea63</code>, which came up in my scan.</p>
+<pre><code class="language-bash">W=0x918b42a06ff25eaaa4a79eca9da6a9de46f4ea63
+curl -s &quot;https://data-api.polymarket.com/closed-positions?user=$W&amp;limit=50&quot; \
+  | jq '{closed: length, wins: map(select(.realizedPnl &gt; 0)) | length,
+        losses: map(select(.realizedPnl &lt;= 0)) | length, pnl: (map(.realizedPnl) | add | floor)}'
+</code></pre>
+<p>Expected output:</p>
+<pre><code class="language-json">{
+  &quot;closed&quot;: 41,
+  &quot;wins&quot;: 41,
+  &quot;losses&quot;: 0,
+  &quot;pnl&quot;: 1966144
+}
+</code></pre>
+<p>41 for 41 and almost $2 million in profit. A 100% win rate. This is exactly the wallet a "find wallets that never lose" prompt returns, and exactly the wallet a copy bot would follow. Hold that thought.</p>
+<h2>7. Step 3: find the bets that died</h2>
+<figure><img src="img/k07-deadbets.png" alt="Polymarket's migration guide names the status for still-held losers, and the query that finds 38 of them."/><figcaption>Polymarket's migration guide names the status for still-held losers, and the query that finds 38 of them.</figcaption></figure>
+<p>Polymarket's own <a href="https://docs.polymarket.com/migrate/data-api-v1-to-v2">Data API v1 to v2 migration guide</a> tells you where the losers are. The new <code>/v2/positions</code> route has a status filter, and <em>"<code>REDEEMABLE_LOST</code> narrows to still-held losing positions."</em> The same page warns that <strong>Data API v1 is retired on October 24, 2026</strong>, so new tools should use v2.</p>
+<pre><code class="language-bash">curl -s &quot;https://data-api.polymarket.com/v2/positions?user=$W&amp;status=REDEEMABLE_LOST&amp;limit=100&quot; \
+  | jq '{dead_bets: (.data | length), dead_pnl: (.data | map(.total_pnl) | add | floor), next: .pagination.next_cursor}'
+</code></pre>
+<p>Expected output:</p>
+<pre><code class="language-json">{
+  &quot;dead_bets&quot;: 38,
+  &quot;dead_pnl&quot;: -1616813,
+  &quot;next&quot;: null
+}
+</code></pre>
+<p>There they are: <strong>38 losing bets worth -$1.62M</strong> (v2's <code>total_pnl</code> includes entry fees). The "41-0" wallet is really 41-38. Its real all-time realized profit, from the same API:</p>
+<pre><code class="language-bash">curl -s &quot;https://data-api.polymarket.com/v2/user-stats?user=$W&quot; | jq '.data.all_time_pnl | {realized_pnl, fees_paid, volume_usdc}'
+</code></pre>
+<pre><code class="language-json">{
+  &quot;realized_pnl&quot;: 349331.516196,
+  &quot;fees_paid&quot;: -54474.41835,
+  &quot;volume_usdc&quot;: 3543944.933222
+}
+</code></pre>
+<p>So $349K, not $1.97M. Still a good result for this wallet. It's just not a wallet that never loses. It wins about half the time with big sizes.</p>
+<p>If <code>next</code> isn't <code>null</code>, the wallet has more than 100 dead bets. Repeat the call with <code>&amp;cursor=&lt;that value&gt;</code> until it is.</p>
+<h2>8. See it in Polymarket's own app</h2>
+<figure><img src="img/k08-ui.png" alt="The same wallet on polymarket.com: the Closed tab is all wins, the 0-cent losers sit under Active."/><figcaption>The same wallet on polymarket.com: the Closed tab is all wins, the 0-cent losers sit under Active.</figcaption></figure>
+<p>You don't have to trust my terminal. Open the wallet's public profile at <a href="https://polymarket.com/profile/0x918b42a06ff25eaaa4a79eca9da6a9de46f4ea63">polymarket.com/profile/0x918b…</a> (from the US, click "Continue in view only mode").</p>
+<ol>
+<li>Click <strong>Closed</strong>. It's "Won, Won, Won" all the way down. That's the list the viral bots read.</li>
+<li>Click <strong>Active</strong>. The losers are there, priced at 0 cents and marked -100%. They count as "active" because nobody bothers to redeem a worthless token.</li>
+<li>Look at <strong>Total PnL</strong>. It says +$403.8K, which matches the API's trade P&amp;L. The $1.97M "profit" from the closed list never existed.</li>
+</ol>
+<h2>9. Step 4: one script that checks any wallet</h2>
+<figure><img src="img/t03-check.png" alt="check_wallet.py on two &quot;perfect&quot; wallets: 1,000-0 becomes 1,000-28, and 41-0 becomes 41-38."/><figcaption>check_wallet.py on two &quot;perfect&quot; wallets: 1,000-0 becomes 1,000-28, and 41-0 becomes 41-38.</figcaption></figure>
+<p>Here's the whole check in one file. Save it as <code>check_wallet.py</code>. It only reads public data.</p>
+<pre><code class="language-python">#!/usr/bin/env python3
+&quot;&quot;&quot;check_wallet.py: does this Polymarket wallet really &quot;never lose&quot;? Public data only, no keys.
+Usage: python3 check_wallet.py 0xWALLET&quot;&quot;&quot;
+import json, sys, urllib.request
+API = &quot;https://data-api.polymarket.com&quot;
+def get(path):
+    req = urllib.request.Request(API + path, headers={&quot;user-agent&quot;: &quot;wallet-check&quot;})
+    with urllib.request.urlopen(req, timeout=20) as r: return json.load(r)
+w = sys.argv[1].lower()
+closed = []                                   # 1) what the &quot;never lose&quot; posts read
+for off in range(0, 1000, 50):
+    page = get(f&quot;/closed-positions?user={w}&amp;limit=50&amp;offset={off}&quot;)
+    closed += page
+    if len(page) &lt; 50: break
+wins = sum(p[&quot;realizedPnl&quot;] &gt; 0 for p in closed); losses = len(closed) - wins
+print(f&quot;RAW  /closed-positions : {len(closed)} closed, {wins} wins, {losses} losses&quot;
+      + (&quot;  (hit the 1,000 cap: older history is invisible)&quot; if len(closed) &gt;= 1000 else &quot;&quot;))
+opn = []                                      # 2) where the dead bets sit
+for off in range(0, 2000, 500):
+    page = get(f&quot;/positions?user={w}&amp;limit=500&amp;offset={off}&amp;sizeThreshold=0&quot;)
+    opn += page
+    if len(page) &lt; 500: break
+dead = [p for p in opn if p[&quot;curPrice&quot;] &lt;= 0.001 and (p[&quot;redeemable&quot;] or p[&quot;curPrice&quot;] == 0)]
+unred = [p for p in opn if p[&quot;redeemable&quot;] and p[&quot;curPrice&quot;] &gt;= 0.999]
+print(f&quot;     /positions        : {len(opn)} open rows, {len(dead)} expired worthless (price 0), &quot;
+      f&quot;{len(unred)} unredeemed winners&quot;)
+print(f&quot;     dead-bet P&amp;L      : ${sum(p['cashPnl'] for p in dead):,.0f}&quot;)
+W, L = wins + len(unred), losses + len(dead)
+print(f&quot;REAL record            : {W} wins, {L} losses -&gt; win rate {100*W/max(W+L,1):.1f}%&quot;
+      f&quot;  (raw said {100*wins/max(len(closed),1):.1f}%)&quot;)
+worst = sorted(dead, key=lambda p: p[&quot;cashPnl&quot;])[:3]
+for p in worst: print(f&quot;     worst dead bet    : ${p['cashPnl']:,.0f}  {p['title'][:60]} ({p['outcome']})&quot;)
+</code></pre>
+<p>Run it:</p>
+<pre><code class="language-bash">python3 check_wallet.py 0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e
+</code></pre>
+<p>Expected output (Oct 15, 10:31 AM ET):</p>
+<pre><code class="language-text">RAW  /closed-positions : 1000 closed, 1000 wins, 0 losses  (hit the 1,000 cap: older history is invisible)
+     /positions        : 39 open rows, 28 expired worthless (price 0), 0 unredeemed winners
+     dead-bet P&amp;L      : $-2,144,086
+REAL record            : 1000 wins, 28 losses -&gt; win rate 97.3%  (raw said 100.0%)
+</code></pre>
+<p>Two things to notice. First, a "1,000 wins, 0 losses" wallet is hiding 28 dead bets worth -$2.14M, including one Counter-Strike bet that lost $337,071. Second, that wallet hit the <strong>1,000-row cap</strong>. The closed list stops at 1,000 rows sorted by profit, so you literally can't see its older or smaller results. Any "win rate" for a wallet like that is unknowable from this endpoint, in either direction.</p>
+<p>This script uses the v1 routes, which work until Polymarket retires them on October 24, 2026. After that, swap in the v2 calls from step 3.</p>
+<h2>10. Step 5: run it on 5,916 wallets</h2>
+<figure><img src="img/t06-funnel.png" alt="funnel.py: the raw and corrected numbers for the whole scan."/><figcaption>funnel.py: the raw and corrected numbers for the whole scan.</figcaption></figure>
+<p>My scanner ran the same two reads on every wallet: closed positions (up to the 1,000 cap), then open positions, counting a price-0 position as a loss and an unredeemed $1 position as a win. Then a small script summarizes it (it reads my scan files, so it's here to show the method; <code>check_wallet.py</code> is the one you can run on any wallet):</p>
+<pre><code class="language-bash">python3 funnel.py
+</code></pre>
+<pre><code class="language-text">wallets scanned ............................ 5,916
+  with 10+ resolved bets ................... 5,350
+'never lose' (raw /closed-positions) ....... 1,808
+'never lose' after counting dead bets ...... 315
+  ...and full history visible (&lt;1,000 cap) . 7
+  ...of those, 95c+ 'penny pickers' ........ 4
+median win rate  raw 85%  -&gt;  corrected 55%
+wallets in profit raw 4,816  -&gt;  corrected 3,888
+'never lose' wallets that flipped .......... 1,493  (hidden losses $560M)
+wallets capped at 1,000 closed rows ........ 2,119
+</code></pre>
+<p>Read that bottom line twice. 2,119 of the 5,350 wallets hit the cap, so for 40% of the wallets with 10+ resolved bets, nobody can tell you their real win rate from this data. Any bot that says it can is reading the cap as a perfect record.</p>
+<h2>11. The "everyone wins" illusion</h2>
+<figure><img src="img/c02-winrate.png" alt="Win rates for 5,350 wallets, raw versus corrected. The spike at 100% is the trap."/><figcaption>Win rates for 5,350 wallets, raw versus corrected. The spike at 100% is the trap.</figcaption></figure>
+<p>This chart is the whole hype cycle in one picture. In red, the raw data: a giant spike at 100%, as if a third of Polymarket's top traders never miss. In blue, the same wallets with dead bets counted: a hump around 50%, which is what you'd expect from people betting on mostly fair prices.</p>
+<p>The median win rate goes from 85% to 55%. The number of wallets in profit drops from 4,816 to 3,888. Nobody got worse at trading between the two bars. The only thing that changed is that the losses became visible.</p>
+<h2>12. Where $560M of losses hide</h2>
+<figure><img src="img/c03-hidden.png" alt="Ten &quot;1,000-0&quot; wallets whose real records include hundreds of losses."/><figcaption>Ten &quot;1,000-0&quot; wallets whose real records include hundreds of losses.</figcaption></figure>
+<p>Of the 1,808 raw "never lose" wallets, 1,493 flipped once the dead bets were counted. Together they were hiding about <strong>$560 million</strong> in losing positions.</p>
+<p>The chart shows the 10 biggest. Look at the labels. Wallets that read "1000-0" turn out to be 1000-921, 1000-1090, 1000-1997. One shows $19.8M of profit in the raw data and is actually <strong>down $6.9M</strong> once its dead bets count. The 1,997 figure is itself a floor, since my scanner stopped reading open positions at 2,000 rows.</p>
+<p>If you asked an AI to "find wallets with a 70%+ win rate" and it read the closed list, these are the wallets it handed you.</p>
+<h2>13. The 7 that survive</h2>
+<figure><img src="img/c04-survivors.png" alt="Left: the 7 zero-loss wallets with complete history. Right: why buying at 95 cents isn't a strategy."/><figcaption>Left: the 7 zero-loss wallets with complete history. Right: why buying at 95 cents isn't a strategy.</figcaption></figure>
+<p>So who are the 7 wallets with zero losses and a fully visible history?</p>
+<ul>
+<li><strong>4 are "penny pickers."</strong> They buy outcomes at about 99 cents on average, when the result is nearly decided, and collect about a penny per share. The biggest has 301 bets and $5,921 of profit.</li>
+<li><strong>1 more averages 91 cents</strong> per winning bet, same idea, 26 bets, $2,982.</li>
+<li><strong>2 have 13 and 14 bets.</strong> Profits of $16,629 and $6,346. That's a good run, not a track record.</li>
+</ul>
+<p>The right side is the arithmetic. At 95 cents, a win earns 5 cents and a loss costs 95, so you need 19 wins to pay for one loss. At 99 cents you need 99. That's why the grandfather post's "100% win rate" targets "contracts priced at 87 to 92 cents": by this math, one miss at 90 cents erases 9 wins. A perfect record at those prices doesn't mean skill. It means the first loss hasn't happened yet.</p>
+<h2>14. Step 6: run the viral prompt on real data</h2>
+<figure><img src="img/t09-viral.png" alt="The coffee-shop prompt, run on my 5,916-wallet scan: 2,974 hits, and half of them fail once losses count."/><figcaption>The coffee-shop prompt, run on my 5,916-wallet scan: 2,974 hits, and half of them fail once losses count.</figcaption></figure>
+<p>The coffee-shop post gives its exact prompt: <em>"Find wallets with 100+ trades and 70%+ win rate. Rank by profit. Export the best ones."</em> It claims Claude scanned 14,000 wallets in 4 minutes and returned 47. I ran that filter on my data.</p>
+<pre><code class="language-bash">python3 viral_prompt.py
+</code></pre>
+<pre><code class="language-text">RAW       100+ resolved &amp; 70%+ win rate: 2,974 wallets (median win rate 100%)
+CORRECTED 100+ resolved &amp; 70%+ win rate: 1,528 wallets
+  dropped below 70% once dead bets count: 1,448 of 2,974
+  of the survivors, history capped at 1,000 rows (unverifiable): 1,145
+Top 20 by RAW profit -&gt; corrected:
+  raw profit $860.8M  -&gt;  corrected $679.0M;  raw win rate 98% -&gt; 64% (average)
+</code></pre>
+<p>On raw data that filter doesn't return 47 wallets out of 14,000. It returns 2,974 out of 5,916, with a median win rate of 100%. Half of them fall under 70% once dead bets count, and most of the rest are capped, so they can't be checked at all. The "top 20" lose about $182M of their profit and drop from a 98% to a 64% average win rate.</p>
+<p>Also, 4 minutes for 14,000 wallets is about 58 wallets a second. Polymarket's API slowed my scanner to roughly half a wallet per second, and my copier logged a "429 Too Many Requests" (section 23).</p>
+<h2>15. The other claim: "arbitrage bots"</h2>
+<figure><img src="img/k13-fees.png" alt="Polymarket's fee docs (left) and a live 5-minute Bitcoin market (right)."/><figcaption>Polymarket's fee docs (left) and a live 5-minute Bitcoin market (right).</figcaption></figure>
+<p>The $2K-to-$12K post says the bot copies "arbitrage" wallets. The classic Polymarket arbitrage is the <strong>complete set</strong>: buy one "Up" and one "Down" share in the same market. Exactly one pays $1 at the end. If both together cost less than $1, the difference is free money.</p>
+<p>The catch is fees. Polymarket's <a href="https://docs.polymarket.com/trading/fees">fee docs</a> give the formula <code>fee = C × feeRate × p × (1 - p)</code>, where C is the number of shares and p is the price. Crypto markets use a taker rate of 0.07. At 50 cents per side, that's 0.07 × 0.5 × 0.5 = 1.75 cents per share, or 3.5 cents for the pair. So a 50/50 pair has to be priced under about 96.5 cents before fees just to break even.</p>
+<p>The busiest arbitrage playground is the 5-minute "Bitcoin Up or Down" market, which resolves every 5 minutes, all day.</p>
+<h2>16. Step 7: check for a free dollar yourself</h2>
+<figure><img src="img/t05-arb.png" alt="arb_check.py on the live 10:30 AM markets: every pair costs more than its $1 payout."/><figcaption>arb_check.py on the live 10:30 AM markets: every pair costs more than its $1 payout.</figcaption></figure>
+<p>Save this as <code>arb_check.py</code>. It finds the current 5-minute BTC and ETH markets, reads the best ask on each side five times, adds the market's own fee schedule, and tells you whether the pair costs less than $1.</p>
+<pre><code class="language-python">#!/usr/bin/env python3
+&quot;&quot;&quot;arb_check.py: is there a free dollar in Polymarket's 5-minute BTC/ETH Up/Down markets right now?
+Buys 1 Up + 1 Down at the best asks. One of them pays $1 at the end. Public data only.&quot;&quot;&quot;
+import json, time, urllib.request
+def get(url, data=None):
+    req = urllib.request.Request(url, data=json.dumps(data).encode() if data else None,
+                                 headers={&quot;content-type&quot;: &quot;application/json&quot;, &quot;user-agent&quot;: &quot;arb-check&quot;})
+    with urllib.request.urlopen(req, timeout=10) as r: return json.load(r)
+w = int(time.time()) // 300 * 300
+for coin in (&quot;btc&quot;, &quot;eth&quot;):
+    m = get(f&quot;https://gamma-api.polymarket.com/markets?slug={coin}-updown-5m-{w}&quot;)[0]
+    fs = m[&quot;feeSchedule&quot;]; up, dn = json.loads(m[&quot;clobTokenIds&quot;])
+    print(m[&quot;question&quot;], &quot;| fee:&quot;, fs)
+    for i in range(5):
+        books = {b[&quot;asset_id&quot;]: b for b in get(&quot;https://clob.polymarket.com/books&quot;, [{&quot;token_id&quot;: up}, {&quot;token_id&quot;: dn}])}
+        a = [min(float(x[&quot;price&quot;]) for x in books[t][&quot;asks&quot;]) for t in (up, dn)]
+        fee = sum(fs[&quot;rate&quot;] * (p * (1 - p)) ** fs[&quot;exponent&quot;] for p in a)   # docs: fee = rate x p(1-p) per share
+        tot = a[0] + a[1] + fee
+        print(f&quot;  Up {a[0]:.3f} + Down {a[1]:.3f} = {a[0]+a[1]:.3f}  + taker fees {fee:.4f}  = ${tot:.4f}  -&gt; &quot;
+              + (&quot;ARB: profit %.2fc/set&quot; % ((1-tot)*100) if tot &lt; 1 else &quot;no arb (costs more than the $1 payout)&quot;))
+        time.sleep(2)
+</code></pre>
+<pre><code class="language-bash">python3 arb_check.py
+</code></pre>
+<p>Expected output (10:31 AM ET, near the end of a 5-minute window):</p>
+<pre><code class="language-text">Bitcoin Up or Down - October 15, 10:30AM-10:35AM ET | fee: {'exponent': 1, 'rate': 0.07, 'takerOnly': True, 'rebateRate': 0.2}
+  Up 0.050 + Down 0.960 = 1.010  + taker fees 0.0060  = $1.0160  -&gt; no arb (costs more than the $1 payout)
+</code></pre>
+<p>One snapshot proves nothing, so I left a simulator watching every market for 19 hours.</p>
+<h2>17. Step 8: 19 hours, 197 markets, zero free dollars</h2>
+<figure><img src="img/k15-arb.png" alt="Every 5-minute market's cheapest moment, before and after fees, plus the backtest output."/><figcaption>Every 5-minute market's cheapest moment, before and after fees, plus the backtest output.</figcaption></figure>
+<p>My paper simulator has polled both order books every second since Oct 14 at 3:07 PM ET. When the pair plus fees drops under $1, it waits a simulated 300 to 500 milliseconds (a realistic delay), checks the book again, and "buys" up to $9 of matched pairs.</p>
+<p>Here's what it recorded for the 197 markets it completed between Oct 14, 3:25 PM and Oct 15, 10:40 AM ET:</p>
+<ol>
+<li><strong>Opportunities after fees: 0.</strong> Not one moment where Up + Down + fees cost under $1.</li>
+<li><strong>Cheapest pair ever seen:</strong> $0.970 before fees, $1.0012 after fees.</li>
+<li><strong>Typical pair:</strong> the median of each market's median was $1.010 before fees. The book is built to cost a penny more than it pays.</li>
+<li><strong>Best-case backtest:</strong> I also gave it perfect, zero-delay fills at the single best moment of every market, with the first 70% of markets as in-sample and the last 30% held out. With real fees: 0 hits at every margin. With <strong>no fees at all</strong> (a fantasy), 4 tiny hits worth $0.30 in total.</li>
+<li><strong>Live paper result:</strong> $100.00 of $100.00 cash. Zero fills.</li>
+</ol>
+<pre><code class="language-bash">python3 backtest_polymarket.py
+</code></pre>
+<pre><code class="language-text">markets=197 in-sample=137 held-out=60  (2026-10-14T15:25 .. 2026-10-15T10:40 ET)
+lowest raw sum 0.97 lowest after fees 1.0012
+real taker fees      margin 0    : IS hits/$ (0, 0)  HO hits/$ (0, 0)
+ZERO fees (fantasy)  margin 0    : IS hits/$ (2, 0.2)  HO hits/$ (2, 0.1)
+</code></pre>
+<p>I can't rule out gaps faster than one second, but if they exist they belong to the market makers sitting closest to the exchange, not to a Telegram copy bot.</p>
+<h2>18. Is this even legal where you live?</h2>
+<figure><img src="img/k18-legal.png" alt="New York's lawsuit against Polymarket US (left), and polymarket.com blocking a US visitor (right)."/><figcaption>New York's lawsuit against Polymarket US (left), and polymarket.com blocking a US visitor (right).</figcaption></figure>
+<p>Before anyone buys a "bot," know where they're allowed to trade.</p>
+<ol>
+<li><strong>polymarket.com blocks US users from trading.</strong> From my US connection the site shows "Trading is blocked in the United States on polymarket.com. Switch to polymarket.us to trade prediction markets."</li>
+<li><strong>Polymarket US is under a New York lawsuit.</strong> On September 24, 2026, New York's Attorney General and Governor <a href="https://ag.ny.gov/press-release/2026/attorney-general-james-and-governor-hochul-announce-lawsuit-against-polymarket">announced a lawsuit</a> against QCX LLC d/b/a Polymarket US, calling it an illegal gambling operation. Polymarket moved the case to <a href="https://dockets.justia.com/docket/new-york/nysdce/1:2026cv08338/673503">federal court</a> the same day and filed <a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.673553/gov.uscourts.nysd.673553.1.0.pdf">its own suit</a> arguing that federal law under the CFTC overrides New York's gambling rules. It's still in court.</li>
+</ol>
+<p>None of the viral posts mention any of this. They also gloss over the setup. The post says it copies "using TG copytrading bot" and the video frame shows a t.me link. Before you connect any Telegram bot to real money, ask who controls the wallet it trades from.</p>
+<h2>19. Step 9: what happens when you actually copy</h2>
+<figure><img src="img/t08-summary.png" alt="Both paper simulators, live status at 10:44 AM ET."/><figcaption>Both paper simulators, live status at 10:44 AM ET.</figcaption></figure>
+<p>Finding "good" wallets is half the pitch. Copying them is the other half. So I built a paper copy-trader with two groups of 50 wallets each:</p>
+<ul>
+<li><strong>Top group:</strong> wallets with 30+ resolved bets, profit, a 70%+ win rate after counting dead bets, not penny pickers, and an uncapped history, ranked by profit per dollar bet (the top 50 of 181 eligible).</li>
+<li><strong>Random group:</strong> 50 random wallets with 30+ resolved bets, as a luck baseline.</li>
+</ul>
+<p>Every 60 seconds it checks each wallet's public trades. When one buys, it waits 3 to 10 seconds, then buys up to $5 at the real order-book asks plus the taker fee, with a $100 paper bankroll per group. It copies their sells too. It started Oct 15 at 4:11 AM ET.</p>
+<pre><code class="language-text">[top] copies 23 (skipped 13); closed 5: 1 won / 4 lost (20% win); realized P&amp;L $-10.96; cash $0.00 + open cost $89.04 (13 pos)
+[random] copies 37 (skipped 1589); closed 13: 6 won / 7 lost (46% win); realized P&amp;L $-61.04; cash $0.00 + open cost $38.96 (6 pos)
+</code></pre>
+<p>This is about 6.5 hours of data, so the profit numbers are noise. I'm not calling a winner. The prices tell the story, though.</p>
+<h2>20. What copying really costs</h2>
+<figure><img src="img/c06-copy.png" alt="Price the wallet paid versus what my copy paid, and realized P&amp;L so far."/><figcaption>Price the wallet paid versus what my copy paid, and realized P&amp;L so far.</figcaption></figure>
+<p>Three things showed up right away.</p>
+<ol>
+<li><strong>You're late.</strong> The median gap between a wallet's trade and my copy was 2.3 minutes. That's what you get from public data polled every minute, and public trades are all a copy bot can see.</li>
+<li><strong>You pay more.</strong> On 20 of 23 copies of the top group, my price was higher than the wallet's. The median copy paid 4.8 cents more per share, on a median entry price of 40 cents.</li>
+<li><strong>"Cheaper" can be worse.</strong> 14 copies across both groups bought a token for under 6 cents that the wallet had paid more than 8 cents for. That isn't a bargain. In a 5-minute market it means the outcome was already nearly decided against it. Those 14 copies cost $60.84.</li>
+</ol>
+<p>The ugliest example: at 4:18 AM one random-group wallet fired off 15 trades on both sides of the same 5-minute Bitcoin market. My copier followed all 15 within 5 seconds, spending $75 of the $100. It bought "Up" at 2 to 5 cents (the wallet had paid 9 to 51) and "Down" at 97 to 99 cents. "Up" went to zero. That one market cost about $39. Copying a two-sided bot means buying its hedges at worse prices, after the fact.</p>
+<h2>21. Hype check: the template, not the trader</h2>
+<figure><img src="img/c07-template.png" alt="28 identical posts, 18 accounts: the timeline of the $2K-to-$12K post."/><figcaption>28 identical posts, 18 accounts: the timeline of the $2K-to-$12K post.</figcaption></figure>
+<p>I'm not calling anyone a scammer. I'm showing you a template. Here's what the posts claim versus what the data says:</p>
+<ul>
+<li><strong>"Turned $2K into $12K in one night."</strong> Posted 28 times over 11 weeks by 18 accounts. Its own video frame says "DEMO COPY."</li>
+<li><strong>"Find wallets with a 70%+ win rate."</strong> On Polymarket's raw data, half of the wallets that pass fail once dead bets are counted, and 40% can't be verified at all because of the 1,000-row cap.</li>
+<li><strong>"Claude scanned 14,000 wallets in 4 minutes."</strong> That's about 58 wallets a second. Polymarket's API slowed me to roughly 0.5 a second.</li>
+<li><strong>"Never gambling, just math."</strong> The math: 0 arbitrage opportunities in 197 markets after fees, and copies landing 4.8 cents worse than the wallet on a typical trade.</li>
+<li><strong>"100% win rate" at 87 to 92 cents.</strong> At 90 cents, one loss wipes out 9 wins.</li>
+<li><strong>"Comment, like, repost, follow so I can DM you."</strong> That's how you farm reach, not how you share a working edge.</li>
+</ul>
+<p>If a bot really printed money from public data, it wouldn't need your follow.</p>
+<h2>22. How to check any "never lose" wallet in 2 minutes</h2>
+<figure><img src="img/w07-profile-closed.png" alt="The same wallet's Closed tab: if this is all you're shown, you're being shown half the record."/><figcaption>The same wallet's Closed tab: if this is all you're shown, you're being shown half the record.</figcaption></figure>
+<p>Next time someone posts a "perfect" wallet, do this before you believe it.</p>
+<ol>
+<li><strong>Get the address.</strong> No address, no claim. Polymarket is public, so a real record is checkable.</li>
+<li><strong>Run the dead-bet query from step 3</strong> (or <code>check_wallet.py</code>). If <code>dead_bets</code> is more than zero, the record isn't perfect.</li>
+<li><strong>Check for the cap.</strong> 1,000 closed rows means you're looking at the 1,000 most profitable results only.</li>
+<li><strong>Look at the entry prices.</strong> Mostly 90 cents and up means penny picking. One loss will undo weeks.</li>
+<li><strong>Count the bets.</strong> Under 100 resolved bets is a streak, not a track record.</li>
+<li><strong>Compare with Total PnL.</strong> Open the profile. If the claimed profit is far above Total PnL, the claim came from the closed list.</li>
+<li><strong>Ask what it costs to copy.</strong> You'll be minutes late and a few cents worse on every trade.</li>
+</ol>
+<h2>23. What I didn't test, and how this could be wrong</h2>
+<figure><img src="img/t10-limits.png" alt="The scan's own logs: rate limits, timeouts, and where I stopped."/><figcaption>The scan's own logs: rate limits, timeouts, and where I stopped.</figcaption></figure>
+<p>To be straight about the limits:</p>
+<ul>
+<li><strong>The scan stopped early.</strong> 5,916 of 9,864 wallets, nearly all from the leaderboard, so wallets that only showed up in recent trades are mostly missing.</li>
+<li><strong>Some counts are floors.</strong> My scanner read at most 1,000 closed and 2,000 open positions per wallet, so the biggest wallets' loss counts are lower bounds.</li>
+<li><strong>The copy test is young.</strong> About 6.5 hours of live copying is noise for P&amp;L. The delay and price numbers are the solid part, and the simulator keeps running.</li>
+<li><strong>No real orders.</strong> Paper fills assume I'd get the asks I saw. Real fills would only be worse (queue position, other copiers). Gas and deposit/withdrawal costs are ignored.</li>
+<li><strong>The arb sim sees once per second.</strong> Sub-second gaps could exist, but they'd go to faster bots, not to you.</li>
+</ul>
+<p>The full scripts and raw files are on my box, and every command above runs against the same public endpoints, so you can reproduce any number here yourself.</p>
+<p><strong>Sources:</strong> <a href="https://docs.polymarket.com/trading/fees">Polymarket fees</a> · <a href="https://docs.polymarket.com/migrate/data-api-v1-to-v2">Data API v1 to v2 migration</a> · <a href="https://docs.polymarket.com/concepts/positions-tokens">Positions &amp; Tokens</a> · <a href="https://docs.polymarket.com/concepts/resolution">Resolution</a> · <a href="https://data-api.polymarket.com/v2/openapi.json">Data API v2 OpenAPI spec</a> · <a href="https://ag.ny.gov/press-release/2026/attorney-general-james-and-governor-hochul-announce-lawsuit-against-polymarket">NY AG lawsuit, Sep 24, 2026</a> · <a href="https://dockets.justia.com/docket/new-york/nysdce/1:2026cv08338/673503">Polymarket's removal to federal court</a> · <a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.673553/gov.uscourts.nysd.673553.1.0.pdf">Polymarket US v. James complaint</a> · <a href="https://x.com/tec_marco10/status/2100593238885503066">the $2K-to-$12K post, most-viewed copy</a> · <a href="https://x.com/ZayvenKnox/status/2082378741075071482">its earliest copy, Jul 29</a> · <a href="https://x.com/SimslearnAi/status/2107696709124177935">the coffee-shop post</a> · <a href="https://x.com/monicaa_AI/status/2109111053120610448">the grandfather post</a> · <a href="https://jqlang.org/">jq</a></p>
+<p>So here's the question for everyone selling these bots: if your wallets never lose, why does Polymarket's own app show their losses?</p></body></html>

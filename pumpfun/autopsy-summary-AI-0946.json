@@ -1,0 +1,32 @@
+{
+  "tag": "0946",
+  "symbol": "AI",
+  "mint": "GX1JGwFmrzgkv6MBjwZZdZt3qBcWi1d5ZuAUS3KFpump",
+  "age_h": 0.08,
+  "mc": 47389,
+  "h1": 10.54,
+  "m5": 31.64,
+  "dex": "pumpswap",
+  "phase": "too_young",
+  "verdict": "FAIL",
+  "reasons": [
+    "age 0.08h <30m \u2014 no-buy by narrative-age",
+    "creatorBalance 0 / sold out",
+    "graphInsiders=4"
+  ],
+  "rc_score": 1,
+  "top10ex_pct": 22.48,
+  "lp_pct_guess": 20.16,
+  "band_1_5_count": 16,
+  "max_identical_0.1": 3,
+  "identical_band_val": 1.5,
+  "tight_2.3_2.5_count": 1,
+  "creator": "4v9uPGeHMooSQiL2rV1LeN4qN5Li5c1TNCh6JmkvBuu6",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "graphInsiders": 4,
+  "totalHolders": 1159,
+  "risks": [],
+  "meta_name": "American Inu"
+}

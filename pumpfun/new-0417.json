@@ -1,0 +1,47 @@
+[
+  {
+    "symbol": "LULU",
+    "mint": "8DQzWohFEMWruKUC5G2hEgBcs4bhJ1y7oJuyxZHpump",
+    "dex": "pumpfun",
+    "mc": 22922.59,
+    "age_h": 0.46,
+    "h1": 667,
+    "m5": -0.14,
+    "buys": 98,
+    "sells": 42,
+    "v1": 22973.59,
+    "name": "LULU INU",
+    "url": "https://dexscreener.com/solana/7ishgr9cwlxz5xpg9kjy7cb1duntaty1a9zurgwqqueo",
+    "prior": false
+  },
+  {
+    "symbol": "Dragon",
+    "mint": "9gG2evdn4HgPCzyJkeUSFLei5Z4XBba3nSNPqczwpump",
+    "dex": "pumpfun",
+    "mc": 14751.34,
+    "age_h": 0.54,
+    "h1": 179,
+    "m5": 92.29,
+    "buys": 830,
+    "sells": 583,
+    "v1": 59719.77,
+    "name": "SpaceX Dragon ",
+    "url": "https://dexscreener.com/solana/aw8njhyt8lguf6cedlunxgbq3idruzjhd1mcdq41c1x",
+    "prior": false
+  },
+  {
+    "symbol": "BUDDY",
+    "mint": "BULfSqtuj5HQLxQTGDQ2AXZ4x7a7uXLTuK4qGoTGpump",
+    "dex": "pumpfun",
+    "mc": 11288.2,
+    "age_h": 0.1,
+    "h1": 165,
+    "m5": -18.43,
+    "buys": 860,
+    "sells": 491,
+    "v1": 62330.78,
+    "name": "Little Earth Buddy",
+    "url": "https://dexscreener.com/solana/kzgjef4g49kvezff5baxkj84konmlf43uauy8cpdhay",
+    "prior": false
+  }
+]

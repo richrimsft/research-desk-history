@@ -1,0 +1,3 @@
+<!doctype html><meta charset=utf-8><body><p>The logic in plain English: the input must be exactly <strong>12</strong> characters (<code>0xc</code>), and for each position <code>input[i] XOR 0x2A</code> must equal byte <code>i</code> of a data array at <strong><code>0x102008</code></strong>. That's a classic XOR-obfuscated secret, and <code>0x102008</code> is 9 bytes before the prompt string at <code>0x102011</code>. That's where the stray <code>IAY</code> came from.</p>
+<p>Here's the same function in the Ghidra GUI, from my earlier manual walkthrough of this binary, for comparison:</p>
+<h2>Step 5: read the exact bytes</h2></body>

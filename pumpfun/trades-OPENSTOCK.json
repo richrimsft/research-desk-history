@@ -1,0 +1,1 @@
+{"statusCode":400,"timestamp":"2026-10-16T05:24:50.896Z","path":"/trades/all/8PxCMUrX7pKMm5mA8q2j5YNdMYF9v9fsKv71kwsmpump?limit=100&offset=0&minimumSize=0","message":["chainId must match /^(solana:[1-9A-HJ-NP-Za-km-z]{32}|eip155:[0-9]{1,20})$|^hlcore:(mainnet|testnet)$|^ton:-239$/ regular expression"],"error":"Bad Request"}

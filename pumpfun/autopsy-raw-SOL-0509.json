@@ -1,0 +1,204 @@
+{
+  "summary": {
+    "tag": "0509",
+    "symbol": "SOL",
+    "safe": "SOL",
+    "mint": "2ezhap3jauQous1ZxS4LDq6cXv7NrDLQbziVkbSTpump",
+    "verdict": "FAIL",
+    "fails": [
+      "age ~0.1h <<30m",
+      "creatorBal 0",
+      "copycat: name \"tesla\" / symbol \"SOL\"",
+      "RugCheck: Creator history of rugged tokens (danger); single holder ~51%; high concentration",
+      "only 3 totalHolders; tiny organic activity (9 buys/5 sells h1)",
+      "no socials"
+    ],
+    "age_h": 0.138,
+    "mc": 15010.18,
+    "h1": 266,
+    "m5": 266,
+    "dexId": "pumpfun",
+    "phase": "curve",
+    "creator": "9BXEDSbvnr8KZ72E7drx75oWeTjYBeWgKT9EkBJBh8KR",
+    "creatorBal": 0.0,
+    "creatorBal_pct": 0.0,
+    "band_1_5": 0,
+    "top10_ex_curve_pct": 51.09,
+    "socials": {
+      "dex": null,
+      "websites": null
+    },
+    "rugScore": 30119,
+    "score_normalised": 65,
+    "risks": [
+      [
+        "Creator history of rugged tokens",
+        "danger",
+        24000
+      ],
+      [
+        "Single holder ownership",
+        "danger",
+        5108
+      ],
+      [
+        "High holder concentration",
+        "warn",
+        1010
+      ]
+    ],
+    "graphInsiders": 0,
+    "cabal_hits": [],
+    "txh1": {
+      "buys": 9,
+      "sells": 5
+    },
+    "volh1": 537.42,
+    "totalHolders": 3,
+    "name": "tesla",
+    "creatorTokens_n": 10
+  },
+  "rugcheck_excerpt": {
+    "mint": "2ezhap3jauQous1ZxS4LDq6cXv7NrDLQbziVkbSTpump",
+    "creator": "9BXEDSbvnr8KZ72E7drx75oWeTjYBeWgKT9EkBJBh8KR",
+    "creatorBalance": 0,
+    "score": 30119,
+    "graphInsidersDetected": 0,
+    "rugged": false,
+    "tokenMeta": {
+      "name": "tesla",
+      "symbol": "SOL",
+      "uri": "https://ipfs.io/ipfs/QmRSppffAwjLL2aUcRG82KPFSxiM2h2cD9gD6Hv4awpJ1c",
+      "mutable": false,
+      "updateAuthority": "11111111111111111111111111111111"
+    },
+    "fileMeta": {
+      "description": "",
+      "name": "tesla",
+      "symbol": "SOL",
+      "image": ""
+    },
+    "totalHolders": 3,
+    "risks": [
+      {
+        "name": "Creator history of rugged tokens",
+        "value": "",
+        "description": "Creator has a history of rugging tokens.",
+        "score": 24000,
+        "level": "danger"
+      },
+      {
+        "name": "Single holder ownership",
+        "value": "51.09%",
+        "description": "One user holds a large amount of the token supply",
+        "score": 5108,
+        "level": "danger"
+      },
+      {
+        "name": "High holder concentration",
+        "value": "",
+        "description": "The top 10 users hold more than 50% token supply",
+        "score": 1010,
+        "level": "warn"
+      }
+    ]
+  },
+  "topHolders": [
+    {
+      "address": "EQcjBM8i2RmRYSmiQ645RQCiquGHti6mU9Tt4VL27MmE",
+      "amount": 1021708933866798,
+      "decimals": 6,
+      "pct": 51.0854466933399,
+      "uiAmount": 1021708933.866798,
+      "uiAmountString": "1021708933.866798",
+      "owner": "BwWK17cbHxwWBKZkUYvzxLcNQ1YVyaFezduWbtm2de6s",
+      "insider": false
+    },
+    {
+      "address": "Ca2aKdsxT13iyHQ29PsK7exdtc7SFXafbcFuAzS1npat",
+      "amount": 978291066133202,
+      "decimals": 6,
+      "pct": 48.9145533066601,
+      "uiAmount": 978291066.133202,
+      "uiAmountString": "978291066.133202",
+      "owner": "7aZnujj2UXsd83fkLkPmEHD1HaJVXZ9RJv1aFgVHMYh3",
+      "insider": false
+    },
+    {
+      "address": "EoxRobXqzLBiXUWPei2ppYXj8RYKdSRPioFxJitDPftn",
+      "amount": 0,
+      "decimals": 6,
+      "pct": 0,
+      "uiAmount": 0,
+      "uiAmountString": "0",
+      "owner": "Ben1Njm8QSVy9CaTFU1zBwDYJak84EnMRHZpD3kUwLAU",
+      "insider": false
+    }
+  ],
+  "funders": {
+    "7aZnujj2UXsd83fkLkPmEHD1HaJVXZ9RJv1aFgVHMYh3": {
+      "pct": 48.91,
+      "ntx": 15,
+      "oldest": 1792141647,
+      "funder": null
+    },
+    "Ben1Njm8QSVy9CaTFU1zBwDYJak84EnMRHZpD3kUwLAU": {
+      "pct": 0,
+      "ntx": 1000,
+      "oldest": 1791522996,
+      "funder": null
+    }
+  },
+  "dex_pair": {
+    "chainId": "solana",
+    "dexId": "pumpfun",
+    "url": "https://dexscreener.com/solana/7aznujj2uxsd83fklkpmehd1hajvxz9rjv1afgvhmyh3",
+    "pairAddress": "7aZnujj2UXsd83fkLkPmEHD1HaJVXZ9RJv1aFgVHMYh3",
+    "baseToken": {
+      "address": "2ezhap3jauQous1ZxS4LDq6cXv7NrDLQbziVkbSTpump",
+      "name": "tesla",
+      "symbol": "SOL"
+    },
+    "quoteToken": {
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "name": "USD Coin",
+      "symbol": "USDC"
+    },
+    "priceNative": "0.00001501",
+    "priceUsd": "0.00001501",
+    "txns": {
+      "m5": {
+        "buys": 9,
+        "sells": 5
+      },
+      "h1": {
+        "buys": 9,
+        "sells": 5
+      },
+      "h6": {
+        "buys": 9,
+        "sells": 5
+      },
+      "h24": {
+        "buys": 9,
+        "sells": 5
+      }
+    },
+    "volume": {
+      "h24": 537.42,
+      "h6": 537.42,
+      "h1": 537.42,
+      "m5": 537.42
+    },
+    "priceChange": {
+      "m5": 266,
+      "h1": 266,
+      "h6": 266,
+      "h24": 266
+    },
+    "fdv": 15010.18,
+    "marketCap": 15010.18,
+    "pairCreatedAt": 1792141647000
+  },
+  "pf_coin_note": "frontend-api-v3 /coins/{mint} returned 404 this run (same as 0501); used RugCheck+Dex for creator/socials"
+}

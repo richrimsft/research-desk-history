@@ -1,0 +1,1 @@
+My tool versions, plus Polymarket's own geoblock check from my box.

@@ -1,0 +1,28 @@
+X notification scan — 2026-09-30 19:42 ET
+Account: @P7RIM3 (signed in confirmed in account menu)
+Cutoff: 2026-09-30T19:39:45-04:00
+Scope: All and Mentions notification timelines; no originals posted.
+NEW_COUNT: 0
+
+Visible reply/mention cards — All
+- @stonkspark | https://x.com/stonkspark/status/2105435508927005103 | 30m | "on it" | SKIP — already handled; existing reply is https://x.com/P7RIM3/status/2105435757142028442.
+- @SafetyNotorious | https://x.com/SafetyNotorious/status/2105431749333602704 | 45m | "P7RIM3 - Retard of the Day 🏆" (quote of @P7RIM3) | SKIP — quote-only slur card; do not engage.
+- @GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | 1h | image-only reply (replying to @P7RIM3 and @cb_doge) | SKIP — already handled; existing reply is https://x.com/P7RIM3/status/2105426194468405542.
+
+Visible reply/mention cards — Mentions
+- @stonkspark | https://x.com/stonkspark/status/2105435508927005103 | 31m | "on it" | SKIP — already handled.
+- @GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | 1h | image-only reply to @P7RIM3 and @cb_doge | SKIP — already handled.
+- @zebralife2002 | https://x.com/zebralife2002/status/2105361123503440350 | 5h | "Your first sentence made absolutely no sense \"you guys are handing outside of a person\" I stop reading and I stopped paying attention to you at that point. Have a good day" | SKIP — already handled.
+- @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105343324580143460 | 6h | "This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh" (quote included) | SKIP — known Kitty thread already over two beats.
+- @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105339423638651351 | 6h | "🙄 🤦‍♀️" | SKIP — known Kitty thread already over two beats.
+- @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105333564132712947 | 7h | "What’s new is this shit needs to stop. Beyond ridiculous" | SKIP — known Kitty thread already over two beats.
+- @Cobra17298328 | https://x.com/Cobra17298328/status/2105112514090402040 | 21h | "I can’t see what this bitch is saying, cause he immediately blocked me" | SKIP — old/already handled; contains abusive wording, no reply added.
+- @juneauxwhoitis | URL not exposed in the notification card | 23h | "Overflowing with perceptions you are!" | SKIP — old; prior conversation already has 2 replies.
+- @FiresOfTruth | https://x.com/FiresOfTruth/status/2105080875058704611 | 23h | "Check the link in my bio to watch a film I made with darcy" | SKIP — old promotional/spam-like reply.
+- @FiresOfTruth | URL not exposed in the notification card | Sep 29 | quote-only of @SlackerBluePod: "Alex B is currently missing. #fishtanklive" | SKIP — old quote-only card; no engagement.
+- @FiresOfTruth | URL not exposed in the notification card | Sep 29 | "He’s a human being" | SKIP — old/already handled.
+
+Other visible All notifications were likes/reposts of existing replies, not new reply/mention cards; no action taken.
+
+Flags: No threats, self-harm, or illegal-content cards observed. The only slur card was @SafetyNotorious's quote-only card and was skipped as instructed.
+Posts/replies made this run: none. Originals made: none.

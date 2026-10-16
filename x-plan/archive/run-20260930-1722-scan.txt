@@ -1,0 +1,18 @@
+time: 2026-09-30T17:25:09-04:00
+cutoff: 2026-09-30T17:18:28-04:00
+signed_in: confirmed sidebar shows P7RIM3 @P7RIM3.
+NEW_COUNT: 0
+
+Visible reply/mention cards (all displayed ages before cutoff; no new unreplied inbound):
+1. @zebralife2002 — https://x.com/zebralife2002/status/2105361123503440350 — "Your first sentence made absolutely no sense \\"you guys are handing outside of a person\\" I stop reading and I stopped paying attention to you at that point. Have a good day" — displayed 3h — skip_already_handled; already replied at https://x.com/P7RIM3/status/2105362879817925052.
+2. @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105343324580143460 — "This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh" — displayed 4h — skip_over_two_beats; known two-beat thread.
+3. @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105339423638651351 — "🙄 🤦‍♀️" — displayed 4h — skip_over_two_beats; known two-beat thread.
+4. @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105333564132712947 — "What’s new is this shit needs to stop. Beyond ridiculous" — displayed 4h — skip_over_two_beats; known two-beat thread.
+5. @Cobra17298328 — https://x.com/Cobra17298328/status/2105112514090402040 — "I can’t see what this bitch is saying, cause he immediately blocked me" — displayed 19h — skip_already_handled; older than cutoff, beat 2 of 2 already handled. The blocking mentioned was by a third party, not @P7RIM3.
+6. @juneauxwhoitis — https://x.com/juneauxwhoitis/status/2105094896663371987 — "Overflowing with perceptions you are!" — displayed 20h — skip_over_two_beats; known two-beat thread.
+7. @FiresOfTruth — https://x.com/FiresOfTruth/status/2105080875058704611 — "Check the link in my bio to watch a film I made with darcy" — displayed 21h — skip_known_promo; sales/promo bio link.
+
+POSTED replies: none.
+Flags: none for threats, self-harm, or illegal content.
+Trending: skipped; extras full at 3/3 today. No original posted.
+Screenshots: /workspace/x-plan/run-20260930-1722-notifications.png ; /workspace/x-plan/run-20260930-1722-mentions.png

@@ -1,0 +1,8 @@
+[
+{"url":"https://docs.polymarket.com/trading/fees","out":"/workspace/daily-article/2026-10-15/img/w01-fees.png","wait":2500},
+{"url":"https://docs.polymarket.com/migrate/data-api-v1-to-v2","out":"/workspace/daily-article/2026-10-15/img/w02-v2-lost.png","text":"Position lifecycle","wait":2500},
+{"url":"https://polymarket.com/profile/0x918b42a06ff25eaaa4a79eca9da6a9de46f4ea63","out":"/workspace/daily-article/2026-10-15/img/w03-profile.png","wait":5000},
+{"url":"https://ag.ny.gov/press-release/2026/attorney-general-james-and-governor-hochul-announce-lawsuit-against-polymarket","out":"/workspace/daily-article/2026-10-15/img/w04-nyag.png","wait":3000},
+{"url":"https://polymarket.com/event/btc-updown-5m-1792075200","out":"/workspace/daily-article/2026-10-15/img/w05-btc5m.png","wait":6000},
+{"url":"https://docs.polymarket.com/concepts/positions-tokens","out":"/workspace/daily-article/2026-10-15/img/w06-positions.png","wait":2500}
+]

@@ -1,0 +1,11 @@
+$ python3 backtest_polymarket.py
+markets=197 in-sample=137 held-out=60  (2026-10-14T15:25 .. 2026-10-15T10:40 ET)
+lowest raw sum 0.97 lowest after fees 1.0012
+real taker fees      margin 0    : IS hits/$ (0, 0)  HO hits/$ (0, 0)
+real taker fees      margin 0.005: IS hits/$ (0, 0)  HO hits/$ (0, 0)
+real taker fees      margin 0.01 : IS hits/$ (0, 0)  HO hits/$ (0, 0)
+real taker fees      margin 0.02 : IS hits/$ (0, 0)  HO hits/$ (0, 0)
+ZERO fees (fantasy)  margin 0    : IS hits/$ (2, 0.2)  HO hits/$ (2, 0.1)
+ZERO fees (fantasy)  margin 0.005: IS hits/$ (2, 0.2)  HO hits/$ (2, 0.1)
+ZERO fees (fantasy)  margin 0.01 : IS hits/$ (1, 0.15)  HO hits/$ (0, 0)
+ZERO fees (fantasy)  margin 0.02 : IS hits/$ (1, 0.15)  HO hits/$ (0, 0)

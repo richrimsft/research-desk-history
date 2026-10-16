@@ -1,0 +1,24 @@
+$ node /workspace/rea-65/tools/mcp.mjs /workspace/rea-65/tools/mcp-steps-paged.json notes/mcp-paged.json
+
+$ jq -r '.[0].serverInfo, (.[1] | "tools/list: \(.count) tools; new ones: \(.match|join(", "))")' notes/mcp-paged.json
+{
+  "name": "rea",
+  "version": "6.5.0"
+}
+tools/list: 207 tools; new ones: inspect_packet_capture, inspect_packet_fields, inspect_analysis_view, inspect_go_binary, inspect_rust_binary, compare_wasm_interfaces, inspect_wasm_artifact, inspect_sqlite_database, inspect_pcap_client, inspect_pcap_capture, inspect_electron_fuses
+
+$ jq -c '.[2:10][] | {call: .step, args: (.arguments.view // .arguments.detail), coverage: (.result.normalized_result.coverage | {examined, total, next_offset, exhausted})}' notes/mcp-paged.json
+{"call":"analyze_javascript_application","args":"summary","coverage":{"examined":7,"total":10,"next_offset":null,"exhausted":true}}
+{"call":"inspect_analysis_view","args":{"kind":"page","collection":"modules","offset":0,"limit":2},"coverage":{"examined":2,"total":7,"next_offset":2,"exhausted":false}}
+{"call":"inspect_wasm_artifact","args":"summary","coverage":{"examined":11,"total":11,"next_offset":null,"exhausted":true}}
+{"call":"inspect_analysis_view","args":{"kind":"wasm","facet":"exports","offset":0,"limit":2},"coverage":{"examined":2,"total":3,"next_offset":2,"exhausted":false}}
+{"call":"inspect_analysis_view","args":{"kind":"wasm","facet":"exports","offset":2,"limit":2},"coverage":{"examined":1,"total":3,"next_offset":null,"exhausted":true}}
+{"call":"inspect_pcap_capture","args":"summary","coverage":{"examined":1,"total":1,"next_offset":null,"exhausted":true}}
+{"call":"inspect_analysis_view","args":{"kind":"pcap","facet":"dns-queries","offset":0,"limit":20},"coverage":{"examined":2,"total":2,"next_offset":null,"exhausted":true}}
+{"call":"inspect_analysis_view","args":{"kind":"pcap","facet":"tls-sni","offset":0,"limit":20},"coverage":{"examined":1,"total":1,"next_offset":null,"exhausted":true}}
+
+$ jq -c '.[3].result.normalized_result.items[] | {kind, path}' notes/mcp-paged.json; jq -c '.[8].result.normalized_result.page.items' notes/mcp-paged.json
+{"kind":"javascript-module","path":"chunks/checkout-C55LDPC2.js"}
+{"kind":"javascript-asset","path":"chunks/checkout-C55LDPC2.js"}
+[{"query":"app.example.com","response_address_count":1,"retained_response_address_count":1},{"query":"api.example.org","response_address_count":1,"retained_response_address_count":1}]
+

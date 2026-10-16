@@ -1,0 +1,28 @@
+X notifications scan — 2026-09-30 7:01 PM ET
+Cutoff: 2026-09-30T18:50:44-04:00 (about 6:50 PM ET)
+Signed-in account: @P7RIM3 (P7RIM3, verified)
+NEW_COUNT: 0
+
+No inbound reply/mention card newer than the cutoff was found. The only notification newer than the cutoff was a quote of an @P7RIM3 post by @SafetyNotorious; it was not an inbound reply/mention and was skipped.
+
+ALL tab — visible reply/mention cards
+@GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | 41m (6:20 PM) | [image-only] | already_handled_known
+  Replying to @P7RIM3 and @cb_doge. Known handled by https://x.com/P7RIM3/status/2105426194468405542. Not newer than cutoff.
+
+MENTIONS tab — visible reply/mention cards
+@GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | 41m (6:20 PM) | [image-only] | already_handled_known
+  Replying to @P7RIM3 and @cb_doge. Duplicate of the All-tab card; known handled by https://x.com/P7RIM3/status/2105426194468405542. Not newer than cutoff.
+@zebralife2002 | https://x.com/zebralife2002/status/2105361123503440350 | 4h | Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day | already_handled_known
+  Replying to @P7RIM3, @Brand0n, and 2 others. Known replied. Not newer than cutoff.
+@KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105343324580143460 | 5h | This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh | over_two_beats
+  Replying to @P7RIM3 and @KittyMcFeisty. Known over two beats. Not newer than cutoff.
+@KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105339423638651351 | 6h | 🙄 🤦‍♀️ | over_two_beats
+  Replying to @P7RIM3 and @KittyMcFeisty. Known over two beats. Not newer than cutoff.
+
+Ignored non-reply notifications visible on All: @SafetyNotorious quote https://x.com/SafetyNotorious/status/2105431749333602704 (4m; “P7RIM3 - Retard of the Day 🏆”, quoting our own post; skip); @mariam_wayman32 liked your reply (24m); @Elonmusk183737 reposted your reply (32m); @yagirl liked your reply (53m); @wojsick and 3 others liked your reply (2h); @satoshigoy followed you (2h).
+
+Recent-post check
+- 0HOUR1 thread https://x.com/P7RIM3/status/2105418372653404402: visible continuation is our own 2/–4/ thread posts; no external reply needing an answer was visible.
+- GilliRoth image reply https://x.com/GilliRoth/status/2105422493200875658: one reply is our already-posted https://x.com/P7RIM3/status/2105426194468405542; no further inbound reply needing an answer was visible.
+
+Known handles not visible as new after cutoff: @zebralife2002, @KittyMcfeisty2, @Cobra17298328, @juneauxwhoitis, @FiresOfTruth, @GilliRoth. Blocked @skunkbutters and @RyanILoveYouSo were not acted on.

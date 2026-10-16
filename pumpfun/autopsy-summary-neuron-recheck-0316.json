@@ -1,0 +1,13 @@
+{
+  "mint": "3d2LndChut5d4pvzfFDMG8Tg9qDqY6hv7Je4S3o7pump",
+  "symbol": "neuron",
+  "recheck": "0316",
+  "mc": 9216,
+  "age_h": 0.9,
+  "h1": 204,
+  "decision": "FAIL \u2014 prior stands / below floor",
+  "reasons": [
+    "mc ~$9.2k below $10k floor (out of strict window)",
+    "creatorBal 0 / no socials / 1-5% band from prior"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "sym": "123456",
+  "mint": "hps4Xy4goXuV9zxdTAuF35tN58Gpks8Ho5zX529pump",
+  "verdict": "REJECT",
+  "why": "PRIOR reject stands + worse: creatorBalance 0; RC Low Liquidity ~$133 (post-grad crash); score 2867. Numeric still passes on Dex curve print but book is dead.",
+  "score": 2867,
+  "creatorBalance": 0,
+  "totalMarketLiquidity": 2098.59800386929,
+  "graphInsidersDetected": 0,
+  "risks": [
+    "Low Liquidity"
+  ],
+  "mc_dex": 43220.5,
+  "age_h": 0.87,
+  "h1": 1276,
+  "tx1h": "354b/182s",
+  "dex": "pumpfun"
+}

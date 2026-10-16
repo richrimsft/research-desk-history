@@ -1,0 +1,33 @@
+Last night OpenAI dropped 722 math papers on GitHub in one go. Not a paper. Not ten. Seven hundred and twenty two.
+
+My timeline has spent the day telling me AI solved the Riemann Hypothesis and knocked out 4 of the 7 Millennium Prize problems. It didn't. What it actually did is more interesting, and a lot messier.
+
+Credit first, because some of this is real.
+
+OpenAI announced it (https://x.com/OpenAI/status/2107596713791767021) at 6:19pm ET Tuesday and put everything in a public repo at github.com/openai/math (https://github.com/openai/math). 722 manuscripts, grouped into 372 results, from an internal model nobody outside the company can use yet. They say they threw about 4,000 problems at it, and each result took around 3 hours of ChatGPT Pro level thinking on average.
+
+Some of these come with Lean proofs. Lean is software that checks every logical step of a proof, so a Lean-checked result is about as close to "definitely true" as math gets. The catalogue (https://github.com/openai/math/blob/main/CONTENTS.md) shows Lean proofs for a zero-free region for the zeta function past 7/8, the irrationality exponent of pi being exactly 2, and Catalan's constant being irrational. If those hold up, that's a career's worth of work for a lot of people. I'm not going to pretend that's nothing.
+
+Now the parts nobody in the hype posts is mentioning.
+
+**It didn't solve Riemann.** The Riemann Hypothesis says the zeros sit on the 1/2 line. The 7/8 result says there are no zeros past 7/8. That's a real step, and OpenAI calls it the "quasi-Riemann hypothesis." It is not the thing with the million dollar prize.
+
+**The 4 of 7 Millennium stuff is a stretch.** The Hodge result covers one special family (CM abelian varieties). The Birch and Swinnerton-Dyer result covers low rank curves. Neither of those has a Lean proof listed in the catalogue yet. Progress, sure. Solved, no.
+
+**Most of it isn't machine checked.** New Scientist (https://www.newscientist.com/article/2592684-openai-has-dumped-722-maths-papers-now-it-must-clean-up-the-mess/) counts 162 of the 722 papers with a Lean-checked main result. That's roughly a quarter. OpenAI's own README (https://github.com/openai/math) literally says "Some of the unformalized results could have issues." So for the other 500 plus, it's trust us.
+
+**We don't know how they did it.** An independent advisory group of mathematicians hosted by the Institute for Advanced Study asked AI labs to publish the model, the exact prompt and the compute behind every result. Per Scientific American (https://www.scientificamerican.com/article/openai-unleashes-hundreds-more-math-results-upon-a-field-already-in-shock/), OpenAI gave averages, no prompts, and said it isn't bound by those guidelines. And New Scientist reports that same group says its advice shouldn't be read as an endorsement. If you saw "confirmed by the advisory group" today, that's not what happened.
+
+**Even OpenAI doesn't understand all of it yet.** Their spokesperson told Scientific American many of these results aren't understood by the company's own mathematicians. Think about that. The people who released it can't fully explain it.
+
+So who checks 722 papers? New Scientist points out the top journal in the field, Annals of Mathematics, publishes around 35 papers a year. This drop is about a decade of that, and the bill for reading it lands on mathematicians who didn't ask for it.
+
+Terence Tao, probably the best mathematician alive, told IBM (https://www.ibm.com/think/news/will-ai-solve-math-too-fast-navier-stokes-terence-tao) the pace is "quite concerning" and that problems are getting "strip-mined" by AI. His worry isn't that the proofs are wrong. It's that the slow work of understanding why something is true gets skipped.
+
+And this comes a month after the Navier-Stokes claim, where OpenAI ran about 10,000 agents for around 88 hours and ended up in a public credit fight with an NYU professor and an Anthropic researcher who had been working on a closely related problem. OpenAI denies doing anything wrong and says the proofs are different. Science News (https://www.sciencenews.org/article/ai-math-puzzle-navier-stokes-openai) has the whole mess. Either way, the trust bank was already a little low going into this week.
+
+My take. This is probably the biggest pile of new math anyone has ever released at once, and some of it is checked and real. But "released" and "proven" are not the same word. Dropping hundreds of unchecked papers from a model nobody can test and letting the internet call it Riemann isn't science. It's a press release with footnotes.
+
+Not everyone agrees with me. Mathematician Daniel Litt told Scientific American it's going to be a good thing for mathematics, and he may be right. I'd love that.
+
+So here's my question. If an AI hands you a proof that nobody alive can read and no computer has checked, is it math yet? Or is it just a very confident guess?

@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "RL",
+    "mint": "DRNqV2V6WxjjgDqa4tgf1KfpsGLDNSvraSc9k6L9pump",
+    "dex": "pumpfun",
+    "mc": 14925.83,
+    "age_h": 0.98,
+    "h1": 319,
+    "m5": -2.31,
+    "h6": 319,
+    "v1": 57521.9,
+    "tx1h": {
+      "buys": 593,
+      "sells": 479
+    },
+    "url": "https://dexscreener.com/solana/79kzkfy9xyawmdqzteqq5rithkghnuqintlscsfffjxd"
+  },
+  {
+    "symbol": "Optimus",
+    "mint": "5b8F5y5uK3JgRTowCxfKbtMS3397DtSwxKMHjRZhpump",
+    "dex": "pumpfun",
+    "mc": 19596.91,
+    "age_h": 3.0,
+    "h1": 33.29,
+    "m5": null,
+    "h6": 273,
+    "v1": 3557.12,
+    "tx1h": {
+      "buys": 28,
+      "sells": 11
+    },
+    "url": "https://dexscreener.com/solana/atzk7ngymuigeebehxbwtcjek1bryc88rc2qsjmrerby"
+  },
+  {
+    "symbol": "ELON-SAN",
+    "mint": "DkKywKToJSbMFzWDU79Lga9CjMhX6NWfMgkQurQZpump",
+    "dex": "pumpswap",
+    "mc": 76305,
+    "age_h": 2.03,
+    "h1": 7.62,
+    "m5": -19.33,
+    "h6": 39.43,
+    "v1": 45653.34,
+    "tx1h": {
+      "buys": 609,
+      "sells": 388
+    },
+    "url": "https://dexscreener.com/solana/6bk8hnufrs3wfnayz6z8fz1abty7czxwudtyyfnspw7z"
+  }
+]

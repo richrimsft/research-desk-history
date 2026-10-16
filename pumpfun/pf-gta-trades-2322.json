@@ -1,0 +1,1 @@
+{"statusCode":400,"timestamp":"2026-10-16T03:25:01.578Z","path":"/trades/all/6S7jwQuVipHuEaASAZ9Kn7r3Zy3jkebhAMFxnuWnpump?limit=200&offset=0&minimumSize=0","message":["limit must not be greater than 100"],"error":"Bad Request"}

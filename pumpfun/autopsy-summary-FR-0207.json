@@ -1,0 +1,65 @@
+{
+  "symbol": "FR",
+  "name": "Flying Rizo",
+  "creator": "HVBHeNe6m7UsvX279H6Af9CWzrSNQ5FzwHkRyw5GJZbQ",
+  "creatorBalance": 0,
+  "score": 1,
+  "risks": [],
+  "graphInsiders": 0,
+  "totalHolders": 207,
+  "top10_ex_curve_pct": 21.63,
+  "top10": [
+    {
+      "pct": 4.0,
+      "owner": "6eiWDmhpbmAnrtJV9bpjsiZvJXfVDndnfMYoo4BLFNXL",
+      "ui": 39982013.753791
+    },
+    {
+      "pct": 3.53,
+      "owner": "HTYho9ioTJcS4Dymi57HB65RBFu549gjyQ7kncfkknti",
+      "ui": 35262013.562993
+    },
+    {
+      "pct": 3.3,
+      "owner": "Xk9onqHkpULDEYYN9ZPyM7Q9AfTNYUrsCkzywyqdMeb",
+      "ui": 33040975.497262
+    },
+    {
+      "pct": 2.29,
+      "owner": "7MLb8hfgBziUML8rxbYSTYzWB9sYWo6CAn4goaL9WvW8",
+      "ui": 22878330.524741
+    },
+    {
+      "pct": 1.95,
+      "owner": "AXksMQLKMgNRMhzeTqUotaUpazphWovdMAs8sd5T1wfS",
+      "ui": 19544628.978944
+    },
+    {
+      "pct": 1.6,
+      "owner": "11111111111111111111111111111111",
+      "ui": 0
+    },
+    {
+      "pct": 1.29,
+      "owner": "7n5pmtMfja74ybgbPGZfzop2xM7oBZ2TDn6rr8XhPjEf",
+      "ui": 12895325.907647
+    },
+    {
+      "pct": 1.25,
+      "owner": "C6qFkbm1dtc5PmeqFvdmKTznZor6iPytetrrDCogxugk",
+      "ui": 12489314.413003
+    },
+    {
+      "pct": 1.22,
+      "owner": "3Esw2KWKMBbFfVZgXmK3HRWzkyrNmU8BhrJCNHXMN548",
+      "ui": 12214026.584377
+    },
+    {
+      "pct": 1.2,
+      "owner": "ECZpA9wFiZZcTV3Lz4JKXdBCYYLUUoHS3dqPfuEfE4KX",
+      "ui": 11981942.637241
+    }
+  ],
+  "mintAuthority": null,
+  "freezeAuthority": null
+}

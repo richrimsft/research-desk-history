@@ -1,0 +1,22 @@
+X notifications scan
+Scan time ET: 2026-09-29 19:52 ET
+
+Account confirmation
+Signed in as @P7RIM3 (verified account visible; user ID 1995219682186452992).
+
+ALL tab (https://x.com/notifications)
+NEW_COUNT: 0
+No new unreplied inbound reply/mention cards found newer than approximately 19:49 ET or otherwise under about 10 minutes old. The sub-10-minute reply card visible was the known @FiresOfTruth thread and is excluded per the requested skips. Like notifications (including John Galt and Mr. Fugazi) were ignored.
+
+MENTIONS tab (https://x.com/notifications/mentions)
+NEW_COUNT: 0
+No new unreplied inbound reply/mention cards found. The visible reply/mention cards were the listed known skips.
+
+Known skips still visible
+- @FiresOfTruth: 10 minutes ago, replying to @P7RIM3; "Check the link in my bio to watch a film I made with darcy". Status URL: https://x.com/FiresOfTruth/status/2105080875058704611. This is the bio-link promo over our beat 2105073222282543114.
+- @FiresOfTruth: 35 minutes ago, quote/reply containing "Alex B is currently missing. #fishtanklive"; the known Alex B thread over our beat 2105074393890361415.
+- @FiresOfTruth: 40 minutes ago, "He’s a human being"; same known thread group.
+- @grok: two America.gov replies still visible in both notification views, about 1 hour ago; known thread over our beats 2105065973162099061 and 2105067873395966219.
+- @Only_Ryan02, @jammusnu, @Hronom, and @RyanILoveYouSo were not visible in the currently loaded notification cards (known older threads).
+
+No posts, replies, likes, follows, reposts, DMs, bio/pin changes, or settings changes were made.

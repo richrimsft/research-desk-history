@@ -1,0 +1,47 @@
+X notifications scan — 2026-09-30 15:35 ET
+Cutoff: 2026-09-30T15:20:13-04:00
+Account: signed_in=yes (@P7RIM3; left rail/account menu showed P7RIM3 @P7RIM3)
+Pages checked: https://x.com/notifications (All selected) and https://x.com/notifications/mentions (Mentions selected)
+
+RESULT
+NEW_COUNT: 0
+No reply/mention card displayed newer than the cutoff. The newest displayed reply was 1h old (X's coarse age display), so no safe unreplied inbound item qualified. No replies were posted; no likes/follows/reposts/settings were changed.
+
+Reply/mention cards observed on both All and Mentions (top of loaded timeline; exact displayed age, text, URL, visible thread context):
+1) @zebralife2002 — 1 hour ago — https://x.com/zebralife2002/status/2105361123503440350
+   Context: Replying to @P7RIM3, @Brand0n, and 2 others.
+   Text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+2) @KittyMcfeisty2 — 2 hours ago — https://x.com/KittyMcfeisty2/status/2105343324580143460
+   Context: Replying to @P7RIM3 and @KittyMcFeisty; quoted @libsoftiktok post about a male student being crowned Homecoming Queen at a PA high school.
+   Text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh
+3) @KittyMcfeisty2 — 2 hours ago — https://x.com/KittyMcfeisty2/status/2105339423638651351
+   Context: Replying to @P7RIM3 and @KittyMcFeisty.
+   Text: 🙄 🤦‍♀️
+4) @KittyMcfeisty2 — 3 hours ago — https://x.com/KittyMcfeisty2/status/2105333564132712947
+   Context: Replying to @P7RIM3 and @KittyMcFeisty.
+   Text: What’s new is this shit needs to stop. Beyond ridiculous
+5) @Cobra17298328 — 17 hours ago — https://x.com/Cobra17298328/status/2105112514090402040
+   Context: Replying to @P7RIM3, @skeptic_vaibhav, and @artaimemes.
+   Text: I can’t see what this bitch is saying, cause he immediately blocked me
+6) @juneauxwhoitis — 18 hours ago — https://x.com/juneauxwhoitis/status/2105094896663371987
+   Context: Replying to @P7RIM3 and @OverlyTrev.
+   Text: Overflowing with perceptions you are!
+7) @FiresOfTruth — 19 hours ago — https://x.com/FiresOfTruth/status/2105080875058704611
+   Context: Replying to @P7RIM3, @thehiddenpod, and 2 others.
+   Text: Check the link in my bio to watch a film I made with darcy
+
+SKIPPED KNOWN CARDS / REASONS
+- @zebralife2002 — status 2105361123503440350 — already replied (known handled).
+- @KittyMcfeisty2 — statuses 2105343324580143460, 2105339423638651351, 2105333564132712947 — over two beats/already replied (known handled).
+- @Cobra17298328 — status 2105112514090402040 — already beat 2 (known handled).
+- @juneauxwhoitis — status 2105094896663371987 — over two beats (known handled).
+- @FiresOfTruth — status 2105080875058704611 — bio/film promo (skip promo).
+
+OTHER TOP-15 ALL-TAB NOTIFICATIONS IGNORED
+- @garcia_debra70 — followed you, 2h (follow; not a reply/mention).
+- Several like notifications (including "Do the complete opposite of whatever Cramer says!", the ufology/reptiles reply, and other previously posted replies), ages 2h–16h (likes; ignored per request).
+- No new safe unreplied reply/mention card was visible. No login wall, captcha, or other blocker.
+
+Screenshots saved:
+/workspace/x-plan/run-20260930-1534-notifications.png
+/workspace/x-plan/run-20260930-1534-mentions.png

@@ -1,0 +1,22 @@
+{
+  "stats": {
+    "scanned": 228,
+    "fail_liq": 136,
+    "fail_h1": 200,
+    "fail_mc": 181,
+    "fail_buys": 90,
+    "fail_age": 70,
+    "fail_botty": 7,
+    "skip_own": 1
+  },
+  "n_mints": 241,
+  "n_pairs": 228,
+  "n_passers": 1,
+  "n_near": 21,
+  "ts": "2026-10-15 22:14 ET",
+  "n_autopsy_pass": 0,
+  "n_autopsy_fail": 1,
+  "autopsy_rejects": [
+    "PONK"
+  ]
+}

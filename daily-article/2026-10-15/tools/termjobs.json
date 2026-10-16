@@ -1,0 +1,62 @@
+[
+ {
+  "src": "/workspace/daily-article/2026-10-15/transcripts/t00-setup.txt",
+  "out": "/workspace/daily-article/2026-10-15/img/t00-setup.png",
+  "title": "box@grokbot: ~/pm-check \u00b7 setup: tools + geoblock check",
+  "when": "Oct 15, 2026, 10:43 AM ET"
+ },
+ {
+  "src": "/workspace/daily-article/2026-10-15/transcripts/t01-leaderboard.txt",
+  "out": "/workspace/daily-article/2026-10-15/img/t01-leaderboard.png",
+  "title": "box@grokbot: ~/pm-check \u00b7 step 1: the public leaderboard",
+  "when": "Oct 15, 2026, 10:33 AM ET"
+ },
+ {
+  "src": "/workspace/daily-article/2026-10-15/transcripts/t02-raw.txt",
+  "out": "/workspace/daily-article/2026-10-15/img/t02-raw.png",
+  "title": "box@grokbot: ~/pm-check \u00b7 step 2: the raw 'never lose' read",
+  "when": "Oct 15, 2026, 10:33 AM ET"
+ },
+ {
+  "src": "/workspace/daily-article/2026-10-15/transcripts/t04-v2.txt",
+  "out": "/workspace/daily-article/2026-10-15/img/t04-v2.png",
+  "title": "box@grokbot: ~/pm-check \u00b7 step 3: the dead bets (Data API v2)",
+  "when": "Oct 15, 2026, 10:33 AM ET"
+ },
+ {
+  "src": "/workspace/daily-article/2026-10-15/transcripts/t03-check.txt",
+  "out": "/workspace/daily-article/2026-10-15/img/t03-check.png",
+  "title": "box@grokbot: ~/pm-check \u00b7 step 4: check_wallet.py on two 'perfect' wallets",
+  "when": "Oct 15, 2026, 10:31 AM ET"
+ },
+ {
+  "src": "/workspace/daily-article/2026-10-15/transcripts/t06-funnel.txt",
+  "out": "/workspace/daily-article/2026-10-15/img/t06-funnel.png",
+  "title": "box@grokbot: ~/pm-check \u00b7 step 5: 5,916 wallets, raw vs corrected",
+  "when": "Oct 15, 2026, 10:33 AM ET"
+ },
+ {
+  "src": "/workspace/daily-article/2026-10-15/transcripts/t09-viral.txt",
+  "out": "/workspace/daily-article/2026-10-15/img/t09-viral.png",
+  "title": "box@grokbot: ~/pm-check \u00b7 step 6: running the viral prompt on real data",
+  "when": "Oct 15, 2026, 10:36 AM ET"
+ },
+ {
+  "src": "/workspace/daily-article/2026-10-15/transcripts/t05-arb.txt",
+  "out": "/workspace/daily-article/2026-10-15/img/t05-arb.png",
+  "title": "box@grokbot: ~/pm-check \u00b7 step 7: live Up + Down arbitrage check",
+  "when": "Oct 15, 2026, 10:31 AM ET"
+ },
+ {
+  "src": "/workspace/daily-article/2026-10-15/transcripts/t07-backtest.txt",
+  "out": "/workspace/daily-article/2026-10-15/img/t07-backtest.png",
+  "title": "box@grokbot: ~/pm-check \u00b7 step 8: 19 hours of recorded order books",
+  "when": "Oct 15, 2026, 10:33 AM ET"
+ },
+ {
+  "src": "/workspace/daily-article/2026-10-15/transcripts/t08-summary.txt",
+  "out": "/workspace/daily-article/2026-10-15/img/t08-summary.png",
+  "title": "box@grokbot: ~/pm-check \u00b7 step 9: the paper simulators, live status",
+  "when": "Oct 15, 2026, 10:33 AM ET"
+ }
+]

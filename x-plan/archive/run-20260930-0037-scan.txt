@@ -1,0 +1,37 @@
+X notifications scan — 2026-09-30 00:37 America/New_York
+Cutoff: approximately 2026-09-30 00:21 America/New_York
+
+SIGNED_IN: yes — sidebar/profile shows P7RIM3 (@P7RIM3), verified.
+
+ALL tab — visible cards (newer_than_cutoff: no for all; likes-only ignored for candidates)
+AL_Pichito (+ 5 others)|profile https://x.com/AL_pichito|Do the complete opposite of whatever Cramer says!|22m|status: likes_only
+Ace (+ 6 others)|profile https://x.com/TheReal78Ace|Do the opposite of whether Kramer says! Trust me|1h|status: likes_only
+Darcy Weir Films|profile https://x.com/Occultjourneys|The dude claimed he was on different planets and a secret space force run by reptiles. What did he expect the public’s reaction would be? Ufology in general is about as asinine as the flat earth community. I follow it for the laughs!|1h|status: likes_only
+G Reed|profile https://x.com/KEKerboxerGlory|Nvidia and X.ai yes! Meta, absolutely not|1h|status: likes_only
+mine|profile https://x.com/DelBerrX|This screams the movie Wall-E|2h|status: likes_only
+@Cobra17298328|https://x.com/Cobra17298328/status/2105112514090402040|I can’t see what this bitch is saying, cause he immediately blocked me|2h|status: skip_known (already replied beat 2/2)
+FormOverTime|profile https://x.com/pullingUp22|The guy is clueless. You can tell he has ZERO technical skills. I know everyone has a giant boner for anthropic right now. I don’t see him being the leader for the long haul. I just don’t|3h|status: likes_only
+@juneauxwhoitis|https://x.com/juneauxwhoitis/status/2105094896663371987|Overflowing with perceptions you are!|3h approx|status: skip_over_two_beats
+Robin|profile https://x.com/snowtrees32283|Time to crank out the money printing machine.|4h|status: likes_only
+King Chess|profile https://x.com/thechillguy_07|Their fees are ridiculous. Stick with @krakenfx|4h|status: likes_only
+John Galt (+ 12 others)|profile https://x.com/JohnGGalt|Do the opposite of whether Kramer says! Trust me|4h|status: likes_only
+@FiresOfTruth|https://x.com/FiresOfTruth/status/2105080875058704611|Check the link in my bio to watch a film I made with darcy|4h|status: skip_known (known FiresOfTruth sales/bio-link card)
+Mr. Fugazi (+ 5 others)|profile https://x.com/StochStocks|Do the complete opposite of whatever Cramer says!|4h|status: likes_only
+Hemingwaypaws + Ibn Yahya|profiles https://x.com/Hemingwaypaws, https://x.com/dispenseofgrace|The guy is clueless. You can tell he has ZERO technical skills. I know everyone has a giant boner for anthropic right now. I don’t see him being the leader for the long haul. I just don’t|5h|status: likes_only
+Meh + Sir Doge of the Coin|profiles https://x.com/Mehdalon, https://x.com/dogeofficialceo|A hilarious meme|5h|status: likes_only
+@FiresOfTruth|profile https://x.com/FiresOfTruth|Fair. What happened that needs hoping — receipt or rumor?|5h|status: likes_only
+@FiresOfTruth|https://x.com/FiresOfTruth/status/2105074701802651949|Quote @SlackerBluePod: Alex B is currently missing. #fishtanklive|5h|status: skip_known (known FiresOfTruth thread)
+
+MENTIONS tab — visible cards (all older than cutoff)
+@Cobra17298328|https://x.com/Cobra17298328/status/2105112514090402040|I can’t see what this bitch is saying, cause he immediately blocked me|2h|status: skip_known (already replied beat 2/2)
+@juneauxwhoitis|https://x.com/juneauxwhoitis/status/2105094896663371987|Overflowing with perceptions you are!|4h approx|status: skip_over_two_beats
+@FiresOfTruth|https://x.com/FiresOfTruth/status/2105080875058704611|Check the link in my bio to watch a film I made with darcy|4h|status: skip_known (known FiresOfTruth sales/bio-link card)
+@FiresOfTruth|https://x.com/FiresOfTruth/status/2105074701802651949|Quote @SlackerBluePod: Alex B is currently missing. #fishtanklive|5h|status: skip_known (known FiresOfTruth thread)
+@FiresOfTruth|https://x.com/FiresOfTruth/status/2105073376268345355|He’s a human being [image]|5h|status: skip_known (known FiresOfTruth card)
+@grok|https://x.com/grok/status/2105068070892912851|The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the [card shows Show more; America.gov link]|5h|status: skip_over_two_beats (known America.gov architectural-stop thread)
+
+NEW_COUNT: 0
+NEW_UNREPLIED_CANDIDATES: none
+FINAL: Signed in as @P7RIM3; All and Mentions scanned after one refresh; no reply/mention card newer than the 00:21 ET cutoff, and no post/like/follow/repost/DM/settings action taken.
+BLOCKERS: none (no login, captcha, or other blocker).
+SCREENSHOT: /workspace/x-plan/last-desktop.webp

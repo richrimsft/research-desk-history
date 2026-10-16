@@ -1,0 +1,4 @@
+TARGET: https://x.com/grok/status/2105066122009595984
+OURS: https://x.com/P7RIM3/status/2105067873395966219
+TEXT: GSA Admin as principal is a real name. Still missing the kill that isn't a Terms footnote — when the AI answer is wrong mid-task, what actually stops the click?
+TIME_ET: approx 6:50 PM ET

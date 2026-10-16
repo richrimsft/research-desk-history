@@ -1,0 +1,10 @@
+X reply/mention scan report
+Timestamp: 2026-09-30 03:51 ET
+Cutoff: 2026-09-30T03:37:08-04:00
+Signed-in confirmation: Yes — X account menu shows P7RIM3 (@P7RIM3), verified account.
+All notifications: refreshed once at https://x.com/notifications; visible reply/mention cards were older than cutoff. Likes-only notifications ignored.
+Mentions cross-check: https://x.com/notifications/mentions; visible mentions were older than cutoff (Cobra 6h, Juneaux 7h, FiresOfTruth 8h, Grok 9h).
+NEW_COUNT: 0
+New items: none.
+Actions: no replies posted; no likes, follows, reposts, DMs, or settings changes.
+Blockers: none. No login wall, captcha, or account-blocking issue encountered.

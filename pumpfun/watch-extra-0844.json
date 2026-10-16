@@ -1,0 +1,38 @@
+{
+ "too_young": [
+  {
+   "symbol": "TCAT",
+   "name": "Tesla Cat",
+   "mint": "AD7WvdutwV3XyJypm5VrDG7bbtxLFgdqMLkMKndLpump",
+   "mc": 32952.66,
+   "age_h": 0.1,
+   "h1": 725,
+   "m5": 725,
+   "h24": 725,
+   "buys": 1014,
+   "sells": 580,
+   "vol_h1": 75053.13,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/dv5wnfejvdxqzqpexl3pzvypztw6z5f2hbj6fufphzga",
+   "pairCreatedAt": 1792154336000
+  },
+  {
+   "symbol": "DOX",
+   "name": "Dox Pad",
+   "mint": "4QaQajGPnTp8gZRDDikNiYwzUc2zsBxWm5Dugutipump",
+   "mc": 11564.78,
+   "age_h": 0.32,
+   "h1": 266,
+   "m5": 49.87,
+   "h24": 266,
+   "buys": 741,
+   "sells": 497,
+   "vol_h1": 44876.32,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/2fsbspc57qkxf9fvw9yn9fa4fbpnymtuzmddtc32rfea",
+   "pairCreatedAt": 1792153538000
+  }
+ ]
+}

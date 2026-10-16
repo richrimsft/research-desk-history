@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /token-pairs/v1/solana/</pre>
+<script>window.__CF$cv$params={r:'a4b38a1e184f3988',t:'MTc5MjExNjc1Ng==',u:'01a1427b8f137187aaf31bd9a4f593f8',ut:'1zgFHVE6f_TVuL3xjSzH.RQTzKHFGa89nuT4qKSCGNk-1792116756-1.2.1.1-zYZ9xAHPHN1DsAYMzdnwFPQ28lyLk163AO2ZAdLKO4D1FAtiQS2W4aj0LTLI1X97y7wp8ZGrKd5IP1tIxRzk.NuXLrLoqQAvX85j.NrYd9w',i:60};(function(){if(!document.body)return;var s=document.createElement('script');s.src='/cdn-cgi/challenge-platform/scripts/precursor/main.js';document.head.appendChild(s);})();</script></body>
+</html>

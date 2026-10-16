@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tokens/v1/solana/</pre>
+<script>window.__CF$cv$params={r:'a4b38a1dda2eb4a5',t:'MTc5MjExNjc1Ng==',u:'01a1427b8ece740a8e9cd5f851a7a824',ut:'gc8H_MMo3767Jr5h6ttgBDwlVA8MWk9W0XqKekYs4II-1792116756-1.2.1.1-HmxC4HbRO9_..H4x9D34UJhijGAx7pa2dnuxEEEFM31Huxa4d5qkU1Vbsz1jaLVgO_1es999da9lgOHo6UTnraR1k2gLGzK8CKWzZ8.IvYk',i:60};(function(){if(!document.body)return;var s=document.createElement('script');s.src='/cdn-cgi/challenge-platform/scripts/precursor/main.js';document.head.appendChild(s);})();</script></body>
+</html>

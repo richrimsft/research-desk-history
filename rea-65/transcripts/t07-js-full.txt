@@ -1,0 +1,6 @@
+$ rea analyze-javascript-application $PWD/js/dist --format json 2>/dev/null | tail -1 > notes/js-full.ev.json
+
+$ jq -c '.normalized_result | {source_selection, parsed: .statistics.parsed_javascript_files, coverage: .graph.coverage.status}' notes/js-selected.ev.json notes/js-full.ev.json
+{"source_selection":{"requested_paths":["index.js","chunks/checkout-C55LDPC2.js"],"unselected_files":2},"parsed":2,"coverage":"partial"}
+{"source_selection":null,"parsed":4,"coverage":"complete"}
+

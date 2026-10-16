@@ -1,0 +1,24 @@
+READ-ONLY X INBOUND SCAN (PARTIAL — computerUse NOT YET RUN)
+Account: @P7RIM3
+Scan attempt time: 2026-09-29 about 18:19 ET (America/New_York)
+Scope intended: https://x.com/notifications (All), https://x.com/notifications/mentions, https://x.com/P7RIM3 Posts tab
+
+BLOCKER
+This executor subagent's advertised tool list does not include Task/computerUse/Screenshot.
+Native Task dispatch was attempted; if the harness rejects unknown tools, live signed-in browser scan cannot complete from this nest.
+Public/anonymous X access is rate-blocked (AbuseAlleviationError until ~23:01 UTC). Cookie/CDP/Playwright shell driving is disallowed.
+
+PRIOR AUTHORITATIVE STATE (from replies.log / 18:03 scan)
+- Last live scan ~18:03 ET: NEW inbound count 0
+- Cutoff for new: after ~18:03 ET
+- USER APPROVED Vaibhav+Cobra already POSTED (2105039551156662565, 2105039656379445659) — do not re-post
+- Newest original per 18:03 profile read: agentmail.to ~17:55 ET (displayed ~8 min before 18:03); Starship pale blue streak 17:21 ET; OpenAI Australia breach 16:24 ET
+- next_allowed for originals ~18:40 ET (45-min after agentmail)
+
+STATUS AT 18:19 ET WITHOUT LIVE RESCAN
+- Cannot confirm new inbound after 18:03 without computerUse
+- Cannot re-verify newest original timestamp without computerUse
+- Trending/Dots: facts re-verified via WebSearch (TechCrunch/WIRED/9to5Google/CNBC); posting deferred pending profile timestamp verify + spacing clear
+
+ACTION NEEDED
+Parent: grant/dispatch computerUse (Task subagent_type computerUse) for Steps A–C, or re-run this job with Task in the tool list.

@@ -1,0 +1,20 @@
+X live reply/mention scan
+Run time: 2026-09-30 18:49 ET
+Cutoff: 2026-09-30T18:40:30-04:00
+Account confirmed: @P7RIM3 (account menu showed P7RIM3 / @P7RIM3)
+
+NEW_COUNT: 0
+No unreplied inbound reply/mention newer than the cutoff. No new-item thread context or blocking status to report; blocked status is not applicable.
+
+ALL tab (https://x.com/notifications)
+- @GilliRoth — displayed age 29m; status https://x.com/GilliRoth/status/2105422493200875658; text: [image-only; attached image, no post text]; newer than cutoff: NO (older than cutoff); SKIP: explicitly already handled.
+- @zebralife2002 — displayed age 4h; status https://x.com/zebralife2002/status/2105361123503440350; text: "Your first sentence made absolutely no sense \"you guys are handing outside of a person\" I stop reading and I stopped paying attention to you at that point. Have a good day"; replying to @P7RIM3, @Brand0n, and 2 others; newer than cutoff: NO; SKIP: explicitly already handled.
+- @KittyMcfeisty2 — displayed age 5h; status https://x.com/KittyMcfeisty2/status/2105343324580143460; text: "This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh"; replying to @P7RIM3 and @KittyMcFeisty; newer than cutoff: NO; SKIP: KittyMcfeisty2 thread explicitly excluded.
+
+MENTIONS tab (https://x.com/notifications/mentions)
+- @GilliRoth — displayed age 30m; status https://x.com/GilliRoth/status/2105422493200875658; text: [image-only; attached image, no post text]; newer than cutoff: NO; SKIP: explicitly already handled.
+- @zebralife2002 — displayed age 4h; status https://x.com/zebralife2002/status/2105361123503440350; text: "Your first sentence made absolutely no sense \"you guys are handing outside of a person\" I stop reading and I stopped paying attention to you at that point. Have a good day"; replying to @P7RIM3, @Brand0n, and 2 others; newer than cutoff: NO; SKIP: explicitly already handled.
+- @KittyMcfeisty2 — displayed age 5h; status https://x.com/KittyMcfeisty2/status/2105343324580143460; text: "This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh"; replying to @P7RIM3 and @KittyMcFeisty; newer than cutoff: NO; SKIP: KittyMcfeisty2 thread explicitly excluded.
+- @KittyMcfeisty2 — displayed age 6h; status https://x.com/KittyMcfeisty2/status/2105339423638651351; text: [image-only/emoji-only: 🙄 🤦‍♀️]; replying to @P7RIM3 and @KittyMcFeisty; newer than cutoff: NO; SKIP: KittyMcfeisty2 thread explicitly excluded.
+
+Ignored per request: likes, reposts, follow, and own-post notifications. No posts, likes, follows, reposts, DMs, or settings were changed.

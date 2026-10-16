@@ -1,0 +1,31 @@
+MENTION
+handle=@jammusnu
+url=https://x.com/jammusnu/status/2105028160488087682
+text=literally done so twice.
+already_has_p7rim3_reply=yes
+
+MENTION
+handle=@jammusnu
+url=https://x.com/jammusnu/status/2105021044033814880
+text=100 dollars real lmao get out of my hair u fully fledged retard. read the thread back it is beyond obvious where u have gone wrong. may the Lord have mercy on u for ur inadequate use of the gift of quantum computing that’s housed inside your skull.
+already_has_p7rim3_reply=no
+
+MENTION
+handle=@jammusnu
+url=https://x.com/jammusnu/status/2104647881500008875
+text=yes. that is exactly what Luke 22:36 is & exsctly what i was referring to when you stated that selling my cloak was a stupid idea. you’re literally changing your whole narrative now. Quote BRUCE iLLest @jammusnu Sep 28 Replying to @P7RIM3 and @GodlyAction I SOLD MY CLOAK JUST TRYNA FIND A GAFF THAT’LL SHOT ME A SWORD
+already_has_p7rim3_reply=yes
+
+MENTION
+handle=@jammusnu
+url=https://x.com/jammusnu/status/2105020299989250000
+text=luke 22:36
+already_has_p7rim3_reply=no
+
+MENTION
+handle=@Only_Ryan02
+url=https://x.com/Only_Ryan02/status/2105010897273983310
+text=How am I brainwashed if I’m saying orbs are real? It’s just the ones being shown here aren’t not.
+already_has_p7rim3_reply=yes
+
+DONE

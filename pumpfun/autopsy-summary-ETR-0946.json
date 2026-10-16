@@ -1,0 +1,32 @@
+{
+  "tag": "0946",
+  "symbol": "ETR",
+  "mint": "BALftXRKPbjbQ3h7dwQHNTRF7NH6hCiqwaLQWa5Zpump",
+  "age_h": 0.37,
+  "mc": 457727,
+  "h1": 938,
+  "m5": -10.48,
+  "dex": "pumpswap",
+  "phase": "too_young",
+  "verdict": "FAIL",
+  "reasons": [
+    "age 0.37h <30m \u2014 no-buy by narrative-age",
+    "top10ex 28.7% elevated >25%",
+    "14 wallets in tight 2.3\u20132.5% sniper band"
+  ],
+  "rc_score": 1,
+  "top10ex_pct": 28.66,
+  "lp_pct_guess": 0,
+  "band_1_5_count": 18,
+  "max_identical_0.1": 6,
+  "identical_band_val": 2.4,
+  "tight_2.3_2.5_count": 14,
+  "creator": "8tvkSLoooWmFpnAq1L6W5MREGEJRURwxhRP87Em7myx5",
+  "creatorBalance": 14849142185973,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "graphInsiders": 0,
+  "totalHolders": 2479,
+  "risks": [],
+  "meta_name": "Elon Tesla Roadster"
+}

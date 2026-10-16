@@ -1,0 +1,1 @@
+{"statusCode":404,"timestamp":"2026-10-16T08:19:29.151Z","path":"/coins/for-you?offset=0&limit=48&includeNsfw=false","message":"Cannot GET /coins/for-you?offset=0&limit=48&includeNsfw=false","error":"Not Found"}

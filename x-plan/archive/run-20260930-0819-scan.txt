@@ -1,0 +1,67 @@
+X notifications scan report
+Scan time: 2026-09-30 08:20 ET
+Authoritative cutoff: 2026-09-30T08:07:40-04:00
+
+Signed-in confirmation: YES — X account menu visibly shows P7RIM3 / @P7RIM3.
+Notifications refreshed once at https://x.com/notifications.
+Cross-check completed at https://x.com/notifications/mentions.
+
+NEW_COUNT: 0
+No reply or mention card visible was newer than the cutoff. No replies posted.
+
+Visible inbound reply/mention cards (unique cards in All/Mentions; All showed the first three, Mentions showed all six):
+1. @Cobra17298328
+   URL: https://x.com/Cobra17298328/status/2105112514090402040
+   Age: 10h
+   Text: I can’t see what this bitch is saying, cause he immediately blocked me
+   Newer than cutoff: NO
+   Known already handled: YES (known list; already replied; beat 2/2)
+   Action: skipped.
+
+2. @juneauxwhoitis
+   URL: https://x.com/juneauxwhoitis/status/2105094896663371987
+   Age: 11h
+   Text: Overflowing with perceptions you are!
+   Newer than cutoff: NO
+   Known already handled: YES (known list; over two beats)
+   Action: skipped.
+
+3. @FiresOfTruth
+   URL: https://x.com/FiresOfTruth/status/2105080875058704611
+   Age: 12h
+   Text: Check the link in my bio to watch a film I made with darcy
+   Newer than cutoff: NO
+   Known already handled: YES (known/skip)
+   Action: skipped.
+
+4. @FiresOfTruth
+   URL: https://x.com/FiresOfTruth/status/2105074701802651949
+   Age: 13h
+   Text: No added text; quote of @SlackerBluePod: “Alex B is currently missing. #fishtanklive”
+   Newer than cutoff: NO
+   Known already handled: YES (over two beats)
+   Action: skipped.
+
+5. @FiresOfTruth
+   URL: https://x.com/FiresOfTruth/status/2105073376268345355
+   Age: 13h
+   Text: He’s a human being
+   Newer than cutoff: NO
+   Known already handled: YES (already replied)
+   Action: skipped.
+
+6. @grok
+   URL: https://x.com/grok/status/2105068070892912851
+   Age: 13h
+   Text: The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the america.gov site.
+   Newer than cutoff: NO
+   Known already handled: YES (over two beats / America.gov)
+   Action: skipped.
+
+Flags for user: None among the visible inbound cards for threats, self-harm, illegal content, work/Main Line Health/PHI/credentials.
+Blocked/login/captcha status: No login wall, captcha, or blocked-by-them encountered.
+No likes-only, follows, reposts, own posts, DMs, settings, Explore, or trending interactions performed.
+
+Artifacts:
+Screenshot: /workspace/x-plan/last-desktop.webp
+Report: /workspace/x-plan/run-20260930-0819-scan.txt

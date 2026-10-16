@@ -1,0 +1,9 @@
+$ rea inspect-go-binary go/hellogo --format json | jq -c '.confidence, (.normalized_result | {format, architecture}), (.normalized_result.build_info | {go_version, main: .module.main.path}), (.normalized_result.build_info.module.dependencies[] | {path, version}), [.normalized_result.build_info.module.settings[] | "\(.key)=\(.value)"]'
+"observed"
+{"format":"elf","architecture":"amd64"}
+{"go_version":"go1.24.4","main":"example.com/hellogo"}
+{"path":"golang.org/x/text","version":"v0.0.0-20170915032832-14c0d48ead0c"}
+{"path":"rsc.io/quote","version":"v1.5.2"}
+{"path":"rsc.io/sampler","version":"v1.3.0"}
+["-buildmode=exe","-compiler=gc","-trimpath=true","CGO_ENABLED=0","GOARCH=amd64","GOOS=linux","GOAMD64=v1"]
+

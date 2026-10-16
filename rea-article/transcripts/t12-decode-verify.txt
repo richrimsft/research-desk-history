@@ -1,0 +1,11 @@
+$ python3 -c "print(bytes(b ^ 0x2A for b in bytes.fromhex('4d421b4e584b75581a494159')).decode())"
+gh1dra_r0cks
+
+$ printf 'gh1dra_r0cks\n' | ./target/crackme; echo "  [exit $?]"
+Enter the password: Access granted. Nice work!
+  [exit 0]
+
+$ printf 'wrong\n' | ./target/crackme; echo "  [exit $?]"
+Enter the password: Wrong password. Try again.
+  [exit 1]
+

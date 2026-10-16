@@ -1,0 +1,57 @@
+A Starship went to space, landed in the ocean, and didn't blow up. Then it took 75 days to get home. Ship 40 made it back to Texas this morning.
+
+Flight 14 got all the hype for hitting orbit. I think this is the bigger deal.
+
+### It was supposed to explode
+
+Ship 40 launched on Flight 13 on July 24. It dropped 20 Starlink V3 satellites, relit an engine in space, then came down in the Indian Ocean, tipped over, and just floated there. (https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-makes-the-softest-splashdown-ever-after-launching-next-gen-starlink-satellites-in-flight-13-test-video)
+
+Starships usually explode when they tip over. Not this one. Elon posted "Starship is intact, floating in the ocean and transmitting telemetry!" and SpaceX's Dan Huot called it the softest splashdown they've ever had. (https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-makes-the-softest-splashdown-ever-after-launching-next-gen-starlink-satellites-in-flight-13-test-video)
+
+[IMAGE: sec1.jpg - Ship 40 lighting its engines for the landing burn right before splashdown in the Indian Ocean, Flight 13, July 2026. Photo: SpaceX]
+
+### 24 days babysitting a spaceship
+
+Then the recovery crew had to keep a 52 meter spaceship afloat in rough seas while they tried to get it to port. (https://x.com/SpaceX/status/2085786988225925349)
+
+After about 24 days at sea they got it to Christmas Island. (https://x.com/SpaceX/status/2089685256085344560)
+
+Engineers spent several days going over it off the island and pulled heat shield samples. SpaceX says improvements are already planned for future ships because of it. (https://x.com/SpaceX/status/2092988521376059899)
+
+Imagine that being your job for a month.
+
+[IMAGE: sec2.jpg - Ship 40 floating belly up in the Indian Ocean with fenders strapped on, August 2026. Photo: SpaceX]
+
+### Then it took a boat around Africa
+
+A heavy lift ship called Forte flooded its ballast tanks, sank its own deck under the water, got lined up under the rocket with help from local stevedores, and came back up with it on board. Forte left Christmas Island on August 28. (https://www.abc.net.au/news/2026-08-28/spacex-rocket-begins-journey-back-to-texas-from-christmas-island/107079554)
+
+It rounded the Cape of Good Hope on September 15. (https://novanews.co.za/spacex-starship-passes-south-africa-aboard-heavy-lift-vessel-bound-for-texas/)
+
+About 20,000 km total. A marine robotics professor told ABC that research ships run $50,000 to $100,000 a day, and these are even bigger. (https://www.abc.net.au/news/2026-08-28/spacex-rocket-begins-journey-back-to-texas-from-christmas-island/107079554)
+
+This morning it was back in Texas. (https://x.com/LabPadre/status/2107822262972018827) Next it gets unloaded at the Port of Brownsville and hauled to Starbase, about 30 km away. (https://www.meretmarine.com/fr/marine-marchande/recupere-en-mer-le-vaisseau-du-13e-vol-d-essai-de-starship-lance-le-24-juillet-arrive-au-texas)
+
+NSF called it "Ship 40: Return To Launch Site." (https://x.com/NASASpaceflight/status/2107824698608497036) Return to launch site by boat. Love it.
+
+LabPadre says one of the vacuum engines looks dinged, otherwise it "looks great." (https://x.com/LabPadre/status/2107827205392761317)
+
+[IMAGE: sec3.jpg - Ship 40 being floated onto the deck of the semi-submersible Forte at Christmas Island, August 2026. Photo: SpaceX]
+
+### Why I think this beats orbit
+
+It's the first SpaceX upper stage to survive a spaceflight intact. (https://www.abc.net.au/news/2026-08-28/spacex-rocket-begins-journey-back-to-texas-from-christmas-island/107079554)
+
+Flight 14 made orbit on September 28. Huge. Then that ship tipped over in the Pacific and exploded. (https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-megarocket-flight-14-orbital-launch-success)
+
+Meanwhile what SpaceX learned from its first hands on look at Ship 40 already went into the heat shield that flew on Flight 14. (https://x.com/SpaceX/status/2104547698540155053) Two of Ship 40's actual tiles flew again on Ship 41. (https://www.allthings-elon.com/articles/spacex-starship-reused-heat-shield-tiles-ship-41)
+
+A heat shield professor wrote that the next real milestone is recovering a Starship, inspecting it, and getting it ready to launch again. So far only the booster has been reused, not the ship. (https://theconversation.com/starships-first-orbital-flight-put-its-heat-shield-to-the-test-how-it-fares-could-determine-if-spacexs-vision-is-possible-292960)
+
+Orbit proves you can get there. Getting the ship back in one piece is how this thing ever gets cheap.
+
+My take: after a month soaking in saltwater, Ship 40 never flies again. Pull every last bit of data out of it, then stand it up at Starbase where everyone can see it.
+
+So which is it. Strip it for parts, or put it on display?
+
+[IMAGE: sec4.jpg - SpaceX engineers on top of Ship 40's heat shield tiles in the water off Christmas Island, August 2026. Photo: SpaceX]

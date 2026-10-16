@@ -1,0 +1,59 @@
+{
+  "tag": "0509",
+  "symbol": "SOL",
+  "safe": "SOL",
+  "mint": "2ezhap3jauQous1ZxS4LDq6cXv7NrDLQbziVkbSTpump",
+  "verdict": "FAIL",
+  "fails": [
+    "age ~0.1h <<30m",
+    "creatorBal 0",
+    "copycat: name \"tesla\" / symbol \"SOL\"",
+    "RugCheck: Creator history of rugged tokens (danger); single holder ~51%; high concentration",
+    "only 3 totalHolders; tiny organic activity (9 buys/5 sells h1)",
+    "no socials"
+  ],
+  "age_h": 0.138,
+  "mc": 15010.18,
+  "h1": 266,
+  "m5": 266,
+  "dexId": "pumpfun",
+  "phase": "curve",
+  "creator": "9BXEDSbvnr8KZ72E7drx75oWeTjYBeWgKT9EkBJBh8KR",
+  "creatorBal": 0.0,
+  "creatorBal_pct": 0.0,
+  "band_1_5": 0,
+  "top10_ex_curve_pct": 51.09,
+  "socials": {
+    "dex": null,
+    "websites": null
+  },
+  "rugScore": 30119,
+  "score_normalised": 65,
+  "risks": [
+    [
+      "Creator history of rugged tokens",
+      "danger",
+      24000
+    ],
+    [
+      "Single holder ownership",
+      "danger",
+      5108
+    ],
+    [
+      "High holder concentration",
+      "warn",
+      1010
+    ]
+  ],
+  "graphInsiders": 0,
+  "cabal_hits": [],
+  "txh1": {
+    "buys": 9,
+    "sells": 5
+  },
+  "volh1": 537.42,
+  "totalHolders": 3,
+  "name": "tesla",
+  "creatorTokens_n": 10
+}

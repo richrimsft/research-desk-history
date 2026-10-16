@@ -1,0 +1,42 @@
+$ rea doctor --client grok_bot 2>&1 | head -40
+healthy: false
+environment_healthy: false
+scope:
+  mode: explicit
+  clients[1]: grok_bot
+  providers: []
+  skill: false
+  target: null
+scope_checks[2]:
+  - name: node
+    ok: true
+    classification: healthy
+    detail: 24.21.0
+  - name: "registration:grok_bot"
+    ok: false
+    classification: config_drift
+    detail: grok_bot is not registered through a local configuration file.
+    remediation: "Grok Bot keeps connectors in the signed-in account and runs them on its hosted computer. Setup does not write that account store, and a data-directory mcp.json is not a registration. In the Grok Bot chat, add a custom MCP server named rea that runs on the Bot's computer with `npx -y rea-agents@<version> mcp`. Do not put credentials in the command or arguments. A stdio server on this machine is not attached."
+informational_checks[13]:
+  - name: host
+    ok: false
+    classification: unsupported_host
+    detail: debian 13
+    remediation: "REA supports macOS 12+, Ubuntu 24.04+, Fedora 41+, Nobara 44+, 64-bit Arch Linux, CachyOS, Omarchy, and the experimental Windows x64 Ghidra P0 boundary."
+  - name: hopper
+    ok: false
+    classification: missing_analysis_engine
+    remediation: "Run rea setup to install Hopper, or set HOPPER_LAUNCHER_PATH."
+  - name: ghidra
+    ok: true
+    classification: healthy
+    detail: /workspace/ghidra/ghidra_12.1.4_PUBLIC
+  - name: ghidra-platform
+    ok: true
+    classification: healthy
+    detail: linux
+  - name: ghidra-architecture
+    ok: true
+    classification: healthy
+    detail: x64
+

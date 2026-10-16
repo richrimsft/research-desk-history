@@ -1,0 +1,238 @@
+{
+  "passers": [],
+  "near": [
+    {
+      "sym": "MENTOR",
+      "mint": "7XoHiioxfPewqysZRQDbS3MuwY69pJ3GuTpgsmgrpump",
+      "mc": 19887.53,
+      "liq": null,
+      "age_h": 1.03,
+      "h1": 12.46,
+      "m5": -14.16,
+      "buys": 700,
+      "sells": 511,
+      "dex": "pumpfun",
+      "prior": true,
+      "flags": {
+        "in_age": true,
+        "mc_ok": true,
+        "liq_ok": true,
+        "h1_ok": false,
+        "flow_ok": true,
+        "botty": false
+      }
+    }
+  ],
+  "window": [
+    {
+      "sym": "MENTOR",
+      "mint": "7XoHiioxfPewqysZRQDbS3MuwY69pJ3GuTpgsmgrpump",
+      "mc": 19887.53,
+      "liq": null,
+      "age_h": 1.03,
+      "h1": 12.46,
+      "m5": -14.16,
+      "buys": 700,
+      "sells": 511,
+      "dex": "pumpfun",
+      "prior": true,
+      "flags": {
+        "in_age": true,
+        "mc_ok": true,
+        "liq_ok": true,
+        "h1_ok": false,
+        "flow_ok": true,
+        "botty": false
+      }
+    },
+    {
+      "sym": "BANANA",
+      "mint": "6vs4oxwMnHjoZzdQ7YVNTxjUivqoNjF6Dz8vaAe9pump",
+      "mc": 112183,
+      "liq": 31108.09,
+      "age_h": 1.21,
+      "h1": 4.44,
+      "m5": 20.07,
+      "buys": 12202,
+      "sells": 9206,
+      "dex": "pumpswap",
+      "prior": true,
+      "flags": {
+        "in_age": true,
+        "mc_ok": true,
+        "liq_ok": true,
+        "h1_ok": false,
+        "flow_ok": true,
+        "botty": true
+      }
+    },
+    {
+      "sym": "RDSTR",
+      "mint": "7uXeapeKSTv4fr2mSDrC9KTCLqgnoECBttd6h1NYpump",
+      "mc": 67511,
+      "liq": 25475.89,
+      "age_h": 2.61,
+      "h1": 1.07,
+      "m5": -11.65,
+      "buys": 516,
+      "sells": 347,
+      "dex": "pumpswap",
+      "prior": true,
+      "flags": {
+        "in_age": true,
+        "mc_ok": true,
+        "liq_ok": true,
+        "h1_ok": false,
+        "flow_ok": true,
+        "botty": false
+      }
+    },
+    {
+      "sym": "BOT",
+      "mint": "FR2kf3htna5puoSxAjPedG7rgTkxfXvZjrL8x4zQpump",
+      "mc": 8931.82,
+      "liq": null,
+      "age_h": 2.8,
+      "h1": 6.38,
+      "m5": 16.5,
+      "buys": 47,
+      "sells": 26,
+      "dex": "pumpfun",
+      "prior": false,
+      "flags": {
+        "in_age": true,
+        "mc_ok": false,
+        "liq_ok": true,
+        "h1_ok": false,
+        "flow_ok": true,
+        "botty": false
+      }
+    },
+    {
+      "sym": "TESLON",
+      "mint": "vmArb3ioQmddJpsNSXAthqiug8y77feGRSPZv7apump",
+      "mc": 11439.19,
+      "liq": null,
+      "age_h": 1.9,
+      "h1": 161,
+      "m5": -12.33,
+      "buys": 709,
+      "sells": 463,
+      "dex": "pumpfun",
+      "prior": true,
+      "flags": {
+        "in_age": true,
+        "mc_ok": false,
+        "liq_ok": true,
+        "h1_ok": true,
+        "flow_ok": true,
+        "botty": false
+      }
+    },
+    {
+      "sym": "NINNY",
+      "mint": "6uQYGtuQS3rW45FmgAMJBi7G2sXkAYghGj5UFrYQpump",
+      "mc": 9596.46,
+      "liq": null,
+      "age_h": 0.62,
+      "h1": 170,
+      "m5": 11.36,
+      "buys": 1244,
+      "sells": 569,
+      "dex": "pumpfun",
+      "prior": false,
+      "flags": {
+        "in_age": true,
+        "mc_ok": false,
+        "liq_ok": true,
+        "h1_ok": true,
+        "flow_ok": true,
+        "botty": false
+      }
+    },
+    {
+      "sym": "grokazon",
+      "mint": "Ch7gZZqhZRnHnLJJsdpypNghGn3fDjuxQtr5qeWPpump",
+      "mc": 2138,
+      "liq": 2370.4,
+      "age_h": 2.85,
+      "h1": 0.52,
+      "m5": null,
+      "buys": 2,
+      "sells": 7,
+      "dex": "pumpswap",
+      "prior": true,
+      "flags": {
+        "in_age": true,
+        "mc_ok": false,
+        "liq_ok": false,
+        "h1_ok": false,
+        "flow_ok": false,
+        "botty": false
+      }
+    },
+    {
+      "sym": "SUPERCYCLE",
+      "mint": "84AaE16zkQ97UqeRsbZwkkDQJn9L3v4nUqrMMZ3Xpump",
+      "mc": 7039,
+      "liq": 5829.09,
+      "age_h": 1.39,
+      "h1": 28.77,
+      "m5": null,
+      "buys": 85,
+      "sells": 91,
+      "dex": "pumpswap",
+      "prior": false,
+      "flags": {
+        "in_age": true,
+        "mc_ok": false,
+        "liq_ok": false,
+        "h1_ok": true,
+        "flow_ok": false,
+        "botty": false
+      }
+    },
+    {
+      "sym": "GPU",
+      "mint": "DBbBt37UCVqAZuakToMYfcQ8FrGAFAKRJmE499Zpump",
+      "mc": 13986.8,
+      "liq": null,
+      "age_h": 3.34,
+      "h1": 76.54,
+      "m5": 2.03,
+      "buys": 154,
+      "sells": 101,
+      "dex": "pumpfun",
+      "prior": true,
+      "flags": {
+        "in_age": true,
+        "mc_ok": false,
+        "liq_ok": true,
+        "h1_ok": true,
+        "flow_ok": true,
+        "botty": false
+      }
+    },
+    {
+      "sym": "ROADSTER",
+      "mint": "Eizz6UJUBmoH4CxqLR5XBRyEGfoaKeckjmsraobSpump",
+      "mc": 16196,
+      "liq": 9553.4,
+      "age_h": 1.28,
+      "h1": 8.93,
+      "m5": -2.3,
+      "buys": 239,
+      "sells": 176,
+      "dex": "pumpswap",
+      "prior": true,
+      "flags": {
+        "in_age": true,
+        "mc_ok": true,
+        "liq_ok": false,
+        "h1_ok": false,
+        "flow_ok": true,
+        "botty": false
+      }
+    }
+  ]
+}

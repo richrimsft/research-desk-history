@@ -1,0 +1,7 @@
+$ rea inspect-wasm-artifact $PWD/wasm/calc-v1.wasm --glue_paths $PWD/wasm/glue.js --format json > notes/wasm-v1.json; jq -c '.confidence, (.normalized_result | {validation, runtime_execution, network_fetch}), .normalized_result.imports, .normalized_result.exports, .normalized_result.glue[0].references[0]' notes/wasm-v1.json
+"observed"
+{"validation":"valid","runtime_execution":"not-performed","network_fetch":"not-performed"}
+["(import \"env\" \"log_i32\" (func $log (type 0)))"]
+["(export \"memory\" (memory 0))","(export \"add\" (func $add))","(export \"checksum\" (func 2))"]
+{"value":"calc-v1.wasm","line":4,"column":68,"candidate_paths":["/workspace/re/lab65/wasm/calc-v1.wasm"],"association":"local-path-candidate","evidence_kind":"static-literal"}
+

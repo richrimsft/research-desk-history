@@ -1,0 +1,1 @@
+Win rates for 5,350 wallets, raw versus corrected. The spike at 100% is the trap.

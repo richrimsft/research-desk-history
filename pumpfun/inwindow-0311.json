@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "ELON-SAN",
+    "mint": "DkKywKToJSbMFzWDU79Lga9CjMhX6NWfMgkQurQZpump",
+    "mc": 115105,
+    "age_h": 2.58,
+    "h1": 44.15,
+    "note": "prior whale+insiders"
+  },
+  {
+    "symbol": "LOOM",
+    "mint": "7GCMYJcykHZ3qJH3e5vQi4J9qAPdb3Xninkgk6sYpump",
+    "mc": 107187,
+    "age_h": 0.34,
+    "h1": 144,
+    "note": "prior too young/botty"
+  },
+  {
+    "symbol": "CCAT",
+    "mint": "D4rzv9WAXJh9QZw1MjqfrtuSrmrkV4DckPTKBoMnpump",
+    "mc": 99451,
+    "age_h": 0.99,
+    "h1": 126,
+    "note": "prior creatorBal0/no X"
+  },
+  {
+    "symbol": "Muskpad",
+    "mint": "UZcE4ws4kERR6prnmgGMCSfUL1XynhZbzJCyKo5pump",
+    "mc": 46554,
+    "age_h": 0.11,
+    "h1": 11.3,
+    "note": "prior too young"
+  },
+  {
+    "symbol": "miBrains",
+    "mint": "7m8uQMAD1hkKuf4ooWFhJuBq4hSD8PoBcwojDLfQpump",
+    "mc": 16296,
+    "age_h": 0.08,
+    "h1": 323,
+    "note": "NEW FAIL age<30m"
+  },
+  {
+    "symbol": "neuron",
+    "mint": "3d2LndChut5d4pvzfFDMG8Tg9qDqY6hv7Je4S3o7pump",
+    "mc": 10791,
+    "age_h": 0.84,
+    "h1": 256,
+    "note": "prior creatorBal0"
+  }
+]

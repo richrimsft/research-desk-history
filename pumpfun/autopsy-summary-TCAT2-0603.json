@@ -1,0 +1,41 @@
+{
+  "tag": "0603",
+  "symbol": "TCAT",
+  "safe": "TCAT2",
+  "mint": "6ZDKgWopksQPMBPQvmdZrP13JEPApbNrSUQLPPbQpump",
+  "verdict": "FAIL",
+  "fails": [
+    "creatorBal 0; deployer FB5p7woP\u2026 burner (6 tx, 0 SOL)",
+    "19\u00d7 wallets in 1\u20135% band on only 73 holders",
+    "top10 ex-curve ~27.0% (at limit)",
+    "copycat of prior-FAIL TCAT theme (Tesla Roadster Cat, different mint)",
+    "socials: X community link only"
+  ],
+  "age_h": 1.68,
+  "mc": 13719,
+  "h1": 188,
+  "m5": 18.39,
+  "dexId": "pumpfun",
+  "phase": "pumpfun curve (Printr-config; curve acct holds 43.53% of supply)",
+  "creator": "FB5p7woPVta5xgnpnZVP5gvv6td8F79RQr3E66kKGDKm",
+  "creatorBal": 0,
+  "creator_wallet": {
+    "creator": "FB5p7woPVta5xgnpnZVP5gvv6td8F79RQr3E66kKGDKm",
+    "ntx": 6,
+    "age_h": 0.4,
+    "sol": 0.0
+  },
+  "band_1_5": 19,
+  "top10_ex_curve_pct": 27.04,
+  "rugScore": 1,
+  "score_normalised": 1,
+  "risks": [],
+  "graphInsiders": 0,
+  "txh1": {
+    "buys": 78,
+    "sells": 33
+  },
+  "volh1": 9577,
+  "totalHolders": 73,
+  "structure_notes": "3.41 2EwfsTNU ntx 357 age_h 11170.9 funder ('92DxAnb8Z9g2PRygXdAPXBLKGEeLgu4j6HL7nGvQTDRR', 0.04)\n3.34 EUtJfKhr ntx 1000 age_h 1068.3 funder None\n2.94 HeJvLn8n ntx 649 age_h 3600.1 funder ('iGdFcQoyR2MwbXMHQskhmNsqddZ6rinsipHc4TNSdwu', 15.599)\n2.86 CH8xJLv7 ntx 216 age_h 9041.4 funder None\n2.65 5zJgVioe ntx 1000 age_h 5684.1 funder ('2eGdtKKphUgYVPngYnxuWDpEz6webNT5ka9jK8TT4z7J', 1e-09)\n2.61 5fGTNg3h ntx 408 age_h 3023.3 funder ('9Mn5qkv4sZ1pMg2VBh2ECVvnuns4iquCZwpdSNzGHcTg', 3.0)\n2.61 4R28qJGV ntx 1000 age_h 1080.3 funder None\n2.33 8i5KkyjH ntx 441 age_h 2470.2 funder ('B48kNVXs4YK4amkBCH2XokQiv1SeiVQGHDR17xDeKAAn', 2.9543498)\n2.32 GLembMw6 ntx 1000 age_h 99.8 funder None\n1.97 6yfEx8iX ntx 1000 age_h 229.5 funder None\n1.94 5FuYT4gC ntx 1000 age_h 5921.3 funder ('5QoTE8664HeSi6CtWJgRCD7irAj5PPapB9hDC8TESNAc', 1e-09)\n1.88 BuAUYUX5 ntx 1000 age_h 5015.3 funder ('JATcFT2j762i7CAayBhQCGuKVst"
+}

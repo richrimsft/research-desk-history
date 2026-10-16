@@ -1,0 +1,18 @@
+cutoff=2026-09-30T22:13:06-0400
+scanned_at=2026-09-30T22:20:23-0400
+signed_in=@P7RIM3
+NEW_COUNT=0
+replies_posted=0
+originals=0
+screenshots:
+- /workspace/x-plan/run-20260930-2218-notifications.png
+- /workspace/x-plan/run-20260930-2218-mentions.png
+ITEM_CONSIDERED:
+- @misterg792000 https://x.com/misterg792000/status/2105479038823178432 SKIP already replied / before cutoff
+- @MadamHaus https://x.com/MadamHaus/status/2105460336006672836 SKIP_0HOUR_CANCELLED
+- @DrumondArt https://x.com/DrumondArt/status/2105451230445154557 SKIP_EMOJI_SPAM
+- @stonkspark https://x.com/stonkspark/status/2105435508927005103 SKIP already handled
+- @GilliRoth https://x.com/GilliRoth/status/2105422493200875658 SKIP already replied
+- remaining: likes/repost/older only
+REPLY_POSTED: none
+FLAGS: none

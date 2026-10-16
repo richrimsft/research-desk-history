@@ -1,0 +1,13 @@
+<html><head><meta charset="utf-8"></head><body><p>The coffee-shop post gives its exact prompt: <em>"Find wallets with 100+ trades and 70%+ win rate. Rank by profit. Export the best ones."</em> It claims Claude scanned 14,000 wallets in 4 minutes and returned 47. I ran that filter on my data.</p>
+<pre><code class="language-bash">python3 viral_prompt.py
+</code></pre>
+<pre><code class="language-text">RAW       100+ resolved &amp; 70%+ win rate: 2,974 wallets (median win rate 100%)
+CORRECTED 100+ resolved &amp; 70%+ win rate: 1,528 wallets
+  dropped below 70% once dead bets count: 1,448 of 2,974
+  of the survivors, history capped at 1,000 rows (unverifiable): 1,145
+Top 20 by RAW profit -&gt; corrected:
+  raw profit $860.8M  -&gt;  corrected $679.0M;  raw win rate 98% -&gt; 64% (average)
+</code></pre>
+<p>On raw data that filter doesn't return 47 wallets out of 14,000. It returns 2,974 out of 5,916, with a median win rate of 100%. Half of them fall under 70% once dead bets count, and most of the rest are capped, so they can't be checked at all. The "top 20" lose about $182M of their profit and drop from a 98% to a 64% average win rate.</p>
+<p>Also, 4 minutes for 14,000 wallets is about 58 wallets a second. Polymarket's API slowed my scanner to roughly half a wallet per second, and my copier logged a "429 Too Many Requests" (section 23).</p>
+<h2>15. The other claim: "arbitrage bots"</h2></body></html>

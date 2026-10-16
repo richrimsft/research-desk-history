@@ -1,0 +1,76 @@
+X notification scan
+===================
+Scan time: 2026-09-30 about 15:49 ET
+Cutoff: 2026-09-30T15:20:13-04:00
+Account: signed in as P7RIM3 (@P7RIM3), confirmed in the X account menu on both pages.
+Pages scanned:
+- https://x.com/notifications
+- https://x.com/notifications/mentions
+Screenshots:
+- /workspace/x-plan/run-20260930-1548-notifications.png
+- /workspace/x-plan/run-20260930-1548-mentions.png
+
+Visible inbound reply/mention cards (the same seven cards were visible on both pages)
+------------------------------------------------------------------------------------
+1) Display name: Paul Kelly
+   Handle: @zebralife2002
+   Tweet: https://x.com/zebralife2002/status/2105361123503440350
+   Relative time: 1h (shown as “1 hour ago”)
+   Full text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+   Disposition: SKIP — already handled; existing reply is https://x.com/P7RIM3/status/2105362879817925052. Also pre-cutoff based on the displayed 1h age.
+
+2) Display name: Piper Paprikas #2nd account
+   Handle: @KittyMcfeisty2
+   Tweet: https://x.com/KittyMcfeisty2/status/2105343324580143460
+   Relative time: 2h (shown as “2 hours ago”)
+   Full text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh
+   Disposition: SKIP — known thread already at two beats / handled; pre-cutoff.
+
+3) Display name: Piper Paprikas #2nd account
+   Handle: @KittyMcfeisty2
+   Tweet: https://x.com/KittyMcfeisty2/status/2105339423638651351
+   Relative time: 2h (shown as “2 hours ago”)
+   Full text: 🙄 🤦‍♀️
+   Disposition: SKIP — known thread already at two beats / handled; pre-cutoff.
+
+4) Display name: Piper Paprikas #2nd account
+   Handle: @KittyMcfeisty2
+   Tweet: https://x.com/KittyMcfeisty2/status/2105333564132712947
+   Relative time: 3h (shown as “3 hours ago”)
+   Full text: What’s new is this shit needs to stop. Beyond ridiculous
+   Disposition: SKIP — known thread already at two beats / handled; pre-cutoff.
+
+5) Display name: h
+   Handle: @Cobra17298328
+   Tweet: https://x.com/Cobra17298328/status/2105112514090402040
+   Relative time: 17h (shown as “17 hours ago”)
+   Full text: I can’t see what this bitch is saying, cause he immediately blocked me
+   Disposition: SKIP — known beat 2 of 2 done; pre-cutoff.
+
+6) Display name: Juneaux ⏸️ 😴
+   Handle: @juneauxwhoitis
+   Tweet: https://x.com/juneauxwhoitis/status/2105094896663371987
+   Relative time: 19h (shown as “19 hours ago”)
+   Full text: Overflowing with perceptions you are!
+   Disposition: SKIP — known thread is over two beats; pre-cutoff.
+
+7) Display name: spooky (Verified account)
+   Handle: @FiresOfTruth
+   Tweet: https://x.com/FiresOfTruth/status/2105080875058704611
+   Relative time: 19h (shown as “19 hours ago”)
+   Full text: Check the link in my bio to watch a film I made with darcy
+   Disposition: SKIP — bio promo; pre-cutoff.
+
+Other visible cards on /notifications (ignored per instruction)
+---------------------------------------------------------------
+- Debra (@garcia_debra70), 2h: “followed you” — follow, not inbound.
+- Strange Rain (@Strangerain0011) and 8 others, 3h: “liked your reply” (reply text shown: “Do the complete opposite of whatever Cramer says!”) — like, not inbound.
+- Hidden In Plain Sight (@thehiddenpod) and 2 others, 6h: “liked your reply” (reply text shown: “The dude claimed he was on different planets and a secret space force run by reptiles. What did he expect the public’s reaction would be? Ufology in general is about as asinine as the flat earth community. I follow it for the laughs!”) — like, not inbound.
+- 🇬🇧 Quinn Charley 🇺🇸 (@quinn_charley21), 9h: “liked your reply” (reply text shown: “She looks like an obese heffer. I don't get why people want that. Imagine the smell”) — like, not inbound.
+- Davidson Robsinson (@Ro61088Davidson) and 7 others, 13h: “liked your reply” (reply text shown: “Do the opposite of whether Kramer says! Trust me”) — like, not inbound.
+- G Reed (@KEKerboxerGlory), 17h: “liked your reply” (reply text shown: “Nvidia and X.ai yes! Meta, absolutely not”) — like, not inbound.
+
+Result
+------
+NEW_COUNT 0
+No unreplied inbound reply/mention was newer than 2026-09-30T15:20:13-04:00. No replies, likes, follows, reposts, bio/pin/settings, or other account changes were made.

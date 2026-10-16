@@ -1,0 +1,1 @@
+{"statusCode":404,"timestamp":"2026-10-16T05:38:15.355Z","path":"/coins/mcap?limit=50&offset=0&includeNsfw=false","message":"Cannot GET /coins/mcap?limit=50&offset=0&includeNsfw=false","error":"Not Found"}

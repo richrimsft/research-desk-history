@@ -1,0 +1,40 @@
+{
+ "tag": "0703",
+ "symbol": "Deer",
+ "mint": "4tf5GEXU1dt7Vfj21oCu4P96ZEKEm3zMYqpzZsoCDeer",
+ "age_h": 2.58,
+ "mc": 104134,
+ "h1": 207,
+ "m5": 15.74,
+ "dexId": "pumpswap",
+ "phase": "pumpswap/post-grad",
+ "verdict": "FAIL",
+ "tag_role": "PRIOR_recheck",
+ "reasons": [
+  "creatorBal 0 (dev sold/out) \u2014 unchanged",
+  "RC score 14432 / normalised 55 \u2014 WORSE vs prior score 1",
+  "Large Amount of LP Unlocked 100% + Low Liquidity $68.36 (danger) \u2014 structure deteriorated; RC now sees meteoraDlmm not healthy PumpSwap LP",
+  "prior FAIL stands: 19\u00d71-5% band, top10ex ~27.6%, cabal funder, weak socials (X community + IG reel shared with copycat)",
+  "post-grad chase; not a material improvement despite m5 +15 / h1 +207"
+ ],
+ "creatorBalance": 0,
+ "rc_score": 14432,
+ "score_normalised": 55,
+ "risks": [
+  "Large Amount of LP Unlocked",
+  "Low Liquidity",
+  "Low amount of LP Providers"
+ ],
+ "socials": [
+  {
+   "url": "https://x.com/i/communities/2031673017437179906",
+   "type": "twitter"
+  },
+  {
+   "url": "https://www.instagram.com/reels/DegneDnz29U/",
+   "type": "instagram"
+  }
+ ],
+ "tx_h": 824,
+ "vol_h1": 47562.09
+}

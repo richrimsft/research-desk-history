@@ -1,0 +1,44 @@
+[
+  {
+    "sym": "roadster",
+    "mint": "CbAeScGTv9sjGHtDRQsfqHzgSWupueN4Nduz7mBSpump",
+    "dex": "pumpfun",
+    "mc": 26217.0,
+    "liq": null,
+    "age_h": 2.32,
+    "h1": 207,
+    "m5": 53.22,
+    "buys": 377,
+    "sells": 255,
+    "v1": 34038.0,
+    "url": "https://dexscreener.com/solana/6g31fj9j7mlpe7yvje9kwtdn9vh112lnkq6imnkaxj9u"
+  },
+  {
+    "sym": "123456",
+    "mint": "hps4Xy4goXuV9zxdTAuF35tN58Gpks8Ho5zX529pump",
+    "dex": "pumpfun",
+    "mc": 43220.5,
+    "liq": null,
+    "age_h": 0.87,
+    "h1": 1276,
+    "m5": null,
+    "buys": 354,
+    "sells": 182,
+    "v1": 48551.1,
+    "url": "https://dexscreener.com/solana/cixmg32tjdzyakowz2km9x5oxucj4ysyt7qnezauhcl2"
+  },
+  {
+    "sym": "ROADSTER",
+    "mint": "Eizz6UJUBmoH4CxqLR5XBRyEGfoaKeckjmsraobSpump",
+    "dex": "pumpswap",
+    "mc": 24225,
+    "liq": 12113.1,
+    "age_h": 1.92,
+    "h1": 67.74,
+    "m5": 14.41,
+    "buys": 166,
+    "sells": 108,
+    "v1": 9370.5,
+    "url": "https://dexscreener.com/solana/4crgrtlwfcpeubqfqayrnjj9vjrpjbhyebnyufk1egwh"
+  }
+]

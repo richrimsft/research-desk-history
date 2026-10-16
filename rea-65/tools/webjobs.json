@@ -1,0 +1,96 @@
+[
+{
+"url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.5.0",
+"out": "/workspace/rea-65/img/w01-release.png"
+},
+{
+"url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.5.0",
+"out": "/workspace/rea-65/img/w02-release-packets.png",
+"text": "Packet captures:"
+},
+{
+"url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.5.0",
+"out": "/workspace/rea-65/img/w03-release-rust-fuses.png",
+"text": "Rust dependency metadata"
+},
+{
+"url": "https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/javascript-recovery.md",
+"out": "/workspace/rea-65/img/w04-doc-js-recovery.png",
+"text": "Recover related code-split chunks"
+},
+{
+"url": "https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/pcap-analysis.md",
+"out": "/workspace/rea-65/img/w05-doc-pcap.png",
+"text": "Inspect only the needed facts"
+},
+{
+"url": "https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/sqlite-databases.md",
+"out": "/workspace/rea-65/img/w06-doc-sqlite.png"
+},
+{
+"url": "https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/wasm-artifacts.md",
+"out": "/workspace/rea-65/img/w07-doc-wasm.png"
+},
+{
+"url": "https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/go-binaries.md",
+"out": "/workspace/rea-65/img/w08-doc-go.png"
+},
+{
+"url": "https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/rust-binaries.md",
+"out": "/workspace/rea-65/img/w09-doc-rust.png"
+},
+{
+"url": "https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/electron-fuses.md",
+"out": "/workspace/rea-65/img/w10-doc-fuses.png"
+},
+{
+"url": "https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/mcp-contracts.md",
+"out": "/workspace/rea-65/img/w11-doc-mcp-summary.png",
+"text": "supports a summary and"
+},
+{
+"url": "https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/client-configuration.md",
+"out": "/workspace/rea-65/img/w12-doc-grokbot.png",
+"text": "is detected from"
+},
+{
+"url": "https://rea.tools/",
+"out": "/workspace/rea-65/img/w13-rea-tools.png"
+},
+{
+"url": "https://github.com/WebAssembly/wabt/releases/tag/1.0.42",
+"out": "/workspace/rea-65/img/w14-wabt.png"
+},
+{
+"url": "https://www.electronjs.org/docs/latest/tutorial/fuses",
+"out": "/workspace/rea-65/img/w15-electron-fuses.png"
+},
+{
+"url": "https://github.com/rust-secure-code/cargo-auditable",
+"out": "/workspace/rea-65/img/w16-cargo-auditable.png"
+},
+{
+"url": "https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/testing.md",
+"out": "/workspace/rea-65/img/w17-doc-testing.png"
+},
+{
+"url": "https://github.com/pionxzh/wakaru/releases/tag/v1.14.0",
+"out": "/workspace/rea-65/img/w18-wakaru.png"
+},
+{
+"url": "https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/android-analysis.md",
+"out": "/workspace/rea-65/img/w19-doc-android.png"
+},
+{
+"url": "https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/firmware-analysis.md",
+"out": "/workspace/rea-65/img/w20-doc-firmware.png"
+},
+{
+"url": "https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/managed-code-analysis.md",
+"out": "/workspace/rea-65/img/w21-doc-managed.png"
+},
+{
+"url": "https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/apktool-resource-analysis.md",
+"out": "/workspace/rea-65/img/w22-doc-apktool.png"
+}
+]

@@ -1,0 +1,35 @@
+X notification scan report
+scanned_at: 2026-09-30T20:49:41-04:00
+cutoff: 2026-09-30T20:40:15-04:00
+account_confirmed: @P7RIM3 (signed in)
+NEW_COUNT: 0
+replies_posted: 0
+
+Screenshots:
+- /workspace/x-plan/run-20260930-2047-notifications.png
+- /workspace/x-plan/run-20260930-2047-mentions.png
+
+Mentions cards considered:
+1. @DrumondArt — https://x.com/DrumondArt/status/2105451230445154557 — 34–35m — reply to @P7RIM3/@cb_doge consisting of emoji-only laughter — SKIP: known emoji-only laugh troll; no claim.
+2. @stonkspark — https://x.com/stonkspark/status/2105435508927005103 — 1h — “on it” — SKIP: already replied; existing reply https://x.com/P7RIM3/status/2105435757142028442.
+3. @GilliRoth — https://x.com/GilliRoth/status/2105422493200875658/photo/1 — 2h — image reply — SKIP: already replied; existing reply https://x.com/P7RIM3/status/2105426194468405542.
+4. @zebralife2002 — https://x.com/zebralife2002/status/2105361123503440350 — 6h — critique of wording, “Have a good day” — SKIP: already replied; existing reply https://x.com/P7RIM3/status/2105362879817925052.
+5. @KittyMcfeisty2 — https://x.com/libsoftiktok/status/2104968178518372788/photo/1 (quote parent opened from card) — 7h — “This… Males taking on women shit?” quote-reply — SKIP: already over two beats with same person/thread.
+6. @KittyMcfeisty2 — X card, 7h — eye-roll/facepalm reply with one existing reply — SKIP: over two beats.
+7. @KittyMcfeisty2 — X card, 8h — “What’s new is this shit needs to stop. Beyond ridiculous” — SKIP: over two beats.
+8. @Cobra17298328 — X card, 23h — hostile reply containing a slur — SKIP: known old slur / blocked context.
+9. @juneauxwhoitis — X card, Sep 29 — “Overflowing with perceptions you are!”; 2 replies — SKIP: thread already at two beats.
+10. @FiresOfTruth — X card, Sep 29 — “Check the link in my bio to watch a film…” — SKIP: promo/spam.
+11. @FiresOfTruth — X card, Sep 29 — quote-only post about a missing-person claim — SKIP: quote-only/non-actionable.
+12. @FiresOfTruth — X card, Sep 29 — “He’s a human being” — SKIP: old thread; no new response needed.
+
+All notifications cards considered:
+- @3mrwellington3 / B Laidlaw, P.I. — https://x.com/P7RIM3/status/2105440499347738754 — ~1m — liked an existing P7RIM3 reply — SKIP: like notification, not inbound.
+- Mom — X card, ~22m — liked an existing P7RIM3 post — SKIP: like notification.
+- Eagles Injury Update — X card, ~22m — non-reply notification — SKIP: not an inbound reply/mention.
+- @DrumondArt — https://x.com/DrumondArt/status/2105451230445154557 — ~35m — emoji-only reply — SKIP: known troll.
+- @AustinBiel and @rilo — X card, ~37m — liked an existing P7RIM3 post — SKIP: likes.
+- Other visible All-tab cards in the loaded range were likes/reposts/follows/quote notifications rather than new inbound replies; SKIP.
+- @stonkspark, @SafetyNotorious, @GilliRoth, @zebralife2002, @KittyMcfeisty2, @Cobra17298328, @juneauxwhoitis, and @FiresOfTruth — same cards listed above; all older than cutoff and skipped under standing rules.
+
+Result: No genuine new unreplied inbound reply or mention at/after cutoff. No threats, self-harm, or illegal-content flags. No posting actions taken.

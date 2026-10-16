@@ -1,0 +1,16 @@
+$ python3 summary.py
+Running since 2026-10-14 03:07 PM ET (1177 min); markets rolled: 216
+Opportunities (sum of asks + fees < $1): 0  -> 0.0/hour
+Fill attempts: 0; survived 300-500ms latency: 0 (0%); filled >= min size: 0
+Resolved positions: 0; realized P&L $0.0000; open positions: 0 (cost $0.00)
+Cash $100.00 of $100 bankroll
+Directional leftovers: 0 won / 0 lost ($0.00) [leftovers off by default: only matched sets are bought]
+Near-miss: 197 markets; lowest raw Up+Down ask sum seen $0.970; median of per-market medians $1.010
+API errors logged: 9
+
+== Copy-trading paper module ==
+[top] copies 23 (skipped 13); closed 5: 1 won / 4 lost (20% win); realized P&L $-10.96; cash $0.00 + open cost $89.04 (13 pos)
+      avg slippage vs wallet entry (incl fee): +5.60c/share
+[random] copies 37 (skipped 1589); closed 13: 6 won / 7 lost (46% win); realized P&L $-61.04; cash $0.00 + open cost $38.96 (6 pos)
+      avg slippage vs wallet entry (incl fee): -6.06c/share
+  follower heartbeat: 2026-10-15T10:43:51-04:00

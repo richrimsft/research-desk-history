@@ -1,0 +1,8 @@
+X notifications scan — 2026-09-30 10:07 EDT
+Cutoff: 2026-09-30T10:03:00-04:00 (America/New_York)
+Signed in: yes, account menu shows @P7RIM3.
+All tab: refreshed once; visible timeline had likes-only cards at 59m, 4h, 7h, 8h, 11h, 13h, 14h plus reply/mention cards older than cutoff: @Cobra17298328 (12h, https://x.com/Cobra17298328/status/2105112514090402040) “I can’t see what this bitch is saying, cause he immediately blocked me”; @juneauxwhoitis (13h, https://x.com/juneauxwhoitis/status/2105094896663371987) “Overflowing with perceptions you are!”; @FiresOfTruth (14h, https://x.com/FiresOfTruth/status/2105080875058704611) “Check the link in my bio to watch a film I made with darcy”; @FiresOfTruth (14h, https://x.com/FiresOfTruth/status/2105074701802651949) quote post “Alex B is currently missing. #fishtanklive”; @FiresOfTruth (14h, https://x.com/FiresOfTruth/status/2105073376268345355) “He’s a human being”; @grok (15h, https://x.com/grok/status/2105068070892912851) “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the…”
+Mentions tab: same six known/handled cards only; no newer cards.
+Known handled items skipped per instructions. NEW_COUNT=0.
+Blockers: none; no login wall, captcha, or blocked view encountered.
+Screenshot: /workspace/x-plan/last-desktop.webp (PNG copy: /workspace/x-plan/last-desktop.png)

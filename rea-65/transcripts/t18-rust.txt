@@ -1,0 +1,11 @@
+$ rea inspect-rust-binary rust/hellorust-auditable --format json | jq -c '.confidence, (.normalized_result.auditable_metadata | {section_name, file_offset, compressed_bytes, uncompressed_bytes}), .normalized_result.auditable_metadata.packages[], .normalized_result.auditable_metadata.dependency_edges'
+"observed"
+{"section_name":".dep-v0","file_offset":393425,"compressed_bytes":117,"uncompressed_bytes":157}
+{"name":"hellorust","version":"0.1.0","source":"local","kind":null,"dependencies":[1],"root":true}
+{"name":"itoa","version":"1.0.18","source":"crates.io","kind":null,"dependencies":[],"root":false}
+[{"from_index":0,"to_index":1}]
+
+$ rea inspect-rust-binary rust/hellorust-plain --format json | jq -c '.normalized_result.auditable_metadata, (.normalized_result.limitations[] | select(test("dep-v0 section was found")))'
+null
+"No .dep-v0 section was found. Absence of .dep-v0 does not mean the binary has no dependencies."
+

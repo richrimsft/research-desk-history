@@ -1,0 +1,67 @@
+{
+ "mint": "AGEG7Top8SGqCMZ5woSu7tB5XLrEkfp82VG5Wfa3pump",
+ "symbol": "17/10",
+ "mc": 10328,
+ "age_h": 0.04,
+ "dex": "pumpfun",
+ "tag": "young_prescreen",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "creatorBal 0",
+  "too young (0.04h) \u2014 do not buy",
+  "brand-new / thin structure"
+ ],
+ "rc": "rc-1710-0802.json",
+ "score": 1,
+ "creatorBalance": 0,
+ "creator": "GjU9uYrSCBeUpAkaCeG5rEngnTexYXqH",
+ "band_1_5": 1,
+ "top10ex_est": 11.05,
+ "excl_high": [
+  [
+   "6257sn718cmh",
+   88.94788294409321
+  ]
+ ],
+ "totalHolders": 128,
+ "graphInsiders": null,
+ "risks": [],
+ "links_n": 1,
+ "top_holders_sample": [
+  [
+   88.95,
+   "6257sn718cmhoM6u"
+  ],
+  [
+   6.03,
+   "CWk2KxqGyKrcZzQ8"
+  ],
+  [
+   4.59,
+   "8F81K3bzKUY7RHow"
+  ],
+  [
+   0.1,
+   "GgWAiszSLhtDYzSQ"
+  ],
+  [
+   0.09,
+   "9MPxobr1twj28c6Q"
+  ],
+  [
+   0.08,
+   "CWKdR3B8oCpguxbc"
+  ],
+  [
+   0.07,
+   "BVzpW6SvJjjRkPYi"
+  ],
+  [
+   0.05,
+   "6kE73Tj2Kk1e5KXf"
+  ]
+ ],
+ "h1": 187,
+ "m5": 187,
+ "liq": null
+}

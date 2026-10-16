@@ -1,0 +1,64 @@
+{
+ "tag": "1003",
+ "symbol": "RIBBIT",
+ "mint": "78ZBbCJkwQjXxRJJ2xv4gXU1BZvAayrvysqF4bmZpump",
+ "age_h": 0.74,
+ "mc": 99592,
+ "h1": 129,
+ "m5": 12.83,
+ "dex": "pumpswap",
+ "phase": "inwindow_recheck",
+ "verdict": "FAIL",
+ "reasons": [
+  "creatorBal 0 (dev sold out early)",
+  "16\u00d7 1\u20135% holder band",
+  "6\u00d7 tight 1.1\u20131.3% sniper band",
+  "9 graph insiders"
+ ],
+ "rc_score": 1,
+ "top10ex_pct": 18.91,
+ "band_1_5_count": 16,
+ "max_identical_0.1": 4,
+ "identical_band_val": 1.2,
+ "creator": "3mzvzPpTanqUZFNEFbtcHUSoGYygv4tywb7gxadjzEDh",
+ "creatorBalance": 0,
+ "mintAuthority": null,
+ "freezeAuthority": null,
+ "graphInsiders": 9,
+ "totalHolders": 3866,
+ "risks": [],
+ "meta_name": "Blue Frog",
+ "creator_pct": 0.0,
+ "top_pcts": [
+  15.07,
+  3.6,
+  2.3,
+  2.26,
+  2.25,
+  1.83,
+  1.5,
+  1.45,
+  1.27,
+  1.23,
+  1.22,
+  1.2
+ ],
+ "insiderNetworks": [
+  {
+   "id": "quirky-mauve-woodpecker",
+   "size": 5,
+   "type": "transfer",
+   "tokenAmount": 32167581570765,
+   "currentHolding": 15242551173663,
+   "activeAccounts": 5
+  },
+  {
+   "id": "crisp-wisteria-hyena",
+   "size": 4,
+   "type": "transfer",
+   "tokenAmount": 9571079290461,
+   "currentHolding": 9571079290461,
+   "activeAccounts": 4
+  }
+ ]
+}

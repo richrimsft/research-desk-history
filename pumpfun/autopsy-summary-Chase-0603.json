@@ -1,0 +1,42 @@
+{
+  "tag": "0603",
+  "symbol": "Chase",
+  "safe": "Chase",
+  "mint": "YwCKitMEdf7nagejZbvpDvxDui5CdoQ3NuJsE5Tpump",
+  "verdict": "FAIL",
+  "fails": [
+    "creatorBal 0 (creator fee-share PDA)",
+    "fresh wallet RuYU2iRM\u2026 (1 tx, 0.6h old = created at launch) holds 5.64% \u2014 linked/sniper bag",
+    "15\u00d7 wallets in 1\u20135% band",
+    "botty churn ~1.9k tx/h, ~$78k h1 vol on ~$13k mc",
+    "socials: only a link to a third-party tweet (@Humanevolvd, 33k foll.); no project X",
+    "m5 -14% fading"
+  ],
+  "age_h": 0.59,
+  "mc": 13289,
+  "h1": 229,
+  "m5": -13.98,
+  "dexId": "pumpfun",
+  "phase": "pumpfun curve ~38.9% (~33.066 SOL)",
+  "creator": "BHe6nXANdpwus4TJMeU6n8VY73dWXZPRsuFxiGCFx2vm",
+  "creatorBal": 0,
+  "creator_wallet": {
+    "creator": "BHe6nXANdpwus4TJMeU6n8VY73dWXZPRsuFxiGCFx2vm",
+    "ntx": 649,
+    "age_h": 0.6,
+    "sol": 0.00585216
+  },
+  "band_1_5": 15,
+  "top10_ex_curve_pct": 23.88,
+  "rugScore": 1,
+  "score_normalised": 1,
+  "risks": [],
+  "graphInsiders": 0,
+  "txh1": {
+    "buys": 1132,
+    "sells": 741
+  },
+  "volh1": 77578,
+  "totalHolders": 443,
+  "structure_notes": "5.64 RuYU2iRM ntx 1 age_h 0.6 funder None\n3.23 2M2vLX34 ntx 1000 age_h 137.2 funder None\n3.08 HJQd7M6E ntx 211 age_h 626.0 funder ('2UL8hbNaoErAYNePqgQYPP9yDCDRZGWbzKW4krLqkhNL', 3.135341936)\n2.33 DHo1ECUj ntx 1000 age_h 303.7 funder None\n2.13 H7tb2ERn ntx 1000 age_h 40.6 funder None\n1.65 Gt8xJi87 ntx 1000 age_h 8400.4 funder None\n1.63 9B3R9F54 ntx 1000 age_h 166.1 funder None\n1.49 BEKRAfvR ntx 1000 age_h 232.3 funder None\n1.45 Bj1GuNPE ntx 1000 age_h 162.5 funder None\n1.25 F6KsZiHn ntx 1000 age_h 135.6 funder None\n1.17 3KUW6bGA ntx 1000 age_h 405.5 funder None\n1.12 FhgEVdyy ntx 783 age_h 945.3 funder ('5yWMH3WcVeseJsZTjppeoDQ73Q3Fw3jLDcqtxRH1xKFv', 0.28287)\n"
+}

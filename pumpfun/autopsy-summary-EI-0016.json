@@ -1,0 +1,18 @@
+{
+  "sym": "EI",
+  "mint": "DDaqBWhR5YsAg8vVaMJatrmNdm9GpcBH2UUpnnPqpump",
+  "verdict": "REJECT",
+  "why": "mc ~$10k under $15k floor; creatorBalance 0 (sold early); m5 \u221236% dumping; borrowed tweet + otcdesks.cash.",
+  "mc": 10108,
+  "liq": null,
+  "h1": 154,
+  "tx1h": "838b/623s",
+  "creatorBalance": 0,
+  "creator": "9UCMkNaqvwUhBsW2qsvuQyki7PU8hDBjiDn8x87WTLAy",
+  "top10_pct_ex_curve1": 24.26,
+  "graphInsiders": 0,
+  "score": 1,
+  "socials": "borrowed X NikolaiHauckx/status + otcdesks.cash",
+  "curve_phase": "on-curve mid",
+  "risks": []
+}

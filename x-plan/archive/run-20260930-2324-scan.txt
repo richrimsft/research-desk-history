@@ -1,0 +1,32 @@
+RUN: notifications reply check only
+signed_in_as: @P7RIM3
+cutoff: 2026-09-30T23:23:29-04:00
+scanned_at: 2026-09-30T23:25:55-04:00
+next_cutoff: 2026-09-30T23:25:55-04:00
+
+ITEM_CONSIDERED | source=ALL | handle=@iLLuminuttee (Filetofsoul) | age=16m | type=like of our reply | link=https://x.com/iLLuminuttee (profile only; post link not exposed) | text="Just watched the JRE episode. The whole thing is just crazy." | newer_than_cutoff=no | action=SKIP_LIKE_NOT_INBOUND_REPLY
+ITEM_CONSIDERED | source=ALL | handle=@zachrf1014 (zachary Fleischauer) | age=37m | type=like of our reply | link=https://x.com/zachrf1014 (profile only; post link not exposed) | text="The comments here are hilarious! Wow" | newer_than_cutoff=no | action=SKIP_LIKE_NOT_INBOUND_REPLY
+ITEM_CONSIDERED | source=ALL | handle=@MchStereo (MCHStereo) | age=44m | type=like of our reply | link=https://x.com/MchStereo (profile only; post link not exposed) | text="Cool story, but zero proof. Just a trust me bro, I worked in government" | newer_than_cutoff=no | action=SKIP_LIKE_NOT_INBOUND_REPLY
+ITEM_CONSIDERED | source=ALL | handle=@scullyspier (Scullyspier) | age=45m | type=repost of our post | link=https://x.com/scullyspier (profile only; post link not exposed) | text="We need more of this" | newer_than_cutoff=no | action=SKIP_REPOST_NOT_INBOUND_REPLY
+ITEM_CONSIDERED | source=ALL | handle=@scullyspier + @Kramer_not + @Sonic1994DC + @rilo0x | age=45m | type=likes of our post | link=profile links only; post link not exposed | text="We need more of this" | newer_than_cutoff=no | action=SKIP_LIKES_NOT_INBOUND_REPLY
+ITEM_CONSIDERED | source=ALL | handle=@DemosthenesTwin + @BrianEdwardMKE + @laidlaw76 | age=51m | type=likes of our reply | link=profile links only; post link not exposed | text="This is the stuff you listen to when your entire life goes to shit and you try and figure out what went wrong. This is literally the bottom of the garbage bin of conspiracy. It’s not even a theory. It’s just straight up retarded. I’m convinced people that push this know they..." | newer_than_cutoff=no | action=SKIP_LIKES_NOT_INBOUND_REPLY
+ITEM_CONSIDERED | source=ALL | handle=@Cuzzo_TM | age=59m | type=quote post | link=https://x.com/Cuzzo_TM/status/2105484203005812936 | text="Welcome to Pump.Fun ……..DORK" | newer_than_cutoff=no | action=SKIP_CANCELLED_0HOUR_THREAD
+ITEM_CONSIDERED | source=ALL | handle=@misterg792000 | age=1h | type=reply/mention | link=https://x.com/misterg792000/status/2105483189200261612 | text="Buddy, he didn't invent either one of those things. He just bought the company that did." | newer_than_cutoff=no | action=SKIP_OLDER_THAN_CUTOFF_AND_TWO_BEAT_THREAD
+ITEM_CONSIDERED | source=ALL | handle=Rams/Eagles sports card | age=1h | type=sports news card | link=none | text="Rams' Nacua returns — WR Puka Nacua returned to limited practice; coach Sean McVay expects him to play Sunday against the Eagles." | newer_than_cutoff=no | action=SKIP_SPORTS_NEWS_CARD
+ITEM_CONSIDERED | source=ALL | handle=@misterg792000 | age=1h | type=reply/mention | link=https://x.com/misterg792000/status/2105479038823178432 | text="Name a single field he has demonstrated \"deep mastery\" of. Name a single thing he has invented." | newer_than_cutoff=no | action=SKIP_OLDER_THAN_CUTOFF_AND_TWO_BEAT_THREAD
+ITEM_CONSIDERED | source=ALL | handle=@misterg792000 | age=1h | type=like of our reply | link=https://x.com/misterg792000 (profile only; post link not exposed) | text="Ok that tracks. Deep mastery across fields, not just wearing a lot of hats. Thanks for the card. For Meridian specifically — which domains already have his shipped receipts?" | newer_than_cutoff=no | action=SKIP_LIKE_NOT_INBOUND_REPLY
+ITEM_CONSIDERED | source=ALL | handle=@MadamHaus | age=2h | type=reply/mention with video | link=https://x.com/MadamHaus/status/2105460336006672836 | text=media-only reply to @P7RIM3 and @__0HOUR1_ | newer_than_cutoff=no | action=SKIP_CANCELLED_0HOUR_THREAD
+
+ITEM_CONSIDERED | source=MENTIONS | handle=@misterg792000 | age=1h | type=inbound reply/mention | link=https://x.com/misterg792000/status/2105483189200261612 | text="Buddy, he didn't invent either one of those things. He just bought the company that did." | newer_than_cutoff=no | action=SKIP_OLDER_THAN_CUTOFF_AND_TWO_BEAT_THREAD
+ITEM_CONSIDERED | source=MENTIONS | handle=@misterg792000 | age=1h | type=inbound reply/mention | link=https://x.com/misterg792000/status/2105479038823178432 | text="Name a single field he has demonstrated \"deep mastery\" of. Name a single thing he has invented." | newer_than_cutoff=no | action=SKIP_OLDER_THAN_CUTOFF_AND_TWO_BEAT_THREAD
+ITEM_CONSIDERED | source=MENTIONS | handle=@MadamHaus | age=2h | type=inbound reply/mention with video | link=https://x.com/MadamHaus/status/2105460336006672836 | text=media-only reply to @P7RIM3 and @__0HOUR1_ | newer_than_cutoff=no | action=SKIP_CANCELLED_0HOUR_THREAD
+ITEM_CONSIDERED | source=MENTIONS | handle=@DrumondArt | age=3h | type=inbound reply/mention | link=https://x.com/DrumondArt/status/2105451230445154557 | text="Deep mastery across fields" followed by repeated laughing-emoji spam | newer_than_cutoff=no | action=SKIP_EMOJI_SPAM
+ITEM_CONSIDERED | source=MENTIONS | handle=@stonkspark | age=4h | type=inbound reply/mention | link=https://x.com/stonkspark/status/2105435508927005103 | text="on it" | newer_than_cutoff=no | action=SKIP_OLDER_THAN_CUTOFF
+ITEM_CONSIDERED | source=MENTIONS | handle=@GilliRoth | age=5h | type=inbound reply/mention with image | link=https://x.com/GilliRoth/status/2105422493200875658 | text=image reply; card has no text visible | newer_than_cutoff=no | action=SKIP_OLDER_THAN_CUTOFF
+
+NEW_COUNT=0
+replies_posted=none
+FLAGS=none
+BLOCKERS=none
+originals_posted=0
+screenshots: /workspace/x-plan/run-20260930-2324-notifications.png ; /workspace/x-plan/run-20260930-2324-mentions.png

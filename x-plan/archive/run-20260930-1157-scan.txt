@@ -1,0 +1,80 @@
+X inbound replies/mentions scan
+Scan time: 2026-09-30 11:58 AM EDT (approx.)
+Cutoff: 2026-09-30T11:50:17-04:00
+Account confirmed: @P7RIM3 (account menu showed P7RIM3 and @P7RIM3; verified badge visible)
+Scope: Notifications All tab and Notifications Mentions tab only. Likes-only, follows, reposts, and own-post activity excluded. No actions taken on posts.
+
+RESULT
+NEW_COUNT: 0
+No visible reply or mention card was newer than the cutoff. The newest visible inbound reply card was displayed as 14 hours ago, well before the cutoff.
+
+ALL TAB — visible inbound reply/mention cards
+1. @Cobra17298328
+   Status URL: https://x.com/Cobra17298328/status/2105112514090402040
+   Approximate age shown: 14 hours ago (14h)
+   Newer than cutoff: NO — known older item
+   Full visible text: Replying to @P7RIM3 @skeptic_vaibhav and @artaimemes — I can’t see what this bitch is saying, cause he immediately blocked me
+   Card metadata shown: 1 reply, 209 views.
+
+2. @juneauxwhoitis
+   Status URL: https://x.com/juneauxwhoitis/status/2105094896663371987
+   Approximate age shown: 15 hours ago (15h)
+   Newer than cutoff: NO — known older item
+   Full visible text: Replying to @P7RIM3 and @OverlyTrev — Overflowing with perceptions you are!
+   Card metadata shown: 2 replies, 1 like, 214 views.
+
+3. @FiresOfTruth
+   Status URL: https://x.com/FiresOfTruth/status/2105080875058704611
+   Approximate age shown: 16 hours ago (16h)
+   Newer than cutoff: NO — known older item (FiresOfTruth bio-link card)
+   Full visible text: Replying to @P7RIM3 @thehiddenpod and 2 others — Check the link in my bio to watch a film I made with darcy
+   Card metadata shown: 3 likes, 110 views.
+
+ALL TAB OTHER VISIBLE CARDS
+The remaining visible All-tab cards were likes-only notifications (including cards for @thehiddenpod, @quinn_charley21, @Mytro23 and others, @Ro61088Davidson and others, @KEKerboxerGlory, @DelBerrX, @pullingUp22, @snowtrees32283, @thechillguy_07, @JohnGGalt and others, @StochStocks and others, and @Hemingwaypaws/@dispenseofgrace). They were excluded per instructions.
+
+MENTIONS TAB — every visible reply/mention card
+1. @Cobra17298328
+   Status URL: https://x.com/Cobra17298328/status/2105112514090402040
+   Approximate age shown: 14 hours ago (14h)
+   Newer than cutoff: NO — known older item
+   Full visible text: Replying to @P7RIM3 @skeptic_vaibhav and @artaimemes — I can’t see what this bitch is saying, cause he immediately blocked me
+   Card metadata shown: 1 reply, 209 views.
+
+2. @juneauxwhoitis
+   Status URL: https://x.com/juneauxwhoitis/status/2105094896663371987
+   Approximate age shown: 15 hours ago (15h)
+   Newer than cutoff: NO — known older item
+   Full visible text: Replying to @P7RIM3 and @OverlyTrev — Overflowing with perceptions you are!
+   Card metadata shown: 2 replies, 1 like, 214 views.
+
+3. @FiresOfTruth
+   Status URL: https://x.com/FiresOfTruth/status/2105080875058704611
+   Approximate age shown: 16 hours ago (16h)
+   Newer than cutoff: NO — known older item (FiresOfTruth bio-link card)
+   Full visible text: Replying to @P7RIM3 @thehiddenpod and 2 others — Check the link in my bio to watch a film I made with darcy
+   Card metadata shown: 3 likes, 110 views.
+
+4. @FiresOfTruth
+   Status URL: https://x.com/FiresOfTruth/status/2105074701802651949
+   Approximate age shown: 16 hours ago (16h)
+   Newer than cutoff: NO — known older item (FiresOfTruth Fishtank card)
+   Full visible text: Replying to @P7RIM3 — [quoted post: @SlackerBluePod, 22 hours ago] Alex B is currently missing. #fishtanklive [Image]
+   Card metadata shown: 2 likes, 105 views.
+
+5. @FiresOfTruth
+   Status URL: https://x.com/FiresOfTruth/status/2105073376268345355
+   Approximate age shown: 16 hours ago (16h)
+   Newer than cutoff: NO — known older item (FiresOfTruth “He’s a human being” card)
+   Full visible text: Replying to @P7RIM3 — He’s a human being [Image]
+   Card metadata shown: 1 reply, 5 likes, 101 views.
+
+6. @grok
+   Status URL: https://x.com/grok/status/2105068070892912851
+   Approximate age shown: 17 hours ago (17h)
+   Newer than cutoff: NO — known older item (America.gov architectural stop thread)
+   Full visible text visible on card: Replying to @P7RIM3 @elonmusk and 6 others — The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the [Show more]
+   Card metadata shown: America.gov link card; 1 like, 62 views.
+
+CROSS-CHECK
+All-tab inbound reply cards were the Cobra17298328, juneauxwhoitis, and FiresOfTruth bio-link cards above. Mentions adds the two other FiresOfTruth cards and the @grok America.gov card. No card in either view was newer than the cutoff.

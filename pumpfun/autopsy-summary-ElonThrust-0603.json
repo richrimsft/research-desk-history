@@ -1,0 +1,44 @@
+{
+  "tag": "0603",
+  "symbol": "ElonThrust",
+  "safe": "ElonThrust",
+  "mint": "pFibPnQk8ekCCtuBoQFJqeJjHVo92dAME3uH8A4pump",
+  "verdict": "FAIL",
+  "fails": [
+    "post-grad blind chase (~$815k, +1740% h1, age 0.6h)",
+    "single non-pool wallet CkWRijad\u2026 (system acct, 20.1 SOL) holds 14.06%",
+    "creatorBal 0; deployer G8thC28H\u2026 is a 1.5h-old wallet, 673 tx, now holds 11.6 SOL (dev sold)",
+    "RC risk: High holder correlation (score 30)",
+    "fake-volume: 13.6k tx/h for only ~$60k h1 vol (~$4/tx micro-churn)",
+    "X @melissa31zb9: created 2026-10-03, 2 followers, 1 tweet; no website"
+  ],
+  "age_h": 0.6,
+  "mc": 815090,
+  "h1": 1740,
+  "m5": 2.26,
+  "dexId": "pumpswap",
+  "phase": "graduated \u2192 PumpSwap (liq ~$76k)",
+  "creator": "G8thC28H7pkyRwWoEkUUb3f3h4bEdUdZdnrMuAq9HN3J",
+  "creatorBal": 0,
+  "creator_wallet": {
+    "creator": "G8thC28H7pkyRwWoEkUUb3f3h4bEdUdZdnrMuAq9HN3J",
+    "ntx": 673,
+    "age_h": 1.5,
+    "sol": 11.611549093
+  },
+  "band_1_5": 1,
+  "top10_ex_curve_pct": 15.09,
+  "rugScore": 2201,
+  "score_normalised": 30,
+  "risks": [
+    "High holder correlation"
+  ],
+  "graphInsiders": 0,
+  "txh1": {
+    "buys": 9489,
+    "sells": 4121
+  },
+  "volh1": 59924,
+  "totalHolders": 2270,
+  "structure_notes": "4.81 Hn6zRP1b ntx 1000 age_h 0.1 funder None\n0.3 DjR3m1Gd ntx 1000 age_h 180.9 funder None\n0.2 D82cp1hE ntx 1000 age_h 17.7 funder None\n0.15 6KgsGB3v ntx 978 age_h 342.4 funder None\n0.13 13fKkRz2 ntx 1000 age_h 1196.8 funder None\n0.07 2ZNtgYYJ ntx 1000 age_h 11.1 funder None\n0.05 3EhVaErY ntx 1000 age_h 11.1 funder None\n0.04 8nJ8k5jd ntx 1000 age_h 440.2 funder None\n0.04 FFYrTGPh ntx 806 age_h 724.1 funder ('3CkqEfxY7tYFfdyHwR9eNyL7GjmE5pENb6oGBMkB8wb4', 0.02)\n0.04 5Kp6S3gr ntx 791 age_h 724.1 funder ('26bTz3zTZi8B78icDw1joo8r4PRomjwpmcsjonx3LRB6', 0.02)\n0.04 EDCLnPbZ ntx 1000 age_h 396.2 funder None\n0.04 FVipaxbD ntx 1000 age_h 416.7 funder ('6Mbe7wZgFVPt1AyLLPmJ54EmfLEjoYsmVDWQ9dNUNfJJ', 0.1)\n"
+}

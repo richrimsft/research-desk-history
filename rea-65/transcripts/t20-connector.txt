@@ -1,0 +1,9 @@
+$ grep -o '"version":"6[^"]*"' /home/box/.cursor/projects/workspace/agent-tools/1fa1225f-a97b-4f2b-abff-f7fe288fdd1e.txt | sort -u   # Grok Bot rea connector: binary_session
+"version":"6.5.0"
+
+$ sed -n 3p notes/connector-sqlite.txt | jq -c '{evidence_id, operation, tables: [.normalized_result.schema.tables[].name]}'   # connector call inspect_sqlite_database
+{"evidence_id":"ev_ef0682312cecc391309aa48113ddd1c0841f5a30bb81439ac5461c005edf94cf","operation":"inspect_sqlite_database","tables":["users","notes"]}
+
+$ rea inspect-sqlite-database sqlite/notes.db --format json | jq -r .evidence_id   # same file through the CLI
+ev_ef0682312cecc391309aa48113ddd1c0841f5a30bb81439ac5461c005edf94cf
+

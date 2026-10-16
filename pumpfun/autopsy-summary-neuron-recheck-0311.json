@@ -1,0 +1,14 @@
+{
+  "mint": "3d2LndChut5d4pvzfFDMG8Tg9qDqY6hv7Je4S3o7pump",
+  "symbol": "neuron",
+  "recheck": "0311",
+  "mc": 10791,
+  "age_h": 0.84,
+  "creatorBalance": 0,
+  "decision": "FAIL \u2014 prior stands",
+  "reasons": [
+    "creatorBal 0",
+    "no socials",
+    "16 wallets in 1-5% band"
+  ]
+}

@@ -1,0 +1,10 @@
+$ W=0x918b42a06ff25eaaa4a79eca9da6a9de46f4ea63
+$ curl -s "https://data-api.polymarket.com/closed-positions?user=$W&limit=50" \
+    | jq '{closed: length, wins: map(select(.realizedPnl > 0)) | length,
+          losses: map(select(.realizedPnl <= 0)) | length, pnl: (map(.realizedPnl) | add | floor)}'
+{
+  "closed": 41,
+  "wins": 41,
+  "losses": 0,
+  "pnl": 1966144
+}

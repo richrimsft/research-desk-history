@@ -1,0 +1,12 @@
+JAM_LITERALLY=https://x.com/jammusnu/status/2105028160488087682
+JAM_BOT=none
+JAM_INSULT=https://x.com/jammusnu/status/2105021044033814880
+TREND1=Super Intelligence — US trending; AI/intelligence topic (rank 4)
+TREND2=Dots — Technology trending (rank 6; context unclear)
+TREND3=#RTXON — US trending; NVIDIA/RTX tech topic (rank 8)
+TREND4=Mysterious Streak Sparks UFO Talk in Starship Livestream — News, 2,251 posts; SpaceX/sky/OSINT angle
+TREND5=GPT-6.1 Sol — Technology trending; AI topic (rank 21)
+TREND6=The stargate is YOU. — Space live topic (small live audience)
+TREND7=#OlandriaxPFWSS27 — Fashion & beauty trending (rank 3)
+TREND8=Wolfman Jack — Entertainment trending (rank 19)
+DONE

@@ -1,0 +1,32 @@
+signed_in_as: @P7RIM3
+scanned_at: 2026-09-30 19:24:54 EDT (local ET)
+cutoff: 2026-09-30T19:13:30-04:00
+NEW_COUNT: 0
+
+RESULT
+No unreplied inbound reply/mention cards newer than the cutoff were visible. The newest inbound reply was @stonkspark at displayed age 12m and was already handled (reply status listed by the operator). No NEW_UNREPLIED section items.
+
+ALL TAB — https://x.com/notifications
+
+handle | url | age | text | disposition
+@Jawshhh_1 (+ @foobar00214, @stonkspark) | unavailable (like notification) | 7 minutes ago (7m) | We need more of this | like_follow_ignore
+@stonkspark | https://x.com/stonkspark/status/2105435508927005103 | 12 minutes ago (12m) | on it | already_handled
+@SafetyNotorious | https://x.com/SafetyNotorious/status/2105431749333602704 | 27 minutes ago (27m) | P7RIM3 - Retard of the Day 🏆; quoted post: @__0HOUR1_ more to come on this and his fake coin that spammed his followers [image] | quote_not_reply
+@mariam_wayman32 | unavailable (like notification) | 46 minutes ago (46m) | The comments here are hilarious! Wow | like_follow_ignore
+@Elonmusk183737 | unavailable (repost notification) | 54 minutes ago (54m) | The comments here are hilarious! Wow | like_follow_ignore
+@GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | 1 hour ago (1h) | [image-only] | already_handled
+@yagirl | unavailable (like notification) | 1 hour ago (1h) | 1/ $0HOUR1 on pump.fun, launched Sep 26. Public chart as of 6pm ET today: about $4.5k market cap, down 52% in 24 hours, 33 sells and 0 buys in that window. dexscreener.com/solana/6fteage … | like_follow_ignore
+@wojsick (+ @thehiddenpod, @ambergeddon9, @Occultjourneys) | unavailable (like notification) | 2 hours ago (2h) | The dude claimed he was on different planets and a secret space force run by reptiles. What did he expect the public’s reaction would be? Ufology in general is about as asinine as the flat earth community. I follow it for the laughs! | like_follow_ignore
+
+MENTIONS TAB — https://x.com/notifications/mentions
+
+handle | url | age | text | disposition
+@stonkspark | https://x.com/stonkspark/status/2105435508927005103 | 12 minutes ago (12m) | on it | already_handled
+@GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | 1 hour ago (1h) | [image-only] | already_handled
+@zebralife2002 | https://x.com/zebralife2002/status/2105361123503440350 | 5 hours ago (5h) | Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day | already_handled
+@KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105343324580143460 | 6 hours ago (6h) | This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh | over_two_beats
+
+NEW_UNREPLIED
+none
+
+Notes: All-tab notification cards also included likes and a repost; these were recorded but ignored as non-inbound reply/mention cards. The SafetyNotorious card was recorded as a quote-only notification and skipped per instructions. No blocked-account cards were visible.

@@ -1,0 +1,80 @@
+{
+  "mint": "8DQzWohFEMWruKUC5G2hEgBcs4bhJ1y7oJuyxZHpump",
+  "symbol": "LULU",
+  "name": "LULU INU",
+  "score": 1,
+  "rugged": false,
+  "creator": "CKytYEGnx4jGZZcYdBfhN62fhT5FMNdP9ar7envMnjNR",
+  "creatorBalance": 0,
+  "creator_pct": null,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalHolders": 89,
+  "graphInsiders": 0,
+  "top10_ex_curve_pct": 24.2,
+  "band_1_5": 19,
+  "whale_pct": 4.42,
+  "phase": "pumpfun mc~22922.59 age=0.49h h1=667 m5=-0.14 buys=98",
+  "socials": [
+    "https://x.com/luluinu_sol",
+    "https://t.me/luluinu_tg",
+    "https://luluinu.netlify.app/"
+  ],
+  "mc": 22922.59,
+  "age_h": 0.49,
+  "h1": 667,
+  "m5": -0.14,
+  "buys_h1": 98,
+  "sells_h1": 42,
+  "risks": [],
+  "decision": "FAIL",
+  "reasons": [
+    "age 0.49h <30m entry gate",
+    "creatorBalance 0 (dev sold/out)",
+    "19 wallets in 1-5% band",
+    "BUNDLE: 11/12 top holders share funder B48kNVX\u2026 @ identical 1.97878212 SOL \u2014 classic coordinated early buyers"
+  ],
+  "top10_owners": [
+    {
+      "owner": "3k57qXaybXhL\u2026",
+      "pct": 4.4180777840328
+    },
+    {
+      "owner": "F1Qa5zHRLdHW\u2026",
+      "pct": 3.5783253063786997
+    },
+    {
+      "owner": "6bvAJNaPKoAc\u2026",
+      "pct": 2.9326974943245
+    },
+    {
+      "owner": "dnLETjKg3ub3\u2026",
+      "pct": 2.7706294555407003
+    },
+    {
+      "owner": "EoDq9P7hRL3Y\u2026",
+      "pct": 2.2807894656755
+    },
+    {
+      "owner": "FMNfdEJYHvUT\u2026",
+      "pct": 2.2783760813689002
+    },
+    {
+      "owner": "5NYd2pnR8oMe\u2026",
+      "pct": 1.7040856049967998
+    },
+    {
+      "owner": "5FLEM4Axi8Uz\u2026",
+      "pct": 1.4293847213497
+    },
+    {
+      "owner": "FMYcbxCmwDAP\u2026",
+      "pct": 1.4075937769124
+    },
+    {
+      "owner": "DDYHEkbporrT\u2026",
+      "pct": 1.3958352166927999
+    }
+  ],
+  "funders_note": "BUNDLE: 11/12 top holders share funder B48kNVX\u2026 @ identical 1.97878212 SOL \u2014 classic coordinated early buyers"
+}

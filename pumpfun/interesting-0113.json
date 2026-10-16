@@ -1,0 +1,31 @@
+{
+  "strict": [
+    {
+      "sym": "DarkStar",
+      "addr": "9JYbTj84nzPQrS3zpkNGdwDRmmDA6i6wVaEtu1x5pump",
+      "dex": "pumpfun",
+      "mc": 20263,
+      "liq": 0,
+      "age": 3.02,
+      "h1": 329,
+      "m5": -6.5,
+      "b": 367,
+      "s": 248,
+      "vol1": 40775
+    },
+    {
+      "sym": "GUILD",
+      "addr": "ABmp7kvhMFXEUvjq9cybBPPbrju8uv8GTQPCDbvLpump",
+      "dex": "pumpfun",
+      "mc": 29464,
+      "liq": 0,
+      "age": 1.27,
+      "h1": 46.1,
+      "m5": 10.2,
+      "b": 149,
+      "s": 93,
+      "vol1": 11523
+    }
+  ],
+  "loose": []
+}

@@ -1,0 +1,158 @@
+{
+  "as_of": "2026-10-15 20:12:40 ET",
+  "sol_usd": 105.4,
+  "wallet": "BXc3ju3mY68Kx9bM5f7akE2urdsNe7SiSpMmxzsVjyNF",
+  "sol_balance": 0.007658134,
+  "sol_value_usd": 0.81,
+  "holdings": [
+    {
+      "symbol": "NULLCASH",
+      "mint": "31GYUbJW5vjF1o7VM5SGP9Emj5WDBHb1cdcR8BM6pump",
+      "tokens": 166289.82,
+      "entry_mcap": 24200,
+      "mcap": 150846.0,
+      "liq_usd": 32321.77,
+      "price_usd": 0.0001509,
+      "usd_value": 25.09,
+      "vs_entry_pct": 523.3,
+      "m5_pct": 112,
+      "h1_pct": 246,
+      "h6_pct": 246,
+      "buys_m5": 353,
+      "sells_m5": 323,
+      "buys_h1": 1120,
+      "sells_h1": 858,
+      "vol_m5": 38884.77,
+      "vol_h1": 92203.39,
+      "dex": "pumpswap",
+      "pair": "Sss87T9nnszgQAV948Xc3dFXDKbbPL6nKRHFxUEsNGz",
+      "pair_age_h": 0.24,
+      "url": "https://dexscreener.com/solana/sss87t9nnszgqav948xc3dfxdkbbpl6nkrhfxuesngz",
+      "action": "HOLD",
+      "action_reason": "Post-grad ripping; mcap ~$150k (+523% vs entry); m5/h1 strongly green with buys>sells. Let momentum run."
+    },
+    {
+      "symbol": "SPOOKY",
+      "mint": "CZ3X9XUxSTc1hN9iGPteG3iKoXGC4q332bmWi4JBpump",
+      "tokens": 22382.89,
+      "entry_mcap": 335000,
+      "mcap": 192208.0,
+      "liq_usd": 40334.81,
+      "price_usd": 0.0002013,
+      "usd_value": 4.51,
+      "vs_entry_pct": -42.6,
+      "m5_pct": -4.3,
+      "h1_pct": -19.84,
+      "h6_pct": 87.87,
+      "buys_m5": 9,
+      "sells_m5": 4,
+      "buys_h1": 227,
+      "sells_h1": 159,
+      "vol_m5": 948.25,
+      "vol_h1": 29270.81,
+      "dex": "pumpswap",
+      "pair": "3hUwrAajx6NyWezqkAXW3nHCmKLv1Vq7wDcBZVetoqy1",
+      "pair_age_h": 47.5,
+      "url": "https://dexscreener.com/solana/3huwraajx6nywezqkaxw3nhcmklv1vq7wdcbzvetoqy1",
+      "action": "HOLD",
+      "action_reason": "Soft (~-43% vs entry) but dump gate NOT met: mc $192k still >$180k; m5/h1 buys>sells."
+    },
+    {
+      "symbol": "SYCAMORE",
+      "mint": "3EC7gRDGKgqPHc9ipJxxChoeyseE2xAbQHZUSSTfpump",
+      "tokens": 19904.21,
+      "entry_mcap": 300000,
+      "mcap": 241060.0,
+      "liq_usd": 46762.99,
+      "price_usd": 0.0002485,
+      "usd_value": 4.95,
+      "vs_entry_pct": -19.6,
+      "m5_pct": 0.99,
+      "h1_pct": -26.13,
+      "h6_pct": -11.46,
+      "buys_m5": 24,
+      "sells_m5": 17,
+      "buys_h1": 256,
+      "sells_h1": 241,
+      "vol_m5": 5082.58,
+      "vol_h1": 65194.92,
+      "dex": "pumpswap",
+      "pair": "5cX7awH9czi1VKK2SFabfCSzyVbytf7KBExiJiP6jYDq",
+      "pair_age_h": 16.37,
+      "url": "https://dexscreener.com/solana/5cx7awh9czi1vkk2sfabfcszyvbytf7kbexijip6jydq",
+      "action": "HOLD",
+      "action_reason": "Above $200k dump line ($241k); h1 buys>=sells. Soft vs entry but not dumping."
+    }
+  ],
+  "portfolio_usd_est": 35.36,
+  "dump_gates": {
+    "SPOOKY": {
+      "triggered": false,
+      "rule": "mcap<$180k AND h1<0 AND sells>=buys on m5 and h1",
+      "mcap": 192208.0,
+      "h1_pct": -19.84,
+      "m5_buys_sells": [
+        9,
+        4
+      ],
+      "h1_buys_sells": [
+        227,
+        159
+      ]
+    },
+    "SYCAMORE": {
+      "triggered": false,
+      "rule": "mcap~$200k break AND sells>=buys on h1",
+      "mcap": 241060.0,
+      "h1_buys_sells": [
+        256,
+        241
+      ]
+    }
+  },
+  "scout": {
+    "mints_scanned": 218,
+    "tokens_with_pairs": 176,
+    "numeric_passers": 0,
+    "rotate_targets": 0,
+    "soft_passers": 0,
+    "botty_strong_rejected": [
+      {
+        "symbol": "MOO",
+        "mint": "BSKyXWqSBc4a5vCLoDVhNEtJrwrJ4hWpB65SEU38pump",
+        "note": "age<1h, buys_h1~8k"
+      },
+      {
+        "symbol": "ALT",
+        "mint": "J2NjSB6BrnLLmjm7A4CeBrYJWgoqXtRfuCzuyyTfpump",
+        "note": "age<1h, buys_h1~9k"
+      },
+      {
+        "symbol": "SpaceX",
+        "mint": "HMkK2XeEuUKeYbC56AVMhfQMsY3jLNLCWABscgqxpump",
+        "note": "age<1h, buys_h1~4.7k"
+      },
+      {
+        "symbol": "Motion",
+        "mint": "87SsFmfcXVPpzFdHpYAQ6iu6ccdtCmgbifGmywBipump",
+        "note": "age~1.0h mc~$85k liq~$25k h1+131% but buys_h1~5911 botty; rugcheck score=1"
+      }
+    ],
+    "near_miss": {
+      "symbol": "Macca",
+      "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+      "note": "mc/liq/age ok, rug score 1, but h1 only mid-single-digits \u2014 does not beat book"
+    },
+    "known_bad_skipped": [
+      "STREAM",
+      "DacityCoin",
+      "TrumpCoin",
+      "CRS",
+      "related Trump/Dacity names"
+    ]
+  },
+  "recommendation": {
+    "action": "HOLD",
+    "detail": "HOLD all three. No rotate target clears filters. NULLCASH is the book winner \u2014 do not fund a rotate by cutting it. SPOOKY/SYCAMORE dump gates not triggered. SOL buffer thin (~$0.81); any buy needs a sell first."
+  }
+}

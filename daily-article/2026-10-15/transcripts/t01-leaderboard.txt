@@ -1,0 +1,7 @@
+$ curl -s "https://data-api.polymarket.com/v1/leaderboard?timePeriod=ALL&orderBy=PNL&limit=5" \
+    | jq -r '.[] | "#\(.rank)  \(.userName)  \(.proxyWallet[0:10])…  P&L $\(.pnl|floor)"'
+#1  Theo4  0x56687bf4…  P&L $22053933
+#2  swisstony  0x204f72f3…  P&L $18418889
+#3  Fredi9999  0x1f2dd6d4…  P&L $16619506
+#4  RN1  0x2005d16a…  P&L $13049508
+#5  kch123  0x6a72f618…  P&L $11351406

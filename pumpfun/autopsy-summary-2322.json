@@ -1,0 +1,447 @@
+{
+  "GTA": {
+    "mint": "6S7jwQuVipHuEaASAZ9Kn7r3Zy3jkebhAMFxnuWnpump",
+    "score": 1,
+    "score_norm": 1,
+    "risks": [],
+    "top10": [
+      [
+        22.96,
+        "GyYkhdyJ",
+        false
+      ],
+      [
+        20.03,
+        "N34xQVb4",
+        false
+      ],
+      [
+        4.1,
+        "3VUNtVtj",
+        false
+      ],
+      [
+        3.6,
+        "B1ZMARC6",
+        false
+      ],
+      [
+        3.36,
+        "6bor5T6j",
+        false
+      ],
+      [
+        3.27,
+        "3AvJwRqo",
+        false
+      ],
+      [
+        3.19,
+        "Gnfp6MDX",
+        false
+      ],
+      [
+        3.14,
+        "5erZzcfn",
+        false
+      ],
+      [
+        3.06,
+        "C7Ep1ZS7",
+        false
+      ],
+      [
+        2.81,
+        "6CqtPQDk",
+        false
+      ],
+      [
+        2.65,
+        "4NMnbWmo",
+        false
+      ],
+      [
+        2.45,
+        "5iHMBvFH",
+        false
+      ]
+    ],
+    "ex": 46.56000000000001,
+    "creator": "EGmGGe6r5MjTjdjhkavFwckW3NmDRYrNcxfXrhRTnAri",
+    "creator_bal": null,
+    "socials": [
+      {
+        "url": "https://x.com/grandtheftcoi",
+        "type": "twitter"
+      },
+      {
+        "url": "https://discord.gg/SxvMvxA3f2",
+        "type": "discord"
+      }
+    ],
+    "twitter": null,
+    "mc": 39618,
+    "m5": -16.8,
+    "h1": -16.88,
+    "buys": 469,
+    "sells": 360,
+    "liq": 15682.5,
+    "complete": null,
+    "desc": ""
+  },
+  "ETERNAL": {
+    "mint": "4XUmT22L7LN2e1us3bLHpPFKtkGUk9cAKQXEr3wXpump",
+    "score": 1,
+    "score_norm": 1,
+    "risks": [],
+    "top10": [
+      [
+        52.35,
+        "2Mi2FPt2",
+        false
+      ],
+      [
+        6.63,
+        "4DvKa6TW",
+        false
+      ],
+      [
+        2.86,
+        "D9Zy58yU",
+        false
+      ],
+      [
+        2.28,
+        "HVM33jgh",
+        false
+      ],
+      [
+        2.24,
+        "AM7j4Aa1",
+        false
+      ],
+      [
+        1.68,
+        "2rojmQtc",
+        false
+      ],
+      [
+        1.65,
+        "sssssDdM",
+        false
+      ],
+      [
+        1.6,
+        "97tyysz1",
+        false
+      ],
+      [
+        1.6,
+        "A1eN4EyE",
+        false
+      ],
+      [
+        1.55,
+        "GDKHJCV1",
+        false
+      ],
+      [
+        1.34,
+        "ssssswdk",
+        false
+      ],
+      [
+        1.34,
+        "6Zu7TbtC",
+        false
+      ]
+    ],
+    "ex": 22.090000000000003,
+    "creator": "4DvKa6TWQmfBLsTnSrYoKEAwEUkFweoaRa9JV196J6Go",
+    "creator_bal": 6.6285714223523,
+    "socials": [],
+    "twitter": null,
+    "mc": 13845.65,
+    "m5": -5,
+    "h1": 314,
+    "buys": 210,
+    "sells": 49,
+    "liq": null,
+    "complete": null,
+    "desc": ""
+  },
+  "BeforeGTA": {
+    "mint": "Ewzy4cxD7LsB86pUziRZrAXar6z8KWyNNg4WYEJspump",
+    "score": 1,
+    "score_norm": 1,
+    "risks": [],
+    "top10": [
+      [
+        40.62,
+        "G7AHge6f",
+        false
+      ],
+      [
+        39.98,
+        "5fcm62KJ",
+        false
+      ],
+      [
+        3.52,
+        "8FuxBTcm",
+        false
+      ],
+      [
+        3.32,
+        "Fpf2DJPM",
+        false
+      ],
+      [
+        3.22,
+        "FcoyV129",
+        false
+      ],
+      [
+        2.98,
+        "6Ucym3r4",
+        false
+      ],
+      [
+        2.92,
+        "5B52w1ZW",
+        false
+      ],
+      [
+        2.67,
+        "4bHUoZY3",
+        false
+      ],
+      [
+        2.57,
+        "E6PP4TpU",
+        false
+      ],
+      [
+        2.52,
+        "6euJ89hi",
+        false
+      ],
+      [
+        2.48,
+        "HbTVA7t5",
+        false
+      ],
+      [
+        2.42,
+        "FTTj7i22",
+        false
+      ]
+    ],
+    "ex": 63.7,
+    "creator": "4KygKbSLWK4NJksnooa4Jkyu5BfML59CsEQPwSBib8RH",
+    "creator_bal": null,
+    "socials": [
+      {
+        "url": "https://x.com/Dexerto/status/1923002107650605397",
+        "type": "twitter"
+      }
+    ],
+    "twitter": null,
+    "mc": 11692,
+    "m5": -4.03,
+    "h1": -14.37,
+    "buys": 332,
+    "sells": 267,
+    "liq": 7788.12,
+    "complete": null,
+    "desc": ""
+  },
+  "STARMAN": {
+    "mint": "DiveEYHTf3LveSNifUzeCrTbrZUQEm9PSapERXM8pump",
+    "score": 14256,
+    "score_norm": 55,
+    "risks": [
+      [
+        "Large Amount of LP Unlocked",
+        "danger",
+        "100.00%"
+      ],
+      [
+        "Low Liquidity",
+        "danger",
+        "$244.64"
+      ],
+      [
+        "Low amount of LP Providers",
+        "warn",
+        ""
+      ]
+    ],
+    "top10": [
+      [
+        23.94,
+        "4xPMGL6B",
+        false
+      ],
+      [
+        10.33,
+        "B5zwVAbm",
+        false
+      ],
+      [
+        5.09,
+        "gVDXhoGb",
+        false
+      ],
+      [
+        3.37,
+        "11111111",
+        false
+      ],
+      [
+        2.7,
+        "79nMjs72",
+        false
+      ],
+      [
+        2.32,
+        "6F5x9fKq",
+        false
+      ],
+      [
+        2.21,
+        "87rRdssF",
+        false
+      ],
+      [
+        1.9,
+        "CrCAvyQ7",
+        false
+      ],
+      [
+        1.9,
+        "4P8XWZuH",
+        false
+      ],
+      [
+        1.84,
+        "ANrEp1sX",
+        false
+      ],
+      [
+        1.74,
+        "DUznXL9J",
+        false
+      ],
+      [
+        1.66,
+        "E8B7Edi7",
+        false
+      ]
+    ],
+    "ex": 31.659999999999997,
+    "creator": "DvTVt5Ve9qaQBdyjBhWW8MRn3dYWKdENxzzXFDnFTja",
+    "creator_bal": null,
+    "socials": [
+      {
+        "url": "https://x.com/esotericpigeon/status/2110912641111920780?s=20",
+        "type": "twitter"
+      }
+    ],
+    "twitter": null,
+    "mc": 279547,
+    "m5": 21.63,
+    "h1": 181,
+    "buys": 1888,
+    "sells": 1541,
+    "liq": 49849.37,
+    "complete": null,
+    "desc": ""
+  },
+  "FSD": {
+    "mint": "CgbBLBK9m3BsHbk2s68YLjGWJzHcu2QeJm3SUsrBpump",
+    "score": 1,
+    "score_norm": 1,
+    "risks": [],
+    "top10": [
+      [
+        38.01,
+        "GKJndaKS",
+        false
+      ],
+      [
+        26.18,
+        "GHzPpVWE",
+        false
+      ],
+      [
+        7.2,
+        "2UAXcrMf",
+        false
+      ],
+      [
+        6.53,
+        "DVMkhiQe",
+        false
+      ],
+      [
+        4.64,
+        "7BUhuAfa",
+        false
+      ],
+      [
+        4.19,
+        "2LSncYjJ",
+        false
+      ],
+      [
+        4.09,
+        "6qudAN2k",
+        false
+      ],
+      [
+        4.08,
+        "Fgj4tCkW",
+        false
+      ],
+      [
+        4.0,
+        "52oSdgeG",
+        false
+      ],
+      [
+        3.76,
+        "wUADWDSF",
+        false
+      ],
+      [
+        3.74,
+        "2UcS1C7P",
+        false
+      ],
+      [
+        3.43,
+        "5iZvwfoM",
+        false
+      ]
+    ],
+    "ex": 64.67,
+    "creator": "B4w54jWsCyrTinBS2kRDxE7GJHs2irFqs9L5WYKqiASE",
+    "creator_bal": null,
+    "socials": [
+      {
+        "url": "https://x.com/0xVamonos/status/2110920559252865436",
+        "type": "twitter"
+      }
+    ],
+    "twitter": null,
+    "mc": 11022,
+    "m5": -35.2,
+    "h1": -73.88,
+    "buys": 1333,
+    "sells": 984,
+    "liq": 7264.39,
+    "complete": null,
+    "desc": ""
+  }
+}

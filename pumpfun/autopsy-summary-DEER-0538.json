@@ -1,0 +1,50 @@
+{
+  "tag": "0538",
+  "symbol": "DEER",
+  "safe": "DEER",
+  "mint": "DYhpuvytVM4SCiR56q8oz4nXAN2BPFaYnxVftS9wpump",
+  "verdict": "FAIL",
+  "fails": [
+    "creatorBal 0 (dev sold/out)",
+    "19\u00d7 wallets in 1\u20135% band",
+    "top10 ex-curve ~23.8% (borderline) with identical band pattern to prior pre-screen",
+    "copycat of Deer narrative (same Instagram reel DegneDnz29U); status-tweet socials only",
+    "m5 \u22125.7 / mc faded from ~$11.5k watch to ~$10.7k; shared top-holder owners with Deer (VJSDW6S7, 3VwmH9qY)"
+  ],
+  "age_h": 0.59,
+  "mc": 10804,
+  "h1": 182,
+  "m5": -5.81,
+  "dexId": "pumpfun",
+  "phase": "curve ~57% remaining in bonding curve",
+  "creator": "H33AiVP1fFv67SUYoRpUVekQfQmK7y7trePyYtVUXR1i",
+  "creatorBal": 0,
+  "creatorBal_pct": 0,
+  "band_1_5": 19,
+  "top10_ex_curve_pct": 23.8,
+  "socials": {
+    "dex": [
+      {
+        "url": "https://x.com/fdrbdr/status/2091372306857935303?s=20",
+        "type": "twitter"
+      },
+      {
+        "url": "https://www.instagram.com/reels/DegneDnz29U/",
+        "type": "instagram"
+      }
+    ],
+    "websites": []
+  },
+  "rugScore": 1,
+  "score_normalised": 1,
+  "risks": [],
+  "graphInsiders": 0,
+  "cabal_hits": [],
+  "txh1": {
+    "buys": 488,
+    "sells": 435
+  },
+  "volh1": 47713.45,
+  "totalHolders": 200,
+  "structure_notes": "Aged in from watch-extra-0531; RC pre-screen already flagged creatorBal 0 + 19\u00d7 band; full autopsy confirms FAIL"
+}

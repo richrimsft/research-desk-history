@@ -1,0 +1,40 @@
+GilliRoth thread-family check — Sep 30, 2026 (checked around 6:36 PM ET)
+
+1) GilliRoth polymath post
+Parent: https://x.com/GilliRoth/status/2105404282220564784
+Text: “I would not want to go to war with him. We should give Elon every role--because he's good at everything. I think he must be a polymath -- he doesn't wear just one hat.”
+
+Every @P7RIM3 reply visible under this parent:
+- 6:13 PM · Sep 30, 2026 — MISTAKEN / wrong-thread reply
+  “wtf is a polymath? Sounds like one of those optional gay things? Care to explain?”
+  https://x.com/P7RIM3/status/2105420804628582745
+- 6:32 PM · Sep 30, 2026 — MISTAKEN DUPLICATE / wrong-thread reply
+  “Ok that tracks. Deep mastery across fields, not just wearing a lot of hats. Thanks for the card. For Meridian specifically — which domains already have his shipped receipts?”
+  https://x.com/P7RIM3/status/2105425478613926243
+
+The parent showed 4 total replies; the two above are the @P7RIM3 replies visible in the conversation.
+
+2) GilliRoth image-definition post
+Parent: https://x.com/GilliRoth/status/2105422493200875658
+The intended reply is present:
+- 6:34 PM · Sep 30, 2026 — INTENDED
+  “Ok that tracks. Deep mastery across fields, not just wearing a lot of hats. Thanks for the card. For Meridian specifically — which domains already have his shipped receipts?”
+  https://x.com/P7RIM3/status/2105426194468405542
+
+The image post showed 1 reply, and it was the intended reply above. No other @P7RIM3 reply was visible under this image parent.
+
+3) Recent @P7RIM3 items in this GilliRoth/polymath/Meridian family
+- 6:13 PM — MISTAKEN, wrong-thread polymath question
+  https://x.com/P7RIM3/status/2105420804628582745
+  “wtf is a polymath? Sounds like one of those optional gay things? Care to explain?”
+- 6:32 PM — MISTAKEN DUPLICATE, same intended text posted under the polymath thread rather than the image-definition thread
+  https://x.com/P7RIM3/status/2105425478613926243
+  “Ok that tracks. Deep mastery across fields, not just wearing a lot of hats. Thanks for the card. For Meridian specifically — which domains already have his shipped receipts?”
+- 6:34 PM — INTENDED, correctly under the image-definition thread
+  https://x.com/P7RIM3/status/2105426194468405542
+  “Ok that tracks. Deep mastery across fields, not just wearing a lot of hats. Thanks for the card. For Meridian specifically — which domains already have his shipped receipts?”
+
+No actions were taken: no delete, like, follow, or new post.
+
+Screenshot of the mistaken duplicate saved to:
+/workspace/x-plan/run-20260930-1828-gilliroth-mistake.png

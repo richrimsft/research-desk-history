@@ -1,0 +1,26 @@
+{
+  "tag": "0928",
+  "symbol": "Scud",
+  "mint": "74StKKpwgDLEFo5YcQKndak864PLEF1zmsUcZfC8pump",
+  "tag_role": "YOUNG_prescreen",
+  "verdict": "FAIL",
+  "age_h": 0.13,
+  "mc": 39795,
+  "dex": "pumpfun",
+  "h1": 1160,
+  "m5": 9.81,
+  "phase": "pumpfun",
+  "reasons": [
+    "too young (<30m) \u2014 no-buy by narrative-age rule",
+    "creatorBal 0 (dev sold early)",
+    "11\u00d7 1\u20135% holder band"
+  ],
+  "creatorBalance": 0,
+  "creator": "GiqC7bWgfFCyxNXm7VedqbK8KEwu4M2vSDiNN2a7AXzz",
+  "band_1_5": 11,
+  "top10ex_est": 15.65,
+  "totalHolders": 1067,
+  "score": 1,
+  "fetched_at": "2026-10-16T09:28ET",
+  "rc_file": "rc-Scud-0928.json"
+}

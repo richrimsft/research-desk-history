@@ -1,0 +1,88 @@
+{
+  "strict": [],
+  "loose": [
+    {
+      "sym": "DarkStar",
+      "mint": "3vMEBLJAAwx7MaHTmT6Sk5ddZfWXwLmVeBWVUpTapump",
+      "mc": 11788,
+      "age": 1.52,
+      "h1": 253,
+      "m5": 5.4,
+      "buys": 369,
+      "sells": 296,
+      "dex": "pumpfun",
+      "url": "https://dexscreener.com/solana/h6xxvpo6xdtpjm8gupz9wyw4kitpelozcygdb2edgdue",
+      "prior": true
+    },
+    {
+      "sym": "GUILD",
+      "mint": "ABmp7kvhMFXEUvjq9cybBPPbrju8uv8GTQPCDbvLpump",
+      "mc": 27726,
+      "age": 1.79,
+      "h1": 5.2,
+      "m5": 0.9,
+      "buys": 80,
+      "sells": 52,
+      "dex": "pumpfun",
+      "url": "https://dexscreener.com/solana/3ap8pmrt75vcjrlfp4gwvwav77wj98qyy3kmsrie1bsj",
+      "prior": true
+    },
+    {
+      "sym": "STARMAN",
+      "mint": "D1X5Fa2yb4h5Gz6ZCVss6tJpBhYtw8hcYxapGU42pump",
+      "mc": 11979,
+      "age": 1.79,
+      "h1": 4.5,
+      "m5": 5.1,
+      "buys": 352,
+      "sells": 195,
+      "dex": "pumpswap",
+      "url": "https://dexscreener.com/solana/jaffzcy8qf4whsxhvn2bcbrymspganvcgqdipmdqjwl",
+      "prior": true
+    },
+    {
+      "sym": "SXTR",
+      "mint": "GU3JGZr26TXN6TUhWoMurimGbB4fFFW13774bXEipump",
+      "mc": 468427,
+      "age": 1.67,
+      "h1": 55.5,
+      "m5": 15.5,
+      "buys": 4940,
+      "sells": 3158,
+      "dex": "pumpswap",
+      "url": "https://dexscreener.com/solana/ejzkrczotkvwmt5shxuqpphbj8q6qqbr7gapqefdztzb",
+      "prior": true
+    }
+  ],
+  "newish": [
+    {
+      "sym": "FLOKI",
+      "mint": "FTbLCDt9XQUF3VnqRikkM3XNnbRMXJUPUtpra51Dpump",
+      "mc": 8072,
+      "age": 2.14,
+      "h1": 39.3,
+      "m5": -1.1,
+      "buys": 138,
+      "sells": 104,
+      "dex": "pumpfun",
+      "url": "https://dexscreener.com/solana/7ax8mdvrgktpucs3rcdashfzmxhmmggulhdagrkfrhhn"
+    }
+  ],
+  "autopsy_rejects": [
+    {
+      "sym": "TZERO",
+      "mint": "5So1AMS2aibd6ZFZ4a8A7Ho8ckmKRuzJRqZVsp6Kpump",
+      "reason": "creatorBal0+top10ex36%+cabal+floor+age"
+    },
+    {
+      "sym": "FLOKI",
+      "mint": "FTbLCDt9XQUF3VnqRikkM3XNnbRMXJUPUtpra51Dpump",
+      "reason": "creatorBal0+floor+concentration"
+    },
+    {
+      "sym": "NASA",
+      "mint": "5McoDDm3XmbkAjeaCjfMmnewR1XAfZxeLa6e4rtFpump",
+      "reason": "botty20k+RC2701+graduated"
+    }
+  ]
+}

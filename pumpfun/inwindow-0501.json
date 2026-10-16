@@ -1,0 +1,146 @@
+[
+  {
+    "symbol": "ROADSTER",
+    "name": "No Risk No Roadster",
+    "mint": "TB6QtGti9j2zadAryKYKCm7tX1zVvTH4ZQcoXd9pump",
+    "dexId": "pumpswap",
+    "mc": 29654,
+    "age_h": 2.93,
+    "h1": 9.05,
+    "m5": -2.16,
+    "vol_h1": 1547.87,
+    "txns_h1": {
+      "buys": 39,
+      "sells": 29
+    },
+    "url": "https://dexscreener.com/solana/hscspbdaxu6euax4yxfr8sodxwheuwhbj4kvuxvgch1b",
+    "pairCreatedAt": 1792130882000,
+    "NEW": false
+  },
+  {
+    "symbol": "GULP",
+    "name": "Gulp",
+    "mint": "8BwEQTbuKD6DyHsr57FpF8L6RRvzr8Gm4TRMMqfbpump",
+    "dexId": "pumpfun",
+    "mc": 24805,
+    "age_h": 1.03,
+    "h1": 203,
+    "m5": 26.65,
+    "vol_h1": 147091.94,
+    "txns_h1": {
+      "buys": 2236,
+      "sells": 1500
+    },
+    "url": "https://dexscreener.com/solana/hnle6wljxjfsr2cml3p4gnntv1grbeyw8dxz43amy3tq",
+    "pairCreatedAt": 1792137696000,
+    "NEW": false
+  },
+  {
+    "symbol": "SocialFrnk",
+    "name": "Fr4nk The Social",
+    "mint": "62tKjqdvzKrNHb8KrugUFUmKSC291sWHkp1RGbeipump",
+    "dexId": "pumpfun",
+    "mc": 23775,
+    "age_h": 0.71,
+    "h1": 651,
+    "m5": 5.93,
+    "vol_h1": 81043.01,
+    "txns_h1": {
+      "buys": 1088,
+      "sells": 693
+    },
+    "url": "https://dexscreener.com/solana/4fmqazn5q8buo3czh5v3gyn5wdlqntsiduc7c4n8mbrv",
+    "pairCreatedAt": 1792138882000,
+    "NEW": false
+  },
+  {
+    "symbol": "LULU",
+    "name": "LULU INU",
+    "mint": "8DQzWohFEMWruKUC5G2hEgBcs4bhJ1y7oJuyxZHpump",
+    "dexId": "pumpfun",
+    "mc": 23366,
+    "age_h": 1.19,
+    "h1": 15.24,
+    "m5": 0.24,
+    "vol_h1": 10447.7,
+    "txns_h1": {
+      "buys": 64,
+      "sells": 29
+    },
+    "url": "https://dexscreener.com/solana/7ishgr9cwlxz5xpg9kjy7cb1duntaty1a9zurgwqqueo",
+    "pairCreatedAt": 1792137151000,
+    "NEW": false
+  },
+  {
+    "symbol": "BDOG",
+    "name": "Barber Dog",
+    "mint": "G6NnKQTgN7Dmo9yrJXwoqiDm35FznQmQ1qXVFAXPpump",
+    "dexId": "pumpfun",
+    "mc": 13506,
+    "age_h": 0.63,
+    "h1": 276,
+    "m5": 10.03,
+    "vol_h1": 52616.08,
+    "txns_h1": {
+      "buys": 616,
+      "sells": 672
+    },
+    "url": "https://dexscreener.com/solana/caesu46exwdavtxt59sgb7pgbb2vu2uj61yfa9qd22ap",
+    "pairCreatedAt": 1792139156000,
+    "NEW": false
+  },
+  {
+    "symbol": "TCAT",
+    "name": "Tesla Roadster Cat",
+    "mint": "34HExr1pEVFWkx99AXVwSBPcy3XmBYKkSyorxPzVpump",
+    "dexId": "pumpfun",
+    "mc": 12621,
+    "age_h": 2.6,
+    "h1": 65.06,
+    "m5": 45.84,
+    "vol_h1": 9053.83,
+    "txns_h1": {
+      "buys": 83,
+      "sells": 61
+    },
+    "url": "https://dexscreener.com/solana/eqtlreoez77rkmn2ygwebzvuggqyif4kv9vajjxqjveo",
+    "pairCreatedAt": 1792132078000,
+    "NEW": false
+  },
+  {
+    "symbol": "MemeTrace",
+    "name": "Meme Trace",
+    "mint": "HUARGQHB7ovbPkUaYUmsqGBCLG4uHpCEr3q8zGcupump",
+    "dexId": "pumpfun",
+    "mc": 12431,
+    "age_h": 0.05,
+    "h1": 256,
+    "m5": 256,
+    "vol_h1": 49065.13,
+    "txns_h1": {
+      "buys": 508,
+      "sells": 353
+    },
+    "url": "https://dexscreener.com/solana/7k5xprcoxgey4ykpxefkm7gat8k8izj89y2ca5r1xkhg",
+    "pairCreatedAt": 1792141225000,
+    "NEW": true
+  },
+  {
+    "symbol": "MemeTrace",
+    "name": "Meme Trace",
+    "mint": "Aunf8ZYfEgRozzi3ddBqu6bnAFgTVC882Ab2y4zVpump",
+    "dexId": "pumpfun",
+    "mc": 12174,
+    "age_h": 0.06,
+    "h1": 237,
+    "m5": 237,
+    "vol_h1": 45695.92,
+    "txns_h1": {
+      "buys": 579,
+      "sells": 424
+    },
+    "url": "https://dexscreener.com/solana/2wnswenwrk2dduvxz1nth72d95nptgxajjg9vbmkk2lo",
+    "pairCreatedAt": 1792141194000,
+    "NEW": true
+  }
+]

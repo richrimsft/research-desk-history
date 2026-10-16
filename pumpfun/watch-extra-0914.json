@@ -1,0 +1,72 @@
+{
+ "too_young": [
+  {
+   "symbol": "Elon",
+   "name": "\u00dcbermensch Elon",
+   "mint": "Bzdi71HK9CZ2d9jDvvFiq6tseDXvjaSe7t5Ae1Y2pump",
+   "mc": 12745.73,
+   "age_h": 0.04,
+   "h1": 288,
+   "m5": 288,
+   "h24": 288,
+   "buys": 466,
+   "sells": 113,
+   "vol_h1": 9676.68,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/6njadacxacmxmoz8fxczpjwo6dcmks62lra5bog1swdo",
+   "pairCreatedAt": 1792156336000
+  },
+  {
+   "symbol": "BERT",
+   "name": "Tokenmaxxing BERT",
+   "mint": "Ag62xENbRgbRfL1HAYgN6pyESJTyjnQKniB1GPZppump",
+   "mc": 29511.38,
+   "age_h": 0.21,
+   "h1": 727,
+   "m5": 168,
+   "h24": 727,
+   "buys": 898,
+   "sells": 725,
+   "vol_h1": 73832.43,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/3j1zmhplzg4xjewcorizcqys4bzexgcig5ufziccmu6d",
+   "pairCreatedAt": 1792155740000
+  },
+  {
+   "symbol": "EI",
+   "name": "European Intelligence",
+   "mint": "8qGJc7sPvmS9Bs26ni2D67KxH97w989kuxr7Tc98pump",
+   "mc": 12592.68,
+   "age_h": 0.33,
+   "h1": 300,
+   "m5": -42.15,
+   "h24": 300,
+   "buys": 882,
+   "sells": 554,
+   "vol_h1": 65864.84,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/4fcsmcqeikp5aaud2sdauc5ziaywuzrpcqfjqbbsd8pv",
+   "pairCreatedAt": 1792155288000
+  },
+  {
+   "symbol": "BERT",
+   "name": "Tokenmaxxing BERT",
+   "mint": "6bnxDNE7WzGistby4toDe6ezt27myUy2MiCXrk2epump",
+   "mc": 88867,
+   "age_h": 0.34,
+   "h1": 86.48,
+   "m5": -41.67,
+   "h24": 86.48,
+   "buys": 5231,
+   "sells": 3909,
+   "vol_h1": 435167.61,
+   "dex": "pumpswap",
+   "liq": 25049.02,
+   "url": "https://dexscreener.com/solana/f4bkpxmeyy5ax1qz54ngn4kdazgkot6zag2wwjahygxg",
+   "pairCreatedAt": 1792155257000
+  }
+ ]
+}

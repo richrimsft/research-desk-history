@@ -1,0 +1,44 @@
+X Explore / Trending check
+Timestamp: Wed Sep 30, 2026, ~11:14 AM ET
+Source: https://x.com/explore/tabs/trending and https://x.com/explore/tabs/news
+Mode: read-only; no posts, likes, follows, reposts, or settings changes.
+
+TOP NEWS CARDS (age and post count shown)
+1. AT&T CEO Doubts SpaceX Direct-to-Cell Strategy — 18h; 4.8K posts. SpaceX/satellite-to-phone strategy; directly on-topic, but not visibly fast-rising (older card, moderate volume).
+2. Tesla Postpones Roadster Demo to October 15 Over High Winds — 15h; 7.2K posts. Tesla product/demo delay; tech-adjacent, but Explore labels it Entertainment and it is not a launch/space event.
+3. AI Team Crafts Odyssey Pilot in 15 Days Without Cameras — 18h; 740 posts. AI production workflow/story; relevant to AI, though not clearly agentic AI.
+4. U.S. Grants First Commercial SMR Construction Permit to TVA in Tennessee — 21h; 3.5K posts. Nuclear/energy permitting; a verifiable technology story, but not one of the requested core topics.
+5. Trump Signs AI Accord Marred by 'Unites States' Typo — 14h; ~59K posts. Political AI-policy/typo story; skip candidate due to politics.
+
+MAIN TRENDING ROWS (the Trending view showed no post counts or ages on these rows)
+6. WNBA — Sports; trending with A'ja and Sophie. WNBA/player conversation; sports skip.
+7. Flydubai — U.S. trend, with Omani and Tabuk. Airline/travel discussion; no clear angle from Explore alone.
+8. $EDEL — Business and finance. Stock/finance ticker; no context or verification on the card.
+9. Unites States — Politics. Typo/political discussion; skip.
+10. Christa Pike — U.S. trend, with Colleen. Person/name trend; likely crime/news discussion but the card gives no context; avoid amplifying.
+11. Core PCE — U.S. trend, with Headline PCE. Inflation/economic data discussion; potentially verifiable, but finance/economics rather than core beat.
+12. Good Wednesday — U.S. trend. Generic midweek phrase; fluff.
+13. Savannah — Sports. Sports/person trend; skip.
+14. Hump Day — U.S. trend. Generic midweek phrase; fluff.
+15. Ken Griffin — U.S. trend, with Carnegie Mellon. Finance/person/institution discussion; context unclear.
+16. Altercation — News. Generic incident term; no details on card, avoid.
+17. #OlandriaxVaqueraSS27 — U.S. trend, with #VaqueraNYCSS27. Fashion/event hashtag; entertainment fluff.
+18. Delta — U.S. trend, with Starlink and Ed Bastian. Airline/Starlink-related conversation; potentially on-topic, but no count, age, or specific claim is exposed, so verify before using.
+19. Super Intelligence — U.S. trend. Broad AI topic; relevant watch item, but no count/age or concrete story, so not evidence of fast rise.
+20. $SPCX (seen on News tab trend list) — Business and finance. Space-linked ticker is possible, but Explore supplied no context; do not infer a SpaceX angle without verification.
+
+SIDEBAR “TODAY'S NEWS” (additional cards)
+- Barack Obama says he does not understand how the U.S. became so toxic/divided/bitter — Trending now; 313 posts. Politics; skip.
+- New Documentary Explores 1948 Aztec UFO Crash Claims — 15h; 585 posts. Entertainment/UFO claim; possible fact-check angle, but low volume and not visibly rising.
+
+FAST-RISING / ON-TOPIC ASSESSMENT
+- No requested-topic item is clearly fast-rising from the UI: the actual trend rows expose neither velocity nor counts, and the relevant News cards are 15–21 hours old.
+- Best watch candidate: AT&T/SpaceX Direct-to-Cell (4.8K, 18h), because it is directly about satellites/SpaceX and is verifiable. Secondary watch: “Super Intelligence” (broad AI) and “Delta” with Starlink, but both lack context/counts/ages.
+- Possible original only after independent verification: the AT&T/SpaceX claim or the AI/Odyssey workflow story. Do not treat the trend labels alone as confirmation.
+
+SKIP CANDIDATES
+Politics: Trump AI accord, Obama, Unites States, Death to America, Fauci, Pelosi, IRGC, Labour Party/Starmer, Eric Schmitt, Vote Red, MAHA, Jack Smith, Jim Justice.
+Tragedy/violent-news signals: Flight 93, Israel-bound, the hijacking/attack-themed Live on X card, and generic “Altercation.”
+Sports/entertainment fluff: WNBA, Savannah, Sousa, Zeitler, Jared Bednar, fashion hashtags, and the Aztec UFO documentary card.
+
+Live on X also showed DogeOS testnet, a Benny Johnson hijacking-themed broadcast, Claudia Sheinbaum, Bitcoin Magazine macro, and War Room; these are live broadcasts, not trend rows, and were not used as fast-rising evidence.

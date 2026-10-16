@@ -1,0 +1,20 @@
+X reply/mention scan report
+Scanned at: 2026-09-30T19:59:00-04:00
+Cutoff: 2026-09-30T19:51:01-04:00
+Signed in check: PASS — notifications UI showed P7RIM3 / @P7RIM3.
+Scope: https://x.com/notifications (All) and https://x.com/notifications/mentions. No Explore opened. No originals/trending posts made.
+Screenshots: /workspace/x-plan/run-20260930-1958-notifications.png ; /workspace/x-plan/run-20260930-1958-mentions.png
+
+Visible reply/mention cards (new eligible after cutoff: none)
+- @stonkspark | https://x.com/stonkspark/status/2105435508927005103 | 47m | "on it" | SKIP — already replied at https://x.com/P7RIM3/status/2105435757142028442; older than cutoff.
+- @SafetyNotorious | https://x.com/SafetyNotorious/status/2105431749333602704 | 1h | "P7RIM3 - Retard of the Day" (quote-only) | SKIP — quote-only with slur; do not engage.
+- @GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | 1h | image reply (polymath image) | SKIP — already replied at https://x.com/P7RIM3/status/2105426194468405542; older than cutoff.
+- @zebralife2002 | https://x.com/zebralife2002/status/2105361123503440350 | 5h | "Your first sentence made absolutely no sense ... I stop reading ... Have a good day" | SKIP — already replied at https://x.com/P7RIM3/status/2105362879817925052; older than cutoff.
+- @KittyMcfeisty2 | URL not exposed in card | 6h | "This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh" | SKIP — thread already over two beats; older than cutoff.
+- @KittyMcfeisty2 | URL not exposed in card | 7h | "🙄 🤦‍♀️" | SKIP — same thread already over two beats; older than cutoff.
+- @KittyMcfeisty2 | URL not exposed in card | 7h | "What’s new is this shit needs to stop. Beyond ridiculous" | SKIP — same thread already over two beats; older than cutoff.
+- @Cobra17298328 | https://x.com/Cobra17298328/status/2105112514090402040 | 22h | "I can’t see what this bitch is saying, cause he immediately blocked me" | SKIP — older than cutoff; contains slur.
+- @juneauxwhoitis | URL not exposed in card | 23h | "Overflowing with perceptions you are!" | SKIP — older than cutoff.
+- @FiresOfTruth | URL not exposed in card | Sep 29 | "Check the link in my bio to watch a film I made with darcy" | SKIP — old promo/spam; older than cutoff.
+
+Result: NEW_COUNT=0. No replies posted. No flags requiring escalation.

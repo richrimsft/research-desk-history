@@ -1,0 +1,29 @@
+X scan dump
+run_timestamp: 2026-09-30T10:03:00-04:00
+cutoff: 2026-09-30T10:00:49-04:00
+signed_in: yes (@P7RIM3; account menu showed P7RIM3)
+
+ALL notifications (after refresh):
+- No reply/mention cards newer than cutoff. Newest visible reply card: @Cobra17298328, 12h, status https://x.com/Cobra17298328/status/2105112514090402040, text: I can’t see what this bitch is saying, cause he immediately blocked me (known, beat 2).
+- Other visible reply cards: @juneauxwhoitis 13h (known two-beat thread); @FiresOfTruth 14h (bio promo, known); likes-only cards at 55m, 4h, 7h, 11h, 14h ignored.
+
+MENTIONS: https://x.com/notifications/mentions
+- No mentions newer than cutoff. Visible cards were known @Cobra17298328 (12h), @juneauxwhoitis (13h), @FiresOfTruth (14h x3), and @grok (15h).
+
+NEW_CANDIDATES: 0
+REPLIES_POSTED: 0
+FLAGGED: none newer than cutoff
+
+PROFILE/TONE CHECK:
+- Profile showed newest original about 7 minutes ago: Homelab rule I keep: the model never owns the network path. Agent gets a tool list. Firewall gets an allowlist that outlives the chat. If the only stop is English in the prompt, that is not a control. That is a polite suggestion with root-shaped hopes.
+- Prior original visible at 11h: The way people look in my dreams.
+- Payment failed banner: YES. No billing opened or changed.
+
+EXPLORE GLANCE (no post):
+- Stylus Coding Video Prompts Debate on Keyboards and AI — 292 posts
+- Videos of EBT Declines and Work Rule Reactions Stir Welfare Debate — 186 posts
+- Tinder Launches Group Hangouts for Up to 15-Person Dates — 118 posts
+- Sidebar trending labels also visible: Diane; $EDEL; Senator Schmitt; Backpack; OpenAI's DevDay; #Kling4 (trending with #KlingECP).
+- TRENDING_SKIP: last original 09:56 ET; next allowed ~10:41 ET; extras_today 0/3.
+
+KNOWN_SKIPS_LOGGED: Cobra beat 2; Juneaux two beats; FiresOfTruth bio promo/over-two-beats and known older item; Grok America.gov beat 3.

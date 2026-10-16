@@ -1,0 +1,38 @@
+{
+  "mint": "79euwaxxwh8qYbHLpKvk9isQiuzpqTNobBsqPXvipump",
+  "symbol": "Alex",
+  "name": "The Iron Man",
+  "score": 1,
+  "rugged": false,
+  "creator": "GdtxFjoihk9EVdukJPAed9Jq1E5qBz7npB9TR2oPQX5",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalHolders": 375,
+  "graphInsiders": 0,
+  "top10_ex_curve_pct": 25.94,
+  "band_1_5": 19,
+  "phase": "pumpfun mc~13005 age=1.22h h1=123 m5=115 buys=118",
+  "socials": [
+    [
+      "twitter",
+      "https://x.com/slndr3000/status/2110980635829690638?s=20"
+    ],
+    [
+      "instagram",
+      "https://www.instagram.com/p/DegzSwzG2WB/"
+    ]
+  ],
+  "mc": 13004.87,
+  "age_h": 1.22,
+  "h1": 123,
+  "m5": 115,
+  "buys_h1": 118,
+  "sells_h1": 99,
+  "decision": "FAIL",
+  "reasons": [
+    "creatorBalance 0 (dev sold/out)",
+    "19 wallets in 1-5% band",
+    "no project X \u2014 only a status tweet + Instagram post"
+  ]
+}

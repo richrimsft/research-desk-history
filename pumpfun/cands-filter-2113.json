@@ -1,0 +1,133 @@
+{
+  "passers": [
+    {
+      "mint": "6MBf1XdZNSAaDKcxxbnCAngRUxBmwbHS5Ybe2rLRpump",
+      "name": "frameXTV",
+      "sym": "XTV",
+      "dex": "pumpswap",
+      "mc": 132332,
+      "liq": 33973.67,
+      "h1": 28.87,
+      "m5": 2.55,
+      "buys": 41,
+      "sells": 29,
+      "vol_h1": 4504.87,
+      "age_h": 75.42079194444445,
+      "late": true
+    }
+  ],
+  "band": [
+    {
+      "mint": "9HmC4jXxkaFchQHQEy873oA3bCcpGziz1hW7aP14pump",
+      "name": "DRAINLOVE",
+      "sym": "DRAINLOVE",
+      "dex": "pumpfun",
+      "mc": 43331.42,
+      "liq": null,
+      "h1": 1341,
+      "m5": null,
+      "buys": 6,
+      "sells": 0,
+      "vol_h1": 8964.66,
+      "age_h": 0.5846808333333333,
+      "reasons": [
+        "mc",
+        "age"
+      ]
+    },
+    {
+      "mint": "3ZxvEbfksLZHVnTDAsD5BFoND2RBpbpSRfv8xx9Gpump",
+      "name": "GCLASS",
+      "sym": "GCLASS",
+      "dex": "pumpswap",
+      "mc": 232227,
+      "liq": 2128.46,
+      "h1": 247,
+      "m5": null,
+      "buys": 62,
+      "sells": 57,
+      "vol_h1": 1910.78,
+      "age_h": 1.7291252777777777,
+      "reasons": [
+        "liq"
+      ]
+    },
+    {
+      "mint": "HLSh9nsmPnNNmGau97z3uwsuFPS6sXBpdkYiHYJcpump",
+      "name": "Akita",
+      "sym": "AKITA",
+      "dex": "pumpfun",
+      "mc": 31841.02,
+      "liq": null,
+      "h1": 11.4,
+      "m5": 3.87,
+      "buys": 160,
+      "sells": 111,
+      "vol_h1": 8839.33,
+      "age_h": 3.407458611111111,
+      "reasons": [
+        "mc",
+        "h1"
+      ]
+    },
+    {
+      "mint": "7avWDoV6xH2Fw4zeqnEAULeQtEvayeqM11uxPzMupump",
+      "name": "saluteface",
+      "sym": "saluteface",
+      "dex": "pumpswap",
+      "mc": 47161,
+      "liq": 18494.11,
+      "h1": 7.97,
+      "m5": -26.2,
+      "buys": 4849,
+      "sells": 4151,
+      "vol_h1": 731354.08,
+      "age_h": 1.9985697222222223,
+      "reasons": [
+        "mc",
+        "h1",
+        "botty",
+        "turn",
+        "prior"
+      ]
+    },
+    {
+      "mint": "BSKyXWqSBc4a5vCLoDVhNEtJrwrJ4hWpB65SEU38pump",
+      "name": "MOO//PHASE",
+      "sym": "MOO",
+      "dex": "pumpfun",
+      "mc": 43273.9,
+      "liq": null,
+      "h1": null,
+      "m5": null,
+      "buys": 0,
+      "sells": 0,
+      "vol_h1": 0,
+      "age_h": 1.662458611111111,
+      "reasons": [
+        "mc",
+        "bond-low",
+        "h1",
+        "flow"
+      ]
+    },
+    {
+      "mint": "87SsFmfcXVPpzFdHpYAQ6iu6ccdtCmgbifGmywBipump",
+      "name": "Motion",
+      "sym": "Motion",
+      "dex": "pumpswap",
+      "mc": 76840,
+      "liq": 23725.13,
+      "h1": -20.66,
+      "m5": -18.35,
+      "buys": 1567,
+      "sells": 1339,
+      "vol_h1": 175586.5,
+      "age_h": 2.099680833333333,
+      "reasons": [
+        "h1",
+        "prior"
+      ]
+    }
+  ]
+}

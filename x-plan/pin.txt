@@ -1,0 +1,9 @@
+Two things I keep seeing people get wrong:
+
+1. Lights in the sky. Most of what people call “craft” is Starlink, Iridium, aircraft, or a known military bird. Hold your phone up. Heavens-Above, Find Starlink, FlightRadar24. If it has a catalog number, it isn’t a mystery.
+
+2. AI agents. The model is not the incident. The incident is an agent that can leave the sandbox, hit a 200, and keep going with no named principal, no short-lived creds, and no kill path outside the prompt.
+
+I work attack surface for a living. I’ll post the receipts on both.
+
+If you want the sky decoder or the four questions a board should ask before it lets an agent touch prod, say which one.

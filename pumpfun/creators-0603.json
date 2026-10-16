@@ -1,0 +1,26 @@
+{
+ "ElonThrust": {
+  "creator": "G8thC28H7pkyRwWoEkUUb3f3h4bEdUdZdnrMuAq9HN3J",
+  "ntx": 673,
+  "age_h": 1.5,
+  "sol": 11.611549093
+ },
+ "YERN": {
+  "creator": "5LfEwgbWR8BuKYNn62zYvM3mQM8ou9c6L4eSXoRFR3uQ",
+  "ntx": 152,
+  "age_h": 0.6,
+  "sol": 0.00585216
+ },
+ "TCAT2": {
+  "creator": "FB5p7woPVta5xgnpnZVP5gvv6td8F79RQr3E66kKGDKm",
+  "ntx": 6,
+  "age_h": 0.4,
+  "sol": 0.0
+ },
+ "Chase": {
+  "creator": "BHe6nXANdpwus4TJMeU6n8VY73dWXZPRsuFxiGCFx2vm",
+  "ntx": 649,
+  "age_h": 0.6,
+  "sol": 0.00585216
+ }
+}

@@ -1,0 +1,25 @@
+X notifications live scan report
+Account: @P7RIM3 (confirmed signed in)
+Scan time: 2026-09-30T18:46:38-04:00
+Cutoff: 2026-09-30T18:40:30-04:00
+Result: NEW_COUNT 0. No safe unreplied inbound reply/mention newer than cutoff. No posts made.
+
+ALL: https://x.com/notifications
+Visible reply/mention cards:
+- @GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | displayed 25m | THEIR_TEXT: [image-only card; no body text exposed; replying to @P7RIM3 and @cb_doge] | pre-cutoff; explicitly skipped/already replied (2105426194468405542)
+- @zebralife2002 | https://x.com/zebralife2002/status/2105361123503440350 | displayed 4h | THEIR_TEXT: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day | pre-cutoff; already replied (2105362879817925052)
+- @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105343324580143460 | displayed 5h | THEIR_TEXT: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh | pre-cutoff; Kitty thread over two beats; skipped
+Ignored non-candidates: likes/repost/follow notifications only; no likes, follows, reposts, or own posts acted on.
+
+MENTIONS: https://x.com/notifications/mentions
+Visible reply/mention cards:
+- @GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | displayed 26m | THEIR_TEXT: [image-only card; no body text exposed; replying to @P7RIM3 and @cb_doge] | pre-cutoff; explicitly skipped/already replied (2105426194468405542)
+- @zebralife2002 | https://x.com/zebralife2002/status/2105361123503440350 | displayed 4h | THEIR_TEXT: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day | pre-cutoff; already replied (2105362879817925052)
+- @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105343324580143460 | displayed 5h | THEIR_TEXT: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh | pre-cutoff; Kitty thread over two beats; skipped
+- @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105339423638651351 | displayed 5h | THEIR_TEXT: [🙄 🤦‍♀️] | pre-cutoff; Kitty thread over two beats; skipped
+
+Explicit skips checked: GilliRoth 2105422493200875658; GilliRoth 2105404282220564784; zebralife2002 2105361123503440350; KittyMcfeisty2 2105343324580143460, 2105339423638651351, 2105333564132712947; Cobra17298328 2105112514090402040; juneauxwhoitis 2105094896663371987; FiresOfTruth promo. All were pre-cutoff and/or already handled, over two beats, or promo. No blocked_by_author, flagged_for_user, or skipped_work items found in the new window.
+
+Screenshots:
+- /workspace/x-plan/run-20260930-1845-notifications.png
+- /workspace/x-plan/run-20260930-1845-mentions.png

@@ -1,0 +1,61 @@
+{
+  "mint": "GgmAS6ibUzxNnABcMnGtNiYEdJSP8FiDpa8DqM2Zpump",
+  "symbol": "CatNose",
+  "name": "Tesla Origins",
+  "score": 1,
+  "rugged": false,
+  "creator": "BU8uPkYW7nvjYf2QMbDqMhqsPTHywLSgq2ZZnP1G2vs2",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalHolders": 100,
+  "graphInsiders": 0,
+  "top10_ex_curve_pct": 21.11,
+  "band_1_5": 14,
+  "whale_pct": 3.53,
+  "phase": "pumpfun mc~11462 age=0.26h h1=81.75 m5=12.44 buys=159 curve ~0.7 SOL in bond",
+  "socials": [
+    [
+      "twitter",
+      "https://x.com/dddddddddBa/status/2110997848997437680"
+    ]
+  ],
+  "mc": 11462.12,
+  "age_h": 0.26,
+  "h1": 81.75,
+  "m5": 12.44,
+  "buys_h1": 159,
+  "sells_h1": 94,
+  "decision": "FAIL",
+  "reasons": [
+    "age 0.26h <30m entry window",
+    "creatorBalance 0 (dev sold/out)",
+    "14 wallets in 1-5% band (suspicious)",
+    "4 holders share funder 5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9 (identical/near SOL amounts) \u2014 coordinated cluster",
+    "no project X (status/empty only); brand-new or near-empty socials"
+  ],
+  "shared_funder": "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+  "shared_funder_count": 4,
+  "shared_funder_wallets": [
+    [
+      "3keySyEFYxHF5hu4d54jBgzDinkB8CP1UFLVJyJsjtmr",
+      1.84,
+      1.49525
+    ],
+    [
+      "DJS5ZFLh4yjYCsWB4yWa787Z23jJ3wvpHqKiWddNvkmL",
+      1.62,
+      1.345625
+    ],
+    [
+      "H2Fkbbfy8ccQR8CJM717GFNDQkYqacHR1aQMDka4ax3Z",
+      1.6,
+      1.345625
+    ],
+    [
+      "7yU24FuATQYqPfta556wxScaX6z4utzw5KdwG8FRXVdY",
+      1.56,
+      1.345625
+    ]
+  ]
+}

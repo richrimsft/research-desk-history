@@ -1,0 +1,22 @@
+{
+ "symbol": "GRAB",
+ "mint": "5rB2Z8xPrUGX75mL8Q7BZLjdKFtzaJYHhtPKMazSpump",
+ "tag": "0730",
+ "age_h": 0.53,
+ "mc": 18252.77,
+ "dex": "pumpfun",
+ "verdict": "FAIL",
+ "reasons": [
+  "creatorBal 0"
+ ],
+ "rc": "rc-GRAB-0730.json",
+ "score": 2735,
+ "creatorBalance": 0,
+ "band_1_5": 2,
+ "top10_ex_pool_pct": 8.31,
+ "totalHolders": 119,
+ "graphInsiders": 0,
+ "risks": [
+  "Low Liquidity"
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "tag": "1003",
+ "symbol": "BFRG",
+ "mint": "FMwuYPDgxXBvAr49AcybfuvhFy43LakM94ZTuKgFpump",
+ "age_h": 0.47,
+ "mc": 13936.5,
+ "h1": 282,
+ "m5": 53.91,
+ "dex": "pumpfun",
+ "phase": "too_young",
+ "verdict": "FAIL",
+ "reasons": [
+  "age 0.47h <30m \u2014 no-buy by narrative-age",
+  "creatorBal 0 (dev sold out early)",
+  "top10ex 25.14% elevated >25%",
+  "19\u00d7 1\u20135% holder band",
+  "7\u00d7 tight 1.1\u20131.3% sniper band",
+  "RC Low Liquidity"
+ ],
+ "rc_score": 2811,
+ "top10ex_pct": 25.14,
+ "band_1_5_count": 19,
+ "max_identical_0.1": 5,
+ "identical_band_val": 1.1,
+ "creator": "CZTNFgSftbMJsYttKr3qodDLjmveA6iP6uZm3b8dyzK4",
+ "creatorBalance": 0,
+ "mintAuthority": null,
+ "freezeAuthority": null,
+ "graphInsiders": 4,
+ "totalHolders": 316,
+ "risks": [
+  {
+   "name": "Low Liquidity",
+   "level": "danger",
+   "score": 2810
+  }
+ ],
+ "meta_name": "Blue Frog",
+ "creator_pct": 0.0,
+ "top_pcts": [
+  41.72,
+  4.55,
+  3.08,
+  3.02,
+  2.7,
+  2.68,
+  2.47,
+  1.75,
+  1.72,
+  1.63,
+  1.54,
+  1.46
+ ],
+ "insiderNetworks": [
+  {
+   "id": "ancient-denim-chipmunk",
+   "size": 4,
+   "type": "transfer",
+   "tokenAmount": 104180277809671,
+   "currentHolding": 81003024515959,
+   "activeAccounts": 4
+  }
+ ]
+}

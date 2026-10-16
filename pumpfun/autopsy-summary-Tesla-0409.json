@@ -1,0 +1,55 @@
+{
+  "mint": "4oaW1mEAHjToJpjhfMffPMUqjUF7PWpEfbHYEvdepump",
+  "symbol": "Tesla",
+  "name": "CAT NOSE",
+  "score": 6060,
+  "rugged": false,
+  "creator": "66yEgHXyJPyPMno6Dv7ifr7sEF1TsjQ8YjWiMhUfch9b",
+  "creatorBalance": 0,
+  "creator_pct": 0.0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalHolders": 4,
+  "graphInsiders": 0,
+  "top10_ex_curve_pct": 0.02,
+  "band_1_5": 0,
+  "whale_pct": 0.02,
+  "phase": "pumpfun mc~121998.28 age=0.07h h1=3992 m5=3992 buys=38",
+  "socials": [],
+  "mc": 121998.28,
+  "age_h": 0.07,
+  "h1": 3992,
+  "m5": 3992,
+  "buys_h1": 38,
+  "sells_h1": 27,
+  "risks": [
+    {
+      "name": "Single holder ownership",
+      "level": "danger",
+      "value": "50.54%",
+      "description": "One user holds a large amount of the token supply"
+    },
+    {
+      "name": "High holder concentration",
+      "level": "warn",
+      "value": "",
+      "description": "The top 10 users hold more than 50% token supply"
+    }
+  ],
+  "decision": "FAIL",
+  "reasons": [
+    "age 0.07h <30m entry window FAIL",
+    "creatorBalance 0 (dev sold/out)",
+    "no socials on dex profile"
+  ],
+  "top10_owners": [
+    {
+      "owner": "BGp3icjmsCkJ\u2026",
+      "pct": 0.01514760228155
+    },
+    {
+      "owner": "66yEgHXyJPyP\u2026",
+      "pct": 0.0
+    }
+  ]
+}

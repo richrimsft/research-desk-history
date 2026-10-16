@@ -1,0 +1,27 @@
+$ rea doctor --json | jq -r '"healthy: \(.healthy)", (.checks[] | "  \(if .ok then "PASS" else "FAIL" end)  \(.classification)  \(.name)")'
+healthy: false
+  PASS  healthy  node
+  PASS  healthy  host
+  FAIL  missing_analysis_engine  hopper
+  PASS  healthy  ghidra
+  PASS  healthy  ghidra-platform
+  PASS  healthy  ghidra-architecture
+  PASS  healthy  ghidra-installation
+  PASS  healthy  ghidra-version
+  PASS  healthy  ghidra-headless
+  PASS  healthy  ghidra-native_decompiler
+  PASS  healthy  ghidra-java
+  FAIL  missing_analysis_engine  ida-registration
+  PASS  healthy  jadx
+  FAIL  config_drift  skill:identity
+  FAIL  config_drift  registration:cursor
+
+$ rea inspect-apktool-client --format json | jq -c '.normalized_result.client // .normalized_result'
+{"command":"/home/box/.local/apktool/apktool","command_source":"environment","apktool_version":"3.0.3"}
+
+$ rea inspect-adb-client --format json | jq -c '.normalized_result | {version: (.client.version // .version)}'
+{"version":"37.0.1-15733141"}
+
+$ rea inspect-pcap-client --format json | jq -c '.normalized_result.client | {tshark_version, capinfos_version}'
+{"tshark_version":"TShark (Wireshark) 4.4.19.","capinfos_version":"Capinfos (Wireshark) 4.4.19."}
+

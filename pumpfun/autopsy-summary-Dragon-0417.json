@@ -1,0 +1,77 @@
+{
+  "mint": "9gG2evdn4HgPCzyJkeUSFLei5Z4XBba3nSNPqczwpump",
+  "symbol": "Dragon",
+  "name": "SpaceX Dragon ",
+  "score": 1,
+  "rugged": false,
+  "creator": "786UZnZ1cPKZyuMfAyQHoHqqSSjGbzemTEctPz793XUL",
+  "creatorBalance": 0,
+  "creator_pct": null,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalHolders": 350,
+  "graphInsiders": 0,
+  "top10_ex_curve_pct": 23.86,
+  "band_1_5": 19,
+  "whale_pct": 3.49,
+  "phase": "pumpfun mc~14751.34 age=0.57h h1=179 m5=92.29 buys=830",
+  "socials": [],
+  "mc": 14751.34,
+  "age_h": 0.57,
+  "h1": 179,
+  "m5": 92.29,
+  "buys_h1": 830,
+  "sells_h1": 583,
+  "risks": [],
+  "decision": "FAIL",
+  "reasons": [
+    "creatorBalance 0 (dev sold/out)",
+    "19 wallets in 1-5% band",
+    "botty churn: 830 buys/h on mc~14751.34",
+    "no socials on dex profile",
+    "1 holder funded by known cabal 5tzFki\u2026 @ 2.939 SOL (same funder as CatNose/GALAX/POKESQUAD); not full 8+ but coordinated + structure FAIL"
+  ],
+  "top10_owners": [
+    {
+      "owner": "5QQ5Xi9iyY29\u2026",
+      "pct": 3.4872628209277035
+    },
+    {
+      "owner": "9gHEpjFduq8F\u2026",
+      "pct": 2.9547260209059028
+    },
+    {
+      "owner": "449LVsaMqY4z\u2026",
+      "pct": 2.7098651612707023
+    },
+    {
+      "owner": "AWusY2g7G5vF\u2026",
+      "pct": 2.4423234709276027
+    },
+    {
+      "owner": "5FnE3q4tcDkE\u2026",
+      "pct": 2.344090057485002
+    },
+    {
+      "owner": "BEKRAfvRmUad\u2026",
+      "pct": 2.1950876853152024
+    },
+    {
+      "owner": "AimUs5AnmPfy\u2026",
+      "pct": 2.057428572495302
+    },
+    {
+      "owner": "5RAY7g5M8MWG\u2026",
+      "pct": 2.057142531299502
+    },
+    {
+      "owner": "7HmkKn8P6aZS\u2026",
+      "pct": 1.817794587353902
+    },
+    {
+      "owner": "34JiFUR96ULn\u2026",
+      "pct": 1.795860774796402
+    }
+  ],
+  "funders_note": "1 holder funded by known cabal 5tzFki\u2026 @ 2.939 SOL (same funder as CatNose/GALAX/POKESQUAD); not full 8+ but coordinated + structure FAIL"
+}

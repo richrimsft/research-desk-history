@@ -1,0 +1,38 @@
+X notifications scan — @P7RIM3
+Scan time: 2026-09-30 01:54 ET (UTC-4)
+Cutoff: approximately 01:40 ET
+Signed-in account confirmed in X account menu: P7RIM3 (@P7RIM3)
+All and Mentions were each opened and refreshed once. No interactions that post, like, follow, repost, DM, or change settings were performed.
+
+NEW_COUNT=0
+
+ALL TAB — visible cards, top to bottom
+(Types: LIKES-ONLY, REPLY, MENTION. Likes-only are ignored for new-candidate purposes.)
+1. @Mweah22 (display: Mweh) — 49m — LIKES-ONLY — status URL not exposed by notification card — “Do the complete opposite of whatever Cramer says!” (and 6 others liked your reply)
+2. @TheReal78Ace (display: Ace) — 2h — LIKES-ONLY — status URL not exposed — “Do the opposite of whether Kramer says! Trust me” (and 6 others liked your reply)
+3. @Occultjourneys (Darcy Weir Films) — 2h — LIKES-ONLY — status URL not exposed — “The dude claimed he was on different planets and a secret space force run by reptiles. What did he expect the public’s reaction would be? Ufology in general is about as asinine as the flat earth community. I follow it for the laughs!”
+4. @KEKerboxerGlory (G Reed) — 3h — LIKES-ONLY — status URL not exposed — “Nvidia and X.ai yes! Meta, absolutely not”
+5. @DelBerrX (mine) — 3h — LIKES-ONLY — status URL not exposed — “This screams the movie Wall-E”
+6. @Cobra17298328 — 4h — REPLY — https://x.com/Cobra17298328/status/2105112514090402040 — “I can’t see what this bitch is saying, cause he immediately blocked me” (Replying to @P7RIM3, @skeptic_vaibhav, and @artaimemes; 1 reply, 100 views)
+7. @pullingUp22 (FormOverTime) — 5h — LIKES-ONLY — status URL not exposed — “The guy is clueless. You can tell he has ZERO technical skills. I know everyone has a giant boner for anthropic right now. I don’t see him being the leader for the long haul. I just don’t”
+8. @juneauxwhoitis — 5h — REPLY — https://x.com/juneauxwhoitis/status/2105094896663371987 — “Overflowing with perceptions you are!” (Replying to @P7RIM3 and @OverlyTrev; 2 replies, 1 like, 122 views)
+9. @snowtrees32283 (Robin) — 5h — LIKES-ONLY — status URL not exposed — “Time to crank out the money printing machine.”
+10. @thechillguy_07 (King Chess) — 5h — LIKES-ONLY — status URL not exposed — “Their fees are ridiculous. Stick with @krakenfx”
+11. @JohnGGalt (John Galt) and 12 others — 6h — LIKES-ONLY — status URL not exposed — “Do the opposite of whether Kramer says! Trust me”
+12. @FiresOfTruth — 6h — REPLY — https://x.com/FiresOfTruth/status/2105080875058704611 — “Check the link in my bio to watch a film I made with darcy” (Replying to @P7RIM3 and @thehiddenpod; 2 likes, 90 views)
+13. @StochStocks (Mr. Fugazi) and 5 others — 6h — LIKES-ONLY — status URL not exposed — “Do the complete opposite of whatever Cramer says!”
+14. @dispenseofgrace (Ibn Yahya) — 6h — LIKES-ONLY — status URL not exposed — “The guy is clueless. You can tell he has ZERO technical skills. I know everyone has a giant boner for anthropic right now. I don’t see him being the leader for the long haul. I just don’t”
+15. @dogeofficialceo (Sir Doge of the Coin) and @Mehdalon — 6h — LIKES-ONLY — status URL not exposed — “A hilarious meme”
+
+MENTIONS TAB — visible cards, top to bottom
+1. @Cobra17298328 — 4h — REPLY — https://x.com/Cobra17298328/status/2105112514090402040 — “I can’t see what this bitch is saying, cause he immediately blocked me” (Replying to @P7RIM3, @skeptic_vaibhav, and @artaimemes; 1 reply, 100 views)
+2. @juneauxwhoitis — 5h — REPLY — https://x.com/juneauxwhoitis/status/2105094896663371987 — “Overflowing with perceptions you are!” (Replying to @P7RIM3 and @OverlyTrev; 2 replies, 1 like, 122 views)
+3. @FiresOfTruth — 6h — REPLY — https://x.com/FiresOfTruth/status/2105080875058704611 — “Check the link in my bio to watch a film I made with darcy” (Replying to @P7RIM3 and @thehiddenpod; 2 likes, 90 views)
+4. @FiresOfTruth — 6h — REPLY/QUOTE — https://x.com/FiresOfTruth/status/2105074701802651949 — Quote of @SlackerBluePod from 12h: “Alex B is currently missing. #fishtanklive” (image; 2 likes; liked)
+5. @FiresOfTruth — 6h — REPLY — https://x.com/FiresOfTruth/status/2105073376268345355 — “He’s a human being” (image; 1 reply, 5 likes; liked)
+6. @grok — 7h — REPLY — https://x.com/grok/status/2105068070892912851 — “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the america.gov” (Replying to @P7RIM3 and @elonmusk; America.gov link card; 1 like, 45 views)
+
+NEW CANDIDATES
+None. All visible REPLY/MENTION cards are older than the ~01:40 ET cutoff and/or explicitly present in the supplied handled/skip list. No status newer than the cutoff was visible, and no new unreplied candidate was identified.
+
+Screenshot saved: /workspace/x-plan/last-desktop.webp

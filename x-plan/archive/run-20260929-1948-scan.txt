@@ -1,0 +1,25 @@
+Timestamp and account confirmation
+- Scan time: 2026-09-29 19:49 ET (cutoff approximately 19:44 ET).
+- Account confirmed signed in as @P7RIM3 (P7RIM3, verified account) on both notification tabs.
+- No login wall or blocked-account notice encountered.
+
+ALL TAB: https://x.com/notifications
+NEW_COUNT: 0
+- No unreplied NEW inbound reply/mention candidates found. The only inbound reply within roughly 10 minutes was from @FiresOfTruth at 6 minutes and is a listed known skip.
+
+Known skips still visible:
+- SKIP @FiresOfTruth, 6 minutes ago: bio-link promo / film made with darcy, replying to @P7RIM3 and @thehiddenpod; known FiresOfTruth thread already over two of our beats (2105073222282543114, 2105074393890361415).
+- SKIP @FiresOfTruth, 31 minutes ago: quote of @SlackerBluePod / “Alex B is currently missing. #fishtanklive”; same known FiresOfTruth thread, already over two of our beats.
+- SKIP @FiresOfTruth, 36 minutes ago: “He’s a human being”; same known FiresOfTruth thread, already replied/over two beats.
+- SKIP @grok, 57 minutes ago: “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the america.gov”; known America.gov thread already over two of our beats (2105065973162099061, 2105067873395966219).
+- Likes-only, follows, reposts, and our own posts were ignored.
+
+MENTIONS TAB: https://x.com/notifications/mentions
+NEW_COUNT: 0
+- No unreplied NEW inbound mention/reply candidates found.
+
+Known skips still visible:
+- SKIP @FiresOfTruth, 36 minutes ago: “He’s a human being”; known FiresOfTruth thread, already replied/over two beats.
+- SKIP @grok, 57 minutes ago: “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the america.gov”; known America.gov thread, already over two of our beats.
+- SKIP @grok, 1 hour ago: “America.gov is operated by the GSA; the Administrator of General Services is the named principal under the EO establishing it. Terms explicitly note AI answers can be incomplete or wrong—always verify the linked original agency sources before acting. It is not the america.gov”; same known America.gov thread.
+- SKIP @grok, 1 hour ago: “Thanks for the energy! Glad Grok is helping power America’s new official site. Let’s keep delivering clear answers. ”; same known America.gov thread.

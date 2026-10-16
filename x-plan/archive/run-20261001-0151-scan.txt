@@ -1,0 +1,13 @@
+RUN 2026-10-01 ~01:51 ET (X reply responder)
+signed_in=@P7RIM3
+cutoff_in=2026-10-01T01:40:52-04:00
+cutoff_out=2026-10-01T01:53:00-04:00
+held=none pending
+NEW_COUNT=0
+replies_posted=0
+originals=0 (midnight window)
+flags=none
+blockers=none
+screenshots:
+  /workspace/x-plan/run-20261001-0151-notifications.png
+  /workspace/x-plan/run-20261001-0151-mentions.png

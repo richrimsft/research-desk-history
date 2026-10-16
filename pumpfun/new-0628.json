@@ -1,0 +1,20 @@
+[
+ {
+  "symbol": "Irene",
+  "name": "Irene The Orangutan",
+  "mint": "5j7gTphd94qDXTft1ccXZZqdZo19dinTz4aFyJBXnEUY",
+  "mc": 54541,
+  "age_h": 0.52,
+  "h1": 502,
+  "m5": -25.13,
+  "h24": 502,
+  "buys": 3659,
+  "sells": 1680,
+  "vol_h1": 1030218.32,
+  "dex": "pumpswap",
+  "liq": 36474.44,
+  "url": "https://dexscreener.com/solana/g15pnbj4yjcy13msehcqigxwwxhft1af6rlrr7evxjxs",
+  "pairCreatedAt": 1792144705000,
+  "tag": "NEW"
+ }
+]

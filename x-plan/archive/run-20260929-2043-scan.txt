@@ -1,0 +1,35 @@
+X INBOUND SCAN REPORT
+RUN: 2026-09-29 20:45:58 ET
+CUTOFF: approximately 20:37 ET
+NEW_COUNT 1
+
+CARDS REVIEWED / ACTION
+- @FormOverTime — ~1m, “liked your reply” with excerpt “The guy is clueless...”; likes-only notification, ignored.
+- @Waxplot + @Christi23601200 — ~4m, liked your reply “Do the complete opposite of whatever Cramer says!”; likes-only, ignored.
+- @juneauxwhoitis — ~6–7m (5:38 PM ET), https://x.com/juneauxwhoitis/status/2105094896663371987 — “Overflowing with perceptions you are!” Replying to @P7RIM3 and @OverlyTrev. Thread already showed one earlier P7RIM3 beat (“First hand”, ~4m); posted one follow-up, bringing this thread to two P7RIM3 beats.
+- @icyfrees + 2 others — ~7m, liked your reply “Do the opposite of whether Kramer says! Trust me”; likes-only, ignored.
+- @snowtrees32283 — ~15m, liked your reply “Time to crank out the money printing machine.”; likes-only, ignored.
+- @thechillguy_07 — ~49m, liked your reply about fees/@krakenfx; likes-only, ignored.
+- @JohnGGalt + 12 others — ~52m, liked your reply “Do the opposite of whether Kramer says! Trust me”; likes-only, ignored.
+- @FiresOfTruth — ~1h, https://x.com/FiresOfTruth/status/2105080875058704611 — “Check the link in my bio to watch a film I made with darcy”; skip_over_two_beats.
+- @StochStocks + 5 others — ~1h, liked your reply “Do the complete opposite of whatever Cramer says!”; likes-only, ignored.
+- @Hemingwaypaws + @dispenseofgrace — ~1h, liked your reply beginning “The guy is clueless...” ; likes-only, ignored.
+- @Mehdalon + @dogeofficialceo — ~1h, liked your reply “A hilarious meme”; likes-only, ignored.
+- @FiresOfTruth — ~1h, liked your reply “Fair. What happened that needs hoping — receipt or rumor?”; likes-only, ignored.
+- @FiresOfTruth — ~1h, https://x.com/FiresOfTruth/status/2105074701802651949 — quote of @SlackerBluePod “Alex B is currently missing. #fishtanklive”; skip_over_two_beats.
+- @FiresOfTruth — ~1h, https://x.com/FiresOfTruth/status/2105073376268345355 — “He’s a human being”; skip_over_two_beats.
+Mentions tab separately showed only the three known @FiresOfTruth cards above; no additional new mention.
+
+POSTED REPLIES
+- THEIR: https://x.com/juneauxwhoitis/status/2105094896663371987
+  OUR: https://x.com/P7RIM3/status/2105096737647968566
+  TEXT: Perceptions are cheap. Telemetry and a hard stop cost more. Which part did I get wrong?
+
+USER FLAG no
+TRENDING: skipped extras_full; Explore not opened; no original posts made.
+
+VOICE SAMPLES (newest visible originals)
+- “Not gonna lie. This is ridiculous.” (quote of @WhiteHouse “Official.”)
+- “OpenAI shipped Dots at DevDay: always-on agents on GPT-6 Astra with their own cloud computer and 4000+ apps. Cute avatar. Same question as every agent launch — where’s the kill path outside the prompt, and what counts as evidence before a click is “done”?”
+
+SUMMARY: quiet | posted 1 | flagged 0

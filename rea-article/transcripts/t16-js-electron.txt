@@ -1,0 +1,28 @@
+$ rea analyze-javascript-application $PWD/jsapp --json > jsapp-evidence.json 2>/dev/null; jq -c '{evidence_id, confidence}' jsapp-evidence.json
+{"evidence_id":"ev_dcf4781161b93c8501a397231e56c26010d07d56c217c99373162f716833d868","confidence":"derived"}
+
+$ jq '.normalized_result.summary' jsapp-evidence.json
+{
+  "browser_windows": 1,
+  "explicit_web_preferences": 2,
+  "preload_entrypoints": 1,
+  "context_bridge_apis": 1,
+  "exposed_api_members": 1,
+  "ipc": {
+    "operations": 2,
+    "literal_channels": 1,
+    "dynamic_channel_operations": 0,
+    "renderer_transmissions": 1,
+    "renderer_listeners": 0,
+    "main_handlers": 1,
+    "paired_renderer_transmissions": 1,
+    "ambiguous_renderer_transmissions": 0,
+    "unpaired_literal_renderer_transmissions": 0
+  },
+  "sender_validation_observations": 0,
+  "utility_processes": 0,
+  "resolved_utility_entrypoints": 0,
+  "native_addon_bindings": 0,
+  "resolved_native_addon_bindings": 0
+}
+

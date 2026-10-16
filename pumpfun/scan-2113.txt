@@ -1,0 +1,183 @@
+182 mints
+CZiwA6eLUthZFLvTVEWG9v1K9Pc7p3eiBKRba2G7pump BOMBERS pumpswap mc 471141 liq 59945.86 v1 2057.76 ch -0.01 1.6 -10.84 tx1h {'buys': 22, 'sells': 31} age_h 197.3 FAIL:mc=471141,h1=1.6,b<=s 22/31
+3rbh7vzmyMgSmgssKHLn8iprVbsNgnWEj4h98hQhpump VIRUSEM pumpfun mc 18573.13 liq None v1 19.64 ch -0.21 0.16 -0.14 tx1h {'buys': 1, 'sells': 1} age_h 1421.7 FAIL:mc=18573.13,bonding-low-act,h1=0.16,b<=s 1/1
+EDTmJjr4VoV9S8ftCQFt4ZBvmDy9s1tBoiWVrmDApump HQ meteora mc 218656323 liq 8166876.42 v1 48537.21 ch None None 1 tx1h {'buys': 6, 'sells': 0} age_h 514.6 FAIL:mc=218656323,h1=None
+H4phNbsqjV5rqk8u6FUACTLB6rNZRTAPGnBb8KXJpump SSE raydium mc 85236 liq 84415.21 v1 0 ch None None None tx1h {'buys': 0, 'sells': 0} age_h 14827.5 FAIL:h1=None,b<=s 0/0
+73edX6xoGY4v5y2hzuKdrUbJXLntqgmo74au1Ki1pump Staccana pumpswap mc 347232 liq 74391.66 v1 0 ch None None None tx1h {'buys': 0, 'sells': 0} age_h 3963.4 FAIL:h1=None,b<=s 0/0
+AARYePwa2r1oSBfjWt5AbC5RgCRkRd2549FeYRX2pump Solana  pumpfun mc 4652.86 liq None v1 96.89 ch -0.53 -4.1 -7.67 tx1h {'buys': 1, 'sells': 5} age_h 129.5 FAIL:mc=4652.86,bonding-low-act,h1=-4.1,b<=s 1/5
+8cHzQHUS2s2h8TzCmfqPKYiM4dSt4roa3n7MyRLApump CLAWD pumpswap mc 107457 liq 40837.65 v1 0.4 ch None -2.22 -0.93 tx1h {'buys': 0, 'sells': 1} age_h 4582.4 FAIL:h1=-2.22,b<=s 0/1
+6UGNg119LV6YjSCQ5K6Z6jsLLLetpMJ1vPdhiU8qpump CURB pumpswap mc 108509 liq 32090.05 v1 0 ch None None None tx1h {'buys': 0, 'sells': 0} age_h 2459.0 FAIL:h1=None,b<=s 0/0
+evShR7tKJBiKLWjLzJFmqkLLCmozqMyYWREjejMpump LUMIO pumpfun mc 4720.76 liq None v1 0 ch None None 1.33 tx1h {'buys': 0, 'sells': 0} age_h None FAIL:mc=4720.76,bonding-low-act,age=None,h1=None,b<=s 0/0
+AfiznkNprkjL6o2PXJinfCUjx79KE6iwUTrebkQvpump LayoWif pumpfun mc 0 liq None v1 0 ch None None None tx1h {'buys': 0, 'sells': 0} age_h 54.3 FAIL:mc=0,bonding-low-act,h1=None,b<=s 0/0
+2mzqMhShWKobxdoQQ1b8YfNcER9LLoZWGn3WufGUpump $MAXBTC pumpfun mc 4869.59 liq None v1 0 ch None None None tx1h {'buys': 0, 'sells': 0} age_h 2780.0 FAIL:mc=4869.59,bonding-low-act,h1=None,b<=s 0/0
+H4LM9zHagQtAN2ALg2ewsavYCcBFGsKQd2LCec27pump solana  pumpfun mc 3036.5 liq None v1 198.58 ch 0.08 3.07 3.07 tx1h {'buys': 74, 'sells': 31} age_h 0.9 FAIL:mc=3036.5,age=0.8727961111111111,h1=3.07
+5WWbQoTzvCbpo9VJuZrbxcZd8k8T7KL7WVhyHSk1pump HOME pumpfun mc 4190.38 liq None v1 0 ch None None None tx1h {'buys': 0, 'sells': 0} age_h None FAIL:mc=4190.38,bonding-low-act,age=None,h1=None,b<=s 0/0
+FLJYGHpCCcfYUdzhcfHSeSd2peb5SMajNWaCsRnhpump STORE raydium mc 79222 liq 35637.9 v1 0 ch None None None tx1h {'buys': 0, 'sells': 0} age_h 15126.9 FAIL:h1=None,b<=s 0/0
+AZZyEKLE288XgF795nkktMC9poBgsq93mkcZQxRrpump XRP raydium mc 40196 liq 31863.28 v1 90.34 ch None -0.64 -0.64 tx1h {'buys': 0, 'sells': 1} age_h 16421.5 FAIL:mc=40196,h1=-0.64,b<=s 0/1
+5tFRno9GXBP5gt2Kjx2MeEaFL8zGBMw4cujTLGerpump AGENT raydium mc 55960 liq 30786.05 v1 0 ch None None None tx1h {'buys': 0, 'sells': 0} age_h 16042.1 FAIL:h1=None,b<=s 0/0
+54meDtup2K7pqyhUK24AymoLzMPtrkhNTbEzQ6gSpump BABYSOL raydium mc 69649 liq 23393.77 v1 0 ch None None 0.36 tx1h {'buys': 0, 'sells': 0} age_h 16707.9 FAIL:h1=None,b<=s 0/0
+FHSTU8fGBvrsNkNxeY8qmRdA2FgaxVFyBVz3fAc6pump HIMA raydium mc 25861 liq 20618.37 v1 0 ch None None -7.05 tx1h {'buys': 0, 'sells': 0} age_h 17143.2 FAIL:mc=25861,h1=None,b<=s 0/0
+HW2B2wvyEir3iqvYbYqbHWyR7rA6DqCR3WQSy4USpump $CrepSol pumpswap mc 26842 liq 14251.71 v1 0 ch None None None tx1h {'buys': 0, 'sells': 0} age_h 9375.9 FAIL:mc=26842,liq=14251.71,h1=None,b<=s 0/0
+CPcf58MNikQw2G23kTVWQevRDeFDpdxMH7KkR7Lhpump DOBBY raydium mc 187147 liq 288.49 v1 0.25 ch None -0.54 2.17 tx1h {'buys': 0, 'sells': 1} age_h 7871.8 FAIL:liq=288.49,h1=-0.54,b<=s 0/1
+CSRRgTwf9o5KLgguS2M16aEAhV5PUUzfshrAAQ8opump RETARDIO meteora mc 1517664 liq 56.12 v1 0.3 ch None 2.24 -11.32 tx1h {'buys': 1, 'sells': 0} age_h 1054.0 FAIL:mc=1517664,liq=56.12,h1=2.24
+TVvnJTedD3WgAPede2xUmRjweJqNdhCEgyjtKv3rCq4 SHEEPLE meteora mc 281665 liq 125.12 v1 0 ch None None 6.53 tx1h {'buys': 0, 'sells': 0} age_h 699.9 FAIL:not-pump,liq=125.12,h1=None,b<=s 0/0
+43VWkd99HjqkhFTZbWBpMpRhjG469nWa7x7uEsgSH7We STNK meteora mc 3092696 liq 54.94 v1 0 ch None None -1.15 tx1h {'buys': 0, 'sells': 0} age_h 1183.6 FAIL:not-pump,mc=3092696,liq=54.94,h1=None,b<=s 0/0
+BvSyXBvy76mUgzLSbvvT4NQw5rSM4P5zAsdnvqUJpump SDOGE raydium mc 18386 liq 21630.89 v1 0 ch None None -1.05 tx1h {'buys': 0, 'sells': 0} age_h 17713.3 FAIL:mc=18386,h1=None,b<=s 0/0
+8x382FRw85zkkA8ZDvky8HkKWPpJugi2ujoZeyHmpump $SNEKO orca mc 52767 liq 35119.52 v1 0 ch None None None tx1h {'buys': 0, 'sells': 0} age_h 634.3 FAIL:h1=None,b<=s 0/0
+AevWRpvNQAKkLpfgaYJ6epHBgJY9693fBYtM1R53pump Solana pumpfun mc 3714.27 liq None v1 300.09 ch None -14.92 -5.44 tx1h {'buys': 0, 'sells': 3} age_h 2191.2 FAIL:mc=3714.27,bonding-low-act,h1=-14.92,b<=s 0/3
+536Y2Cf53iJ64N8JsQHnVPkCTPoXLhAHx5dCRX7XW7fM SME meteora mc 4269 liq 6603.65 v1 0 ch None None None tx1h {'buys': 0, 'sells': 0} age_h 729.8 FAIL:not-pump,mc=4269,liq=6603.65,h1=None,b<=s 0/0
+28ZHuzqJwtg97KhJzuUwypC82vMCKuZa629FaCmrpump MSFT pumpswap mc 2623 liq 2935.14 v1 1.99 ch -1.96 -1.89 -3.04 tx1h {'buys': 8, 'sells': 14} age_h 895.7 FAIL:mc=2623,liq=2935.14,h1=-1.89,b<=s 8/14
+BZdPKYaB74r1cd7m1GKegHWrVYxMhdDaoWEr2miHy66G MEME raydium mc 950 liq 1763.2 v1 0 ch None None None tx1h {'buys': 0, 'sells': 0} age_h 23400.0 FAIL:not-pump,mc=950,liq=1763.2,h1=None,b<=s 0/0
+9XcFj5yTUuyEVVrbsfbXCgZPAheGeBzvdDGEvaHRpump FROZEN raydium mc 1897 liq 3718.53 v1 0 ch None None None tx1h {'buys': 0, 'sells': 0} age_h 15156.3 FAIL:mc=1897,liq=3718.53,h1=None,b<=s 0/0
+EKBA2KrSya8FGd89jNhNh7wg3mZmADVVJu4YHCF4uAfQ SOLANALIFE raydium mc 1652 liq 3268.74 v1 0 ch None None None tx1h {'buys': 0, 'sells': 0} age_h 646.6 FAIL:not-pump,mc=1652,liq=3268.74,h1=None,b<=s 0/0
+3fNhj1Mm1ZLCY9x91Y5MpuFTxgmDnb7ry4cQruTQpump CATO pumpfun mc 3185.96 liq None v1 0 ch None None None tx1h {'buys': 0, 'sells': 0} age_h None FAIL:mc=3185.96,bonding-low-act,age=None,h1=None,b<=s 0/0
+DGLA2ofJAvZFs8biqZzQ6dehepwY9RfyNZE5BYkCpump SMIE pumpfun mc 2964.06 liq None v1 0 ch None None 4.38 tx1h {'buys': 0, 'sells': 0} age_h 33.7 FAIL:mc=2964.06,bonding-low-act,h1=None,b<=s 0/0
+F5wkmMzoJr1qFTMNmb2yFRagzuh1o6WJSHTCbYhTpump memecoin pumpfun mc 2960.12 liq None v1 0 ch None None None tx1h {'buys': 0, 'sells': 0} age_h 882.8 FAIL:mc=2960.12,bonding-low-act,h1=None,b<=s 0/0
+5sqsyp9BJtn4crUuDLu4GMRR3KuMZZ9oWok7EN4Npump MEMESTER pumpfun mc 4057.17 liq None v1 16910.82 ch 1.08 1.08 1.08 tx1h {'buys': 88, 'sells': 120} age_h 0.1 FAIL:mc=4057.17,age=0.053629444444444445,h1=1.08,b<=s 88/120
+3EC7gRDGKgqPHc9ipJxxChoeyseE2xAbQHZUSSTfpump SYCAMORE pumpswap mc 313850 liq 53862.34 v1 96814.1 ch 6 31.28 9.88 tx1h {'buys': 430, 'sells': 199} age_h 17.4
+Afkbv7eaxzW1qQyYcf5NeffDRKX4be6fs4TPuJeXpump FTR pumpswap mc 75025 liq 23165.21 v1 707314.02 ch -1.1 73.75 73.75 tx1h {'buys': 5319, 'sells': 5946} age_h 0.2 FAIL:age=0.15862944444444443,b<=s 5319/5946,botty=5319
+n1mwyLvThsFSRYxoUMWijLjvwkFEotM2pXy7J4tpump VER pumpswap mc 16002812 liq 343999.37 v1 4044.79 ch -0.43 0.42 3.62 tx1h {'buys': 115, 'sells': 52} age_h 71.9 FAIL:mc=16002812,h1=0.42
+9UDNU3zn32BdB8s82gxC7aJwKHii7PYaKH9dyQ5spump $OTCATWALK pumpswap mc 2419 liq 2692.55 v1 0 ch None None 0.05 tx1h {'buys': 0, 'sells': 0} age_h 9.0 FAIL:mc=2419,liq=2692.55,h1=None,b<=s 0/0
+HwY1WFVmnjts6s2K7tAMqbdVArWtnvXY8ufUTF1tpump Roadster pumpfun mc 2947.72 liq None v1 651.72 ch -6.35 -6.35 -6.35 tx1h {'buys': 4, 'sells': 4} age_h 0.0 FAIL:mc=2947.72,bonding-low-act,age=0.02279611111111111,h1=-6.35,b<=s 4/4
+9HmC4jXxkaFchQHQEy873oA3bCcpGziz1hW7aP14pump DRAINLOVE pumpfun mc 43331.42 liq None v1 8964.66 ch None 1341 1341 tx1h {'buys': 6, 'sells': 0} age_h 0.6 FAIL:mc=43331.42,age=0.5711294444444445
+u9yBdSLnSnFncyCFjaQ8GKrYrfqJvQCx74BjXNUpump D O T F pumpswap mc 53884752 liq 632687.79 v1 7381.14 ch -0.01 0.68 1.47 tx1h {'buys': 163, 'sells': 113} age_h 98.3 FAIL:mc=53884752,h1=0.68
+Eizz6UJUBmoH4CxqLR5XBRyEGfoaKeckjmsraobSpump ROADSTER pumpfun mc 12094.77 liq None v1 7363.47 ch 29.21 15.71 83.95 tx1h {'buys': 84, 'sells': 47} age_h 8383.5 FAIL:mc=12094.77,h1=15.71
+AEqqTu9iYMvzWJa8Ub9XtQaN1awYw3uyUEPJxVe9pump LIQUIFY pumpswap mc 2376 liq 2572.62 v1 15.71 ch None -3.5 -94.27 tx1h {'buys': 0, 'sells': 4} age_h 4.1 FAIL:mc=2376,liq=2572.62,h1=-3.5,b<=s 0/4
+9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump Pepper pumpswap mc 896979 liq 100681.42 v1 43366.22 ch -0.66 -7.45 -23.25 tx1h {'buys': 240, 'sells': 207} age_h 128.0 FAIL:mc=896979,h1=-7.45
+FeR8VBqNRSUD5NtXAj2n3j1dAHkZHfyDktKuLXD4pump jellyjelly raydium mc 51969398 liq 4859367.25 v1 0 ch None None 0.04 tx1h {'buys': 0, 'sells': 0} age_h 14977.7 FAIL:mc=51969398,h1=None,b<=s 0/0
+7sp4PP2HzpQSdR1yQtKRoX1BQNzkbJeRHLNduhAupump 1 pumpswap mc 2999 liq 3035.2 v1 36150.45 ch None -93.3 -93.3 tx1h {'buys': 364, 'sells': 463} age_h 0.8 FAIL:mc=2999,liq=3035.2,age=0.7719627777777778,h1=-93.3,b<=s 364/463,turn=12.1x
+FzVt6S6nHxeW9BizwvRHiMTw6dgVdovbAxToC8Anpump UDTR pumpswap mc 6030 liq 4893.72 v1 149047.64 ch -3.4 -86.29 -86.29 tx1h {'buys': 1026, 'sells': 1759} age_h 0.2 FAIL:mc=6030,liq=4893.72,age=0.15196277777777778,h1=-86.29,b<=s 1026/1759,turn=24.7x
+ahj9cQ4uVfromvTx9ZxANPCgF7giczQjZFdqiKbpump Doroni pumpswap mc 6312748 liq 214894.72 v1 4271.78 ch 0.06 2.4 9.18 tx1h {'buys': 113, 'sells': 54} age_h 16.4 FAIL:mc=6312748,h1=2.4
+BSKyXWqSBc4a5vCLoDVhNEtJrwrJ4hWpB65SEU38pump MOO pumpfun mc 43273.9 liq None v1 0 ch None None 1341 tx1h {'buys': 0, 'sells': 0} age_h 1.6 FAIL:mc=43273.9,bonding-low-act,h1=None,b<=s 0/0
+HR9BqLbiueP5NHvDrb4udFHVQbNgJqpQaWwrptvcpump FERSPE pumpfun mc 3.56 liq None v1 1204.24 ch -99.88 -99.88 -99.88 tx1h {'buys': 251, 'sells': 244} age_h 0.1 FAIL:mc=3.56,age=0.09140722222222222,h1=-99.88,turn=338.3x
+3KZMhdGUE8KqLkG7q45qJS8czmd7UUhfwdEkN24Jpump XTO pumpswap mc 58157235 liq 656022.7 v1 3306.18 ch 0.04 2.1 13.47 tx1h {'buys': 3291, 'sells': 1} age_h 46.3 FAIL:mc=58157235,h1=2.1,botty=3291,washy
+3hXf2Co14UBQbCQF36SNhDKMKLBNWqvYf2TzNFzDpump FTR pumpfun mc 2965.61 liq None v1 9.58 ch 0.61 0.61 0.61 tx1h {'buys': 2, 'sells': 0} age_h 0.0 FAIL:mc=2965.61,bonding-low-act,age=0.02279611111111111,h1=0.61
+2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump Pnut  raydium mc 45912074 liq 3216276.66 v1 2371.15 ch 0.04 0.68 -0.1 tx1h {'buys': 21, 'sells': 4} age_h 17146.1 FAIL:mc=45912074,h1=0.68
+3uXGYtCcuTE3YTgShMmsk9LhWPTrNK7x8G4hCA6ppump ANIKA pumpswap mc 3007 liq 3009.84 v1 142308.6 ch -0.18 -93.05 -93.05 tx1h {'buys': 1840, 'sells': 1595} age_h 0.9 FAIL:mc=3007,liq=3009.84,age=0.8800183333333333,h1=-93.05,turn=47.3x
+BFajJ6XRjZTWDn1KTzqmF8fcSydyyHzZMkzyQB85pump SPAX pumpswap mc 39782194 liq 542283.22 v1 8749.12 ch 0.54 1.18 6.28 tx1h {'buys': 195, 'sells': 116} age_h 19.6 FAIL:mc=39782194,h1=1.18
+DzQjNcuiZ1ZDMTHGYRw2EeXRzh9QxLDjAGS2DYykpump CROWD pumpswap mc 27402376 liq 451263.16 v1 0 ch None None 2.8 tx1h {'buys': 0, 'sells': 0} age_h 68.0 FAIL:mc=27402376,h1=None,b<=s 0/0
+jqTCqNRpYX4n7PbCUUxGwZc6PUEaSUHKESgty5vpump XRPN pumpswap mc 229634741 liq 1305704.01 v1 8704.99 ch 0.07 2.09 13.19 tx1h {'buys': 163, 'sells': 52} age_h 39.2 FAIL:mc=229634741,h1=2.09
+G8dJxnKHx387vAMBr1b1gPzviKka9ZofPstzrvypump UDR pumpswap mc 10884481 liq 283190.02 v1 8409.36 ch 0.06 1.66 10.89 tx1h {'buys': 168, 'sells': 115} age_h 30.3 FAIL:mc=10884481,h1=1.66
+u7XNK4pbxXgWzBwqidDV2TtsXwLqqxtjmGfw1H8pump USDF pumpswap mc 1658448858 liq 3518127.63 v1 9573.23 ch None 0.82 4.93 tx1h {'buys': 2429, 'sells': 61} age_h 143.9 FAIL:mc=1658448858,h1=0.82,washy
+DM6fTAo26wQwMXj3yNduYjrvYvzDgAR1WFLjEZ8Ppump SARP pumpswap mc 73955403 liq 740949.78 v1 8005 ch None 0.61 3.22 tx1h {'buys': 2053, 'sells': 111} age_h 59.3 FAIL:mc=73955403,h1=0.61,washy
+d8y32AxHmGEvcRMn4JhdWTrGdgQ1AMYcQjCRsevpump SPX pumpswap mc 12515360 liq 303295.42 v1 3970.34 ch -0.02 0.43 2.31 tx1h {'buys': 86, 'sells': 59} age_h 16.5 FAIL:mc=12515360,h1=0.43
+53hzzcyAzNFawiWD7GFsftTH1xhZP9eokYm3uhpdpump PEPEWZRD pumpfun mc 50.79 liq None v1 433.25 ch -98.28 -98.28 -98.28 tx1h {'buys': 52, 'sells': 54} age_h 0.0 FAIL:mc=50.79,age=0.02640722222222222,h1=-98.28,b<=s 52/54
+5T3P5PLnfm9Phx6wsoeBnGRzhwTfE8ZTCZ7JcQFpump UDR pumpswap mc 210564804 liq 1249270.18 v1 9557.32 ch 0.11 2.93 13.7 tx1h {'buys': 2439, 'sells': 51} age_h 12.7 FAIL:mc=210564804,h1=2.93,washy
+j1rtNArLnQHfwSF5dZhRaWBsJVYtyXyD33BcJE3pump UDR pumpswap mc 28684548 liq 464620.79 v1 8494.93 ch -0.02 0.7 2.29 tx1h {'buys': 167, 'sells': 113} age_h 176.8 FAIL:mc=28684548,h1=0.7
+6mzLt6CqKAoYawWpRmtfygNrhtuhYG9M6GP9q6jspump pump pumpfun mc 12289.81 liq None v1 891.21 ch 310 310 310 tx1h {'buys': 84, 'sells': 54} age_h 0.0 FAIL:mc=12289.81,age=0.03362944444444444
+AbF6muQ4WNkCL8u2YwmScAcDm5SjVsTtV48quYnCpump XTO pumpswap mc 136609836 liq 1006782.36 v1 244959.26 ch 1.61 4.83 310623 tx1h {'buys': 3456, 'sells': 1857} age_h 2.3 FAIL:mc=136609836,h1=4.83,botty=3456
+Y5AW42YoGR2tWKmSmKjdLyVvttwu8r54ea1v6KSpump ARF pumpswap mc 402848663 liq 1729408.16 v1 9008.48 ch 0.05 1.57 9.65 tx1h {'buys': 2427, 'sells': 56} age_h 45.9 FAIL:mc=402848663,h1=1.57,washy
+H2pkmDKUio79yzzj5cRF6fqf6Xeq6AmpTsVVGG9wpump Starman pumpswap mc 2983 liq 3065.03 v1 222122.62 ch -18.23 -99.6 -93.84 tx1h {'buys': 2937, 'sells': 4257} age_h 5.0 FAIL:mc=2983,liq=3065.03,h1=-99.6,b<=s 2937/4257,turn=74.5x,prior-reject
+JufqGaoJW22u59KekcBPvi9NDsnfohpeqLZSgpzpump Arrow pumpswap mc 15094217 liq 333741.16 v1 4149.61 ch -0.08 0.38 2.3 tx1h {'buys': 84, 'sells': 59} age_h 66.9 FAIL:mc=15094217,h1=0.38
+796H6fnptDnpRUDpupkvZoMNMmnD6ZTayVnVUSaTpump DACAT pumpswap mc 2120 liq 2217.01 v1 0 ch None None 1.8 tx1h {'buys': 0, 'sells': 0} age_h 9.7 FAIL:mc=2120,liq=2217.01,h1=None,b<=s 0/0
+2bCCHQadi4QeHWPKG3w13siCyWWQPgkFtniouTqVpump 1 pumpswap mc 1114709 liq 112531.12 v1 945445.59 ch 8.2 -42.77 2354 tx1h {'buys': 8288, 'sells': 6401} age_h 4.9 FAIL:mc=1114709,h1=-42.77,botty=8288
+wmA2xK6DPPJRkzpZeLf4bLbDwZWRFZFt5EkxGxbpump USDP pumpswap mc 22176413 liq 404806.81 v1 5277.94 ch 0.15 1.97 10.72 tx1h {'buys': 112, 'sells': 54} age_h 47.4 FAIL:mc=22176413,h1=1.97
+wNi42pCNbMN25XP6J2iS6cNjXG7nwpnesxJ5ANwpump DJT pumpswap mc 26171066 liq 439116.08 v1 210995.67 ch 2.25 59601 59601 tx1h {'buys': 170, 'sells': 4} age_h 0.1 FAIL:mc=26171066,age=0.08112944444444445
+o9qwaveEEp2jJPryPxz4j3zUiGUTZG4Wc44GdgTpump Taylor pumpswap mc 588615 liq 64298.18 v1 34641.9 ch 10.92 1244 1244 tx1h {'buys': 7267, 'sells': 5488} age_h 0.4 FAIL:mc=588615,age=0.3583516666666667,botty=7267
+7cw9qgvoEe9HW8TvE5h1qZ2JGEiZaJ7Yy6nKfoB5pump Hoodrat pumpfun mc 155.47 liq None v1 935 ch -94.76 -94.76 -94.76 tx1h {'buys': 70, 'sells': 64} age_h 0.0 FAIL:mc=155.47,age=0.03612944444444444,h1=-94.76
+HQgMPJbGctpP9P27DdJW5f8rncz7gvg4vEL3hT7hpump LILANSEM pumpswap mc 35752 liq 16125.06 v1 668.5 ch None 0.33 -22.12 tx1h {'buys': 11, 'sells': 9} age_h 75.1 FAIL:mc=35752,h1=0.33
+5dPrMNJxYMPukAgeHEHmbJVMx7AaYWDdwBovKqcipump KINGCUCK pumpfun mc 10549.01 liq None v1 43814.57 ch -15.4 244 250 tx1h {'buys': 441, 'sells': 382} age_h 1.0 FAIL:mc=10549.01
+H727Wnw3hJrnxP2WBAqLfwk5ZvnxvgGrd2twobBxpump POKEARENA pumpfun mc 2989.18 liq None v1 1822.01 ch -27.16 -16.06 -16.06 tx1h {'buys': 39, 'sells': 31} age_h 0.1 FAIL:mc=2989.18,age=0.111685,h1=-16.06
+Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump neet pumpswap mc 31202615 liq 1823554.97 v1 3652.51 ch None -0.44 0.28 tx1h {'buys': 24, 'sells': 7} age_h 12888.3 FAIL:mc=31202615,h1=-0.44
+FHPnnbswPmiZZp9NXFcXTBuaFMVn3FVtmeCcd7R6pump pmupe pumpfun mc 3775.58 liq None v1 2752.09 ch 6.06 6.06 6.06 tx1h {'buys': 28, 'sells': 17} age_h 0.0 FAIL:mc=3775.58,bonding-low-act,age=0.04307388888888889,h1=6.06
+Diy4Q5aiNEcdn7CWhuwYtuoHtHD9rKBTHCa9hi4qpump STREAM pumpswap mc 184140 liq 38856.9 v1 10665.12 ch 9.28 21.26 75.74 tx1h {'buys': 141, 'sells': 198} age_h 9.2 FAIL:b<=s 141/198,prior-reject
+Gn8Xti76PAzz4v8iir7S7dwiJ1mEHwGYaCTusk8apump 1 pumpswap mc 113423 liq 27273.59 v1 25443.59 ch 146 146 146 tx1h {'buys': 255, 'sells': 80} age_h 0.0 FAIL:age=0.029740555555555555
+67YVFQSVdAY1C7YcBjP528rB9BgtDJg4tA7tMjVWpump INU pumpswap mc 0 liq None v1 0 ch None -1.94 -3.81 tx1h {'buys': 32, 'sells': 10} age_h 11.5 FAIL:mc=0,bonding-low-act,h1=-1.94
+7avWDoV6xH2Fw4zeqnEAULeQtEvayeqM11uxPzMupump saluteface pumpswap mc 47161 liq 18494.11 v1 731354.08 ch -26.2 7.97 7.35 tx1h {'buys': 4849, 'sells': 4151} age_h 2.0 FAIL:mc=47161,h1=7.97,botty=4849,turn=15.5x,prior-reject
+p3F4fPi56brFsiFp5MBgqaZeFieW2gEyUw9QS6Vpump WOTF pumpswap mc 18624037 liq 371388.69 v1 8067.09 ch -0.03 0.6 4.3 tx1h {'buys': 175, 'sells': 118} age_h 64.8 FAIL:mc=18624037,h1=0.6
+6dQw2SCtASc1vAiKaeW8rKSyju34c2HaKxK6t6HGpump FTR pumpfun mc 2965.62 liq None v1 9.58 ch 0.61 0.61 0.61 tx1h {'buys': 2, 'sells': 0} age_h 0.0 FAIL:mc=2965.62,bonding-low-act,age=0.02279611111111111,h1=0.61
+7kYRaqETekkYVZw5JLe5UKBCSqjoxPqJJVz9c6NApump dipcat pumpfun mc 31354.36 liq None v1 11090.86 ch 0.76 -1.2 112 tx1h {'buys': 91, 'sells': 75} age_h 17.5 FAIL:mc=31354.36,h1=-1.2
+7HirFVJ6BV5sp11vnwNnC61XZGuGYsFaxzhYkjeWpump XSHOP pumpswap mc 8271 liq 6698.39 v1 294.29 ch -0.52 1.91 -21.84 tx1h {'buys': 9, 'sells': 8} age_h 12.4 FAIL:mc=8271,liq=6698.39,h1=1.91
+HmjCoarLh5duURfJ333DwfFiPyTCgFT35pRSAoP8pump TOS pumpswap mc 3427126 liq 203630.52 v1 958.43 ch None -2.48 -8.81 tx1h {'buys': 9, 'sells': 2} age_h 12234.0 FAIL:mc=3427126,h1=-2.48
+FMbjuuEHiE56vqpHpjxDyAfJ5CW3QHeuvaRHVA7ypump 1 pumpswap mc 428413 liq 54562.75 v1 21829.64 ch 18.44 877 877 tx1h {'buys': 738, 'sells': 647} age_h 0.1 FAIL:age=0.08029611111111111
+CK5QZvhKCKLo13qFaoRdySWyTtJgYSdofpGoqWtpump USDP pumpswap mc 76120770 liq 877178.96 v1 7180.11 ch 0.51 0.94 4.76 tx1h {'buys': 167, 'sells': 103} age_h 192.2 FAIL:mc=76120770,h1=0.94
+4fBRMZAwrwNud6DaSS7coAWeS1qTSmzndwm9agkYpump Roadster pumpfun mc 3107.64 liq None v1 58830.86 ch -1.75 -7.22 -7.22 tx1h {'buys': 565, 'sells': 484} age_h 0.8 FAIL:mc=3107.64,age=0.766685,h1=-7.22,turn=18.9x
+Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump CATE pumpswap mc 59943843 liq 2843397.89 v1 60470.56 ch -0.1 0.76 -0.11 tx1h {'buys': 86, 'sells': 76} age_h 1952.7 FAIL:mc=59943843,h1=0.76
+9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump Fartcoin  raydium mc 155608462 liq 7814825.67 v1 146941.3 ch None 0.26 -1.54 tx1h {'buys': 29, 'sells': 16} age_h 17467.1 FAIL:mc=155608462,h1=0.26
+rAYj8HzA7K6d7SWuQTTA5N7swd1EZCEWNst3ehDpump EVERNORTHX pumpswap mc 726337338 liq 2324102.85 v1 7004.3 ch -0.01 0.54 2.75 tx1h {'buys': 104, 'sells': 59} age_h 91.8 FAIL:mc=726337338,h1=0.54
+EtTxUjtxNtaPdFcfjb1G3dcys6uzSS9SMYvra6kTpump dong  pumpfun mc 2990.25 liq None v1 37.43 ch 0.85 0.85 0.85 tx1h {'buys': 12, 'sells': 1} age_h 72.6 FAIL:mc=2990.25,bonding-low-act,h1=0.85
+DusR4y3wS1d221MGx1KmnK7GT4Mxo4ft5aXrY1ccpump HOLO pumpfun mc 3079.52 liq None v1 13968.98 ch -3.28 -14.29 -14.29 tx1h {'buys': 92, 'sells': 84} age_h 0.9 FAIL:mc=3079.52,age=0.8883516666666667,h1=-14.29
+na2YkeU3ugDPijXLgaJ1NELBkr6VzKkCBKEFm53pump FTR pumpfun mc 3867.17 liq None v1 9670.12 ch -15.45 12.12 12.12 tx1h {'buys': 87, 'sells': 59} age_h 0.3 FAIL:mc=3867.17,age=0.2514072222222222,h1=12.12
+9a98oQHtxfqmr4EyzsP6wfw69uYAK3JbUeVEuNW1pump STREAM pumpswap mc 22733966 liq 462116.94 v1 213851.89 ch 3.48 -3.53 -10.8 tx1h {'buys': 1620, 'sells': 803} age_h 30.0 FAIL:mc=22733966,h1=-3.53,prior-reject
+jF9qJBJKS3g5K4cP9mz57eyCWyn2djE7W42sHWCpump GOIF pumpswap mc 56089534 liq 646408.02 v1 7246.35 ch 0.02 0.29 1.08 tx1h {'buys': 164, 'sells': 106} age_h 156.0 FAIL:mc=56089534,h1=0.29
+HDbLsAiamKHCDLu4CgKqMvSQC71eAVTTi9CjcpjTpump DADOGE pumpswap mc 2211 liq 2455.98 v1 0.3 ch None 0.27 -0.34 tx1h {'buys': 0, 'sells': 2} age_h 8.8 FAIL:mc=2211,liq=2455.98,h1=0.27,b<=s 0/2
+ttH5rJWVxCFBdjd3x2AnBxtYDJtRCFa9ty4QpmUpump ROULANA pumpfun mc 13287.7 liq None v1 249.62 ch 7.94 7.94 9.33 tx1h {'buys': 4, 'sells': 0} age_h 57.3 FAIL:mc=13287.7,bonding-low-act,h1=7.94
+2qfUSuUfKuxHyYEMYreiYdK3YyapFzbgq2c6hhfPpump LARPSCAN pumpfun mc 9313.01 liq None v1 7261.24 ch -1.14 16.7 103 tx1h {'buys': 81, 'sells': 87} age_h 97.9 FAIL:mc=9313.01,h1=16.7,b<=s 81/87
+7uXeapeKSTv4fr2mSDrC9KTCLqgnoECBttd6h1NYpump RDSTR pumpswap mc 34233 liq 14300.79 v1 100336.38 ch 564 -19.67 -19.67 tx1h {'buys': 896, 'sells': 669} age_h 0.2 FAIL:mc=34233,liq=14300.79,age=0.15585166666666667,h1=-19.67
+87SsFmfcXVPpzFdHpYAQ6iu6ccdtCmgbifGmywBipump Motion pumpswap mc 76840 liq 23725.13 v1 175586.5 ch -18.35 -20.66 88.57 tx1h {'buys': 1567, 'sells': 1339} age_h 2.1 FAIL:h1=-20.66,prior-reject
+61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump arc raydium mc 35906724 liq 3390192.32 v1 99580.79 ch -1.28 1.92 -6.68 tx1h {'buys': 432, 'sells': 378} age_h 16180.0 FAIL:mc=35906724,h1=1.92
+upiccrBz2ThxvpKPm6VGLx4Zy5XnFrbdAHJV9Unpump UDR pumpswap mc 30640255 liq 476484.75 v1 2346.96 ch -0.01 0.13 None tx1h {'buys': 53, 'sells': 36} age_h 117.6 FAIL:mc=30640255,h1=0.13
+EAyCVRZ8ZLd3y9ocfMGv2fRdLM7iE1pf492pt4ppump CYBERLEEK pumpswap mc 282191803 liq 1447029.74 v1 18601.12 ch 0.1 2.73 19.46 tx1h {'buys': 1814, 'sells': 44} age_h 17.9 FAIL:mc=282191803,h1=2.73,washy
+5Ui9QCMCQi2qZNVWQiHwPFkzAMMUVMgGgd9N3Wqpump QPF pumpswap mc 3020588 liq 148170.32 v1 4122.78 ch 0.94 0.71 7.44 tx1h {'buys': 108, 'sells': 58} age_h 18.8 FAIL:mc=3020588,h1=0.71
+9sosxNo1maMp9gzYgZLzudb8efYwDYwDuxrwtwkipump Sevda pumpfun mc 4.95 liq None v1 12.86 ch 205 205 205 tx1h {'buys': 12, 'sells': 12} age_h 12.7 FAIL:mc=4.95,bonding-low-act,b<=s 12/12
+8LP5RV8uDtFTkz6jsqfzwszN5CKLgYmQUQ2eT4nZpump mao pumpfun mc 3233.08 liq None v1 80597.96 ch -7.87 -16.53 -16.53 tx1h {'buys': 980, 'sells': 867} age_h 1.0 FAIL:mc=3233.08,age=0.9780738888888889,h1=-16.53,turn=24.9x
+6S7jwQuVipHuEaASAZ9Kn7r3Zy3jkebhAMFxnuWnpump GTA pumpfun mc 19734.68 liq None v1 12297.46 ch -16.25 -17.53 536 tx1h {'buys': 187, 'sells': 96} age_h 3.2 FAIL:mc=19734.68,h1=-17.53
+GmRZNKavuh2KxpdQ3QL5jmZfQpJm8zvubdCR4ddQpump DOGEFATHER pumpswap mc 2215 liq 2528.07 v1 0.55 ch None 1.24 -95.8 tx1h {'buys': 1, 'sells': 1} age_h 3.4 FAIL:mc=2215,liq=2528.07,h1=1.24,b<=s 1/1
+6jijW4Ne924kqj8XYLKXFrhpeHy5y2qxoKgGzJHQpump Pluto pumpfun mc 12764.86 liq None v1 4035.07 ch -2.24 21.33 -18.23 tx1h {'buys': 45, 'sells': 31} age_h 31.5 FAIL:mc=12764.86
+5LUvAQHZbDWzHaknGKWEKNVTZcSMAUiUxvvsjo2Npump 0 pumpswap mc 38736 liq 15113.39 v1 10484.99 ch -15.27 -11.07 -11.07 tx1h {'buys': 134, 'sells': 108} age_h 0.1 FAIL:mc=38736,age=0.08029611111111111,h1=-11.07
+ieAUwrxo9XYLb76Dtgk4rhMeZ5DLtUXXNewwui9pump D O T F pumpswap mc 31343810 liq 483417.27 v1 8816.4 ch -0.02 2.12 3.32 tx1h {'buys': 162, 'sells': 111} age_h 139.9 FAIL:mc=31343810,h1=2.12
+FR2kf3htna5puoSxAjPedG7rgTkxfXvZjrL8x4zQpump BOT pumpfun mc 16889.06 liq None v1 98141.32 ch 5.88 117 117 tx1h {'buys': 1089, 'sells': 753} age_h 0.4 FAIL:mc=16889.06,age=0.3519627777777778
+Wu5Dfo4MTw94yECZgtaRYu9GGzRCcbj2Qk6UL91pump USDF pumpswap mc 87179311 liq 804821.07 v1 7503.54 ch None 0.84 1.83 tx1h {'buys': 164, 'sells': 111} age_h 107.5 FAIL:mc=87179311,h1=0.84
+EKKkCmffhgYNCJioRnrEf8q1wMmD3NjNdGKDf2WYpump LIBERAL pumpfun mc 0 liq None v1 0 ch None None None tx1h {'buys': 195, 'sells': 170} age_h 0.7 FAIL:mc=0,age=0.7219627777777777,h1=None
+GGHvZa9sfwGPcFEZJNK4dLTLzXGQWYqmg6tkC9Vpump WOTF pumpswap mc 4968394 liq 191565.89 v1 8881.28 ch -0.11 1.28 3.08 tx1h {'buys': 196, 'sells': 134} age_h 58.9 FAIL:mc=4968394,h1=1.28
+DFMt2FyLpB6ekPNAzVErLXgpSnJ9CRf1VnxBAkTLpump FTR pumpswap mc 2157055 liq 157862.63 v1 3761607.54 ch 4.96 4.13 17.04 tx1h {'buys': 15000, 'sells': 11130} age_h 23.1 FAIL:mc=2157055,h1=4.13,botty=15000
+DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump CBUCKS pumpswap mc 472093 liq 69762.21 v1 3546.16 ch 2.45 -4.75 23.41 tx1h {'buys': 35, 'sells': 25} age_h 222.8 FAIL:mc=472093,h1=-4.75
+2SbXgkUDnKw62ZDVgYx6pZHKmbydKsaxGGB7Q8vrpump USDT pumpfun mc 6310.47 liq None v1 40579.29 ch 40.59 72.47 72.47 tx1h {'buys': 343, 'sells': 318} age_h 0.3 FAIL:mc=6310.47,age=0.3480738888888889
+5RfRCKvGMDqQDQAraRv6S7HG2xQH4wje3uFWFevcpump GDF pumpswap mc 171755571 liq 1128106.74 v1 13701.2 ch 0.04 1.28 8.1 tx1h {'buys': 1320, 'sells': 55} age_h 8.5 FAIL:mc=171755571,h1=1.28,washy
+7TcoYgnfaLgXaJiLzJ6Ss28hNNEtKV79cCV1zxj3pump FTR pumpfun mc 53.5 liq None v1 1839.81 ch -98.19 -98.19 -98.19 tx1h {'buys': 168, 'sells': 144} age_h 0.1 FAIL:mc=53.5,age=0.06862944444444445,h1=-98.19,turn=34.4x
+UgzXgTrRdzMEooSkugN4QQQSdWMyyvDi7pBFo7Ypump USWR pumpswap mc 32583386 liq 491099.05 v1 8792.04 ch 0.04 1 1.56 tx1h {'buys': 195, 'sells': 129} age_h 46.0 FAIL:mc=32583386,h1=1
+H9G2XTMYpdT3BhPaLhkYERBPSHmhBViXPFvLcCuFpump HTR pumpfun mc 1285.47 liq None v1 1008.67 ch -56.97 -56.97 -56.97 tx1h {'buys': 35, 'sells': 36} age_h 0.0 FAIL:mc=1285.47,age=0.027518333333333332,h1=-56.97,b<=s 35/36
+7VertkgF9KLhxxJXHX6uaWuoYZTP9LdGj2bWmVXVpump Agency pumpswap mc 1472765 liq 187529.86 v1 23408.54 ch -4.97 -1.81 -7.41 tx1h {'buys': 58, 'sells': 48} age_h 338.6 FAIL:mc=1472765,h1=-1.81
+6fsXVz1ddMaV6ko2kKGWRYarz8ZyWdP3ozpuFAZGpump Roadster pumpfun mc 21456.18 liq None v1 42363.26 ch 491 491 491 tx1h {'buys': 402, 'sells': 339} age_h 0.1 FAIL:mc=21456.18,age=0.06279611111111111
+GnV4jeWVdZCeayfA6sggd8TvKDYGFkfQMssLjPc5pump KICKFLIP pumpfun mc 2961.38 liq None v1 566.16 ch -8.88 -8.88 -8.88 tx1h {'buys': 10, 'sells': 9} age_h 0.0 FAIL:mc=2961.38,bonding-low-act,age=0.030851666666666666,h1=-8.88
+3h4poyYGABrfoRBMzD11sF5fuLq1hvGZpNdtoeQfpump QUENTRA pumpfun mc 20772.09 liq None v1 5695.74 ch -8.78 -6.81 64.48 tx1h {'buys': 71, 'sells': 49} age_h 7.4 FAIL:mc=20772.09,h1=-6.81
+J7f2bPf9SBDspz8JmHN9XVRXtoZhNgEqadrVbRDpump XTO pumpswap mc 88679008 liq 810648.77 v1 7063.76 ch 0.61 1.13 10.32 tx1h {'buys': 164, 'sells': 60} age_h 46.2 FAIL:mc=88679008,h1=1.13
+BNj1neW1sZYxHpYX2dPm6o1VwJFEpbxy3X6tjAqZpump NODF pumpswap mc 304788386 liq 1503794.1 v1 34215.65 ch 0.17 2.48 691768 tx1h {'buys': 4966, 'sells': 899} age_h 2.8 FAIL:mc=304788386,h1=2.48,botty=4966
+HrrVJmj3KgqVzcWKwZL71tgnKVPLuK82KP6vhZvpump SI276 pumpswap mc 40140622 liq 545125.76 v1 15738.95 ch 0.06 1.68 10.23 tx1h {'buys': 2278, 'sells': 35} age_h 22.7 FAIL:mc=40140622,h1=1.68,washy
+WHvP6NTRYdovnG9ZDVVrF8bR2bTChSDjLaGbeWopump ARF pumpswap mc 27396603 liq 449661.19 v1 7285.55 ch -0.03 0.38 2.24 tx1h {'buys': 163, 'sells': 108} age_h 21.0 FAIL:mc=27396603,h1=0.38
+HdMW1zEbM31WrRZNy2kEwnuaM1YaVCRAiD42iNepump IOF pumpswap mc 25523190 liq 434758.85 v1 2401.78 ch -0.05 -0.32 0.07 tx1h {'buys': 53, 'sells': 37} age_h 102.8 FAIL:mc=25523190,h1=-0.32
+xkorELf2mDJivbQ1qutBon2TbaWNnSiCPm1mjDapump RLUSD pumpswap mc 15468511 liq 338075.14 v1 8099.35 ch 0.02 1.05 4.73 tx1h {'buys': 170, 'sells': 114} age_h 48.1 FAIL:mc=15468511,h1=1.05
+A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump HELL pumpswap mc 1859478 liq 118936.28 v1 12039.6 ch -4.7 -2.92 4.47 tx1h {'buys': 220, 'sells': 182} age_h 60.2 FAIL:mc=1859478,h1=-2.92
+9PR7nCP9DpcUotnDPVLUBUZKu5WAYkwrCUx9wDnSpump Ban raydium mc 54936235 liq 2615211.86 v1 10175.14 ch None 1.49 3.8 tx1h {'buys': 59, 'sells': 48} age_h 17290.3 FAIL:mc=54936235,h1=1.49
+6SPwGThCxae3SRQa1jsYtYKP6d8yiXMDui9CzENdpump FTR pumpswap mc 21726153 liq 399941.02 v1 197194.07 ch 0.5 49499 49499 tx1h {'buys': 719, 'sells': 75} age_h 0.2 FAIL:mc=21726153,age=0.219185,washy
+7AADw6uY5Nd5Wjk64xx4EJKpYT2pWmF3MoZ4TcaSpump STARMAN pumpswap mc 5354 liq 4498.26 v1 110854.59 ch -73.65 -87.98 -87.98 tx1h {'buys': 1099, 'sells': 1145} age_h 0.1 FAIL:mc=5354,liq=4498.26,age=0.10390722222222222,h1=-87.98,b<=s 1099/1145,turn=20.7x,prior-reject
+tLhFeYBgJEAsCrmhHQcmzbMY1wCGDRxPxJ4PbHqpump roadsters pumpfun mc 3176.13 liq None v1 69995.06 ch None -21.81 -21.81 tx1h {'buys': 301, 'sells': 343} age_h 0.8 FAIL:mc=3176.13,age=0.7852961111111111,h1=-21.81,b<=s 301/343,turn=22.0x
+9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump ANSEM pumpswap mc 118676825 liq 2123974.46 v1 115302.87 ch -0.58 3.36 3.13 tx1h {'buys': 93, 'sells': 158} age_h 2908.2 FAIL:mc=118676825,h1=3.36,b<=s 93/158
+HKrTVBPVF9B8LEkNvZDm4PeNScnvoHv8JxNMTahVpump $HTW pumpfun mc 21462.87 liq None v1 2494.07 ch 4.04 -7.75 7.15 tx1h {'buys': 28, 'sells': 22} age_h 20.1 FAIL:mc=21462.87,h1=-7.75
+DBbBt37UCVqAZuakToMYfcQ8FrGAFAKRJmE499Zpump GPU pumpfun mc 8193.26 liq None v1 66338.93 ch 3.9 173 173 tx1h {'buys': 749, 'sells': 582} age_h 0.9 FAIL:mc=8193.26,age=0.8902961111111111
+HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump ALCH raydium mc 37770689 liq 2891106.21 v1 4403.64 ch 0.63 0.36 -0.35 tx1h {'buys': 10, 'sells': 6} age_h 16495.3 FAIL:mc=37770689,h1=0.36
+HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump SI276 pumpswap mc 973930 liq 100122.2 v1 26320.37 ch 0.89 11.5 -17.77 tx1h {'buys': 385, 'sells': 415} age_h 221.8 FAIL:mc=973930,h1=11.5,b<=s 385/415
+8QtbrC9d3BezyCwzBFUQbNsWJGte7ckrZ7HWcn81pump DICKBUTTIFIER pumpswap mc 27578 liq 12994.7 v1 8634.96 ch 0.74 -21.92 55.16 tx1h {'buys': 68, 'sells': 64} age_h 7.1 FAIL:mc=27578,liq=12994.7,h1=-21.92
+3NZ69NequgYX4vVoMKZ7tHTpUb4VbFwb1HhvBdGspump TRX pumpfun mc 5777.67 liq None v1 34244.28 ch -15.91 -9.15 76.57 tx1h {'buys': 1108, 'sells': 332} age_h 5.0 FAIL:mc=5777.67,h1=-9.15
+2uwxxiD1PshoPrrSoNvttRD8Aa1nwxVDTFf4JK36pump VICE pumpswap mc 141735 liq 37234.3 v1 9148.58 ch -0.73 86.54 90.76 tx1h {'buys': 37, 'sells': 24} age_h 8.7 FAIL:prior-reject
+F4GpAFr6vrxU3Y887F3XWkXRgybCVjZNk63m72f6pump TrumpCoin pumpswap mc 50005 liq 34183.05 v1 914.21 ch None -2.44 49.57 tx1h {'buys': 6, 'sells': 7} age_h 2251.8 FAIL:h1=-2.44,b<=s 6/7,prior-reject
+HznbtSteB1Gy1Qnyu2BHpCmyUZrgumTHTdb2H3opump GOIF pumpswap mc 30833167 liq 479802.11 v1 8804.2 ch -0.02 1.14 1.76 tx1h {'buys': 163, 'sells': 107} age_h 152.7 FAIL:mc=30833167,h1=1.14
+Ch7gZZqhZRnHnLJJsdpypNghGn3fDjuxQtr5qeWPpump grokazon pumpswap mc 201246 liq 37597.25 v1 386602.94 ch 1.84 292 292 tx1h {'buys': 4762, 'sells': 1062} age_h 0.4 FAIL:age=0.3930738888888889,botty=4762
+g9RxZHXKKeDT5XPy7itgQxjhv9c9epApz6LuWQDpump USDF pumpswap mc 21614054 liq 400873.61 v1 7240.04 ch -0.03 -0.18 3.09 tx1h {'buys': 163, 'sells': 109} age_h 95.7 FAIL:mc=21614054,h1=-0.18
+BAZQaTM9ZQhnChE2t4ZjgqAr5HbnSNDev9kVCMzTpump WOTF pumpswap mc 33250480 liq 495787.09 v1 8264.8 ch -0.5 0.2 3.34 tx1h {'buys': 172, 'sells': 116} age_h 32.2 FAIL:mc=33250480,h1=0.2
+DuTYU8NxbExyJhSHUeYsKQXcpriTTiPkg9pCWFoDpump GOIF pumpswap mc 300179539 liq 1494179.68 v1 13337.21 ch -0.04 0.68 2.67 tx1h {'buys': 1722, 'sells': 65} age_h 77.8 FAIL:mc=300179539,h1=0.68,washy
+BenuEKVBzKK7oeQ232uucei6xXNJ5PpCJEc91bEpump USOS pumpswap mc 40372203 liq 546542.29 v1 7604.57 ch -0.01 -0.21 1.84 tx1h {'buys': 169, 'sells': 114} age_h 43.5 FAIL:mc=40372203,h1=-0.21
+D61pTaTqR93axxVvu7AX5TW6c3a4vhffPPMfCnsYpump OWLDACITY pumpswap mc 722502 liq 75118.45 v1 85557.15 ch -2.7 -8.79 1043 tx1h {'buys': 6811, 'sells': 2904} age_h 4.8 FAIL:mc=722502,h1=-8.79,botty=6811,prior-reject
+gQ6G1hEc79JqCY56p6EZ3dAjGTbzXo1EWMqgXdjpump USOS pumpswap mc 26176767 liq 440397.13 v1 8749.07 ch -0.05 2.03 2.89 tx1h {'buys': 160, 'sells': 112} age_h 69.9 FAIL:mc=26176767,h1=2.03
+8fSuMua9w4o5B9nUYLdyB8ANN6kCaEPvtfL9zFuDpump DOPE pumpswap mc 179985992 liq 1155052.59 v1 15487.01 ch 0.01 1.59 7.33 tx1h {'buys': 536, 'sells': 56} age_h 12.8 FAIL:mc=179985992,h1=1.59,washy
+6MBf1XdZNSAaDKcxxbnCAngRUxBmwbHS5Ybe2rLRpump XTV pumpswap mc 132332 liq 33973.67 v1 4504.87 ch 2.55 28.87 18.73 tx1h {'buys': 41, 'sells': 29} age_h 75.4
+12kQB4WCZj1Kr61maq4M1APGSa4ynrjTmYUWWPhppump CAKE pumpfun mc 29540.68 liq None v1 131.01 ch 0.17 2.81 -4.09 tx1h {'buys': 12, 'sells': 0} age_h 17.3 FAIL:mc=29540.68,bonding-low-act,h1=2.81
+4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump PONK pumpswap mc 58085 liq 20284.88 v1 10906.18 ch -14.53 -47.35 -45.44 tx1h {'buys': 193, 'sells': 117} age_h 24.1 FAIL:h1=-47.35
+3AkNtx7ZYEmMZKciNyrwUNiHMpP4AUNPqHCmAJcsYCus STARMAN pumpswap mc 128296 liq 32310 v1 675605.03 ch 5.38 200 173 tx1h {'buys': 3685, 'sells': 3006} age_h 23.3 FAIL:not-pump,botty=3685,prior-reject
+9ymTnjQfTVLzMRa2G5V1xxv7LnS8nnDdACr2hW8KGHPM YILONG pumpfun mc 9001.1 liq None v1 637.65 ch None -2.84 9.48 tx1h {'buys': 7, 'sells': 5} age_h None FAIL:not-pump,mc=9001.1,bonding-low-act,age=None,h1=-2.84
+BREAKc1UiPx7oTqb9wLFrjhyPvtjeeS69y1rY15JaMav BREAK meteora mc 194713 liq 97543.66 v1 21959.44 ch 1.62 261 261 tx1h {'buys': 97, 'sells': 5} age_h 6.4 FAIL:not-pump
+65eCC3mLDWSfXthj6bcXF4mFpb44gsjzsA9AfPSvFvwr SYDNEYCAT pumpswap mc 23569 liq 11707.45 v1 1080.49 ch -1.51 14.48 16.55 tx1h {'buys': 14, 'sells': 7} age_h 29.9 FAIL:not-pump,mc=23569,liq=11707.45,h1=14.48
+EaqXJVr1aFPhMyTJbDCpwvTeiKc8x4gueFjFKKBvtcWY CAESAR pumpswap mc 35430 liq 16268.3 v1 367.84 ch 0.87 -1.82 -7.33 tx1h {'buys': 17, 'sells': 7} age_h 90.9 FAIL:not-pump,mc=35430,h1=-1.82
+5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2 TROLL pumpswap mc 36197870 liq 2852525.96 v1 1339.21 ch 0.07 -0.04 -2.04 tx1h {'buys': 5, 'sells': 15} age_h 13038.8 FAIL:not-pump,mc=36197870,h1=-0.04,b<=s 5/15
+HGCWcGN4L5rynZ4tcHFxy7PkFJwLuiee12SenXKD1cMy FORGE pumpswap mc 45998 liq 17247.07 v1 62101.11 ch 14.99 -31.58 11.82 tx1h {'buys': 558, 'sells': 542} age_h 1.2 FAIL:not-pump,mc=45998,h1=-31.58
+CZcjqko3MgnFDRgfGdDKd9YtGNdWGXpyBkKzojU6V3CY ROSTR pumpfun mc 4958.3 liq None v1 64414.56 ch -13.57 -13.57 -13.57 tx1h {'buys': 514, 'sells': 510} age_h 0.0 FAIL:not-pump,mc=4958.3,age=0.03946277777777778,h1=-13.57,turn=13.0x
+8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn ZEREBRO raydium mc 51078606 liq 3939871.03 v1 194986.69 ch -0.45 -1.21 12.63 tx1h {'buys': 524, 'sells': 499} age_h 17214.1 FAIL:not-pump,mc=51078606,h1=-1.21
+Eq9GmEdG2n62kePLMA93N3Gv9NoQkDNHvH1zAaWALi6i ASSBOY raydium mc 47414 liq 19307.14 v1 217384.9 ch 54.18 7.98 7.98 tx1h {'buys': 2412, 'sells': 2214} age_h 0.4 FAIL:not-pump,mc=47414,age=0.43001833333333334,h1=7.98
+ixLdEKhYLs13iwqAMqqjDRCnMu7ZfDPpZQbgYEkykEd XRAD raydium mc 2950038 liq 606.95 v1 0 ch None None 30.19 tx1h {'buys': 0, 'sells': 0} age_h 5.0 FAIL:not-pump,mc=2950038,liq=606.95,h1=None,b<=s 0/0
+DZQbBPFpTeeyGyvCwXxYQDZFGGHad2bY6sWZuviuX8MN Altruists raydium mc 78494 liq 27981.73 v1 0 ch None None -8.56 tx1h {'buys': 0, 'sells': 0} age_h 178.5 FAIL:not-pump,h1=None,b<=s 0/0
+4crBrhzWaD4bfpdbBTS1jnvsZRto64uWUTxUD6Bf4aHR ROOMS pumpswap mc 53970 liq 18969.64 v1 220809.64 ch -15.01 1.47 21.74 tx1h {'buys': 2246, 'sells': 1897} age_h 1.1 FAIL:not-pump,h1=1.47
+Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu PUMPCADE pumpswap mc 23055206 liq 645828.12 v1 8398.25 ch 0.01 2.09 -6.48 tx1h {'buys': 13, 'sells': 19} age_h 9361.1 FAIL:not-pump,mc=23055206,h1=2.09,b<=s 13/19
+GnZzaABHtnysrEbRRz2qGfMGrU6n8WdZ4W3GjxGqeqSm PUMPKINCAT pumpfun mc 19296.85 liq None v1 1256.44 ch -2.13 -7.63 -16.85 tx1h {'buys': 19, 'sells': 27} age_h 15.0 FAIL:not-pump,mc=19296.85,bonding-low-act,h1=-7.63,b<=s 19/27
+GZw7LxHtQKSQ1YsGnpNH7SovnBF8X6poYgavHwrmRekp MASKCAT raydium mc 298630 liq 68573.89 v1 383.17 ch None -0.88 8.13 tx1h {'buys': 0, 'sells': 8} age_h 442.9 FAIL:not-pump,h1=-0.88,b<=s 0/8
+BswbLYXpo679JvdAit6J1S92ZzCph77QZW5GLBRFinUL FINUL raydium mc 130788 liq 29771.79 v1 9419.78 ch -0.09 -15.27 199 tx1h {'buys': 100, 'sells': 67} age_h 5.3 FAIL:not-pump,h1=-15.27
+ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY MOODENG raydium mc 38938734 liq 2645440.82 v1 2310.11 ch 0.06 0.24 -0.58 tx1h {'buys': 18, 'sells': 9} age_h 18366.4 FAIL:not-pump,mc=38938734,h1=0.24

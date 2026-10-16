@@ -1,0 +1,18 @@
+{
+  "passers": [
+    {
+      "sym": "Macca",
+      "addr": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+      "mc": 236504.0,
+      "liq": 46882.9,
+      "age": 10.187497101304796,
+      "h1": 20.67,
+      "m5": 7.31,
+      "hb": 279,
+      "hs": 215,
+      "mb": 22,
+      "ms": 12
+    }
+  ],
+  "near": []
+}

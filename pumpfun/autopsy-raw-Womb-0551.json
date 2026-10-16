@@ -1,0 +1,271 @@
+{
+  "rc_excerpt": {
+    "mint": "BxUHuVGyP9kKRoJZ5h8LvWamCZNCTZcMasUxp9Pjpump",
+    "creator": "8Dmm3zjci1PfaFzemDN99mVCRTxwL2JyfDofSNPVuodN",
+    "creatorBalance": 119055311268,
+    "score": 1,
+    "totalHolders": 536,
+    "graphInsidersDetected": 4,
+    "insiderNetworks": [
+      {
+        "id": "quirky-mint-zebra",
+        "size": 4,
+        "type": "transfer",
+        "tokenAmount": 65783091676223,
+        "currentHolding": 65783091676223,
+        "activeAccounts": 4
+      }
+    ],
+    "topHolderPcts": [
+      42.739,
+      3.53,
+      3.412,
+      2.728,
+      2.433,
+      1.983,
+      1.955,
+      1.939,
+      1.914,
+      1.855,
+      1.849,
+      1.721,
+      1.645,
+      1.27,
+      1.12,
+      1.102,
+      1.052,
+      1.039,
+      1.007,
+      0.993
+    ],
+    "tokenMeta": {
+      "name": "Womb",
+      "symbol": "Womb",
+      "uri": "https://ipfs.io/ipfs/bafkreie7utylzigmfveklkhur4wavf4s26tppwmda5dsuapwsiooyzyg2q",
+      "mutable": false,
+      "updateAuthority": "11111111111111111111111111111111"
+    },
+    "fileMeta": {
+      "description": "",
+      "name": "Womb",
+      "symbol": "Womb",
+      "image": ""
+    },
+    "markets_lp": {
+      "baseMint": "BxUHuVGyP9kKRoJZ5h8LvWamCZNCTZcMasUxp9Pjpump",
+      "quoteMint": "So11111111111111111111111111111111111111112",
+      "lpMint": "11111111111111111111111111111111",
+      "quotePrice": 106.39903327520511,
+      "basePrice": 1.11225932052871e-05,
+      "base": 220486759.618684,
+      "quote": 34.330240866,
+      "reserveSupply": 34330240866,
+      "currentSupply": 0,
+      "quoteUSD": 3652.7044402473402,
+      "baseUSD": 2452.3845343905446,
+      "pctReserve": 0,
+      "pctSupply": 0,
+      "holders": null,
+      "totalTokensUnlocked": 0,
+      "tokenSupply": 0,
+      "lpLocked": 34330240866,
+      "lpUnlocked": 0,
+      "lpLockedPct": 100,
+      "lpLockedUSD": 6105.088974637885,
+      "lpMaxSupply": 0,
+      "lpCurrentSupply": 0,
+      "lpTotalSupply": 34330240866
+    },
+    "totalMarketLiquidity": 6105.088974637885,
+    "rugged": false,
+    "mintAuthority": null,
+    "freezeAuthority": null
+  },
+  "dex": {
+    "chainId": "solana",
+    "dexId": "pumpfun",
+    "url": "https://dexscreener.com/solana/2b1bndcg2kgamdju3bawrcmvxvx1w3y9rmqhuheyehvs",
+    "pairAddress": "2B1bndcg2KGAmDju3BaWrCmvXvX1w3y9rmQHUHeYEhVS",
+    "baseToken": {
+      "address": "BxUHuVGyP9kKRoJZ5h8LvWamCZNCTZcMasUxp9Pjpump",
+      "name": "Womb",
+      "symbol": "Womb"
+    },
+    "quoteToken": {
+      "address": "So11111111111111111111111111111111111111112",
+      "name": "Wrapped SOL",
+      "symbol": "SOL"
+    },
+    "priceNative": "0.0000001260",
+    "priceUsd": "0.00001339",
+    "txns": {
+      "m5": {
+        "buys": 80,
+        "sells": 63
+      },
+      "h1": {
+        "buys": 1278,
+        "sells": 916
+      },
+      "h6": {
+        "buys": 1278,
+        "sells": 916
+      },
+      "h24": {
+        "buys": 1278,
+        "sells": 916
+      }
+    },
+    "volume": {
+      "h24": 94673.14,
+      "h6": 94673.14,
+      "h1": 94673.14,
+      "m5": 8070.02
+    },
+    "priceChange": {
+      "m5": -11.7,
+      "h1": 321,
+      "h6": 321,
+      "h24": 321
+    },
+    "fdv": 13398,
+    "marketCap": 13398,
+    "pairCreatedAt": 1792142245000
+  },
+  "funders": {
+    "A7QQmsxq6a59xve7EXRf5aBGZ3aUraqNBxDnJutgfzmL": {
+      "pct": 3.53,
+      "ntx": 1000,
+      "oldest": 1791518916,
+      "funder": null
+    },
+    "CwUHN4zTn5wiEYoZjsP4FrDvAT9heDWewCTQjhgwhJqS": {
+      "pct": 3.41,
+      "ntx": 1000,
+      "oldest": 1792008591,
+      "funder": null
+    },
+    "6j7YuVT3U8u3hnfZJSZKPXtwN8YTtfrew1rqGs8NWLf1": {
+      "pct": 2.73,
+      "ntx": 1000,
+      "oldest": 1790684280,
+      "funder": null
+    },
+    "Bg9ic14Y9JfTSBtiKkmkB6reR1Y8TZZw5htaEZtRgtFQ": {
+      "pct": 2.43,
+      "ntx": 450,
+      "oldest": 1791603451,
+      "funder": [
+        "EfJeZkbVqtFodUapCFoKn2veRLE8hSo615JgBS7WwXHa",
+        2.149377
+      ]
+    },
+    "3fnecY3sMhYUNwzNWqZjX5GDsVF8gi2gNd6R7ZeeHT9n": {
+      "pct": 1.98,
+      "ntx": 1000,
+      "oldest": 1791624951,
+      "funder": null
+    },
+    "2ZcMnEYjbLGmiUjDQXDb9e1o1F1CsB2jKeu2sDzxt4zy": {
+      "pct": 1.96,
+      "ntx": 154,
+      "oldest": 1759692978,
+      "funder": [
+        "A29orQEuaWHzfDsMXVXzNAJk8LPRXqNzb584WAT2YamT",
+        0.429379893
+      ]
+    },
+    "H6Dge21ctYdkth2Nfx8owh5BDdo5DuiKUd5msLQQB1gt": {
+      "pct": 1.94,
+      "ntx": 1000,
+      "oldest": 1792012962,
+      "funder": null
+    },
+    "aMkQWhLUJEitQ2SyfMHVx3Y3HRG4rDnvryLgGQYMpj5": {
+      "pct": 1.91,
+      "ntx": 1000,
+      "oldest": 1791442225,
+      "funder": null
+    },
+    "8t4tWgwXhJJiNRqsXquNeK9AXzQpvREC86NSaLNKXr7K": {
+      "pct": 1.86,
+      "ntx": 333,
+      "oldest": 1785993188,
+      "funder": [
+        "4raqd4tCEnm2yGeUocVqPgN2MPB1W6A3EZfC8LoMChvf",
+        0.46188321
+      ]
+    },
+    "8q12nd8U5Y1yDqkAH1f3xbcUxC4SCBR28geHP28BzNgB": {
+      "pct": 1.85,
+      "ntx": 1000,
+      "oldest": 1790344691,
+      "funder": null
+    },
+    "8p3QPVyXEGXHp3zxipgakzjLBdd8yJTTzvckS8mi8STN": {
+      "pct": 1.72,
+      "ntx": 1000,
+      "oldest": 1791275594,
+      "funder": null
+    },
+    "J2M57cvUkuJbXvqLacS3fD5w45buAF7oo7UW4p18wVgw": {
+      "pct": 1.65,
+      "ntx": 1000,
+      "oldest": 1791240741,
+      "funder": null
+    }
+  },
+  "summary": {
+    "tag": "0551",
+    "symbol": "Womb",
+    "safe": "Womb",
+    "mint": "BxUHuVGyP9kKRoJZ5h8LvWamCZNCTZcMasUxp9Pjpump",
+    "verdict": "FAIL",
+    "fails": [
+      "creatorBal residual ~0.012% (effectively out)",
+      "18\u00d7 wallets in 1\u20135% band (sniper/distribution pattern)",
+      "graphInsiders 4",
+      "no socials on DexScreener; empty RC description",
+      "botty churn ~2194 tx/h on ~$13,398 mc"
+    ],
+    "age_h": 0.67,
+    "mc": 13398,
+    "h1": 321,
+    "m5": -11.7,
+    "dexId": "pumpfun",
+    "phase": "pumpfun/curve ~40.4%",
+    "creator": "8Dmm3zjci1PfaFzemDN99mVCRTxwL2JyfDofSNPVuodN",
+    "creatorBal": 119055311268.0,
+    "creatorBal_pct": 0.0119,
+    "band_1_5": 18,
+    "top10_ex_curve_pct": 23.6,
+    "socials": {
+      "dex": [],
+      "websites": []
+    },
+    "rugScore": 1,
+    "score_normalised": 1,
+    "risks": [],
+    "graphInsiders": 4,
+    "insiderNetworks": [
+      {
+        "id": "quirky-mint-zebra",
+        "size": 4,
+        "type": "transfer",
+        "tokenAmount": 65783091676223,
+        "currentHolding": 65783091676223,
+        "activeAccounts": 4
+      }
+    ],
+    "cabal_hits": [],
+    "txh1": {
+      "buys": 1278,
+      "sells": 916
+    },
+    "volh1": 94673.14,
+    "totalHolders": 536,
+    "curve_quote_sol": 34.330240866,
+    "curve_pct_approx": 40.4,
+    "structure_notes": "3.53 A7QQmsxq ntx 1000 age_h 173.8 funder None\n3.41 CwUHN4zT ntx 1000 age_h 37.8 funder None\n2.73 6j7YuVT3 ntx 1000 age_h 405.6 funder None\n2.43 Bg9ic14Y ntx 450 age_h 150.3 funder ('EfJeZkbVqtFodUapCFoKn2veRLE8hSo615JgBS7WwXHa', 2.149377)\n1.98 3fnecY3s ntx 1000 age_h 144.3 funder None\n1.96 2ZcMnEYj ntx 154 age_h 9014.3 funder ('A29orQEuaWHzfDsMXVXzNAJk8LPRXqNzb584WAT2YamT', 0.429379893)\n1.94 H6Dge21c ntx 1000 age_h 36.6 funder None\n1.91 aMkQWhLU ntx 1000 age_h 195.1 funder None\n1.86 8t4tWgwX nt"
+  }
+}

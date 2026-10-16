@@ -1,0 +1,20 @@
+{
+ "symbol": "FTR",
+ "mint": "9sv13ToY5M3Y1RHAz7bgHtMWskCjWQhEk6ZECHERpump",
+ "tag": "0725",
+ "age_h": 0.33,
+ "mc": 997064,
+ "dex": "pumpswap",
+ "verdict": "FAIL_PRESCREEN_PRIOR",
+ "reasons": [
+  "prior FAIL_PRESCREEN (0720)",
+  "creatorBal 0",
+  "early post-grad chase ~$997k MC",
+  "too young (<30m) \u2014 do not buy"
+ ],
+ "rc": "rc-FTR2-0725.json",
+ "score": 1,
+ "creatorBalance": 0,
+ "band_1_5": 1,
+ "totalHolders": 5161
+}

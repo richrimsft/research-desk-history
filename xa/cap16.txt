@@ -1,0 +1,1 @@
+arb_check.py on the live 10:30 AM markets: every pair costs more than its $1 payout.

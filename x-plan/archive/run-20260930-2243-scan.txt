@@ -1,0 +1,32 @@
+X notification scan — 2026-09-30 22:44 ET
+Account: signed in as P7RIM3 (@P7RIM3), verified in the account menu.
+Cutoff: 2026-09-30T22:37:40-04:00
+
+NEW_COUNT=0 substantive unreplied inbound replies/mentions/quotes after cutoff.
+No reply was posted. No likes, follows, reposts, DMs, bio/pin/settings/login changes made.
+
+ALL notifications visible near top (newer than cutoff marked NEW):
+1. @MchStereo — 4m — liked your reply — NEW. Text: “Cool story, but zero proof. Just a trust me bro, I worked in government”. Profile: https://x.com/MchStereo. Action: like only; no reply.
+2. @scullyspier — 4m — reposted your post — NEW. Text: “We need more of this”. Profile: https://x.com/scullyspier. Action: repost only; no reply.
+3. @scullyspier and 3 others — 4m — liked your post — NEW. Text: “We need more of this”. Profile: https://x.com/scullyspier. Action: likes only; no reply.
+4. @DemosthenesTwin and 2 others — 10m — liked your reply — NEW. Text begins: “This is the stuff you listen to when your entire life goes to shit…” and contains an ableist slur. Profile: https://x.com/DemosthenesTwin. Action: no engagement; flagged.
+5. @Cuzzo_TM — 18m — quote — NEW. Text: “Welcome to Pump.Fun ……..DORK”; quoted 0HOUR1 post. Post: https://x.com/Cuzzo_TM/status/2105484203005812936. Action: skipped per user’s 0hour/pump.fun cancellation.
+6. @misterg792000 — 22m — reply — NOT NEW (before cutoff); “Buddy, he didn't invent either one of those things. He just bought the company that did.” Post: https://x.com/misterg792000/status/2105483189200261612. Action: already handled / two beats done; no reply.
+7. Rams/Eagles — 36m — sports news — NOT NEW. Text: “Rams' Nacua returns — WR Puka Nacua returned to limited practice; coach Sean McVay expects him to play Sunday against the Eagles.” Profiles: https://x.com/RamsNFL and https://x.com/Eagles. Action: skipped as sports news.
+8. @misterg792000 — 39m — reply — NOT NEW; “Name a single field he has demonstrated ‘deep mastery’ of. Name a single thing he has invented.” Post: https://x.com/misterg792000/status/2105479038823178432. Action: already handled / two beats done; no reply.
+9. @misterg792000 — 39m — liked your reply — NOT NEW. Text: “Ok that tracks. Deep mastery across fields, not just wearing a lot of hats. Thanks for the card. For Meridian specifically — which domains already have his shipped receipts?” Profile: https://x.com/misterg792000. Action: like only; no reply.
+10. @MadamHaus — 1h — reply — NOT NEW. Embedded video; replying to @P7RIM3 and @__0HOUR1_. Post: https://x.com/MadamHaus/status/2105460336006672836. Action: skipped per user’s 0hour/pump.fun cancellation.
+
+MENTIONS tab visible near top:
+- @misterg792000 — 22m — reply — NOT NEW; https://x.com/misterg792000/status/2105483189200261612; same two-beats-done item.
+- @misterg792000 — 39m — reply — NOT NEW; https://x.com/misterg792000/status/2105479038823178432; same already-handled item.
+- @MadamHaus — 1h — reply — NOT NEW; https://x.com/MadamHaus/status/2105460336006672836; 0hour-related, skipped.
+
+FLAGS:
+- Ableist slur visible in the @DemosthenesTwin liked-reply notification; no engagement.
+- The known @SafetyNotorious abuse/slur quote was not visible in the captured top notifications.
+- 0hour-related @Cuzzo_TM and @MadamHaus items were visible and skipped as instructed.
+
+Screenshots:
+- /workspace/x-plan/run-20260930-2243-notifications.png
+- /workspace/x-plan/run-20260930-2243-mentions.png

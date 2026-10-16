@@ -1,0 +1,46 @@
+{
+  "mint": "8rAhJEyM72smDNgGUcPETXoVi21x7k2R8u2AMXGQpump",
+  "symbol": "FMTR",
+  "name": "fomometer",
+  "score": 1,
+  "rugged": false,
+  "creator": "2S61uitFsWjMhKWMtYiKxzQ3UKYysiFQWHkwMUH2CFjD",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalHolders": 67,
+  "graphInsiders": 0,
+  "top10_ex_curve_pct": 28.87,
+  "band_1_5": 18,
+  "phase": "pumpfun mc~16687 age=0.68h h1=366 m5=13.12 buys=324",
+  "socials": [
+    [
+      "twitter",
+      "https://x.com/Fomometerxyz"
+    ],
+    [
+      "website",
+      "https://fomometer.xyz/"
+    ],
+    [
+      "website",
+      "https://github.com/givemegarment/fomometer"
+    ]
+  ],
+  "mc": 16686.93,
+  "age_h": 0.68,
+  "h1": 366,
+  "m5": 13.12,
+  "buys_h1": 324,
+  "sells_h1": 253,
+  "decision": "FAIL",
+  "reasons": [
+    "BUNDLE: 12/12 checked top holders share single funder is6MTRHEgyFLNTfYcuV4QBWLjrZBfmhVNYR6ccgr8KV (funders-FMTR-0335.json)",
+    "creatorBalance 0 (dev sold/out)",
+    "18 wallets in 1-5% band",
+    "whale top holder ~9.55% ex-curve",
+    "top10 ex-curve ~28.87% near/over 25-30% cap"
+  ],
+  "shared_funder": "is6MTRHEgyFLNTfYcuV4QBWLjrZBfmhVNYR6ccgr8KV",
+  "shared_funder_count": 12
+}

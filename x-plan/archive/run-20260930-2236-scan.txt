@@ -1,0 +1,24 @@
+SCAN REPORT
+scan_end=2026-09-30T22:37:40-04:00
+cutoff=2026-09-30T22:33:00-04:00
+signed_in_as=@P7RIM3
+
+ITEM_CONSIDERED | page=ALL | @DemosthenesTwin + 2 others | age=3m | type=likes_your_reply | link=not exposed | text=“This is the stuff you listen to when your entire life goes to shit…” (contains known ableist slur) | action=SKIP_KNOWN_FLAG
+ITEM_CONSIDERED | page=ALL | @Cuzzo_TM | age=12m | type=quote | link=https://x.com/Cuzzo_TM/status/2105484203005812936 | text=“Welcome to Pump.Fun ……..DORK” | action=SKIP_0HOUR_PUMPFUN_CANCELLED
+ITEM_CONSIDERED | page=ALL+MENTIONS | @misterg792000 | age=16m | type=reply/mention | link=https://x.com/misterg792000/status/2105483189200261612 | text=“Buddy, he didn't invent either one of those things. He just bought the company that did.” | action=SKIP_2_BEATS_DONE_AND_OLDER_THAN_CUTOFF
+ITEM_CONSIDERED | page=ALL | @RamsNFL + @Eagles | age=29m | type=sports news notification | link=not exposed | text=“Rams' Nacua returns — WR Puka Nacua returned to limited practice…” | action=SKIP_NOT_INBOUND
+ITEM_CONSIDERED | page=ALL+MENTIONS | @misterg792000 | age=32m | type=reply/mention | link=https://x.com/misterg792000/status/2105479038823178432 | text=“Name a single field he has demonstrated \"deep mastery\" of. Name a single thing he has invented.” | action=SKIP_ALREADY_HANDLED_AND_OLDER_THAN_CUTOFF
+ITEM_CONSIDERED | page=ALL | @misterg792000 | age=33m | type=liked_your_reply | link=not exposed | text=“Ok that tracks. Deep mastery across fields, not just wearing a lot of hats…” | action=SKIP_NOT_INBOUND
+ITEM_CONSIDERED | page=ALL | @Kramer_not + 2 others | age=51m | type=liked_your_post | link=not exposed | text=“We need more of this” | action=SKIP_NOT_INBOUND
+ITEM_CONSIDERED | page=ALL+MENTIONS | @MadamHaus | age=1h | type=reply/mention | link=https://x.com/MadamHaus/status/2105460336006672836 | text=embedded video; addressed @P7RIM3 and @__0HOUR1_ | action=SKIP_0HOUR_CANCELLED
+ITEM_CONSIDERED | page=ALL | @mom_agency_ | age=2h | type=liked_your_post | link=not exposed | text=“The meeting explaining why we need to change it from AI to SI” | action=SKIP_NOT_INBOUND
+ITEM_CONSIDERED | page=ALL | @Eagles | age=2h | type=sports news notification | link=not exposed | text=“Eagles Injury Update — LB Zack Baun has a concussion…” | action=SKIP_NOT_INBOUND
+ITEM_CONSIDERED | page=MENTIONS | @DrumondArt | age=2h | type=reply/mention | link=https://x.com/DrumondArt/status/2105451230445154557 | text=“Deep mastery across fields”… followed by emoji-only spam | action=SKIP_EMOJI_SPAM
+ITEM_CONSIDERED | page=MENTIONS | @stonkspark | age=3h | type=reply/mention | link=https://x.com/stonkspark/status/2105435508927005103 | text=“on it” | action=SKIP_ALREADY_HANDLED_AND_OLDER_THAN_CUTOFF
+ITEM_CONSIDERED | page=MENTIONS | @GilliRoth | age=4h | type=reply/mention | link=https://x.com/GilliRoth/status/2105422493200875658 | text=image-only reply | action=SKIP_ALREADY_HANDLED_AND_OLDER_THAN_CUTOFF
+
+NEW_COUNT=0 (no new substantive unreplied reply/mention needing a response)
+REPLIES_POSTED=0
+FLAGS=known ableist slur in like-notification; no new threats, self-harm, or illegal-content flags
+BLOCKERS=none
+SCREENSHOTS=/workspace/x-plan/run-20260930-2236-notifications.png ; /workspace/x-plan/run-20260930-2236-mentions.png

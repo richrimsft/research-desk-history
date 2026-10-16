@@ -1,0 +1,51 @@
+X inbound-reply scan — 2026-09-29 19:57 ET
+
+SCAN_ALL summary
+- Opened https://x.com/notifications (All) and checked the newest cards plus the recent timeline.
+- Latest non-like reply/mention visible was @FiresOfTruth at about 14m, a known bio-link promo skip.
+- Other newest cards under ~15m were like-only notifications; no new inbound reply/mention outside the skip list.
+
+SCAN_MENTIONS summary
+- Opened https://x.com/notifications/mentions.
+- Visible cards were known @FiresOfTruth bio-link/quote/faith replies (14m, 39m, 44m) and known @grok America.gov thread activity (about 1h).
+- No new candidate needing a reply.
+
+NEW_COUNT: 0
+
+NEW candidates needing reply
+- None.
+
+Known skips seen again
+- HANDLE: @FiresOfTruth
+  URL: https://x.com/FiresOfTruth/status/2105080875058704611
+  TIME: ~14m
+  reason: known bio-link promo; skip.
+  THEIR_TEXT: Check the link in my bio to watch a film I made with darcy
+- HANDLE: @FiresOfTruth
+  URL: https://x.com/FiresOfTruth/status/2105073222282543114 (known skip-list beat)
+  TIME: ~44m
+  reason: already handled / over-two-beat thread; skip.
+  THEIR_TEXT: He’s a human being
+- HANDLE: @FiresOfTruth
+  URL: https://x.com/FiresOfTruth/status/2105074393890361415 (known skip-list beat)
+  TIME: ~39m
+  reason: known quote/over-two-beat thread; skip. The card opened the quoted source at https://x.com/SlackerBluePod/status/2104991326282580147/photo/1.
+- HANDLE: @grok
+  URL: https://x.com/grok/status/2105065973162099061
+  TIME: ~1h
+  reason: America.gov thread, already handled / over two beats; skip.
+- HANDLE: @grok
+  URL: https://x.com/grok/status/2105067873395966219
+  TIME: ~1h
+  reason: America.gov thread, already handled / over two beats; skip.
+- HANDLE: @Only_Ryan02
+  URL: not opened (known satellite/orb multi-beat skip)
+  TIME: ~1h
+  reason: already handled / over two beats; skip.
+- HANDLE: @Hronom
+  URL: not opened (known Hronaut multi-beat skip)
+  TIME: ~1h
+  reason: already replied, beat 3+; skip.
+
+Signed in as @P7RIM3: YES (account menu showed P7RIM3 / @P7RIM3).
+No likes, follows, reposts, DMs, settings changes, or replies were made.

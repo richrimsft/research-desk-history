@@ -1,0 +1,84 @@
+{
+ "tag": "0714",
+ "inwindow_prior_fails": [
+  {
+   "mint": "pFibPnQk8ekCCtuBoQFJqeJjHVo92dAME3uH8A4pump",
+   "symbol": "ElonThrust",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "6VdcMnBTCj4tJVwtNdJZNzWeYmxzMnygVSzcfY35pump",
+   "symbol": "Irene",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "4tf5GEXU1dt7Vfj21oCu4P96ZEKEm3zMYqpzZsoCDeer",
+   "symbol": "Deer",
+   "verdict": "PRIOR_FAIL_STANDS_RECHECKED"
+  },
+  {
+   "mint": "6We2unR6HXgEdHFvb4d29XUr77sZzXk8paQaZxU9pump",
+   "symbol": "USDC",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "5j7gTphd94qDXTft1ccXZZqdZo19dinTz4aFyJBXnEUY",
+   "symbol": "Irene",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "8DQzWohFEMWruKUC5G2hEgBcs4bhJ1y7oJuyxZHpump",
+   "symbol": "LULU",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "Aoh85TCPn6yYuumHhDi7tJoTT3x3pCvWLqcaa8A6J5rm",
+   "symbol": "Irene",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "PdtREY9H6Fp9jVMpG36aywtCgxTtsQZetmehKqgyern",
+   "symbol": "YERN",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "Gmh5hNtCycP6YSyU1Cd4Q77oDL9BdgoBoTWcSMvQpump",
+   "symbol": "PITBULL",
+   "verdict": "PRIOR_FAIL_STANDS"
+  }
+ ],
+ "young_prescreen": [
+  {
+   "mint": "Acb9K4nZam8mn8LG8wWwuzme3sG8VbTgDTUFfN8iUWDa",
+   "symbol": "CCAT",
+   "verdict": "FAIL_PRESCREEN"
+  },
+  {
+   "mint": "EkQzYzCWKwX9rVR9otSjr8vDHSdA2dq5RYgtebFapump",
+   "symbol": "TCAT",
+   "verdict": "SKIP_COPYCAT"
+  },
+  {
+   "mint": "5rB2Z8xPrUGX75mL8Q7BZLjdKFtzaJYHhtPKMazSpump",
+   "symbol": "GRAB",
+   "verdict": "FAIL_PRESCREEN_PRIOR"
+  },
+  {
+   "mint": "4673spr9Zth4E3ZtZ493RTvqhdD8hW9o6pWjCd5Spump",
+   "symbol": "normie",
+   "verdict": "FAIL_PRESCREEN_PRIOR"
+  },
+  {
+   "mint": "9TXNTWV5v7M3Ch4bBVFNknXJGaJTW2NQDMKkuD3vSLEm",
+   "symbol": "Chase",
+   "verdict": "FAIL_PRESCREEN_PRIOR"
+  },
+  {
+   "mint": "NqZaNi1v6qjFeyRyMpXFWnebBx47tTu5WcWQAwtRWGU",
+   "symbol": "Irene",
+   "verdict": "SKIP_COPYCAT"
+  }
+ ],
+ "new": [],
+ "autopsy_clean": []
+}

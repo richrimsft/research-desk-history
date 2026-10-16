@@ -1,0 +1,15 @@
+{
+  "symbol": "LOOM",
+  "mint": "7GCMYJcykHZ3qJH3e5vQi4J9qAPdb3Xninkgk6sYpump",
+  "mc": 157020,
+  "age_h": 0.73,
+  "h1": 277,
+  "m5": 0.46,
+  "buys_h1": 6850,
+  "decision": "FAIL stands",
+  "reasons": [
+    "prior FAIL: creatorBal 0; botty post-grad churn (6.8k buys/h); holder band",
+    "still climbing/spiking post-grad (~$157k) \u2014 do NOT chase",
+    "past 30m gate but botty + creator out unchanged"
+  ]
+}

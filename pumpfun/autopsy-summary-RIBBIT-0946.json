@@ -1,0 +1,32 @@
+{
+  "tag": "0946",
+  "symbol": "RIBBIT",
+  "mint": "78ZBbCJkwQjXxRJJ2xv4gXU1BZvAayrvysqF4bmZpump",
+  "age_h": 0.44,
+  "mc": 50506,
+  "h1": 12.76,
+  "m5": -54.62,
+  "dex": "pumpswap",
+  "phase": "too_young",
+  "verdict": "FAIL",
+  "reasons": [
+    "age 0.44h <30m \u2014 no-buy by narrative-age",
+    "creatorBalance 0 / sold out",
+    "graphInsiders=9"
+  ],
+  "rc_score": 1,
+  "top10ex_pct": 15.87,
+  "lp_pct_guess": 24.0,
+  "band_1_5_count": 11,
+  "max_identical_0.1": 2,
+  "identical_band_val": 1.4,
+  "tight_2.3_2.5_count": 0,
+  "creator": "3mzvzPpTanqUZFNEFbtcHUSoGYygv4tywb7gxadjzEDh",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "graphInsiders": 9,
+  "totalHolders": 3642,
+  "risks": [],
+  "meta_name": "Blue Frog"
+}

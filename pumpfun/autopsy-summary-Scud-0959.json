@@ -1,0 +1,42 @@
+{
+  "tag": "0959",
+  "symbol": "Scud",
+  "mint": "74StKKpwgDLEFo5YcQKndak864PLEF1zmsUcZfC8pump",
+  "age_h": 0.29,
+  "mc": 49744,
+  "h1": 13.19,
+  "m5": -43.93,
+  "dex": "pumpswap",
+  "phase": "too_young",
+  "verdict": "FAIL",
+  "reasons": [
+    "age 0.29h <30m \u2014 no-buy by narrative-age",
+    "RC Low Liquidity (score 2864)",
+    "creatorBal 0 (dev sold out early)"
+  ],
+  "rc_score": 2864,
+  "top10ex_pct": 0.46,
+  "band_1_5_count": 0,
+  "max_identical_0.1": 0,
+  "identical_band_val": null,
+  "creator": "GiqC7bWgfFCyxNXm7VedqbK8KEwu4M2vSDiNN2a7AXzz",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "graphInsiders": 0,
+  "totalHolders": 166,
+  "risks": [
+    "Low Liquidity"
+  ],
+  "meta_name": "Renderdog",
+  "creator_pct": 0.0,
+  "top_pcts": [
+    98.98,
+    0.25,
+    0.19,
+    0.02,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

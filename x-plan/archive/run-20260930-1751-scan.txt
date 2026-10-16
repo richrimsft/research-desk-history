@@ -1,0 +1,30 @@
+X reply-responder scan report
+Run: 2026-09-30 17:51 ET
+Cutoff: 2026-09-30T17:46:00-04:00
+Signed-in check: Confirmed account menu shows P7RIM3 @P7RIM3.
+
+ALL INVENTORY (https://x.com/notifications)
+- zebralife2002 / Paul Kelly — https://x.com/zebralife2002/status/2105361123503440350 — displayed 3h — THEIR_TEXT: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day — PRE-CUTOFF; already replied at https://x.com/P7RIM3/status/2105362879817925052.
+- KittyMcfeisty2 / Piper Paprikas — https://x.com/KittyMcfeisty2/status/2105343324580143460 — displayed 4h — THEIR_TEXT: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh — PRE-CUTOFF; thread over two beats.
+- KittyMcfeisty2 / Piper Paprikas — https://x.com/KittyMcfeisty2/status/2105339423638651351 — displayed 5h — THEIR_TEXT: 🙄 🤦‍♀️ — PRE-CUTOFF; thread over two beats.
+- KittyMcfeisty2 / Piper Paprikas — https://x.com/KittyMcfeisty2/status/2105333564132712947 — displayed 5h — THEIR_TEXT: What’s new is this shit needs to stop. Beyond ridiculous — PRE-CUTOFF; thread over two beats.
+- Cobra17298328 / h — https://x.com/Cobra17298328/status/2105112514090402040 — displayed 20h — THEIR_TEXT: I can’t see what this bitch is saying, cause he immediately blocked me — PRE-CUTOFF; beat 2 already handled; third-party block mention only.
+- juneauxwhoitis / Juneaux — https://x.com/juneauxwhoitis/status/2105094896663371987 — displayed 21h — THEIR_TEXT: Overflowing with perceptions you are! — PRE-CUTOFF; known two-beat thread.
+- FiresOfTruth / spooky — https://x.com/FiresOfTruth/status/2105080875058704611 — displayed 22h — THEIR_TEXT: Check the link in my bio to watch a film I made with darcy — PRE-CUTOFF; known promo, skipped.
+- Non-inbound notifications visible (ignored): like at displayed 55m and follow at displayed 1h; no action taken.
+
+MENTIONS INVENTORY (https://x.com/notifications/mentions)
+- Same seven reply/mention cards as All: zebralife2002 (3h), KittyMcfeisty2 x3 (4-5h), Cobra17298328 (20h), juneauxwhoitis (21h), FiresOfTruth (22h). All are PRE-CUTOFF. No new mention after 17:46 ET.
+
+ACTIONS
+- No new unreplied safe inbound found; no replies posted.
+- Skipped Paul Kelly: pre-cutoff and already replied.
+- Skipped KittyMcfeisty2 x3: pre-cutoff; thread already over two beats.
+- Skipped Cobra17298328: pre-cutoff; already handled beat 2; third-party block mention only.
+- Skipped juneauxwhoitis: pre-cutoff; known two-beat thread.
+- Skipped FiresOfTruth: pre-cutoff known promo.
+- No threats, self-harm, or illegal content requiring user flag.
+
+NEW_COUNT 0
+TRENDING_SKIP extras_full: extras_today 3/3; last original 15:20 ET (https://x.com/P7RIM3/status/2105377042397356137); no Explore/trending check performed.
+Screenshots: /workspace/x-plan/run-20260930-1751-notifications.png ; /workspace/x-plan/run-20260930-1751-mentions.png

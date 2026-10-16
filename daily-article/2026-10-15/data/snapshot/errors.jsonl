@@ -1,0 +1,9 @@
+{"ts": "2026-10-14T15:31:30.540-04:00", "where": "book", "err": "TimeoutError('The read operation timed out')"}
+{"ts": "2026-10-14T18:32:36.564-04:00", "where": "book", "err": "TimeoutError('The read operation timed out')"}
+{"ts": "2026-10-14T19:00:32.220-04:00", "where": "book", "err": "TimeoutError('The read operation timed out')"}
+{"ts": "2026-10-14T19:18:11.382-04:00", "where": "book", "err": "TimeoutError('The read operation timed out')"}
+{"ts": "2026-10-14T19:39:39.167-04:00", "where": "book", "err": "TimeoutError('The read operation timed out')"}
+{"ts": "2026-10-14T23:33:17.386-04:00", "where": "book", "err": "TimeoutError('The read operation timed out')"}
+{"ts": "2026-10-15T03:54:17.506-04:00", "where": "book", "err": "TimeoutError('The read operation timed out')"}
+{"ts": "2026-10-15T08:08:27.852-04:00", "where": "book", "err": "URLError(TimeoutError('_ssl.c:1012: The handshake operation timed out'))"}
+{"ts": "2026-10-15T09:25:06.887-04:00", "where": "book", "err": "TimeoutError('The read operation timed out')"}

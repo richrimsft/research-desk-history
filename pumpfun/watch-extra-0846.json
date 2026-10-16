@@ -1,0 +1,38 @@
+{
+ "too_young": [
+  {
+   "symbol": "pump",
+   "name": "pump",
+   "mint": "6nN3B3jPZbDHS8RDNzvVFXyT9kK88JoXtLqpT7Khpump",
+   "mc": 15069.16,
+   "age_h": 0.05,
+   "h1": 275,
+   "m5": 275,
+   "h24": 275,
+   "buys": 37,
+   "sells": 21,
+   "vol_h1": 413.31,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/9fh93myewpuagpkfv15uvkfcqtzmyhg8g3sxu5nw4jzy",
+   "pairCreatedAt": 1792154628000
+  },
+  {
+   "symbol": "TCAT",
+   "name": "Tesla Cat",
+   "mint": "AD7WvdutwV3XyJypm5VrDG7bbtxLFgdqMLkMKndLpump",
+   "mc": 32818.93,
+   "age_h": 0.13,
+   "h1": 722,
+   "m5": 91.15,
+   "h24": 722,
+   "buys": 1313,
+   "sells": 794,
+   "vol_h1": 90979.45,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/dv5wnfejvdxqzqpexl3pzvypztw6z5f2hbj6fufphzga",
+   "pairCreatedAt": 1792154336000
+  }
+ ]
+}

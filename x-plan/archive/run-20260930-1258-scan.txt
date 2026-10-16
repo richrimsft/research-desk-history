@@ -1,0 +1,12 @@
+X notification scan — 2026-09-30 12:58–12:59 ET
+URL: https://x.com/notifications
+Cutoff: 2026-09-30T12:55:58-04:00
+
+Result: new_count=0. No reply/mention cards newer than the cutoff were visible in All or Mentions.
+
+Newest visible reply/mention card (old, not new): @KittyMcfeisty2, displayed 9 minutes ago (~12:50 ET), text: “🙄 🤦‍♀️”. It is a reply to @P7RIM3 and @KittyMcFeisty. No URL needed because it predates the cutoff.
+Next visible @KittyMcfeisty2 card: displayed 32 minutes ago (~12:27 ET), text: “What’s new is this shit needs to stop. Beyond ridiculous”.
+Older visible cards were @Cobra17298328 (15h), @juneauxwhoitis (16h), and @FiresOfTruth (17h); all predate the cutoff and are known skips/older items.
+
+Actions: no post made; no flags. Screenshot saved to /workspace/x-plan/last-desktop.png.
+Trending: skip; spacing rule applies (last_original ~12:51 ET, extras_today 0/3), and do NOT post a breaking-trend original (45-minute rule).

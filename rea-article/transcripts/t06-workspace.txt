@@ -1,0 +1,14 @@
+$ ls -la target/
+total 64
+dr-xr-xr-x 2 box box  4096 Oct 13 18:11 .
+drwxr-xr-x 4 box box  4096 Oct 13 18:11 ..
+-r-xr-xr-x 1 box box 14504 Oct 13 18:11 crackme
+-r-xr-xr-x 1 box box 39936 Oct 13 18:11 crackme.exe
+
+$ sha256sum target/crackme
+66781b3e3a3fee4969d428ee737575a1d02dad51a6b8878203192db6b4f39c92  target/crackme
+
+$ touch target/test 2>&1 || echo '(write refused: target/ is read-only)'
+touch: cannot touch 'target/test': Permission denied
+(write refused: target/ is read-only)
+

@@ -1,0 +1,109 @@
+{
+  "wallet": "BXc3ju3mY68Kx9bM5f7akE2urdsNe7SiSpMmxzsVjyNF",
+  "lamports": 297605540,
+  "sol": 0.29760554,
+  "spl_accounts": [
+    {
+      "mint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "amount": 0.0,
+      "amount_raw": "0",
+      "decimals": 6,
+      "pubkey": "UBqVcqjyBECymQribeKtwB44MZRivyzeVnWpvwZvFF7"
+    },
+    {
+      "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "amount": 6e-06,
+      "amount_raw": "6",
+      "decimals": 6,
+      "pubkey": "4XcxepdyQ1C71mA4C78t4SfxYi6nRWKUfBbbVfYxfFdi"
+    }
+  ],
+  "token2022_accounts": [
+    {
+      "mint": "8PxCMUrX7pKMm5mA8q2j5YNdMYF9v9fsKv71kwsmpump",
+      "amount": 0.0,
+      "amount_raw": "0",
+      "decimals": 6,
+      "pubkey": "4RJHVkGKYCKcwnaP1EZ53dYhQfS8wkHTH94x5pECNkQB"
+    },
+    {
+      "mint": "XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN",
+      "amount": 0.0,
+      "amount_raw": "0",
+      "decimals": 8,
+      "pubkey": "56xxF3Pf5rA3UyFshHK3WuxWTswJ68ErPa9CXjtG7gx6"
+    },
+    {
+      "mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+      "amount": 0.0,
+      "amount_raw": "0",
+      "decimals": 6,
+      "pubkey": "7iffXbfGZ8baMRipbbraC8tr5ev6EUroV9viZwK71aSq"
+    },
+    {
+      "mint": "31GYUbJW5vjF1o7VM5SGP9Emj5WDBHb1cdcR8BM6pump",
+      "amount": 0.0,
+      "amount_raw": "0",
+      "decimals": 6,
+      "pubkey": "9CkjBLVkNENHPWZPjBH3jFJW7nownfwEuBEJ5ZY9J95N"
+    },
+    {
+      "mint": "3EC7gRDGKgqPHc9ipJxxChoeyseE2xAbQHZUSSTfpump",
+      "amount": 0.0,
+      "amount_raw": "0",
+      "decimals": 6,
+      "pubkey": "9GPPS2MFtXzcFYguAjVEmm9wMiVbT3ypwR8YpjQJJo5N"
+    },
+    {
+      "mint": "EBgMjwNFEVEMJcsamJWEW65tBcjLnqncnxtEQU6dpump",
+      "amount": 0.0,
+      "amount_raw": "0",
+      "decimals": 6,
+      "pubkey": "AoQvj9deYDQ8e9rB87vdTnnwC6t4z5mxhZKLR3CDmnxU"
+    },
+    {
+      "mint": "cnNgFYRS26pKHstKvfzQXEDQuvuMfUNzTB2AMZypump",
+      "amount": 0.0,
+      "amount_raw": "0",
+      "decimals": 6,
+      "pubkey": "CtNxtUMZgujEyeGGzaqEDHQeUBSo17kF7eQwTfTEiF4q"
+    },
+    {
+      "mint": "BMKdM4yUxX12moFqVk195k7coMbaybd4RUKCUdm7D1Sk",
+      "amount": 0.0,
+      "amount_raw": "0",
+      "decimals": 6,
+      "pubkey": "ES4dv3ZtzfReMNqsLYkpTYk7eazLWvKharxD8CgRMqMq"
+    },
+    {
+      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "amount": 0.0,
+      "amount_raw": "0",
+      "decimals": 6,
+      "pubkey": "FSnx1rrZXVJpJsyNZu9CyRzVxRh7LEWTJ6JGrVh24SJ5"
+    },
+    {
+      "mint": "NFLX7qV57zuVxCoHy3s1jiGZyALraLNwttbxdvmYJLJ",
+      "amount": 0.0,
+      "amount_raw": "0",
+      "decimals": 6,
+      "pubkey": "GBYBY6Xvpoi6WCmM6kdX8DwB4ovC8hnVy9Wp6ZArKuHS"
+    },
+    {
+      "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+      "amount": 0.0,
+      "amount_raw": "0",
+      "decimals": 6,
+      "pubkey": "H7ySdjprcMbb4sSBShvGBGZVwkCnbjQakq4Axstyr91h"
+    },
+    {
+      "mint": "CZ3X9XUxSTc1hN9iGPteG3iKoXGC4q332bmWi4JBpump",
+      "amount": 0.0,
+      "amount_raw": "0",
+      "decimals": 6,
+      "pubkey": "H8Ft94auKBvSpRummpTS9vSkKnTYQm2A9FvvVk7tUUdV"
+    }
+  ],
+  "meme_positions": [],
+  "fetched_at": "2026-10-16T08:49:00-04:00"
+}

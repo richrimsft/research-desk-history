@@ -1,0 +1,59 @@
+X NOTIFICATIONS LIVE SCAN REPORT
+Run: 2026-09-30T19:13:30-04:00 (UTC-4)
+Cutoff: 2026-09-30T19:06:08-04:00
+Signed-in account confirmed: @P7RIM3 (account menu visibly showed P7RIM3 / @P7RIM3)
+Screenshots:
+- All: /workspace/x-plan/run-20260930-1911-notifications.png
+- Mentions: /workspace/x-plan/run-20260930-1911-mentions.png
+
+ALL — https://x.com/notifications
+Visible reply/mention cards at scan time:
+1. handle: @stonkspark
+   status URL: https://x.com/stonkspark/status/2105435508927005103
+   displayed age: 11 seconds ago (11s)
+   text: on it
+   disposition: new_unreplied (after cutoff; replied once under the correct parent)
+2. handle: @SafetyNotorious
+   status URL: https://x.com/SafetyNotorious/status/2105431749333602704
+   displayed age: 15 minutes ago (15m)
+   text: P7RIM3 - Retard of the Day [quote-only card; quoted own post]
+   disposition: skip_quote_not_reply
+3. handle: @GilliRoth
+   status URL: https://x.com/GilliRoth/status/2105422493200875658
+   displayed age: 51 minutes ago (51m)
+   text: [image-only]
+   disposition: skip_already_handled
+
+Other visible All notifications were likes/reposts of existing posts or replies, not inbound reply/mention cards, and were not acted on.
+
+MENTIONS — https://x.com/notifications/mentions
+Visible reply/mention cards at scan time:
+1. handle: @stonkspark
+   status URL: https://x.com/stonkspark/status/2105435508927005103
+   displayed age: 31 seconds ago (31s)
+   text: on it
+   disposition: new_unreplied (after cutoff; replied once under the correct parent)
+2. handle: @GilliRoth
+   status URL: https://x.com/GilliRoth/status/2105422493200875658
+   displayed age: 52 minutes ago (52m)
+   text: [image-only]
+   disposition: skip_already_handled
+3. handle: @zebralife2002
+   status URL: https://x.com/zebralife2002/status/2105361123503440350
+   displayed age: 4 hours ago (4h)
+   text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+   disposition: skip_already_handled
+4. handle: @KittyMcfeisty2
+   status URL: https://x.com/KittyMcfeisty2/status/2105343324580143460
+   displayed age: 6 hours ago (6h)
+   text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh [quoted post also visible]
+   disposition: skip_over_two_beats
+
+ACTION
+- Opened the STONKS PARK parent conversation and confirmed context before replying.
+- Posted exactly once under the correct parent: “Good. Less talking, more shipping.”
+- Reloaded the thread and confirmed one visible copy.
+- Our reply URL: https://x.com/P7RIM3/status/2105435757142028442
+- New unreplied count: All 1; Mentions 1 (same inbound card, one reply total).
+- Flags: none (no threat, self-harm, or illegal-content card).
+- Problems: none; signed in as the correct account, no login wall or rate limit.

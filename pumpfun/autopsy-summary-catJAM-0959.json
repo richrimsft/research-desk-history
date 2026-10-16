@@ -1,0 +1,48 @@
+{
+  "tag": "0959",
+  "symbol": "catJAM",
+  "mint": "8986NN252oM2AodzKGQcYhvqrK8e5Zk3DodMJcYYpump",
+  "age_h": 0.26,
+  "mc": 29550.37,
+  "h1": 467,
+  "m5": 11.23,
+  "dex": "pumpfun",
+  "phase": "too_young",
+  "verdict": "FAIL",
+  "reasons": [
+    "age 0.26h <30m \u2014 no-buy by narrative-age",
+    "RC Low Liquidity (score 2699)",
+    "creatorBal 0 (dev sold out early)",
+    "19\u00d7 1\u20135% holder band"
+  ],
+  "rc_score": 2699,
+  "top10ex_pct": 22.38,
+  "band_1_5_count": 19,
+  "max_identical_0.1": 4,
+  "identical_band_val": 1.2,
+  "creator": "FGqEUPSBVnVWxeFo6YcM3BEjNzKub3JWRqnaSDwCFkAG",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "graphInsiders": 0,
+  "totalHolders": 809,
+  "risks": [
+    "Low Liquidity"
+  ],
+  "meta_name": "catJAM",
+  "creator_pct": 0.0,
+  "top_pcts": [
+    30.47,
+    3.75,
+    2.86,
+    2.46,
+    2.42,
+    1.98,
+    1.9,
+    1.89,
+    1.78,
+    1.72,
+    1.62,
+    1.47
+  ]
+}

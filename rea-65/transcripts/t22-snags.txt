@@ -1,0 +1,13 @@
+$ env -u REA_TSHARK_COMMAND rea inspect-packet-capture pcap/lab65.pcap --fields ip.src --format json | jq -c '{code, message}'
+{"code":"capability_unavailable","message":"Supply absolute REA_TSHARK_COMMAND for TShark 4.x. On Linux, configure TShark 4.x through REA_TSHARK_COMMAND and util-linux prlimit through REA_TSHARK_PRLIMIT_COMMAND (default /usr/bin/prlimit)."}
+
+$ PATH=/usr/bin:$PATH node --version; PATH=/usr/bin:$PATH node ~/.local/bin/rea inspect-sqlite-database sqlite/notes.db --format json | jq -c '{code, message}'
+v20.19.2
+{"code":"execution_failure","message":"Analysis could not complete. Run `rea doctor` and review the reported details; repeating the unchanged request is not expected to succeed."}
+
+$ jq -n --slurpfile l notes/wasm-v1.json --slurpfile r notes/wasm-v2.json '{left: {kind: "inline", evidence: $l[0]}, right: {kind: "inline", evidence: $r[0]}, scope: "both"}' > /tmp/bad-compare.json; rea compare-wasm-interfaces /tmp/bad-compare.json --format json | jq -c '{code, first_issues: [.details.issues[0:2][] | {path, reason}]}'
+{"code":"invalid_request","first_issues":[{"path":["left","evidence_id"],"reason":"missing_argument"},{"path":["left","subject"],"reason":"missing_argument"}]}
+
+$ jq -c '.normalized_result.extraction_gaps[0] | {kind, handler, dependencies}' notes/fw-extract.json   # first extract-firmware run, before installing sasquatch
+{"kind":"missing-extractor-dependency","handler":"squashfs_v4_le","dependencies":["sasquatch"]}
+

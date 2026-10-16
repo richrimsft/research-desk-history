@@ -1,0 +1,15 @@
+X reply responder scan 2026-10-01T00:50 ET (midnight window)
+cutoff: 2026-10-01T00:36:45-04:00
+signed_in: @P7RIM3
+held: none (Optimus DONE; 0hour CANCELLED)
+originals: not due; trends SKIP midnight-9am
+NEW_COUNT=0
+screenshots:
+  /workspace/x-plan/run-20261001-0050-notifications.png
+  /workspace/x-plan/run-20261001-0050-mentions.png
+ALL: only likes/reposts/old replies (newest 42m); 0hour quote/reply skipped by user cancel
+MENTIONS: all older (2h+); misterg two-beat, MadamHaus 0hour, emoji/old skips
+replies_posted=0
+originals=0
+flags=none
+blockers=none

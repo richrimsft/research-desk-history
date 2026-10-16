@@ -1,0 +1,39 @@
+RUN 2026-09-30 21:09 ET notification scan
+CUTOFF 2026-09-30T21:03:19-04:00
+SCANNED_AT 2026-09-30T21:10:54-04:00
+ACCOUNT @P7RIM3 (signed in confirmed in account menu)
+SCOPE All + Mentions only; no Explore; no originals; no likes/follows/reposts/DMs/settings.
+SCREENSHOT_ALL /workspace/x-plan/run-20260930-2109-notifications.png
+SCREENSHOT_MENTIONS /workspace/x-plan/run-20260930-2109-mentions.png
+
+RESULT
+NEW_COUNT 0
+REPLIES_POSTED 0
+BLOCKERS none (no login, captcha, or handoff)
+
+ITEM_CONSIDERED lines below cover every visible inbound/mention or borderline notification.
+
+ALL TAB
+ITEM_CONSIDERED @MadamHaus | https://x.com/MadamHaus/status/2105460336006672836 | age 19m | reply to @P7RIM3 and @__0HOUR1_ with embedded GIF/video, no reply | SKIP: 0hour/$0HOUR1 cancelled; known skip.
+ITEM_CONSIDERED @laidlaw76 | status URL not exposed in notification card | age 23m | “liked your reply” notification, preview contains a quoted slur but it is not an inbound reply/mention | SKIP: like notification, not actionable.
+ITEM_CONSIDERED @mom_agency_ | status URL not exposed in notification card | age 45m | liked your post; preview “The meeting explaining why we need to change it from AI to SI” | SKIP: like notification.
+ITEM_CONSIDERED @Eagles | status URL not exposed in notification card | age 45m | Eagles Injury Update — LB Zack Baun has a concussion and is in the concussion protocol, with his status in question for the Rams | SKIP: account/content notification, not inbound reply/mention.
+ITEM_CONSIDERED @DrumondArt | https://x.com/DrumondArt/status/2105451230445154557 | age 55m | reply to @P7RIM3 and @cb_doge: “Deep mastery across fields” followed by repeated laughing emojis | SKIP: emoji-only troll/spam; known skip.
+ITEM_CONSIDERED @Sonic1994DC and @rilo0x | status URL not exposed in notification card | age 59m | liked your post | SKIP: like notification.
+ITEM_CONSIDERED @Maskedrider26 | status URL not exposed in notification card | age 1h | liked your reply; preview “It’s still intense! Great movie” | SKIP: like notification.
+ITEM_CONSIDERED @MaverickDarby and 6 others | status URL not exposed in notification card | age 1h | liked your post; preview “We need more of this” | SKIP: like notification.
+ITEM_CONSIDERED @stareatmehuman and @RUNjOutdoors | status URL not exposed in notification card | age 1h | liked your reply; preview repeats quoted post text | SKIP: like notification.
+ITEM_CONSIDERED @stonkspark | https://x.com/stonkspark/status/2105435508927005103 | age 1h | reply to @P7RIM3: “on it” | SKIP: already handled; thread shows 1 reply and known handled context.
+ITEM_CONSIDERED @SafetyNotorious | https://x.com/SafetyNotorious/status/2105431749333602704 | age 2h | “P7RIM3 - Retard of the Day” quote of @P7RIM3’s 0hour post | SKIP and FLAG: ableist/slur-only abuse; do not engage.
+
+MENTIONS TAB
+ITEM_CONSIDERED @MadamHaus | https://x.com/MadamHaus/status/2105460336006672836 | age 20m | reply to @P7RIM3 and @__0HOUR1_ with embedded GIF/video, no replies | SKIP: 0hour/$0HOUR1 cancelled; known skip.
+ITEM_CONSIDERED @DrumondArt | https://x.com/DrumondArt/status/2105451230445154557 | age 56m | reply to @P7RIM3 and @cb_doge: “Deep mastery across fields” plus repeated laughing emojis | SKIP: emoji-only troll/spam; known skip.
+ITEM_CONSIDERED @stonkspark | https://x.com/stonkspark/status/2105435508927005103 | age 1h | “on it” replying to @P7RIM3; 1 reply visible | SKIP: already handled.
+ITEM_CONSIDERED @GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | age 2h | reply to @P7RIM3 and @cb_doge with image-only content; 1 reply visible | SKIP: already handled; known handled context.
+ITEM_CONSIDERED @zebralife2002 | https://x.com/zebralife2002/status/2105361123503440350 | age 6h | “Your first sentence made absolutely no sense … I stop reading … Have a good day”; 1 reply visible | SKIP: already handled; known handled context.
+ITEM_CONSIDERED @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105343324580143460 | age 8h | “This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh” with quoted post | SKIP: older than cutoff and thread already over two beats; known skip.
+
+FLAGS
+FLAG @SafetyNotorious status https://x.com/SafetyNotorious/status/2105431749333602704 for ableist/slur-only abuse; no reply made.
+No threats, self-harm, or illegal-content items observed. No actionable new inbound items. No 0hour reply made.

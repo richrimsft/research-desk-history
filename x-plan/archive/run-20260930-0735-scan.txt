@@ -1,0 +1,47 @@
+X notification scan report
+Scan time: 2026-09-30 ~07:36 ET (cutoff: 2026-09-30T07:24:14-04:00)
+Account: @P7RIM3 (signed in and verified by visible account menu)
+
+Pages scanned
+- https://x.com/notifications — All tab selected; visible newest-first cards reviewed.
+- https://x.com/notifications/mentions — Mentions tab reviewed.
+- No individual tweet was opened. No posting, liking, following, reposting, DM, or settings changes performed.
+
+NEW_COUNT
+0
+
+Notes
+- The newest All-tab card is an 11-minute like-only notification, which is newer than the cutoff but is excluded from NEW_COUNT by instruction.
+- All visible reply/mention cards are approximately 9–12 hours old, well before the cutoff window, and match the supplied older-card list.
+- No visible new reply/mention card, and no different newer status URL from a known handle, was found.
+- Older reply cards visibly show existing thread activity: Cobra has 1 reply; Juneaux has 2 replies and the reply is liked; FiresOfTruth cards show known prior activity. These were skipped as instructed.
+- Screenshot: /workspace/x-plan/last-desktop.webp
+
+ALL visible cards (newest first)
+1. Type: like-only. Handle(s): @ambergeddon9 and @Occultjourneys. Display names: Ambergeddon9; Darcy Weir Films (Verified). Age: 11m. Status URL: not shown on notification card. Visible text: “The dude claimed he was on different planets and a secret space force run by reptiles. What did he expect the public’s reaction would be? Ufology in general is about as asinine as the flat earth community. I follow it for the laughs!”
+2. Type: like-only. Handle: @quinn_charley21. Display name: Quinn Charley (Verified). Age: 1h. Status URL: not shown. Visible text: “She looks like an obese heffer. I don't get why people want that. Imagine the smell”
+3. Type: like-only. Handle(s): @Mytro23 and 7 others. Display name shown: Mukhammed Turlubekov. Age: 5h. Status URL: not shown. Visible text: “Do the complete opposite of whatever Cramer says!”
+4. Type: like-only. Handle(s): @Ro61088Davidson and 7 others. Display name shown: Davidson Robsinson. Age: 5h. Status URL: not shown. Visible text: “Do the opposite of whether Kramer says! Trust me”
+5. Type: like-only. Handle: @KEKerboxerGlory. Display name: G Reed. Age: 8h. Status URL: not shown. Visible text: “Nvidia and X.ai yes! Meta, absolutely not”
+6. Type: like-only. Handle: @DelBerrX. Display name: mine. Age: 8h. Status URL: not shown. Visible text: “This screams the movie Wall-E”
+7. Type: reply/mention. Handle: @Cobra17298328. Display name: h. Age: 9h. Status URL: https://x.com/Cobra17298328/status/2105112514090402040. Visible text: “Replying to @P7RIM3 @skeptic_vaibhav and @artaimemes — I can’t see what this bitch is saying, cause he immediately blocked me”. Existing activity shown: 1 reply, 169 views; known older card, skipped.
+8. Type: like-only. Handle: @pullingUp22. Display name: FormOverTime (Verified). Age: 10h. Status URL: not shown. Visible text: “The guy is clueless. You can tell he has ZERO technical skills. I know everyone has a giant boner for anthropic right now. I don’t see him being the leader for the long haul. I just don’t”
+9. Type: reply/mention. Handle: @juneauxwhoitis. Display name: Juneaux (⏸️ 😴). Age: 10h. Status URL: https://x.com/juneauxwhoitis/status/2105094896663371987. Visible text: “Replying to @P7RIM3 and @OverlyTrev — Overflowing with perceptions you are!” Existing activity shown: 2 replies, 1 like (Liked), 173 views; known older card, skipped.
+10. Type: like-only. Handle: @snowtrees32283. Display name: Robin. Age: 11h. Status URL: not shown. Visible text: “Time to crank out the money printing machine.”
+11. Type: like-only. Handle: @thechillguy_07. Display name: King Chess (♟️). Age: 11h. Status URL: not shown. Visible text: “Their fees are ridiculous. Stick with @krakenfx”
+12. Type: like-only. Handle(s): @JohnGGalt and 12 others. Display name shown: John Galt (🚂 🇺🇸). Age: 11h. Status URL: not shown. Visible text: “Do the opposite of whether Kramer says! Trust me”
+13. Type: reply/mention. Handle: @FiresOfTruth. Display name: spooky (Verified). Age: 11h. Status URL: https://x.com/FiresOfTruth/status/2105080875058704611. Visible text: “Replying to @P7RIM3 @thehiddenpod — Check the link in my bio to watch a film I made with darcy”. Existing activity shown: 3 likes, 102 views; known older card, skipped.
+14. Type: like-only. Handle(s): @StochStocks and 5 others. Display name shown: Mr. Fugazi (🇺🇲 🇺🇲, Verified). Age: 11h. Status URL: not shown. Visible text: “Do the complete opposite of whatever Cramer says!”
+15. Type: like-only. Handle(s): @Hemingwaypaws and @dispenseofgrace. Display names: Hemingwaypaws; Ibn Yahya (Verified). Age: 12h. Status URL: not shown. Visible text: “The guy is clueless. You can tell he has ZERO technical skills. I know everyone has a giant boner for anthropic right now. I don’t see him being the leader for the long haul. I just don’t”
+
+MENTIONS visible cards (newest first)
+1. Type: reply/mention. Handle: @Cobra17298328. Display name: h. Age: 9h. Status URL: https://x.com/Cobra17298328/status/2105112514090402040. Visible text: “Replying to @P7RIM3 @skeptic_vaibhav and @artaimemes — I can’t see what this bitch is saying, cause he immediately blocked me”. Existing activity: 1 reply, 169 views; known older card, skipped.
+2. Type: reply/mention. Handle: @juneauxwhoitis. Display name: Juneaux (⏸️ 😴). Age: 10h. Status URL: https://x.com/juneauxwhoitis/status/2105094896663371987. Visible text: “Replying to @P7RIM3 and @OverlyTrev — Overflowing with perceptions you are!” Existing activity: 2 replies, 1 like (Liked), 173 views; known older card, skipped.
+3. Type: reply/mention. Handle: @FiresOfTruth. Display name: spooky (Verified). Age: 11h. Status URL: https://x.com/FiresOfTruth/status/2105080875058704611. Visible text: “Replying to @P7RIM3 @thehiddenpod — Check the link in my bio to watch a film I made with darcy”. Existing activity: 3 likes, 102 views; known older card, skipped.
+4. Type: reply/mention. Handle: @FiresOfTruth. Display name: spooky (Verified). Age: 12h. Status URL: https://x.com/FiresOfTruth/status/2105074701802651949. Visible text: “Replying to @P7RIM3 — Quote slackerblue. Verified account @SlackerBluePod 17 hours ago: Alex B is currently missing. #fishtanklive [Image]”. Existing activity: 2 likes (Liked), 103 views; known older card, skipped.
+5. Type: reply/mention. Handle: @FiresOfTruth. Display name: spooky (Verified). Age: 12h. Status URL: https://x.com/FiresOfTruth/status/2105073376268345355. Visible text: “Replying to @P7RIM3 — He’s a human being [Image]”. Existing activity: 1 reply, 5 likes (Liked), 94 views; known older card, skipped.
+6. Type: reply/mention. Handle: @grok. Display name: Grok (Verified). Age: 12h. Status URL: https://x.com/grok/status/2105068070892912851. Visible text: “Replying to @P7RIM3 @elonmusk — The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the [card truncated; America.gov preview visible]”. Existing activity: 1 like (Liked), 56 views; known older card, skipped.
+
+NEW candidate details
+- None. NEW_COUNT=0.
+- Handle: n/a. Status URL: n/a. Full visible text: n/a. Already replied / blocked: n/a. Thread context: n/a.

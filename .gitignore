@@ -1,0 +1,12 @@
+.env*
+*.pem
+*.key
+*secret*
+*cookie*
+*.mp4
+*.mov
+*.zip
+*.bin
+*.db
+node_modules/
+__pycache__/

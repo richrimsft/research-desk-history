@@ -1,0 +1,48 @@
+{
+  "tag": "0509",
+  "symbol": "Chase",
+  "safe": "Chase",
+  "mint": "9vz5mXmJnNjmC8onX5tjfrRADuYYZXJ9qLkm1mWJpump",
+  "verdict": "FAIL",
+  "fails": [
+    "age ~0.09h <<30m",
+    "creatorBal 0",
+    "11\u00d71\u20135% band",
+    "no socials (dex info empty)",
+    "cabal funder u6PJ8D\u2026 hit on a top holder",
+    "mc fading mid-run (~$16k\u2192~$10.5k)"
+  ],
+  "age_h": 0.123,
+  "mc": 10568.63,
+  "h1": 212,
+  "m5": 212,
+  "dexId": "pumpfun",
+  "phase": "curve",
+  "creator": "6o23RbWzt86smJsK2HjdEy8kd1HFA5dfFkGn61AbnYNA",
+  "creatorBal": 0.0,
+  "creatorBal_pct": 0.0,
+  "band_1_5": 11,
+  "top10_ex_curve_pct": 19.22,
+  "socials": {
+    "dex": null,
+    "websites": null
+  },
+  "rugScore": 1,
+  "score_normalised": 1,
+  "risks": [],
+  "graphInsiders": 0,
+  "cabal_hits": [
+    {
+      "funder": "u6PJ8D\u2026",
+      "n": 1,
+      "note": "prior GALAX/MemeTrace"
+    }
+  ],
+  "txh1": {
+    "buys": 703,
+    "sells": 501
+  },
+  "volh1": 52507.65,
+  "totalHolders": 396,
+  "name": "Chase Chadwick"
+}

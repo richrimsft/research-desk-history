@@ -1,0 +1,51 @@
+{
+  "tag": "0613",
+  "symbol": "PITBULL",
+  "safe": "PITBULL",
+  "mint": "Gmh5hNtCycP6YSyU1Cd4Q77oDL9BdgoBoTWcSMvQpump",
+  "verdict": "FAIL",
+  "fails": [
+    "creatorBal 0 (no visible dev bag / fee-share or dumped)",
+    "19\u00d7 wallets in 1\u20135% band (sniper/distribution pattern) on 103 holders",
+    "graphInsiders 14",
+    "socials = X-community link only (https://x.com/i/communities/2022855185475764628)",
+    "shared funder 9iHgaD24\u2026 on 2 top holders (bundle signal)"
+  ],
+  "age_h": 2.79,
+  "mc": 11289.48,
+  "h1": 53.36,
+  "m5": 13,
+  "dexId": "pumpfun",
+  "phase": "pumpfun curve (curve/AMM+locker ~49.1%: Pump Fun:49.13%)",
+  "creator": "8NZkwtXmLAZf8wTy7X91fBtjMzj3bKrnRLUX4k9uTFyT",
+  "creatorBal": 0,
+  "creator_pct": 0,
+  "creator_wallet": {
+    "creator": "8NZkwtXmLAZf8wTy7X91fBtjMzj3bKrnRLUX4k9uTFyT",
+    "sol": 0.000650254,
+    "ntx": 15,
+    "oldest": 1792138567,
+    "age_h": 2.01
+  },
+  "band_1_5": 19,
+  "top10_ex_curve_pct": 24.84,
+  "rugScore": 1,
+  "score_normalised": 1,
+  "risks": [],
+  "graphInsiders": 14,
+  "txh1": {
+    "buys": 88,
+    "sells": 57
+  },
+  "volh1": 7327.88,
+  "totalHolders": 103,
+  "socials": [
+    {
+      "url": "https://x.com/i/communities/2022855185475764628",
+      "type": "twitter"
+    }
+  ],
+  "websites": [],
+  "whales": [],
+  "structure_notes": "3.03 DBCbteCX ntx 531 age_h 6158.5 funder None\n2.74 GCYUdhyW ntx 1000 age_h 4933.1 funder None\n2.52 7TKYsFci ntx 1000 age_h 242.9 funder None\n2.51 EJxC6b2C ntx 323 age_h 1653.5 funder ('9iHgaD24XD6RjqVk2JhaiYkwV3TRnFzdQTpERj8o4ZVv', 0.1)\n2.46 6YzA6DA6 ntx 951 age_h 288.0 funder ('8mowmVCEewZ9W2cEaQyQeQEeSxhGr1hvRviLwozwNtBt', 14.9337975)\n2.42 3mWG7DbH ntx 1000 age_h 147.5 funder None\n2.33 6BdWrGJF ntx 1000 age_h 207.8 funder None\n2.31 Div6cVov ntx 1000 age_h 94.0 funder None\n2.26 5ivB28oC ntx 102 age_h 1679.6 funder ('HSW9Ka2AmnbadT7EE2zqkgrPDy7jLnFWShR55wrzCfKZ', 2.0)\n2.26 EWqqoKDz ntx 278 age_h 1653.5 funder ('9iHgaD24XD6RjqVk2JhaiYkwV3TRnFzdQTpERj8o4ZVv', 0.1)\n2.25 9XSaQ22b ntx 172 age_h 5765.8 funder ('5kuty84XRD5CqyMKDGGvieiKXDoqoKyDE4a5Cv6H7aBW', 0.257364317)\n2.19 6YzCvqXY ntx 1000 age_h 274.7 funder None\n"
+}

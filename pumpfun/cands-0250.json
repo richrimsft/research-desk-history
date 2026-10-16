@@ -1,0 +1,80 @@
+[
+  {
+    "mint": "6US32XFjLauSjfvd4tWu5u1F6aSP5zd6HnUc4TSppump",
+    "sym": "ELON",
+    "dex": "pumpfun",
+    "mc": 8432.1,
+    "liq": null,
+    "age_h": 0.37,
+    "h1": 150,
+    "m5": 43.36,
+    "buys": 1316,
+    "sells": 1103,
+    "buys_h": 1316
+  },
+  {
+    "mint": "D4rzv9WAXJh9QZw1MjqfrtuSrmrkV4DckPTKBoMnpump",
+    "sym": "CCAT",
+    "dex": "pumpswap",
+    "mc": 91035,
+    "liq": 25797.86,
+    "age_h": 0.61,
+    "h1": 107,
+    "m5": 30.69,
+    "buys": 3166,
+    "sells": 2074,
+    "buys_h": 3166
+  },
+  {
+    "mint": "6S7jwQuVipHuEaASAZ9Kn7r3Zy3jkebhAMFxnuWnpump",
+    "sym": "GTA",
+    "dex": "pumpswap",
+    "mc": 26108,
+    "liq": 12407.17,
+    "age_h": 4.61,
+    "h1": 50.36,
+    "m5": 34.18,
+    "buys": 35,
+    "sells": 28,
+    "buys_h": 35
+  },
+  {
+    "mint": "9JYbTj84nzPQrS3zpkNGdwDRmmDA6i6wVaEtu1x5pump",
+    "sym": "DarkStar",
+    "dex": "pumpfun",
+    "mc": 21621.11,
+    "liq": null,
+    "age_h": 4.65,
+    "h1": 28.78,
+    "m5": -22.35,
+    "buys": 94,
+    "sells": 52,
+    "buys_h": 94
+  },
+  {
+    "mint": "5b8F5y5uK3JgRTowCxfKbtMS3397DtSwxKMHjRZhpump",
+    "sym": "Optimus",
+    "dex": "pumpfun",
+    "mc": 19809.32,
+    "liq": null,
+    "age_h": 3.18,
+    "h1": 20.8,
+    "m5": 1.08,
+    "buys": 27,
+    "sells": 12,
+    "buys_h": 27
+  },
+  {
+    "mint": "DkKywKToJSbMFzWDU79Lga9CjMhX6NWfMgkQurQZpump",
+    "sym": "ELON-SAN",
+    "dex": "pumpswap",
+    "mc": 80960,
+    "liq": 24737.09,
+    "age_h": 2.21,
+    "h1": 3.54,
+    "m5": -5.62,
+    "buys": 580,
+    "sells": 351,
+    "buys_h": 580
+  }
+]

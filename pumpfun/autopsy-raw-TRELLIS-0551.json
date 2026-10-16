@@ -1,0 +1,244 @@
+{
+  "rc_excerpt": {
+    "mint": "4VucxZWxDstE6at1ZhpjkDYfBejPcaHoKfupHzV4pump",
+    "creator": "6DA4Y7LG42rugmcPGMmT1J8d6Z8yrsQ6qzJ7G2H6taZa",
+    "creatorBalance": 0,
+    "score": 1,
+    "totalHolders": 561,
+    "graphInsidersDetected": 0,
+    "insiderNetworks": null,
+    "topHolderPcts": [
+      37.506,
+      2.762,
+      2.275,
+      2.067,
+      2.041,
+      1.881,
+      1.588,
+      1.586,
+      1.426,
+      1.421,
+      1.321,
+      1.316,
+      1.288,
+      1.272,
+      1.259,
+      1.251,
+      1.232,
+      1.226,
+      1.136,
+      1.087
+    ],
+    "tokenMeta": {
+      "name": "trellistools",
+      "symbol": "TRELLIS",
+      "uri": "https://ipfs.io/ipfs/bafkreih5igprw3mtnhqyn5qyz2mql5ecjabh3m2matuv72bbc5xacgt7jm",
+      "mutable": false,
+      "updateAuthority": "11111111111111111111111111111111"
+    },
+    "fileMeta": {
+      "description": "",
+      "name": "trellistools",
+      "symbol": "TRELLIS",
+      "image": ""
+    },
+    "markets_lp": {
+      "baseMint": "4VucxZWxDstE6at1ZhpjkDYfBejPcaHoKfupHzV4pump",
+      "quoteMint": "So11111111111111111111111111111111111111112",
+      "lpMint": "11111111111111111111111111111111",
+      "quotePrice": 106.39745524466211,
+      "basePrice": 1.5222135570937303e-05,
+      "base": 168162919.769889,
+      "quote": 41.842590028,
+      "reserveSupply": 41842590028,
+      "currentSupply": 0,
+      "quoteUSD": 4451.945099824875,
+      "baseUSD": 2559.7987627419034,
+      "pctReserve": 0,
+      "pctSupply": 0,
+      "holders": null,
+      "totalTokensUnlocked": 0,
+      "tokenSupply": 0,
+      "lpLocked": 41842590028,
+      "lpUnlocked": 0,
+      "lpLockedPct": 100,
+      "lpLockedUSD": 7011.743862566778,
+      "lpMaxSupply": 0,
+      "lpCurrentSupply": 0,
+      "lpTotalSupply": 41842590028
+    },
+    "totalMarketLiquidity": 7011.743862566778,
+    "rugged": false,
+    "mintAuthority": null,
+    "freezeAuthority": null
+  },
+  "dex": {
+    "chainId": "solana",
+    "dexId": "pumpfun",
+    "url": "https://dexscreener.com/solana/ffjw94kd7ddc6dasfdoxuqc2estc6rniz6p6ptswbgmf",
+    "pairAddress": "FfjW94KD7dDc6DasFDoxUQC2EsTc6RNiz6p6PtswbGMf",
+    "baseToken": {
+      "address": "4VucxZWxDstE6at1ZhpjkDYfBejPcaHoKfupHzV4pump",
+      "name": "trellistools",
+      "symbol": "TRELLIS"
+    },
+    "quoteToken": {
+      "address": "So11111111111111111111111111111111111111112",
+      "name": "Wrapped SOL",
+      "symbol": "SOL"
+    },
+    "priceNative": "0.0000001441",
+    "priceUsd": "0.00001532",
+    "txns": {
+      "m5": {
+        "buys": 208,
+        "sells": 162
+      },
+      "h1": {
+        "buys": 1303,
+        "sells": 959
+      },
+      "h6": {
+        "buys": 1303,
+        "sells": 959
+      },
+      "h24": {
+        "buys": 1303,
+        "sells": 959
+      }
+    },
+    "volume": {
+      "h24": 105483.17,
+      "h6": 105483.17,
+      "h1": 105483.17,
+      "m5": 15993.54
+    },
+    "priceChange": {
+      "m5": -46.74,
+      "h1": 367,
+      "h6": 367,
+      "h24": 367
+    },
+    "fdv": 15321.91,
+    "marketCap": 15321.91,
+    "pairCreatedAt": 1792142557000
+  },
+  "funders": {
+    "FkCXpYrpXKH2fYEkr5K6ZMw8H1itoupSwL9kth6Pn5SK": {
+      "pct": 2.76,
+      "ntx": 1000,
+      "oldest": 1791050284,
+      "funder": null
+    },
+    "EsM56zsTpZN54WjuFNDVRckz5KDLM7QqDKScZY15M3eZ": {
+      "pct": 2.28,
+      "ntx": 1000,
+      "oldest": 1791978758,
+      "funder": null
+    },
+    "GJuqhGQoYCi8NHrpUWncBPmN2vUAcsk8QtjBPr8JhA3S": {
+      "pct": 2.07,
+      "ntx": 1000,
+      "oldest": 1791843099,
+      "funder": null
+    },
+    "FwTNw9bPQqJXtJu9agzSqnMRHscNaB2kFApaKbzaLn3E": {
+      "pct": 2.04,
+      "ntx": 1000,
+      "oldest": 1790010356,
+      "funder": null
+    },
+    "8G7v2eRFi92AnXDXufUdeLx5bJxWX3pxxbohBaFyGj4U": {
+      "pct": 1.88,
+      "ntx": 1000,
+      "oldest": 1790617869,
+      "funder": null
+    },
+    "H8UTeeuxFKUo63MGaZJBkGsNPDeAe5CSgf6jNsqQmuMV": {
+      "pct": 1.59,
+      "ntx": 1000,
+      "oldest": 1792120371,
+      "funder": null
+    },
+    "Gig8t5vxNxZ4e2Xrru6ctQT3TqxXW9vxzEZFvY7Z6xGN": {
+      "pct": 1.59,
+      "ntx": 1000,
+      "oldest": 1790275809,
+      "funder": null
+    },
+    "AQBbMy8KWEx7YZVZ7TKYVBRaNr8TJPR45x3RTZqHYjT2": {
+      "pct": 1.43,
+      "ntx": 1000,
+      "oldest": 1791816351,
+      "funder": null
+    },
+    "8DS3p2UTuEiNK5XywKdaZUYNkPQNUncFA1Aqh7vx5qDR": {
+      "pct": 1.42,
+      "ntx": 1000,
+      "oldest": 1791321893,
+      "funder": null
+    },
+    "FZU56d9iPqohXM5XBrYYBZLi2UoUnZT4V5Qf2631tEzb": {
+      "pct": 1.32,
+      "ntx": 1000,
+      "oldest": 1792113978,
+      "funder": null
+    },
+    "48hCEL82ei8bbcZVCTX5NU2nCLJ1TuCS7FjoKTNxdq2j": {
+      "pct": 1.32,
+      "ntx": 1000,
+      "oldest": 1790627501,
+      "funder": null
+    },
+    "DgxwnPrR3VDimrdXtyTSFidgmWN1VYpYX8n26nzaWjWC": {
+      "pct": 1.29,
+      "ntx": 315,
+      "oldest": 1790501585,
+      "funder": null
+    }
+  },
+  "summary": {
+    "tag": "0551",
+    "symbol": "TRELLIS",
+    "safe": "TRELLIS",
+    "mint": "4VucxZWxDstE6at1ZhpjkDYfBejPcaHoKfupHzV4pump",
+    "verdict": "FAIL",
+    "fails": [
+      "creatorBal 0 (dev sold/out)",
+      "19\u00d7 wallets in 1\u20135% band (sniper/distribution pattern)",
+      "no socials on DexScreener; empty RC description",
+      "botty churn ~2262 tx/h on ~$15,322 mc",
+      "m5 -46.74% dumping"
+    ],
+    "age_h": 0.58,
+    "mc": 15321.91,
+    "h1": 367,
+    "m5": -46.74,
+    "dexId": "pumpfun",
+    "phase": "pumpfun/curve ~49.2%",
+    "creator": "6DA4Y7LG42rugmcPGMmT1J8d6Z8yrsQ6qzJ7G2H6taZa",
+    "creatorBal": 0.0,
+    "creatorBal_pct": 0.0,
+    "band_1_5": 19,
+    "top10_ex_curve_pct": 18.37,
+    "socials": {
+      "dex": [],
+      "websites": []
+    },
+    "rugScore": 1,
+    "score_normalised": 1,
+    "risks": [],
+    "graphInsiders": 0,
+    "insiderNetworks": null,
+    "cabal_hits": [],
+    "txh1": {
+      "buys": 1303,
+      "sells": 959
+    },
+    "volh1": 105483.17,
+    "totalHolders": 561,
+    "curve_quote_sol": 41.842590028,
+    "curve_pct_approx": 49.2,
+    "structure_notes": "2.76 FkCXpYrp ntx 1000 age_h 304.0 funder None\n2.28 EsM56zsT ntx 1000 age_h 46.1 funder None\n2.07 GJuqhGQo ntx 1000 age_h 83.7 funder None\n2.04 FwTNw9bP ntx 1000 age_h 592.8 funder None\n1.88 8G7v2eRF ntx 1000 age_h 424.1 funder None\n1.59 H8UTeeux ntx 1000 age_h 6.7 funder None\n1.59 Gig8t5vx ntx 1000 age_h 519.1 funder None\n1.43 AQBbMy8K ntx 1000 age_h 91.2 funder None\n1.42 8DS3p2UT ntx 1000 age_h 228.5 funder None\n1.32 FZU56d9i ntx 1000 age_h 8.5 funder None\n1.32 48hCEL82 ntx 1000 age_h 421.4 fu"
+  }
+}

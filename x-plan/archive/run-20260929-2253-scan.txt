@@ -1,0 +1,18 @@
+X reply-responder scan report
+Timestamp ET: 2026-09-29 22:53
+Account confirmed: @P7RIM3 (user ID 1995219682186452992)
+NEW_COUNT: 0
+
+New candidates:
+- none
+
+Posted replies:
+- none
+
+Flags:
+- none
+
+Observed All notifications after refresh: newest inbound reply card was the known @Cobra17298328 card (~1 hour old); newer cards were likes only and ignored. Other visible inbound cards (@juneauxwhoitis, @FiresOfTruth, @grok) were known/already handled and older than cutoff.
+Mentions after refresh: matched the same known cards; no new unreplied mention.
+Blockers: none (no login, captcha, or rate-limit encountered).
+Trending: skipped; extras_full (daily breaking-extra cap already 3/3).

@@ -1,0 +1,38 @@
+[
+ {
+  "symbol": "SOCKSS",
+  "name": "sockss",
+  "mint": "Egk3cjzrq86WF1hxL7SzcKiiTDghMXb7y1BKueQHpump",
+  "mc": 48755,
+  "age_h": 0.51,
+  "h1": 8.75,
+  "m5": 13.24,
+  "h24": 8.75,
+  "buys": 508,
+  "sells": 404,
+  "vol_h1": 192629.26,
+  "dex": "pumpswap",
+  "liq": 17358.59,
+  "url": "https://dexscreener.com/solana/dv3nad8jpzgm6nrkjuv3zig7bpqea17ubfpkwq2eke1s",
+  "pairCreatedAt": 1792155596000,
+  "tag": "NEW"
+ },
+ {
+  "symbol": "EI",
+  "name": "European Intelligence",
+  "mint": "8qGJc7sPvmS9Bs26ni2D67KxH97w989kuxr7Tc98pump",
+  "mc": 22945.45,
+  "age_h": 0.59,
+  "h1": 629,
+  "m5": -0.91,
+  "h24": 629,
+  "buys": 1235,
+  "sells": 804,
+  "vol_h1": 96558.18,
+  "dex": "pumpfun",
+  "liq": null,
+  "url": "https://dexscreener.com/solana/4fcsmcqeikp5aaud2sdauc5ziaywuzrpcqfjqbbsd8pv",
+  "pairCreatedAt": 1792155288000,
+  "tag": "NEW"
+ }
+]

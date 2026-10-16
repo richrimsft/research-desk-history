@@ -1,0 +1,11 @@
+$ python3 funnel.py
+wallets scanned ............................ 5,916
+  with 10+ resolved bets ................... 5,350
+'never lose' (raw /closed-positions) ....... 1,808
+'never lose' after counting dead bets ...... 315
+  ...and full history visible (<1,000 cap) . 7
+  ...of those, 95c+ 'penny pickers' ........ 4
+median win rate  raw 85%  ->  corrected 55%
+wallets in profit raw 4,816  ->  corrected 3,888
+'never lose' wallets that flipped .......... 1,493  (hidden losses $560M)
+wallets capped at 1,000 closed rows ........ 2,119

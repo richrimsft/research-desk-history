@@ -1,0 +1,27 @@
+$ rea decompile /workspace/re/crackme/target/crackme 0x101179 --provider ghidra --json | jq -r '.evidence_id, .normalized_result'
+ev_3da1294c62a02ec17d68deb1457214ec7597c5700cd4f186d91ba102d8cb2a87
+
+undefined8 FUN_00101179(char *param_1)
+
+{
+  size_t sVar1;
+  undefined8 uVar2;
+  ulong local_10;
+  
+  sVar1 = strlen(param_1);
+  if (sVar1 == 0xc) {
+    for (local_10 = 0; local_10 < 0xc; local_10 = local_10 + 1) {
+      if ((byte)(param_1[local_10] ^ 0x2aU) != (&DAT_00102008)[local_10]) {
+        return 0;
+      }
+    }
+    uVar2 = 1;
+  }
+  else {
+    uVar2 = 0;
+  }
+  return uVar2;
+}
+
+
+

@@ -1,0 +1,145 @@
+[
+  {
+    "sym": "DarkStar",
+    "name": "OG Roadster",
+    "mint": "9JYbTj84nzPQrS3zpkNGdwDRmmDA6i6wVaEtu1x5pump",
+    "dex": "pumpfun",
+    "mc": 23202.46,
+    "age": 3.93,
+    "h1": 6.83,
+    "m5": 24.16,
+    "buys": 145,
+    "sells": 101,
+    "socials": [
+      {
+        "url": "https://x.com/dddddddddBa/status/2110916701332390296",
+        "type": "twitter"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tesla_Roadster_(first_generation)",
+        "label": "Website"
+      }
+    ]
+  },
+  {
+    "sym": "RL",
+    "name": "Roadster League",
+    "mint": "DRNqV2V6WxjjgDqa4tgf1KfpsGLDNSvraSc9k6L9pump",
+    "dex": "pumpfun",
+    "mc": 15260.89,
+    "age": 0.43,
+    "h1": 329,
+    "m5": -30.18,
+    "buys": 509,
+    "sells": 405,
+    "socials": [
+      {
+        "url": "https://x.com/tr1nkt/status/2110962924030480670?s=20",
+        "type": "twitter"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://roadsterleague.online/",
+        "label": "Website"
+      }
+    ]
+  },
+  {
+    "sym": "SXTR",
+    "name": "SpaceX Tesla Roadster",
+    "mint": "GU3JGZr26TXN6TUhWoMurimGbB4fFFW13774bXEipump",
+    "dex": "pumpswap",
+    "mc": 311021,
+    "age": 2.07,
+    "h1": 3.11,
+    "m5": 33.01,
+    "buys": 5954,
+    "sells": 2194,
+    "socials": [
+      {
+        "url": "https://x.com/SpaceXRoadster",
+        "type": "twitter"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://stroadster.space/",
+        "label": "Website"
+      }
+    ]
+  },
+  {
+    "sym": "FR",
+    "name": "Flying Rizo",
+    "mint": "CB5k84Kyue6WR8Uh3iPJuzbVVhmXDqnGT2UR8Tmcpump",
+    "dex": "pumpfun",
+    "mc": 13161.54,
+    "age": 0.4,
+    "h1": 330,
+    "m5": -42.14,
+    "buys": 393,
+    "sells": 323,
+    "socials": null,
+    "websites": null
+  },
+  {
+    "sym": "dih",
+    "name": "dog in helmet",
+    "mint": "D7FuQ8bPxLLSDS3pubBkG2cSStrm3raeAJ9rPTevpump",
+    "dex": "pumpfun",
+    "mc": 14382.03,
+    "age": 0.46,
+    "h1": 315,
+    "m5": -22.24,
+    "buys": 340,
+    "sells": 275,
+    "socials": null,
+    "websites": null
+  },
+  {
+    "sym": "PVSN",
+    "name": "Parivision",
+    "mint": "edWxH37cPRotq8NqN3TAmSE2VdLZ9bPwpMLoNEmpump",
+    "dex": "pumpswap",
+    "mc": 80186,
+    "age": 0.72,
+    "h1": 92.75,
+    "m5": 43.02,
+    "buys": 5906,
+    "sells": 5118,
+    "socials": [
+      {
+        "url": "https://x.com/ParivisionHQ",
+        "type": "twitter"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://parivision.xyz/",
+        "label": "Website"
+      }
+    ]
+  },
+  {
+    "sym": "ERIC",
+    "name": "Elons Pet Goldfish",
+    "mint": "DuaSA2YynBhqyW26n48EX7qtdRWKHtnVjR8fsE5spump",
+    "dex": "pumpfun",
+    "mc": 20790.05,
+    "age": 0.57,
+    "h1": 445,
+    "m5": -13.73,
+    "buys": 569,
+    "sells": 389,
+    "socials": [
+      {
+        "url": "https://x.com/i/communities/2030601718241874288",
+        "type": "twitter"
+      }
+    ],
+    "websites": []
+  }
+]

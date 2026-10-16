@@ -1,0 +1,7 @@
+$ rea trace $PWD/target/crackme 'Wrong password' --provider ghidra --json | jq -c '.evidence_id, .confidence, .normalized_result.matches[], (.normalized_result.references[] | {from: .source_address, in_function: .containing_procedure.procedure.address, name: .containing_procedure.procedure.name})'
+"ev_942e2d33a8fee45c77a2e18f5663a4676b8acfcc6022adfb46475c85526f4d4c"
+"derived"
+{"type":"string","address":"0x102046","value":"Wrong password. Try again."}
+{"from":"0x101276","in_function":"0x1011f5","name":"FUN_001011f5"}
+{"from":"0x10127d","in_function":"0x1011f5","name":"FUN_001011f5"}
+

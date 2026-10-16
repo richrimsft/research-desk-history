@@ -1,0 +1,12 @@
+<!doctype html><meta charset=utf-8><body><p><em>(A) REA docs: &quot;Start setup&quot;, the reviewed setup transaction | (B) Real capture: rea setup --client cursor --client claude_code --dry-run</em></p>
+<ol>
+<li><strong>Check Node:</strong> <code>node --version</code> must print v22.19+, v24.11+ or v26+.</li>
+<li><strong>Run guided setup:</strong> <code>npx rea-agents setup</code>. The docs say: <em>"Choose the agents to configure, review the proposed paths and changes, and approve the plan."</em> npm's download prompt and REA's own approval are separate. Setup <em>"asks before changing agent configuration or installing Hopper"</em> and makes backups of existing config. To pin the newest release, use <code>npx rea-agents@latest setup</code>.</li>
+<li><strong>Restart the agents</strong> named in the completion message.</li>
+<li><strong>(Optional) Install the CLI for regular use:</strong> <code>npm install --global rea-agents</code>, then <code>rea --help</code>. The docs also describe an optional curl wrapper (<code>curl -fsSL https://raw.githubusercontent.com/morluto/rea/main/install.sh | bash</code>). It only installs the global npm package, and <code>bash -s -- --dry-run</code> previews what it would do.</li>
+<li><strong>(Optional, for native binaries) Add Ghidra.</strong> REA <em>"connects to an existing Ghidra installation"</em>. It never downloads Ghidra or Java for you. See §4.3.</li>
+<li><strong>Check readiness for your actual task, not everything:</strong> <code>rea doctor --provider ghidra --json</code>. Without a scope, <code>rea doctor</code> audits every integration, and <em>"its overall <code>healthy</code> value can be false while your chosen workflow works."</em></li>
+</ol>
+<p>If you want to see what setup would change before it touches anything, there's a read-only plan mode. Here's mine for Cursor plus Claude Code: <code>status: planned</code>, <code>appliedActions: []</code>, nothing written.</p>
+<p>It shows the exact files it would write: <code>~/.cursor/mcp.json</code> and <code>~/.claude.json</code> for the MCP registrations, plus the skill under <code>~/.agents/skills/</code> and <code>~/.claude/skills/</code>. It also picked up my Ghidra and JDK paths to add to the registration environment.</p>
+<h2>4.3 Ghidra on Linux (what I ran)</h2></body>

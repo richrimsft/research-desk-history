@@ -1,0 +1,24 @@
+LIVE X NOTIFICATIONS SCAN
+SCAN_STARTED 2026-09-30T21:39:45-0400
+CUTOFF 2026-09-30T21:26:29-04:00
+ACCOUNT @P7RIM3
+HELD_CHECK none pending; Optimus/Arnold already posted; 0hour cancelled
+ALL https://x.com/notifications
+ALL_BADGE none visible
+ALL_NEW_COUNT 0
+ALL_RESULT The newest item was a 16-minute-old likes-only notification from Brian Edward and B Laidlaw, P.I., which is before the cutoff and ignored. Other visible items were older than cutoff.
+MENTIONS https://x.com/notifications/mentions
+MENTIONS_NEW_COUNT 0
+MENTIONS_RESULT Newest visible mention was @MadamHaus at 49 minutes, older than cutoff and a 0hour GIF; no new mention.
+ITEM_CONSIDERED @BrianEdwardMKE + @laidlaw76 | likes-only notification, 16m, before cutoff | SKIP_LIKES_ONLY_OLD
+ITEM_CONSIDERED @MadamHaus | https://x.com/MadamHaus/status/2105460336006672836 | 49m, replying to @P7RIM3 and @__0HOUR1_, GIF/0hour | SKIP_0HOUR_CANCELLED_OLD
+ITEM_CONSIDERED @mom_agency_ | liked original, 1h | SKIP_LIKES_ONLY_OLD
+ITEM_CONSIDERED @DrumondArt | https://x.com/DrumondArt/status/2105451230445154557 | 1h, repeated emoji spam | SKIP_EMOJI_SPAM_OLD
+ITEM_CONSIDERED @stonkspark | https://x.com/stonkspark/status/2105435508927005103 | 2h, already handled | SKIP_ALREADY_HANDLED_OLD
+ITEM_CONSIDERED @SafetyNotorious | https://x.com/SafetyNotorious/status/2105431749333602704 | 2h, abuse/slur quote | FLAG_ABUSE_NO_ENGAGE_OLD
+ITEM_CONSIDERED @GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | 3h, already handled | SKIP_ALREADY_HANDLED_OLD
+ITEM_CONSIDERED @zebralife2002 | https://x.com/zebralife2002/status/2105361123503440350 | 7h, already handled | SKIP_ALREADY_HANDLED_OLD
+ITEM_CONSIDERED @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105343324580143460 | 8h, over two beats | SKIP_OVER_TWO_BEATS_OLD
+REPLY none | no actionable new reply or mention; no posts made
+ORIGINALS_FINAL all slots already DONE — 0 originals this run
+SCREENSHOTS /workspace/x-plan/run-20260930-2139-notifications.png ; /workspace/x-plan/run-20260930-2139-mentions.png

@@ -1,0 +1,42 @@
+X notification scan report
+Run: 2026-09-30 17:01 ET
+Cutoff: 2026-09-30T16:57:57-04:00
+Account confirmation: Signed in; sidebar visibly showed P7RIM3 / @P7RIM3.
+
+Scanned:
+- All: https://x.com/notifications
+- Mentions: https://x.com/notifications/mentions
+
+NEW_COUNT: 0
+No inbound reply/mention card newer than the cutoff. No replies posted.
+
+Visible reply/mention cards (all OLD; no action):
+1. @zebralife2002, about 2h, https://x.com/zebralife2002/status/2105361123503440350
+   Text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+   Action: Skip; known-old and already handled.
+2. @KittyMcfeisty2, about 3h, https://x.com/KittyMcfeisty2/status/2105343324580143460
+   Text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh [quoted post text visible]
+   Action: Skip; known-old.
+3. @KittyMcfeisty2, about 4h, https://x.com/KittyMcfeisty2/status/2105339423638651351
+   Text: 🙄 🤦‍♀️
+   Action: Skip; known-old.
+4. @KittyMcfeisty2, about 4h, https://x.com/KittyMcfeisty2/status/2105333564132712947
+   Text: What’s new is this shit needs to stop. Beyond ridiculous
+   Action: Skip; known-old; Kitty thread already had two beats.
+5. @Cobra17298328, about 19h, https://x.com/Cobra17298328/status/2105112514090402040
+   Text: I can’t see what this bitch is saying, cause he immediately blocked me
+   Action: Skip; known-old.
+6. @juneauxwhoitis, about 20h, https://x.com/juneauxwhoitis/status/2105094896663371987
+   Text: Overflowing with perceptions you are!
+   Action: Skip; known-old.
+7. @FiresOfTruth, about 21h, https://x.com/FiresOfTruth/status/2105080875058704611
+   Text: Check the link in my bio to watch a film I made with darcy
+   Action: Skip; old promo/bio-link; no reply.
+
+Ignored non-candidates visible in All: a like notification on our reply (about 4m) and a follow notification (about 2m), per instructions.
+
+Posted replies: none.
+Flags: none.
+Screenshots:
+- /workspace/x-plan/run-20260930-1700-notifications.png
+- /workspace/x-plan/run-20260930-1700-mentions.png

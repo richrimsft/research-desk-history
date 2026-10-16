@@ -1,0 +1,45 @@
+X Explore read-only trend check
+Timestamp: 2026-09-29 18:05 ET (UTC-4)
+Account: @P7RIM3
+Source: https://x.com/explore/tabs/trending and https://x.com/explore/tabs/news
+No interactions performed; no posts/likes/follows/reposts/replies/DMs/settings changes.
+
+TRENDING TAB (visible order; rank is approximate, excluding the promoted card "SENSE AND SENSIBILITY")
+1. Austin Riley — Sports; "Trending with Braves, Duran".
+2. Jack Smith — Politics; "Trending with Schmitt, Atlanta Hawks".
+3. Super Intelligence — Trending in United States; no subtitle shown.
+4. #OlandriaxPFWSS27 — Fashion & beauty; "Trending with #OlandriaxRevolveMag".
+5. Bryan King — Sports; no subtitle shown.
+6. Astros — Sports; no subtitle shown.
+7. White Sox — Sports; "Trending with Sam Antonacci".
+8. Dots — Technology; "Trending with OpenAI".
+9. Chris Sale — Sports; no subtitle shown.
+10. #RTXON — Trending in United States; no subtitle shown.
+11. Ullola — Sports; no subtitle shown.
+12. #Postseason — Sports; "Trending with Yankees".
+13. Hagen Smith — Sports; no subtitle shown.
+14. Trea Turner — Sports; "Trending with Ozzie".
+15. Acuna — Sports; "Trending with Ozzie, JT Realmuto".
+
+Additional visible items immediately below the top 15: Odell (Sports), Espada (Sports), Luzardo (Sports), Caleb Flynn (Entertainment; trending with American Idol), Blubaugh (Sports), #ChopOn (Sports), Talmud (Politics), Peacock (Sports), Hawley (Politics), Dombrowski (Sports), Man City (Sports; trending with Manchester City), #CarolinaCulture (Sports), Wolfman Jack (Entertainment), Savannah (U.S.), Rat King (U.S.).
+
+Explore/For You context also visible: Today's News cards included "Mysterious Streak Sparks UFO Talk in Starship Livestream" (17 hours ago, Other, ~2.2K posts), "Geoid Model Reveals Earth's Subtle Gravity Shape" (19 hours ago, News, ~849 posts), and "Marco Rubio Unveils Redesigned 2028 U.S. Passport with Patriotic Flair" (trending now, Other, ~21K posts). A For You post was about OpenAI announcing Dots and SpaceXAI buying Dot.com (highly viral post; not treated as verified news).
+
+NEWS TAB (5 distinct top story cards visible; first 5 in order)
+1. OpenAI Unveils Dots Always-On AI Agents at DevDay — Trending now · News · ~11K posts (right rail showed ~11.5K).
+2. Grok Imagine Releases AI-Generated Odyssey Pilot in 15 Days — Trending now · News · 176 posts.
+3. Mysterious Streak Sparks UFO Talk in Starship Livestream — 17 hours ago · Other · ~2.2K posts.
+4. Starship Reaches Orbit and Deploys Starlink Satellites on Historic Flight — 22 hours ago · Other · ~57K posts.
+5. Flexport CEO Spots Massive Mystery Object Towed Off Long Beach — 22 hours ago · Other · 723 posts.
+
+News-tab trend list below those cards also showed: Higgsfield (Technology), ShinyHunters (Politics), Pass the Save Act (Politics), Uptober (Business and finance), OpenAI DevDay (Technology), HOOD Summit (Business and finance), Chainlink (Business and finance), Honduras (Politics), Rubio (Politics), Andy Burnham (Politics), Fauci (Politics), Walmart (Business and finance), MAHA (Politics), Starmer (Politics), Tibo (Technology), Vote Red (Politics), Labour (Politics), Candace (News), Arkansas (Politics), Pass the Save America Act (Politics), TradingView (Business and finance), Talmud (Politics).
+
+JUDGMENT FOR @P7RIM3 (no posting done)
+Most relevant candidates:
+- OpenAI Dots / OpenAI DevDay — strongest agentic-AI fit; very active (~11K posts), but likely already covered today as OpenAI Australia agent breach is a different story. Verify the Dots announcement before any future post.
+- Anthropic–SpaceX compute agreements — appeared in the Today’s News rail as "Anthropic discloses up to $84.5 billion compute agreements with SpaceX through 2029 in IPO prospectus" (~729 posts); strong AI + space crossover, but headline is unusually large and needs primary-source verification.
+- Geoid Model Reveals Earth's Subtle Gravity Shape — smaller (~849 posts) but direct science/OSINT explainer fit; good candidate if source checks out.
+- Flexport CEO mystery object towed off Long Beach — ~723 posts; possible OSINT/viral-claim fact-check angle, but requires identifying the object before amplification.
+- Grok Imagine Odyssey pilot — AI-generated media/tech launch angle (~176 posts); lower volume, but potentially worth checking for a concrete demo or claim.
+
+Already covered today and therefore not recommended as duplicates: OpenAI Australia agent breach; Starship Flight 14 pale blue streak.

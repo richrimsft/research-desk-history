@@ -1,0 +1,124 @@
+[
+  {
+    "symbol": "Chase",
+    "mint": "9TXNTWV5v7M3Ch4bBVFNknXJGaJTW2NQDMKkuD3vSLEm",
+    "mc": 9344013,
+    "age_h": 1.02,
+    "tag": "PRIOR",
+    "note": "prior FAIL stands"
+  },
+  {
+    "symbol": "ElonThrust",
+    "mint": "pFibPnQk8ekCCtuBoQFJqeJjHVo92dAME3uH8A4pump",
+    "mc": 1352757,
+    "age_h": 2.36,
+    "tag": "PRIOR",
+    "note": "prior FAIL stands"
+  },
+  {
+    "symbol": "Irene",
+    "mint": "NqZaNi1v6qjFeyRyMpXFWnebBx47tTu5WcWQAwtRWGU",
+    "mc": 118248,
+    "age_h": 1.04,
+    "tag": "PRIOR",
+    "note": "prior FAIL stands"
+  },
+  {
+    "symbol": "Deer",
+    "mint": "4tf5GEXU1dt7Vfj21oCu4P96ZEKEm3zMYqpzZsoCDeer",
+    "mc": 103234,
+    "age_h": 3.33,
+    "tag": "PRIOR",
+    "note": "prior FAIL stands"
+  },
+  {
+    "symbol": "Irene",
+    "mint": "5j7gTphd94qDXTft1ccXZZqdZo19dinTz4aFyJBXnEUY",
+    "mc": 65628,
+    "age_h": 1.86,
+    "tag": "PRIOR",
+    "note": "prior FAIL stands"
+  },
+  {
+    "symbol": "Irene",
+    "mint": "Aoh85TCPn6yYuumHhDi7tJoTT3x3pCvWLqcaa8A6J5rm",
+    "mc": 44629,
+    "age_h": 1.44,
+    "tag": "PRIOR",
+    "note": "prior FAIL stands"
+  },
+  {
+    "symbol": "LULU",
+    "mint": "8DQzWohFEMWruKUC5G2hEgBcs4bhJ1y7oJuyxZHpump",
+    "mc": 25263.97,
+    "age_h": 3.96,
+    "tag": "PRIOR",
+    "note": "prior FAIL stands"
+  },
+  {
+    "symbol": "SocialFrnk",
+    "mint": "62tKjqdvzKrNHb8KrugUFUmKSC291sWHkp1RGbeipump",
+    "mc": 12952.59,
+    "age_h": 3.48,
+    "tag": "PRIOR",
+    "note": "prior FAIL stands"
+  },
+  {
+    "symbol": "FTR",
+    "mint": "BPVUcKX5ASPNsAFnBqByBHkfVc9ysQj7ZmSsFAmapump",
+    "mc": 10879.71,
+    "age_h": 0.53,
+    "tag": "PRIOR",
+    "note": "prior FAIL stands"
+  },
+  {
+    "symbol": "BDOG",
+    "mint": "G6NnKQTgN7Dmo9yrJXwoqiDm35FznQmQ1qXVFAXPpump",
+    "mc": 10846.53,
+    "age_h": 3.41,
+    "tag": "PRIOR",
+    "note": "prior FAIL stands"
+  },
+  {
+    "symbol": "Bear",
+    "mint": "7SEiMSG9q3qx7v3uTvnCexpkeXH6XC3JjyhMf2mzpump",
+    "mc": 20283.35,
+    "age_h": 0.06,
+    "verdict": "FAIL_PRESCREEN",
+    "reasons": [
+      "creatorBal 0",
+      "19x 1-5% band on top holders (404 holders)",
+      "too young (<30m) \u2014 do not buy",
+      "no socials/links in RC"
+    ]
+  },
+  {
+    "symbol": "Fukols",
+    "mint": "CWiMxtn8rcnTEiBTe2izmTCu7m14XpfgEnVUTDVppump",
+    "mc": 12316.72,
+    "age_h": 0.18,
+    "verdict": "FAIL_PRESCREEN",
+    "reasons": [
+      "16x 1-5% band on top holders (195 holders)",
+      "too young (<30m) \u2014 do not buy",
+      "no socials/links in RC"
+    ]
+  },
+  {
+    "symbol": "FTR",
+    "mint": "BPVUcKX5ASPNsAFnBqByBHkfVc9ysQj7ZmSsFAmapump",
+    "mc": 10879.71,
+    "age_h": 0.53,
+    "verdict": "FAIL",
+    "reasons": [
+      "creatorBal 0",
+      "19x 1-5% band on top holders (299 holders)",
+      "no socials/links in RC"
+    ]
+  },
+  {
+    "symbol": "Irene",
+    "mint": "6N4BHPN8rvN2aGLKHF8XRcSdzugvcFz2s1379qUyXDbo",
+    "skip": "Irene copycat"
+  }
+]

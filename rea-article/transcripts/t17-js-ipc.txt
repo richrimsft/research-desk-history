@@ -1,0 +1,6 @@
+$ jq -r '.normalized_result.graph.nodes[] | select(.kind|test("browser-window|context-bridge|ipc-")) | [.kind, .observations[0].label, (.observations[0].properties.source_path // .observations[0].properties.side // "")] | @tsv' jsapp-evidence.json
+browser-window	BrowserWindow@6:14-8:4	main.js
+context-bridge-api	notes	
+ipc-channel	note:copy	main
+ipc-handler	note:copy	main
+

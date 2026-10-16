@@ -1,0 +1,30 @@
+X notifications-only scan report
+scanned_at: 2026-09-30T20:26:39-04:00
+cutoff: 2026-09-30T20:23:09-04:00
+account: @P7RIM3 (signed in)
+NEW_COUNT: 0
+
+Scope: Live https://x.com/notifications (All) and https://x.com/notifications/mentions. Explore/trending was not opened. No originals, likes, follows, reposts, DMs, profile/settings, bio, pin, or login changes.
+
+ALL visible reply/mention cards:
+- @DrumondArt | https://x.com/DrumondArt/status/2105451230445154557 | approx 11m | full text: "Deep mastery across fields"... followed by a long run of laughing-face emojis | reply status: 0 Replies shown (unreplied) | SKIP: older than cutoff; known emoji-laugh troll previously skipped, no substantive claim.
+- @stonkspark | https://x.com/stonkspark/status/2105435508927005103 | approx 1h | full text: "on it" | reply status: 1 Reply shown | SKIP: older than cutoff and already handled; existing reply https://x.com/P7RIM3/status/2105435757142028442.
+- @SafetyNotorious | https://x.com/SafetyNotorious/status/2105431749333602704 | approx 1h | full text: "P7RIM3 - Retard of the Day 🏆"; quote text shown: "@__0HOUR1_ more to come on this and his fake coin that spammed his followers" | reply status: 0 Replies shown; quote-only | SKIP/FLAG: old quote-only slur/troll; do not engage.
+- @GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | approx 2h | full text: image-only reply (no text rendered in notification) | reply status: 1 Reply shown | SKIP: older than cutoff and already handled; existing reply https://x.com/P7RIM3/status/2105426194468405542.
+
+MENTIONS visible reply/mention cards:
+- @DrumondArt | https://x.com/DrumondArt/status/2105451230445154557 | approx 12m | full text: "Deep mastery across fields"... followed by a long run of laughing-face emojis | reply status: 0 Replies shown (unreplied) | SKIP: older than cutoff; known emoji-laugh troll previously skipped, no substantive claim.
+- @stonkspark | https://x.com/stonkspark/status/2105435508927005103 | approx 1h | full text: "on it" | reply status: 1 Reply shown | SKIP: older than cutoff and already handled; existing reply https://x.com/P7RIM3/status/2105435757142028442.
+- @GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | approx 2h | full text: image-only reply (no text rendered in notification) | reply status: 1 Reply shown | SKIP: older than cutoff and already handled; existing reply https://x.com/P7RIM3/status/2105426194468405542.
+- @zebralife2002 | https://x.com/zebralife2002/status/2105361123503440350 | approx 6h | full text: "Your first sentence made absolutely no sense \"you guys are handing outside of a person\" I stop reading and I stopped paying attention to you at that point. Have a good day" | reply status: 1 Reply shown | SKIP: older than cutoff and already handled; existing reply https://x.com/P7RIM3/status/2105362879817925052.
+- @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105343324580143460 | approx 7h | full text: "This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh" | reply status: 0 Replies shown on this card, but thread is already over two beats | SKIP: older thread / already over two beats; no reply.
+- @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105339423638651351 | approx 7h | full text: "🙄 🤦‍♀️" | reply status: 1 Reply shown | SKIP: older thread / already over two beats.
+- @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105333564132712947 | approx 7h | full text: "What’s new is this shit needs to stop. Beyond ridiculous" | reply status: 1 Reply shown | SKIP: older thread / already over two beats.
+- @Cobra17298328 | https://x.com/Cobra17298328/status/2105112514090402040 | approx 22h | full text: "I can’t see what this bitch is saying, cause he immediately blocked me" | reply status: 1 Reply shown | SKIP/FLAG: old, already handled, and contains a slur; do not engage.
+- @juneauxwhoitis | https://x.com/juneauxwhoitis/status/2105094896663371987 | approx 23h | full text: "Overflowing with perceptions you are!" | reply status: 2 Replies shown | SKIP: older thread already at two beats.
+
+Other visible All cards were likes/reposts or unrelated notification cards and were ignored per scope. No item newer than cutoff was visible in either tab. No actionable unreplied substantive reply existed, so no reply was posted and no duplicate check/deletion was needed.
+
+Flags:
+- @SafetyNotorious quote-only slur/troll: "P7RIM3 - Retard of the Day 🏆" — skipped, do not engage.
+- @Cobra17298328 old inbound contains a slur — already handled, skipped.

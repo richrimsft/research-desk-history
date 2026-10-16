@@ -1,0 +1,67 @@
+{
+  "symbol": "ERIC",
+  "name": "Elons Pet Goldfish",
+  "creator": "8m7BMWh4D9CBLeEphtqAnmV9qEnrKCpT7BVdkdgJingB",
+  "creatorBalance": 0,
+  "score": 2846,
+  "risks": [
+    "Low Liquidity"
+  ],
+  "graphInsiders": 0,
+  "totalHolders": 337,
+  "top10_ex_curve_pct": 33.64,
+  "top10": [
+    {
+      "pct": 8.63,
+      "owner": "G5yChK2Ug6ais81mUbTWFAGCLM2gx4m3Ch1AywqpyVaE",
+      "ui": 0
+    },
+    {
+      "pct": 4.95,
+      "owner": "jpMu81arAngXLUwRXpeW8LPJGSpV8v93MSFqQYc8Ydm",
+      "ui": 49528130.082325
+    },
+    {
+      "pct": 2.82,
+      "owner": "EzbeF2bADKo6GutJyWmgodyGJFeBPhcrXSdZUXPX5WGc",
+      "ui": 28212029.916054
+    },
+    {
+      "pct": 2.8,
+      "owner": "FXZB6wnXmr15tEhojMiLoPZnmEc6fe7m8qv2uhWKUYSy",
+      "ui": 28028081.348516
+    },
+    {
+      "pct": 2.64,
+      "owner": "4GiD4YMJKDtGbaikVkjvBiYPWkgh38Svhoucc5tKovzQ",
+      "ui": 26370847.356568
+    },
+    {
+      "pct": 2.59,
+      "owner": "CSHFHeJrz24rQMvNH2zsnWrK75wTwcPMtVeRLsh6KV1y",
+      "ui": 25917979.948564
+    },
+    {
+      "pct": 2.41,
+      "owner": "11111111111111111111111111111111",
+      "ui": 0
+    },
+    {
+      "pct": 2.35,
+      "owner": "HyN7rhL2f1MTMTBe3hHqZHp8rKAmVbzHGiDfBrENRdsM",
+      "ui": 23452198.748682
+    },
+    {
+      "pct": 2.27,
+      "owner": "DbU6HCCzwRAppBb8qN7duUkAMTr4E9RzdKsz7WiSBffK",
+      "ui": 22719277.559661
+    },
+    {
+      "pct": 2.18,
+      "owner": "AokcpMFxev58Mxec2cgVQ8RKR1hPN4TRfaNJU6EnbXfo",
+      "ui": 21767299.551585
+    }
+  ],
+  "mintAuthority": null,
+  "freezeAuthority": null
+}

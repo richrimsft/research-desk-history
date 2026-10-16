@@ -1,0 +1,35 @@
+{
+ "tag": "0710",
+ "symbol": "USDC",
+ "mint": "6We2unR6HXgEdHFvb4d29XUr77sZzXk8paQaZxU9pump",
+ "name": "UpSide Down Cat",
+ "age_h": 0.61,
+ "mc": 105104,
+ "h1": 90.79,
+ "m5": -7.54,
+ "dexId": "pumpswap",
+ "phase": "pumpswap/post-grad",
+ "verdict": "FAIL",
+ "tag_role": "NEW",
+ "reasons": [
+  "USDC impersonation / copycat of Circle USDC mint (RC Copycat token warn \u2192 EPjFWdd5\u2026Dt1v); name 'UpSide Down Cat' \u2260 USDC",
+  "creatorBal 0 (burner/dev sold) \u2014 classic FAIL pattern",
+  "18\u00d71\u20135% holder band on 2080 holders \u2014 distributed band spoof",
+  "socials: X link is coinbase/status (stolen/unrelated), no real project X",
+  "post-grad chase on pumpswap after h1 +90; m5 \u22127.5 fading",
+  "skip themes include USDC impersonation"
+ ],
+ "creatorBalance": 0,
+ "rc_score": 2001,
+ "score_normalised": 29,
+ "band_1_5": 18,
+ "top10_sum_incl_pool": 32.9,
+ "graphInsiders": 0,
+ "socials": [
+  {
+   "url": "https://x.com/coinbase/status/2111027576726757726",
+   "type": "twitter"
+  }
+ ],
+ "rc_file": "rc-USDC-0710.json"
+}

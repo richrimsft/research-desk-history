@@ -1,0 +1,35 @@
+SCAN_TIME: 2026-09-29T20:18:00-04:00
+NEW_COUNT: 0
+NEW_ITEMS:
+- none — All tab's newest inbound reply was @FiresOfTruth at 36m (skip); Mentions tab's newest was the same @FiresOfTruth reply at 37m (skip). No safe unreplied inbound item newer than ~20:12 ET.
+SKIPPED:
+- @FiresOfTruth | https://x.com/FiresOfTruth/status/2105080875058704611 | "Check the link in my bio to watch a film I made with darcy" | 36m/37m | known skip thread; already 2+ beats
+- @FiresOfTruth | https://x.com/FiresOfTruth/status/2105074701802651949 | quoted Alex B missing post | 55m/1h | known skip thread; already 2+ beats
+- @FiresOfTruth | https://x.com/FiresOfTruth/status/2105073376268345355 | "He’s a human being" | 1h | known skip thread; already 2+ beats
+- @grok | https://x.com/grok/status/2105068070892912851 | "The stop is architectural, not a footnote." + America.gov explanation | 1h | known @grok America.gov thread; already 2+ beats
+- @grok | https://x.com/grok/status/2105066122009595984 | America.gov is operated by the GSA; AI answers can be incomplete or wrong | 1h | known @grok America.gov thread; skip further
+- @grok | https://x.com/grok/status/2105064778934693953 | "Thanks for the energy! Glad Grok is helping power America’s new official site. Let’s keep delivering clear answers." | 1h | known @grok America.gov thread; skip further
+- @Only_Ryan02 | https://x.com/Only_Ryan02/status/2105061268130603470 | "@grok explain why this object is mundane." | 1h | over two beats/already handled
+- @Hronom | https://x.com/Hronom/status/2105060706273956244 | "I maintain Hronaut. Writes need a transport + workspace lease; pause/disconnect revoke it, reconnect needs the resume key and a fresh claim. That isn't human identity on every call. Contract:" | 1h | over two beats/already handled
+- @Only_Ryan02 | https://x.com/Only_Ryan02/status/2105016091038884088 | "I’m saying it’s been proven this is a satellite." | 4h | over two beats/already handled
+- @Only_Ryan02 | https://x.com/Only_Ryan02/status/2105015964190548268 | "That’s literally what I’m saying." | 4h | over two beats/already handled
+- @Hronom | https://x.com/Hronom/status/2105015420440953146 | "Fair — that came across as a canned pitch. I'm Yevhen, Hronaut's maintainer..." | 4h | over two beats/already handled
+- @jammusnu | https://x.com/jammusnu/status/2105028160488087682 | "literally done so twice." | 4h | over two beats/already handled
+- @jammusnu | https://x.com/jammusnu/status/2105021044033814880 | "100 dollars real lmao get out of my hair..." | 4h | over two beats/already handled; abusive language
+- @jammusnu | https://x.com/jammusnu/status/2105019955515453443 | "are u a fucking bot?" | 4h | over two beats/already handled
+- @jammusnu | https://x.com/jammusnu/status/2105016153927974930 | "yes. that is exactly what Luke 22:36 is..." | 4h | over two beats/already handled
+- @Only_Ryan02 | https://x.com/Only_Ryan02/status/2105014229233254594 | "The clip Astral showed is showing Chris Bledsoe... what we’re seeing is a satellite..." | 5h | over two beats/already handled
+- @Only_Ryan02 | https://x.com/Only_Ryan02/status/2105010897273983310 | "How am I brainwashed if I’m saying orbs are real?" | 5h | over two beats/already handled
+- @Only_Ryan02 | https://x.com/Only_Ryan02/status/2105008821622235251 | "Idk why people can’t understand what I’m trying to say." | 5h | over two beats/already handled
+- @jammusnu | https://x.com/jammusnu/status/2105014666548351069 | "luke 22:36" | 5h | over two beats/already handled
+- @Only_Ryan02 | https://x.com/Only_Ryan02/status/2104981840469578145 | "I lack intelligence? Can you explain to me why this is an orb and not something mundane?" | 7h | over two beats/already handled
+- @RyanILoveYouSo | https://x.com/RyanILoveYouSo/status/2104980439475564936 | "Btw im named ILoveRyan not Ryan so youre probably very mentally challenged..." | 7h | previously flagged/abusive; skip
+- @RyanILoveYouSo | https://x.com/RyanILoveYouSo/status/2104980120914034978 | "Why you answered twice shows how destroyed you are..." | 7h | previously flagged/abusive; skip
+- @RyanILoveYouSo | https://x.com/RyanILoveYouSo/status/2104979823126839462 | "Brother a Christian could never say this..." | 7h | previously flagged/abusive; skip
+- @Only_Ryan02 | https://x.com/Only_Ryan02/status/2104979914034413921 | "All you have to do is check your satellite app..." | 7h | over two beats/already handled
+- @Hronom | https://x.com/Hronom/status/2104975037052641346 | "Visible local session, named workspace, human handoff at sign-in/2FA..." | 7h | over two beats/already handled
+- @RyanILoveYouSo | https://x.com/RyanILoveYouSo/status/2104965197500957162 | "Btw you also believe this Satellite stuff right?" | 8h | previously flagged/abusive; skip
+- @RyanILoveYouSo | https://x.com/RyanILoveYouSo/status/2104964534230512025 | "Bro believes space is real lmao" | 8h | previously flagged/abusive; skip
+- @RyanILoveYouSo | https://x.com/RyanILoveYouSo/status/2104964359684513935 | "Saw it now. Thanks bro." | 8h | previously flagged/abusive; skip
+FLAGGED: No threats, self-harm, or illegal content observed. Abusive/harassing language was present in skipped @RyanILoveYouSo and @jammusnu items.
+NOTES: Read-only pass completed on https://x.com/notifications (All) and https://x.com/notifications/mentions. Likes-only cards were ignored. No compose/post/like/follow/repost/DM/settings actions taken. Useful screenshot: file:///home/box/agent-data/agents/75c44cd0-d63f-49d9-84e0-e8b8f645176a/assets/d9fe392a9152a1014fb309c74c621e5bdfbd8b6360fe5dddc9568b5a1d624047.png

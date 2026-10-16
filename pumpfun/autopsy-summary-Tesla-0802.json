@@ -1,0 +1,72 @@
+{
+ "mint": "6KEm7GHTspmvVtf4qwNNDNPGqxse8UBHYttSX87apump",
+ "symbol": "Tesla",
+ "mc": 21768,
+ "age_h": 0.09,
+ "dex": "pumpfun",
+ "tag": "young_prescreen",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "creatorBal 0",
+  "RC score 6153 \u2014 Single holder ownership / High holder concentration",
+  "only 7 holders",
+  "too young (<30m) \u2014 do not buy",
+  "Tesla theme / likely narrative chase"
+ ],
+ "rc": "rc-Tesla-0802.json",
+ "score": 6153,
+ "creatorBalance": 0,
+ "creator": "CuVgtsNUTBMnTk2PF6Rjz2PaqCQ2hQNt",
+ "band_1_5": 0,
+ "top10ex_est": 0,
+ "excl_high": [
+  [
+   "8XvjAyb7nfJF",
+   51.39320286618465
+  ],
+  [
+   "83TDgHHVRa2Y",
+   48.60679713381535
+  ]
+ ],
+ "totalHolders": 7,
+ "graphInsiders": null,
+ "risks": [
+  "Single holder ownership",
+  "High holder concentration"
+ ],
+ "links_n": 1,
+ "top_holders_sample": [
+  [
+   51.39,
+   "8XvjAyb7nfJFh3oL"
+  ],
+  [
+   48.61,
+   "83TDgHHVRa2YHVJ4"
+  ],
+  [
+   0,
+   "3sbnGJmwqU5f5MQR"
+  ],
+  [
+   0,
+   "8tF8PgdP3ignQuWd"
+  ],
+  [
+   0,
+   "ACcpSm4LTRQgxW2G"
+  ],
+  [
+   0,
+   "CoVgDrdmKEPfyqso"
+  ],
+  [
+   0,
+   "D8N4hpBah9zrzJqL"
+  ]
+ ],
+ "h1": 627,
+ "m5": 627,
+ "liq": null
+}

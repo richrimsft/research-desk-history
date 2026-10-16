@@ -1,0 +1,113 @@
+{
+  "passers": [
+    {
+      "mint": "ABmp7kvhMFXEUvjq9cybBPPbrju8uv8GTQPCDbvLpump",
+      "sym": "GUILD",
+      "mc": 25476.71,
+      "age_h": 0.67,
+      "h1": 684,
+      "buys": 462,
+      "sells": 346,
+      "liq": null,
+      "dex": "pumpfun",
+      "v1": 57401.19,
+      "prior": true
+    },
+    {
+      "mint": "9JYbTj84nzPQrS3zpkNGdwDRmmDA6i6wVaEtu1x5pump",
+      "sym": "DarkStar",
+      "mc": 18392.67,
+      "age_h": 2.41,
+      "h1": 153,
+      "buys": 211,
+      "sells": 147,
+      "liq": null,
+      "dex": "pumpfun",
+      "v1": 25118.07,
+      "prior": false
+    }
+  ],
+  "near": [
+    {
+      "mint": "Eizz6UJUBmoH4CxqLR5XBRyEGfoaKeckjmsraobSpump",
+      "sym": "ROADSTER",
+      "mc": 16640,
+      "age_h": 2.19,
+      "h1": 0.38,
+      "buys": 119,
+      "sells": 90,
+      "liq": 9731.53,
+      "dex": "pumpswap",
+      "v1": 8594.1,
+      "prior": true,
+      "fail": [
+        "ch",
+        "liq"
+      ]
+    },
+    {
+      "mint": "6S7jwQuVipHuEaASAZ9Kn7r3Zy3jkebhAMFxnuWnpump",
+      "sym": "GTA",
+      "mc": 28281,
+      "age_h": 2.37,
+      "h1": -11.2,
+      "buys": 104,
+      "sells": 68,
+      "liq": 12949.78,
+      "dex": "pumpswap",
+      "v1": 9111.49,
+      "prior": true,
+      "fail": [
+        "ch"
+      ]
+    },
+    {
+      "mint": "2B69UeDAHvGLjKawjzBoKDuhk4NaPRC58Df6NCS2pump",
+      "sym": "ROADSTER",
+      "mc": 120970,
+      "age_h": 0.52,
+      "h1": 163,
+      "buys": 10026,
+      "sells": 2784,
+      "liq": 28864.71,
+      "dex": "pumpswap",
+      "v1": 379610.26,
+      "prior": true,
+      "fail": [
+        "botty"
+      ]
+    },
+    {
+      "mint": "FTbLCDt9XQUF3VnqRikkM3XNnbRMXJUPUtpra51Dpump",
+      "sym": "FLOKI",
+      "mc": 7534.25,
+      "age_h": 1.02,
+      "h1": 56.08,
+      "buys": 2349,
+      "sells": 2038,
+      "liq": null,
+      "dex": "pumpfun",
+      "v1": 175645.07,
+      "prior": false,
+      "fail": [
+        "mc"
+      ]
+    },
+    {
+      "mint": "GU3JGZr26TXN6TUhWoMurimGbB4fFFW13774bXEipump",
+      "sym": "SXTR",
+      "mc": 285333,
+      "age_h": 0.56,
+      "h1": 458,
+      "buys": 5374,
+      "sells": 2151,
+      "liq": 45299.33,
+      "dex": "pumpswap",
+      "v1": 464554.77,
+      "prior": false,
+      "fail": [
+        "botty"
+      ]
+    }
+  ]
+}

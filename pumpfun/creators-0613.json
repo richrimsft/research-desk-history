@@ -1,0 +1,57 @@
+{
+ "BOUNCER": {
+  "creator_wallet": {
+   "creator": "7atkTMsNU3rvEYhh1KC3beFJYtd7Z4PQJDVSZexKkJ1h",
+   "sol": 0.0015,
+   "ntx": 96,
+   "oldest": 1792143371,
+   "age_h": 0.68
+  },
+  "whales": [
+   {
+    "owner": "Gw3MQNQE5Fec4ifu3gRYG7na627ZXfHh5xhXein83wUo",
+    "pct": 73.59859788154212,
+    "sol": 11.687975856,
+    "ntx_sample": 20,
+    "oldest_sample": 1792144243
+   }
+  ],
+  "creatorBal": 96885035777870,
+  "score": 20791,
+  "graphInsiders": 0,
+  "totalHolders": 2063,
+  "risks": [
+   "Top 10 holders high ownership",
+   "Single holder ownership",
+   "Low Liquidity",
+   "High ownership"
+  ]
+ },
+ "Irene2": {
+  "creator_wallet": {},
+  "whales": [],
+  "creatorBal": 0,
+  "score": 11400,
+  "graphInsiders": 0,
+  "totalHolders": 2100,
+  "risks": [
+   "Large Amount of LP Unlocked",
+   "Low amount of LP Providers"
+  ]
+ },
+ "PITBULL": {
+  "creator_wallet": {
+   "creator": "8NZkwtXmLAZf8wTy7X91fBtjMzj3bKrnRLUX4k9uTFyT",
+   "sol": 0.000650254,
+   "ntx": 15,
+   "oldest": 1792138567,
+   "age_h": 2.01
+  },
+  "whales": [],
+  "creatorBal": 0,
+  "score": 1,
+  "graphInsiders": 14,
+  "totalHolders": 103,
+  "risks": []
+ }
+}

@@ -1,0 +1,144 @@
+{
+  "tag": "0946",
+  "ts": "2026-10-16T09:46:00-04:00",
+  "wallet_sol": 0.29760554,
+  "sol_usd": 105.32,
+  "est_usd": 31.35,
+  "meme_positions": false,
+  "inwindow": 2,
+  "new": 0,
+  "young": 11,
+  "decision": "NO_BUY",
+  "inwindow_priors": [
+    {
+      "symbol": "$1",
+      "mint": "5qjzEB3bUBaxqfyG1NQWXgGUwYbZyAgvFeZQo31Dpump",
+      "verdict": "FAIL_STANDS",
+      "reason": "rugged creator / structural prior"
+    },
+    {
+      "symbol": "OPTIMA",
+      "mint": "DdVXE425xZe27FhY41PR8dwfL3VczYdyJJAWDC1jpump",
+      "verdict": "FAIL_STANDS",
+      "reason": "creatorBal\u22480 + sniper bands (0720/0802/0808)"
+    }
+  ],
+  "young_autopsies": [
+    {
+      "symbol": "Audaster",
+      "mint": "3xmzHi86JTUdye7bUuT9TdBPZLeBK9nBCA44JHRdpump",
+      "verdict": "FAIL",
+      "reasons": [
+        "age 0.3h <30m \u2014 no-buy by narrative-age",
+        "creatorBalance 0 / sold out"
+      ],
+      "mc": 927601,
+      "age_h": 0.3
+    },
+    {
+      "symbol": "ETR",
+      "mint": "BALftXRKPbjbQ3h7dwQHNTRF7NH6hCiqwaLQWa5Zpump",
+      "verdict": "FAIL",
+      "reasons": [
+        "age 0.37h <30m \u2014 no-buy by narrative-age",
+        "top10ex 28.7% elevated >25%",
+        "14 wallets in tight 2.3\u20132.5% sniper band"
+      ],
+      "mc": 457727,
+      "age_h": 0.37
+    },
+    {
+      "symbol": "BROG",
+      "mint": "CUfBVs7KERYJmCZohsWEFZoZVXzV1dhNm7tteWuPpump",
+      "verdict": "FAIL",
+      "reasons": [
+        "age 0.35h <30m \u2014 no-buy by narrative-age",
+        "creatorBalance 0 / sold out"
+      ],
+      "mc": 215918,
+      "age_h": 0.35
+    },
+    {
+      "symbol": "RIBBIT",
+      "mint": "78ZBbCJkwQjXxRJJ2xv4gXU1BZvAayrvysqF4bmZpump",
+      "verdict": "FAIL",
+      "reasons": [
+        "age 0.44h <30m \u2014 no-buy by narrative-age",
+        "creatorBalance 0 / sold out",
+        "graphInsiders=9"
+      ],
+      "mc": 50506,
+      "age_h": 0.44
+    },
+    {
+      "symbol": "Twin",
+      "mint": "7Jain9Efy7C4HvGkEPkNUUiGUmgu5tkff7NWvCvGpump",
+      "verdict": "FAIL",
+      "reasons": [
+        "age 0.18h <30m \u2014 no-buy by narrative-age",
+        "creatorBalance 0 / sold out"
+      ],
+      "mc": 49751,
+      "age_h": 0.18
+    },
+    {
+      "symbol": "UMBRA",
+      "mint": "Axbj7JdzBrmqNdiQE7maSz2jrFhDnXJsWwe9NWzSpump",
+      "verdict": "FAIL",
+      "reasons": [
+        "age 0.15h <30m \u2014 no-buy by narrative-age",
+        "creatorBalance 1 raw (~0 / burner-sold)",
+        "top10ex 25.4% elevated >25%",
+        "RC score 2001 elevated",
+        "risk:Copycat token"
+      ],
+      "mc": 23695.25,
+      "age_h": 0.15
+    },
+    {
+      "symbol": "OHM",
+      "mint": "5SQvS1xguXn3KjLrFqwbH4SgVhcCnsxbZqx3XC23pump",
+      "verdict": "FAIL",
+      "reasons": [
+        "age 0.3h <30m \u2014 no-buy by narrative-age",
+        "creatorBalance 0 / sold out"
+      ],
+      "mc": 10075.15,
+      "age_h": 0.3
+    },
+    {
+      "symbol": "AI",
+      "mint": "GX1JGwFmrzgkv6MBjwZZdZt3qBcWi1d5ZuAUS3KFpump",
+      "verdict": "FAIL",
+      "reasons": [
+        "age 0.08h <30m \u2014 no-buy by narrative-age",
+        "creatorBalance 0 / sold out",
+        "graphInsiders=4"
+      ],
+      "mc": 47389,
+      "age_h": 0.08
+    },
+    {
+      "symbol": "Halloween",
+      "mint": "8y4bf1KnXxL2FavUpXHYESv75QkYLKQuqnNJ8xxbpump",
+      "verdict": "WATCH",
+      "reasons": [
+        "age 0.29h <30m \u2014 no-buy by narrative-age"
+      ],
+      "mc": 10335.67,
+      "age_h": 0.29
+    },
+    {
+      "symbol": "Konasu",
+      "mint": "93RFugk8jVwxBjAL3WY1uiGgA2UNqE9oRuHNrGMipump",
+      "verdict": "FAIL",
+      "reasons": [
+        "age 0.17h <30m \u2014 no-buy by narrative-age",
+        "creatorBalance 0 / sold out"
+      ],
+      "mc": 12321.75,
+      "age_h": 0.17
+    }
+  ],
+  "notes": "0 NEW in-window; ETR still <30m and FAIL on top10ex+sniper band; Audaster/BROG/etc creatorBal 0"
+}

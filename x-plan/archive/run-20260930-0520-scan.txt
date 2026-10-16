@@ -1,0 +1,34 @@
+@P7RIM3 X reply-responder scan
+Run: 2026-09-30 05:20 ET (approx.)
+Cutoff: 2026-09-30T05:12:17-04:00
+
+Signed-in account: @P7RIM3 (account menu showed P7RIM3 / @P7RIM3; verified badge visible).
+
+NEW_COUNT 0
+No reply/mention notification card newer than the cutoff was visible. The newest inbound-looking cards were approximately 7 hours old, so all observed items predate the cutoff.
+
+Mentions tab cards observed (all known old/handled or skipped):
+- @Cobra17298328 — ~7h — "I can’t see what this bitch is saying, cause he immediately blocked me" — https://x.com/Cobra17298328/status/2105112514090402040. Known: beat 2/2 already replied; handled reply: https://x.com/P7RIM3/status/2105113751888232511.
+- @juneauxwhoitis — ~8h — "Overflowing with perceptions you are!" — https://x.com/juneauxwhoitis/status/2105094896663371987. Known: two-beat done.
+- @FiresOfTruth — ~9h — "Check the link in my bio to watch a film I made with darcy" — https://x.com/FiresOfTruth/status/2105080875058704611. Known skip.
+- @FiresOfTruth — ~10h — quoted-post card: "Alex B is currently missing. #fishtanklive" — available linked quote URL: https://x.com/SlackerBluePod/status/2104991326282580147/photo/1; the FiresOfTruth reply URL was not exposed by the notification card. Known skip.
+- @FiresOfTruth — ~10h — "He’s a human being" — https://x.com/FiresOfTruth/status/2105073376268345355/photo/1. Known skip.
+- @grok — ~10h — "The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the america.gov" — status URL was not exposed by the notification card. Known: America.gov beat 3+.
+
+Additional older reply cards visible in All (all pre-cutoff; no new action needed):
+- @Only_Ryan02 — ~10h — "@grok explain why this object is mundane."
+- @Hronom — ~10h — "I maintain Hronaut. Writes need a transport + workspace lease; pause/disconnect revoke it, reconnect needs the resume key and a fresh claim. That isn’t human identity on every call. Contract: github.com hronaut/docs/SUPPORT_RECOVERY.md at main · hronaut/hronaut"
+- @Only_Ryan02 — ~13h — "That’s literally what I’m saying."
+- @Hronom — ~13h — "Fair — that came across as a canned pitch. I'm Yevhen, Hronaut's maintainer, and I should have engaged with your boundary point before linking a product. You're right that browser control isn't agent authority."
+- @jammusnu — ~14h — "luke 22:36"
+- @Only_Ryan02 — ~14h — "The clip Astral showed is showing Chris Bledsoe a known fraud thinking he’s summoning an orb UFO. I’m not saying UFOs or orbs don’t exist because they do. But what we’re seeing is a satellite, it looks like that due to the camera and reflections."
+- @Only_Ryan02 — ~14h — "How am I brainwashed if I’m saying orbs are real? It’s just the ones being shown here aren’t not."
+- @Only_Ryan02 — ~14h — "Idk why people can’t understand what I’m trying to say."
+- @RyanILoveYouSo — ~16h — "Btw im named ILoveRyan not Ryan so youre probably very mentally challenged. Hope you will be okay my Vaxxed little retard friend."
+- @RyanILoveYouSo — ~16h — "Why you answered twice shows how destroyed you are. Buddy you would even believe a Nasa CGI picture. I bet you watch the pictures of earth say something like ‘Damn i live there’"
+- @RyanILoveYouSo — ~16h — "Brother a Christian could never say this. I pray for you… Imagine saying youre a Christian believing in a round earth 😂 😂 😂 😂 😂 😂 😂 Damn youre actually stupid on top of being a loser. You are a false believer. I will pray for you Loser…"
+(Status URLs for these older cards were not exposed in the notification accessibility cards.)
+
+Threat/self-harm/illegal: none observed. Some old cards contained abusive/insulting language; no threat, self-harm, or illegal request/content was identified.
+
+Screenshot saved: /workspace/x-plan/last-desktop.webp (final Mentions notifications view).

@@ -1,0 +1,15 @@
+{
+  "symbol": "CCAT",
+  "mint": "D4rzv9WAXJh9QZw1MjqfrtuSrmrkV4DckPTKBoMnpump",
+  "mc": 46715,
+  "age_h": 1.38,
+  "h1": -45.88,
+  "m5": 32.28,
+  "buys_h1": 2405,
+  "decision": "FAIL stands",
+  "reasons": [
+    "prior FAIL: creatorBal 0; no project X (only @pumping_fun tweet)",
+    "post-grad collapse continues (~$47k vs ~$143k 03:05 peak, ~67% down)",
+    "m5 bounce +32% but h1 still \u221246% \u2014 not a clean hold-then-buy dip"
+  ]
+}

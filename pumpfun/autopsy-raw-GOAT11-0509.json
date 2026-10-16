@@ -1,0 +1,461 @@
+{
+  "summary": {
+    "tag": "0509",
+    "symbol": "GOAT11",
+    "safe": "GOAT11",
+    "mint": "GjkMsvYmuFR37SyKnJoD8DwccLb3HKMQBnNe5Nqbpump",
+    "verdict": "FAIL",
+    "fails": [
+      "post-grad chase: pumpswap ~$168\u2013175k only ~40m after launch (pair 04:35 ET); do not chase graduation spikes",
+      "botty volume: ~6.4k buys / 5.2k sells / ~$1.5M vol h1 on ~$170k mc (~9x churn)",
+      "cabal funder 5tzFki\u2026 hits 2 top holders (known from GALAX/POKESQUAD/Dragon)",
+      "X @GOAT11SOL near-empty: 21 followers, 5 tweets (account old but dormant/repurposed)"
+    ],
+    "age_h": 0.669,
+    "mc": 168828,
+    "h1": 292,
+    "m5": 13.51,
+    "dexId": "pumpswap",
+    "phase": "pumpswap/post-grad",
+    "creator": "BEWzEmGUFj33AvebSqUQwnG6Xab4C6Eaz9mxWU9FtP8n",
+    "creatorBal": 449588.812635,
+    "creatorBal_pct": 0.0463,
+    "band_1_5": 3,
+    "top10_ex_curve_pct": 10.61,
+    "socials": {
+      "dex": [
+        {
+          "url": "https://x.com/GOAT11SOL",
+          "type": "twitter"
+        },
+        {
+          "url": "https://t.me/GOAT11SOL",
+          "type": "telegram"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://goat11.top/",
+          "label": "Website"
+        }
+      ]
+    },
+    "rugScore": 1,
+    "score_normalised": 1,
+    "risks": [],
+    "graphInsiders": 0,
+    "cabal_hits": [
+      {
+        "funder": "5tzFki\u2026",
+        "n": 2,
+        "note": "prior GALAX/POKESQUAD/Dragon"
+      }
+    ],
+    "txh1": {
+      "buys": 6413,
+      "sells": 5198
+    },
+    "volh1": 1498914.42,
+    "totalHolders": 1468,
+    "x_account": {
+      "username": "GOAT11SOL",
+      "followers": 21,
+      "tweets": 5,
+      "created": "2014-06-09",
+      "note": "near-empty"
+    },
+    "structure_notes": "creatorBal ~0.05% OK; band_1_5=3 OK; top10_ex_pool~10.6% OK; has X/TG/site URLs but X empty; LP creator still holds unlocked LP ~22%"
+  },
+  "rugcheck_excerpt": {
+    "mint": "GjkMsvYmuFR37SyKnJoD8DwccLb3HKMQBnNe5Nqbpump",
+    "creator": "BEWzEmGUFj33AvebSqUQwnG6Xab4C6Eaz9mxWU9FtP8n",
+    "creatorBalance": 449588812635,
+    "score": 1,
+    "graphInsidersDetected": 0,
+    "rugged": false,
+    "tokenMeta": {
+      "name": "GOAT11",
+      "symbol": "GOAT11",
+      "uri": "https://ipfs.io/ipfs/bafkreifh5t7pnqwqt2g3ndadfrsju5gnxvxhrvvyafvmw6wgpg2m4oisoi",
+      "mutable": false,
+      "updateAuthority": "11111111111111111111111111111111"
+    },
+    "fileMeta": {
+      "description": "",
+      "name": "GOAT11",
+      "symbol": "GOAT11",
+      "image": ""
+    },
+    "totalHolders": 1468,
+    "risks": []
+  },
+  "topHolders": [
+    {
+      "address": "BCRAqNXzkVY5fuoPirvXKQYL61H75VkvFqSoAYFGzxFm",
+      "amount": 145320815227769,
+      "decimals": 6,
+      "pct": 14.954815907068317,
+      "uiAmount": 145320815.227769,
+      "uiAmountString": "145320815.227769",
+      "owner": "CagcwzhHeMNKRC1YGp4yywEGDssdCAebPQhEFXeMuSg9",
+      "insider": false
+    },
+    {
+      "address": "36MojRGDhveRoyFMQb7oMDzx3pz7J9H5iQvJP4wvm9Fh",
+      "amount": 22547819775332,
+      "decimals": 6,
+      "pct": 2.320372985228135,
+      "uiAmount": 22547819.775332,
+      "uiAmountString": "22547819.775332",
+      "owner": "ANhLQVork5cavQ9gYPRQzEwXnmUZKJtrhcFgMruo9AtK",
+      "insider": false
+    },
+    {
+      "address": "G2uNcY6PoW1UX1zDMkJYGn9Sf9ZxDj29LRrbpX2kQ3zq",
+      "amount": 16496408089537,
+      "decimals": 6,
+      "pct": 1.697628421091853,
+      "uiAmount": 16496408.089537,
+      "uiAmountString": "16496408.089537",
+      "owner": "CaQ4seJLrVgRJeiWxTPC7S8UBPxNKd2GikBpGfdJZdi7",
+      "insider": false
+    },
+    {
+      "address": "F7GndhSEiTKV883XvMbVMT6Awujhe4LMQaRopMeWEFrn",
+      "amount": 15489822315641,
+      "decimals": 6,
+      "pct": 1.5940417124727557,
+      "uiAmount": 15489822.315641,
+      "uiAmountString": "15489822.315641",
+      "owner": "FXGBpPRPNGn7XmDPSHxPHxjqM3UR69SkLSVB1yiwuPG6",
+      "insider": false
+    },
+    {
+      "address": "Dde9Khv62vm2dTrhfnSBQcprtxAi17U5JPFRFgmK4yE8",
+      "amount": 8624880427044,
+      "decimals": 6,
+      "pct": 0.887577590345589,
+      "uiAmount": 8624880.427044,
+      "uiAmountString": "8624880.427044",
+      "owner": "2Xu2xWqFFRx7wHhD9QehkVdEmKGLC7L8fhXyx81n3h9q",
+      "insider": false
+    },
+    {
+      "address": "EqcghBe2uW8PU94LoEgCWvqxa2eJRzBEv5foigAU8Gkx",
+      "amount": 8485872603091,
+      "decimals": 6,
+      "pct": 0.8732724378896177,
+      "uiAmount": 8485872.603091,
+      "uiAmountString": "8485872.603091",
+      "owner": "C5rsbJAv7tVu6nupcw6X3piiYxRiqg1sC7zcqJGgjUQH",
+      "insider": false
+    },
+    {
+      "address": "EgfW29Fbvb8xR2prVogxMyc9FVdGspodTUBxZiU31HuL",
+      "amount": 7510818163986,
+      "decimals": 6,
+      "pct": 0.7729305865634312,
+      "uiAmount": 7510818.163986,
+      "uiAmountString": "7510818.163986",
+      "owner": "BK1aPKujNZ19ebirEpgTkgxwrjYwqx6EEU6d4Rna5Cue",
+      "insider": false
+    },
+    {
+      "address": "GPgyXjTTnNcwfrXgsfQdaLThxApey8WRuRQah6LY2qr1",
+      "amount": 6596906542025,
+      "decimals": 6,
+      "pct": 0.6788808797796138,
+      "uiAmount": 6596906.542025,
+      "uiAmountString": "6596906.542025",
+      "owner": "CTYv3JAcberJF63dSgGMRH1HGRjp8jv1pUexDT9MQVGt",
+      "insider": false
+    },
+    {
+      "address": "yKXiP93fh1wBD1wvgCp4UPaFBx3s8yiKFWegAAo8VQB",
+      "amount": 6409532862799,
+      "decimals": 6,
+      "pct": 0.6595984468104418,
+      "uiAmount": 6409532.862799,
+      "uiAmountString": "6409532.862799",
+      "owner": "6YfiEaMjSHo1vTeEWfhtbMKD1beR9qTYHE4Tg1y8YBrE",
+      "insider": false
+    },
+    {
+      "address": "o8H3eGND1GqeBq4RLpp8QiWXnM6vXGXz95xMYSAfrvt",
+      "amount": 5835505284163,
+      "decimals": 6,
+      "pct": 0.6005258579963295,
+      "uiAmount": 5835505.284163,
+      "uiAmountString": "5835505.284163",
+      "owner": "34jJWwwJHfxG31KmWEK5bcmVJbRCtvdqKQEfj3hazFbU",
+      "insider": false
+    },
+    {
+      "address": "opW5Yhpkxr8TQ9ffPLXHD3FBFnYamb9eFEjsxn99ZnU",
+      "amount": 5107445123465,
+      "decimals": 6,
+      "pct": 0.5256019342938385,
+      "uiAmount": 5107445.123465,
+      "uiAmountString": "5107445.123465",
+      "owner": "CtTs113wiE5AcaB2nLNNg1fk5Dz9QBWGBNcPB4FEvrV4",
+      "insider": false
+    },
+    {
+      "address": "cfqECWFePkQVJA1ci6fXqBVjboN3q6X6zxvfCWuxu7y",
+      "amount": 5033632444201,
+      "decimals": 6,
+      "pct": 0.5180059472477263,
+      "uiAmount": 5033632.444201,
+      "uiAmountString": "5033632.444201",
+      "owner": "CmbA2MF1MKupfa3p1AEc8pLBLZEX7bjmbd3puDGeLZw",
+      "insider": false
+    },
+    {
+      "address": "2WLBXZEaWqC1yMMRAWrxVn1tLXsgFJjGaDYXShmTNKPP",
+      "amount": 5029840839295,
+      "decimals": 6,
+      "pct": 0.517615757079355,
+      "uiAmount": 5029840.839295,
+      "uiAmountString": "5029840.839295",
+      "owner": "8JDwRYZ8idNQ2YHtZzeqKBtWt9MxxcMBkQtyagMcxd2E",
+      "insider": false
+    },
+    {
+      "address": "9fr1oMnNDwqL6fD3t8FxrGgZRKnbyRkbyzue1sJcM2SW",
+      "amount": 4684116705279,
+      "decimals": 6,
+      "pct": 0.48203764137214344,
+      "uiAmount": 4684116.705279,
+      "uiAmountString": "4684116.705279",
+      "owner": "BEaRbnUm6Xar2mioa9tX2TWStjw1PZXVzZpG25qHKP1m",
+      "insider": false
+    },
+    {
+      "address": "BexyhD7NPQaXSpvyakX31ifGSVSj14B12SPjfzBkACo3",
+      "amount": 4676761438667,
+      "decimals": 6,
+      "pct": 0.4812807184361038,
+      "uiAmount": 4676761.438667,
+      "uiAmountString": "4676761.438667",
+      "owner": "5293nizM8LPs4HFFhiVve1xsVSgoY6NUqhvQFXpsB6nf",
+      "insider": false
+    },
+    {
+      "address": "HQ334yP5XuQek7A127W6taKJ4X68iiSD5yZSMN2vtGmZ",
+      "amount": 4661345501894,
+      "decimals": 6,
+      "pct": 0.4796942802089725,
+      "uiAmount": 4661345.501894,
+      "uiAmountString": "4661345.501894",
+      "owner": "BejR5FagioioWUiqCW29AqAQnC7vcsNWj52Eccm11A2Y",
+      "insider": false
+    },
+    {
+      "address": "9JrYA7U4nzHiqY8d8ks5eu9b43wwRc1xGrQA4YVGQjJ1",
+      "amount": 4604343167518,
+      "decimals": 6,
+      "pct": 0.4738282284975908,
+      "uiAmount": 4604343.167518,
+      "uiAmountString": "4604343.167518",
+      "owner": "84gA4KuvCv6sG8BQwU5B6AeYzAJaaCKki2enP338aTLq",
+      "insider": false
+    },
+    {
+      "address": "2yhQyWsz6pBTQNvWLvdp3DHr6jvJ7AAKoqTTUs46brA9",
+      "amount": 4591998345071,
+      "decimals": 6,
+      "pct": 0.4725578354929069,
+      "uiAmount": 4591998.345071,
+      "uiAmountString": "4591998.345071",
+      "owner": "ETCmM2nG81RE9ydm8hGaeArbMQxbKtRcGEipkgWu2RWP",
+      "insider": false
+    },
+    {
+      "address": "Ahg2pcABmYdTAX4Ta6Wq1ZeEgCv2u9M8w5C95yHTNECD",
+      "amount": 4588023718093,
+      "decimals": 6,
+      "pct": 0.4721488107109987,
+      "uiAmount": 4588023.718093,
+      "uiAmountString": "4588023.718093",
+      "owner": "9LNhhVDiywTeJGjwGaAQ9ww1LKs3AG7zpVmuL3MPaKVS",
+      "insider": false
+    },
+    {
+      "address": "3YnuEc5dcAjXVZfeRTioqYRrYWvd7JQ6vBvVXyrNQqed",
+      "amount": 4579577339591,
+      "decimals": 6,
+      "pct": 0.47127960257050727,
+      "uiAmount": 4579577.339591,
+      "uiAmountString": "4579577.339591",
+      "owner": "CR7aSPhgAJ26HafVAYiKDc48EjQUaAEnEhVQMtimYmZN",
+      "insider": false
+    }
+  ],
+  "funders": {
+    "ANhLQVork5cavQ9gYPRQzEwXnmUZKJtrhcFgMruo9AtK": {
+      "pct": 2.32,
+      "ntx": 656,
+      "oldest": 1790658587,
+      "funder": [
+        "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+        0.637857
+      ]
+    },
+    "CaQ4seJLrVgRJeiWxTPC7S8UBPxNKd2GikBpGfdJZdi7": {
+      "pct": 1.7,
+      "ntx": 1000,
+      "oldest": 1789455426,
+      "funder": null
+    },
+    "FXGBpPRPNGn7XmDPSHxPHxjqM3UR69SkLSVB1yiwuPG6": {
+      "pct": 1.59,
+      "ntx": 1000,
+      "oldest": 1789459215,
+      "funder": null
+    },
+    "2Xu2xWqFFRx7wHhD9QehkVdEmKGLC7L8fhXyx81n3h9q": {
+      "pct": 0.89,
+      "ntx": 12,
+      "oldest": 1790241498,
+      "funder": null
+    },
+    "C5rsbJAv7tVu6nupcw6X3piiYxRiqg1sC7zcqJGgjUQH": {
+      "pct": 0.87,
+      "ntx": 405,
+      "oldest": 1789418328,
+      "funder": [
+        "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
+        0.733136122
+      ]
+    },
+    "BK1aPKujNZ19ebirEpgTkgxwrjYwqx6EEU6d4Rna5Cue": {
+      "pct": 0.77,
+      "ntx": 441,
+      "oldest": 1789417773,
+      "funder": [
+        "ABNL41SwMLVRaCq6okEWsWyvLwm56nazUNwMrTHgmuyf",
+        0.38220703
+      ]
+    },
+    "CTYv3JAcberJF63dSgGMRH1HGRjp8jv1pUexDT9MQVGt": {
+      "pct": 0.68,
+      "ntx": 1000,
+      "oldest": 1792000823,
+      "funder": null
+    },
+    "6YfiEaMjSHo1vTeEWfhtbMKD1beR9qTYHE4Tg1y8YBrE": {
+      "pct": 0.66,
+      "ntx": 417,
+      "oldest": 1789419052,
+      "funder": [
+        "Dv34prGm2BT7Ph2n6qKLgzeLgjnii87RJJ7Db6ZQQvKM",
+        0.478281
+      ]
+    },
+    "34jJWwwJHfxG31KmWEK5bcmVJbRCtvdqKQEfj3hazFbU": {
+      "pct": 0.6,
+      "ntx": 415,
+      "oldest": 1789632983,
+      "funder": [
+        "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+        18.9515
+      ]
+    },
+    "CtTs113wiE5AcaB2nLNNg1fk5Dz9QBWGBNcPB4FEvrV4": {
+      "pct": 0.53,
+      "ntx": 1000,
+      "oldest": 1789747833,
+      "funder": null
+    },
+    "CmbA2MF1MKupfa3p1AEc8pLBLZEX7bjmbd3puDGeLZw": {
+      "pct": 0.52,
+      "ntx": 1000,
+      "oldest": 1789655018,
+      "funder": null
+    },
+    "8JDwRYZ8idNQ2YHtZzeqKBtWt9MxxcMBkQtyagMcxd2E": {
+      "pct": 0.52,
+      "ntx": 1000,
+      "oldest": 1789804352,
+      "funder": null
+    }
+  },
+  "dex_pair": {
+    "chainId": "solana",
+    "dexId": "pumpswap",
+    "url": "https://dexscreener.com/solana/cagcwzhhemnkrc1ygp4yywegdssdcaebpqhefxemusg9",
+    "pairAddress": "CagcwzhHeMNKRC1YGp4yywEGDssdCAebPQhEFXeMuSg9",
+    "baseToken": {
+      "address": "GjkMsvYmuFR37SyKnJoD8DwccLb3HKMQBnNe5Nqbpump",
+      "name": "GOAT11",
+      "symbol": "GOAT11"
+    },
+    "quoteToken": {
+      "address": "So11111111111111111111111111111111111111112",
+      "name": "Wrapped SOL",
+      "symbol": "SOL"
+    },
+    "priceNative": "0.000001629",
+    "priceUsd": "0.0001737",
+    "txns": {
+      "m5": {
+        "buys": 497,
+        "sells": 451
+      },
+      "h1": {
+        "buys": 6413,
+        "sells": 5198
+      },
+      "h6": {
+        "buys": 6413,
+        "sells": 5198
+      },
+      "h24": {
+        "buys": 6413,
+        "sells": 5198
+      }
+    },
+    "volume": {
+      "h24": 1498914.42,
+      "h6": 1498914.42,
+      "h1": 1498914.42,
+      "m5": 168114.87
+    },
+    "priceChange": {
+      "m5": 13.51,
+      "h1": 292,
+      "h6": 292,
+      "h24": 292
+    },
+    "liquidity": {
+      "usd": 49041.17,
+      "base": 145913847,
+      "quote": 222.2553
+    },
+    "fdv": 168828,
+    "marketCap": 168828,
+    "pairCreatedAt": 1792139736000,
+    "info": {
+      "imageUrl": "https://cdn.dexscreener.com/cms/images/X3r6Jsk_vbR_EF_Q?width=800&height=800&quality=95&format=auto",
+      "header": "https://cdn.dexscreener.com/cms/images/ABkCRgjIRRHk6bIX?width=1500&height=500&quality=95&format=auto",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/GjkMsvYmuFR37SyKnJoD8DwccLb3HKMQBnNe5Nqbpump?timestamp=1792141800000",
+      "websites": [
+        {
+          "url": "https://goat11.top/",
+          "label": "Website"
+        }
+      ],
+      "socials": [
+        {
+          "url": "https://x.com/GOAT11SOL",
+          "type": "twitter"
+        },
+        {
+          "url": "https://t.me/GOAT11SOL",
+          "type": "telegram"
+        }
+      ]
+    }
+  },
+  "pf_coin_note": "frontend-api-v3 /coins/{mint} returned 404 this run (same as 0501); used RugCheck+Dex for creator/socials"
+}

@@ -1,0 +1,113 @@
+{
+  "tag": "0808",
+  "symbol": "FI",
+  "mint": "GjuiYGJi3QNtsa9PEsEyvpDwpVxejBQoQrrGRpyFpump",
+  "mc": 28479.39,
+  "age_h": 0.17,
+  "h1": 441,
+  "m5": 16.07,
+  "dex": "pumpfun",
+  "tag_role": "YOUNG_prescreen",
+  "phase": "young/<30m",
+  "verdict": "FAIL",
+  "reasons": [
+    "creatorBal 0",
+    "14\u00d71\u20135% band on 937 holders",
+    "too young (0.17h) \u2014 light pre-screen only, no buy"
+  ],
+  "creatorBalance": 0,
+  "creator": "3MgNJG734NLcWmMwx7XCGdJwE3aC4Lr3wRf4ZNeBwkad",
+  "creator_pct": 0,
+  "band_1_5": 14,
+  "top10ex_est": 21.79,
+  "top10_raw": 43.18,
+  "excl_lp": [
+    [
+      22.710481653607076,
+      "A2NiHDEVqJi7qKdU"
+    ]
+  ],
+  "totalHolders": 937,
+  "score": 1,
+  "score_normalised": 1,
+  "risks": [],
+  "top_holders_kept": [
+    [
+      3.05,
+      "92Dext4dHcqnUbQt"
+    ],
+    [
+      3.03,
+      "ozyAFSW3UPtgZidu"
+    ],
+    [
+      3.02,
+      "HJQd7M6EF4uR4fko"
+    ],
+    [
+      2.26,
+      "67Q1NscZdLxBMNgb"
+    ],
+    [
+      2.09,
+      "3PwXa9BRA2sUdjtc"
+    ],
+    [
+      2.06,
+      "DvaoZxuYAzR4cqRg"
+    ],
+    [
+      1.78,
+      "8G7v2eRFi92AnXDX"
+    ],
+    [
+      1.63,
+      "HFGiUYGvaAAorLn1"
+    ]
+  ],
+  "top_holders_raw": [
+    [
+      22.71,
+      "A2NiHDEVqJi7qKdU"
+    ],
+    [
+      3.05,
+      "92Dext4dHcqnUbQt"
+    ],
+    [
+      3.03,
+      "ozyAFSW3UPtgZidu"
+    ],
+    [
+      3.02,
+      "HJQd7M6EF4uR4fko"
+    ],
+    [
+      2.26,
+      "67Q1NscZdLxBMNgb"
+    ],
+    [
+      2.09,
+      "3PwXa9BRA2sUdjtc"
+    ],
+    [
+      2.06,
+      "DvaoZxuYAzR4cqRg"
+    ],
+    [
+      1.78,
+      "8G7v2eRFi92AnXDX"
+    ],
+    [
+      1.63,
+      "HFGiUYGvaAAorLn1"
+    ],
+    [
+      1.55,
+      "8d4AKx2GVm1yPqRs"
+    ]
+  ],
+  "rc": "rc-FI-0808.json",
+  "graphInsiders": 0,
+  "links_n": 0
+}

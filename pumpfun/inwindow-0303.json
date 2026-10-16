@@ -1,0 +1,41 @@
+[
+  {
+    "symbol": "Optimus",
+    "mint": "5b8F5y5uK3JgRTowCxfKbtMS3397DtSwxKMHjRZhpump",
+    "dex": "pumpfun",
+    "mc": 19668.33,
+    "age_h": 3.38,
+    "h1": 12.73,
+    "m5": null,
+    "v1": 1928.31,
+    "buys": 17,
+    "sells": 10,
+    "liq": null
+  },
+  {
+    "symbol": "CCAT",
+    "mint": "D4rzv9WAXJh9QZw1MjqfrtuSrmrkV4DckPTKBoMnpump",
+    "dex": "pumpswap",
+    "mc": 144764,
+    "age_h": 0.81,
+    "h1": 229,
+    "m5": 26.37,
+    "v1": 250782.9,
+    "buys": 3700,
+    "sells": 2384,
+    "liq": 33070.27
+  },
+  {
+    "symbol": "ELON-SAN",
+    "mint": "DkKywKToJSbMFzWDU79Lga9CjMhX6NWfMgkQurQZpump",
+    "dex": "pumpswap",
+    "mc": 115034,
+    "age_h": 2.41,
+    "h1": 45,
+    "m5": 51.23,
+    "v1": 39302.86,
+    "buys": 611,
+    "sells": 346,
+    "liq": 30897.45
+  }
+]

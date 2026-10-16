@@ -1,0 +1,23 @@
+{
+  "sym": "DarkStar",
+  "name": "OG Roadster",
+  "mint": "9JYbTj84nzPQrS3zpkNGdwDRmmDA6i6wVaEtu1x5pump",
+  "verdict": "REJECT",
+  "mc": 18441,
+  "age_h": 2.42,
+  "h1": 154,
+  "m5": 34.89,
+  "tx1h": "213b/147s",
+  "curve_phase": "pump.fun bonding ~mid (~36% still on curve)",
+  "creator": "HZp2q1eXMfe3HpxtdiNqGzyz1hoMiwe1eYuwGMhgiv9P",
+  "creatorBalance_pct": 0,
+  "dev": "FAIL: creatorBalance sold to 0 early",
+  "top10_pct_ex_curve": 30.73,
+  "holders": "FAIL: top10 ex-curve ~30.7% at/over 25-30% cap",
+  "bundle": "PASS-ish: funders diverse across aged wallets; no shared-funder 8+ cluster found",
+  "score": 1,
+  "mint_freeze": "none/none",
+  "graphInsiders": 0,
+  "socials": "FAIL: name OG Roadster + Wikipedia Tesla Roadster website + single borrowed X status link (dddddddddBa/status/\u2026) \u2014 ROADSTER copycat clutter",
+  "why": "Numeric passer but autopsy fails hard: creator dumped to 0, top10 ex-curve ~31%, ROADSTER copycat with borrowed tweet/wiki socials. Do not buy."
+}

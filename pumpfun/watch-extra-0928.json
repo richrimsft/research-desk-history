@@ -1,0 +1,72 @@
+{
+ "too_young": [
+  {
+   "symbol": "Scud",
+   "name": "Renderdog",
+   "mint": "74StKKpwgDLEFo5YcQKndak864PLEF1zmsUcZfC8pump",
+   "mc": 39794.9,
+   "age_h": 0.13,
+   "h1": 1160,
+   "m5": 9.81,
+   "h24": 1160,
+   "buys": 1260,
+   "sells": 492,
+   "vol_h1": 38306.11,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/gkp5ctxweawnsmmphqphrcpr7k4e5hgbupw4ojt7gmc6",
+   "pairCreatedAt": 1792156931000
+  },
+  {
+   "symbol": "INU",
+   "name": "INU",
+   "mint": "5xri1bAx8YEYe5JZ25tehxcxehfJD76NJq5YbGFepump",
+   "mc": 16918.73,
+   "age_h": 0.14,
+   "h1": 258,
+   "m5": 61.6,
+   "h24": 258,
+   "buys": 642,
+   "sells": 459,
+   "vol_h1": 50696.74,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/fcgulpk8s7ag7nbvv2e1qkphmdccsrgcsqy1q43xkuva",
+   "pairCreatedAt": 1792156903000
+  },
+  {
+   "symbol": "RIBBIT",
+   "name": "Blue Frog",
+   "mint": "78ZBbCJkwQjXxRJJ2xv4gXU1BZvAayrvysqF4bmZpump",
+   "mc": 95462,
+   "age_h": 0.14,
+   "h1": 113,
+   "m5": 51.83,
+   "h24": 113,
+   "buys": 3303,
+   "sells": 2434,
+   "vol_h1": 282898.51,
+   "dex": "pumpswap",
+   "liq": 25789.93,
+   "url": "https://dexscreener.com/solana/2cpgnxqduq1t1zfcw5a8c9qfkzvqxnc7f9dk3guqgrbg",
+   "pairCreatedAt": 1792156921000
+  },
+  {
+   "symbol": "ELON",
+   "name": "Elon ETF",
+   "mint": "9c2keutAzxJyRmChCpguE7DjHb1XMRcBnBuW1JiUpump",
+   "mc": 12676.9,
+   "age_h": 0.34,
+   "h1": 314,
+   "m5": 12.87,
+   "h24": 314,
+   "buys": 358,
+   "sells": 252,
+   "vol_h1": 33382.46,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/giahb7d5rqvg5cekvrmeswnzcgfgbpoidmtioqinot3u",
+   "pairCreatedAt": 1792156189000
+  }
+ ]
+}

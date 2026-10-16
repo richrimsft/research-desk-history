@@ -1,0 +1,24 @@
+{
+ "tag": "0710",
+ "symbol": "ONE",
+ "mint": "Bsn9bTnFDErq43WW89knsfHQ6U6V6JawWHC2hTNcpump",
+ "age_h": 0.12,
+ "mc": 12658,
+ "h1": 317,
+ "m5": 62.98,
+ "dexId": "pumpfun",
+ "phase": "too_young_curve",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "age 0.12h <30m \u2014 no-buy",
+  "creatorBal 0",
+  "11\u00d71\u20135% band; curve ~46.7% + top10sum ~66%",
+  "graphInsiders 4",
+  "no socials checked / light RC only"
+ ],
+ "creatorBalance": 0,
+ "rc_score": 1,
+ "band_1_5": 11,
+ "graphInsiders": 4,
+ "rc_file": "rc-ONE-0710.json"
+}

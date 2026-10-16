@@ -1,0 +1,25 @@
+X inbound scan report
+Run: 2026-09-30 19:32 ET
+Cutoff: 2026-09-30T19:26:39-04:00
+Account: @P7RIM3 (signed in; visible profile footer showed P7RIM3 / @P7RIM3)
+
+NEW_COUNT: 0
+Replies posted: 0
+
+Visible reply/mention cards (deduplicated across All and Mentions):
+1. @stonkspark — https://x.com/stonkspark/status/2105435508927005103 — displayed age 20m in All, 21m in Mentions — text: "on it" (Replying to @P7RIM3). Action: skipped; already handled, existing @P7RIM3 reply is https://x.com/P7RIM3/status/2105435757142028442. Also older than cutoff.
+2. @SafetyNotorious — https://x.com/SafetyNotorious/status/2105431749333602704 — displayed age 35m — text: "P7RIM3 - Retard of the Day" with a quote of @P7RIM3's post. Action: skipped per instruction; quote-only bait/slur quote, no engagement.
+3. @GilliRoth — https://x.com/GilliRoth/status/2105422493200875658 — displayed age 1h — [image-only] reply to @P7RIM3 and @cb_doge. Action: skipped; already handled, existing @P7RIM3 reply is https://x.com/P7RIM3/status/2105426194468405542. Also older than cutoff.
+4. @zebralife2002 — https://x.com/zebralife2002/status/2105361123503440350 — displayed age 5h — "Your first sentence made absolutely no sense \"you guys are handing outside of a person\" I stop reading and I stopped paying attention to you at that point. Have a good day" (Replying to @P7RIM3 and @Brand0n). Action: skipped; already handled, existing @P7RIM3 reply is https://x.com/P7RIM3/status/2105362879817925052. Also older than cutoff.
+5. @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105343324580143460 — displayed age 6h — "This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh" (Replying to @P7RIM3 and @KittyMcFeisty; quote attached). Action: skipped; KittyMcfeisty2 thread is over two beats.
+
+Ignored non-reply/mention notifications visible in All: likes (including 1m, 55m, and 2h), repost (1h), and follow (2h), per instruction.
+
+Cutoff/action assessment:
+No reply or mention card displayed newer than the cutoff. The newest visible relevant card was @stonkspark at about 20–21m and was already handled. No new unreplied inbound item needed a reply.
+
+Flags/problems: none. No threats, self-harm, or illegal-content items observed. No original post composed. No likes, follows, reposts, DMs, login, email, 2FA, payout, billing, bio, or pin touched.
+
+Screenshots:
+- /workspace/x-plan/run-20260930-1932-notifications.png
+- /workspace/x-plan/run-20260930-1932-mentions.png

@@ -1,0 +1,12 @@
+X inbound scan — Sep 29, 2026 ~21:20 ET
+CUTOFF: ~21:16 ET (01:16 UTC)
+
+SCAN_ALL
+NEW_COUNT: 0
+Notes: The newest All-tab cards observed were likes at about 26m and 38m, which are ignored. The newest inbound reply observed was Juneaux at about 42m and is a known skip. No reply/mention newer than the cutoff was visible.
+
+SCAN_MENTIONS
+NEW_COUNT: 0
+Notes: The Mentions tab showed Juneaux at about 43m, FiresOfTruth at about 1h and 2h, and Grok at about 2h; all are known skips and older than the cutoff. No new mention was visible.
+
+No candidate blocks: NEW_COUNT is 0.

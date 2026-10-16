@@ -1,0 +1,25 @@
+{
+  "mint": "TB6QtGti9j2zadAryKYKCm7tX1zVvTH4ZQcoXd9pump",
+  "symbol": "ROADSTER",
+  "name": "No Risk No Roadster",
+  "score": 33029,
+  "rugged": false,
+  "creator": "DriBeRsLu6H8B12EBQfm5wDbbS7uuVcwr6eebfG4yELp",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalHolders": 1019,
+  "graphInsiders": 26,
+  "top10_ex_pool_pct": 54.32,
+  "whale_pct": 25.32,
+  "band_1_5": 18,
+  "phase": "PumpSwap ~1.1h, mc ~$33k, h1 -27%, liq ~$14.6k",
+  "socials": "tweet link only + tesla.com/roadster (not a project site)",
+  "decision": "FAIL",
+  "reasons": [
+    "obvious ROADSTER/DarkStar narrative copycat (skip list)",
+    "creatorBalance 0",
+    "26 graph insiders; RC score 33029; top10 ex-LP ~54% with single whale ~25%",
+    "18 wallets in 1-5% band"
+  ]
+}

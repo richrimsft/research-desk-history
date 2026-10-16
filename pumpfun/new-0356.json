@@ -1,0 +1,28 @@
+[
+  {
+    "symbol": "GALAX",
+    "mint": "94BfFHQrAHewvj2aCb1vdCTViCRFGRPnvAu7SJG1pump",
+    "mc": 11815.55,
+    "age_h": 2.24,
+    "h1": -14.47,
+    "decision": "FAIL",
+    "reasons": [
+      "12 wallets in 1-5% band",
+      "graphInsiders 24",
+      "coordinated funders: 3x 5tzFkiKs\u2026, 3x u6PJ8DtQ\u2026"
+    ]
+  },
+  {
+    "symbol": "Puter",
+    "mint": "D2obxUYEgBZcJTjGJGH8M9eVMvG6FXCmE2Y3V46rpump",
+    "mc": 40317,
+    "age_h": 0.09,
+    "h1": -6.13,
+    "decision": "SKIP",
+    "reasons": [
+      "age <30m entry window",
+      "h1<=0 not in strict window",
+      "already PumpSwap"
+    ]
+  }
+]

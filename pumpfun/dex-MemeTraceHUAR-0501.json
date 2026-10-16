@@ -1,0 +1,53 @@
+[
+  {
+    "chainId": "solana",
+    "dexId": "pumpfun",
+    "url": "https://dexscreener.com/solana/7k5xprcoxgey4ykpxefkm7gat8k8izj89y2ca5r1xkhg",
+    "pairAddress": "7K5XPrCoxGey4YKPXEfkM7GAT8K8izJ89Y2CA5R1xkhG",
+    "baseToken": {
+      "address": "HUARGQHB7ovbPkUaYUmsqGBCLG4uHpCEr3q8zGcupump",
+      "name": "Meme Trace",
+      "symbol": "MemeTrace"
+    },
+    "quoteToken": {
+      "address": "So11111111111111111111111111111111111111112",
+      "name": "Wrapped SOL",
+      "symbol": "SOL"
+    },
+    "priceNative": "0.0000001564",
+    "priceUsd": "0.00001667",
+    "txns": {
+      "m5": {
+        "buys": 820,
+        "sells": 516
+      },
+      "h1": {
+        "buys": 988,
+        "sells": 638
+      },
+      "h6": {
+        "buys": 988,
+        "sells": 638
+      },
+      "h24": {
+        "buys": 988,
+        "sells": 638
+      }
+    },
+    "volume": {
+      "h24": 85490.98,
+      "h6": 85490.98,
+      "h1": 85490.98,
+      "m5": 68742.94
+    },
+    "priceChange": {
+      "m5": 49.03,
+      "h1": 377,
+      "h6": 377,
+      "h24": 377
+    },
+    "fdv": 16670.26,
+    "marketCap": 16670.26,
+    "pairCreatedAt": 1792141225000
+  }
+]

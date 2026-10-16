@@ -1,0 +1,23 @@
+{
+ "tag": "0714",
+ "symbol": "CCAT",
+ "mint": "Acb9K4nZam8mn8LG8wWwuzme3sG8VbTgDTUFfN8iUWDa",
+ "age_h": 0.06,
+ "mc": 13398,
+ "dexId": "pumpfun",
+ "phase": "too_young_curve",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "age 0.06h <30m \u2014 no-buy",
+  "creatorBal 0 (burner dev)",
+  "15\u00d71\u20135% band on 298 holders",
+  "non-pump mint suffix",
+  "name 'CyberCat' / CCAT cat-theme copycat wave (TCAT)",
+  "no socials in RC meta"
+ ],
+ "creatorBalance": 0,
+ "rc_score": 1,
+ "band_1_5": 15,
+ "graphInsiders": 0,
+ "rc_file": "rc-CCAT-0714.json"
+}

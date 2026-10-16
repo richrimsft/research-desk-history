@@ -1,0 +1,32 @@
+[
+  {
+    "sym": "CBUCKS",
+    "name": "Cartoon Money",
+    "mint": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+    "mc": 485237,
+    "liq": 70764,
+    "h1": 10.5,
+    "m5": 0.8,
+    "hb": 59,
+    "hs": 18,
+    "mb": 4,
+    "ms": 1,
+    "age_h": 222.21,
+    "dex": "pumpswap"
+  },
+  {
+    "sym": "ANIKA",
+    "name": "Anika",
+    "mint": "3uXGYtCcuTE3YTgShMmsk9LhWPTrNK7x8G4hCA6ppump",
+    "mc": 49246,
+    "liq": 17539,
+    "h1": 8.9,
+    "m5": -18.2,
+    "hb": 1482,
+    "hs": 1117,
+    "mb": 128,
+    "ms": 93,
+    "age_h": 0.33,
+    "dex": "pumpswap"
+  }
+]

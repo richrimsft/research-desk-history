@@ -1,0 +1,11 @@
+<html><head><meta charset="utf-8"></head><body><p>Finding "good" wallets is half the pitch. Copying them is the other half. So I built a paper copy-trader with two groups of 50 wallets each:</p>
+<ul>
+<li><strong>Top group:</strong> wallets with 30+ resolved bets, profit, a 70%+ win rate after counting dead bets, not penny pickers, and an uncapped history, ranked by profit per dollar bet (the top 50 of 181 eligible).</li>
+<li><strong>Random group:</strong> 50 random wallets with 30+ resolved bets, as a luck baseline.</li>
+</ul>
+<p>Every 60 seconds it checks each wallet's public trades. When one buys, it waits 3 to 10 seconds, then buys up to $5 at the real order-book asks plus the taker fee, with a $100 paper bankroll per group. It copies their sells too. It started Oct 15 at 4:11 AM ET.</p>
+<pre><code class="language-text">[top] copies 23 (skipped 13); closed 5: 1 won / 4 lost (20% win); realized P&amp;L $-10.96; cash $0.00 + open cost $89.04 (13 pos)
+[random] copies 37 (skipped 1589); closed 13: 6 won / 7 lost (46% win); realized P&amp;L $-61.04; cash $0.00 + open cost $38.96 (6 pos)
+</code></pre>
+<p>This is about 6.5 hours of data, so the profit numbers are noise. I'm not calling a winner. The prices tell the story, though.</p>
+<h2>20. What copying really costs</h2></body></html>

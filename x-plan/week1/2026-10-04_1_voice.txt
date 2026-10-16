@@ -1,0 +1,8 @@
+I work behind the scenes in tech.
+
+Most of what the timeline calls “impossible” is either:
+- already documented
+- already in orbit
+- already in a ticket queue nobody wants to own
+
+The interesting part is the last category.

@@ -1,0 +1,154 @@
+{
+ "tag": "0802",
+ "ts": "2026-10-16T08:02:00-04:00",
+ "wallet_sol": 0.29760554,
+ "sol_usd": 106.56,
+ "est_total_usd": 31.71,
+ "scout": {
+  "scan_mints": 139,
+  "cands": 77,
+  "expanded_mints": 481,
+  "expanded_pairs": 462,
+  "inwindow": 9,
+  "new": 0,
+  "young": 7
+ },
+ "inwindow_prior_fails": [
+  {
+   "mint": "9TXNTWV5v7M3Ch4bBVFNknXJGaJTW2NQDMKkuD3vSLEm",
+   "symbol": "Chase",
+   "verdict": "PRIOR_FAIL_STANDS",
+   "mc": 9344013,
+   "age_h": 1.24,
+   "h1": 97.94,
+   "m5": null,
+   "reason": "99% single-holder / post-grad chase"
+  },
+  {
+   "mint": "pFibPnQk8ekCCtuBoQFJqeJjHVo92dAME3uH8A4pump",
+   "symbol": "ElonThrust",
+   "verdict": "PRIOR_FAIL_STANDS",
+   "mc": 1433300,
+   "age_h": 2.58,
+   "h1": 29.89,
+   "m5": 1.67,
+   "reason": "whale structure / prior FAIL"
+  },
+  {
+   "mint": "NqZaNi1v6qjFeyRyMpXFWnebBx47tTu5WcWQAwtRWGU",
+   "symbol": "Irene",
+   "verdict": "PRIOR_FAIL_STANDS",
+   "mc": 124986,
+   "age_h": 1.27,
+   "h1": 50.33,
+   "m5": 0.37,
+   "reason": "Irene copycat theme \u2014 skip"
+  },
+  {
+   "mint": "DdVXE425xZe27FhY41PR8dwfL3VczYdyJJAWDC1jpump",
+   "symbol": "OPTIMA",
+   "verdict": "FAIL_RECHECKED",
+   "mc": 60221,
+   "age_h": 0.65,
+   "h1": 40.82,
+   "m5": 55.14,
+   "reason": "creatorBal\u22480 / band pattern prior; recheck FAIL (12\u00d7 band, top wallets 18%+10%)"
+  },
+  {
+   "mint": "Aoh85TCPn6yYuumHhDi7tJoTT3x3pCvWLqcaa8A6J5rm",
+   "symbol": "Irene",
+   "verdict": "PRIOR_FAIL_STANDS",
+   "mc": 44629,
+   "age_h": 1.66,
+   "h1": 110,
+   "m5": null,
+   "reason": "Irene copycat theme \u2014 skip"
+  },
+  {
+   "mint": "6N4BHPN8rvN2aGLKHF8XRcSdzugvcFz2s1379qUyXDbo",
+   "symbol": "Irene",
+   "verdict": "PRIOR_FAIL_STANDS",
+   "mc": 35809,
+   "age_h": 0.64,
+   "h1": 280,
+   "m5": 24.93,
+   "reason": "Irene copycat theme \u2014 skip"
+  },
+  {
+   "mint": "PdtREY9H6Fp9jVMpG36aywtCgxTtsQZetmehKqgyern",
+   "symbol": "YERN",
+   "verdict": "PRIOR_FAIL_STANDS",
+   "mc": 16583.74,
+   "age_h": 2.56,
+   "h1": 29.46,
+   "m5": -0.79,
+   "reason": "prior FAIL stands"
+  },
+  {
+   "mint": "62tKjqdvzKrNHb8KrugUFUmKSC291sWHkp1RGbeipump",
+   "symbol": "SocialFrnk",
+   "verdict": "PRIOR_FAIL_STANDS",
+   "mc": 14503.23,
+   "age_h": 3.7,
+   "h1": 52.87,
+   "m5": -1.11,
+   "reason": "prior FAIL stands"
+  },
+  {
+   "mint": "G6NnKQTgN7Dmo9yrJXwoqiDm35FznQmQ1qXVFAXPpump",
+   "symbol": "BDOG",
+   "verdict": "PRIOR_FAIL_STANDS",
+   "mc": 11613.93,
+   "age_h": 3.63,
+   "h1": 4.65,
+   "m5": 8.99,
+   "reason": "creatorBal 0; 19\u00d7 band prior"
+  }
+ ],
+ "young_prescreen": [
+  {
+   "mint": "AGEG7Top8SGqCMZ5woSu7tB5XLrEkfp82VG5Wfa3pump",
+   "symbol": "17/10",
+   "verdict": "FAIL_PRESCREEN",
+   "reason": "creatorBal 0; too young 0.04h; mc faded below $10k"
+  },
+  {
+   "mint": "GjuiYGJi3QNtsa9PEsEyvpDwpVxejBQoQrrGRpyFpump",
+   "symbol": "FI",
+   "verdict": "FAIL_PRESCREEN",
+   "reason": "creatorBal 0; 13\u00d71\u20135% band; too young"
+  },
+  {
+   "mint": "6KEm7GHTspmvVtf4qwNNDNPGqxse8UBHYttSX87apump",
+   "symbol": "Tesla",
+   "verdict": "FAIL_PRESCREEN",
+   "reason": "RC 6153; single holder 51%; only 7 holders; creatorBal 0"
+  },
+  {
+   "mint": "4ti7DQpMPKHcC72t8WBCQj2M8q9CkNu7Fbhwp1u1pump",
+   "symbol": "DTR",
+   "verdict": "FAIL_PRESCREEN",
+   "reason": "18\u00d7 band; top10ex\u224832%; post-grad chase ~$145k; m5 fading"
+  },
+  {
+   "mint": "HtqVqejZuh9BqGPTWdggf9mUtyRzydtVcxHRCq3Vpump",
+   "symbol": "Jato",
+   "verdict": "FAIL_PRESCREEN_PRIOR",
+   "reason": "prior FAIL creatorBal 0; 15\u00d7 band"
+  },
+  {
+   "mint": "63UjR7d4xfCDjBqAwS2fJWaZPz7JfN32WtbzSAX3pump",
+   "symbol": "Caramel",
+   "verdict": "FAIL_PRESCREEN_PRIOR",
+   "reason": "prior FAIL creatorBal 0; 19\u00d7 band"
+  },
+  {
+   "mint": "DG5cR2W2Ms5QnWz5VrAoCbq5xQCB9UWVTCtkugsSpump",
+   "symbol": "Cub",
+   "verdict": "FAIL_PRESCREEN_PRIOR",
+   "reason": "prior FAIL creatorBal 0; 19\u00d7 band; 54% top"
+  }
+ ],
+ "new": [],
+ "autopsy_clean": []
+}

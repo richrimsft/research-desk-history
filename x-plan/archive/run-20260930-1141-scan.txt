@@ -1,0 +1,13 @@
+run: 2026-09-30 ~11:49 ET (computerUse after nested-executor blocker)
+account: @P7RIM3 (verified signed in)
+cutoff: 2026-09-30T11:37:18-04:00
+NEW_COUNT: 0
+All + Mentions consistent.
+Visible older reply/mention cards:
+- @Cobra17298328 https://x.com/Cobra17298328/status/2105112514090402040 ~14h skip_already_handled beat2
+- @juneauxwhoitis https://x.com/juneauxwhoitis/status/2105094896663371987 ~15h skip_over_two_beats
+- @FiresOfTruth https://x.com/FiresOfTruth/status/2105080875058704611 ~16h skip_known promo
+- @FiresOfTruth https://x.com/FiresOfTruth/status/2105074701802651949 ~16h skip_over_two_beats
+- @FiresOfTruth https://x.com/FiresOfTruth/status/2105073376268345355 ~16h skip_known
+- @grok https://x.com/grok/status/2105068070892912851 ~16h skip_over_two_beats America.gov
+Likes-only ignored. No replies posted. Screenshot: /workspace/x-plan/last-desktop.png

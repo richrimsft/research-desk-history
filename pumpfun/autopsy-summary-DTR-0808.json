@@ -1,0 +1,115 @@
+{
+  "tag": "0808",
+  "symbol": "DTR",
+  "mint": "4ti7DQpMPKHcC72t8WBCQj2M8q9CkNu7Fbhwp1u1pump",
+  "mc": 164819,
+  "age_h": 0.29,
+  "h1": 265,
+  "m5": 2.89,
+  "dex": "pumpswap",
+  "tag_role": "YOUNG_prescreen",
+  "phase": "young/<30m",
+  "verdict": "FAIL",
+  "reasons": [
+    "PRIOR young FAIL stands (0802: 18\u00d7 band / top10ex\u224832% / post-grad chase)",
+    "band now 9\u00d7 on 989 holders (improved vs 18\u00d7 but still young)",
+    "too young (0.29h) \u2014 light pre-screen only, no buy",
+    "post-grad pumpswap ~$165k \u2014 do not chase graduation spike blind",
+    "name \"Doge Tesla Roadster\" / narrative copycat risk"
+  ],
+  "creatorBalance": 1676681913552,
+  "creator": "HgCpa4wEdLfqRMMBTwyZSkMruHjiim8KFdrVpkFVdNWj",
+  "creator_pct": 0,
+  "band_1_5": 9,
+  "top10ex_est": 12.83,
+  "top10_raw": 22.64,
+  "excl_lp": [
+    [
+      10.621249532146,
+      "5CiJ3qXfjSv1rrXe"
+    ]
+  ],
+  "totalHolders": 989,
+  "score": 1,
+  "score_normalised": 1,
+  "risks": [],
+  "top_holders_kept": [
+    [
+      1.42,
+      "FVfzaM7HLJ4s7Cez"
+    ],
+    [
+      1.4,
+      "Z2DXF7d24KJjZzLq"
+    ],
+    [
+      1.38,
+      "Gm1FVioZ8RA1i8wi"
+    ],
+    [
+      1.37,
+      "BMCE7aUnRwiEWPwH"
+    ],
+    [
+      1.36,
+      "CRUtENkjXi8VVkXs"
+    ],
+    [
+      1.35,
+      "FTrJMcfZL7cp5YvM"
+    ],
+    [
+      1.28,
+      "82FwoHScEFDM1YBH"
+    ],
+    [
+      1.24,
+      "4YzvdZhEPdazuCeJ"
+    ]
+  ],
+  "top_holders_raw": [
+    [
+      10.62,
+      "5CiJ3qXfjSv1rrXe"
+    ],
+    [
+      1.42,
+      "FVfzaM7HLJ4s7Cez"
+    ],
+    [
+      1.4,
+      "Z2DXF7d24KJjZzLq"
+    ],
+    [
+      1.38,
+      "Gm1FVioZ8RA1i8wi"
+    ],
+    [
+      1.37,
+      "BMCE7aUnRwiEWPwH"
+    ],
+    [
+      1.36,
+      "CRUtENkjXi8VVkXs"
+    ],
+    [
+      1.35,
+      "FTrJMcfZL7cp5YvM"
+    ],
+    [
+      1.28,
+      "82FwoHScEFDM1YBH"
+    ],
+    [
+      1.24,
+      "4YzvdZhEPdazuCeJ"
+    ],
+    [
+      1.21,
+      "Aj8KHoGPeDKbEBGr"
+    ]
+  ],
+  "rc": "rc-DTR-0808.json",
+  "graphInsiders": 0,
+  "links_n": 0
+}

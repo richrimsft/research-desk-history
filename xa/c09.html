@@ -1,0 +1,46 @@
+<html><head><meta charset="utf-8"></head><body><p>Here's the whole check in one file. Save it as <code>check_wallet.py</code>. It only reads public data.</p>
+<pre><code class="language-python">#!/usr/bin/env python3
+&quot;&quot;&quot;check_wallet.py: does this Polymarket wallet really &quot;never lose&quot;? Public data only, no keys.
+Usage: python3 check_wallet.py 0xWALLET&quot;&quot;&quot;
+import json, sys, urllib.request
+API = &quot;https://data-api.polymarket.com&quot;
+def get(path):
+    req = urllib.request.Request(API + path, headers={&quot;user-agent&quot;: &quot;wallet-check&quot;})
+    with urllib.request.urlopen(req, timeout=20) as r: return json.load(r)
+w = sys.argv[1].lower()
+closed = []                                   # 1) what the &quot;never lose&quot; posts read
+for off in range(0, 1000, 50):
+    page = get(f&quot;/closed-positions?user={w}&amp;limit=50&amp;offset={off}&quot;)
+    closed += page
+    if len(page) &lt; 50: break
+wins = sum(p[&quot;realizedPnl&quot;] &gt; 0 for p in closed); losses = len(closed) - wins
+print(f&quot;RAW  /closed-positions : {len(closed)} closed, {wins} wins, {losses} losses&quot;
+      + (&quot;  (hit the 1,000 cap: older history is invisible)&quot; if len(closed) &gt;= 1000 else &quot;&quot;))
+opn = []                                      # 2) where the dead bets sit
+for off in range(0, 2000, 500):
+    page = get(f&quot;/positions?user={w}&amp;limit=500&amp;offset={off}&amp;sizeThreshold=0&quot;)
+    opn += page
+    if len(page) &lt; 500: break
+dead = [p for p in opn if p[&quot;curPrice&quot;] &lt;= 0.001 and (p[&quot;redeemable&quot;] or p[&quot;curPrice&quot;] == 0)]
+unred = [p for p in opn if p[&quot;redeemable&quot;] and p[&quot;curPrice&quot;] &gt;= 0.999]
+print(f&quot;     /positions        : {len(opn)} open rows, {len(dead)} expired worthless (price 0), &quot;
+      f&quot;{len(unred)} unredeemed winners&quot;)
+print(f&quot;     dead-bet P&amp;L      : ${sum(p['cashPnl'] for p in dead):,.0f}&quot;)
+W, L = wins + len(unred), losses + len(dead)
+print(f&quot;REAL record            : {W} wins, {L} losses -&gt; win rate {100*W/max(W+L,1):.1f}%&quot;
+      f&quot;  (raw said {100*wins/max(len(closed),1):.1f}%)&quot;)
+worst = sorted(dead, key=lambda p: p[&quot;cashPnl&quot;])[:3]
+for p in worst: print(f&quot;     worst dead bet    : ${p['cashPnl']:,.0f}  {p['title'][:60]} ({p['outcome']})&quot;)
+</code></pre>
+<p>Run it:</p>
+<pre><code class="language-bash">python3 check_wallet.py 0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e
+</code></pre>
+<p>Expected output (Oct 15, 10:31 AM ET):</p>
+<pre><code class="language-text">RAW  /closed-positions : 1000 closed, 1000 wins, 0 losses  (hit the 1,000 cap: older history is invisible)
+     /positions        : 39 open rows, 28 expired worthless (price 0), 0 unredeemed winners
+     dead-bet P&amp;L      : $-2,144,086
+REAL record            : 1000 wins, 28 losses -&gt; win rate 97.3%  (raw said 100.0%)
+</code></pre>
+<p>Two things to notice. First, a "1,000 wins, 0 losses" wallet is hiding 28 dead bets worth -$2.14M, including one Counter-Strike bet that lost $337,071. Second, that wallet hit the <strong>1,000-row cap</strong>. The closed list stops at 1,000 rows sorted by profit, so you literally can't see its older or smaller results. Any "win rate" for a wallet like that is unknowable from this endpoint, in either direction.</p>
+<p>This script uses the v1 routes, which work until Polymarket retires them on October 24, 2026. After that, swap in the v2 calls from step 3.</p>
+<h2>10. Step 5: run it on 5,916 wallets</h2></body></html>

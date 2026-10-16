@@ -1,0 +1,20 @@
+[
+ {
+  "symbol": "ELON",
+  "name": "Elon Coin",
+  "mint": "HGcVEA6uF6LnxLnPTuuyYcuFKgomZDyCoFTBad9Dsobn",
+  "mc": 1048439,
+  "age_h": 0.64,
+  "h1": 2286,
+  "m5": 7.31,
+  "h24": 2286,
+  "buys": 18032,
+  "sells": 13251,
+  "vol_h1": 51785.18,
+  "dex": "pumpswap",
+  "liq": 86981.88,
+  "url": "https://dexscreener.com/solana/7yxphmbnakmafwfhoeteclkhpat9ce3p6vu4wpikzgbe",
+  "pairCreatedAt": 1792145039000,
+  "tag": "NEW"
+ }
+]

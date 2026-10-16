@@ -1,0 +1,21 @@
+{
+  "mint": "D4rzv9WAXJh9QZw1MjqfrtuSrmrkV4DckPTKBoMnpump",
+  "symbol": "CCAT",
+  "recheck": "0311",
+  "mc": 99451,
+  "age_h": 0.99,
+  "h1": 126,
+  "m5": -15.94,
+  "creatorBalance": 0,
+  "graphInsiders": 0,
+  "top10_ex_pool_pct": 22.53,
+  "peak_scout_mc_0305": 143000,
+  "dip_from_0305_peak_pct": 30.5,
+  "socials": "still no project X (only @pumping_fun tweet)",
+  "decision": "FAIL \u2014 prior stands",
+  "reasons": [
+    "creatorBalance 0 unchanged",
+    "no project X unchanged",
+    "~31% off 03:05 scout print but still mid post-grad chop with m5 -16% and 4k buys/h; not a clean 30-60% hold-then-buy dip setup"
+  ]
+}

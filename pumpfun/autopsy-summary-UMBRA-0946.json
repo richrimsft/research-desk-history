@@ -1,0 +1,36 @@
+{
+  "tag": "0946",
+  "symbol": "UMBRA",
+  "mint": "Axbj7JdzBrmqNdiQE7maSz2jrFhDnXJsWwe9NWzSpump",
+  "age_h": 0.15,
+  "mc": 23695.25,
+  "h1": 588,
+  "m5": 42.42,
+  "dex": "pumpfun",
+  "phase": "too_young",
+  "verdict": "FAIL",
+  "reasons": [
+    "age 0.15h <30m \u2014 no-buy by narrative-age",
+    "creatorBalance 1 raw (~0 / burner-sold)",
+    "top10ex 25.4% elevated >25%",
+    "RC score 2001 elevated",
+    "risk:Copycat token"
+  ],
+  "rc_score": 2001,
+  "top10ex_pct": 25.41,
+  "lp_pct_guess": 35.24,
+  "band_1_5_count": 18,
+  "max_identical_0.1": 3,
+  "identical_band_val": 1.6,
+  "tight_2.3_2.5_count": 0,
+  "creator": "6hs1nSJaashaytGutencxr6hPreMy2hqet9z8Xyv8Vz5",
+  "creatorBalance": 1,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "graphInsiders": 0,
+  "totalHolders": 194,
+  "risks": [
+    "Copycat token"
+  ],
+  "meta_name": "Umbra Pool"
+}

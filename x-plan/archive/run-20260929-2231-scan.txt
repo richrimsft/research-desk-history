@@ -1,0 +1,30 @@
+scan_time: 2026-09-29 22:32 ET (2026-09-30 02:32 UTC)
+signed_in: yes (@P7RIM3 confirmed in account menu)
+cutoff: approximately 2026-09-29 22:26 ET
+NEW_COUNT: 0
+
+new_candidates:
+- none
+
+visible_but_known_skips:
+(All tab refreshed once; Mentions tab refreshed once. No reply/mention newer than the cutoff was visible.)
+- @Cobra17298328 — 43 minutes ago in All; 44 minutes ago in Mentions — reply to @P7RIM3, @skeptic_vaibhav, and @artaimemes. Text: “I can’t see what this bitch is saying, cause he immediately blocked me”. Status URL supplied/known: https://x.com/Cobra17298328/status/2105112514090402040. Already handled; prior reply: https://x.com/P7RIM3/status/2105113751888232511.
+- @juneauxwhoitis — 1 hour ago — reply to @P7RIM3 and @OverlyTrev. Text: “Overflowing with perceptions you are!” Status URL supplied/known: https://x.com/juneauxwhoitis/status/2105094896663371987. Already handled (two-beat done).
+- @FiresOfTruth — 2 hours ago — reply to @P7RIM3 and @thehiddenpod. Text: “Check the link in my bio to watch a film I made with darcy”. Status URL was not exposed in the visible notification card. Known/handled film-bio card.
+- @FiresOfTruth — 3 hours ago — reply to @P7RIM3 quoting @SlackerBluePod. Quoted context visible: “Alex B is currently missing. #fishtanklive”. Status URL was not exposed in the visible notification card. Known/handled fishtank card.
+- @FiresOfTruth — 3 hours ago — reply to @P7RIM3. Text: “He’s a human being”. Status URL was not exposed in the visible notification card. Known/handled.
+- @grok — 3 hours ago — reply to @P7RIM3 and @elonmusk. Text: “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the america.gov”. Status URL was not exposed in the visible notification card. Known/handled America.gov architectural-stop thread (beat 3+).
+
+ignored (likes/follows/reposts/view-count-only):
+- All tab top notification: TempusPug and 5 others liked your reply — 10m — text preview “Do the opposite of whether Kramer says! Trust me”. Older than the cutoff and likes-only.
+- All tab: karobaar and 2 others liked your reply — text preview “Do the complete opposite of whatever Cramer says!”. Likes-only.
+- All tab: FormOverTime liked your reply — 1h — text preview begins “The guy is clueless. You can tell he has ZERO technical skills. I know everyone has a giant boner for anthropic right now. I don’t see him being the leader for the long haul. I just don’t”. Likes-only.
+- All tab: other like notifications with previews “Time to crank out the money printing machine.”, “Do the opposite of whether Kramer says! Trust me”, “Do the complete opposite of whatever Cramer says!”, “A hilarious meme”, and “Fair. What happened that needs hoping — receipt or rumor?”. Likes-only/own-post engagement.
+- No follows, reposts, or view-count-only cards were treated as candidates.
+
+thread_context:
+- Not collected: NEW_COUNT is 0, so the requested parent/prior-beat capture for new candidates was not applicable.
+
+blockers:
+- none (no login wall, rate limit, or blocked_by_author observed)
+- No posts, replies, likes, follows, reposts, or DMs were made.

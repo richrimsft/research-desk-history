@@ -1,0 +1,24 @@
+signed_in_as: @P7RIM3
+cutoff: 2026-10-01T01:07:57-04:00
+NEW_COUNT=0
+
+ITEM_CONSIDERED:
+- @misterg792000 | https://x.com/misterg792000/status/2105483189200261612 | age shown: 3h | action: skipped, older than cutoff
+- @misterg792000 | https://x.com/misterg792000/status/2105479038823178432 | age shown: 3h | action: skipped, older than cutoff; same person had two visible beats
+- @MadamHaus | URL not opened (visible mention; link not exposed in notification card) | age shown: 4h | action: skipped, older than cutoff and 0hour/$0HOUR1-related
+- @DrumondArt | https://x.com/DrumondArt/status/2105451230445154557 | age shown: 5h | action: skipped, older than cutoff and emoji-only
+- @stonkspark | URL not opened (visible mention; link not exposed in notification card) | age shown: 6h | action: skipped, older than cutoff
+- @GilliRoth | https://x.com/GilliRoth/status/2105404282220564784 | age shown: 7h | action: skipped, older than cutoff
+- @zebralife2002 | URL not opened (visible mention; link not exposed in notification card) | age shown: 11h | action: skipped, older than cutoff
+- @KittyMcfeisty2 | URL not opened (visible mention; link not exposed in notification card) | age shown: 12h | action: skipped, older than cutoff
+
+REPLIES posted: none
+FLAGS: No threats, self-harm, or illegal content visible. 0hour/$0HOUR1 mention was skipped per cancellation rule. No qualifying new replies/mentions were visible; all visible mention cards were older than cutoff.
+BLOCKERS: none.
+
+screenshots:
+- /workspace/x-plan/run-20261001-0121-notifications.png
+- /workspace/x-plan/run-20261001-0121-mentions.png
+
+scanned_at: 2026-10-01T01:22:31-04:00 America/New_York
+next_cutoff: 2026-10-01T01:22:31-04:00

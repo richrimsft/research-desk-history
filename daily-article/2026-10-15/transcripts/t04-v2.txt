@@ -1,0 +1,14 @@
+$ curl -s "https://data-api.polymarket.com/v2/positions?user=$W&status=REDEEMABLE_LOST&limit=100" \
+    | jq '{dead_bets: (.data | length), dead_pnl: (.data | map(.total_pnl) | add | floor), next: .pagination.next_cursor}'
+{
+  "dead_bets": 38,
+  "dead_pnl": -1616813,
+  "next": null
+}
+
+$ curl -s "https://data-api.polymarket.com/v2/user-stats?user=$W" | jq '.data.all_time_pnl | {realized_pnl, fees_paid, volume_usdc}'
+{
+  "realized_pnl": 349331.516196,
+  "fees_paid": -54474.41835,
+  "volume_usdc": 3543944.933222
+}

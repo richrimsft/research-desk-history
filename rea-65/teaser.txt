@@ -1,0 +1,1 @@
+REA 6.5 is out, and I tested it hands-on: offline SQLite, pcap, WASM, Go, Rust deps and Electron fuses, plus Android, firmware and .NET. All 5 gaps from my 6.4 write-up are closed. Every command, real output, and where hype doesn't match the receipts 👇 [link]

@@ -1,0 +1,33 @@
+X notifications scan — 2026-09-30 22:33 ET
+Cutoff: 2026-09-30T22:31:00-04:00
+Screenshots:
+- /workspace/x-plan/run-20260930-2232-notifications.png
+- /workspace/x-plan/run-20260930-2232-mentions.png
+
+NEW_COUNT: 0
+No originals posted. No likes, follows, reposts, DMs, or profile/settings changes.
+
+ALL notifications inventory (all older than cutoff; all NEWER_THAN_CUTOFF=NO):
+1. @Cuzzo_TM — 8m — quote notification; text: “Welcome to Pump.Fun ……..DORK”; notification link: https://x.com/Cuzzo_TM/status/2105484203005812936; ACTION=SKIP (0hour/pump.fun soft cancel; old).
+2. @misterg792000 — 12m — reply; “Buddy, he didn't invent either one of those things. He just bought the company that did.”; link: https://x.com/misterg792000/status/2105483189200261612; ACTION=SKIP (old; two-beat limit reached).
+3. @RamsNFL / @Eagles — 25m — sports news card: “Rams' Nacua returns — WR Puka Nacua returned to limited practice; coach Sean McVay expects him to play Sunday against the Eagles.”; no post link shown; ACTION=SKIP (sports card, old).
+4. @misterg792000 — 29m — reply; “Name a single field he has demonstrated \"deep mastery\" of. Name a single thing he has invented.”; link: https://x.com/misterg792000/status/2105479038823178432; ACTION=SKIP (old; two-beat limit reached).
+5. @misterg792000 — 29m — liked your reply; visible excerpt: “Ok that tracks. Deep mastery across fields, not just wearing a lot of hats. Thanks for the card. For Meridian specifically — which domains already have his shipped receipts?”; profile link shown: https://x.com/misterg792000; ACTION=SKIP (like-only, old).
+6. @Kramer_not + @Sonic1994DC + @rilo0x — 47m — liked your post; visible text: “We need more of this”; profile links shown: https://x.com/Kramer_not, https://x.com/Sonic1994DC, https://x.com/rilo0x; ACTION=SKIP (like-only, old).
+7. @BrianEdwardMKE + @laidlaw76 — 1h — liked your reply; visible excerpt contains an ableist slur in the already-posted reply; profile links shown: https://x.com/BrianEdwardMKE, https://x.com/laidlaw76; ACTION=SKIP (like-only; known no-engage flag; old).
+8. @MadamHaus — 1h — reply with embedded video/GIF; link: https://x.com/MadamHaus/status/2105460336006672836; ACTION=SKIP (0hour/pump.fun soft cancel, old).
+9. @mom_agency_ — 2h — liked your post; visible text: “The meeting explaining why we need to change it from AI to SI”; profile link shown: https://x.com/mom_agency_; ACTION=SKIP (like-only, old).
+10. @Eagles — 2h — sports injury update card: “Eagles Injury Update — LB Zack Baun has a concussion and is in the concussion protocol, with his status in question for the Rams.”; no post link shown; ACTION=SKIP (sports card, old).
+
+MENTIONS inventory (all older than cutoff; all NEWER_THAN_CUTOFF=NO):
+1. @misterg792000 — 12m — reply; exact text: “Buddy, he didn't invent either one of those things. He just bought the company that did.”; https://x.com/misterg792000/status/2105483189200261612; ACTION=SKIP (old; already at two beats).
+2. @misterg792000 — 28m — reply; exact text: “Name a single field he has demonstrated \"deep mastery\" of. Name a single thing he has invented.”; https://x.com/misterg792000/status/2105479038823178432; ACTION=SKIP (old; already at two beats).
+3. @MadamHaus — 1h — reply with embedded video/GIF and no text; https://x.com/MadamHaus/status/2105460336006672836; ACTION=SKIP (0hour/pump.fun soft cancel).
+4. @DrumondArt — 2h — reply; exact text: “\"Deep mastery across fields\"...” followed by repeated laughing-face emoji; https://x.com/DrumondArt/status/2105451230445154557; ACTION=SKIP (emoji spam, old).
+5. @stonkspark — 3h — reply; exact text: “on it”; https://x.com/stonkspark/status/2105435508927005103; ACTION=SKIP (old; existing reply thread).
+6. @GilliRoth — 4h — reply with image and no visible text; https://x.com/GilliRoth/status/2105422493200875658; ACTION=SKIP (old; no substantive text).
+
+ITEM actions: 0 new inbound items. 0 replies posted. No confirmation screenshots because nothing was posted.
+Flags: 0hour/pump.fun quote/reply skipped; @misterg792000 held at two-beat stop; like-only and sports cards skipped; emoji spam skipped; known ableist-slur like-notification not engaged. No blocked-handle item appeared.
+Blockers: none (signed in; no captcha or login prompt).
+Suggested next_cutoff: 2026-09-30T22:33:00-04:00

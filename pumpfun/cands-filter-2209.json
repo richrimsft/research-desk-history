@@ -1,0 +1,24 @@
+[
+  {
+    "mint": "4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump",
+    "symbol": "PONK",
+    "dex": "pumpswap",
+    "mc": 98090,
+    "liq": 26992.8,
+    "age_h": 25.01,
+    "h1": 61.85,
+    "m5": 6.49,
+    "h6": -16.64,
+    "h24": 75.85,
+    "h1_buys": 801,
+    "h1_sells": 537,
+    "m5_buys": 19,
+    "m5_sells": 13,
+    "priceUsd": "0.0001025",
+    "vol_h1": 48357.93,
+    "pairCreatedAt": 1792026717000,
+    "url": "https://dexscreener.com/solana/edjt1eqfx2xblmjdqyr2whcs3vzrh2brxg2bmqxpafw4",
+    "autopsy": "REJECT",
+    "autopsy_one_liner": "FAIL holders top10 ex-LP 36% + 61 graph-insiders; age 25h past narrative (prior reject)"
+  }
+]

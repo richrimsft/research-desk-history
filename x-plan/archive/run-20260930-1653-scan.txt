@@ -1,0 +1,49 @@
+X notifications scan report
+Scan time: 2026-09-30T16:54:00-04:00 (approx.; cutoff 2026-09-30T16:46:18-04:00)
+Account confirmation: Confirmed signed in as P7RIM3 (@P7RIM3); sidebar/profile showed P7RIM3 and @P7RIM3.
+Pages scanned: https://x.com/notifications (All) and https://x.com/notifications/mentions (Mentions)
+NEW_COUNT: 0
+
+Reply/mention cards observed (all older than cutoff; no cards were opened or replied to):
+
+[SKIP] Paul Kelly (@zebralife2002) — 2h
+URL: https://x.com/zebralife2002/status/2105361123503440350
+Text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+Reason: OLD; already handled/replied.
+
+[SKIP] Piper Paprikas #2nd account (@KittyMcfeisty2) — 3h
+URL: https://x.com/KittyMcfeisty2/status/2105343324580143460
+Text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh
+Reason: OLD; known already-handled/over two beats. Includes a quote of @libsoftiktok.
+
+[SKIP] Piper Paprikas #2nd account (@KittyMcfeisty2) — 4h
+URL: https://x.com/KittyMcfeisty2/status/2105339423638651351
+Text: 🙄 🤦‍♀️
+Reason: OLD; known already-handled/over two beats.
+
+[SKIP] Piper Paprikas #2nd account (@KittyMcfeisty2) — 4h
+URL: https://x.com/KittyMcfeisty2/status/2105333564132712947
+Text: What’s new is this shit needs to stop. Beyond ridiculous
+Reason: OLD; known already-handled/over two beats.
+
+[SKIP] h (@Cobra17298328) — 19h
+URL: https://x.com/Cobra17298328/status/2105112514090402040
+Text: I can’t see what this bitch is saying, cause he immediately blocked me
+Reason: OLD; already handled.
+
+[SKIP] Juneaux ⏸️ 😴 (@juneauxwhoitis) — 20h
+URL: https://x.com/juneauxwhoitis/status/2105094896663371987
+Text: Overflowing with perceptions you are!
+Reason: OLD; known already-handled/over two beats.
+
+[SKIP] spooky (@FiresOfTruth) — 21h
+URL: https://x.com/FiresOfTruth/status/2105080875058704611
+Text: Check the link in my bio to watch a film I made with darcy
+Reason: OLD; known promo/sales; skip.
+
+[SKIP] spooky (@FiresOfTruth) — 21h
+URL: https://x.com/FiresOfTruth/status/2105074701802651949
+Text: Quote of slackerblue. (@SlackerBluePod): Alex B is currently missing. #fishtanklive [image]
+Reason: OLD; cutoff excludes it.
+
+Non-reply notifications seen (ignored per instructions): follow/like/repost notifications and DMs.

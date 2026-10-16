@@ -1,0 +1,34 @@
+{
+  "symbol": "CLAUDEMAN",
+  "mint": "DjrijJNopHheVub1JdtJ7snqHS55kNY6kC5HNViTpump",
+  "ts_et": "2026-10-16 02:31 ET",
+  "decision": "FAIL",
+  "dexId": "pumpfun",
+  "marketCap": 27739.15,
+  "age_h": 0.61,
+  "h1": 594,
+  "curve_sol": 61.02,
+  "curve_progress_approx_pct": 71.8,
+  "creator": "Ghww9j2rRdysiXaPQ3VA1eaV7fGQyc6rQhBGEkHFa22P",
+  "creatorBalance": 0,
+  "totalHolders": 496,
+  "top10_ex_curve_pct": 22.67,
+  "uniform_band_1_5_to_4_5_count": 13,
+  "socials": null,
+  "rugcheck_score": 1,
+  "rugged": false,
+  "bundle_identical_sol": false,
+  "graph_insider_note": "AArB9dpo (1.61% holder) funded Ayrxby7b (3.07% holder) with 0.3 SOL",
+  "fail_reasons": [
+    "empty socials (dex info null; fileMeta description/image empty; no X/twitter)",
+    "creatorBalance 0",
+    "uniform cabal band: 13 wallets in 1.5\u20134.5% holder band",
+    "graph insider: top holder funds another top holder (AArB9dpo \u2192 Ayrxby7b)"
+  ],
+  "pass_notes": [
+    "top10 ex-curve ~22.7% under ~25-30% hard fail (borderline OK alone)",
+    "no 8+ identical-SOL shared funder bundle detected",
+    "curve phase ~72% in preferred 15-80% window",
+    "rugcheck score low / not flagged rugged"
+  ]
+}

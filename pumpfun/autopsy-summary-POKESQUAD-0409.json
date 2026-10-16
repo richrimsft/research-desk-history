@@ -1,0 +1,77 @@
+{
+  "mint": "DkXumTAaaE32vGcjo2nbkFmxbcXrx2nceayjwCwWpump",
+  "symbol": "POKESQUAD",
+  "name": "Pokemon Squad",
+  "score": 1,
+  "rugged": false,
+  "creator": "GntP1MyNqmBX6TZ22eXqtRZP9htmrwzaPpPU3ycEGKie",
+  "creatorBalance": 0,
+  "creator_pct": null,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalHolders": 472,
+  "graphInsiders": 4,
+  "top10_ex_curve_pct": 22.37,
+  "band_1_5": 17,
+  "whale_pct": 3.46,
+  "phase": "pumpfun mc~15019.99 age=0.55h h1=371 m5=1.37 buys=1101",
+  "socials": [],
+  "mc": 15019.99,
+  "age_h": 0.55,
+  "h1": 371,
+  "m5": 1.37,
+  "buys_h1": 1101,
+  "sells_h1": 746,
+  "risks": [],
+  "decision": "FAIL",
+  "reasons": [
+    "creatorBalance 0 (dev sold/out)",
+    "17 wallets in 1-5% band",
+    "botty churn: 1101 buys/h on mc~15019.99",
+    "no socials on dex profile",
+    "2 holders share funder 5tzFki\u2026 @ identical 1.999 SOL (same cabal funder seen on CatNose/GALAX); not full 8+ bundle but coordinated"
+  ],
+  "top10_owners": [
+    {
+      "owner": "HaSgw6p1Hvr9\u2026",
+      "pct": 3.4593843785733935
+    },
+    {
+      "owner": "AQBbMy8KWEx7\u2026",
+      "pct": 2.372599794182347
+    },
+    {
+      "owner": "BB1jeGTHnvU3\u2026",
+      "pct": 2.3623220906883
+    },
+    {
+      "owner": "4TksvfqUFZz1\u2026",
+      "pct": 2.313840785113219
+    },
+    {
+      "owner": "Fe4UejcG23DY\u2026",
+      "pct": 2.080084271707272
+    },
+    {
+      "owner": "3JQvkiF2GKfc\u2026",
+      "pct": 2.0669608962530144
+    },
+    {
+      "owner": "BhzVPW9RjnRA\u2026",
+      "pct": 1.9956730428069065
+    },
+    {
+      "owner": "HSiizXawvhXc\u2026",
+      "pct": 1.9669028684414194
+    },
+    {
+      "owner": "v6iyngJmq9Ye\u2026",
+      "pct": 1.9397061106134217
+    },
+    {
+      "owner": "387FRwow6MKD\u2026",
+      "pct": 1.8141173993208641
+    }
+  ],
+  "funders_note": "2 holders share funder 5tzFki\u2026 @ identical 1.999 SOL (same cabal funder seen on CatNose/GALAX); not full 8+ bundle but coordinated"
+}

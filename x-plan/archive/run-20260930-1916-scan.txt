@@ -1,0 +1,73 @@
+X notification scan report
+Run: 2026-09-30 19:17 ET (UTC-4)
+Cutoff: 2026-09-30T19:13:30-04:00
+Account: P7RIM3 / @P7RIM3
+
+SIGNED-IN CONFIRMATION
+The X account menu visibly showed display name P7RIM3 and handle @P7RIM3 (verified badge). No account settings, login, email, 2FA, payout, billing, bio, or pin was touched.
+
+RESULTS
+NEW_COUNT All: 0
+NEW_COUNT Mentions: 0
+No visible inbound reply/mention card was clearly newer than the cutoff. The newest reply card was displayed as about 6 minutes old, which is before the cutoff window; all other reply cards were older. No replies were posted.
+
+ALL TAB — every visible reply/mention card
+1. @stonkspark (STONKS PARK)
+   Status URL: https://x.com/stonkspark/status/2105435508927005103
+   Age shown: about 6 minutes
+   Text: "on it" (replying to @P7RIM3)
+   Disposition: SKIP — pre-cutoff and already handled. Existing reply: https://x.com/P7RIM3/status/2105435757142028442 ("Good. Less talking, more shipping.")
+
+2. @SafetyNotorious (SafetySwipe)
+   Status URL: https://x.com/SafetyNotorious/status/2105431749333602704
+   Age shown: about 21 minutes
+   Text: "P7RIM3 - Retard of the Day 🏆"; quote-only card quoting an @P7RIM3 post
+   Disposition: SKIP — quote-only, contains a slur, and is not an inbound reply. Do not engage.
+
+3. @GilliRoth (Gillian Roth)
+   Status URL: https://x.com/GilliRoth/status/2105422493200875658
+   Age shown: about 58 minutes
+   Text: image-only card; replying to @P7RIM3 and @cb_doge (no body text exposed in the notification card)
+   Disposition: SKIP — pre-cutoff and already handled. Existing reply: https://x.com/P7RIM3/status/2105426194468405542.
+
+Non-reply notifications (likes/reposts/follows) were ignored per instructions.
+
+MENTIONS TAB — every visible reply/mention card
+1. @stonkspark (STONKS PARK)
+   Status URL: https://x.com/stonkspark/status/2105435508927005103
+   Age shown: about 6 minutes
+   Text: "on it" (replying to @P7RIM3)
+   Disposition: SKIP — pre-cutoff and already handled; existing reply https://x.com/P7RIM3/status/2105435757142028442.
+
+2. @GilliRoth (Gillian Roth)
+   Status URL: https://x.com/GilliRoth/status/2105422493200875658
+   Age shown: about 58 minutes
+   Text: image-only card; replying to @P7RIM3 and @cb_doge
+   Disposition: SKIP — pre-cutoff and already handled; existing reply https://x.com/P7RIM3/status/2105426194468405542.
+
+3. @zebralife2002 (Paul Kelly)
+   Status URL: https://x.com/zebralife2002/status/2105361123503440350
+   Age shown: about 5 hours
+   Text: "Your first sentence made absolutely no sense \"you guys are handing outside of a person\" I stop reading and I stopped paying attention to you at that point. Have a good day"
+   Disposition: SKIP — pre-cutoff and already handled; existing reply https://x.com/P7RIM3/status/2105362879817925052.
+
+4. @KittyMcfeisty2 (Piper Paprikas #2nd account)
+   Status URL: https://x.com/KittyMcfeisty2/status/2105343324580143460
+   Age shown: about 6 hours
+   Text: "This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh"
+   Disposition: SKIP — pre-cutoff; known thread is already over two beats.
+
+Known additional Kitty thread cards covered by the visible notification context:
+- https://x.com/KittyMcfeisty2/status/2105339423638651351 — "🙄 🤦‍♀️" — pre-cutoff; over-two-beats skip.
+- https://x.com/KittyMcfeisty2/status/2105333564132712947 — "What’s new is this shit needs to stop. Beyond ridiculous" — pre-cutoff; over-two-beats skip.
+
+ACTIONS TAKEN
+- Opened All notifications, then Mentions, in the requested order.
+- Confirmed signed-in account as P7RIM3 / @P7RIM3.
+- Saved screenshots:
+  /workspace/x-plan/run-20260930-1916-notifications.png
+  /workspace/x-plan/run-20260930-1916-mentions.png
+- No posts or replies were made; therefore no reply URLs, duplicate checks, or deletion actions were needed.
+
+FLAGS / PROBLEMS
+- None. No threat, self-harm, or illegal-content card was present. The @SafetyNotorious quote-only card was skipped because it contained a slur and was not a reply.

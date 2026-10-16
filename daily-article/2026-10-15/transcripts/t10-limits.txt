@@ -1,0 +1,15 @@
+$ wc -l errors.jsonl copy/errors.jsonl
+   9 errors.jsonl
+   1 copy/errors.jsonl
+  10 total
+$ tail -n 2 errors.jsonl
+{"ts": "2026-10-15T08:08:27.852-04:00", "where": "book", "err": "URLError(TimeoutError('_ssl.c:1012: The handshake operation timed out'))"}
+{"ts": "2026-10-15T09:25:06.887-04:00", "where": "book", "err": "TimeoutError('The read operation timed out')"}
+$ cat copy/errors.jsonl
+{"where": "trades", "wallet": "0x42811a04202d471323a87c33885677187aff1a5a", "err": "<HTTPError 429: 'Too Many Requests'>", "ts": "2026-10-15T09:28:53-04:00"}
+$ head -2 copy/scan.out; tail -1 copy/scan.out
+leaderboard wallets 8254
+total wallets 9864
+scanned 5500
+$ wc -l < copy/wallets.jsonl
+5916

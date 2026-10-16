@@ -1,0 +1,15 @@
+https://ag.ny.gov/press-release/2026/attorney-general-james-and-governor-hochul-announce-lawsuit-against-polymarket
+https://data-api.polymarket.com
+https://data-api.polymarket.com/v2/openapi.json
+https://dockets.justia.com/docket/new-york/nysdce/1:2026cv08338/673503
+https://docs.polymarket.com/concepts/positions-tokens
+https://docs.polymarket.com/concepts/resolution
+https://docs.polymarket.com/migrate/data-api-v1-to-v2
+https://docs.polymarket.com/trading/fees
+https://jqlang.org/
+https://polymarket.com/profile/0x918b42a06ff25eaaa4a79eca9da6a9de46f4ea63
+https://x.com/P7RIM3
+https://x.com/SimslearnAi/status/2107696709124177935
+https://x.com/ZayvenKnox/status/2082378741075071482
+https://x.com/monicaa_AI/status/2109111053120610448
+https://x.com/tec_marco10/status/2100593238885503066

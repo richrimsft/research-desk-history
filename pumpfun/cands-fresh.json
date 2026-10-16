@@ -1,0 +1,219 @@
+{
+  "as_of": "2026-10-15T19:19:00-04:00",
+  "recommendation": "HOLD",
+  "rationale": "SPOOKY recovered to ~-21% (was -34% at 19:10) with strong buy pressure (m5 23/8, h1 723/421, h1 +33%) \u2014 dump gate \u221240% NOT hit. NULLCASH +33.7% with h1 +58% buy-heavy \u2014 let run per strategy. Scout: 103 pump mints, 1 numeric passer (MEMEOS) only via m5 spike (+18.9%); h1 just +2.9% \u2014 weak chase, not clearly better. Thin SOL (0.0077) requires sell-first; no justified sell.",
+  "scanned_mints": 103,
+  "mints_with_pairs": 103,
+  "passers": [
+    {
+      "symbol": "MEMEOS",
+      "name": "MEMEOS",
+      "mint": "5q5pEZZwhkuazS4rGa66LcNotdsnUE9KcJ7xQmXSpump",
+      "mc": 266341.0,
+      "liq": 46080.41,
+      "age_h": 49.0,
+      "h1chg": 2.9,
+      "m5chg": 18.93,
+      "h1buys": 49,
+      "h1sells": 26,
+      "m5buys": 13,
+      "m5sells": 1,
+      "vol_h1": 7003.78,
+      "url": "https://dexscreener.com/solana/cxq6t1fqqwpwbnvkgp492qruzvvlzxqafkquptmqd3l3",
+      "pairAddress": "Cxq6T1FqqwpwbnvKGP492qRUzvvLzxqAfKQupTMQd3L3",
+      "sources": [
+        "search-meme-pump.json"
+      ],
+      "reasons": [],
+      "pass": true,
+      "rugcheck": {
+        "score": 1,
+        "score_normalised": 1,
+        "risks": [],
+        "lpLockedPct": 99.95158201488104,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "top10_pct": 29.88,
+        "graphInsidersDetected": 11,
+        "totalHolders": 2720,
+        "rugged": false,
+        "verdict": "CLEAN numerically (score1, no mint/freeze, top10~30%, LP locked) but h1 momentum too weak for rotate"
+      }
+    }
+  ],
+  "rotate_targets": [],
+  "near_misses": [],
+  "top_rejects_sample": [
+    {
+      "symbol": "Whaleoween",
+      "mint": "9hv1i7xafDRDV6nEWtFZvqWYN19m6GThc2dSnZaEpump",
+      "mc": 20874.47,
+      "h1chg": 112.0,
+      "m5chg": 2.46,
+      "reasons": [
+        "mc=20874 out of band"
+      ]
+    },
+    {
+      "symbol": "Starman",
+      "mint": "H2pkmDKUio79yzzj5cRF6fqf6Xeq6AmpTsVVGG9wpump",
+      "mc": 810995.0,
+      "h1chg": 38.13,
+      "m5chg": -4.7,
+      "reasons": [
+        "mc=810995 out of band",
+        "botty h1buys=3140"
+      ]
+    },
+    {
+      "symbol": "$LARSON",
+      "mint": "Fy4t71n8UUW3pgrYtXQvsrAoEqAtqnZCAxpsUZFQpump",
+      "mc": 12013.04,
+      "h1chg": 30.13,
+      "m5chg": -1.96,
+      "reasons": [
+        "mc=12013 out of band"
+      ]
+    },
+    {
+      "symbol": "DICKBUTTIFIER",
+      "mint": "8QtbrC9d3BezyCwzBFUQbNsWJGte7ckrZ7HWcn81pump",
+      "mc": 27788.0,
+      "h1chg": 25.38,
+      "m5chg": 0.98,
+      "reasons": [
+        "mc=27788 out of band",
+        "h1 sells>=buys 50/50"
+      ]
+    },
+    {
+      "symbol": "QUENTRA",
+      "mint": "3h4poyYGABrfoRBMzD11sF5fuLq1hvGZpNdtoeQfpump",
+      "mc": 27324.22,
+      "h1chg": 19.45,
+      "m5chg": 1.21,
+      "reasons": [
+        "mc=27324 out of band",
+        "weak mom h1=19.4 m5=1.2"
+      ]
+    },
+    {
+      "symbol": "Solana",
+      "mint": "AevWRpvNQAKkLpfgaYJ6epHBgJY9693fBYtM1R53pump",
+      "mc": 4365.6,
+      "h1chg": 11.59,
+      "m5chg": 5.71,
+      "reasons": [
+        "mc=4366 out of band",
+        "weak mom h1=11.6 m5=5.7"
+      ]
+    },
+    {
+      "symbol": "SI276",
+      "mint": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+      "mc": 1006343.0,
+      "h1chg": 8.15,
+      "m5chg": -0.77,
+      "reasons": [
+        "mc=1006343 out of band",
+        "weak mom h1=8.2 m5=-0.8"
+      ]
+    },
+    {
+      "symbol": "GTA",
+      "mint": "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump",
+      "mc": 1555079.0,
+      "h1chg": 6.98,
+      "m5chg": 1.65,
+      "reasons": [
+        "mc=1555079 out of band",
+        "weak mom h1=7.0 m5=1.6",
+        "h1 sells>=buys 85/132"
+      ]
+    },
+    {
+      "symbol": "Groklet",
+      "mint": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
+      "mc": 276781.0,
+      "h1chg": 3.01,
+      "m5chg": 0.53,
+      "reasons": [
+        "weak mom h1=3.0 m5=0.5",
+        "h1 sells>=buys 132/157"
+      ]
+    },
+    {
+      "symbol": "CAKE",
+      "mint": "12kQB4WCZj1Kr61maq4M1APGSa4ynrjTmYUWWPhppump",
+      "mc": 28363.04,
+      "h1chg": 2.61,
+      "m5chg": 0.0,
+      "reasons": [
+        "mc=28363 out of band",
+        "weak mom h1=2.6 m5=0.0"
+      ]
+    },
+    {
+      "symbol": "$OTCATWALK",
+      "mint": "9UDNU3zn32BdB8s82gxC7aJwKHii7PYaKH9dyQ5spump",
+      "mc": 2419.0,
+      "h1chg": 1.98,
+      "m5chg": 0.0,
+      "reasons": [
+        "mc=2419 out of band",
+        "weak mom h1=2.0 m5=0.0"
+      ]
+    },
+    {
+      "symbol": "ROULANA",
+      "mint": "ttH5rJWVxCFBdjd3x2AnBxtYDJtRCFa9ty4QpmUpump",
+      "mc": 12388.69,
+      "h1chg": 1.93,
+      "m5chg": 0.0,
+      "reasons": [
+        "mc=12389 out of band",
+        "weak mom h1=1.9 m5=0.0"
+      ]
+    },
+    {
+      "symbol": "DOBBY",
+      "mint": "CPcf58MNikQw2G23kTVWQevRDeFDpdxMH7KkR7Lhpump",
+      "mc": 188233.0,
+      "h1chg": 1.86,
+      "m5chg": 0.0,
+      "reasons": [
+        "weak mom h1=1.9 m5=0.0",
+        "h1 sells>=buys 0/1",
+        "thin liq=289"
+      ]
+    },
+    {
+      "symbol": "SSE",
+      "mint": "H4phNbsqjV5rqk8u6FUACTLB6rNZRTAPGnBb8KXJpump",
+      "mc": 85236.0,
+      "h1chg": 1.58,
+      "m5chg": 0.0,
+      "reasons": [
+        "weak mom h1=1.6 m5=0.0",
+        "h1 sells>=buys 0/1"
+      ]
+    },
+    {
+      "symbol": "$HTW",
+      "mint": "HKrTVBPVF9B8LEkNvZDm4PeNScnvoHv8JxNMTahVpump",
+      "mc": 25632.89,
+      "h1chg": 1.52,
+      "m5chg": -0.56,
+      "reasons": [
+        "mc=25633 out of band",
+        "weak mom h1=1.5 m5=-0.6",
+        "h1 sells>=buys 40/41"
+      ]
+    }
+  ],
+  "excluded_holdings": [
+    "CZ3X9XUxSTc1hN9iGPteG3iKoXGC4q332bmWi4JBpump",
+    "3EC7gRDGKgqPHc9ipJxxChoeyseE2xAbQHZUSSTfpump",
+    "31GYUbJW5vjF1o7VM5SGP9Emj5WDBHb1cdcR8BM6pump"
+  ]
+}

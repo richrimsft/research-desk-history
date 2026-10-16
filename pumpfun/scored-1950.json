@@ -1,0 +1,64 @@
+{
+  "passers": [
+    {
+      "symbol": "ACat",
+      "mint": "266ZxiEW9Y2Lm33zNM7J2wnng5DJ7hHc7HQTXf2ipump",
+      "mc": 124524,
+      "liq": 31224.76,
+      "age_h": 3.6,
+      "h1": 70.25,
+      "m5": 38.05,
+      "h1b": 2199,
+      "h1s": 1529,
+      "m5b": 106,
+      "m5s": 206,
+      "dex": "pumpswap",
+      "vol_h1": 292276.19,
+      "url": "https://dexscreener.com/solana/4xraojvmhrsgfnpe6adytemnqrd7ufgzpwwicsmp4scy",
+      "m5_ok": false
+    },
+    {
+      "symbol": "APP",
+      "mint": "6MnQ921sqsShymdoqPv2RfhL5g2Hk2hoqPvgpDGcpump",
+      "mc": 87879,
+      "liq": 22728.92,
+      "age_h": 253.6,
+      "h1": 43.88,
+      "m5": -0.17,
+      "h1b": 11,
+      "h1s": 6,
+      "m5b": 1,
+      "m5s": 0,
+      "dex": "pumpswap",
+      "vol_h1": 2977.38,
+      "url": "https://dexscreener.com/solana/3qslak2sezi8s25txdnr8gsdxb9jbmzi8doymzswpiwv",
+      "m5_ok": true
+    }
+  ],
+  "near": [
+    {
+      "symbol": "Macca",
+      "mint": "AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump",
+      "mc": 231035,
+      "liq": 46311.48,
+      "age_h": 10.2,
+      "h1": 14.9,
+      "m5": 14.35,
+      "h1b": 282,
+      "h1s": 220,
+      "m5b": 27,
+      "m5s": 16,
+      "dex": "pumpswap",
+      "vol_h1": 37798.74,
+      "url": "https://dexscreener.com/solana/4fonnnmmkma66ppcia9557cg63s2bnn9uofcakxxbmvg",
+      "near_reasons": [
+        "h1=14.9"
+      ],
+      "reject_reasons": [
+        "h1=14.9"
+      ]
+    }
+  ],
+  "scored_count": 293,
+  "ts": "1950"
+}

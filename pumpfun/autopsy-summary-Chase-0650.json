@@ -1,0 +1,22 @@
+{
+ "tag": "0650",
+ "symbol": "Chase",
+ "mint": "9TXNTWV5v7M3Ch4bBVFNknXJGaJTW2NQDMKkuD3vSLEm",
+ "age_h": 0.06,
+ "mc": 3287215,
+ "phase": "too_young_postgrad",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "age 0.06h <30m no-buy",
+  "RC score 32839: LP unlocked / single holder 99.2% / top10 high ownership",
+  "post-grad chase ~$3.3M mc in minutes",
+  "non-pump mint suffix SLEm"
+ ],
+ "creatorBalance": 0,
+ "graphInsidersDetected": 0,
+ "totalHolders": 387,
+ "rc_score": 32839,
+ "band_1_5": 0,
+ "h0_pct": 99.2039800995024,
+ "top10ex_approx": 0.7499778171466001
+}

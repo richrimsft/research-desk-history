@@ -1,0 +1,19 @@
+X notification scan — 2026-09-29 21:50 ET (All + Mentions)
+
+Visible cards summary:
+- All: 1 inbound reply from @Cobra17298328 (~3 minutes ago); Juneaux reply (~1 hour); FiresOfTruth replies (~2 hours, including bio-link film, quote/slackerblue, and “He’s a human being”); remaining visible cards were likes-only (Derek +4, karobaar +2, FormOverTime, Robin, King Chess, John Galt +12, Mr. Fugazi +5, Hemingwaypaws + Ibn Yahya, Meh + Sir Doge, spooky).
+- Mentions: Cobra (~3m), Juneaux (~1h), FiresOfTruth (three ~2h cards), and Grok America.gov (~3h).
+NEW_COUNT=1
+
+NEW candidate:
+handle: @Cobra17298328
+url: https://x.com/Cobra17298328/status/2105112514090402040
+text: I can’t see what this bitch is saying, cause he immediately blocked me
+age: approximately 3 minutes ago on the notification card (opened tweet showed Sep 29, 6:48 PM metadata)
+already-replied?: Yes, the thread contains an earlier @P7RIM3 reply (~4 hours ago); no @P7RIM3 reply appears after this candidate.
+
+Known skips seen: @juneauxwhoitis (Overflowing with perceptions you are!), @FiresOfTruth bio-link film, @FiresOfTruth quote/slackerblue, @FiresOfTruth “He’s a human being,” and @grok America.gov stop-is-architectural beat. Older @Only_Ryan02, @Hronom, and @jammusnu skips were not visible.
+Payment failed banner visible: No.
+Threat/self-harm/illegal flags: None observed. The new candidate contains abusive language/slur but no threat, self-harm, or illegal-content indication.
+
+No posts, likes, follows, reposts, DMs, or settings changes made.

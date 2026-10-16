@@ -1,0 +1,16 @@
+<html><head><meta charset="utf-8"></head><body><p>Now read one wallet's closed positions the way the viral bots do. I'll use wallet <code>0x918b42a06ff25eaaa4a79eca9da6a9de46f4ea63</code>, which came up in my scan.</p>
+<pre><code class="language-bash">W=0x918b42a06ff25eaaa4a79eca9da6a9de46f4ea63
+curl -s &quot;https://data-api.polymarket.com/closed-positions?user=$W&amp;limit=50&quot; \
+  | jq '{closed: length, wins: map(select(.realizedPnl &gt; 0)) | length,
+        losses: map(select(.realizedPnl &lt;= 0)) | length, pnl: (map(.realizedPnl) | add | floor)}'
+</code></pre>
+<p>Expected output:</p>
+<pre><code class="language-json">{
+  &quot;closed&quot;: 41,
+  &quot;wins&quot;: 41,
+  &quot;losses&quot;: 0,
+  &quot;pnl&quot;: 1966144
+}
+</code></pre>
+<p>41 for 41 and almost $2 million in profit. A 100% win rate. This is exactly the wallet a "find wallets that never lose" prompt returns, and exactly the wallet a copy bot would follow. Hold that thought.</p>
+<h2>7. Step 3: find the bets that died</h2></body></html>

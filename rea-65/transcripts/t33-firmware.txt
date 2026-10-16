@@ -1,0 +1,25 @@
+$ ls -la firmware/lab65-fw.bin
+-r--r--r-- 1 box box 188416 Oct 14 15:01 firmware/lab65-fw.bin
+
+$ rea inspect-firmware-regions $PWD/firmware/lab65-fw.bin --format json | jq -c '.provider, (.normalized_result.regions[] | {offset, reported_size, signature})'
+{"id":"binwalk","name":"Binwalk","version":"3.1.0"}
+{"offset":512,"reported_size":179527,"signature":"squashfs"}
+{"offset":184320,"reported_size":152,"signature":"gzip"}
+
+$ rea extract-firmware $PWD/firmware/lab65-fw.bin $PWD/notes/fw-x --format json | jq -c '.provider, (.normalized_result | {coverage, gaps: [.extraction_gaps[] | {kind, range}]})'
+{"id":"unblob","name":"Unblob","version":"26.6.4"}
+{"coverage":"partial","gaps":[{"kind":"unknown-chunk-handler","range":{"offset":0,"length":512}}]}
+
+$ cd notes/fw-x && find . -type f | sort && cat firmware.bin_extract/512-180736.squashfs_v4_le_extract/etc/device.conf
+./firmware.bin_extract/0-512.unknown
+./firmware.bin_extract/180736-184320.padding
+./firmware.bin_extract/184320-184472.gzip_extract/gzip.uncompressed
+./firmware.bin_extract/184320-184472.gzip_extract/gzip.uncompressed_extract/wifi.conf
+./firmware.bin_extract/184472-188416.padding
+./firmware.bin_extract/512-180736.squashfs_v4_le_extract/bin/hellod
+./firmware.bin_extract/512-180736.squashfs_v4_le_extract/etc/device.conf
+./firmware.bin_extract/512-180736.squashfs_v4_le_extract/www/index.html
+hostname=lab65-router
+admin_ui=enabled
+fw_version=6.5.0-lab
+

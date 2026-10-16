@@ -1,0 +1,13 @@
+{
+  "mint": "7GCMYJcykHZ3qJH3e5vQi4J9qAPdb3Xninkgk6sYpump",
+  "symbol": "LOOM",
+  "recheck": "0316",
+  "mc": 128942,
+  "age_h": 0.39,
+  "h1": 193,
+  "decision": "FAIL \u2014 prior stands",
+  "reasons": [
+    "age still <30m (0.39h)",
+    "creatorBal fail + botty post-grad from prior"
+  ]
+}

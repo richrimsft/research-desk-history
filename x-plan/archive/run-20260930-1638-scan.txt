@@ -1,0 +1,71 @@
+signed_in_as: P7RIM3 / @P7RIM3 (confirmed in X account menu)
+scan_time_et: 2026-09-30T16:41:38-04:00
+cutoff: 2026-09-30T16:35:48-04:00
+NEW_COUNT: 0
+
+cards:
+- handle: @zebralife2002 (Paul Kelly)
+  url: https://x.com/zebralife2002/status/2105361123503440350
+  their_text: 'Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day'
+  age: 2h
+  disposition: already_handled
+  new_vs_known: known; supplied known URL; already replied at https://x.com/P7RIM3/status/2105362879817925052
+  source: All; Mentions
+- handle: @KittyMcfeisty2 (Piper Paprikas #2nd account)
+  url: https://x.com/KittyMcfeisty2/status/2105343324580143460
+  their_text: 'This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh'
+  age: 3h
+  disposition: over_two_beats
+  new_vs_known: known; supplied known URL
+  source: All; Mentions
+- handle: @KittyMcfeisty2 (Piper Paprikas #2nd account)
+  url: https://x.com/KittyMcfeisty2/status/2105339423638651351
+  their_text: '🙄 🤦‍♀️'
+  age: 3h
+  disposition: over_two_beats
+  new_vs_known: known; supplied known URL
+  source: All; Mentions
+- handle: @KittyMcfeisty2 (Piper Paprikas #2nd account)
+  url: https://x.com/KittyMcfeisty2/status/2105333564132712947
+  their_text: 'What’s new is this shit needs to stop. Beyond ridiculous'
+  age: 4h
+  disposition: over_two_beats
+  new_vs_known: known; supplied known URL
+  source: All; Mentions
+- handle: @Cobra17298328 (h)
+  url: https://x.com/Cobra17298328/status/2105112514090402040
+  their_text: 'I can’t see what this bitch is saying, cause he immediately blocked me'
+  age: 18h
+  disposition: already_handled
+  new_vs_known: known; supplied known URL; already handled beat 2
+  source: All; Mentions
+- handle: @juneauxwhoitis (Juneaux)
+  url: https://x.com/juneauxwhoitis/status/2105094896663371987
+  their_text: 'Overflowing with perceptions you are!'
+  age: 20h
+  disposition: over_two_beats
+  new_vs_known: known; supplied known URL
+  source: All; Mentions
+- handle: @FiresOfTruth (spooky)
+  url: https://x.com/FiresOfTruth/status/2105080875058704611
+  their_text: 'Check the link in my bio to watch a film I made with darcy'
+  age: 20h
+  disposition: promo
+  new_vs_known: known; supplied known promo URL
+  source: All; Mentions
+- handle: @SatoshiGoy
+  url: https://x.com/SatoshiGoy
+  their_text: ''
+  age: 1m
+  disposition: like_follow_ignore
+  new_vs_known: follow notification, not a reply or mention; ignored per instructions
+  source: All
+
+screenshot_paths:
+- /workspace/x-plan/run-20260930-1638-notifications.png
+- /workspace/x-plan/run-20260930-1638-mentions.png
+
+notes:
+- All and Mentions were opened and allowed to load. The visible reply/mention cards were all clearly older than the cutoff; none was younger than approximately 5 minutes.
+- The All tab also showed a SatoshiGoy follow at 1m; it was ignored because follows are out of scope.
+- No posts, replies, likes, follows, reposts, DMs, or settings were changed. Known quoted content inside the KittyMcfeisty2 card was not counted as a separate inbound card.

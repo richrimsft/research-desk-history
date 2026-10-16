@@ -1,0 +1,29 @@
+{
+ "tag": "0703",
+ "symbol": "HASHED",
+ "mint": "BMRjts1YYzGuQSygo3R3gepv5jhgWMrYcU5tAjX3rSoL",
+ "age_h": 0.5,
+ "mc": 11872,
+ "h1": 275,
+ "m5": 6.72,
+ "dexId": "pumpfun",
+ "phase": "curve/~mid",
+ "verdict": "FAIL",
+ "tag_role": "PRIOR_entered_window",
+ "reasons": [
+  "creatorBal 0 (fresh RC 0703 + 0655)",
+  "18\u00d71-5% sniper band on ~280 holders (0655 holders snapshot; RC holders empty this run)",
+  "top10ex ~26.5% (borderline/above comfort)",
+  "non-pump mint suffix \u2026rSoL",
+  "no socials on DexScreener",
+  "tx/h 1292 on ~$62k h1 vol (~$48/tx) \u2014 not extreme micro-churn but structure fails"
+ ],
+ "creatorBalance": 0,
+ "rc_score": 1,
+ "band_1_5": 18,
+ "top10ex_approx": 26.52,
+ "totalHolders_prior": 280,
+ "socials": null,
+ "tx_h": 1292,
+ "vol_h1": 62206.77
+}

@@ -1,0 +1,45 @@
+X notification scan — 2026-09-30 16:03 ET
+Cutoff: 2026-09-30T15:20:13-04:00
+Account: signed in as @P7RIM3; account menu showed “Log out @P7RIM3”.
+Tabs checked: All and Mentions.
+NEW_COUNT: 0
+NEW_UNREPLIED_AFTER_CUTOFF: NO
+
+Visible inbound reply/mention cards (all already handled or excluded by the supplied list):
+
+1) Paul Kelly (@zebralife2002) — display age: 1h — inbound reply to @P7RIM3 (also @Brand0n and 2 others)
+URL: https://x.com/zebralife2002/status/2105361123503440350
+Text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+Disposition: Already handled; replied at https://x.com/P7RIM3/status/2105362879817925052.
+
+2) Piper Paprikas #2nd account (@KittyMcfeisty2) — display age: 2h — inbound reply to @P7RIM3 and @KittyMcFeisty
+URL: https://x.com/KittyMcfeisty2/status/2105343324580143460
+Text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh
+Disposition: Already-handled KittyMcfeisty2 thread; skip further replies. Includes a quoted Libs of TikTok post.
+
+3) Piper Paprikas #2nd account (@KittyMcfeisty2) — display age: 3h — inbound reply to @P7RIM3 and @KittyMcFeisty
+URL: https://x.com/KittyMcfeisty2/status/2105339423638651351
+Text: 🙄 🤦‍♀️
+Disposition: Already-handled KittyMcfeisty2 thread; skip further replies.
+
+4) Piper Paprikas #2nd account (@KittyMcfeisty2) — display age: 3h — inbound reply to @P7RIM3 and @KittyMcFeisty
+URL: https://x.com/KittyMcfeisty2/status/2105333564132712947
+Text: What’s new is this shit needs to stop. Beyond ridiculous
+Disposition: Already-handled KittyMcfeisty2 thread; skip further replies.
+
+5) h (@Cobra17298328) — display age: 18h — inbound reply to @P7RIM3, @skeptic_vaibhav and @artaimemes
+URL: https://x.com/Cobra17298328/status/2105112514090402040
+Text: I can’t see what this bitch is saying, cause he immediately blocked me
+Disposition: Already handled; beat 2 of 2 done.
+
+6) Juneaux ⏸️ 😴 (@juneauxwhoitis) — display age: 19h — inbound reply to @P7RIM3 and @OverlyTrev
+URL: https://x.com/juneauxwhoitis/status/2105094896663371987
+Text: Overflowing with perceptions you are!
+Disposition: Already handled; two-beat thread done.
+
+7) spooky (@FiresOfTruth) — display age: 20h — inbound reply to @P7RIM3, @thehiddenpod and 2 others
+URL: https://x.com/FiresOfTruth/status/2105080875058704611
+Text: Check the link in my bio to watch a film I made with darcy
+Disposition: Already-listed FiresOfTruth bio promo; no reply.
+
+Ignored non-inbound All-tab cards: follow notification from Debra; likes/“liked your reply” notifications (including Strange Rain, Hidden In Plain Sight, Quinn Charley, Davidson Robsinson and G Reed).

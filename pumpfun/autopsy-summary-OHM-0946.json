@@ -1,0 +1,31 @@
+{
+  "tag": "0946",
+  "symbol": "OHM",
+  "mint": "5SQvS1xguXn3KjLrFqwbH4SgVhcCnsxbZqx3XC23pump",
+  "age_h": 0.3,
+  "mc": 10075.15,
+  "h1": 232,
+  "m5": -51.13,
+  "dex": "pumpfun",
+  "phase": "too_young",
+  "verdict": "FAIL",
+  "reasons": [
+    "age 0.3h <30m \u2014 no-buy by narrative-age",
+    "creatorBalance 0 / sold out"
+  ],
+  "rc_score": 1,
+  "top10ex_pct": 19.95,
+  "lp_pct_guess": 51.07,
+  "band_1_5_count": 19,
+  "max_identical_0.1": 3,
+  "identical_band_val": 1.3,
+  "tight_2.3_2.5_count": 0,
+  "creator": "BMmFy7h93ZB1rG8swVpMe7i9FoWYvUUu2PK6LBQ9Rotm",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "graphInsiders": 0,
+  "totalHolders": 338,
+  "risks": [],
+  "meta_name": "OHM AUTOBOT"
+}

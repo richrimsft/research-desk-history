@@ -1,0 +1,121 @@
+X notifications-only scan
+Timestamp: 2026-09-30 20:31 EDT
+Cutoff: 2026-09-30T20:23:09-04:00
+Account confirmed: @P7RIM3
+Scope: https://x.com/notifications (All) and https://x.com/notifications/mentions only. No original post, like, follow, repost, or DM action taken.
+
+RESULT
+NEW_COUNT=0
+No visible reply/mention was newer than the cutoff. No replies were posted.
+
+ALL TAB (https://x.com/notifications)
+
+1) @DrumondArt — https://x.com/DrumondArt/status/2105451230445154557
+Displayed age: 18 minutes ago (the All view showed 17m on its first render; Mentions showed 18m)
+Exact text: "Deep mastery across fields"... followed by 49 x 🤣
+Reply already under it: No (0 Replies)
+Newer than cutoff: No; displayed age puts it before 20:23:09.
+Action: Skip. Emoji-only laugh troll with no claim; explicitly known already handled.
+
+2) @stonkspark — https://x.com/stonkspark/status/2105435508927005103
+Displayed age: 1 hour ago
+Exact text: on it
+Reply already under it: Yes (1 reply); known reply: https://x.com/P7RIM3/status/2105435757142028442
+Newer than cutoff: No.
+Action: Skip; already handled.
+
+3) @SafetyNotorious — https://x.com/SafetyNotorious/status/2105431749333602704
+Displayed age: 1 hour ago
+Exact text: P7RIM3 - Retard of the Day 🏆
+Quote-only context: @P7RIM3 “@__0HOUR1_ more to come on this and his fake coin that spammed his followers” plus an image.
+Reply already under it: No (0 Replies)
+Newer than cutoff: No.
+Action: Skip and flag. Quote-only slur/insult; do not engage.
+
+4) @GilliRoth — https://x.com/GilliRoth/status/2105422493200875658
+Displayed age: 2 hours ago
+Exact text: Image-only reply; no text was exposed in the notification card.
+Reply already under it: Yes (1 reply); known reply: https://x.com/P7RIM3/status/2105426194468405542
+Newer than cutoff: No.
+Action: Skip; already handled.
+
+Non-reply All notifications (considered and ignored per scope):
+- @mom_agency_ — liked your post, 6m; post text “The meeting explaining why we need to change it from AI to SI”.
+- @Eagles — informational card, 6m; “Eagles Injury Update — LB Zack Baun has a concussion and is in the concussion protocol, with his status in question for the Rams.”
+- @Sonic1994DC and @rilo0x — liked your post, 21m; “We need more of this”.
+- @Maskedrider26 — liked your reply, 30m; “It’s still intense! Great movie”.
+- @MaverickDarby and 6 others — liked your post, 33m; “We need more of this”.
+- @mariam_wayman32 — liked your reply, 1h; “The comments here are hilarious! Wow”.
+- @Elonmusk183737 — reposted your reply, 2h; “The comments here are hilarious! Wow”.
+- @stareatmehuman and @RUNjOutdoors — liked your reply, 41m; text began “This is the stuff you listen to when your entire life goes to shit...” and contained a slur; not a reply/mention card to act on.
+
+MENTIONS TAB (https://x.com/notifications/mentions)
+
+1) @DrumondArt — https://x.com/DrumondArt/status/2105451230445154557
+Displayed age: 18 minutes ago
+Exact text: "Deep mastery across fields"... followed by 49 x 🤣
+Reply already under it: No (0 Replies)
+Newer than cutoff: No.
+Action: Skip; emoji-only laugh troll, already listed above.
+
+2) @stonkspark — https://x.com/stonkspark/status/2105435508927005103
+Displayed age: 1 hour ago
+Exact text: on it
+Reply already under it: Yes (1 reply), known reply https://x.com/P7RIM3/status/2105435757142028442
+Newer than cutoff: No.
+Action: Skip; already handled.
+
+3) @GilliRoth — https://x.com/GilliRoth/status/2105422493200875658
+Displayed age: 2 hours ago
+Exact text: Image-only reply; no text exposed in the card.
+Reply already under it: Yes (1 reply), known reply https://x.com/P7RIM3/status/2105426194468405542
+Newer than cutoff: No.
+Action: Skip; already handled.
+
+4) @zebralife2002 — https://x.com/zebralife2002/status/2105361123503440350
+Displayed age: 6 hours ago
+Exact text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+Reply already under it: Yes (1 reply); known reply: https://x.com/P7RIM3/status/2105362879817925052
+Newer than cutoff: No.
+Action: Skip; already handled.
+
+5) @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105343324580143460
+Displayed age: 7 hours ago
+Exact text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh
+Quoted context: @libsoftiktok post beginning “BREAKING: MAJOR Controversy at PA High School after MALE crowned \"Homecoming Queen\"...”
+Reply already under it: No (0 Replies)
+Newer than cutoff: No.
+Action: Skip; KittyMcfeisty2 thread is already over two beats / known handled.
+
+6) @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105339423638651351
+Displayed age: 7 hours ago
+Exact text: 🙄 🤦‍♀️
+Reply already under it: Yes (1 reply)
+Newer than cutoff: No.
+Action: Skip; emoji-only reaction in the already over-two-beats Kitty thread.
+
+7) @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105333564132712947
+Displayed age: 8 hours ago
+Exact text: What’s new is this shit needs to stop. Beyond ridiculous
+Reply already under it: Yes (1 reply)
+Newer than cutoff: No.
+Action: Skip; already over two beats with the same person.
+
+8) @Cobra17298328 — https://x.com/Cobra17298328/status/2105112514090402040
+Displayed age: 22 hours ago
+Exact text: I can’t see what this bitch is saying, cause he immediately blocked me
+Reply already under it: Yes (1 reply)
+Newer than cutoff: No.
+Action: Skip; old slur/troll thread, known already handled.
+
+9) @juneauxwhoitis — https://x.com/juneauxwhoitis/status/2105094896663371987
+Displayed age: 23 hours ago
+Exact text: Overflowing with perceptions you are!
+Reply already under it: Yes (2 replies)
+Newer than cutoff: No.
+Action: Skip; thread already at 2+ beats with the same person.
+
+FILES
+- Screenshot (All): /workspace/x-plan/run-20260930-2031-notifications.png
+- Screenshot (Mentions): /workspace/x-plan/run-20260930-2031-mentions.png
+- This report: /workspace/x-plan/run-20260930-2031-scan.txt

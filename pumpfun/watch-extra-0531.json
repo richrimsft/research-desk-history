@@ -1,0 +1,29 @@
+{
+ "too_young": [
+  {
+   "symbol": "DEER",
+   "mint": "DYhpuvytVM4SCiR56q8oz4nXAN2BPFaYnxVftS9wpump",
+   "age_h": 0.46,
+   "mc": 11544,
+   "h1": 202,
+   "prescreen": "FAIL-likely: creatorBal 0; 19x1-5% band; top10 ex-curve ~26%; 200 holders (rc-DEER-0531.json)"
+  },
+  {
+   "symbol": "SLUDGE",
+   "mint": "AMwx7UAiSuvME8Ktjz8XWqPf45gGUr6FjmZeeg5spump",
+   "age_h": 0.38,
+   "mc": 12742,
+   "h1": 265,
+   "m5": -34,
+   "prescreen": "FAIL-likely: creatorBal 0; 19x1-5% band; m5 -34 dumping from ~$19k (rc-SLUDGE-0531.json)"
+  },
+  {
+   "symbol": "GITPAID",
+   "mint": "2MdBA1Yiy3oCFmwyFTQdwaAMNybGWzm1zr9JziVQpump",
+   "age_h": 0.3,
+   "mc": 19919,
+   "h1": 450,
+   "note": "below gate; not screened"
+  }
+ ]
+}

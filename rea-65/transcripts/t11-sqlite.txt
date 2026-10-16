@@ -1,0 +1,14 @@
+$ ls -la sqlite/
+total 28
+drwxr-xr-x  2 box box  4096 Oct 14 12:39 .
+drwxr-xr-x 13 box box  4096 Oct 14 15:01 ..
+-r--r--r--  1 box box 20480 Oct 14 12:39 notes.db
+
+$ rea inspect-sqlite-database sqlite/notes.db --format json | jq -c '.provider, .normalized_result.artifact, (.normalized_result.schema | {scope, completeness}, (.tables[] | {name, column_count, columns_completeness}), {indexes: [.indexes[].name], views: [.views[].name], triggers: [.triggers[].name]})'
+{"id":"sqlite","name":"REA SQLite database inspector","version":"SQLite 3.53.4"}
+{"path":"/workspace/re/lab65/sqlite/notes.db","sha256":"2a944faede77fd6140c40df382d53b138975e9c81d41370c34de8f1aee560e15","bytes":20480}
+{"scope":"inventory","completeness":"complete"}
+{"name":"users","column_count":4,"columns_completeness":"not_requested"}
+{"name":"notes","column_count":7,"columns_completeness":"not_requested"}
+{"indexes":["sqlite_autoindex_users_1","notes_by_user"],"views":["pinned_notes"],"triggers":["notes_touch"]}
+

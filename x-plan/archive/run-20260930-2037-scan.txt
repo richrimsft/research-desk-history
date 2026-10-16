@@ -1,0 +1,145 @@
+X notifications-only scan report
+
+NEW_COUNT: 0
+cutoff: 2026-09-30T20:23:09-04:00
+scanned_at: 2026-09-30T20:37:00-04:00
+account_confirmed: @P7RIM3
+screenshots:
+- /workspace/x-plan/run-20260930-2037-notifications.png (All tab)
+- /workspace/x-plan/run-20260930-2037-mentions.png (Mentions tab)
+
+Visible reply/mention cards considered (All tab):
+
+ITEM_CONSIDERED
+source: All
+handle: @DrumondArt
+url: https://x.com/DrumondArt/status/2105451230445154557
+age: approximately 23 minutes
+text: "Deep mastery across fields"... followed by repeated 🤣 emoji (emoji-reaction text; no substantive inbound text)
+parent/context: replying to @P7RIM3 and @cb_doge
+our_replies_visible: 0 (card shows 0 replies)
+action: SKIP_EMOJI_LAUGH_TROLL
+
+ITEM_CONSIDERED
+source: All
+handle: @stonkspark
+url: https://x.com/stonkspark/status/2105435508927005103
+age: approximately 1 hour
+text: on it
+parent/context: replying to @P7RIM3
+our_replies_visible: 1 (known reply: https://x.com/P7RIM3/status/2105435757142028442)
+action: SKIP_ALREADY_HANDLED
+
+ITEM_CONSIDERED
+source: All
+handle: @SafetyNotorious
+url: https://x.com/SafetyNotorious/status/2105431749333602704
+age: approximately 1 hour
+text: P7RIM3 - Retard of the Day 🏆; quote-only card quoting @P7RIM3: @__0HOUR1_ more to come on this and his fake coin that spammed his followers [image]
+parent/context: quote of https://x.com/P7RIM3/status/2105427390197547463
+our_replies_visible: 0 (card shows 0 replies)
+action: SKIP_QUOTE_ONLY_SLUR_FLAG_ONLY
+
+ITEM_CONSIDERED
+source: All
+handle: @GilliRoth
+url: https://x.com/GilliRoth/status/2105422493200875658
+age: approximately 2 hours
+text: image-only (no text exposed in card)
+parent/context: replying to @P7RIM3 and @cb_doge
+our_replies_visible: 1 (known reply: https://x.com/P7RIM3/status/2105426194468405542)
+action: SKIP_ALREADY_HANDLED
+
+Visible reply/mention cards considered (Mentions tab):
+
+ITEM_CONSIDERED
+source: Mentions
+handle: @DrumondArt
+url: https://x.com/DrumondArt/status/2105451230445154557
+age: approximately 23 minutes
+text: "Deep mastery across fields"... followed by repeated 🤣 emoji (emoji-reaction text; no substantive inbound text)
+parent/context: replying to @P7RIM3 and @cb_doge
+our_replies_visible: 0 (card shows 0 replies)
+action: SKIP_EMOJI_LAUGH_TROLL
+
+ITEM_CONSIDERED
+source: Mentions
+handle: @stonkspark
+url: https://x.com/stonkspark/status/2105435508927005103
+age: approximately 1 hour
+text: on it
+parent/context: replying to @P7RIM3
+our_replies_visible: 1 (known reply: https://x.com/P7RIM3/status/2105435757142028442)
+action: SKIP_ALREADY_HANDLED
+
+ITEM_CONSIDERED
+source: Mentions
+handle: @GilliRoth
+url: https://x.com/GilliRoth/status/2105422493200875658
+age: approximately 2 hours
+text: image-only (no text exposed in card)
+parent/context: replying to @P7RIM3 and @cb_doge
+our_replies_visible: 1 (known reply: https://x.com/P7RIM3/status/2105426194468405542)
+action: SKIP_ALREADY_HANDLED
+
+ITEM_CONSIDERED
+source: Mentions
+handle: @zebralife2002
+url: https://x.com/zebralife2002/status/2105361123503440350
+age: approximately 6 hours
+text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+parent/context: replying to @P7RIM3, @Brand0n, and 2 others
+our_replies_visible: 1 (known reply: https://x.com/P7RIM3/status/2105362879817925052)
+action: SKIP_ALREADY_HANDLED
+
+ITEM_CONSIDERED
+source: Mentions
+handle: @KittyMcfeisty2
+url: https://x.com/KittyMcfeisty2/status/2105343324580143460
+age: approximately 7 hours
+text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh
+parent/context: replying to @P7RIM3 and @KittyMcFeisty; quote-only attached Libs of TikTok post/image
+our_replies_visible: 0 (card shows 0 replies)
+action: SKIP_KITTY_THREAD_OVER_TWO_BEATS
+
+ITEM_CONSIDERED
+source: Mentions
+handle: @KittyMcfeisty2
+url: https://x.com/KittyMcfeisty2/status/2105339423638651351
+age: approximately 7 hours
+text: 🙄 🤦‍♀️ (emoji-only)
+parent/context: replying to @P7RIM3 and @KittyMcFeisty
+our_replies_visible: 1 total reply visible on card; ownership not separately exposed
+ action: SKIP_KITTY_THREAD_OVER_TWO_BEATS
+
+ITEM_CONSIDERED
+source: Mentions
+handle: @KittyMcfeisty2
+url: https://x.com/KittyMcfeisty2/status/2105333564132712947
+age: approximately 8 hours
+text: What’s new is this shit needs to stop. Beyond ridiculous
+parent/context: replying to @P7RIM3 and @KittyMcFeisty
+our_replies_visible: 1 total reply visible on card; ownership not separately exposed
+action: SKIP_KITTY_THREAD_OVER_TWO_BEATS
+
+ITEM_CONSIDERED
+source: Mentions
+handle: @Cobra17298328
+url: https://x.com/Cobra17298328/status/2105112514090402040
+age: approximately 22 hours
+text: I can’t see what this bitch is saying, cause he immediately blocked me
+parent/context: replying to @P7RIM3, @skeptic_vaibhav, and @artaimemes
+our_replies_visible: 1 total reply visible on card; old thread
+ action: SKIP_OLD_SLUR
+
+ITEM_CONSIDERED
+source: Mentions
+handle: @juneauxwhoitis
+url: https://x.com/juneauxwhoitis/status/2105094896663371987
+age: approximately 23 hours
+text: Overflowing with perceptions you are!
+parent/context: replying to @P7RIM3 and @OverlyTrev
+our_replies_visible: 2 total replies visible on card; existing multi-beat thread
+ action: SKIP_JUNEAUX_OVER_TWO_BEATS
+
+No cards newer than the cutoff were visible. No NEW_UNREPLIED items. No replies/posts/actions were composed or sent.

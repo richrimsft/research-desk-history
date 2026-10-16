@@ -1,0 +1,31 @@
+{
+  "sym": "ROADSTER",
+  "mint": "Eizz6UJUBmoH4CxqLR5XBRyEGfoaKeckjmsraobSpump",
+  "verdict": "REJECT",
+  "why": "PRIOR reject stands hard: RC risk 'Creator history of rugged tokens' (score 117601); whale ~26% of supply ex-LP; copycat revived narrative + borrowed socials.",
+  "score": 117601,
+  "creatorBalance": 18907680716394,
+  "creatorTokens_count": 50,
+  "top_ex_lp_sample_pcts": [
+    26.22,
+    3.64,
+    2.7,
+    2.25,
+    2.15,
+    2.1,
+    2.05,
+    2.01,
+    1.9,
+    1.87
+  ],
+  "whale_ex_lp_pct": 26.22,
+  "risks": [
+    "Creator history of rugged tokens"
+  ],
+  "mc_dex": 24225,
+  "age_h": 1.92,
+  "h1": 67.74,
+  "tx1h": "166b/108s",
+  "dex": "pumpswap",
+  "liq": 12113
+}

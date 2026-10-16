@@ -1,0 +1,17 @@
+X Explore / trend check notes
+Timestamp: 2026-09-29 18:20 ET
+Account: @P7RIM3
+Sources this run: WebSearch + WebFetch (TechCrunch Dots article); prior Explore file run-20260929-1805-explore.txt
+Live https://x.com/explore/tabs/trending NOT opened (no computerUse in executor tool list).
+
+DOTS RE-VERIFY (2026-09-29)
+- Announced at OpenAI DevDay today; powered by GPT-6 Astra
+- Always-on agents with their own cloud computer; 4000+ apps via plugins
+- Interact via ChatGPT, Slack, Teams; Pro ($100/mo) and Business Premium first; one Dot included
+- Explicit approval for sensitive actions; Custom Rules; OpenAI can pause a Dot
+- Sources: TechCrunch https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/ ; WIRED; 9to5Google; Mashable; CNBC; The Verge
+
+JUDGMENT
+Best agent-lane candidate remains OpenAI Dots. Fit for receipt-driven kill-path / evidence-before-done angle.
+Not posted: 45-min spacing after ~17:55 ET agentmail original (next_allowed ~18:40 ET) + could not re-confirm newest original on profile without browser.
+Already used extras today: OpenAI Australia breach 16:24 ET; Starship pale blue streak 17:21 ET. One slot remains after window clears.

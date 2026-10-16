@@ -1,0 +1,27 @@
+{
+  "tag": "0928",
+  "symbol": "RIBBIT",
+  "mint": "78ZBbCJkwQjXxRJJ2xv4gXU1BZvAayrvysqF4bmZpump",
+  "tag_role": "YOUNG_prescreen",
+  "verdict": "FAIL",
+  "age_h": 0.14,
+  "mc": 95462,
+  "dex": "pumpswap",
+  "h1": 113,
+  "m5": 51.83,
+  "phase": "pumpswap",
+  "reasons": [
+    "too young (<30m) \u2014 no-buy by narrative-age rule",
+    "creatorBal 0 (dev sold early)",
+    "12\u00d7 1\u20135% holder band",
+    "fresh post-grad pumpswap chase"
+  ],
+  "creatorBalance": 0,
+  "creator": "3mzvzPpTanqUZFNEFbtcHUSoGYygv4tywb7gxadjzEDh",
+  "band_1_5": 12,
+  "top10ex_est": 18.21,
+  "totalHolders": 2111,
+  "score": 1,
+  "fetched_at": "2026-10-16T09:28ET",
+  "rc_file": "rc-RIBBIT-0928.json"
+}

@@ -1,0 +1,31 @@
+{
+ "tag": "0703",
+ "symbol": "normie",
+ "mint": "4673spr9Zth4E3ZtZ493RTvqhdD8hW9o6pWjCd5Spump",
+ "age_h": 0.26,
+ "mc": 25539,
+ "h1": 610,
+ "m5": 11.01,
+ "dexId": "pumpfun",
+ "phase": "too_young",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "age 0.26h <30m \u2014 no-buy",
+  "creatorBal 0 (fresh RC)",
+  "19\u00d71-5% sniper band (0650 holders snapshot)",
+  "socials: single X status link (thegoat195923) \u2014 thin/brand-new style",
+  "tx/h 3914 on ~$140k vol \u2014 elevated churn"
+ ],
+ "creatorBalance": 0,
+ "rc_score": 1,
+ "band_1_5": 19,
+ "totalHolders_prior": 460,
+ "socials": [
+  {
+   "url": "https://x.com/thegoat195923/status/2111046934689357912",
+   "type": "twitter"
+  }
+ ],
+ "tx_h": 3914,
+ "vol_h1": 140319.68
+}

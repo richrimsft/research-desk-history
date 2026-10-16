@@ -1,0 +1,19 @@
+RUN 2026-10-01 ~02:07–02:14 ET (X reply responder)
+signed_in=@P7RIM3
+cutoff_in=2026-10-01T01:53:00-04:00
+cutoff_out=2026-10-01T02:14:54-04:00
+held=none pending; Optimus DONE; 0hour CANCELLED
+NEW_COUNT=0
+replies_posted=0
+originals=0 (midnight window; skipped by design)
+flags=none
+blockers=none (live computerUse scan completed after nested-executor blocker)
+
+NOTE: First attempt at 02:07 blocked (nested executor lacked computerUse). Parent re-dispatched computerUse; live All + Mentions refresh succeeded ~02:14 ET.
+
+SCAN_ALL=/workspace/x-plan/run-20261001-0207-notifications.png
+SCAN_MENTIONS=/workspace/x-plan/run-20261001-0207-mentions.png
+
+Qualifying replies/mentions newer than cutoff: none.
+Newest All item: like @KMithos +5 at 3m (skipped).
+Mentions all older than cutoff (@misterg792000 3h already 2-beats done; others 4h+).

@@ -1,0 +1,45 @@
+{
+  "tag": "0501",
+  "symbol": "MemeTrace",
+  "safe": "MemeTraceAunf",
+  "mint": "Aunf8ZYfEgRozzi3ddBqu6bnAFgTVC882Ab2y4zVpump",
+  "verdict": "FAIL",
+  "fails": [
+    "age 0.13h <30m",
+    "creatorBal 0",
+    "16\u00d71-5% band",
+    "no socials",
+    "cabal funders: 1 hit(s)",
+    "copycat MemeTrace symbol (2 concurrent mints)"
+  ],
+  "age_h": 0.13,
+  "mc": 6128,
+  "h1": 69.73,
+  "m5": -31.67,
+  "dexId": "pumpfun",
+  "phase": "curve",
+  "creator": "G3p92QcWzCfSGJi3cwm5vtgbKAiakZPhEkuoXv4YtcBB",
+  "creatorBal": 0.0,
+  "band_1_5": 16,
+  "top10_ex_curve_pct": 22.1,
+  "socials": {
+    "twitter": null,
+    "telegram": null,
+    "website": null
+  },
+  "rugScore": 1,
+  "risks": [],
+  "cabal_hits": [
+    {
+      "holder": "CokYjTJ4wbYj6Ss8iRN1uj8cUXRXAYXF6PFdc9joTaBs",
+      "funder": "u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w",
+      "sol": 0.59465
+    }
+  ],
+  "shared_funders": {},
+  "txns_h1": {
+    "buys": 799,
+    "sells": 652
+  },
+  "vol_h1": 63991.98
+}

@@ -1,0 +1,59 @@
+{
+  "tag": "0928",
+  "symbol": "EI",
+  "name": "European Intelligence",
+  "mint": "8qGJc7sPvmS9Bs26ni2D67KxH97w989kuxr7Tc98pump",
+  "mc": 22945,
+  "age_h": 0.59,
+  "h1": 629,
+  "m5": -0.91,
+  "dex": "pumpfun",
+  "tag_role": "NEW",
+  "phase": "pumpfun/on-curve ~62% (quote~52.6 SOL)",
+  "verdict": "FAIL",
+  "reasons": [
+    "creatorBal 0 (dev sold out early)",
+    "19\u00d7 1\u20135% holder band; tight 1.2%\u00d73 and 1.6%\u00d73 clusters",
+    "top10ex\u224826.6% (borderline high)",
+    "insiderNetworks True on RugCheck",
+    "Note: different mint from prior EI DDaq\u2026 FAIL; same structural pattern"
+  ],
+  "creatorBalance": 0,
+  "creator": "C6SUfbnv9pQ53TRrQmUd7FtqT4w6R92NECvzSoDF4xWd",
+  "creator_pct": 0,
+  "band_1_5": 19,
+  "band_pcts": [
+    3.782,
+    3.392,
+    3.218,
+    3.034,
+    2.907,
+    2.427,
+    2.187,
+    2.054,
+    1.835,
+    1.71,
+    1.647,
+    1.644,
+    1.582,
+    1.416,
+    1.297,
+    1.186,
+    1.17,
+    1.158,
+    1.095
+  ],
+  "top10ex_est": 26.55,
+  "excl_lp": [
+    [
+      31.660033246914598,
+      "4FCsmcqEikP5Aaud"
+    ]
+  ],
+  "totalHolders": 515,
+  "score": 1,
+  "insiderNetworks": true,
+  "risks": [],
+  "fetched_at": "2026-10-16T09:28ET",
+  "rc_file": "rc-EI-0928.json"
+}

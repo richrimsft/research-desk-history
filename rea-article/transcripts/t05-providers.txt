@@ -1,0 +1,42 @@
+$ rea providers 2>&1 | head -40
+open: false
+capabilities[18]:
+  - operation: capture_native_ui_scenario
+    available: false
+    reason: Native macOS utilities require macOS.
+    availability_code: unsupported_host
+    effects:
+      mutates_artifact: false
+      launches_process: true
+      may_show_ui: true
+      may_access_network: true
+      may_write_filesystem: true
+      changes_permissions: false
+      requires_root: false
+    limitations[1]: Availability and textual formats depend on the installed macOS/Xcode toolchain.
+  - operation: decode_interface_builder
+    available: true
+    reason: null
+    availability_code: null
+    effects:
+      mutates_artifact: false
+      launches_process: false
+      may_show_ui: false
+      may_access_network: false
+      may_write_filesystem: false
+      changes_permissions: false
+      requires_root: false
+    limitations[2]: DMG child inventory automatically uses a read-only native macOS mount; PKG remains root-hash-only.,ASAR files discovered in filesystem-backed inventories are expanded without bulk extraction; other nested containers remain recorded only.
+  - operation: demangle_swift
+    available: false
+    reason: Native macOS utilities require macOS.
+    availability_code: unsupported_host
+    effects:
+      mutates_artifact: false
+      launches_process: true
+      may_show_ui: false
+      may_access_network: false
+      may_write_filesystem: false
+      changes_permissions: false
+      requires_root: false
+

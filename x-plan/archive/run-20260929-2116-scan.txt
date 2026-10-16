@@ -1,0 +1,43 @@
+SCAN_TIME:
+2026-09-29 21:16 ET (America/New_York), cutoff approximately 21:08 ET.
+
+ALL_CARDS:
+- karobaar and 2 others — liked your reply, displayed 22m; own-post engagement, ignored.
+- FormOverTime — liked your reply, displayed 34m; own-post engagement, ignored. Preview: “The guy is clueless. You can tell he has ZERO technical skills...”
+- @juneauxwhoitis — https://x.com/juneauxwhoitis/status/2105094896663371987 — displayed 39m; reply text: “Overflowing with perceptions you are!”; 2 replies/1 like shown. No P7RIM3 reply text visible directly in the notification card; already handled per known list. No blocked_by_author indication.
+- icvfrees and 2 others — liked your reply, displayed 41m; own-post engagement, ignored.
+- Robin — liked your reply, displayed 48m; own-post engagement, ignored. Preview: “Time to crank out the money printing machine.”
+- King Chess — liked your reply, displayed 1h; own-post engagement, ignored.
+- John Galt and 12 others — liked your reply, displayed 1h; own-post engagement, ignored.
+- @FiresOfTruth — https://x.com/FiresOfTruth/status/2105080875058704611 — displayed 1h; reply text: “Check the link in my bio to watch a film I made with darcy”; no P7RIM3 reply text visible in card; already handled per known list. No blocked_by_author indication.
+- @FiresOfTruth — https://x.com/FiresOfTruth/status/2105074701802651949 — displayed 1h; quote/reply card for @SlackerBluePod: “Alex B is currently missing. #fishtanklive” (embedded quoted content); no P7RIM3 reply text visible in card; already handled per known list. No blocked_by_author indication.
+- @FiresOfTruth — https://x.com/FiresOfTruth/status/2105073376268345355 — displayed 1h; reply text: “He’s a human being”; 1 reply/5 likes shown; no P7RIM3 reply text visible in card; already handled per known list. No blocked_by_author indication.
+- Mr. Fugazi and 5 others — liked your reply, displayed 1h; own-post engagement, ignored.
+- @grok — https://x.com/grok/status/2105068070892912851 — displayed 2h; reply text: “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the america.gov”; no P7RIM3 reply text visible in card; already handled per known list (would be beat 3). No blocked_by_author indication.
+
+MENTIONS_CARDS:
+- @juneauxwhoitis — https://x.com/juneauxwhoitis/status/2105094896663371987 — 39m — “Overflowing with perceptions you are!”; already handled; no blocked_by_author indication.
+- @FiresOfTruth — https://x.com/FiresOfTruth/status/2105080875058704611 — 1h — “Check the link in my bio to watch a film I made with darcy”; already handled; no blocked_by_author indication.
+- @FiresOfTruth — https://x.com/FiresOfTruth/status/2105074701802651949 — 1h — quote/missing card, “Alex B is currently missing. #fishtanklive”; already handled; no blocked_by_author indication.
+- @FiresOfTruth — https://x.com/FiresOfTruth/status/2105073376268345355 — 1h — “He’s a human being”; already handled; no blocked_by_author indication.
+- @grok — https://x.com/grok/status/2105068070892912851 — 2h — America.gov explanation beginning “The stop is architectural, not a footnote”; already handled; no blocked_by_author indication.
+
+NEW_NEEDING_REPLY:
+[]
+
+NEW_COUNT: 0
+
+SKIPPED:
+- No inbound reply/mention card was newer than the approximately 21:08 ET cutoff; the newest visible notification was a like-only card at 22m, and the newest inbound reply was @juneauxwhoitis at 39m.
+- Skipped likes-only/own-post engagement cards, follows, and all known-already-handled items listed in the task. Older threads for @Only_Ryan02, @Hronom, @jammusnu, and @RyanILoveYouSo were not reopened.
+
+FLAGGED:
+[]
+
+PROFILE_RECENT_ORIGINALS:
+- 29m — “Big Tech all at the main table. Buy their stock. ESP the ones sitting next to @POTUS” (with seating-chart image).
+- 2h — “Not gonna lie. This is ridiculous.” (quoting a White House/Super Intelligence post).
+
+NOTES:
+- Payment failed banner was visible on the @P7RIM3 profile: “Warning: Payment failed” and “Please urgently update your payment method before you lose your subscription benefits.” No billing control was touched.
+- Notifications All and Mentions were reviewed. No likes, follows, reposts, DMs, posts, settings, bio, pin, or billing changes were made.

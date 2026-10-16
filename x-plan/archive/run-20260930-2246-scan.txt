@@ -1,0 +1,36 @@
+scan_end=2026-09-30T22:48:31-04:00
+cutoff=2026-09-30T22:45:05-04:00
+signed_in_as=@P7RIM3
+
+ITEM_CONSIDERED [ALL] handle=@zacharyfleischer | age=47s | type=like | text="The comments here are hilarious! Wow" | status_url=not exposed in notification card | newer_than_cutoff=yes | action=SKIP_like-only
+ITEM_CONSIDERED [ALL] handle=@MCHStereo | age=7m | type=like | text="Cool story, but zero proof. Just a trust me bro, I worked in government" | status_url=not exposed in notification card | newer_than_cutoff=yes | action=SKIP_like-only
+ITEM_CONSIDERED [ALL] handle=@Scullyspier | age=8m | type=repost | text="We need more of this" | status_url=not exposed in notification card | newer_than_cutoff=yes | action=SKIP_repost-only
+ITEM_CONSIDERED [ALL] handle=@Scullyspier + 3 others | age=8m | type=like | text="We need more of this" | status_url=not exposed in notification card | newer_than_cutoff=yes | action=SKIP_like-only
+ITEM_CONSIDERED [ALL] handle=@DemosthenesTwin + 2 others | age=13m | type=like | text="This is the stuff you listen to when your entire life goes to shit and you try and figure out what went wrong..." | status_url=not exposed in notification card | newer_than_cutoff=yes | action=SKIP_like-only; no visible ableist slur in this card
+ITEM_CONSIDERED [ALL] handle=@Cuzzo_TM | age=22m | type=quote | text="Welcome to Pump.Fun ........DORK" quoting P7RIM3's $0HOUR1 post | status_url=not exposed in notification card | newer_than_cutoff=yes | action=SKIP_0hour-content-cancelled
+ITEM_CONSIDERED [ALL] handle=@misterg792000 | age=26m | type=reply | text="Buddy, he didn't invent either one of those things. He just bought the company that did." | status_url=not exposed in notification card | newer_than_cutoff=yes | action=SKIP_two-beat-stop; do not reply further to this thread
+ITEM_CONSIDERED [ALL] handle=Sports card (Rams/Nacua) | age=39m | type=sports-news | text="Rams' Nacua returns — WR Puka Nacua returned to limited practice; coach Sean McVay expects him to play Sunday against the Eagles." | status_url=not applicable | newer_than_cutoff=yes | action=SKIP_sports-news
+ITEM_CONSIDERED [ALL] handle=@misterg792000 | age=43m | type=reply | text="Name a single field he has demonstrated \"deep mastery\" of. Name a single thing he has invented." | status_url=not exposed in notification card | newer_than_cutoff=yes | action=SKIP_two-beat-stop; do not reply further to this thread
+ITEM_CONSIDERED [ALL] handle=@misterg792000 | age=43m | type=like | text="Ok that tracks. Deep mastery across fields, not just wearing a lot of hats. Thanks for the card. For Meridian specifically — which domains already have their shipped receipts?" | status_url=not exposed in notification card | newer_than_cutoff=yes | action=SKIP_like-only
+ITEM_CONSIDERED [ALL] handle=@MadamHaus | age=1h | type=reply | text=GIF/video; visible frame says "Sure, Jan."; replying to @P7RIM3 and @__0HOUR1_ | status_url=not exposed in notification card | newer_than_cutoff=no | action=SKIP_0hour-content-cancelled
+ITEM_CONSIDERED [ALL] handle=@Mom | age=2h | type=like | text="The meeting explaining why we need to change it from AI to SI" | status_url=not exposed in notification card | newer_than_cutoff=no | action=SKIP_like-only
+ITEM_CONSIDERED [ALL] handle=Sports card (Eagles injury update) | age=2h | type=sports-news | text="Eagles Injury Update — LB Zack Baun has a concussion and is in the concussion protocol, with his status in question for the Rams." | status_url=not applicable | newer_than_cutoff=no | action=SKIP_sports-news
+ITEM_CONSIDERED [ALL] handle=@DrumondArt | age=2h | type=reply | text="Deep mastery across fields..." followed by emoji-only laughing spam | status_url=not exposed in notification card | newer_than_cutoff=no | action=SKIP_emoji-only-spam
+ITEM_CONSIDERED [ALL] handle=@Johnny | age=2h | type=like | text="It's still intense! Great movie" | status_url=not exposed in notification card | newer_than_cutoff=no | action=SKIP_like-only
+ITEM_CONSIDERED [ALL] handle=@MaverickAlexander + 6 others | age=2h | type=like | text="We need more of this" | status_url=not exposed in notification card | newer_than_cutoff=no | action=SKIP_like-only
+ITEM_CONSIDERED [ALL] handle=@Abyss + @finshame | age=2h | type=like | text=not exposed in notification card | status_url=not exposed in notification card | newer_than_cutoff=no | action=SKIP_like-only
+
+ITEM_CONSIDERED [MENTIONS] handle=@misterg792000 | age=26m | type=reply | text="Buddy, he didn't invent either one of those things. He just bought the company that did." | status_url=not exposed in notification card | newer_than_cutoff=yes | action=SKIP_two-beat-stop; duplicate of All item
+ITEM_CONSIDERED [MENTIONS] handle=@misterg792000 | age=43m | type=reply | text="Name a single field he has demonstrated \"deep mastery\" of. Name a single thing he has invented." | status_url=not exposed in notification card | newer_than_cutoff=yes | action=SKIP_two-beat-stop; duplicate of All item
+ITEM_CONSIDERED [MENTIONS] handle=@MadamHaus | age=1h | type=reply | text=GIF/video; replying to @P7RIM3 and @__0HOUR1_ | status_url=not exposed in notification card | newer_than_cutoff=no | action=SKIP_0hour-content-cancelled; duplicate of All item
+ITEM_CONSIDERED [MENTIONS] handle=@DrumondArt | age=2h | type=reply | text="Deep mastery across fields..." plus emoji-only laughing spam | status_url=not exposed in notification card | newer_than_cutoff=no | action=SKIP_emoji-only-spam; duplicate of All item
+ITEM_CONSIDERED [MENTIONS] handle=@stonkspark | age=3h | type=reply | text="on it" | status_url=not exposed in notification card | newer_than_cutoff=no | action=SKIP_older-than-cutoff
+ITEM_CONSIDERED [MENTIONS] handle=@GilliRoth | age=4h | type=reply | text=image reply to @P7RIM3 and @cb_doge | status_url=https://x.com/GilliRoth/status/2105404282220564784 | newer_than_cutoff=no | action=SKIP_older-than-cutoff
+
+NEW_COUNT=0 (one newer-than-cutoff like-only notification; no qualifying unreplied substantive reply/mention)
+REPLIES_POSTED=NONE
+FLAGS=No threats, self-harm, illegal content, blocked handles, or actionable ableist-slur item observed. DemosthenesTwin like card contained no visible slur. Payment-failed banner was visible on profile; no billing action taken per instruction.
+DUPLICATE_CHECK=Profile latest visible authored posts were distinct; pinned "We need more of this" appeared once, alongside distinct "Why is Ram so expensive they ask" and "The meeting explaining why we need to change it from AI to SI". No accidental duplicate observed.
+BLOCKERS=None
+SCREENSHOTS=/workspace/x-plan/run-20260930-2246-notifications.png;/workspace/x-plan/run-20260930-2246-mentions.png
+suggested_next_cutoff=2026-09-30T22:48:31-04:00

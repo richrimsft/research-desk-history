@@ -1,0 +1,117 @@
+{
+  "tag": "0808",
+  "symbol": "DJT",
+  "mint": "5aGRLchKmNDvNtzZ7qv2sPW1v349pPYWQZu88uNcTTLG",
+  "mc": 19957.25,
+  "age_h": 0.21,
+  "h1": 395,
+  "m5": 120,
+  "dex": "pumpfun",
+  "tag_role": "YOUNG_prescreen",
+  "phase": "young/<30m",
+  "verdict": "FAIL",
+  "reasons": [
+    "RC Copycat of DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF",
+    "creatorBal 0",
+    "19\u00d71\u20135% band on 411 holders (cabal fingerprint)",
+    "too young (0.21h) \u2014 light pre-screen only, no buy",
+    "non-pump mint suffix"
+  ],
+  "creatorBalance": 0,
+  "creator": "7uefnM6aGhr9umqowWDoPwrmhnmCvS4YzSre3dAjifJk",
+  "creator_pct": 0,
+  "band_1_5": 19,
+  "top10ex_est": 24.4,
+  "top10_raw": 50.27,
+  "excl_lp": [
+    [
+      27.877809636862676,
+      "9Dsjh5MkHtR7u1HG"
+    ]
+  ],
+  "totalHolders": 411,
+  "score": 2001,
+  "score_normalised": 29,
+  "risks": [
+    "Copycat token"
+  ],
+  "top_holders_kept": [
+    [
+      3.73,
+      "BSzpGGB3AMwtW126"
+    ],
+    [
+      3.12,
+      "7x6AHogMm2SYoYmJ"
+    ],
+    [
+      2.93,
+      "ECzLjhAW2LNoLWi1"
+    ],
+    [
+      2.36,
+      "8ujBWo8cUNnEb6qG"
+    ],
+    [
+      2.08,
+      "E12wbjwE8yvKAtnt"
+    ],
+    [
+      2.07,
+      "649ot18fccD6Mc9V"
+    ],
+    [
+      2.06,
+      "7V2mxix1f2PS8Ci1"
+    ],
+    [
+      2.02,
+      "H9A3ExDpK9rsnohM"
+    ]
+  ],
+  "top_holders_raw": [
+    [
+      27.88,
+      "9Dsjh5MkHtR7u1HG"
+    ],
+    [
+      3.73,
+      "BSzpGGB3AMwtW126"
+    ],
+    [
+      3.12,
+      "7x6AHogMm2SYoYmJ"
+    ],
+    [
+      2.93,
+      "ECzLjhAW2LNoLWi1"
+    ],
+    [
+      2.36,
+      "8ujBWo8cUNnEb6qG"
+    ],
+    [
+      2.08,
+      "E12wbjwE8yvKAtnt"
+    ],
+    [
+      2.07,
+      "649ot18fccD6Mc9V"
+    ],
+    [
+      2.06,
+      "7V2mxix1f2PS8Ci1"
+    ],
+    [
+      2.02,
+      "H9A3ExDpK9rsnohM"
+    ],
+    [
+      2.02,
+      "68DAteMmcGLVS5zF"
+    ]
+  ],
+  "rc": "rc-DJT-0808.json",
+  "graphInsiders": 0,
+  "links_n": 0
+}

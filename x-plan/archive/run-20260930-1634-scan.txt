@@ -1,0 +1,91 @@
+signed_in_as: @P7RIM3
+scan_time: 2026-09-30 16:34 ET
+cutoff: 2026-09-30T16:22:40-04:00
+NEW_COUNT: 0
+
+Cards (reply/mention cards; unique cards seen across All and Mentions):
+- handle: @zebralife2002
+  url: https://x.com/zebralife2002/status/2105361123503440350
+  their_text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+  age: 2h
+  disposition: already_handled
+  new_vs_known: known/prior handled
+  source: All, Mentions
+- handle: @KittyMcfeisty2
+  url: https://x.com/KittyMcfeisty2/status/2105343324580143460
+  their_text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh
+  age: 3h
+  disposition: over_two_beats
+  new_vs_known: known/prior set
+  source: All, Mentions
+- handle: @KittyMcfeisty2
+  url: https://x.com/KittyMcfeisty2/status/2105339423638651351
+  their_text: 🙄 🤦‍♀️
+  age: 3h
+  disposition: over_two_beats
+  new_vs_known: known/prior set
+  source: All, Mentions
+- handle: @KittyMcfeisty2
+  url: https://x.com/KittyMcfeisty2/status/2105333564132712947
+  their_text: What’s new is this shit needs to stop. Beyond ridiculous
+  age: 4h
+  disposition: over_two_beats
+  new_vs_known: known/prior set
+  source: All, Mentions
+- handle: @Cobra17298328
+  url: https://x.com/Cobra17298328/status/2105112514090402040
+  their_text: I can’t see what this bitch is saying, cause he immediately blocked me
+  age: 18h
+  disposition: already_handled
+  new_vs_known: known/prior handled
+  source: Mentions; also appeared in prior All load
+- handle: @juneauxwhoitis
+  url: https://x.com/juneauxwhoitis/status/2105094896663371987
+  their_text: Overflowing with perceptions you are!
+  age: 19h
+  disposition: over_two_beats
+  new_vs_known: known/prior set
+  source: Mentions; also appeared in prior All load
+- handle: @FiresOfTruth
+  url: https://x.com/FiresOfTruth/status/2105080875058704611
+  their_text: Check the link in my bio to watch a film I made with darcy
+  age: 20h
+  disposition: promo
+  new_vs_known: known/prior promo; outside cutoff
+  source: Mentions; also appeared in prior All load
+
+Ignored non-reply notifications visible in All:
+- handle: @garcia_debra70
+  url: https://x.com/garcia_debra70
+  their_text: followed you (no status URL exposed)
+  age: 3h
+  disposition: like_follow_ignore
+- handle: @Strangerain0011 (and 8 others)
+  url: https://x.com/Strangerain0011
+  their_text: liked your reply; preview: Do the complete opposite of whatever Cramer says!
+  age: 3h
+  disposition: like_follow_ignore
+- handle: @thehiddenpod (and 2 others)
+  url: https://x.com/thehiddenpod
+  their_text: liked your reply; preview: The dude claimed he was on different planets and a secret space force run by reptiles. What did he expect the public’s reaction would be? Ufology in general is about as asinine as the flat earth community. I follow it for the laughs!
+  age: 7h
+  disposition: like_follow_ignore
+- handle: @quinn_charley21
+  url: https://x.com/quinn_charley21
+  their_text: liked your reply; preview: She looks like an obese heffer. I don’t get why people want that. Imagine the smell
+  age: 10h
+  disposition: like_follow_ignore
+- handle: @Ro61088Davidson (and 7 others)
+  url: https://x.com/Ro61088Davidson
+  their_text: liked your reply; preview: Do the opposite of whether Kramer says! Trust me
+  age: 14h
+  disposition: like_follow_ignore
+- handle: @KEKerboxerGlory
+  url: https://x.com/KEKerboxerGlory
+  their_text: liked your reply; preview: Nvidia and X.ai yes! Meta, absolutely not
+  age: 17h
+  disposition: like_follow_ignore
+
+screenshot_all: /workspace/x-plan/run-20260930-1634-notifications.png
+screenshot_mentions: /workspace/x-plan/run-20260930-1634-mentions.png
+notes: Confirmed sidebar account menu shows P7RIM3 / @P7RIM3. No visible inbound reply/mention was newer than the cutoff; no new card was opened and no Reply/Post/Like/Follow/Repost/settings action was taken.

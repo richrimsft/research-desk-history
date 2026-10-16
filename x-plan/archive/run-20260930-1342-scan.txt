@@ -1,0 +1,93 @@
+X inbound reply/mention scan
+Scan time: 2026-09-30 13:42 ET (America/New_York)
+Cutoff: 2026-09-30T13:28:14-04:00
+Account confirmed: P7RIM3 (@P7RIM3)
+Pages checked: https://x.com/notifications (All), https://x.com/notifications/mentions (Mentions)
+NEW_COUNT=0
+
+Result
+No visible unreplied reply/mention card was newer than the cutoff. The newest visible reply was @KittyMcfeisty2 at 37 minutes ago, which is before the cutoff and is a known handled/skip item.
+
+ALL tab — visible reply/mention cards top to bottom
+1. @KittyMcfeisty2 — 37 minutes ago (37m)
+   Status URL: https://x.com/KittyMcfeisty2/status/2105343324580143460
+   Exact tweet text: “This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh”
+   Thread context visible: Replying to @P7RIM3 and @KittyMcFeisty; quoted Libs of TikTok post visible, beginning “BREAKING: MAJOR Controversy at PA High School after MALE crowned \"Homecoming Queen\" ...”
+   @P7RIM3 reply under it: No; card shows 0 Replies. Known already handled/skip: beat 3.
+   Newer than cutoff: No (37m; known skip).
+
+2. @KittyMcfeisty2 — 52 minutes ago (52m)
+   Status URL: https://x.com/KittyMcfeisty2/status/2105339423638651351
+   Exact tweet text: “🙄 🤦‍♀️”
+   Thread context visible: Replying to @P7RIM3 and @KittyMcFeisty.
+   @P7RIM3 reply under it: Yes; card shows 1 reply, and known reply is https://x.com/P7RIM3/status/2105340672056476010.
+   Newer than cutoff: No; known already replied.
+
+3. @KittyMcfeisty2 — 1 hour ago (1h)
+   Status URL: https://x.com/KittyMcfeisty2/status/2105333564132712947
+   Exact tweet text: “What’s new is this shit needs to stop. Beyond ridiculous”
+   Thread context visible: Replying to @P7RIM3 and @KittyMcFeisty.
+   @P7RIM3 reply under it: Yes; card shows 1 reply, and known reply is https://x.com/P7RIM3/status/2105335287660564885.
+   Newer than cutoff: No; known already replied.
+
+4. @Cobra17298328 — 15 hours ago (15h)
+   Status URL: https://x.com/Cobra17298328/status/2105112514090402040
+   Exact tweet text: “I can’t see what this bitch is saying, cause he immediately blocked me”
+   Thread context visible: Replying to @P7RIM3, @skeptic_vaibhav, and @artaimemes.
+   @P7RIM3 reply under it: Yes/handled; card shows 1 reply and this is a known already-replied item.
+   Newer than cutoff: No; known already replied.
+
+Other visible All-tab notifications ignored per instructions: a follow notification and several “liked your reply” notifications.
+
+MENTIONS tab — visible reply/mention cards top to bottom
+1. @KittyMcfeisty2 — 37 minutes ago (37m)
+   Status URL: https://x.com/KittyMcfeisty2/status/2105343324580143460
+   Exact tweet text: “This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh”
+   Thread context: Replying to @P7RIM3 and @KittyMcFeisty; same visible Libs of TikTok quote context as All tab.
+   @P7RIM3 reply under it: No; 0 Replies. Known beat 3 skip.
+   Newer than cutoff: No.
+
+2. @KittyMcfeisty2 — 53 minutes ago (53m; Mentions view refreshed one minute later)
+   Status URL: https://x.com/KittyMcfeisty2/status/2105339423638651351
+   Exact tweet text: “🙄 🤦‍♀️”
+   Thread context: Replying to @P7RIM3 and @KittyMcFeisty.
+   @P7RIM3 reply under it: Yes; 1 reply; known reply https://x.com/P7RIM3/status/2105340672056476010.
+   Newer than cutoff: No.
+
+3. @KittyMcfeisty2 — 1 hour ago (1h)
+   Status URL: https://x.com/KittyMcfeisty2/status/2105333564132712947
+   Exact tweet text: “What’s new is this shit needs to stop. Beyond ridiculous”
+   Thread context: Replying to @P7RIM3 and @KittyMcFeisty.
+   @P7RIM3 reply under it: Yes; 1 reply; known reply https://x.com/P7RIM3/status/2105335287660564885.
+   Newer than cutoff: No.
+
+4. @Cobra17298328 — 15 hours ago (15h)
+   Status URL: https://x.com/Cobra17298328/status/2105112514090402040
+   Exact tweet text: “I can’t see what this bitch is saying, cause he immediately blocked me”
+   Thread context: Replying to @P7RIM3, @skeptic_vaibhav, and @artaimemes.
+   @P7RIM3 reply under it: Yes/handled; 1 reply; known already-replied item.
+   Newer than cutoff: No.
+
+5. @juneauxwhoitis — 17 hours ago (17h)
+   Status URL: https://x.com/juneauxwhoitis/status/2105094896663371987
+   Exact tweet text: “Overflowing with perceptions you are!”
+   Thread context visible: Replying to @P7RIM3 and @OverlyTrev.
+   @P7RIM3 reply under it: Handled in the known multi-beat thread; card shows 2 replies.
+   Newer than cutoff: No; known over two beats.
+
+6. @FiresOfTruth — 18 hours ago (18h)
+   Status URL: https://x.com/FiresOfTruth/status/2105080875058704611
+   Exact tweet text: “Check the link in my bio to watch a film I made with darcy”
+   Thread context visible: Replying to @P7RIM3 and @thehiddenpod (and 2 others in conversation).
+   @P7RIM3 reply under it: No; card shows 0 Replies.
+   Newer than cutoff: No; known FiresOfTruth bio/quote promo skip (sales/promotional).
+
+7. @FiresOfTruth — 18 hours ago (18h)
+   Status URL: https://x.com/FiresOfTruth/status/2105074701802651949
+   Exact tweet text: Quote post; no standalone text from @FiresOfTruth. Quoted text: “Alex B is currently missing. #fishtanklive”
+   Thread context visible: Replying to @P7RIM3; quoted @SlackerBluePod post.
+   @P7RIM3 reply under it: No; card shows 0 Replies.
+   Newer than cutoff: No; known FiresOfTruth bio/quote promo skip.
+
+No replies were composed or posted. No likes, follows, reposts, DMs, bio/pin, or settings were touched.
+Screenshot: /workspace/x-plan/last-desktop.png

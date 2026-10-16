@@ -1,0 +1,50 @@
+[
+  {
+    "prior": false,
+    "symbol": "ELON",
+    "mint": "5xqdoeabeV7T9dwpMgM6BVKcg8ZZUgjKcwi8hNwCpump",
+    "dex": "pumpfun",
+    "mc": 10214,
+    "age_h": 0.17,
+    "h1": 186,
+    "m5": 10.41,
+    "buys": 446,
+    "sells": 365
+  },
+  {
+    "prior": true,
+    "symbol": "RL",
+    "mint": "DRNqV2V6WxjjgDqa4tgf1KfpsGLDNSvraSc9k6L9pump",
+    "dex": "pumpfun",
+    "mc": 14926,
+    "age_h": 0.98,
+    "h1": 319,
+    "m5": -1.75,
+    "buys": 593,
+    "sells": 479
+  },
+  {
+    "prior": true,
+    "symbol": "ERIC",
+    "mint": "DuaSA2YynBhqyW26n48EX7qtdRWKHtnVjR8fsE5spump",
+    "dex": "pumpfun",
+    "mc": 14895,
+    "age_h": 1.12,
+    "h1": 8.72,
+    "m5": 10.83,
+    "buys": 566,
+    "sells": 414
+  },
+  {
+    "prior": true,
+    "symbol": "DarkStar",
+    "mint": "3vMEBLJAAwx7MaHTmT6Sk5ddZfWXwLmVeBWVUpTapump",
+    "dex": "pumpfun",
+    "mc": 11948,
+    "age_h": 2.47,
+    "h1": -10.49,
+    "m5": 13.48,
+    "buys": 254,
+    "sells": 223
+  }
+]

@@ -1,0 +1,7 @@
+$ python3 viral_prompt.py
+RAW       100+ resolved & 70%+ win rate: 2,974 wallets (median win rate 100%)
+CORRECTED 100+ resolved & 70%+ win rate: 1,528 wallets
+  dropped below 70% once dead bets count: 1,448 of 2,974
+  of the survivors, history capped at 1,000 rows (unverifiable): 1,145
+Top 20 by RAW profit -> corrected:
+  raw profit $860.8M  ->  corrected $679.0M;  raw win rate 98% -> 64% (average)

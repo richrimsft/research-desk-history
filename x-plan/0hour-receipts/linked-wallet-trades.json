@@ -1,0 +1,39 @@
+[
+  {
+    "sig": "3VhtfHAwDqtetd3b8K7hDp7YMG1y3fb4oFhbKttAg4Pg4qMvAjN6aVyvkWMT6QWpgfRJQV25qiXJxWEwzJm73brq",
+    "time_et": "2026-09-29 20:04:49 ET",
+    "kind": "sell",
+    "token_delta": -73961211.149786,
+    "recv_sol": 0.00148844,
+    "pool_tok": 73961211.149786,
+    "pool_sol": -5.138557735,
+    "sol_gains": [
+      [
+        "51oQ3QszzQjGXuuBCScP7oqtKfaHSpuvz12sY8DDR3Z1",
+        0.015415674
+      ],
+      [
+        "DQyrAcCrDXQ7NeoqGgDCZwBvWDcYmFCjSb9JtteuvPpz",
+        5.074325762
+      ],
+      [
+        "EHAAiTxcdDwQ3U4bU6YcMsQGaekdzLS3B5SmYo46kJtL",
+        0.024408149
+      ],
+      [
+        "FWsW1xNtWscwNmKv6wVsU1iTzRN6wmmk3MjxRP5tT7hz",
+        0.02440815
+      ]
+    ]
+  },
+  {
+    "sig": "3wh1RHe2KoaK5dEaGhTvMe18X1JQ18LfmMTwLx4u4isEXvSebLonELkFrg2DHu15o9aHMMfCzWS3VzNQegPGgcze",
+    "time_et": "2026-09-28 09:15:49 ET",
+    "kind": "buy/receive",
+    "token_delta": 73961211.149786,
+    "recv_sol": 0.0,
+    "pool_tok": 0,
+    "pool_sol": null,
+    "sol_gains": []
+  }
+]

@@ -1,0 +1,28 @@
+$ cat electron/stock/version; echo
+44.7.2
+
+$ rea inspect-electron-fuses electron/stock/electron --format json | jq -r '.normalized_result | "sentinel@\(.slices[0].sentinels[0].sentinel_offset)", (.slices[0].sentinels[0].fuses[0:6][] | "  \(.index) \(.name) = \(.state)"), (.runtime_implications[] | "  => \(.subject): \(.outcome)")'
+sentinel@37022720
+  0 RunAsNode = enabled
+  1 EnableCookieEncryption = disabled
+  2 EnableNodeOptionsEnvironmentVariable = enabled
+  3 EnableNodeCliInspectArguments = enabled
+  4 EnableEmbeddedAsarIntegrityValidation = disabled
+  5 OnlyLoadAppFromAsar = disabled
+  => node_cli_inspect_arguments: honored
+  => electron_run_as_node: honored
+  => embedded_asar_integrity_validation: unknown
+  => only_load_app_from_asar: not_restricted_to_app_asar
+
+$ rea inspect-electron-fuses electron/hardened/electron --format json | jq -r '.normalized_result | (.slices[0].sentinels[0].fuses[0:6][] | "  \(.index) \(.name) = \(.state)"), (.runtime_implications[] | "  => \(.subject): \(.outcome)")'
+  0 RunAsNode = disabled
+  1 EnableCookieEncryption = disabled
+  2 EnableNodeOptionsEnvironmentVariable = disabled
+  3 EnableNodeCliInspectArguments = disabled
+  4 EnableEmbeddedAsarIntegrityValidation = enabled
+  5 OnlyLoadAppFromAsar = enabled
+  => node_cli_inspect_arguments: not_honored
+  => electron_run_as_node: not_honored
+  => embedded_asar_integrity_validation: unknown
+  => only_load_app_from_asar: restricted_to_app_asar
+

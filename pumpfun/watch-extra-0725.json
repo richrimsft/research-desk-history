@@ -1,0 +1,72 @@
+{
+ "too_young": [
+  {
+   "symbol": "Jato",
+   "name": "Jato Rocket Car",
+   "mint": "HtqVqejZuh9BqGPTWdggf9mUtyRzydtVcxHRCq3Vpump",
+   "mc": 16815.14,
+   "age_h": 0.09,
+   "h1": 314,
+   "m5": 314,
+   "h24": 314,
+   "buys": 747,
+   "sells": 448,
+   "vol_h1": 56967.27,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/5kqfdduppunkil5camrkptamcsazz3rcnqjnazj6ukth",
+   "pairCreatedAt": 1792149663000
+  },
+  {
+   "symbol": "FTR",
+   "name": "Fraudulent Tesla Roadster",
+   "mint": "BPVUcKX5ASPNsAFnBqByBHkfVc9ysQj7ZmSsFAmapump",
+   "mc": 12490.74,
+   "age_h": 0.14,
+   "h1": 207,
+   "m5": 21.63,
+   "h24": 207,
+   "buys": 631,
+   "sells": 481,
+   "vol_h1": 50868.99,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/2nv7vkfhvnj3lhjaeljc7egeyhcf5gmq8jwgjxjcuxfu",
+   "pairCreatedAt": 1792149490000
+  },
+  {
+   "symbol": "FTR",
+   "name": "Falling Tesla Roadster",
+   "mint": "9sv13ToY5M3Y1RHAz7bgHtMWskCjWQhEk6ZECHERpump",
+   "mc": 997064,
+   "age_h": 0.33,
+   "h1": 1765,
+   "m5": 30.89,
+   "h24": 1765,
+   "buys": 7556,
+   "sells": 1855,
+   "vol_h1": 1067873.91,
+   "dex": "pumpswap",
+   "liq": 87689.69,
+   "url": "https://dexscreener.com/solana/7uxbwtebpwc4xhcr4ramsxeklw65h8tlmurqtpawvgpe",
+   "pairCreatedAt": 1792148803000
+  },
+  {
+   "symbol": "GRAB",
+   "name": "LandGrab",
+   "mint": "5rB2Z8xPrUGX75mL8Q7BZLjdKFtzaJYHhtPKMazSpump",
+   "mc": 15063.07,
+   "age_h": 0.41,
+   "h1": 378,
+   "m5": 16.88,
+   "h24": 378,
+   "buys": 186,
+   "sells": 106,
+   "vol_h1": 11516.58,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/fu1zn5xpv43afpzk97n2r4tsylomkz61ybpzglrvfya",
+   "pairCreatedAt": 1792148506000
+  }
+ ]
+}

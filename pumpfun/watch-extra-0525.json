@@ -1,0 +1,37 @@
+{
+  "too_young": [
+    {
+      "symbol": "SLUDGE",
+      "mint": "AMwx7UAiSuvME8Ktjz8XWqPf45gGUr6FjmZeeg5spump",
+      "age_h": 0.3,
+      "mc": 19295.91,
+      "note": "below 0.5h gate; not autopsied"
+    },
+    {
+      "symbol": "DEER",
+      "mint": "DYhpuvytVM4SCiR56q8oz4nXAN2BPFaYnxVftS9wpump",
+      "age_h": 0.37,
+      "mc": 11303.12,
+      "note": "below 0.5h gate; not autopsied"
+    }
+  ],
+  "excluded_h1_nonpos": [
+    {
+      "symbol": "GULP",
+      "mint": "8BwEQTbuKD6DyHsr57FpF8L6RRvzr8Gm4TRMMqfbpump",
+      "age_h": 1.44,
+      "mc": 13631,
+      "h1": -31.38,
+      "note": "prior FAIL; h1 negative this cycle"
+    }
+  ],
+  "broader_prior": [
+    {
+      "symbol": "ROADSTER",
+      "mint": "GDNGMNnSyJK4iohEbigiVbUz8tM4UvFRSGw3d73Wpump",
+      "age_h": 3.34,
+      "mc": 10043.97,
+      "note": "prior FAIL; h1 flat ~1%"
+    }
+  ]
+}

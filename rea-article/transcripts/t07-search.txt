@@ -1,0 +1,7 @@
+$ rea search /workspace/re/crackme/target/crackme password --provider ghidra --filter-output evidence_id,normalized_result,confidence
+evidence_id: ev_bdafc8cde8a42260a3f0b1d6e483f80e1ac9c4f1875328b7daa0ba21785405bf
+normalized_result[2]{address,value}:
+  0x102011,"IAYEnter the password: "
+  0x102046,Wrong password. Try again.
+confidence: observed
+

@@ -1,0 +1,49 @@
+X scan report
+Scan time: 2026-09-30 10:44 AM ET
+Cutoff: 2026-09-30T10:33:16-04:00 (America/New_York)
+
+SIGNED_IN
+- Confirmed signed in as @P7RIM3 (displayed account: P7RIM3; verified badge; user id 1995219682186452992).
+- Notifications page refreshed once at https://x.com/notifications.
+
+ALL_NOTIFICATIONS
+(Visible All-tab reply/mention cards only; likes-only/follows/reposts omitted.)
+1. @Cobra17298328 — https://x.com/Cobra17298328/status/2105112514090402040 — approx. 12 hours ago — OLDER than cutoff.
+   Full text: “I can’t see what this bitch is saying, cause he immediately blocked me”
+2. @juneauxwhoitis — https://x.com/juneauxwhoitis/status/2105094896663371987 — approx. 14 hours ago — OLDER than cutoff.
+   Full text: “Overflowing with perceptions you are!”
+3. @FiresOfTruth — https://x.com/FiresOfTruth/status/2105080875058704611 — approx. 15 hours ago — OLDER than cutoff.
+   Full text: “Check the link in my bio to watch a film I made with darcy”
+
+MENTIONS
+(Visible mentions-tab cards; all are older than cutoff.)
+1. @Cobra17298328 — https://x.com/Cobra17298328/status/2105112514090402040 — approx. 12 hours ago — OLDER.
+   Full text: “I can’t see what this bitch is saying, cause he immediately blocked me”
+2. @juneauxwhoitis — https://x.com/juneauxwhoitis/status/2105094896663371987 — approx. 14 hours ago — OLDER.
+   Full text: “Overflowing with perceptions you are!”
+3. @FiresOfTruth — https://x.com/FiresOfTruth/status/2105080875058704611 — approx. 15 hours ago — OLDER.
+   Full text: “Check the link in my bio to watch a film I made with darcy”
+4. @FiresOfTruth — https://x.com/FiresOfTruth/status/2105074701802651949 — approx. 15 hours ago — OLDER.
+   Full text/card content: quote of @SlackerBluePod: “Alex B is currently missing. #fishtanklive”
+5. @FiresOfTruth — https://x.com/FiresOfTruth/status/2105073376268345355 — approx. 15 hours ago — OLDER.
+   Full text: “He’s a human being” (with image)
+6. @grok — https://x.com/grok/status/2105068070892912851 — approx. 15 hours ago — OLDER.
+   Full text as displayed: “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the” (X card/title truncates at “the”; link card points to America.gov.)
+
+NEW_UNREPLIED
+- Count: 0.
+- No visible reply/mention newer than the cutoff. The visible cards match the older-known cards supplied in the task; no new unreplied mention was found in the mentions cross-check.
+
+TRENDING
+(Explore loaded a mixed Today’s News / For You-style view.)
+1. Trump Signs AI Accord Marred by “Unites States” Typo — 53K posts, ~13–14h — news-like and high-volume; likely fast-rising.
+2. Tesla Postpones Roadster Demo to October 15 Over High Winds — 7.1K posts, ~14h — news-like; some momentum.
+3. AT&T CEO Doubts SpaceX Direct-to-Cell Strategy — 4,701 posts, ~17h — news-like; not clearly fast-rising from the card.
+4. New Documentary Explores 1948 Aztec UFO Crash Claims — 572 posts, ~15h — entertainment/news item; not clearly fast-rising.
+5. MAHA — Politics · Trending — political trend; no velocity shown, not judged fast-rising.
+6. Brad — Politics · Trending — political trend; context/velocity unclear.
+7. Starmer — Politics · Trending — political trend; news-adjacent, but no velocity shown.
+8. Zeitler — Sports · Trending (trending with Becton, Tomlinson) — sports trend; no velocity shown.
+
+SCREENSHOT
+/workspace/x-plan/last-desktop.png

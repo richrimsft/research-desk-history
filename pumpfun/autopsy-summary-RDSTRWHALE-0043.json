@@ -1,0 +1,23 @@
+{
+  "sym": "RDSTRWHALE",
+  "name": "The Roadster Whale",
+  "mint": "6zVwic7BRVTcMjhuEruV52HV8iXgcaRA3UsgSv6zpump",
+  "verdict": "REJECT",
+  "mc": 26364,
+  "age_h": 0.55,
+  "h1": 493,
+  "m5": -5.79,
+  "tx1h": "1190b/687s",
+  "curve_phase": "pump.fun bonding (Dex liq None; ~mid by mc~$26k)",
+  "creator": "FPrWHsHS2SVqSpCZrsdqfiND2un8d4rQN1tNQJ8febNs",
+  "creatorBalance_pct": 3.28,
+  "dev": "FAIL: RugCheck 'Creator history of rugged tokens' danger (score 91201)",
+  "top10_pct_ex_curve": "approx #2-#11 ex ~29.9% curve: ~32%+ (concentration)",
+  "holders": "FAIL-ish: concentrated; curve ~30% + many mid bags",
+  "bundle": "not fully checked \u2014 killed by creator rug history",
+  "score": 91201,
+  "mint_freeze": "none/none",
+  "graphInsiders": 0,
+  "socials": "FAIL: empty websites/socials on Dex; ROADSTER whale copycat name",
+  "why": "Numeric passer but autopsy fails hard: creator has rugged-token history (RC danger), ROADSTER copycat narrative, no socials, m5 already -5.8%. Do not buy."
+}

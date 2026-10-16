@@ -1,0 +1,43 @@
+{
+  "tag": "0613",
+  "symbol": "Irene",
+  "safe": "Irene2",
+  "mint": "2xZjZSFkuFvTef55EWVrvapihgVwTgrfHFnAfU9aThJ3",
+  "verdict": "FAIL",
+  "fails": [
+    "creatorBal 0 (no visible dev bag / fee-share or dumped)",
+    "8\u00d7 wallets in 1\u20135% band",
+    "botty churn ~4051 tx/h on ~$30k mc (volh1 $128527.13)",
+    "no socials / no website",
+    "copycat of prior-FAIL Irene theme (different mint)"
+  ],
+  "age_h": 0.71,
+  "mc": 30136,
+  "h1": 221,
+  "m5": 26.7,
+  "dexId": "pumpswap",
+  "phase": "graduated PumpSwap (liq $33319.18)",
+  "creator": null,
+  "creatorBal": 0,
+  "creator_pct": 0,
+  "creator_wallet": {},
+  "band_1_5": 8,
+  "top10_ex_curve_pct": 13.04,
+  "rugScore": 11400,
+  "score_normalised": 52,
+  "risks": [
+    "Large Amount of LP Unlocked",
+    "Low amount of LP Providers"
+  ],
+  "graphInsiders": 0,
+  "txh1": {
+    "buys": 3044,
+    "sells": 1007
+  },
+  "volh1": 128527.13,
+  "totalHolders": 2100,
+  "socials": [],
+  "websites": [],
+  "whales": [],
+  "structure_notes": "2.47 4z25X5WY ntx 1000 age_h 40.1 funder None\n1.71 5tpsTyqh ntx 1000 age_h 53.9 funder None\n1.6 GRpuYQnR ntx 1000 age_h 34.1 funder None\n1.12 DytNwgT5 ntx 1000 age_h 40.3 funder None\n1.07 7ceXNjWS ntx 1000 age_h 7.5 funder None\n1.06 Gh8yv9Qf ntx 1000 age_h 28.5 funder None\n1.06 DvynX2HE ntx 1000 age_h 48.0 funder None\n1.02 8sAa9Amf ntx 1000 age_h 32.0 funder None\n0.97 E6jhP1mx ntx 1000 age_h 42.6 funder None\n0.96 4YfjPdyT ntx 1000 age_h 47.1 funder None\n0.93 2d84dbUX ntx 1000 age_h 42.6 funder None\n0.92 6Mtj8sZj ntx 1000 age_h 7.8 funder None\n"
+}

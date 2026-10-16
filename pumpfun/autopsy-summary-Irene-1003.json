@@ -1,0 +1,63 @@
+{
+ "tag": "1003",
+ "symbol": "Irene",
+ "mint": "6N4BHPN8rvN2aGLKHF8XRcSdzugvcFz2s1379qUyXDbo",
+ "age_h": 2.68,
+ "mc": 52380,
+ "h1": 4.32,
+ "m5": null,
+ "dex": "pumpswap",
+ "phase": "inwindow_recheck",
+ "verdict": "FAIL",
+ "reasons": [
+  "creator 42.2%>5%",
+  "top10ex 50.74%>30%",
+  "9\u00d7 identical ~0.9% holdings",
+  "RC Low Liquidity"
+ ],
+ "rc_score": 8228,
+ "top10ex_pct": 50.74,
+ "band_1_5_count": 0,
+ "max_identical_0.1": 9,
+ "identical_band_val": 0.9,
+ "creator": "ACE2uzbMFra9xYsCcHHQgc9qQRvKPQStBLpqbgTUsXtY",
+ "creatorBalance": 422156439268901,
+ "mintAuthority": null,
+ "freezeAuthority": null,
+ "graphInsiders": 0,
+ "totalHolders": 2135,
+ "risks": [
+  {
+   "name": "Single holder ownership",
+   "level": "danger",
+   "score": 4221
+  },
+  {
+   "name": "Low Liquidity",
+   "level": "danger",
+   "score": 2999
+  },
+  {
+   "name": "High holder concentration",
+   "level": "warn",
+   "score": 1007
+  }
+ ],
+ "meta_name": "Irene The Orangutan",
+ "creator_pct": 42.21565773932241,
+ "top_pcts": [
+  42.22,
+  0.98,
+  0.96,
+  0.95,
+  0.95,
+  0.95,
+  0.95,
+  0.93,
+  0.93,
+  0.92,
+  0.92,
+  0.9
+ ],
+ "insiderNetworks": null
+}

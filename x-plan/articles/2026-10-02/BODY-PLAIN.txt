@@ -1,0 +1,51 @@
+Starship finally made low Earth orbit. Then SpaceX brought it home early.
+
+I’m glad they got there. I’m not buying the idea that a shortened flight somehow closes the book.
+
+### What actually happened
+
+On Sept. 28, 2026, at 7:48 a.m. CT, Flight 14 left Starbase on the first real attempt at orbit. SpaceX says it was the first orbital Starship flight and the first to put meaningful payload up there: 26 Starlink V3 satellites. ([SpaceX](https://www.spacex.com/launches/starship-flight-14))
+
+After ascent they checked the three sea-level Raptors they’d need later, called go, lit one engine for insertion, and went into Earth orbit for the first time. That’s the milestone people have been waiting on for years.
+
+*Graphic: @P7RIM3. Timeline from SpaceX’s Flight 14 page.*
+
+### They planned ~10 hours. They flew ~3.
+
+This was not a full-duration dress rehearsal.
+
+Reporting from the same day says the plan was roughly six orbits over about 10 hours, partly to show readiness for work like Artemis. Controllers cut it after a couple of laps. Splashdown in the northern Pacific came about three hours after liftoff. ([CBC / AP](https://www.cbc.ca/news/science/starship-flight14-orbit-9.7360972), [NBC / AP](https://www.nbcnews.com/science/space/spacex-starship-rocket-launches-orbit-first-time-rcna600222), [Space.com](https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-megarocket-flight-14-orbital-launch-success))
+
+SpaceX’s own write-up is blunt about why: an engine issue on the way up, so they limited time on orbit “out of an abundance of caution,” then deorbited to a pre-cleared Pacific zone. ([SpaceX](https://www.spacex.com/launches/starship-flight-14))
+
+Orbit yes. Full test card no.
+
+*Graphic: @P7RIM3. Planned duration vs flown duration from same-day coverage.*
+
+### The payload still counts
+
+Here’s the part I won’t dismiss: those 26 Starlink V3s actually deployed, and SpaceX says contact came in over laser links, ground stations, and user terminals. ([SpaceX](https://www.spacex.com/launches/starship-flight-14))
+
+Ars Technica notes V3s are too big for Falcon 9’s fairing, and each platform is pitched as about 1 Tbps of capacity — an order of magnitude over the Falcon-launched birds. Flight 13 had already tossed V3s on a suborbital path that burned up. This time they stayed up. ([Ars Technica](https://arstechnica.com/space/2026/09/starships-first-orbital-launch-gives-lift-to-spacexs-next-gen-starlinks/))
+
+So yes: first commercial-grade V3s in real orbit is a real result. Don’t let the early deorbit erase that.
+
+*Graphic: @P7RIM3. Payload notes from SpaceX and Ars Technica.*
+
+### “Satisfied” is not the same as finished
+
+On Oct. 2, SpaceNews summed up the mood: SpaceX and outside analysts look largely satisfied with the first orbital flight despite the technical issues. ([SpaceNews](https://spacenews.com/spacex-analysts-satisfied-with-latest-starship-flight/))
+
+Satisfied makes sense. Done does not.
+
+Hitting LEO once with a cautionary early splashdown is how you prove the architecture can get there. It is not how you prove you’re ready to stack lunar timelines or treat every future flight as routine. The livestream “mothership” glow people were hyping the other night was still booster sunlight. Cool shot. Still not magic. Same energy here: orbit is huge, and the early cut is still on the scoreboard.
+
+*Graphic: @P7RIM3. Framing from Oct 2 SpaceNews coverage.*
+
+### Closing
+
+Flight 14 did the thing Starship had never done: stay up, deploy real birds, come home on purpose.
+
+It also showed they’re still nursing the vehicle through firsts. That’s fine. Call it a win with receipts. Don’t pretend a truncated three-hour flight was the ten-hour proof people were sold.
+
+Question: next flight — do you want another short “make orbit” win, or the full multi-orbit card before anyone talks Artemis readiness?

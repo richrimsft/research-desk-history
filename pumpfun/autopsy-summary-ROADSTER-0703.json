@@ -1,0 +1,28 @@
+{
+ "tag": "0703",
+ "symbol": "ROADSTER",
+ "mint": "GDNGMNnSyJK4iohEbigiVbUz8tM4UvFRSGw3d73Wpump",
+ "age_h": 0.0,
+ "mc": 10125,
+ "h1": 1.63,
+ "m5": null,
+ "dexId": "pumpfun",
+ "phase": "too_young",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "age ~0h <30m \u2014 no-buy",
+  "creatorBal 0 (fresh RC; was tiny raw at 0650)",
+  "19\u00d71-5% band / top10ex ~32% (0650 holders)",
+  "RC score 1001 \u2014 Missing metadata (danger)",
+  "dead tape: tx/h 6 / vol_h1 ~$79; no socials"
+ ],
+ "creatorBalance": 0,
+ "rc_score": 1001,
+ "risks": [
+  "Missing metadata"
+ ],
+ "band_1_5": 19,
+ "socials": null,
+ "tx_h": 6,
+ "vol_h1": 79.43
+}

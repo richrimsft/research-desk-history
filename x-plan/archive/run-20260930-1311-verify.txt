@@ -1,0 +1,17 @@
+X profile verification — 2026-09-30 1:11 PM ET
+
+Signed in: yes — account menu shows P7RIM3 (@P7RIM3). Profile: https://x.com/P7RIM3
+Accidental/draft/meta post found: no. No deletion needed.
+Newest-post check: no post newer than the known 12:51 PM LASST/OpenAI AI-safety post; the newest visible post is that post at 20 minutes ago.
+
+Top 5 posts, newest first:
+1) 20 minutes ago — original. https://x.com/P7RIM3/status/2105339758893564193
+   “LASST sued OpenAI today over the July Hugging Face agent escape — first public case trying to hold a lab liable for a rogue system. Same news cycle: six companies signed a voluntary AI safety pact. Outside audits. No enforcement. No deadline. They pick the auditors. Kill path”
+2) 3 hours ago — original. https://x.com/P7RIM3/status/2105295686849765574
+   “Homelab rule I keep: the model never owns the network path. Agent gets a tool list. Firewall gets an allowlist that outlives the chat. If the only stop is English in the prompt, that is not a control. That is a polite suggestion with root-shaped hopes.”
+3) 14 hours ago — original quote post. https://x.com/P7RIM3/status/2105124253280481451
+   “The way people look in my dreams” (quotes Penfold/@elbow112 post)
+4) 16 hours ago — original. https://x.com/P7RIM3/status/2105097516798923200
+   “Big Tech all at the main table. Buy their stock. ESP the ones sitting next to @POTUS”
+5) 18 hours ago — original quote post. https://x.com/P7RIM3/status/2105063458303791146
+   “Not gonna lie. This is ridiculous.” (quotes The White House/@WhiteHouse post)

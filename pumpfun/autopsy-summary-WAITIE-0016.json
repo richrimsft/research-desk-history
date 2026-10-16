@@ -1,0 +1,22 @@
+{
+  "sym": "WAITIE",
+  "mint": "zVXkMzD6TL5mvbNzV46D61k5crc6cpfGLEcvoBipump",
+  "verdict": "REJECT",
+  "why": "Fails strict numeric (h1 +15.6% < +20%; m5 \u221216% dumping). Socials = borrowed atrupar tweet-only status link. Elevated tape ~1.5k buys/h post-grad.",
+  "mc": 64121,
+  "liq": 20116,
+  "h1": 15.62,
+  "tx1h": "1536b/1183s",
+  "creatorBalance": 1763352468753,
+  "creator": "BNG4StZA8MUfaKJp4C1LY7i4mTKDrhUg1XCyfGzgTvJb",
+  "top10_pct_ex_lp1": 26.9,
+  "graphInsiders": null,
+  "score": 1,
+  "socials": "borrowed X status atrupar/status/2110005080560631903",
+  "curve_phase": "graduated pumpswap",
+  "risks": [],
+  "creatorBalance_pct": 0.176,
+  "creatorBalance_ui": 1763352.468753,
+  "graphInsidersDetected": 0,
+  "top10_note": "ex-#1 ~26.9%; #2+#3 alone ~14.8% whale pair"
+}

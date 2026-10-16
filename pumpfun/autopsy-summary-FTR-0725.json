@@ -1,0 +1,19 @@
+{
+ "symbol": "FTR",
+ "mint": "BPVUcKX5ASPNsAFnBqByBHkfVc9ysQj7ZmSsFAmapump",
+ "tag": "0725",
+ "age_h": 0.14,
+ "mc": 12491,
+ "dex": "pumpfun",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "creatorBal 0",
+  "19x 1-5% band on top20 (275 holders)",
+  "too young (<30m) \u2014 do not buy"
+ ],
+ "rc": "rc-FTR-0725.json",
+ "score": 1,
+ "creatorBalance": 0,
+ "band_1_5": 19,
+ "totalHolders": 275
+}

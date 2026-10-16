@@ -1,0 +1,6 @@
+$ rea search notes/fw-x/firmware.bin_extract/512-180736.squashfs_v4_le_extract/bin/hellod hello-rust --provider ghidra --format json | jq -c '.subject.format, .subject.architecture, (.normalized_result | if type=="array" then .[0:2] else (.matches // .)[0:2] end), .confidence'
+"elf"
+"x86_64"
+[{"address":"0x14c000","value":"hello-rust \n"}]
+"observed"
+

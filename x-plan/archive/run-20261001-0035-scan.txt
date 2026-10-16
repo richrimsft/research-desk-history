@@ -1,0 +1,37 @@
+SCAN_TIMESTAMP: 2026-10-01T00:36:45-04:00
+CUTOFF: 2026-10-01T00:23:31-04:00
+ACCOUNT_CONFIRMED: @P7RIM3 (signed in)
+
+SCAN_ALL summary: All tab loaded. 15 visible items; newest displayed age 27m, therefore none newer than cutoff. No reply action.
+SCAN_MENTIONS summary: Mentions tab loaded. 8 visible items; newest displayed age 2h, therefore none newer than cutoff. No reply action.
+
+ITEM_CONSIDERED ALL | @Kungfoo559 (+3 others) | 27m | like | link unavailable in notification card | "This is the stuff you listen to when your entire life goes to shit... straight up [slur]." | newer_than_cutoff=no | action=skip (like; older)
+ITEM_CONSIDERED ALL | @mark_ippol51515 / BTC = Freedom | 32m | like | link unavailable in notification card | "Everyone leaving @Popeyes" | newer_than_cutoff=no | action=skip (like; older)
+ITEM_CONSIDERED ALL | @iLLuminuttee / Filetofsoul | 1h | like | link unavailable in notification card | "Just watched the JRE episode. The whole thing is just crazy." | newer_than_cutoff=no | action=skip (like; older)
+ITEM_CONSIDERED ALL | @zachrf1014 / zachary Fleischauer | 1h | like | link unavailable in notification card | "The comments here are hilarious! Wow" | newer_than_cutoff=no | action=skip (like; older)
+ITEM_CONSIDERED ALL | @MchStereo | 1h | like | link unavailable in notification card | "Cool story, but zero proof. Just a trust me bro, I worked in government" | newer_than_cutoff=no | action=skip (like; older)
+ITEM_CONSIDERED ALL | @scullyspier | 1h | repost | link unavailable in notification card | "We need more of this" | newer_than_cutoff=no | action=skip (repost; older)
+ITEM_CONSIDERED ALL | @scullyspier (+3 others) | 1h | like | link unavailable in notification card | "We need more of this" | newer_than_cutoff=no | action=skip (like; older)
+ITEM_CONSIDERED ALL | @Cuzzo_TM | 2h | quote | https://x.com/Cuzzo_TM/status/2105484203005812936 | "Welcome to Pump.Fun ……..DORK" (quotes $0HOUR1 post) | newer_than_cutoff=no | action=skip (quote/0HOUR1; older)
+ITEM_CONSIDERED ALL | @misterg792000 / Steve G | 2h | reply | https://x.com/misterg792000/status/2105483189200261612 | "Buddy, he didn't invent either one of those things. He just bought the company that did." | newer_than_cutoff=no | action=skip (older; also two-beat stop on this thread)
+ITEM_CONSIDERED ALL | @RamsNFL + @Eagles | 2h | alert/news item | link unavailable in notification card | "Rams' Nacua returns — WR Puka Nacua returned to limited practice..." | newer_than_cutoff=no | action=skip (not an inbound reply/mention; older)
+ITEM_CONSIDERED ALL | @misterg792000 / Steve G | 2h | reply | https://x.com/misterg792000/status/2105479038823178432 | "Name a single field he has demonstrated deep mastery of. Name a single thing he has invented." | newer_than_cutoff=no | action=skip (older; two-beat stop applies)
+ITEM_CONSIDERED ALL | @misterg792000 / Steve G | 2h | like | link unavailable in notification card | "Ok that tracks. Deep mastery across fields..." | newer_than_cutoff=no | action=skip (like; older)
+ITEM_CONSIDERED ALL | @MadamHaus | 3h | reply | https://x.com/MadamHaus/status/2105460336006672836 | media-only reply to @P7RIM3 and @__0HOUR1_ | newer_than_cutoff=no | action=skip (0HOUR1; older)
+ITEM_CONSIDERED ALL | @mom_agency_ / Mom | 4h | like | link unavailable in notification card | "The meeting explaining why we need to change it from AI to SI" | newer_than_cutoff=no | action=skip (like; older)
+ITEM_CONSIDERED ALL | @Eagles | 4h | alert/news item | link unavailable in notification card | "Eagles Injury Update — LB Zack Baun has a concussion..." | newer_than_cutoff=no | action=skip (not an inbound reply/mention; older)
+
+ITEM_CONSIDERED MENTIONS | @misterg792000 / Steve G | 2h | reply | https://x.com/misterg792000/status/2105483189200261612 | "Buddy, he didn't invent either one of those things. He just bought the company that did." | newer_than_cutoff=no | action=skip (older; two-beat stop)
+ITEM_CONSIDERED MENTIONS | @misterg792000 / Steve G | 2h | reply | https://x.com/misterg792000/status/2105479038823178432 | "Name a single field he has demonstrated deep mastery of. Name a single thing he has invented." | newer_than_cutoff=no | action=skip (older; two-beat stop)
+ITEM_CONSIDERED MENTIONS | @MadamHaus | 3h | reply | https://x.com/MadamHaus/status/2105460336006672836 | media-only reply to @P7RIM3 and @__0HOUR1_ | newer_than_cutoff=no | action=skip (0HOUR1; older)
+ITEM_CONSIDERED MENTIONS | @DrumondArt / Drumond | 4h | reply | https://x.com/DrumondArt/status/2105451230445154557 | "Deep mastery across fields" followed by emoji-only laughter | newer_than_cutoff=no | action=skip (emoji-only; older)
+ITEM_CONSIDERED MENTIONS | @stonkspark / STONKS PARK | 5h | reply | https://x.com/stonkspark/status/2105435508927005103 | "on it" | newer_than_cutoff=no | action=skip (older)
+ITEM_CONSIDERED MENTIONS | @GilliRoth / Gillian Roth | 6h | reply | https://x.com/GilliRoth/status/2105422493200875658 | image-only reply | newer_than_cutoff=no | action=skip (older)
+ITEM_CONSIDERED MENTIONS | @zebralife2002 / Paul Kelly | 10h | reply | https://x.com/zebralife2002/status/2105361123503440350 | "Your first sentence made absolutely no sense... I stopped reading... Have a good day" | newer_than_cutoff=no | action=skip (older)
+ITEM_CONSIDERED MENTIONS | @KittyMcfeisty2 / Piper Paprikas | 11h | reply | https://x.com/KittyMcfeisty2/status/2105343324580143460 | "This. Since you clearly missed what I reposted... Males taking on women shit? ... Duh" | newer_than_cutoff=no | action=skip (older)
+
+REPLY summary: 0 replies posted. No qualifying new unreplied reply/mention.
+FLAGS: @MadamHaus item references $0HOUR1; skipped per standing instruction. @misterg792000 replies are older and same-thread two-beat stop noted. @DrumondArt is emoji-only; skipped. No threats, self-harm, or illegal-content inbound observed.
+BLOCKERS: none.
+SCREENSHOTS: /workspace/x-plan/run-20261001-0035-notifications.png ; /workspace/x-plan/run-20261001-0035-mentions.png
+next_cutoff: 2026-10-01T00:36:45-04:00

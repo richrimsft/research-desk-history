@@ -1,0 +1,38 @@
+{
+  "symbol": "LOOM",
+  "mint": "7GCMYJcykHZ3qJH3e5vQi4J9qAPdb3Xninkgk6sYpump",
+  "score": 1,
+  "creator": "GGLEPNjMxKoKzeQ58coE9PK7HutSFRxdbijeddwBLNKP",
+  "creatorBal": null,
+  "mintAuth": null,
+  "freeze": null,
+  "top10_ex0": 21.71,
+  "top10_inc0": 40.65,
+  "band_1_5": 14,
+  "top_n": 20,
+  "risks": [],
+  "risk_details": [],
+  "mc": 51855,
+  "dex": "pumpswap",
+  "h1": 17.97,
+  "m5": 49.59,
+  "age_h": 0.17,
+  "buys": 2000,
+  "sells": 1631,
+  "socials": [
+    {
+      "url": "https://x.com/loomwiki",
+      "type": "twitter"
+    }
+  ],
+  "websites": [
+    {
+      "url": "https://theloom.wiki/",
+      "label": "Website"
+    }
+  ],
+  "totalHolders": 1224,
+  "markets": 1,
+  "top10_ex_likely_curve": 21.71,
+  "curve_or_lp_pct": 20.19
+}

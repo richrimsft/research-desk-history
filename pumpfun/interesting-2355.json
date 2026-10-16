@@ -1,0 +1,172 @@
+[
+  {
+    "sym": "123456",
+    "mint": "hps4Xy4goXuV9zxdTAuF35tN58Gpks8Ho5zX529pump",
+    "mc": 43220,
+    "liq": 0,
+    "age_h": 0.47,
+    "h1": 1276,
+    "m5": 0,
+    "b": 354,
+    "s": 182,
+    "dex": "pumpfun",
+    "vol_h1": 48551,
+    "url": "https://dexscreener.com/solana/cixmg32tjdzyakowz2km9x5oxucj4ysyt7qnezauhcl2",
+    "socials": [
+      {
+        "url": "https://x.com/123456dotSOL",
+        "type": "twitter"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://www.123456.guru/",
+        "label": "Website"
+      }
+    ]
+  },
+  {
+    "sym": "ETERNAL",
+    "mint": "4XUmT22L7LN2e1us3bLHpPFKtkGUk9cAKQXEr3wXpump",
+    "mc": 17406,
+    "liq": 0,
+    "age_h": 1.33,
+    "h1": 132,
+    "m5": 18.14,
+    "b": 129,
+    "s": 49,
+    "dex": "pumpfun",
+    "vol_h1": 4473,
+    "url": "https://dexscreener.com/solana/2mi2fpt2dr9kerp1ysg8a1lqnr1t2xhrz7qtdwerntfc",
+    "socials": null,
+    "websites": null
+  },
+  {
+    "sym": "roadster",
+    "mint": "CbAeScGTv9sjGHtDRQsfqHzgSWupueN4Nduz7mBSpump",
+    "mc": 15695,
+    "liq": 0,
+    "age_h": 1.91,
+    "h1": 120,
+    "m5": 22.59,
+    "b": 303,
+    "s": 212,
+    "dex": "pumpfun",
+    "vol_h1": 23812,
+    "url": "https://dexscreener.com/solana/6g31fj9j7mlpe7yvje9kwtdn9vh112lnkq6imnkaxj9u",
+    "socials": null,
+    "websites": null
+  },
+  {
+    "sym": "GTA",
+    "mint": "6S7jwQuVipHuEaASAZ9Kn7r3Zy3jkebhAMFxnuWnpump",
+    "mc": 31292,
+    "liq": 13707,
+    "age_h": 1.69,
+    "h1": 40.84,
+    "m5": -6.49,
+    "b": 245,
+    "s": 184,
+    "dex": "pumpswap",
+    "vol_h1": 21410,
+    "url": "https://dexscreener.com/solana/n34xqvb4cyt91xpdvvfjjxmpcjnubbpvitxkrw4bxxb",
+    "socials": [
+      {
+        "url": "https://x.com/grandtheftcoi",
+        "type": "twitter"
+      },
+      {
+        "url": "https://discord.gg/SxvMvxA3f2",
+        "type": "discord"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://gtacoin.tech/",
+        "label": "Website"
+      }
+    ]
+  },
+  {
+    "sym": "ROADSTER",
+    "mint": "Eizz6UJUBmoH4CxqLR5XBRyEGfoaKeckjmsraobSpump",
+    "mc": 17322,
+    "liq": 9960,
+    "age_h": 1.51,
+    "h1": 22.94,
+    "m5": -4.82,
+    "b": 179,
+    "s": 143,
+    "dex": "pumpswap",
+    "vol_h1": 9838,
+    "url": "https://dexscreener.com/solana/4crgrtlwfcpeubqfqayrnjj9vjrpjbhyebnyufk1egwh",
+    "socials": [
+      {
+        "url": "https://x.com/zerohedge/status/2088251202056176024",
+        "type": "twitter"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://youtu.be/O4wBUysNe2k?si=9LPJaTYL154Ve5aG",
+        "label": "Website"
+      }
+    ]
+  },
+  {
+    "sym": "BOT",
+    "mint": "FR2kf3htna5puoSxAjPedG7rgTkxfXvZjrL8x4zQpump",
+    "mc": 8474,
+    "liq": 0,
+    "age_h": 3.04,
+    "h1": 19.35,
+    "m5": -4.24,
+    "b": 47,
+    "s": 21,
+    "dex": "pumpfun",
+    "vol_h1": 2316,
+    "url": "https://dexscreener.com/solana/5khwucdedmvpxjshdhmdmaqr9gk8slmv8s8k3p3p2ymm",
+    "socials": [
+      {
+        "url": "https://x.com/botsnetfamily",
+        "type": "twitter"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://botsnet.family/",
+        "label": "Website"
+      }
+    ]
+  },
+  {
+    "sym": "RDSTR",
+    "mint": "7uXeapeKSTv4fr2mSDrC9KTCLqgnoECBttd6h1NYpump",
+    "mc": 51772,
+    "liq": 22105,
+    "age_h": 2.84,
+    "h1": 18.85,
+    "m5": -9.58,
+    "b": 468,
+    "s": 298,
+    "dex": "pumpswap",
+    "vol_h1": 55580,
+    "url": "https://dexscreener.com/solana/9t2my2zzdgcuzrwfqpgpbcacsyqssmr9t3ju2vigcrrc",
+    "socials": [
+      {
+        "url": "https://x.com/Ultrahodlerr/status/2110918150724174048",
+        "type": "twitter"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://www.tesla.com/roadster",
+        "label": "Website"
+      },
+      {
+        "url": "https://otcdesks.cash/coin/7uXeapeKSTv4fr2mSDrC9KTCLqgnoECBttd6h1NYpump",
+        "label": "OTC"
+      }
+    ]
+  }
+]

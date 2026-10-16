@@ -1,0 +1,35 @@
+<html><body style="margin:0;background:#0b0e14">
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0a1220"/><stop offset="100%" stop-color="#0b0e14"/></linearGradient>
+<linearGradient id="flame" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffb347"/><stop offset="100%" stop-color="#ff3b30"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1a2130" stroke-width="1"/></pattern>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/>
+<rect width="1600" height="900" fill="url(#grid)"/>
+<!-- rocket left, smaller, more margin -->
+<g transform="translate(140,140) scale(0.85)">
+  <rect x="110" y="40" width="100" height="520" rx="18" fill="#c8d0dc" stroke="#8b97ab" stroke-width="3"/>
+  <polygon points="110,40 160,0 210,40" fill="#e8edf5" stroke="#8b97ab" stroke-width="3"/>
+  <rect x="125" y="120" width="70" height="40" rx="6" fill="#0b0e14"/>
+  <rect x="125" y="200" width="70" height="40" rx="6" fill="#0b0e14"/>
+  <rect x="90" y="480" width="40" height="90" rx="8" fill="#5b6678"/>
+  <rect x="190" y="480" width="40" height="90" rx="8" fill="#5b6678"/>
+  <ellipse cx="160" cy="590" rx="55" ry="70" fill="url(#flame)" opacity="0.95"/>
+  <ellipse cx="160" cy="610" rx="28" ry="50" fill="#ffe08a"/>
+</g>
+<!-- short orbit arc upper right of rocket, not over text -->
+<path d="M420 580 C 560 220, 780 160, 980 280" fill="none" stroke="#4fd1ff" stroke-width="4" stroke-dasharray="18 14" opacity="0.75"/>
+<circle cx="720" cy="200" r="10" fill="#4fd1ff"/>
+<text x="740" y="190" font-family="DejaVu Sans Mono" font-size="22" fill="#4fd1ff">LEO</text>
+<!-- red cut mark near arc end, away from headline -->
+<g transform="translate(900,300)">
+  <line x1="-40" y1="-40" x2="40" y2="40" stroke="#ff3b30" stroke-width="8"/>
+  <line x1="40" y1="-40" x2="-40" y2="40" stroke="#ff3b30" stroke-width="8"/>
+</g>
+<!-- headline with wide right margin -->
+<text x="480" y="480" font-family="DejaVu Sans" font-weight="bold" font-size="52" fill="#e8edf5">Starship hit orbit.</text>
+<text x="480" y="555" font-family="DejaVu Sans" font-weight="bold" font-size="52" fill="#e8edf5">They still cut the flight short.</text>
+<text x="480" y="630" font-family="DejaVu Sans" font-size="28" fill="#8b97ab">Flight 14: first LEO, early splashdown</text>
+<text x="1520" y="850" font-family="DejaVu Sans Mono" font-size="22" fill="#3d4757" text-anchor="end">@P7RIM3</text>
+</svg></body></html>

@@ -1,0 +1,6 @@
+NEW_COUNT: 0
+SIGNED_IN: Confirmed X account menu/sidebar shows P7RIM3 (@P7RIM3).
+ALL: Refreshed once with All selected. No new inbound reply or mention newer than approximately 22:59 ET (or within the requested recent window). The newest visible notification was a like from about 15 minutes ago, which was ignored; visible reply cards were older/known (Cobra ~1h, Juneaux ~2h, FiresOfTruth ~3h).
+MENTIONS: Refreshed once. No new inbound mentions. Visible items were known/older: Cobra17298328 ~1h, juneauxwhoitis ~2h, FiresOfTruth ~3h (multiple), and grok ~4h.
+NEW CANDIDATES:
+None.

@@ -1,0 +1,23 @@
+{
+ "tag": "0650",
+ "symbol": "Mika",
+ "mint": "7ar3KGnkcHXc3cgTvzg5YFkgXLWWmQCzrHuhTDCepump",
+ "age_h": 0.41,
+ "mc": 13101,
+ "phase": "too_young",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "age 0.41h still <30m",
+  "prior FAIL at 0647 stands",
+  "17\u00d71-5% band",
+  "graphInsidersDetected/list present",
+  "creator not in topHolders"
+ ],
+ "creatorBalance": 0,
+ "graphInsidersDetected": 21,
+ "totalHolders": 515,
+ "rc_score": 1,
+ "band_1_5": 17,
+ "h0_pct": 39.8830596906081,
+ "top10ex_approx": 20.4065519922269
+}

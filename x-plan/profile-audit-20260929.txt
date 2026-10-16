@@ -1,0 +1,91 @@
+READ-ONLY @P7RIM3 RACIST-CONTENT AUDIT — UPDATED 2026-09-29
+
+Scope / safety
+- Audit only. No likes, replies, reposts, edits, deletes, follows, bookmarks, compose, or settings changes were made.
+- Notifications tab was closed at the start. X intermittently redirected some deep search/profile navigations to Notifications; each observed redirect was left immediately by navigating back to a profile/search URL. No notification content was reviewed or acted on.
+
+PROFILE
+- Account: @P7RIM3 (profile showed 2,410 posts)
+- Bio: “Rabbit holes, attack surface, whatever shouldn’t be exposed. Sky objects, agentic AI, OSINT with receipts — not vibes.”
+- Joined: November 2025
+- Pin: none observed. Rechecked the profile Posts view; the first visible post had no “Pinned” label/icon.
+
+KEYWORD SEARCHES (Latest / Live)
+1) from:P7RIM3 (nigger OR nigga OR chink OR spic OR kike OR gook OR coon OR wetback OR raghead OR towelhead)
+   0 hits.
+
+2) from:P7RIM3 (beaner OR cracker OR “white power” OR “white supremacy” OR kkk OR lynch OR “race war”)
+   0 hits.
+
+3) from:P7RIM3 (monkey OR ape OR thug OR ghetto OR “these people” OR illegals OR “go back”)
+   7 hits; all were replies (not original posts, reposts, or quotes):
+   - https://x.com/P7RIM3/status/2098519266798481627
+     Exact text: “These people need help. It’s terrifying they can vote and drive vehicles and reproduce. Wow! I never heard of this new term until now!”
+     Reply to @MattWalshBlog. Risk: LOW for racist reading; “these people” is vague/dehumanizing, but no race is identified.
+   - https://x.com/P7RIM3/status/2096634418987159747
+     Exact text: “Why can’t everyone make a list of these people are submit it to CPS and FBI?”
+     Reply to @Sassafrass_84. Risk: LOW for racist reading; vague target, no racial reference.
+   - https://x.com/P7RIM3/status/2069210939597987935
+     Exact text: “Throwing away 20 years of your life just to prove you have TDS. These people vote! Let that sink in”
+     Reply to @GuntherEagleman. Risk: LOW for racist reading; political/vague “these people,” no race.
+   - https://x.com/P7RIM3/status/2045621434093895883
+     Exact text: “She literally committed suicide. Look at the police report. These people are fucking retarded.”
+     Reply to @MiddleOfMayhem and @washghost1. Risk: LOW for racist reading; contains an ableist slur, but no racial reference.
+   - https://x.com/P7RIM3/status/2044636185830506651
+     Exact text: “You going to go back to making karate videos once you can’t push fake stories anymore?”
+     Reply to @JeremyCorbell. Risk: LOW for racist reading; “go back” is not race-directed here.
+   - https://x.com/P7RIM3/status/2027893228134142099
+     Exact text: “How do you sleep at night knowing that you post absolute garbage like this. Go back and read this post and you tell me if this is anywhere near anything normal for any human being. The fact that accounts like yours have as many followers and are making money off of posting”
+     Reply to @0ccultbot. Risk: LOW for racist reading; hostile language, no racial reference.
+   - https://x.com/P7RIM3/status/2027835638188269862
+     Exact text: “these people have no idea what they are protesting. to me it seems like a bunch of angry people with life issues and want to attend something that can fuel their anger and malcontent against the system.........”
+     Reply to @MarioNawfal. Risk: LOW for racist reading; vague political criticism, no racial reference.
+
+4) from:P7RIM3 (jew OR jewish OR muslim OR islam OR “black people” OR “white people” OR “asian people” OR hispanic OR latino)
+   0 hits.
+
+5) from:P7RIM3 (nazi OR hitler OR swastika OR antisemit OR “final solution”)
+   0 hits.
+
+CHRONOLOGICAL POSTS COVERAGE
+- Latest search URL: https://x.com/search?q=from%3AP7RIM3&src=typed_query&f=live
+- The Live/Latest search loaded the current window and was paged down/end-scrolled carefully; it stopped around 1 hour back in the current window rather than exposing the full 2,410-post archive.
+- Approximate posts sampled: about 36 distinct visible cards across current-window search, the profile’s first five Posts cards, and the until:2026-01-01 archive sample (some overlap).
+- Oldest visible post reached: Dec 9, 2025 — https://x.com/P7RIM3/status/1998609449120890895
+  Text: “That looked like iridium flares from 2 satellites. You can match it against the time and location with stellarium or any sky chart app”
+- until probes on posts:
+  - until:2026-01-01: results; visible range Dec 31–Dec 9, 2025; oldest above.
+  - until:2025-12-01: 0 results.
+  - until:2025-01-01: 0 results.
+  - until:2024-01-01: 0 results.
+  - until:2023-01-01: 0 results.
+  - until:2022-01-01: 0 results.
+  - until:2020-01-01: 0 results.
+- Archive year reached: 2025 (no content was found before Dec 9, 2025 through the accessible search probes). The account profile says Joined November 2025.
+- Sampled archive text included one ableist slur (“retarded”) and an ICE/immigration post, but no racial slurs, racial targeting, or race-based claims.
+
+REPLIES COVERAGE
+- Search URL: https://x.com/search?q=from%3AP7RIM3%20filter%3Areplies&src=typed_query&f=live
+- Latest/Live search was scrolled to the loaded end; approximately 24 distinct reply cards were sampled in search, plus the profile Replies view showed two current @P7RIM3 reply cards in its first visible mixed conversation set (overlap likely).
+- Oldest visible reply reached: Dec 9, 2025 — https://x.com/P7RIM3/status/1998609449120890895
+- until:2026-01-01 reply probe returned the same Dec 31–Dec 9, 2025 range, with the same oldest URL.
+- Older reply probes (including until:2025-12-01 and until:2025-01-01) repeatedly redirected to Notifications before a search result could be read; they are treated as unreachable, not as 0 hits. No notification content was reviewed.
+- Sampled replies showed no racial slurs or explicit racial targeting. The keyword-search hits above are replies and are included in the flag review.
+
+MEDIA
+- Profile Media/Videos view loaded via the profile tab and showed “155 photos & videos.” Four visible video cards were reviewed for caption/accessible text:
+  1) Aug 13 — “This is absolutely hilarious”
+  2) Jul 23 — “@elonmusk”
+  3) Jul 23 — “Mic drop”
+  4) Jun 21 — “Preach brother”
+- No racial caption or accessible alt text was visible in those four cards. Video contents were not treated as text evidence.
+
+FLAG LIST
+- NONE FLAGGED as racist.
+- Non-racial offensive language observed and retained in notes: ableist “retarded” usage in two sampled replies/posts; not racial content.
+
+PARTS STILL UNREACHABLE / LIMITATIONS
+- The full ~2,410-post archive was not exhaustively exposed by X Live search; the ordinary latest search stopped around the current one-hour window.
+- Older reply until: probes were blocked by repeated X redirects to Notifications; exact older-reply coverage beyond Dec 9, 2025 could not be verified.
+- Media view exposed only four visible cards in the current viewport; no hidden media captions/alt text were available through the accessible tree.
+- X’s search UI intermittently returned loading/error states and route redirects; no mutations were performed.

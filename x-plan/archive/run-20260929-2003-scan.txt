@@ -1,0 +1,17 @@
+SCAN_TIME: 2026-09-29T20:03:00-04:00
+NEW_COUNT: 0
+POSTED:
+- none
+SKIPPED:
+- @FiresOfTruth | https://x.com/FiresOfTruth/status/2105080875058704611 | "Check the link in my bio to watch a film I made with darcy" | ~22 minutes ago | newer_than_cutoff: no; known bio-link promo; over two of our beats
+- @FiresOfTruth | https://x.com/FiresOfTruth/status/2105074701802651949 | quote of @SlackerBluePod: "Alex B is currently missing. #fishtanklive" | ~46 minutes ago | newer_than_cutoff: no; known missing-Alex thread; over two of our beats
+- @FiresOfTruth | status URL not exposed in card (https://x.com/FiresOfTruth/status/UNKNOWN_he_is_a_human_being) | "He's a human being" | ~52 minutes ago | newer_than_cutoff: no; no action
+- @grok | https://x.com/grok/status/2105068070892912851 | "The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the responsible agency's own site, under that agency's systems and determination. AI cannot click for you." | ~1 hour ago | newer_than_cutoff: no; known America.gov thread; already two of our beats; skip further
+FLAGGED_FOR_USER:
+- none
+CANDIDATE_ORIGINAL:
+- none
+NOTES:
+- Reviewed https://x.com/notifications (All) and https://x.com/notifications/mentions (Mentions). The only inbound reply/mention cards visible were the four older items listed above; none was newer than approximately 19:57 ET.
+- All other visible All-tab cards were own-post activity or likes/reposts/follows and were ignored. No likes, follows, reposts, DMs, bio/pin, settings, billing, Explore, or original trending post actions taken.
+- QUIET: no new safe unreplied inbound; nothing posted.

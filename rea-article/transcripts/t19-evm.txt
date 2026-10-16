@@ -1,0 +1,10 @@
+$ cat evm/demo-runtime.hex
+60003560e01c8063a9059cbb1461001d57806370a082311461003157005b341561002857600080fd5b60243560043555005b6004355460005260206000f3
+
+$ rea inspect-evm-interface $PWD/evm/demo-runtime.hex hex --json | jq -c '.evidence_id, .normalized_result.evidence_kind, (.normalized_result.functions[]), {runtime_execution: .normalized_result.runtime_execution, discovery_completeness: .normalized_result.discovery_completeness}'
+"ev_839bce1f5a3decba1b7ab819dc65c17173092419df49b6c83970b5fc0ae76059"
+"inferred"
+{"selector":"0x70a08231","bytecode_offset":49,"dispatch":"abi","inferred_arguments":"uint256","inferred_state_mutability":"payable"}
+{"selector":"0xa9059cbb","bytecode_offset":29,"dispatch":"abi","inferred_arguments":"uint256,uint256","inferred_state_mutability":"nonpayable"}
+{"runtime_execution":"not-performed","discovery_completeness":"unknown"}
+

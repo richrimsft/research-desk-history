@@ -1,0 +1,29 @@
+$ find js/dist -type f | sort
+js/dist/chunks/checkout-C55LDPC2.js
+js/dist/chunks/chunk-ZJO4U6BV.js
+js/dist/chunks/settings-5JU6JVGJ.js
+js/dist/index.js
+
+$ rea analyze-javascript-application $PWD/js/dist --source-path index.js --source-path chunks/checkout-C55LDPC2.js --format json 2>/dev/null | tail -1 > notes/js-selected.ev.json
+
+$ jq -c '.normalized_result | .source_selection, .statistics' notes/js-selected.ev.json
+{"requested_paths":["index.js","chunks/checkout-C55LDPC2.js"],"unselected_files":2}
+{"relevant_files":4,"nested_asar_containers":0,"text_bytes_read":794,"invalid_utf8_files":0,"parsed_javascript_files":2,"visited_ast_nodes":124,"findings":8,"modules":0,"parse_failures":0}
+
+$ jq -r -f /workspace/rea-65/tools/jsedges.jq notes/js-selected.ev.json
+FILES:
+  unknown chunks/chunk-ZJO4U6BV.js  state=unavailable
+  javascript-asset chunks/checkout-C55LDPC2.js  state=observed
+  javascript-asset chunks/settings-5JU6JVGJ.js  state=observed
+  javascript-asset chunks/chunk-ZJO4U6BV.js  state=observed
+  javascript-asset index.js  state=observed
+  unknown chunks/settings-5JU6JVGJ.js  state=unavailable
+IMPORT EDGES:
+  chunks/checkout-C55LDPC2.js --binding apiBase--> chunks/chunk-ZJO4U6BV.js [resolved; inferred/high]
+  index.js --static-import--> chunks/chunk-ZJO4U6BV.js [resolved; inferred/high]
+  chunks/checkout-C55LDPC2.js --binding formatPrice--> chunks/chunk-ZJO4U6BV.js [resolved; inferred/high]
+  index.js --binding formatPrice--> chunks/chunk-ZJO4U6BV.js [resolved; inferred/high]
+  chunks/checkout-C55LDPC2.js --static-import--> chunks/chunk-ZJO4U6BV.js [resolved; inferred/high]
+  index.js --dynamic-import--> chunks/checkout-C55LDPC2.js [resolved; inferred/high]
+  index.js --dynamic-import--> chunks/settings-5JU6JVGJ.js [resolved; inferred/high]
+

@@ -1,0 +1,31 @@
+X Explore/trending check
+Captured: 2026-09-30 about 11:35 AM ET
+Account: @P7RIM3 confirmed signed in.
+Opened https://x.com/explore, then checked its Trending subtab at https://x.com/explore/tabs/trending.
+
+Trending page showed ranks but no post counts or ages for the trend rows (so counts/ages are recorded as “not shown”). Top visible trends, in displayed order:
+1. WNBA — Sports · Trending; trending with A’ja, Sophie; count/age not shown.
+2. Flydubai — Trending in United States; trending with Omani, Tabuk; count/age not shown.
+3. Unites States — Politics · Trending; count/age not shown.
+4. $EDEL — Business and finance · Trending; count/age not shown.
+5. #OlandriaxVaqueraSS27 — Trending in United States; trending with #VaqueraNYCSS27; count/age not shown.
+6. Christa Pike — Trending in United States; trending with Colleen Slemmer; count/age not shown.
+7. Good Wednesday — Trending in United States; count/age not shown.
+8. Core PCE — Trending in United States; trending with August PCE, Headline PCE; count/age not shown.
+9. Altercation — News · Trending; count/age not shown.
+10. Savannah — Sports · Trending; count/age not shown.
+11. Ken Griffin — Trending in United States; trending with Carnegie Mellon; count/age not shown.
+12. Delta — Trending in United States; trending with Starlink, Ed Bastian; count/age not shown.
+13. Hump Day — Only on X · Trending; count/age not shown.
+14. $RYET — Trending in United States; count/age not shown.
+15. Death to America — Politics · Trending; trending with IRGC, Vote Democratic; count/age not shown.
+16. #HelloJimtober — Music · Trending; count/age not shown.
+17. Happy Hump — Trending in United States; count/age not shown.
+18. Sousa — Sports · Trending; count/age not shown.
+19. Zeitler — Sports · Trending; trending with Becton; count/age not shown.
+20. Flight 93 — Trending in United States; count/age not shown.
+21. #WednesdayWisdom — Only on X · Trending; count/age not shown.
+
+The Explore landing page’s side “What’s happening” list also showed Tinashe (Music), IRGC (Politics), #HelloJimtober (Music), VidAngel, Mike Jackson (Sports), and Bayamón; no counts/ages were shown there either. News cards showed counts/ages, but those were separate news items rather than trend rows: “New Documentary Explores 1948 Aztec UFO Crash Claims” — 16h, 593 posts; political/news items were not treated as non-political trends.
+
+Non-political topics that looked most useful to flag as fast-rising based on high displayed rank/category (no velocity data was shown): WNBA, Flydubai, $EDEL, #OlandriaxVaqueraSS27, Good Wednesday, Core PCE, Altercation, Savannah, Delta, Hump Day, #HelloJimtober, Happy Hump, Sousa, Zeitler, and #WednesdayWisdom.

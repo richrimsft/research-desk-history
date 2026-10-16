@@ -1,0 +1,22 @@
+{
+ "tag": "0720",
+ "symbol": "OPTIMA",
+ "mint": "DdVXE425xZe27FhY41PR8dwfL3VczYdyJJAWDC1jpump",
+ "age_h": 0.09,
+ "mc": 24571,
+ "dexId": "pumpfun",
+ "phase": "too_young_curve",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "age 0.09h <30m \u2014 no-buy",
+  "creatorBalance 1 raw (\u22480 / burner-sold flag)",
+  "13\u00d71\u20135% band on 366 holders",
+  "no usable socials in RC meta",
+  "light RC only \u2014 do not buy"
+ ],
+ "creatorBalance": 1,
+ "rc_score": 1,
+ "band_1_5": 13,
+ "graphInsiders": 0,
+ "rc_file": "rc-OPTIMA-0720.json"
+}

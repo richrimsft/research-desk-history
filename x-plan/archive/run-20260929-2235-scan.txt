@@ -1,0 +1,40 @@
+X notification scan report
+Timestamp requested: 2026-09-29 22:35 ET
+Cutoff: approximately 22:26–22:33 ET
+Account confirmed: @P7RIM3 (account menu showed P7RIM3 / @P7RIM3)
+
+RESULT
+NEW_COUNT: 0
+No new unreplied inbound reply or mention was found newer than the cutoff.
+No replies, likes, follows, reposts, DMs, profile changes, or settings changes were made.
+
+SCAN DETAILS
+1) https://x.com/notifications (All): opened and refreshed once. The visible inbound reply cards were older than the cutoff and matched known-handled items. Recent cards such as a 14-minute liked-your-reply notification were engagement notifications, not inbound replies/mentions, and were ignored. Likes, follows, reposts, view-count-only items, and own-post engagement were excluded.
+2) https://x.com/notifications/mentions: opened and refreshed once. The visible mention cards were:
+   - @Cobra17298328, 47 minutes ago
+   - @juneauxwhoitis, 1 hour ago
+   - @FiresOfTruth, 2 hours ago (film-bio card)
+   - @FiresOfTruth, 3 hours ago (fishtank quote card)
+   - @FiresOfTruth, 3 hours ago ("He's a human being")
+   - @grok, 3 hours ago (America.gov architectural-stop)
+   All were outside the cutoff and/or known skips.
+
+KNOWN SKIPS / ALREADY HANDLED (not counted)
+- @Cobra17298328 — https://x.com/Cobra17298328/status/2105112514090402040 — “I can’t see what this bitch is saying, cause he immediately blocked me”. Replying to @P7RIM3, @skeptic_vaibhav, and @artaimemes; already replied at https://x.com/P7RIM3/status/2105113751888232511 (beat 2 of 2). Observed age: 47m.
+- @juneauxwhoitis — https://x.com/juneauxwhoitis/status/2105094896663371987 — “Overflowing with perceptions you are!”. Replying to @P7RIM3 and @OverlyTrev; two-beat exchange already done. Observed age: 1h.
+- @FiresOfTruth — film-bio card, https://x.com/FiresOfTruth/status/2105080875058704611 — “Check the link in my bio to watch a film I made with darcy”. Known skip.
+- @FiresOfTruth — fishtank quote card, https://x.com/FiresOfTruth/status/2105074701802651949 — quote of @SlackerBluePod saying “Alex B is currently missing. #fishtanklive”. Known skip.
+- @FiresOfTruth — “He’s a human being” card. Known skip.
+- @grok — America.gov “The stop is architectural, not a footnote...” card. Known skip; beat 3+.
+- Older known skips: @Only_Ryan02, @Hronom, @jammusnu.
+
+NEW CANDIDATE DETAILS
+None. Therefore there are no candidate status URLs, full texts, parent-context texts, thread-type guesses, or block/replyability checks to record for this pass.
+
+TONE SAMPLES (recent @P7RIM3 originals)
+- https://x.com/P7RIM3/status/2105124253280481451 — “The way people look in my dreams” (about 1m; quote post).
+- https://x.com/P7RIM3/status/2105097516798923200 — “Big Tech all at the main table. Buy their stock. ESP the ones sitting next to @POTUS” (about 1h).
+- https://x.com/P7RIM3/status/2105063458303791146 — “Not gonna lie. This is ridiculous.” (about 4h; quote post).
+
+NOTES / BLOCKERS
+No login wall, captcha, or rate-limit blocker appeared. X displayed a “Payment failed” warning in the profile sidebar; it was not touched because settings/billing changes were out of scope.

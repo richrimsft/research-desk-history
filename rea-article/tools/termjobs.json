@@ -1,0 +1,23 @@
+[
+{"src":"/workspace/rea-article/transcripts/t01-prereqs.txt","out":"/workspace/rea-article/img/40-term-prereqs.png","title":"box@grokbot: ~ — prerequisites"},
+{"src":"/workspace/rea-article/transcripts/t02-setup-dryrun.txt","out":"/workspace/rea-article/img/41-term-setup-dryrun.png","title":"box@grokbot: ~ — rea setup --dry-run (read-only plan)","maxLines":12},
+{"src":"/workspace/rea-article/transcripts/t03-doctor-grokbot.txt","out":"/workspace/rea-article/img/42-term-doctor-grokbot.png","title":"box@grokbot: ~ — rea doctor --client grok_bot","maxLines":22},
+{"src":"/workspace/rea-article/transcripts/t04-doctor-ghidra.txt","out":"/workspace/rea-article/img/43-term-doctor-ghidra.png","title":"box@grokbot: ~ — rea doctor --provider ghidra"},
+{"src":"/workspace/rea-article/transcripts/t06-workspace.txt","out":"/workspace/rea-article/img/44-term-readonly-workspace.png","title":"box@grokbot: /workspace/re/crackme — read-only target"},
+{"src":"/workspace/rea-article/transcripts/t07-search.txt","out":"/workspace/rea-article/img/45-term-search.png","title":"box@grokbot: /workspace/re/crackme — rea search"},
+{"src":"/workspace/rea-article/transcripts/t08-trace.txt","out":"/workspace/rea-article/img/46-term-trace.png","title":"box@grokbot: /workspace/re/crackme — rea trace"},
+{"src":"/workspace/rea-article/transcripts/t09-decompile-main.txt","out":"/workspace/rea-article/img/47-term-decompile-main.png","title":"box@grokbot: /workspace/re/crackme — rea decompile 0x1011f5"},
+{"src":"/workspace/rea-article/transcripts/t10-decompile-check.txt","out":"/workspace/rea-article/img/48-term-decompile-check.png","title":"box@grokbot: /workspace/re/crackme — rea decompile 0x101179"},
+{"src":"/workspace/rea-article/transcripts/t11-read-bytes.txt","out":"/workspace/rea-article/img/49-term-read-bytes.png","title":"box@grokbot: /workspace/re/crackme — rea read-bytes"},
+{"src":"/workspace/rea-article/transcripts/t12-decode-verify.txt","out":"/workspace/rea-article/img/50-term-decode-verify.png","title":"box@grokbot: /workspace/re/crackme — decode and verify"},
+{"src":"/workspace/rea-article/transcripts/t13-pe.txt","out":"/workspace/rea-article/img/51-term-pe.png","title":"box@grokbot: /workspace/re/crackme — same search on the Windows PE build"},
+{"src":"/workspace/rea-article/transcripts/t15-mcp-replay.txt","out":"/workspace/rea-article/img/52-term-mcp-results.png","title":"Grok Bot → user-rea MCP results (saved tool output, projected with jq)"},
+{"src":"/workspace/rea-article/transcripts/t21-findings.txt","out":"/workspace/rea-article/img/53-term-findings.png","title":"box@grokbot: /workspace/re/crackme — FINDINGS.md"},
+{"src":"/workspace/rea-article/transcripts/t16-js-electron.txt","out":"/workspace/rea-article/img/54-term-js-electron.png","title":"box@grokbot: /workspace/re/lab — rea analyze-javascript-application"},
+{"src":"/workspace/rea-article/transcripts/t17-js-ipc.txt","out":"/workspace/rea-article/img/55-term-js-ipc.png","title":"box@grokbot: /workspace/re/lab — Electron boundary nodes"},
+{"src":"/workspace/rea-article/transcripts/t18-web.txt","out":"/workspace/rea-article/img/56-term-web.png","title":"box@grokbot: /workspace/re/lab — loopback CDP: list-browser-targets + analyze-web-bundle"},
+{"src":"/workspace/rea-article/transcripts/t19-evm.txt","out":"/workspace/rea-article/img/57-term-evm.png","title":"box@grokbot: /workspace/re/lab — rea inspect-evm-interface"},
+{"src":"/workspace/rea-article/transcripts/t20-go-main-only.txt","out":"/workspace/rea-article/img/58-term-go-main-only.png","title":"box@grokbot: /workspace/re/lab — inspect-go-binary on npm 6.4.0"},
+{"src":"/workspace/rea-article/transcripts/t14-stars.txt","out":"/workspace/rea-article/img/59-term-github-api-stars.png","title":"box@grokbot: ~ — GitHub API star count"},
+{"src":"/workspace/rea-article/transcripts/t05-providers.txt","out":"/workspace/rea-article/img/60-term-providers.png","title":"box@grokbot: ~ — rea providers (capabilities + side effects)","maxLines":28}
+]

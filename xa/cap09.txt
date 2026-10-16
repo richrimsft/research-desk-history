@@ -1,0 +1,1 @@
+check_wallet.py on two "perfect" wallets: 1,000-0 becomes 1,000-28, and 41-0 becomes 41-38.

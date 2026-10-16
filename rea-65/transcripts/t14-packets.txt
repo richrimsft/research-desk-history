@@ -1,0 +1,9 @@
+$ rea inspect-packet-capture pcap/lab65.pcap --fields ip.dst --fields tcp.dstport --fields tls.handshake.extensions_server_name --display_filter tcp --match_limit 3 --match_offset 6 --format json | jq -c '.normalized_result | .packets[], .output_window'
+{"frame.number":["11"],"ip.dst":["192.0.2.10"],"tcp.dstport":["40001"]}
+{"frame.number":["12"],"ip.dst":["203.0.113.44"],"tcp.dstport":["443"]}
+{"frame.number":["13"],"ip.dst":["203.0.113.44"],"tcp.dstport":["443"],"tls.handshake.extensions_server_name":["api.example.org"]}
+{"matching_packets":9,"returned_packets":3,"has_more":false}
+
+$ rea inspect-packet-capture pcap/lab65.pcap --fields udp.port --fields data.data --display_filter 'udp.port==5555' --format json | jq -c '.normalized_result.packets[]'
+{"frame.number":["14"],"udp.port":["50555","5555"],"data.data":["01026c616236352d70696e67"]}
+

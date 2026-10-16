@@ -1,0 +1,35 @@
+X notifications-only reply scan report
+Scan time: 2026-09-30T20:10:00-04:00 (ET; task timestamp)
+Cutoff: 2026-09-30T20:08:07-04:00
+Signed-in account: @P7RIM3 (sidebar confirmed; user id 1995219682186452992)
+Scope: Notifications All and Mentions only. No original/composer post, likes, follows, reposts, DMs, or settings/account changes performed.
+
+ALL cards (visible reply/mention-related cards)
+| handle | status URL | relative time | full text | result |
+| @stonkspark | https://x.com/stonkspark/status/2105435508927005103 | 59m | on it | SKIP: older than cutoff; already handled (our prior reply: https://x.com/P7RIM3/status/2105435757142028442) |
+| @SafetyNotorious | https://x.com/SafetyNotorious/status/2105431749333602704 | 1h | P7RIM3 - Retard of the Day 🏆 (quote of @P7RIM3: @__0HOUR1_ more to come on this and his fake coin that spammed his followers) | SKIP: quote-only, slur; explicitly do not engage |
+| @GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | 1h | Image only; no text rendered in the notification card | SKIP: older than cutoff; already handled (our prior reply: https://x.com/P7RIM3/status/2105426194468405542) |
+Other visible All notifications were likes, liked-your-reply, repost, or follow cards and were ignored per scope.
+
+MENTIONS cards (all visible)
+| handle | status URL | relative time | full text | result |
+| @stonkspark | https://x.com/stonkspark/status/2105435508927005103 | 59m | on it | SKIP: older than cutoff; already handled |
+| @GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | 1h | Image only; no text rendered in the notification card | SKIP: older than cutoff; already handled |
+| @zebralife2002 | https://x.com/zebralife2002/status/2105361123503440350 | 5h | Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day | SKIP: older than cutoff; already handled (our prior reply: https://x.com/P7RIM3/status/2105362879817925052) |
+| @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105343324580143460 | 7h | This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh (quotes @libsoftiktok) | SKIP: older than cutoff; thread already over two beats |
+| @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105339423638651351 | 7h | 🙄 🤦‍♀️ | SKIP: older than cutoff; thread already over two beats |
+| @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105333564132712947 | 7h | What’s new is this shit needs to stop. Beyond ridiculous | SKIP: older than cutoff; thread already over two beats |
+| @Cobra17298328 | https://x.com/Cobra17298328/status/2105112514090402040 | 22h | I can’t see what this bitch is saying, cause he immediately blocked me | SKIP: older than cutoff; blocked/slur history |
+| @juneauxwhoitis | https://x.com/juneauxwhoitis/status/2105094896663371987 | 23h | Overflowing with perceptions you are! | SKIP: older than cutoff; thread already over two beats |
+| @FiresOfTruth | https://x.com/FiresOfTruth/status/2105080875058704611 | Sep 29 | Check the link in my bio to watch a film I made with darcy | SKIP: older promo/spam |
+
+Actions taken
+- No replies posted. No new unreplied inbound reply/mention was visible after the cutoff.
+- No flags requiring escalation beyond the instructed SafetyNotorious quote-only slur card; it was skipped and not engaged.
+- Zero originals posted.
+
+NEW_COUNT: 0
+Result: quiet: 0 new
+Screenshots:
+- /workspace/x-plan/run-20260930-2009-notifications.png
+- /workspace/x-plan/run-20260930-2009-mentions.png

@@ -1,0 +1,40 @@
+<html><body style="margin:0;background:#0b0e14">
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0a1220"/><stop offset="100%" stop-color="#0b0e14"/></linearGradient>
+<linearGradient id="road" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1a2130"/><stop offset="100%" stop-color="#0f141c"/></linearGradient>
+<radialGradient id="orbglow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#6b7280" stop-opacity="0.9"/><stop offset="55%" stop-color="#2a3344" stop-opacity="0.7"/><stop offset="100%" stop-color="#0b0e14" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1a2130" stroke-width="1"/></pattern>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/>
+<rect width="1600" height="900" fill="url(#grid)"/>
+<!-- freeway perspective bottom left -->
+<g opacity="0.85">
+  <polygon points="80,900 520,520 640,520 280,900" fill="url(#road)" stroke="#2a3344" stroke-width="2"/>
+  <line x1="300" y1="900" x2="580" y2="520" stroke="#f5c400" stroke-width="3" stroke-dasharray="22 18" opacity="0.7"/>
+  <line x1="200" y1="900" x2="560" y2="520" stroke="#3d4757" stroke-width="2"/>
+</g>
+<!-- helo silhouette upper left of orb path -->
+<g transform="translate(280,220)" fill="#5b6678">
+  <ellipse cx="0" cy="0" rx="70" ry="8" opacity="0.55"/>
+  <rect x="-28" y="-8" width="70" height="18" rx="6"/>
+  <rect x="38" y="-4" width="55" height="6" rx="2"/>
+  <rect x="-8" y="8" width="8" height="22" rx="2"/>
+  <rect x="-22" y="28" width="36" height="5" rx="2"/>
+</g>
+<!-- dark orb with faint trail -->
+<circle cx="720" cy="300" r="90" fill="url(#orbglow)"/>
+<circle cx="720" cy="300" r="38" fill="#1a1f28" stroke="#8b97ab" stroke-width="3"/>
+<circle cx="708" cy="288" r="10" fill="#3d4757" opacity="0.6"/>
+<path d="M580 340 C 620 320, 660 310, 682 305" fill="none" stroke="#4fd1ff" stroke-width="3" stroke-dasharray="10 10" opacity="0.45"/>
+<!-- vanished mark -->
+<g transform="translate(980,260)" opacity="0.9">
+  <line x1="-36" y1="-36" x2="36" y2="36" stroke="#ff3b30" stroke-width="8"/>
+  <line x1="36" y1="-36" x2="-36" y2="36" stroke="#ff3b30" stroke-width="8"/>
+</g>
+<!-- headline wide margins -->
+<text x="200" y="560" font-family="DejaVu Sans" font-weight="bold" font-size="50" fill="#e8edf5">Live TV caught an LA orb.</text>
+<text x="200" y="630" font-family="DejaVu Sans" font-weight="bold" font-size="50" fill="#e8edf5">Then the story vanished.</text>
+<text x="200" y="700" font-family="DejaVu Sans" font-size="28" fill="#8b97ab">FOX 11 traffic cam · no second camera · no follow-up</text>
+<text x="1520" y="850" font-family="DejaVu Sans Mono" font-size="22" fill="#3d4757" text-anchor="end">@P7RIM3</text>
+</svg></body></html>

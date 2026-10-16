@@ -1,0 +1,50 @@
+[
+  {
+    "mint": "8EtQDY7hUddahsbJ8stYYe64ZV9NkGhdrY44Df3npump",
+    "symbol": "Cloudboi",
+    "name": "Cloudboi Coin",
+    "dex": "pumpfun",
+    "mc": 25557,
+    "age_h": 0.21,
+    "h1": 497,
+    "m5": 106,
+    "buys_h1": 910,
+    "sells_h1": 599,
+    "liq": null,
+    "botty": false,
+    "pairCreatedAt": 1792135497000,
+    "tag": "NEW"
+  },
+  {
+    "mint": "8rAhJEyM72smDNgGUcPETXoVi21x7k2R8u2AMXGQpump",
+    "symbol": "FMTR",
+    "name": "fomometer",
+    "dex": "pumpfun",
+    "mc": 16934,
+    "age_h": 0.65,
+    "h1": 373,
+    "m5": 17.51,
+    "buys_h1": 321,
+    "sells_h1": 244,
+    "liq": null,
+    "botty": false,
+    "pairCreatedAt": 1792133904000,
+    "tag": "NEW"
+  },
+  {
+    "mint": "79euwaxxwh8qYbHLpKvk9isQiuzpqTNobBsqPXvipump",
+    "symbol": "Alex",
+    "name": "The Iron Man",
+    "dex": "pumpfun",
+    "mc": 13496,
+    "age_h": 1.19,
+    "h1": 168,
+    "m5": 105,
+    "buys_h1": 130,
+    "sells_h1": 104,
+    "liq": null,
+    "botty": false,
+    "pairCreatedAt": 1792131986000,
+    "tag": "NEW"
+  }
+]

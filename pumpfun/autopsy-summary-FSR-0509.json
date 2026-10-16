@@ -1,0 +1,72 @@
+{
+  "tag": "0509",
+  "symbol": "FSR",
+  "safe": "FSR",
+  "mint": "HiKU8Lsa8aUFkhtCMWp3ySCcpZ899zEhRqzvEgnSpump",
+  "verdict": "FAIL",
+  "fails": [
+    "creatorBal 0 (dev sold/empty)",
+    "age ~0.5h borderline \u226430m entry window",
+    "16\u00d71\u20135% holder band (botty)",
+    "top10 ex-pool ~24\u201327% after removing pumpswap LP (concentration)",
+    "graphInsiders 4; rug score 13911 (Large LP Unlocked + Low Liquidity)",
+    "socials: status-tweet only (x.com/solana/status/\u2026) + otcdesks.cash; not real project socials",
+    "post-grad pumpswap chase ~$63k",
+    "cabal funder 5tzFki\u2026 @ ~19.6 SOL into a top holder"
+  ],
+  "age_h": 0.543,
+  "mc": 62992,
+  "h1": 49.58,
+  "m5": 24.54,
+  "dexId": "pumpswap",
+  "phase": "pumpswap/post-grad",
+  "creator": "7KocpDKH8W5CRtNSWpDuKtXxVDFaKQNGVgT2W5tiC3Cm",
+  "creatorBal": 0.0,
+  "creatorBal_pct": 0.0,
+  "band_1_5": 16,
+  "top10_ex_curve_pct": 25.96,
+  "socials": {
+    "dex": [
+      {
+        "url": "https://x.com/solana/status/2111012313625219264",
+        "type": "twitter"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://otcdesks.cash/coin/HiKU8Lsa8aUFkhtCMWp3ySCcpZ899zEhRqzvEgnSpump",
+        "label": "Website"
+      }
+    ]
+  },
+  "rugScore": 13911,
+  "score_normalised": 55,
+  "risks": [
+    [
+      "Large Amount of LP Unlocked",
+      "danger",
+      11000
+    ],
+    [
+      "Low Liquidity",
+      "danger",
+      2910
+    ]
+  ],
+  "graphInsiders": 4,
+  "cabal_hits": [
+    {
+      "funder": "5tzFki\u2026",
+      "n": 1,
+      "sol": 19.64,
+      "note": "prior cabal"
+    }
+  ],
+  "txh1": {
+    "buys": 575,
+    "sells": 435
+  },
+  "volh1": 38521.55,
+  "totalHolders": 1150,
+  "name": "Flying Solana Roadster"
+}

@@ -1,0 +1,9 @@
+Explore ~12:34 ET as @P7RIM3 (read-only)
+- Trump AI Accord typo — 15h — 75.1K (politics skip)
+- AT&T/SpaceX D2C — 19h — 5,313 (stale; already judged earlier)
+- Aztec UFO doc — 17h — 618 (low volume)
+- Dunning-Kruger scatterplot — trending — 100 (too low)
+- Erika Kirk — trending (unclear/skip)
+- Good Morning Brother — fluff
+- Unites States — politics
+Decision: TRENDING_SKIP no_fit | extras_today 0/3 | spacing_ok (last original 09:56 ET)

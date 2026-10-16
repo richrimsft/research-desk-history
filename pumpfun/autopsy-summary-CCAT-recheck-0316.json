@@ -1,0 +1,17 @@
+{
+  "mint": "D4rzv9WAXJh9QZw1MjqfrtuSrmrkV4DckPTKBoMnpump",
+  "symbol": "CCAT",
+  "recheck": "0316",
+  "mc": 112113,
+  "age_h": 1.04,
+  "h1": 165,
+  "m5": 9.02,
+  "peak_scout_mc_0305": 143000,
+  "dip_from_0305_peak_pct": 21.6,
+  "decision": "FAIL \u2014 prior stands",
+  "reasons": [
+    "creatorBalance 0 unchanged (prior)",
+    "no project X unchanged (prior)",
+    "~22% off 03:05 ~$143k print \u2014 still below clean 30-60% post-grad dip; m5 +9% chop not a hold-then-buy setup"
+  ]
+}

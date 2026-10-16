@@ -1,0 +1,19 @@
+{
+ "symbol": "Jato",
+ "mint": "HtqVqejZuh9BqGPTWdggf9mUtyRzydtVcxHRCq3Vpump",
+ "tag": "0725",
+ "age_h": 0.09,
+ "mc": 16815,
+ "dex": "pumpfun",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "creatorBal 0",
+  "15x 1-5% band on top20 (421 holders)",
+  "too young (<30m) \u2014 do not buy"
+ ],
+ "rc": "rc-Jato-0725.json",
+ "score": 1,
+ "creatorBalance": 0,
+ "band_1_5": 15,
+ "totalHolders": 421
+}

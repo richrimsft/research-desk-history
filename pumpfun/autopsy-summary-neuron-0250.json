@@ -1,0 +1,24 @@
+{
+  "mint": "3d2LndChut5d4pvzfFDMG8Tg9qDqY6hv7Je4S3o7pump",
+  "symbol": "neuron",
+  "verdict": "FAIL",
+  "reasons": [
+    "creatorBal 0 (dev sold early / never held)",
+    "age ~0.47h < 30m entry window",
+    "no socials/websites on Dex or metadata surface",
+    "top10 ex-curve ~27% at concentration limit",
+    "mild 1.5\u20134.9% holder band; 1372 buys/h on ~$12k mc looks hot/botty"
+  ],
+  "positives": [
+    "RC score 1, mint/freeze revoked, 0 graph insiders",
+    "no shared-funder bundle detected among top holders with resolvable funders",
+    "curve phase ~mid (curve holds ~46%)"
+  ],
+  "mc": 12011,
+  "age_h": 0.47,
+  "h1": 297,
+  "m5": 26.32,
+  "top10_ex_curve": 27.12,
+  "creatorBal": 0,
+  "graphInsiders": 0
+}

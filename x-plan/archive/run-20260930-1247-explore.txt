@@ -1,0 +1,35 @@
+X Explore/Trending read-only scan
+Observed: 2026-09-30 12:49 PM ET (UTC-4)
+Source: https://x.com/explore/tabs/trending (Explore > Trending), hard-refreshed once.
+Actions: read-only; no posts, likes, follows, replies, or settings changes.
+
+Today's News (visible cards):
+- Trump Signs AI Accord Marred by 'Unites States' Typo — 16 hours ago — 78.5K posts — no_fit: old for a breaking trend and partisan/political framing.
+- AT&T CEO Doubts SpaceX Direct-to-Cell Strategy — 19 hours ago — 5,392 posts — fit: space/satellite angle, but stale for breaking-trend use.
+- New Documentary Explores 1948 Aztec UFO Crash Claims — 17 hours ago — 623 posts — no_fit: stale/low-volume entertainment claim.
+
+Visible Trending list (the cards did not show post counts or ages):
+- #OlandriaxVaqueraSS27 (Trending in United States; with #VaqueraNYCSS27) — no_fit: fashion fluff.
+- Flydubai (Trending in United States; with Omani, Smit Machchhar) — no_fit: no clear P7RIM3 angle from the card.
+- WNBA — no_fit: sports fluff.
+- Unites States — no_fit: political/ticker-like and likely typo-driven.
+- Family Guy — no_fit: entertainment fluff.
+- Christa Pike (with Colleen) — no_fit: crime/tragedy-adjacent and no verification angle visible.
+- Death to America (with IRGC, Vote Democratic) — no_fit: partisan/political.
+- Seth MacFarlane (with Mark Wahlberg) — no_fit: entertainment fluff.
+- Altercation — no_fit: vague, no verifiable angle visible.
+- Delta (with Starlink) — fit/watch: potentially satellite/aviation-relevant, but no count/age or clear fast-rise signal shown.
+- Savannah — no_fit: no clear P7RIM3 angle from the card.
+- $ryet — no_fit: ticker spam/low-context.
+- #HelloJimtober — no_fit: music/fandom fluff.
+- Flight 93 — no_fit: tragedy/history topic; skip.
+- Ken Griffin (with Carnegie Mellon) — no_fit: no clear P7RIM3 angle from the card.
+- Core PCE (with Headline PCE) — no_fit: macro/economic ticker, outside scope.
+- Hump Day — no_fit: low-signal meme.
+- Zeitler — no_fit: sports.
+- Good Wednesday — no_fit: low-signal meme.
+- Dara (with Wanda, #TheDrop) — no_fit: entertainment/low-context.
+
+Related Explore-page trend seen before opening the Trending tab: #KlingAI — fit/watch: AI-adjacent, but no count/age shown and no evidence of a fast rise.
+
+Overall judgment: no_fit for a breaking-trend original right now. No visible candidate was under ~2–3 hours with a shown rapid-rise signal. Watch Delta + Starlink and #KlingAI; AT&T/SpaceX is the strongest topical fit but is already 19 hours old.

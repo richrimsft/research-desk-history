@@ -1,0 +1,18 @@
+{
+  "sym": "BARRON",
+  "mint": "7z48GsSZqhU7wkAcpv6zBJDrJC6T8SYZWWJXFzD8XrDQ",
+  "verdict": "REJECT",
+  "why": "botty 14.4k buys/h + creator 11.6%",
+  "mc": 138749,
+  "liq": 30323.38,
+  "h1": 217,
+  "tx1h": {
+    "buys": 14450,
+    "sells": 10571
+  },
+  "creatorBalance": 115360000000000,
+  "creator": "AQYpuHAjt9CED9U4i8qCWNjSua9Djm8opyY3SxP6SQfJ",
+  "top10_pct": 36.94,
+  "graphInsiders": 0,
+  "score": 1
+}

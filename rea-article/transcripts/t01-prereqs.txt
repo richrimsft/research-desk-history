@@ -1,0 +1,18 @@
+$ node --version
+v24.21.0
+
+$ npm --version
+11.19.0
+
+$ java -version 2>&1 | head -1
+openjdk version "21.0.12.1" 2026-08-18 LTS
+
+$ echo $GHIDRA_INSTALL_DIR
+/workspace/ghidra/ghidra_12.1.4_PUBLIC
+
+$ rea --version
+6.4.0
+
+$ npm view rea-agents dist-tags.latest
+6.4.0
+

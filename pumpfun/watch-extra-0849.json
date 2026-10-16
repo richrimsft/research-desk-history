@@ -1,0 +1,55 @@
+{
+ "too_young": [
+  {
+   "symbol": "TCAT",
+   "name": "Tesla Cat",
+   "mint": "AD7WvdutwV3XyJypm5VrDG7bbtxLFgdqMLkMKndLpump",
+   "mc": 51032,
+   "age_h": 0.03,
+   "h1": 19.59,
+   "m5": 19.59,
+   "h24": 19.59,
+   "buys": 213,
+   "sells": 190,
+   "vol_h1": 17759.78,
+   "dex": "pumpswap",
+   "liq": 17928.5,
+   "url": "https://dexscreener.com/solana/g4qpcbncuofas6pkasfpj3grzg2vgcj1ppywttxyixbh",
+   "pairCreatedAt": 1792154986000
+  },
+  {
+   "symbol": "JOE",
+   "name": "EmotiGuy",
+   "mint": "6yfQL6Fqfe9SnhLVxZxjGaWAQboBb8YYqZBYceP4pump",
+   "mc": 16751.11,
+   "age_h": 0.09,
+   "h1": 367,
+   "m5": 367,
+   "h24": 367,
+   "buys": 1473,
+   "sells": 1121,
+   "vol_h1": 109510.71,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/3qlzk9folera46vhxvczz2ngxhnx7ewnwnld1pljgnh4",
+   "pairCreatedAt": 1792154761000
+  },
+  {
+   "symbol": "pump",
+   "name": "pump",
+   "mint": "6nN3B3jPZbDHS8RDNzvVFXyT9kK88JoXtLqpT7Khpump",
+   "mc": 15069.16,
+   "age_h": 0.13,
+   "h1": 275,
+   "m5": null,
+   "h24": 275,
+   "buys": 37,
+   "sells": 21,
+   "vol_h1": 413.31,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/9fh93myewpuagpkfv15uvkfcqtzmyhg8g3sxu5nw4jzy",
+   "pairCreatedAt": 1792154628000
+  }
+ ]
+}

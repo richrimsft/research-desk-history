@@ -1,0 +1,38 @@
+RUN_STAMP: 20260930-2331
+SCAN_COMPLETED: 2026-09-30T23:33:10-04:00 (America/New_York, EDT)
+CUTOFF: 2026-09-30T23:25:55-04:00
+SIGNED_IN_AS: @P7RIM3
+NEW_COUNT: 0
+REPLIES_POSTED: 0
+ORIGINALS_POSTED: 0
+
+ALL NOTIFICATIONS (visible notification cards; all were older than cutoff)
+1. source=All; handle=@iLLuminuttee (Filetofsoul); age=24m; type=like; link=https://x.com/iLLuminuttee; text="Just watched the JRE episode. The whole thing is just crazy."; newer_than_cutoff=no; action=skip (like).
+2. source=All; handle=@zachrf1014 (zachary Fleischauer); age=45m; type=like; link=https://x.com/zachrf1014; text="The comments here are hilarious! Wow"; newer_than_cutoff=no; action=skip (like).
+3. source=All; handle=@MchStereo (MCHStereo); age=52m; type=like; link=https://x.com/MchStereo; text="Cool story, but zero proof. Just a trust me bro, I worked in government"; newer_than_cutoff=no; action=skip (like).
+4. source=All; handle=@scullyspier; age=52m; type=repost; link=https://x.com/scullyspier; text="We need more of this"; newer_than_cutoff=no; action=skip (repost).
+5. source=All; handle=@scullyspier + @Kramer_not + @Sonic1994DC + @rilo0x; age=52m; type=like; link=https://x.com/scullyspier (other profiles also shown); text="We need more of this"; newer_than_cutoff=no; action=skip (likes).
+6. source=All; handle=@DemosthenesTwin + @BrianEdwardMKE + @laidlaw76; age=58m; type=like; link=https://x.com/DemosthenesTwin (other profiles also shown); text="This is the stuff you listen to when your entire life goes to shit and you try and figure out what went wrong. This is literally the bottom of the garbage bin of conspiracy. It’s not even a theory. It’s just straight up retarded. I’m convinced people that push this know they…"; newer_than_cutoff=no; action=skip (like; text contains abusive language but no threat).
+7. source=All; handle=@Cuzzo_TM; age=1h; type=quote; link=https://x.com/Cuzzo_TM/status/2105484203005812936; text="Welcome to Pump.Fun ……..DORK"; newer_than_cutoff=no; action=skip (0hour/$0HOUR1 content is cancelled; no further replies).
+8. source=All; handle=@misterg792000 (Steve G); age=1h; type=reply/mention; link=https://x.com/misterg792000/status/2105483189200261612; text="Buddy, he didn't invent either one of those things. He just bought the company that did."; newer_than_cutoff=no; action=skip (old; @misterg792000 thread already has replies / do not continue).
+9. source=All; handle=@RamsNFL/@Eagles; age=1h; type=news card; link=https://x.com/Eagles; text="Rams' Nacua returns — WR Puka Nacua returned to limited practice; coach Sean McVay expects him to play Sunday against the Eagles."; newer_than_cutoff=no; action=skip (sports/news card).
+10. source=All; handle=@misterg792000 (Steve G); age=1h; type=reply/mention; link=https://x.com/misterg792000/status/2105479038823178432; text="Name a single field he has demonstrated \"deep mastery\" of. Name a single thing he has invented."; newer_than_cutoff=no; action=skip (old; @misterg792000 thread already has replies / do not continue).
+11. source=All; handle=@misterg792000 (Steve G); age=1h; type=like; link=https://x.com/misterg792000; text="Ok that tracks. Deep mastery across fields, not just wearing a lot of hats. Thanks for the card. For Meridian specifically — which domains already have his shipped receipts?"; newer_than_cutoff=no; action=skip (like).
+12. source=All; handle=@MadamHaus; age=2h; type=reply/mention; link=https://x.com/MadamHaus/status/2105460336006672836; text=embedded video/GIF with no visible text; newer_than_cutoff=no; action=skip (0hour/$0HOUR1 content is cancelled; no further replies).
+13. source=All; handle=@mom_agency_ (Mom); age=3h; type=like; link=https://x.com/mom_agency_; text="The meeting explaining why we need to change it from AI to SI"; newer_than_cutoff=no; action=skip (like).
+14. source=All; handle=@Eagles; age=3h; type=news card; link=https://x.com/Eagles; text="Eagles Injury Update — LB Zack Baun has a concussion and is in the concussion protocol, with his status in question for the Rams."; newer_than_cutoff=no; action=skip (sports/news card).
+15. source=All; handle=@DrumondArt (Drumond); age=3h; type=reply/mention; link=https://x.com/DrumondArt/status/2105451230445154557; text="\"Deep mastery across fields\"..." followed by repeated 🤣 emoji; newer_than_cutoff=no; action=skip (emoji-only spam).
+
+MENTIONS (visible notification cards; all were older than cutoff)
+1. source=Mentions; handle=@misterg792000 (Steve G); age=1h; type=reply/mention; link=https://x.com/misterg792000/status/2105483189200261612; text="Buddy, he didn't invent either one of those things. He just bought the company that did."; newer_than_cutoff=no; action=skip (old; existing replied/two-beat thread).
+2. source=Mentions; handle=@misterg792000 (Steve G); age=1h; type=reply/mention; link=https://x.com/misterg792000/status/2105479038823178432; text="Name a single field he has demonstrated \"deep mastery\" of. Name a single thing he has invented."; newer_than_cutoff=no; action=skip (old; existing replied/two-beat thread).
+3. source=Mentions; handle=@MadamHaus; age=2h; type=reply/mention; link=https://x.com/MadamHaus/status/2105460336006672836; text=embedded video/GIF with no visible text; newer_than_cutoff=no; action=skip (0hour/$0HOUR1 cancelled).
+4. source=Mentions; handle=@DrumondArt (Drumond); age=3h; type=reply/mention; link=https://x.com/DrumondArt/status/2105451230445154557; text="\"Deep mastery across fields\"..." followed by repeated 🤣 emoji; newer_than_cutoff=no; action=skip (emoji-only spam).
+5. source=Mentions; handle=@stonkspark (STONKS PARK); age=4h; type=reply/mention; link=https://x.com/stonkspark/status/2105435508927005103; text="on it"; newer_than_cutoff=no; action=skip (old; not a qualifying new inbound).
+6. source=Mentions; handle=@GilliRoth (Gillian Roth); age=5h; type=reply/mention; link=https://x.com/GilliRoth/status/2105422493200875658; text=image-only reply; newer_than_cutoff=no; action=skip (old; no substantive visible text).
+
+FLAGS / BLOCKERS: None. No threats, self-harm, illegal content, or blocked-account candidates observed. No login, email, 2FA, payout, billing, bio, pin, likes, follows, reposts, DMs, or originals touched. No replies.log entry was needed because nothing was posted.
+SCREENSHOTS:
+- /workspace/x-plan/run-20260930-2331-notifications.png
+- /workspace/x-plan/run-20260930-2331-mentions.png
+NEXT_CUTOFF_SUGGESTION: 2026-09-30T23:33:10-04:00 (scan completion time, America/New_York)

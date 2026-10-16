@@ -1,0 +1,15 @@
+{
+  "mint": "7GCMYJcykHZ3qJH3e5vQi4J9qAPdb3Xninkgk6sYpump",
+  "symbol": "LOOM",
+  "recheck": "0311",
+  "mc": 107187,
+  "age_h": 0.34,
+  "creatorBalance": 1,
+  "buys_h1": 3238,
+  "decision": "FAIL \u2014 prior stands",
+  "reasons": [
+    "age still <30m (0.34h)",
+    "creatorBal effectively 0 (1 raw unit)",
+    "botty ~3.2k buys/h post-grad"
+  ]
+}

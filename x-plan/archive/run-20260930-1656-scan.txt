@@ -1,0 +1,48 @@
+X notifications scan report
+Scan time (local ET): 2026-09-30 16:57 ET
+Cutoff: 2026-09-30T16:55:39-04:00
+Account confirmation: Signed in as @P7RIM3; sidebar showed @P7RIM3. No login wall or captcha.
+
+NEW_COUNT: 0
+
+No NEW unreplied inbound reply/mention cards were visible. The newest notification was a pure like notification (38s), not an inbound reply/mention. The visible reply/mention cards were all older than the cutoff and/or on the supplied known-old list. No thread was opened because there were no NEW cards.
+
+OLD visible reply/mention cards:
+1. Paul Kelly (@zebralife2002), 2h
+   URL: https://x.com/zebralife2002/status/2105361123503440350
+   Text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+   Reason OLD: supplied known-old URL; relative time 2h.
+2. Piper Paprikas #2nd account (@KittyMcfeisty2), 3h
+   URL: https://x.com/KittyMcfeisty2/status/2105343324580143460
+   Text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh
+   Reason OLD: supplied known-old URL; relative time 3h.
+3. Piper Paprikas #2nd account (@KittyMcfeisty2), 4h
+   URL: https://x.com/KittyMcfeisty2/status/2105339423638651351
+   Text: 🙄 🤦‍♀️
+   Reason OLD: supplied known-old URL; relative time 4h.
+4. Piper Paprikas #2nd account (@KittyMcfeisty2), 4h
+   URL: https://x.com/KittyMcfeisty2/status/2105333564132712947
+   Text: What’s new is this shit needs to stop. Beyond ridiculous
+   Reason OLD: supplied known-old URL; relative time 4h.
+5. h (@Cobra17298328), 19h
+   URL: https://x.com/Cobra17298328/status/2105112514090402040
+   Text: I can’t see what this bitch is saying, cause he immediately blocked me
+   Reason OLD: supplied known-old URL; relative time 19h.
+6. Juneaux ⏸️ 😴 (@juneauxwhoitis), 20h
+   URL: https://x.com/juneauxwhoitis/status/2105094896663371987
+   Text: Overflowing with perceptions you are!
+   Reason OLD: supplied known-old URL; relative time 20h.
+7. spooky (@FiresOfTruth), 21h
+   URL: https://x.com/FiresOfTruth/status/2105080875058704611
+   Text: Check the link in my bio to watch a film I made with darcy
+   Reason OLD: supplied known-old URL; relative time 21h.
+
+Page coverage:
+- All (https://x.com/notifications): visible reply cards were #1-#4 above; pure likes/follow notifications were ignored.
+- Mentions (https://x.com/notifications/mentions): visible reply cards were #1-#7 above.
+
+Ignored non-reply notifications in All: woj.kelly and 3 others liked your reply (38s); Satoshi Goy followed you (17m); Strange Rain and 8 others liked your reply (4h); Quinn Charley liked your reply (11h); Davidson Robsinson and 7 others liked your reply (14h); G Reed liked your reply (18h). No DMs were opened or acted on.
+
+Screenshots:
+- /workspace/x-plan/run-20260930-1656-notifications.png
+- /workspace/x-plan/run-20260930-1656-mentions.png

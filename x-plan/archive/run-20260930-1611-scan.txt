@@ -1,0 +1,22 @@
+X notification scan — 2026-09-30 16:11 ET
+Cutoff: 2026-09-30T16:05:06-04:00
+Signed-in confirmation: YES — sidebar/account menu shows P7RIM3 (@P7RIM3), verified. Account stayed @P7RIM3.
+
+All notifications and Mentions were checked. The reply/mention cards below appeared in both timelines where noted; duplicates are listed once. No reply/mention card displayed a timestamp newer than the cutoff (newest displayed age: 1h).
+
+INBOUND CARDS
+1. @zebralife2002 — https://x.com/zebralife2002/status/2105361123503440350 — displayed age: 1 hour ago (1h) — text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day — action: skip_already_handled (prior reply already posted: https://x.com/P7RIM3/status/2105362879817925052)
+2. @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105343324580143460 — displayed age: 3 hours ago (3h) — text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh — action: skip_over_two_beats
+3. @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105339423638651351 — displayed age: 3 hours ago (3h) — text: 🙄 🤦‍♀️ — action: skip_over_two_beats
+4. @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105333564132712947 — displayed age: 3 hours ago (3h) — text: What’s new is this shit needs to stop. Beyond ridiculous — action: skip_over_two_beats
+5. @Cobra17298328 — https://x.com/Cobra17298328/status/2105112514090402040 — displayed age: 18 hours ago (18h) — text: I can’t see what this bitch is saying, cause he immediately blocked me — action: skip_over_two_beats (known beat 2 of 2)
+6. @juneauxwhoitis — https://x.com/juneauxwhoitis/status/2105094896663371987 — displayed age: 19 hours ago (19h) — text: Overflowing with perceptions you are! — action: skip_over_two_beats (known over two beats)
+7. @FiresOfTruth — https://x.com/FiresOfTruth/status/2105080875058704611 — displayed age: 20 hours ago (20h) — text: Check the link in my bio to watch a film I made with darcy — action: skip_known_promo
+
+Held approval confirmations (not re-posted):
+- Vaibhav approval is live: https://x.com/P7RIM3/status/2105039551156662565 — displayed text: "@skeptic_vaibhav @Cobra17298328 @artaimemes Slurs aren't an ID. If the ice/frozen-gas take is wrong, which timestamp and catalog entry beats it?"
+- Cobra approval is live: https://x.com/P7RIM3/status/2105039656379445659 — displayed text: "@Cobra17298328 @skeptic_vaibhav @artaimemes Paying for X isn't the claim. Ice/frozen gas on a public track — which second of the clip do you want matched?"
+
+Posted replies this run: none.
+Flags: none.
+NEW_COUNT: 0

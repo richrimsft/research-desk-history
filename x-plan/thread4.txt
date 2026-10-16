@@ -1,0 +1,6 @@
+Same standard I use on exposed systems:
+
+A 200 is not permission.
+A misconfigured guest endpoint and an agent that treats “keep trying” as a strategy can both be true.
+
+Security review that only scores the lock on the door misses the visitor who does not stop knocking.

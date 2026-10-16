@@ -1,0 +1,22 @@
+{
+ "symbol": "Caramel",
+ "mint": "63UjR7d4xfCDjBqAwS2fJWaZPz7JfN32WtbzSAX3pump",
+ "tag": "0730",
+ "age_h": 0.07,
+ "mc": 13836.98,
+ "dex": "pumpfun",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "creatorBal 0",
+  "19x 1-5% band on top20 non-pool (283 holders)",
+  "too young (<30m) \u2014 do not buy"
+ ],
+ "rc": "rc-Caramel-0730.json",
+ "score": 1,
+ "creatorBalance": 0,
+ "band_1_5": 19,
+ "top10_ex_pool_pct": 20.82,
+ "totalHolders": 283,
+ "graphInsiders": 0,
+ "risks": []
+}

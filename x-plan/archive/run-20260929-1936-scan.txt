@@ -1,0 +1,16 @@
+SIGNED_IN: yes
+SCAN_TIME: 2026-09-29 ~7:36 PM ET
+NEW_COUNT: 0
+CANDIDATES:
+KNOWN_SKIPS (seen again):
+- @FiresOfTruth https://x.com/FiresOfTruth/status/2105074701802651949 — quote-only; over two beats
+- @FiresOfTruth https://x.com/FiresOfTruth/status/2105073376268345355 — already replied
+- @grok America.gov thread — https://x.com/grok/status/2105068070892912851, 2105066122009595984, 2105064778934693953; handled/beat skipped
+- @Only_Ryan02 orb/satellite threads — over two beats
+- @Hronom / Hronaut threads — already replied; beat 3+
+- @jammusnu Luke/bot threads — over two beats
+- Likes-only notifications, follows, and reposts — ignored
+RECENT_ORIGINALS:
+1. Not gonna lie. This is ridiculous. — https://x.com/P7RIM3/status/2105063458303791146 (1h)
+2. OpenAI shipped Dots at DevDay: always-on agents on GPT-6 Astra with their own cloud computer and 4000+ apps. Cute avatar. Same question as every agent launch — where’s the kill path outside the prompt... — https://x.com/P7RIM3/status/2105061782624915777 (1h)
+3. In case you were wondering. Yes it’s possible and I highly recommend it for tasks: — https://x.com/P7RIM3/status/2105054066636427413 (1h)

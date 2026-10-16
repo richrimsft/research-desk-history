@@ -1,0 +1,21 @@
+{
+  "symbol": "StayDown",
+  "score": 1,
+  "creatorBalance": 0,
+  "top10_ex_curve": 32.17,
+  "top_pcts": [
+    11.4,
+    3.6,
+    2.72,
+    2.63,
+    2.24,
+    2.07,
+    2.01,
+    1.86,
+    1.84,
+    1.8
+  ],
+  "insiderNetworks": null,
+  "totalHolders": 318,
+  "verdict": "FAIL"
+}

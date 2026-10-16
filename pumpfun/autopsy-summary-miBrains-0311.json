@@ -1,0 +1,24 @@
+{
+  "mint": "7m8uQMAD1hkKuf4ooWFhJuBq4hSD8PoBcwojDLfQpump",
+  "symbol": "miBrains",
+  "name": "Space Brain",
+  "score": 1,
+  "rugged": false,
+  "creator": "GpmnjiKRX7A1prRcRWhQPTWDXxs2bTRxpxWvB4YtLKj2",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalHolders": 257,
+  "graphInsiders": 0,
+  "top10_ex_curve_pct": 21.14,
+  "band_1_5": 19,
+  "phase": "bonding curve ~$16k, age 0.08h, h1 +323%, ~394 buys/~5m",
+  "socials": "none",
+  "decision": "FAIL",
+  "reasons": [
+    "age <30m entry window (0.08h)",
+    "creatorBalance 0",
+    "no socials",
+    "botty buy rate on tiny mc; 19 wallets in 1-5% band"
+  ]
+}

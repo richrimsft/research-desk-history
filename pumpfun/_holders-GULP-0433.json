@@ -1,0 +1,127 @@
+{
+  "mint": "8BwEQTbuKD6DyHsr57FpF8L6RRvzr8Gm4TRMMqfbpump",
+  "topHolders": [
+    {
+      "owner": "HnLE6WLJXjFSR2cmL3p4GNNtV1GrbEyw8DXz43amY3TQ",
+      "pct": 27.743670199482008,
+      "uiAmount": 274075950.752893,
+      "insider": false
+    },
+    {
+      "owner": "HF2Lw2tYs4B3y1iqz6iw2f4wTjrn14KppvAezcm7TAT3",
+      "pct": 3.2452220270296492,
+      "uiAmount": 32059107.755649,
+      "insider": false
+    },
+    {
+      "owner": "2dSwmLD7mAnVsrcAAsgLqBx3xRfUAvjyBTDpPmActbLz",
+      "pct": 2.9518655752497183,
+      "uiAmount": 29161079.201641,
+      "insider": false
+    },
+    {
+      "owner": "52SybfpzrdgH65eYEwtYTnWKrHDTXenJcdgf9Kn2TTta",
+      "pct": 2.8741525844001057,
+      "uiAmount": 28393363.117222,
+      "insider": false
+    },
+    {
+      "owner": "9LXWa7V3AE15VfBupcx5gDts2ix3Y9NzbcKZKjkkq6hV",
+      "pct": 2.8520684457594845,
+      "uiAmount": 28175196.910265,
+      "insider": false
+    },
+    {
+      "owner": "A7QQmsxq6a59xve7EXRf5aBGZ3aUraqNBxDnJutgfzmL",
+      "pct": 2.840227737598713,
+      "uiAmount": 28058224.162124,
+      "insider": false
+    },
+    {
+      "owner": "9cdZg6xR4c9kZiqKSzqjn4QHCXNQuC9HEWBzzMJ3mzqw",
+      "pct": 2.719363452258428,
+      "uiAmount": 26864222.298689,
+      "insider": false
+    },
+    {
+      "owner": "5adpm2PA5zJr8YxZc5D9QedMy6HBuK17ZvYkaNAHH76k",
+      "pct": 2.665341099593622,
+      "uiAmount": 26330542.812087,
+      "insider": false
+    },
+    {
+      "owner": "6Zp61o1Dppgi7viUdiHi7JD5s9AACCii2db6yUUxjXWf",
+      "pct": 1.9428302813046088,
+      "uiAmount": 19192956.543652,
+      "insider": false
+    },
+    {
+      "owner": "5QmY71d7eSZFMSHnyu93Unvo2ewqEyCa2UTd877ZsuzK",
+      "pct": 1.6360543507641638,
+      "uiAmount": 16162358.78112,
+      "insider": false
+    },
+    {
+      "owner": "8q12nd8U5Y1yDqkAH1f3xbcUxC4SCBR28geHP28BzNgB",
+      "pct": 1.243479127555119,
+      "uiAmount": 12284161.45649,
+      "insider": false
+    },
+    {
+      "owner": "5dvWFVCESm7F16FctHvgzL3SwNAquoNFS6m1bGAm3EBZ",
+      "pct": 1.1912216188999962,
+      "uiAmount": 11767916.624222,
+      "insider": false
+    },
+    {
+      "owner": "7aaiiCG92LbJQCnZTxGtwZ8iMuAVeEJ8ZkZQuyGyuxWb",
+      "pct": 1.0548207375865495,
+      "uiAmount": 10420430.83879,
+      "insider": false
+    },
+    {
+      "owner": "F4b9T5X1rvRLSPPXwaZtWK9i3bFBay2HTiTNQ9W3KQq8",
+      "pct": 1.046584693308038,
+      "uiAmount": 10339068.075686,
+      "insider": false
+    },
+    {
+      "owner": "7S5tGe9nbLyNEuFkjo5zCY3Xrx9GbZmYYhbdSEn82UWW",
+      "pct": 1.0219683093654115,
+      "uiAmount": 10095886.161229,
+      "insider": false
+    },
+    {
+      "owner": "7TYRvy1y3bbcJy9NyL7zcUA5gPrtPNVPha37sEfqZTXz",
+      "pct": 1.0122621165144003,
+      "uiAmount": 10000000,
+      "insider": false
+    },
+    {
+      "owner": "33hgKSmcxZhnVp8tRZ1bP9sZAZRuwsdStvRSq9sdmGUm",
+      "pct": 0.8701143698472106,
+      "uiAmount": 8595741.712071,
+      "insider": false
+    },
+    {
+      "owner": "AUALsnDp2iREx5o96evH486Zya6nhJWgSLNcb7cgHHMN",
+      "pct": 0.8377462096103692,
+      "uiAmount": 8275981.052171,
+      "insider": false
+    },
+    {
+      "owner": "6qejS2PASoqmvGLMk71rHur4CRaYGfVAkx7U75XEmxnn",
+      "pct": 0.8205204850066055,
+      "uiAmount": 8105810.457789,
+      "insider": false
+    },
+    {
+      "owner": "2KHEnceZVMUPvXQeEYKS5wMpb4S3RpLGgAj6n9n6kD4N",
+      "pct": 0.8075597072792203,
+      "uiAmount": 7977772.694487,
+      "insider": false
+    }
+  ],
+  "top10_ex_curve_pct": 24.97,
+  "band_1_5pct": 15
+}

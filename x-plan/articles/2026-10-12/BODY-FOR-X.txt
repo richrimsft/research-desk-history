@@ -1,0 +1,45 @@
+Microsoft just said the quiet part out loud.
+
+Starting next year, Maia, their own AI chips, becomes the primary inference system for Microsoft products and services. Not a side experiment. Primary.
+
+### What Satya actually announced
+
+Satya Nadella on X this morning: Microsoft's biggest bet yet on its own silicon. Multi-gigawatt Maia deployments starting 2027. Primary inference for their own products. (https://x.com/satyanadella/status/2109631106404487523)
+
+The Official Microsoft Blog (Scott Guthrie, Oct 12) puts numbers on it. Maia 300 is expected to deliver 40% more tokens per megawatt than leading GPU-based systems. A full 96-accelerator rack: up to 7x the rack-scale token throughput of Maia 200. Production deployments begin in 2027. (https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/)
+
+Maia 200 is already in production on Copilot workloads across the US, Europe, and Australia, and Microsoft says it delivers up to 1.7x more tokens per watt than leading GPU infrastructure for those built-in AI features. Same blog.
+
+[IMAGE: sec1.jpg | Microsoft Azure Maia accelerator press photo from the Oct 12 Maia 300 Azure Blog post. Die marking on this shot reads Maia 100 (first gen). Credit: Microsoft Azure Blog]
+
+### "Primary" is the word that matters
+
+Cloud companies have been building custom chips for years. Google has TPUs. Amazon has Trainium and Inferentia. That part isn't new.
+
+What is new is Microsoft saying Maia will be the primary inference system for its own products and services at multi-gigawatt scale. That is not "we also buy some of our own." That is "Nvidia is no longer the default for the stuff we run ourselves."
+
+The Verge's read matches the blog: less reliant on Nvidia and AMD GPUs for Microsoft's own AI services. (https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout)
+
+[IMAGE: sec2.jpg | NVIDIA headquarters, Santa Clara, California, Aug 4, 2018. Photo: Coolcaesar, CC0, via Wikimedia Commons]
+
+### The efficiency claim, not the hype claim
+
+Microsoft is not saying they beat Nvidia at training the next frontier model. They're saying inference (the part that runs every Copilot reply, every agent step, every long-context session) gets 40% more tokens out of each megawatt than leading GPU systems, by their own estimate.
+
+Power is the bottleneck now. If that 40% holds up in real racks, Microsoft can serve more AI with the same electricity bill. That's the whole fight.
+
+Architecture notes from the same blog and the Azure deep dive: multi-chiplet design, compute on TSMC's N2P process, 8x HBM4 stacks at 18.0 TB/s peak bandwidth inside a 950W TDP, 96 accelerators per 167 kW rack. (https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/)
+
+[IMAGE: sec3.jpg | TSMC factory in Taichung's Central Taiwan Science Park, June 25, 2020. Maia 300 compute chiplets are built on TSMC N2P per Microsoft. Photo: Briáxis F. Mendes, CC BY-SA 4.0, via Wikimedia Commons]
+
+### Everyone's building a fab story now
+
+Yesterday the argument was Terafab and whether Elon can buy yield. Today Microsoft is shipping the next chapter of the same war: the hyperscalers do not want to rent their AI future from one GPU vendor forever.
+
+Google did it. Amazon did it. Microsoft just put a date and a "primary" label on it. OpenAI has been talking its own silicon too.
+
+None of that kills Nvidia tomorrow. Training still loves GPUs. Other Azure customers will still buy Nvidia. But when the company that helped make ChatGPT a household word says its own chips will run its own inference at gigawatt scale, the monopoly story gets a crack in it.
+
+So here's the question. If Microsoft can really pull 40% more tokens per megawatt on its own silicon, how long until every big cloud treats Nvidia as optional for inference?
+
+[IMAGE: sec4.jpg | Another aerial of the Microsoft Azure datacenter near Wenatchee, Washington. Photo: Tedder, CC BY 4.0, via Wikimedia Commons]

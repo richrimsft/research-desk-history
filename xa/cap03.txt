@@ -1,0 +1,1 @@
+Polymarket's own docs: every prediction is an outcome token, and your position is your balance of it.

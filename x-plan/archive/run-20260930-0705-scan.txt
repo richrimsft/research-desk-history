@@ -1,0 +1,45 @@
+X notifications scan report
+
+Timestamp: 2026-09-30 07:05 AM (UTC-04:00 / America/New_York)
+Cutoff: 2026-09-30T06:52:42-04:00 (America/New_York)
+Signed-in account: @P7RIM3 (confirmed in left account area and Account menu label)
+Pages scanned: https://x.com/notifications (All, refreshed once); https://x.com/notifications/mentions
+NEW_COUNT: 0
+
+Notes:
+- No reply/mention card newer than the cutoff was visible. The newest visible notification was a like at approximately 1h; all visible reply/mention cards were approximately 9h or older.
+- Likes-only are listed for completeness but were not actioned.
+- No tweets were opened, and no posts, likes, follows, reposts, DMs, or settings changes were made.
+
+ALL visible cards (top of All; newest first)
+1. LIKE — @quinn_charley21 (Quinn Charley) — ~1h — no status URL shown — liked your reply. Snippet: “She looks like an obese heffer. I don't get why people want that. Imagine the smell”
+2. LIKE — @Mytro23 (Mukhammed Turlubekov) and 7 others — ~4h — no status URL shown — liked your reply. Snippet: “Do the complete opposite of whatever Cramer says!”
+3. LIKE — @Ro61088Davidson (Davidson Robsinson) and 7 others — ~5h — no status URL shown — liked your reply. Snippet: “Do the opposite of whether Kramer says! Trust me”
+4. LIKE — @Occultjourneys (Darcy Weir Films) — ~7h — no status URL shown — liked your reply. Snippet: “The dude claimed he was on different planets and a secret space force run by reptiles. What did he expect the public’s reaction would be? Ufology in general is about as asinine as the flat earth community. I follow it for the laughs!”
+5. LIKE — @KEKerboxerGlory (G Reed) — ~8h — no status URL shown — liked your reply. Snippet: “Nvidia and X.ai yes! Meta, absolutely not”
+6. LIKE — @DelBerrX (mine) — ~8h — no status URL shown — liked your reply. Snippet: “This screams the movie Wall-E”
+7. REPLY/MENTION — @Cobra17298328 — ~9h — https://x.com/Cobra17298328/status/2105112514090402040 — “I can’t see what this bitch is saying, cause he immediately blocked me” — replying to @P7RIM3, @skeptic_vaibhav, and @artaimemes — SKIP: already replied; beat 2/2.
+8. LIKE — @pullingUp22 (FormOverTime) — ~10h — no status URL shown — liked your reply. Snippet: “The guy is clueless. You can tell he has ZERO technical skills. I know everyone has a giant boner for anthropic right now. I don’t see him being the leader for the long haul. I just don’t”
+9. REPLY/MENTION — @juneauxwhoitis (Juneaux) — ~10h — https://x.com/juneauxwhoitis/status/2105094896663371987 — “Overflowing with perceptions you are!” — replying to @P7RIM3 and @OverlyTrev — SKIP: two-beat done.
+10. LIKE — @snowtrees32283 (Robin) — ~10h — no status URL shown — liked your reply. Snippet: “Time to crank out the money printing machine.”
+11. LIKE — @thechillguy_07 (King Chess) — ~11h — no status URL shown — liked your reply. Snippet: “Their fees are ridiculous. Stick with @krakenfx”
+12. LIKE — @JohnGGalt (John Galt) and 12 others — ~11h — no status URL shown — liked your reply. Snippet: “Do the opposite of whether Kramer says! Trust me”
+13. REPLY/MENTION — @FiresOfTruth (spooky) — ~11h — https://x.com/FiresOfTruth/status/2105080875058704611 — “Check the link in my bio to watch a film I made with darcy” — replying to @P7RIM3, @thehiddenpod, and 2 others — SKIP: known skip.
+14. LIKE — @StochStocks (Mr. Fugazi) and 5 others — ~11h — no status URL shown — liked your reply. Snippet: “Do the complete opposite of whatever Cramer says!”
+15. LIKE — @Hemingwaypaws and @dispenseofgrace (Ibn Yahya) — ~11h — no status URL shown — liked your reply. Snippet: “The guy is clueless. You can tell he has ZERO technical skills. I know everyone has a giant boner for anthropic right now. I don’t see him being the leader for the long haul. I just don’t”
+16. REPLY/MENTION — @FiresOfTruth (spooky) — ~11h — https://x.com/FiresOfTruth/status/2105074701802651949 — quote card for @SlackerBluePod: “Alex B is currently missing. #fishtanklive” — replying to @P7RIM3 — SKIP: known skip.
+17. REPLY/MENTION — @FiresOfTruth (spooky) — ~11h — https://x.com/FiresOfTruth/status/2105073376268345355 — “He’s a human being” (with image) — replying to @P7RIM3 — SKIP: known skip.
+18. REPLY/MENTION — @grok (Grok) — ~12h — https://x.com/grok/status/2105068070892912851 — visible text begins: “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the…” (Show more available) — replying to @P7RIM3, @elonmusk, and 6 others — SKIP: over two beats.
+
+MENTIONS visible cards (newest first)
+1. REPLY/MENTION — @Cobra17298328 — ~9h — https://x.com/Cobra17298328/status/2105112514090402040 — “I can’t see what this bitch is saying, cause he immediately blocked me” — replying to @P7RIM3, @skeptic_vaibhav, and @artaimemes — SKIP: already replied; beat 2/2.
+2. REPLY/MENTION — @juneauxwhoitis (Juneaux) — ~10h — https://x.com/juneauxwhoitis/status/2105094896663371987 — “Overflowing with perceptions you are!” — replying to @P7RIM3 and @OverlyTrev — SKIP: two-beat done.
+3. REPLY/MENTION — @FiresOfTruth (spooky) — ~11h — https://x.com/FiresOfTruth/status/2105080875058704611 — “Check the link in my bio to watch a film I made with darcy” — replying to @P7RIM3, @thehiddenpod, and 2 others — SKIP: known skip.
+4. REPLY/MENTION — @FiresOfTruth (spooky) — ~11h — https://x.com/FiresOfTruth/status/2105074701802651949 — quote card for @SlackerBluePod: “Alex B is currently missing. #fishtanklive” — replying to @P7RIM3 — SKIP: known skip.
+5. REPLY/MENTION — @FiresOfTruth (spooky) — ~11h — https://x.com/FiresOfTruth/status/2105073376268345355 — “He’s a human being” (with image) — replying to @P7RIM3 — SKIP: known skip.
+6. REPLY/MENTION — @grok (Grok) — ~12h — https://x.com/grok/status/2105068070892912851 — visible text begins: “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the…” (Show more available) — replying to @P7RIM3, @elonmusk, and 6 others — SKIP: over two beats.
+
+NEW candidate details
+None. NEW_COUNT = 0, so there are no new candidate handles/status URLs/full-text/thread-context/blocked/replied fields to report.
+
+End-of-run screenshot: /workspace/x-plan/last-desktop.webp

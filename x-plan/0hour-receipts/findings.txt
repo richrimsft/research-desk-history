@@ -1,0 +1,184 @@
+$0HOUR1 creator sell receipts — READ-ONLY research
+Generated: 2026-09-30 ~7:20pm ET
+Mint: F82ubiSnN9BEeQkAPLs9nuTCM9b7AT1cZzv96nwApump
+Coin page: https://pump.fun/coin/F82ubiSnN9BEeQkAPLs9nuTCM9b7AT1cZzv96nwApump
+Solscan token: https://solscan.io/token/F82ubiSnN9BEeQkAPLs9nuTCM9b7AT1cZzv96nwApump
+Sources: Solana mainnet RPC (getSignaturesForAddress / getTransaction / getTokenAccountsByOwner / getProgramAccounts), GeckoTerminal token info, DexScreener pair JSON, pump.fun static HTML. Numbers below are from on-chain balances unless marked otherwise. No guesses.
+
+================================================================================
+1) CREATOR / DEV WALLET
+================================================================================
+Address: 7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon
+Also listed as developer_address on GeckoTerminal token info:
+  https://api.geckoterminal.com/api/v2/networks/solana/tokens/F82ubiSnN9BEeQkAPLs9nuTCM9b7AT1cZzv96nwApump/info
+Solscan: https://solscan.io/account/7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon
+
+Pair / bonding-curve pool: 6ftEageN6T6dy9WZ4DGpy8JLvWyo3DsrvdhDqEqbV7Es
+Launched (DexScreener pairCreatedAt): 2026-09-26 4:29:25pm ET
+
+================================================================================
+2) CREATOR BUYS AND SELLS (America/New_York)
+================================================================================
+Total supply used for %: 1,000,000,000 tokens (GeckoTerminal normalized_total_supply; decimals=6).
+
+BUYS (creator wallet; SOL = creator wallet lamport delta; pool SOL = bonding-curve SOL increase):
+---
+2026-09-26 4:29:25pm ET  BUY  +14,361,429.342636 tokens (1.4361%)
+  Creator SOL delta: -0.423118 SOL (pool +0.408263 SOL)
+  Tx: https://solscan.io/tx/WLQM5bae2maW87YYqK7dTC2h93XKtSHhDaPpmhMBNCJDGELc38tzQEvNhPVmKeRWVzFgpLZL6PMFYGmVVLWPVqR
+
+2026-09-26 4:29:37pm ET  BUY  +27,122,540.419908 tokens (2.7123%)
+  Creator SOL delta: -0.826136 SOL (pool +0.813957 SOL)
+  Tx: https://solscan.io/tx/pGaKQHaK3bcKJckE9KT2UjWpz8ke9x8TRvgiiPQvZnDdH9sos5KogxLQcz1F7ArTDcaCmYaQ3TGDn8mYEtWrbrJ
+
+2026-09-26 4:29:48pm ET  BUY  +6,629,646.481839 tokens (0.6630%)
+  Creator SOL delta: -0.209777 SOL (pool +0.205207 SOL)
+  Tx: https://solscan.io/tx/5XrpzDjKLCXBbAfPGegjPj9fu21ebBKKY7RGQv48Jt2ScHPPaYQLiaAcDh4A6QQgCvF9ctXurZTELxzpcTy1QxpL
+
+2026-09-26 4:29:52pm ET  BUY  +6,489,844.019711 tokens (0.6490%)
+  Creator SOL delta: -0.208040 SOL (pool +0.203491 SOL)
+  Tx: https://solscan.io/tx/3GHk1kw2iXtqNNN14zho4ZDUiK5xqotv3VAhxCtKsM18rFsRA17p6dhGE65cVuRqEv71V7Z3njgZert9odeJqkB1
+
+2026-09-26 11:42:36pm ET  BUY  +26,143,451.759131 tokens (2.6143%)
+  Creator SOL delta: -1.658291 SOL (pool +1.636815 SOL)
+  Tx: https://solscan.io/tx/i2wDjMx9qmh86zXHFUrqnV9EsTFLRx8nZ8bLsj2x5GHKiyYUgfvgPyro1974YdemHhvPtxzjesmwZ5BhtSuFTxa
+
+Approx total creator SOL spent on buys (wallet deltas): ~3.325 SOL
+Approx total SOL into pool from those buys: ~3.268 SOL
+
+SELLS / EXITS:
+---
+2026-09-26 9:59:12pm ET  MARKET SELL from creator
+  Tokens: -6,785,675.873439 (0.6786% of supply)
+  Pool SOL change: -0.418703 SOL
+  Proceeds to creator: +49.628375 USDC (routed via SOL→USDC in same tx; creator SOL wallet delta only +0.001488 rent/dust)
+  Fee payer / aggregator path involved: FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT
+  Tx: https://solscan.io/tx/Sch1p2cYbTgMtAxuCHBe1zmMUBgXanwF3K94BvobZ7TP6G89wqiUsqkpd24oaab7JdGaPjQMtj8sxgzhJE8DeEm
+
+2026-09-26 10:10:11pm ET  MARKET SELL from creator (dust)
+  Tokens: -25.0 (~0%)
+  Negligible SOL/USDC
+  Tx: https://solscan.io/tx/hgiFzDwuTBitnQqHE33hQC3tbsCTFoQHQZKGKMBkWsEHVCVho5UJAYYxQAce3FDud6pqYhNsFGrL5Rmj8ihKMM1
+
+2026-09-28 9:15:49am ET  TRANSFER (NOT a market sell)
+  Tokens: -73,961,211.149786 from creator → wallet BLzCkNPGJvLKgVvU393VuQxW7wr2YjPq3YBQWjyLKBTo
+  No SOL proceeds; creator paid ~0.001521 SOL to create recipient ATA
+  Tx: https://solscan.io/tx/3wh1RHe2KoaK5dEaGhTvMe18X1JQ18LfmMTwLx4u4isEXvSebLonELkFrg2DHu15o9aHMMfCzWS3VzNQegPGgcze
+
+2026-09-29 8:04:49pm ET  MARKET SELL from linked wallet BLzCk… (received the transfer above)
+  Tokens: -73,961,211.149786 (7.3961% of supply) back to bonding-curve pool
+  Pool SOL change: -5.138558 SOL
+  Proceeds to linked wallet: +602.706591 USDC (SOL→USDC route in same tx)
+  Tx: https://solscan.io/tx/3VhtfHAwDqtetd3b8K7hDp7YMG1y3fb4oFhbKttAg4Pg4qMvAjN6aVyvkWMT6QWpgfRJQV25qiXJxWEwzJm73brq
+  Linked wallet Solscan: https://solscan.io/account/BLzCkNPGJvLKgVvU393VuQxW7wr2YjPq3YBQWjyLKBTo
+
+Raw parsed tx dumps: creator-trades-rpc.json, linked-wallet-trades.json
+
+================================================================================
+3) CREATOR SUPPLY AT PEAK AND NOW
+================================================================================
+Peak creator holding (from post-balance after last buy): 73,961,211.149786 tokens = 7.3961% of 1B supply
+  (GeckoTerminal still showed developer_holding_percentage "8.07" at fetch time — stale vs current chain.)
+Now (RPC getTokenAccountsByOwner on creator mint ATA): 0 tokens (0%)
+Linked wallet BLzCk after its sell: 0 tokens
+
+================================================================================
+4) TOP HOLDERS (on-chain token-2022 accounts, excl. zero balances)
+================================================================================
+Fetched via getProgramAccounts on TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb filtered by mint.
+Full list: holders.json
+Holder count with balance > 0: see holders.json (GeckoTerminal reported 59 holders as of 2026-09-30T05:44:06Z).
+
+Top accounts by balance (supply % of 1B):
+ 1. 85.8884%  858,884,135.3954  6ftEageN6T6dy9WZ4DGpy8JLvWyo3DsrvdhDqEqbV7Es  ← bonding-curve / pool
+ 2.  2.2596%   22,596,274.7050  9ihGVyV1r6SfNzHM9P97gEebGdR8St28wgn1i3DDNMW
+ 3.  2.0784%   20,783,786.8999  pDVyFL9hxECUmzT1aEGNBAnm16vQCngNWW9BD156W6a
+ 4.  1.8871%   18,870,508.9021  FsAEk7fygfRfgL8xjPxrd98QirxchdaodmE8E2zwjoMz
+ 5.  1.5851%   15,851,456.2139  G9eY4AAyLiVGS9TUfd2aUoqHantt9Co3LVoQbaDwY91v
+ 6.  1.2761%   12,760,894.2572  6GH9HF6mwe3DD9CW26tdzqW3572EMV3HhgQanUVVePhG
+ 7.  1.1075%   11,075,454.6893  46oDnwT64h3XCNSMfvSAEL39HBb5kZKZVhnXc95jsRw1
+ 8.  0.8526%    8,526,153.5581  BE2jqana6p8MZ1enuW7wXZvZVUCM68wtBiXM5RCQMvLd
+ 9.  0.7457%    7,457,208.9405  4isMkVosem4x9vw8x3m4z47kkgiWXbvuSzN6QGwdrH1K
+10.  0.3812%    3,812,375.9935  JAypU1ncgoCg9wHFnHpvhGLR8Lbp9BaPWSeeXLo9NVrP
+
+Linked-wallet check (strict):
+- BLzCkNPGJvLKgVvU393VuQxW7wr2YjPq3YBQWjyLKBTo: received the creator’s entire remaining bag on 2026-09-28 and sold it on 2026-09-29 (see above). That is an on-chain token transfer link from the creator. Current balance 0 (already sold).
+- Spot-check of current top non-pool holders #2–#9: no creator co-appearance in each wallet’s 5 most recent signatures (not a full funding-graph proof; mark as unclear whether any other top holder was funded by the creator).
+- No other current top-10 holder is the creator (creator balance 0).
+
+================================================================================
+5) X LINK @__0HOUR1_ ON COIN PAGE?
+================================================================================
+- YES. Live JS-rendered pump.fun creator profile is REAL0HOUR1 and explicitly displays: https://x.com/__0HOUR1_
+- Profile page: https://pump.fun/profile/REAL0HOUR1
+- Screenshot: profile-x-link.png. Exact handle: @__0HOUR1_.
+- Static HTML/GeckoTerminal metadata did not expose the JS-rendered link (GeckoTerminal twitter_handle was null); the live page is the controlling evidence.
+
+================================================================================
+DUMP ASSESSMENT (strictly from data above; not a legal claim)
+================================================================================
+Yes — the data shows the creator/dev accumulated up to ~7.40% of supply, sold a slice (~0.68%) for ~49.63 USDC on Sep 26, transferred the remaining ~7.40% to a second wallet on Sep 28, and that wallet sold the full bag for ~602.71 USDC (~5.14 SOL out of the pool) on Sep 29. Creator + linked wallet now hold 0. That pattern matches dumping inventory into the pool after buyers were in. Unclear without more graph work whether other current top holders are the same actor.
+
+================================================================================
+SCREENSHOTS / ARTIFACTS
+================================================================================
+Directory: /workspace/x-plan/0hour-receipts/
+- findings.txt (this file)
+- creator-trades-rpc.json
+- linked-wallet-trades.json
+- holders.json
+- solscan-dust-sell-tx.webp (interim)
+- (browser-captured full-page shots added as available)
+
+================================================================================
+LIVE SOLSCAN UI RECEIPT CLARIFICATIONS
+================================================================================
+- Creator activity rows show swap inputs/outputs directly: buys were 0.412840991 SOL -> 14,361,429.342636; 0.824130973 SOL -> 27,122,540.419908; 0.207772136 SOL -> 6,629,646.481839; 0.206034857 SOL -> 6,489,844.019711; and 1.657275439 SOL -> 26,143,451.759131. (The RPC wallet deltas in section 2 include fees/ATA rent; both are retained.)
+- Creator sells in the live activity view: 6,785,675.873439 0HOUR1 -> 0.413469662 SOL at 2026-09-26 9:59:12pm ET (Sch1p...); and 25 0HOUR1 -> 0.000001508 SOL at 2026-09-26 10:10:11pm ET (hgiF...). The first route then converted to USDC; page shows about 49.628375 USDC net.
+- The linked wallet activity shows 73,961,211.149786 0HOUR1 -> 5.074325762 SOL at 2026-09-29 8:04:49pm ET (3Vht...). This is the full transferred bag and is a sale, not a creator wallet sale.
+
+SCREENSHOT FILES (all saved under /workspace/x-plan/0hour-receipts/)
+- coin-page.png (pump.fun coin viewport)
+- coin-holders-segment.png and coin-holders-lower.png (pump.fun holders section segments)
+- holders.png (Solscan token holders full page)
+- profile-x-link.png (REAL0HOUR1 profile; exact x.com/__0HOUR1_ link)
+- creator-trades.png (creator Solscan Activities, 100 rows)
+- linked-wallet-activities.png (linked wallet Solscan Activities)
+- tx-creator-sell.png (Sch1p... transaction)
+- tx-creator-to-linked.png (3wh1... transfer)
+- tx-linked-big-sell.png (3Vht... linked-wallet sell)
+
+
+================================================================================
+UPDATES FROM SOLSCAN UI + X (2026-09-30 browser/HTML)
+================================================================================
+Solscan tags creator 7XeZg14… as "Token Creator" / "#Pump.fun".
+Solscan Defi tab for creator shows the same buy/sell sequence; market sells displayed as:
+  - 6,785,675.87 0HOUR1 → 0.41347 SOL
+  - 25 0HOUR1 → ~0.00015 SOL
+Solscan Defi tab for linked wallet BLzCk… shows:
+  - 73,961,211.149786 0HOUR1 → 5.074325762 SOL (~$604), then that WSOL → ~603.23 USDC
+
+X account https://x.com/__0HOUR1_ exists (title: 0HOUR1 (@__0HOUR1_) / X).
+Its og:description bio text includes the exact linked dump wallet:
+  BLzCkNPGJvLKgVvU393VuQxW7wr2YjPq3YBQWjyLKBTo
+pump.fun profile/page HTML for REAL0HOUR1 includes https://x.com/__0HOUR1_ (multiple times).
+Therefore: YES — @__0HOUR1_ is linked on the coin/creator presence on pump.fun, and that X bio names the wallet that sold the transferred bag.
+
+Screenshots saved:
+  creator-trades-solscan.png
+  creator-wallet-overview-solscan.png
+  linked-wallet-sell-solscan.png
+  pumpfun-coin-page.webp
+  pumpfun-coin-stats-dev0.png
+  solscan-dust-sell-tx.webp
+  holders.json (on-chain holder list; pump.fun Holders tab UI screenshot may still arrive from browser agent)
+
+================================================================================
+PUMP.FUN PROFILE vs MINT CREATOR (clarification)
+================================================================================
+Solscan token "Creator" / mint authority actor: 7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon
+pump.fun profile REAL0HOUR1 shows profile wallet abbreviated BLzC...KBTo
+  (= BLzCkNPGJvLKgVvU393VuQxW7wr2YjPq3YBQWjyLKBTo) and X link https://x.com/__0HOUR1_
+Screenshot: profile-x-link.png
+On-chain, 7XeZg14 transferred its full remaining 0HOUR1 bag to that BLzCk wallet, which then sold.

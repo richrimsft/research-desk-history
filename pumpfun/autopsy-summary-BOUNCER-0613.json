@@ -1,0 +1,60 @@
+{
+  "tag": "0613",
+  "symbol": "BOUNCER",
+  "safe": "BOUNCER",
+  "mint": "6X3cMFWWNQSV2pdK5nLyGfNvGUXV6oar45xusbSV3rmg",
+  "verdict": "FAIL",
+  "fails": [
+    "post-grad blind chase (~$257k after h1 +2485)",
+    "top10ex ~89.4% (>30%)",
+    "creator holds 9.69% (>5% linked/dev)",
+    "single wallet Gw3MQNQE\u2026 holds 73.60%",
+    "RC risks: Top 10 holders high ownership, Single holder ownership, Low Liquidity, High ownership (score 20791)",
+    "no socials / no website"
+  ],
+  "age_h": 0.7,
+  "mc": 257054,
+  "h1": 2485,
+  "m5": null,
+  "dexId": "pumpswap",
+  "phase": "graduated PumpSwap (liq $0)",
+  "creator": "7atkTMsNU3rvEYhh1KC3beFJYtd7Z4PQJDVSZexKkJ1h",
+  "creatorBal": 96885035777870,
+  "creator_pct": 9.68850428526529,
+  "creator_wallet": {
+    "creator": "7atkTMsNU3rvEYhh1KC3beFJYtd7Z4PQJDVSZexKkJ1h",
+    "sol": 0.0015,
+    "ntx": 96,
+    "oldest": 1792143371,
+    "age_h": 0.68
+  },
+  "band_1_5": 0,
+  "top10_ex_curve_pct": 89.39,
+  "rugScore": 20791,
+  "score_normalised": 60,
+  "risks": [
+    "Top 10 holders high ownership",
+    "Single holder ownership",
+    "Low Liquidity",
+    "High ownership"
+  ],
+  "graphInsiders": 0,
+  "txh1": {
+    "buys": 3046,
+    "sells": 1002
+  },
+  "volh1": 555607.74,
+  "totalHolders": 2063,
+  "socials": [],
+  "websites": [],
+  "whales": [
+    {
+      "owner": "Gw3MQNQE5Fec4ifu3gRYG7na627ZXfHh5xhXein83wUo",
+      "pct": 73.59859788154212,
+      "sol": 11.687975856,
+      "ntx_sample": 20,
+      "oldest_sample": 1792144243
+    }
+  ],
+  "structure_notes": "9.69 7atkTMsN ntx 96 age_h 0.7 funder ('GY7rjFGsPWYKSFhLfEGstbQakxsoCu5m28CGTaLPcFHi', 95.607560073)\n0.95 7aeHbmKv ntx 1000 age_h 8.4 funder None\n0.93 DzoUEoF3 ntx 1000 age_h 5.8 funder None\n0.87 HotmBtMH ntx 1000 age_h 11.2 funder None\n0.77 HYVZDAGV ntx 1000 age_h 17.5 funder None\n0.73 4cByaKAX ntx 1000 age_h 16.4 funder None\n0.65 283B8dof ntx 1000 age_h 19.0 funder None\n0.64 ADdtNNHS ntx 1000 age_h 15.9 funder None\n0.56 AZ4Bdki9 ntx 1000 age_h 12.2 funder ('CB3i9RjqRkE5zuENWZUBKyJptGfMYNwY9Mc86pxABrVx', 5.0)\n0.56 pA7KFkL4 ntx 1000 age_h 6.2 funder None\n0.53 4UotucXQ ntx 1000 age_h 7.5 funder None\n0.52 AtQj8wMU ntx 1000 age_h 8.5 funder None\n"
+}

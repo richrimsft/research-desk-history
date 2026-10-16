@@ -1,0 +1,38 @@
+X Explore / Trending raw capture
+Captured: 2026-09-30 11:30 AM ET (after one refresh)
+URL: https://x.com/explore/tabs/trending
+
+Visible main Trending list (X did not display post counts or ages for these rows; only “Trending with” context where shown):
+1. Sports · Trending — WNBA — Trending with A’ja, Sophie
+2. Trending in United States — Flydubai — Trending with Omani, Tabuk
+3. Business and finance · Trending — $EDEL
+4. Politics · Trending — Unites States
+5. Trending in United States — #OlandriaxVaqueraSS27 — Trending with #VaqueraNYCSS27
+6. Trending in United States — Christa Pike — Trending with Colleen Slemmer
+7. Trending in United States — Good Wednesday
+8. Trending in United States — Core PCE — Trending with Headline PCE, August PCE
+9. Sports · Trending — Savannah
+10. News · Trending — Altercation
+11. Trending in United States — Ken Griffin — Trending with Carnegie Mellon
+12. Trending in United States — Delta — Trending with Starlink, Ed Bastian
+13. Trending in United States — Hump Day
+14. Politics · Trending — Death to America — Trending with IRGC, Vote Democratic
+15. Trending in United States — $RYET
+16. Trending in United States — Happy Hump
+17. Sports · Trending — Sousa
+18. Only on X · Trending — #WednesdayWisdom
+19. Sports · Trending — Zeitler — Trending with Becton
+20. Trending in United States — Flight 93
+21. Trending in United States — Super Intelligence
+
+Visible Today’s News cards (counts/age shown):
+• Barack Obama states he does not understand how the United States became so toxic, divided, and bitter — Trending now · News · 642 posts
+• Trump Signs AI Accord Marred by “Unites States” Typo — 14 hours ago · News · 61.3K posts
+• New Documentary Explores 1948 Aztec UFO Crash Claims — 16 hours ago · Entertainment · 592 posts
+• Explore page’s Today’s News section also showed: Delta CEO’s Reported Musk Comments Spark Backlash and Boycott Calls — 18 hours ago · News · 24K posts
+
+On-topic/new/fast-rising assessment from visible data:
+• Strongest fresh signal: Super Intelligence (no count/age shown); possibly agentic-AI adjacent but too ambiguous to call a clean angle.
+• Potentially on-topic: Delta + Starlink context (trend row, no count/age), and Super Intelligence; neither had visible velocity/count.
+• No clear new sky/launch/satellite or security-breach trend with visible count/age. Starlink appears only as “Trending with” on Delta.
+• Avoid/low relevance: politics, Death to America, Flight 93, and general entertainment/sports/lifestyle rows.

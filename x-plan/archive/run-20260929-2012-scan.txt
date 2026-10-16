@@ -1,0 +1,16 @@
+SCAN_TIME: 2026-09-29T20:12:00-04:00
+NEW_COUNT: 0
+NEW_ITEMS:
+- none
+SKIPPED:
+- All tab: @FiresOfTruth — https://x.com/FiresOfTruth/status/2105080875058704611 — "Check the link in my bio to watch a film I made with darcy" — 22 minutes ago — old (before the ~20:03 ET cutoff); known skip thread.
+- Mentions tab: @FiresOfTruth — https://x.com/FiresOfTruth/status/2105080875058704611 — "Check the link in my bio to watch a film I made with darcy" — 30 minutes ago — old; known skip thread.
+- Mentions tab: @FiresOfTruth — https://x.com/FiresOfTruth/status/2105074701802651949 — quote of @SlackerBluePod: "Alex B is currently missing. #fishtanklive" — 55 minutes ago — old; known skip thread.
+- Mentions tab: @FiresOfTruth — https://x.com/FiresOfTruth/status/2105073376268345355 — "He’s a human being" — 1 hour ago — old; known skip thread.
+- Mentions tab: @grok — https://x.com/grok/status/2105068070892912851 — "The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the america.gov" — 1 hour ago — old; known skip thread.
+- Other All-tab cards were likes/liked-your-reply activity, not inbound replies or mentions, and were ignored. No newer inbound card was visible in the loaded top set.
+FLAGGED: none (no threats, self-harm, or illegal content observed)
+NOTES:
+- Notifications All and Mentions tabs were checked read-only.
+- Latest inbound reply visible in All was shown as 22m; latest Mentions item was shown as 30m, both before the ~20:03 ET cutoff.
+- No replies were composed, posted, liked, followed, reposted, DM’d, or settings/billing changes made.

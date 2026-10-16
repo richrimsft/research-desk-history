@@ -1,0 +1,48 @@
+{
+ "tag": "0720",
+ "symbol": "FTR",
+ "mint": "9sv13ToY5M3Y1RHAz7bgHtMWskCjWQhEk6ZECHERpump",
+ "age_h": 0.25,
+ "mc": 822330,
+ "dexId": "pumpswap",
+ "phase": "too_young_postgrad",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "age 0.25h <30m \u2014 no-buy",
+  "creatorBalance 0 (burner/sold flag)",
+  "MC ~$822k at 0.25h on PumpSwap \u2014 blind post-grad chase",
+  "holders 4493; liq ~$79416.08544112572",
+  "light RC only \u2014 do not buy"
+ ],
+ "creatorBalance": 0,
+ "rc_score": 1,
+ "band_1_5": 0,
+ "graphInsiders": 0,
+ "topHolders_sample": [
+  {
+   "owner": "7UXbwtebpwc4XhcR",
+   "pct": 5.082326359102347
+  },
+  {
+   "owner": "6SJUHcUyvrNVMH3z",
+   "pct": 0.46735188276850287
+  },
+  {
+   "owner": "EGxXU4y3rXDFLA9b",
+   "pct": 0.4364768795208628
+  },
+  {
+   "owner": "GeZePQRsXQU5WWPs",
+   "pct": 0.4264572070822611
+  },
+  {
+   "owner": "DVsFTmAd8zc5TubQ",
+   "pct": 0.42224736185879336
+  },
+  {
+   "owner": "9n8LgJGcc72o5SAm",
+   "pct": 0.42171066753193753
+  }
+ ],
+ "rc_file": "rc-FTR-0720.json"
+}

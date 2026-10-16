@@ -1,0 +1,874 @@
+<!doctype html><html><head><meta charset='utf-8'><title>What's new in REA 6.5</title><style>@page{size:A4;margin:16mm 14mm}
+body{font-family:'DejaVu Sans',sans-serif;font-size:10.5pt;line-height:1.5;color:#1f2328}
+h1{font-size:21pt;line-height:1.2} h2{font-size:15pt;border-bottom:1px solid #d0d7de;padding-bottom:3px;margin-top:22px;page-break-after:avoid} h3{font-size:12pt;page-break-after:avoid}
+figure{margin:10px 0;page-break-inside:avoid;text-align:center} figure img{max-width:100%;max-height:200mm;border:1px solid #d0d7de}
+figcaption{font-size:8.5pt;color:#57606a;margin-top:3px}
+pre{background:#f6f8fa;border:1px solid #d0d7de;padding:8px;font-size:8.3pt;white-space:pre-wrap;word-break:break-all;page-break-inside:avoid}
+code{font-family:'DejaVu Sans Mono',monospace;font-size:8.8pt;background:#f6f8fa}
+table{border-collapse:collapse;width:100%;font-size:8.6pt;margin:8px 0} th,td{border:1px solid #d0d7de;padding:4px 6px;vertical-align:top;word-break:break-word} th{background:#f6f8fa}
+blockquote{border-left:4px solid #d0d7de;margin:8px 0;padding:2px 12px;color:#424a53}
+a{color:#0969da;word-break:break-all}</style></head><body><h1>What's new in REA 6.5: SQLite, pcap, WASM, Go, Rust, Electron fuses, Android, firmware and .NET, tested hands-on (with receipts)</h1>
+<p><em>By Richard (<a href="https://x.com/P7RIM3">@P7RIM3</a>) · October 14, 2026 (ET) · follow-up to yesterday's <a href="https://x.com/P7RIM3">REA 6.4.0 hands-on</a></em></p>
+<figure><img src="img/00-cover-1500x500.png" alt="Cover: What's new in REA 6.5. Composite of a real REA terminal capture from this article."/><figcaption>Cover: What's new in REA 6.5. Composite of a real REA terminal capture from this article.</figcaption></figure>
+<blockquote>
+<p><strong>About the receipts.</strong> REA <strong>6.5.0</strong> (<a href="https://github.com/morluto/rea/releases/tag/rea-agents-6.5.0">release page</a>) was published <strong>Wed Oct 14, 2026, 8:32 AM ET</strong>. Everything below ran on my Grok Bot box (Debian 13, x64, Node 24.21.0, Ghidra 12.1.4, JDK 21) between about 12:30 and 3:30 PM ET, against the npm package <strong>rea-agents 6.5.0</strong> and a clone of <a href="https://github.com/morluto/rea">morluto/rea</a> at <code>75104040d</code> (<code>rea-agents-6.5.0-25-g75104040d</code>). Every terminal image is real output, and the same text is in a code block under it so you can copy it. Every target is something I built myself, or (for Android) an Apache-2.0 sample app that REA's own tests pin. <strong>Nothing here was tested on Windows or macOS.</strong> Where I only read the docs, I say so.</p>
+</blockquote>
+<hr />
+<h2>1. TL;DR: all five gaps from yesterday are closed</h2>
+<figure><img src="img/13-term-gaps-closed.png" alt="Real capture: the commands missing from 6.4.0 are in 6.5.0's rea --help, and the bundled skill is now version 42"/><figcaption>Real capture: the commands missing from 6.4.0 are in 6.5.0's rea --help, and the bundled skill is now version 42</figcaption></figure>
+<p>Yesterday's article flagged that npm 6.4.0 lacked routes the <code>main</code> branch already documented: <strong>packet capture (fields), pcap summaries, Go, WASM and SQLite</strong>. The skill on <code>main</code> was version 41 while npm shipped 37. Today both are <strong>version 42</strong>, and every one of those routes runs:</p>
+<table>
+<thead>
+<tr>
+<th>Gap in 6.4.0</th>
+<th>6.5.0 command / MCP tool</th>
+<th>Tested today?</th>
+<th>Section</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Packet capture (fields)</td>
+<td><code>inspect-packet-capture</code> / <code>inspect_packet_capture</code></td>
+<td>✅ TShark 4.4.19</td>
+<td>§8</td>
+</tr>
+<tr>
+<td>pcap summaries (DNS / SNI / endpoints)</td>
+<td><code>inspect-pcap-capture</code> / <code>inspect_pcap_capture</code></td>
+<td>✅</td>
+<td>§8</td>
+</tr>
+<tr>
+<td>Go build metadata</td>
+<td><code>inspect-go-binary</code> / <code>inspect_go_binary</code></td>
+<td>✅ go1.24.4</td>
+<td>§10</td>
+</tr>
+<tr>
+<td>WASM</td>
+<td><code>inspect-wasm-artifact</code>, <code>compare-wasm-interfaces</code></td>
+<td>✅ WABT 1.0.42</td>
+<td>§9</td>
+</tr>
+<tr>
+<td>SQLite</td>
+<td><code>inspect-sqlite-database</code> / <code>inspect_sqlite_database</code></td>
+<td>✅ SQLite 3.53.4</td>
+<td>§7</td>
+</tr>
+</tbody>
+</table>
+<p>The release also adds Rust dependency metadata and Electron fuses (both tested, §11–12), plus cross-bundle JavaScript and paged summaries (§4–6). I also installed JADX, adb, Apktool, Binwalk, Unblob and the .NET SDK and ran the three routes I couldn't test yesterday: <strong>Android, firmware and .NET</strong> (§13).</p>
+<pre><code class="language-text">$ rea --help | grep -E 'inspect-(go-binary|sqlite-database|pcap-capture|packet-capture|wasm-artifact|rust-binary|electron-fuses)|compare-wasm-interfaces'
+  compare-wasm-interfaces                 Compare core WASM interfaces from two exact inspection Evidence records
+  inspect-electron-fuses                  Inspect packaged Electron fuse bytes without launching the application
+  inspect-go-binary                       Inspect embedded Go compiler, modules and build settings without target execution
+  inspect-packet-capture                  Inspect an existing packet capture with caller-supplied TShark
+  inspect-pcap-capture                    Inspect one pcap/pcapng capture: endpoints, DNS, TLS SNI, and protocol distribution
+  inspect-rust-binary                     Inspect an embedded cargo-auditable Rust dependency list without target execution
+  inspect-sqlite-database                 Inspect SQLite schema and optional ordinary-table rows from a local snapshot
+  inspect-wasm-artifact                   Inspect an explicit local WASM artifact with WABT
+
+$ grep -m1 'version:' ~/.local/lib/node_modules/rea-agents/skills/reverse-engineer-anything/SKILL.md; grep -m1 'version:' /workspace/rea-src/.agents/skills/reverse-engineer-anything/SKILL.md
+  version: &quot;42&quot;
+  version: &quot;42&quot;
+</code></pre>
+<h2>2. Step 1: update, and where that t.co link goes</h2>
+<figure><img src="img/w01-release.png" alt="The REA 6.5.0 release page on GitHub"/><figcaption>The REA 6.5.0 release page on GitHub</figcaption></figure>
+<p>Someone sent me <code>https://t.co/8VhocJiXYK</code> with "make sure we are up to date". It's a plain 301 to the 6.5.0 release page, the same tool and version, so there was nothing else to install:</p>
+<figure><img src="img/10-term-tco.png" alt="Real capture: t.co resolves to the 6.5.0 release, published 8:32 AM ET"/><figcaption>Real capture: t.co resolves to the 6.5.0 release, published 8:32 AM ET</figcaption></figure>
+<pre><code class="language-text">$ curl -sI https://t.co/8VhocJiXYK | grep -i -E '^(HTTP|location)'
+HTTP/2 301 
+location: https://github.com/morluto/rea/releases/tag/rea-agents-6.5.0
+
+$ curl -s https://api.github.com/repos/morluto/rea/releases/tags/rea-agents-6.5.0 | jq '{name, tag_name, published_at, url: .html_url}'
+{
+  &quot;name&quot;: &quot;rea-agents: v6.5.0&quot;,
+  &quot;tag_name&quot;: &quot;rea-agents-6.5.0&quot;,
+  &quot;published_at&quot;: &quot;2026-10-14T12:32:45Z&quot;,
+  &quot;url&quot;: &quot;https://github.com/morluto/rea/releases/tag/rea-agents-6.5.0&quot;
+}
+
+$ TZ=America/New_York date -d 2026-10-14T12:32:45Z
+Wed Oct 14 08:32:45 EDT 2026
+</code></pre>
+<p>Then the update itself. npm 11.19 asks before running install scripts, so you'll see a <code>frida</code> warning. That only matters if you use REA's optional Frida tools (<a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/frida-instrumentation.md">docs</a>):</p>
+<figure><img src="img/11-term-update.png" alt="Real capture: npm install rea-agents@latest, rea --version 6.5.0, git pull"/><figcaption>Real capture: npm install rea-agents@latest, rea --version 6.5.0, git pull</figcaption></figure>
+<pre><code class="language-text">$ npm install -g rea-agents@latest 2&gt;&amp;1 | grep -v -E 'EBADENGINE|package:|required:|current:|^npm WARN EBADENGINE }|^}' | tail -3
+npm warn install-scripts   frida@17.23.2 (install: node scripts/install.js)
+npm warn install-scripts
+npm warn install-scripts Run `npm install -g --allow-scripts=frida` to allow these scripts once, or `npm config set allow-scripts=frida --location=user` to allow them for all global installs.
+
+$ rea --version
+6.5.0
+
+$ npm view rea-agents dist-tags --json
+{
+  &quot;latest&quot;: &quot;6.5.0&quot;
+}
+
+$ cd /workspace/rea-src &amp;&amp; git pull --ff-only 2&gt;&amp;1 | tail -1 &amp;&amp; git log --oneline -1 &amp;&amp; git describe --tags --match 'rea-agents-*'
+ create mode 100644 website/templates/contributors.html.tmpl
+75104040d fix(javascript): track public CommonJS export receiver lifetimes (#3567)
+rea-agents-6.5.0-25-g75104040d
+</code></pre>
+<p><code>main</code> was already 25 commits past the tag by mid-afternoon. Everything in this article uses the <strong>npm 6.5.0</strong> build, not <code>main</code>.</p>
+<figure><img src="img/12-term-doctor-ghidra.png" alt="Real capture: rea doctor --provider ghidra, all nine checks healthy"/><figcaption>Real capture: rea doctor --provider ghidra, all nine checks healthy</figcaption></figure>
+<pre><code class="language-text">$ rea doctor --provider ghidra --json | jq -r '&quot;healthy: \(.healthy)&quot;, (.scope_checks[] | &quot;  \(.classification)  \(.name)  \(.detail)&quot;)'
+healthy: true
+  healthy  node  24.21.0
+  healthy  ghidra  /home/box/.local/ghidra/ghidra_12.1.4_PUBLIC
+  healthy  ghidra-platform  linux
+  healthy  ghidra-architecture  x64
+  healthy  ghidra-installation  /home/box/.local/ghidra/ghidra_12.1.4_PUBLIC/Ghidra/application.properties
+  healthy  ghidra-version  12.1.4
+  healthy  ghidra-headless  /home/box/.local/ghidra/ghidra_12.1.4_PUBLIC/support/analyzeHeadless
+  healthy  ghidra-native_decompiler  /home/box/.local/ghidra/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/os/linux_x86_64/decompile reports elf x86_64, which matches linux/x64
+  healthy  ghidra-java  21.0.12.1; 64-bit; JDK; /home/box/.local/jdk21; accepted a 64-bit full JDK 21 or newer
+</code></pre>
+<h2>3. The lab: safe local targets I built</h2>
+<figure><img src="img/w17-doc-testing.png" alt="REA's testing guide at 6.5.0: recorded verification scope per route"/><figcaption>REA's testing guide at 6.5.0: recorded verification scope per route</figcaption></figure>
+<p>REA is for software you own or are authorized to analyze (<a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/DISCLAIMER.md">DISCLAIMER</a>). So I built every target myself in <code>/workspace/re/lab65</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Target</th>
+<th>What it is</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>js/dist/</code></td>
+<td>4-file esbuild app: <code>index.js</code> → shared chunk, plus two dynamic-import chunks (checkout, settings)</td>
+</tr>
+<tr>
+<td><code>js/wp-dist/</code></td>
+<td>The same source built with webpack 5.111.1 into 5 files (runtime + split chunks)</td>
+</tr>
+<tr>
+<td><code>sqlite/notes.db</code></td>
+<td>Read-only 20 KB database: 2 tables, 2 indexes, a view and a trigger, with a max-int64 and a BLOB</td>
+</tr>
+<tr>
+<td><code>pcap/lab65.pcap</code></td>
+<td>14 packets made with scapy using RFC 5737 documentation addresses only: DNS, HTTP, a TLS ClientHello with SNI, one UDP datagram</td>
+</tr>
+<tr>
+<td><code>wasm/calc-v1.wasm</code>, <code>calc-v2.wasm</code></td>
+<td>Hand-written WAT, assembled with WABT; v2 adds an import and an export</td>
+</tr>
+<tr>
+<td><code>go/hellogo</code></td>
+<td><code>go build -trimpath</code> of a hello world that uses <code>rsc.io/quote</code></td>
+</tr>
+<tr>
+<td><code>rust/hellorust-*</code></td>
+<td>The same crate (dep: <code>itoa</code>) built with and without <code>cargo auditable</code></td>
+</tr>
+<tr>
+<td><code>electron/stock</code>, <code>electron/hardened</code></td>
+<td>Electron 44.7.2 Linux binary, once stock, once with fuses flipped by <code>@electron/fuses</code> 2.1.3</td>
+</tr>
+<tr>
+<td><code>android/ApiDemos-debug.apk</code></td>
+<td>Appium ApiDemos 6.0.18 (Apache-2.0), the exact APK REA's own tests pin (SHA-256 matches)</td>
+</tr>
+<tr>
+<td><code>firmware/lab65-fw.bin</code></td>
+<td>My own 188 KB image: 512-byte custom header + xz squashfs rootfs + gzip'd config</td>
+</tr>
+<tr>
+<td><code>dotnet/target/PromoLab.dll</code></td>
+<td>A tiny .NET 8 class library + console app I wrote (one P/Invoke)</td>
+</tr>
+</tbody>
+</table>
+<p>The WASM sources, so you can see exactly what REA should find:</p>
+<pre><code class="language-wat">(module $calc
+  (import &quot;env&quot; &quot;log_i32&quot; (func $log (param i32)))
+  (memory (export &quot;memory&quot;) 1)
+  (func $add (export &quot;add&quot;) (param i32 i32) (result i32)
+    local.get 0 local.get 1 i32.add)
+  (func (export &quot;checksum&quot;) (param $ptr i32) (param $len i32) (result i32) ...)
+)
+;; calc-v2.wat adds:
+;;   (import &quot;env&quot; &quot;now_ms&quot; (func $now (result f64)))
+;;   (func (export &quot;mul&quot;) (param i32 i32) (result i32) local.get 0 local.get 1 i32.mul)
+</code></pre>
+<p>Env vars for the bring-your-own engines (all documented per route):</p>
+<pre><code class="language-bash">export REA_WABT_BIN_DIRECTORY=$HOME/.local/wabt/wabt-1.0.42/bin
+export REA_WAKARU_COMMAND=$HOME/.local/wakaru/wakaru
+export REA_TSHARK_COMMAND=/usr/bin/tshark          # must be absolute for inspect-packet-capture
+export REA_JADX_MCP_JAR=$HOME/.local/android/jadx-headless-mcp-0.7.1-all.jar
+export REA_ADB_PATH=$HOME/.local/android/platform-tools/adb
+export REA_APKTOOL_COMMAND=$HOME/.local/apktool/apktool
+export REA_BINWALK_COMMAND=$HOME/.cargo/bin/binwalk
+export REA_UNBLOB_COMMAND=$HOME/.local/unblob-venv/bin/unblob
+</code></pre>
+<h2>4. JavaScript: analyze only the files you pick</h2>
+<figure><img src="img/w04-doc-js-recovery.png" alt="REA's javascript-recovery doc at 6.5.0"/><figcaption>REA's javascript-recovery doc at 6.5.0</figcaption></figure>
+<p><strong>New in 6.5:</strong> <code>--source-path</code> (MCP: <code>source_paths</code>) analyzes exactly the files you name <em>without</em> pulling their imports into scope. Unselected files keep their identity and get explicit <em>unknown</em> coverage, not silence (<a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/CHANGELOG.md">changelog</a>).</p>
+<p>I picked <code>index.js</code> and the checkout chunk out of four files:</p>
+<figure><img src="img/20-term-js-selected.png" alt="Real capture: selected-file analysis. 2 of 4 parsed; the other two inventoried as unknown/unavailable; cross-chunk edges resolved"/><figcaption>Real capture: selected-file analysis. 2 of 4 parsed; the other two inventoried as unknown/unavailable; cross-chunk edges resolved</figcaption></figure>
+<pre><code class="language-text">$ find js/dist -type f | sort
+js/dist/chunks/checkout-C55LDPC2.js
+js/dist/chunks/chunk-ZJO4U6BV.js
+js/dist/chunks/settings-5JU6JVGJ.js
+js/dist/index.js
+
+$ rea analyze-javascript-application $PWD/js/dist --source-path index.js --source-path chunks/checkout-C55LDPC2.js --format json 2&gt;/dev/null | tail -1 &gt; notes/js-selected.ev.json
+
+$ jq -c '.normalized_result | .source_selection, .statistics' notes/js-selected.ev.json
+{&quot;requested_paths&quot;:[&quot;index.js&quot;,&quot;chunks/checkout-C55LDPC2.js&quot;],&quot;unselected_files&quot;:2}
+{&quot;relevant_files&quot;:4,&quot;nested_asar_containers&quot;:0,&quot;text_bytes_read&quot;:794,&quot;invalid_utf8_files&quot;:0,&quot;parsed_javascript_files&quot;:2,&quot;visited_ast_nodes&quot;:124,&quot;findings&quot;:8,&quot;modules&quot;:0,&quot;parse_failures&quot;:0}
+
+$ jq -r -f /workspace/rea-65/tools/jsedges.jq notes/js-selected.ev.json
+FILES:
+  unknown chunks/chunk-ZJO4U6BV.js  state=unavailable
+  javascript-asset chunks/checkout-C55LDPC2.js  state=observed
+  javascript-asset chunks/settings-5JU6JVGJ.js  state=observed
+  javascript-asset chunks/chunk-ZJO4U6BV.js  state=observed
+  javascript-asset index.js  state=observed
+  unknown chunks/settings-5JU6JVGJ.js  state=unavailable
+IMPORT EDGES:
+  chunks/checkout-C55LDPC2.js --binding apiBase--&gt; chunks/chunk-ZJO4U6BV.js [resolved; inferred/high]
+  index.js --static-import--&gt; chunks/chunk-ZJO4U6BV.js [resolved; inferred/high]
+  chunks/checkout-C55LDPC2.js --binding formatPrice--&gt; chunks/chunk-ZJO4U6BV.js [resolved; inferred/high]
+  index.js --binding formatPrice--&gt; chunks/chunk-ZJO4U6BV.js [resolved; inferred/high]
+  chunks/checkout-C55LDPC2.js --static-import--&gt; chunks/chunk-ZJO4U6BV.js [resolved; inferred/high]
+  index.js --dynamic-import--&gt; chunks/checkout-C55LDPC2.js [resolved; inferred/high]
+  index.js --dynamic-import--&gt; chunks/settings-5JU6JVGJ.js [resolved; inferred/high]
+</code></pre>
+<p>What to notice:</p>
+<ul>
+<li><strong>Only 2 files parsed</strong> (<code>parsed_javascript_files: 2</code>). The shared chunk and settings chunk show up twice: once as an observed <em>asset</em> (it exists, with its hash), once as <code>unknown … state=unavailable</code> with the limitation <em>"Source is outside the caller-selected source_paths; it was inventoried but not analyzed."</em></li>
+<li><strong>Edges into unselected files still resolve.</strong> Both the static import of the shared chunk and the <em>named bindings</em> (<code>apiBase</code>, <code>formatPrice</code>) are recorded, at <code>inferred/high</code>.</li>
+</ul>
+<p>Run it again without <code>--source-path</code> and coverage goes from <code>partial</code> to <code>complete</code>:</p>
+<figure><img src="img/21-term-js-full.png" alt="Real capture: selected (2 parsed, partial) vs full (4 parsed, complete)"/><figcaption>Real capture: selected (2 parsed, partial) vs full (4 parsed, complete)</figcaption></figure>
+<pre><code class="language-text">$ rea analyze-javascript-application $PWD/js/dist --format json 2&gt;/dev/null | tail -1 &gt; notes/js-full.ev.json
+
+$ jq -c '.normalized_result | {source_selection, parsed: .statistics.parsed_javascript_files, coverage: .graph.coverage.status}' notes/js-selected.ev.json notes/js-full.ev.json
+{&quot;source_selection&quot;:{&quot;requested_paths&quot;:[&quot;index.js&quot;,&quot;chunks/checkout-C55LDPC2.js&quot;],&quot;unselected_files&quot;:2},&quot;parsed&quot;:2,&quot;coverage&quot;:&quot;partial&quot;}
+{&quot;source_selection&quot;:null,&quot;parsed&quot;:4,&quot;coverage&quot;:&quot;complete&quot;}
+</code></pre>
+<h2>5. Code-split recovery across webpack chunks</h2>
+<figure><img src="img/w18-wakaru.png" alt="Wakaru v1.14.0 release, the unbundler REA drives for recovery"/><figcaption>Wakaru v1.14.0 release, the unbundler REA drives for recovery</figcaption></figure>
+<p><code>recover-javascript-sources</code> now takes <strong>multiple inputs</strong> (<code>--additional-path</code>) and keeps cross-chunk imports, using caller-supplied <a href="https://github.com/pionxzh/wakaru/releases/tag/v1.14.0">Wakaru 1.14.0</a>. With one chunk, you get webpack's mangled import. With all five, Wakaru links it to the recovered <code>src/shared.js</code>:</p>
+<figure><img src="img/22-term-recover.png" alt="Real capture: one chunk vs all five chunks; the shared import becomes a named import"/><figcaption>Real capture: one chunk vs all five chunks; the shared import becomes a named import</figcaption></figure>
+<pre><code class="language-text">$ ls js/wp-dist
+main.js
+runtime.js
+shared.js
+src_checkout_js.chunk.js
+src_settings_js.chunk.js
+
+$ rea recover-javascript-sources $PWD/js/wp-dist/src_checkout_js.chunk.js $PWD/notes/rec-one --format json | tail -1 | jq -c '.raw_result.report | {detected_formats, modules: [.modules[].filename]}'
+{&quot;detected_formats&quot;:[&quot;webpack5&quot;],&quot;modules&quot;:[&quot;src/checkout.js&quot;]}
+
+$ sed -n 1,3p notes/rec-one/modules/src/checkout.js
+import _shared_js__WEBPACK_IMPORTED_MODULE_0__ from &quot;./src/shared.js&quot;;
+async function startCheckout(order) {
+    const res = await fetch(`${_shared_js__WEBPACK_IMPORTED_MODULE_0__.a}/checkout/session`, {
+
+$ rea recover-javascript-sources $PWD/js/wp-dist/main.js $PWD/notes/rec-all --additional-path $PWD/js/wp-dist/runtime.js --additional-path $PWD/js/wp-dist/shared.js --additional-path $PWD/js/wp-dist/src_checkout_js.chunk.js --additional-path $PWD/js/wp-dist/src_settings_js.chunk.js --format json | tail -1 | jq -c '{status: .normalized_result.status, runtime_equivalence: .normalized_result.runtime_equivalence, report: (.raw_result.report | {detected_formats, modules: [.modules[].filename]})}'
+{&quot;status&quot;:&quot;complete&quot;,&quot;runtime_equivalence&quot;:&quot;unknown&quot;,&quot;report&quot;:{&quot;detected_formats&quot;:[&quot;webpack5&quot;],&quot;modules&quot;:[&quot;src/index.js&quot;,&quot;runtime.js&quot;,&quot;src/shared.js&quot;,&quot;src/checkout.js&quot;,&quot;src/settings.js&quot;]}}
+
+$ sed -n 1,3p notes/rec-all/modules/src/checkout.js
+import { $, a } from &quot;./src/shared.js&quot;;
+async function startCheckout(order) {
+    const res = await fetch(`${a}/checkout/session`, {
+</code></pre>
+<p>Receipt: <code>runtime_equivalence: "unknown"</code>. REA doesn't claim the recovered code behaves the same, and the original names (<code>API_BASE</code>, <code>formatPrice</code>) are <strong>not</strong> recovered. You get <code>$</code> and <code>a</code> back, because that's what the minified bundle contains.</p>
+<h2>6. Compact summaries, then pages (MCP and CLI)</h2>
+<figure><img src="img/w11-doc-mcp-summary.png" alt="REA's MCP contract doc: summary delivery and retained-evidence views"/><figcaption>REA's MCP contract doc: summary delivery and retained-evidence views</figcaption></figure>
+<p>This is the change agents will feel most. Pass <code>detail: "summary"</code>, get a small result, then page the retained Evidence with <code>inspect_analysis_view</code> <strong>without re-running the analysis</strong> (<a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/mcp-contracts.md">mcp-contracts.md</a>). I drove the MCP server directly over stdio with a 28-line JSON-RPC client:</p>
+<pre><code class="language-json">{&quot;name&quot;:&quot;inspect_wasm_artifact&quot;,&quot;arguments&quot;:{&quot;path&quot;:&quot;.../calc-v1.wasm&quot;,&quot;detail&quot;:&quot;summary&quot;}}
+{&quot;name&quot;:&quot;inspect_analysis_view&quot;,&quot;arguments&quot;:{
+   &quot;source&quot;:{&quot;kind&quot;:&quot;retained-evidence&quot;,&quot;evidence_id&quot;:&quot;$R4.evidence_id&quot;},
+   &quot;view&quot;:{&quot;kind&quot;:&quot;wasm&quot;,&quot;facet&quot;:&quot;exports&quot;,&quot;offset&quot;:0,&quot;limit&quot;:2}}}
+</code></pre>
+<figure><img src="img/23-term-mcp-paged.png" alt="Real capture: one MCP session. Summaries for JS, WASM and pcap, then pages with next_offset until exhausted"/><figcaption>Real capture: one MCP session. Summaries for JS, WASM and pcap, then pages with next_offset until exhausted</figcaption></figure>
+<pre><code class="language-text">$ node /workspace/rea-65/tools/mcp.mjs /workspace/rea-65/tools/mcp-steps-paged.json notes/mcp-paged.json
+
+$ jq -r '.[0].serverInfo, (.[1] | &quot;tools/list: \(.count) tools; new ones: \(.match|join(&quot;, &quot;))&quot;)' notes/mcp-paged.json
+{
+  &quot;name&quot;: &quot;rea&quot;,
+  &quot;version&quot;: &quot;6.5.0&quot;
+}
+tools/list: 207 tools; new ones: inspect_packet_capture, inspect_packet_fields, inspect_analysis_view, inspect_go_binary, inspect_rust_binary, compare_wasm_interfaces, inspect_wasm_artifact, inspect_sqlite_database, inspect_pcap_client, inspect_pcap_capture, inspect_electron_fuses
+
+$ jq -c '.[2:10][] | {call: .step, args: (.arguments.view // .arguments.detail), coverage: (.result.normalized_result.coverage | {examined, total, next_offset, exhausted})}' notes/mcp-paged.json
+{&quot;call&quot;:&quot;analyze_javascript_application&quot;,&quot;args&quot;:&quot;summary&quot;,&quot;coverage&quot;:{&quot;examined&quot;:7,&quot;total&quot;:10,&quot;next_offset&quot;:null,&quot;exhausted&quot;:true}}
+{&quot;call&quot;:&quot;inspect_analysis_view&quot;,&quot;args&quot;:{&quot;kind&quot;:&quot;page&quot;,&quot;collection&quot;:&quot;modules&quot;,&quot;offset&quot;:0,&quot;limit&quot;:2},&quot;coverage&quot;:{&quot;examined&quot;:2,&quot;total&quot;:7,&quot;next_offset&quot;:2,&quot;exhausted&quot;:false}}
+{&quot;call&quot;:&quot;inspect_wasm_artifact&quot;,&quot;args&quot;:&quot;summary&quot;,&quot;coverage&quot;:{&quot;examined&quot;:11,&quot;total&quot;:11,&quot;next_offset&quot;:null,&quot;exhausted&quot;:true}}
+{&quot;call&quot;:&quot;inspect_analysis_view&quot;,&quot;args&quot;:{&quot;kind&quot;:&quot;wasm&quot;,&quot;facet&quot;:&quot;exports&quot;,&quot;offset&quot;:0,&quot;limit&quot;:2},&quot;coverage&quot;:{&quot;examined&quot;:2,&quot;total&quot;:3,&quot;next_offset&quot;:2,&quot;exhausted&quot;:false}}
+{&quot;call&quot;:&quot;inspect_analysis_view&quot;,&quot;args&quot;:{&quot;kind&quot;:&quot;wasm&quot;,&quot;facet&quot;:&quot;exports&quot;,&quot;offset&quot;:2,&quot;limit&quot;:2},&quot;coverage&quot;:{&quot;examined&quot;:1,&quot;total&quot;:3,&quot;next_offset&quot;:null,&quot;exhausted&quot;:true}}
+{&quot;call&quot;:&quot;inspect_pcap_capture&quot;,&quot;args&quot;:&quot;summary&quot;,&quot;coverage&quot;:{&quot;examined&quot;:1,&quot;total&quot;:1,&quot;next_offset&quot;:null,&quot;exhausted&quot;:true}}
+{&quot;call&quot;:&quot;inspect_analysis_view&quot;,&quot;args&quot;:{&quot;kind&quot;:&quot;pcap&quot;,&quot;facet&quot;:&quot;dns-queries&quot;,&quot;offset&quot;:0,&quot;limit&quot;:20},&quot;coverage&quot;:{&quot;examined&quot;:2,&quot;total&quot;:2,&quot;next_offset&quot;:null,&quot;exhausted&quot;:true}}
+{&quot;call&quot;:&quot;inspect_analysis_view&quot;,&quot;args&quot;:{&quot;kind&quot;:&quot;pcap&quot;,&quot;facet&quot;:&quot;tls-sni&quot;,&quot;offset&quot;:0,&quot;limit&quot;:20},&quot;coverage&quot;:{&quot;examined&quot;:1,&quot;total&quot;:1,&quot;next_offset&quot;:null,&quot;exhausted&quot;:true}}
+
+$ jq -c '.[3].result.normalized_result.items[] | {kind, path}' notes/mcp-paged.json; jq -c '.[8].result.normalized_result.page.items' notes/mcp-paged.json
+{&quot;kind&quot;:&quot;javascript-module&quot;,&quot;path&quot;:&quot;chunks/checkout-C55LDPC2.js&quot;}
+{&quot;kind&quot;:&quot;javascript-asset&quot;,&quot;path&quot;:&quot;chunks/checkout-C55LDPC2.js&quot;}
+[{&quot;query&quot;:&quot;app.example.com&quot;,&quot;response_address_count&quot;:1,&quot;retained_response_address_count&quot;:1},{&quot;query&quot;:&quot;api.example.org&quot;,&quot;response_address_count&quot;:1,&quot;retained_response_address_count&quot;:1}]
+</code></pre>
+<p>The paging contract is simple and honest: <code>examined</code>, <code>total</code>, <code>next_offset</code>, <code>exhausted</code>. WASM exports came back 2 of 3 (<code>next_offset: 2</code>), then 1 of 3 (<code>exhausted: true</code>).</p>
+<p>The CLI has no retained store between processes, so you pass the saved Evidence <strong>inline</strong>. On my 4-file app, the full Evidence was 266,827 bytes and the summary view 9,827 bytes, about 27× smaller (the <a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/cli.md">CLI guide</a>'s example is a 334 MB Obsidian Evidence file → ~10 KB):</p>
+<figure><img src="img/24-term-cli-view.png" alt="Real capture: inspect-analysis-view from the CLI, inline Evidence"/><figcaption>Real capture: inspect-analysis-view from the CLI, inline Evidence</figcaption></figure>
+<pre><code class="language-text">$ jq -c '{source: {kind: &quot;inline&quot;, evidence: .}, view: {kind: &quot;wasm&quot;, facet: &quot;imports&quot;, offset: 0, limit: 5}}' notes/wasm-v1.json &gt; notes/wasm-view.json
+
+$ rea inspect-analysis-view notes/wasm-view.json --format json | jq -c '.normalized_result | {kind, view, coverage, item}'
+{&quot;kind&quot;:&quot;wasm&quot;,&quot;view&quot;:{&quot;kind&quot;:&quot;wasm&quot;,&quot;facet&quot;:&quot;imports&quot;,&quot;offset&quot;:0,&quot;limit&quot;:5},&quot;coverage&quot;:{&quot;status&quot;:&quot;page&quot;,&quot;examined&quot;:1,&quot;total&quot;:1,&quot;next_offset&quot;:null,&quot;exhausted&quot;:true},&quot;item&quot;:[&quot;(import \&quot;env\&quot; \&quot;log_i32\&quot; (func $log (type 0)))&quot;]}
+
+$ jq -c '{source: {kind: &quot;inline&quot;, evidence: .}, view: {kind: &quot;summary&quot;}}' notes/js-full.ev.json &gt; notes/js-view.json
+
+$ wc -c &lt; notes/js-full.ev.json; rea inspect-analysis-view notes/js-view.json --format json | wc -c
+266827
+9827
+</code></pre>
+<h2>7. SQLite, offline and read-only</h2>
+<figure><img src="img/w06-doc-sqlite.png" alt="REA's sqlite-databases doc at 6.5.0"/><figcaption>REA's sqlite-databases doc at 6.5.0</figcaption></figure>
+<p><code>inspect-sqlite-database</code> reads a local snapshot (and an existing sibling WAL) <strong>without modifying it</strong>. It needs <strong>Node 24 ≥ 24.15 or Node 26+</strong> (it uses <code>DatabaseSync.limits</code>; see §15 for what Node 20 does). My database file is mode <code>-r--r--r--</code>, and REA was fine with that:</p>
+<figure><img src="img/30-term-sqlite.png" alt="Real capture: inventory. Provider SQLite 3.53.4, file hash, tables, indexes, view, trigger"/><figcaption>Real capture: inventory. Provider SQLite 3.53.4, file hash, tables, indexes, view, trigger</figcaption></figure>
+<pre><code class="language-text">$ ls -la sqlite/
+total 28
+drwxr-xr-x  2 box box  4096 Oct 14 12:39 .
+drwxr-xr-x 13 box box  4096 Oct 14 15:01 ..
+-r--r--r--  1 box box 20480 Oct 14 12:39 notes.db
+
+$ rea inspect-sqlite-database sqlite/notes.db --format json | jq -c '.provider, .normalized_result.artifact, (.normalized_result.schema | {scope, completeness}, (.tables[] | {name, column_count, columns_completeness}), {indexes: [.indexes[].name], views: [.views[].name], triggers: [.triggers[].name]})'
+{&quot;id&quot;:&quot;sqlite&quot;,&quot;name&quot;:&quot;REA SQLite database inspector&quot;,&quot;version&quot;:&quot;SQLite 3.53.4&quot;}
+{&quot;path&quot;:&quot;/workspace/re/lab65/sqlite/notes.db&quot;,&quot;sha256&quot;:&quot;2a944faede77fd6140c40df382d53b138975e9c81d41370c34de8f1aee560e15&quot;,&quot;bytes&quot;:20480}
+{&quot;scope&quot;:&quot;inventory&quot;,&quot;completeness&quot;:&quot;complete&quot;}
+{&quot;name&quot;:&quot;users&quot;,&quot;column_count&quot;:4,&quot;columns_completeness&quot;:&quot;not_requested&quot;}
+{&quot;name&quot;:&quot;notes&quot;,&quot;column_count&quot;:7,&quot;columns_completeness&quot;:&quot;not_requested&quot;}
+{&quot;indexes&quot;:[&quot;sqlite_autoindex_users_1&quot;,&quot;notes_by_user&quot;],&quot;views&quot;:[&quot;pinned_notes&quot;],&quot;triggers&quot;:[&quot;notes_touch&quot;]}
+</code></pre>
+<p>Rows are opt-in, per table and column, and typed carefully. Text keeps its raw bytes, the int64 max comes back as a <strong>string</strong> (no JavaScript precision loss), BLOBs are hex, and <code>order: "unspecified"</code> tells you not to read meaning into row order:</p>
+<figure><img src="img/31-term-sqlite-rows.png" alt="Real capture: typed rows, row limit and truncation, and a view rejected as a row source"/><figcaption>Real capture: typed rows, row limit and truncation, and a view rejected as a row source</figcaption></figure>
+<pre><code class="language-text">$ rea inspect-sqlite-database sqlite/notes.db --table notes --column title --column big --column blob_val --row-limit 2 --format json | jq -c '.normalized_result.rows | (.values[]), {row_limit, returned_rows, truncated, order}'
+[{&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Shopping list&quot;,&quot;bytes_hex&quot;:&quot;53686f7070696e67206c697374&quot;,&quot;encoding&quot;:&quot;UTF-8&quot;},{&quot;type&quot;:&quot;integer&quot;,&quot;value&quot;:&quot;9223372036854775807&quot;},{&quot;type&quot;:&quot;blob&quot;,&quot;hex&quot;:&quot;deadbeef&quot;}]
+[{&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Ideas&quot;,&quot;bytes_hex&quot;:&quot;4964656173&quot;,&quot;encoding&quot;:&quot;UTF-8&quot;},{&quot;type&quot;:&quot;null&quot;},{&quot;type&quot;:&quot;null&quot;}]
+{&quot;row_limit&quot;:2,&quot;returned_rows&quot;:2,&quot;truncated&quot;:true,&quot;order&quot;:&quot;unspecified&quot;}
+
+$ rea inspect-sqlite-database sqlite/notes.db --table pinned_notes --format json | jq -c '{code, details}'
+{&quot;code&quot;:&quot;invalid_request&quot;,&quot;details&quot;:{&quot;operation&quot;:&quot;inspect_sqlite_database&quot;,&quot;issues&quot;:[{&quot;path&quot;:[&quot;table&quot;],&quot;reason&quot;:&quot;invalid_format&quot;,&quot;message&quot;:&quot;Selected ordinary table does not exist with that exact name: pinned_notes&quot;}],&quot;captured_output&quot;:{&quot;stdout&quot;:&quot;&quot;,&quot;stderr&quot;:&quot;&quot;,&quot;truncated&quot;:false}}}
+</code></pre>
+<p>Asking for rows from the <em>view</em> <code>pinned_notes</code> is refused: rows come from <strong>ordinary tables only</strong>.</p>
+<h2>8. Packet captures: summary first, then exact fields</h2>
+<figure><img src="img/w02-release-packets.png" alt="6.5.0 release notes: Packet captures, recorded on Linux with Wireshark 4.6.6"/><figcaption>6.5.0 release notes: Packet captures, recorded on Linux with Wireshark 4.6.6</figcaption></figure>
+<p>Two tools. <code>inspect-pcap-capture</code> gives the overview (endpoints, DNS, TLS SNI, HTTP URIs, protocol stacks). <code>inspect-packet-capture</code> gives exact TShark fields with a display filter and paging (<a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/pcap-analysis.md">pcap-analysis.md</a>). Both read a saved file. Neither captures live traffic.</p>
+<figure><img src="img/32-term-pcap.png" alt="Real capture: inspect-pcap-capture on my 14-packet lab capture"/><figcaption>Real capture: inspect-pcap-capture on my 14-packet lab capture</figcaption></figure>
+<pre><code class="language-text">$ rea inspect-pcap-capture pcap/lab65.pcap --format json | jq -c '.confidence, (.normalized_result | {packet_count, file_type, capture_duration_seconds}), .normalized_result.endpoints, .normalized_result.dns_queries, .normalized_result.tls_sni_values, .normalized_result.http_request_uris, [.normalized_result.protocol_distribution[] | &quot;\(.packet_count) \(.protocol)&quot;]'
+&quot;derived&quot;
+{&quot;packet_count&quot;:14,&quot;file_type&quot;:&quot;pcap&quot;,&quot;capture_duration_seconds&quot;:0.3}
+[{&quot;address&quot;:&quot;192.0.2.10&quot;,&quot;port&quot;:null,&quot;packet_count&quot;:14},{&quot;address&quot;:&quot;203.0.113.44&quot;,&quot;port&quot;:null,&quot;packet_count&quot;:5},{&quot;address&quot;:&quot;203.0.113.80&quot;,&quot;port&quot;:null,&quot;packet_count&quot;:5},{&quot;address&quot;:&quot;198.51.100.53&quot;,&quot;port&quot;:null,&quot;packet_count&quot;:4}]
+[{&quot;query&quot;:&quot;app.example.com&quot;,&quot;response_addresses&quot;:[&quot;203.0.113.80&quot;],&quot;response_address_count&quot;:1},{&quot;query&quot;:&quot;api.example.org&quot;,&quot;response_addresses&quot;:[&quot;203.0.113.44&quot;],&quot;response_address_count&quot;:1}]
+[&quot;api.example.org&quot;]
+[&quot;http://app.example.com/v1/status?build=65&quot;]
+[&quot;6 eth:ethertype:ip:tcp&quot;,&quot;4 eth:ethertype:ip:udp:dns&quot;,&quot;1 eth:ethertype:ip:tcp:http&quot;,&quot;1 eth:ethertype:ip:tcp:http:data&quot;,&quot;1 eth:ethertype:ip:tcp:tls&quot;,&quot;1 eth:ethertype:ip:udp:data&quot;]
+</code></pre>
+<p>Everything matches what I put in: two DNS answers, SNI <code>api.example.org</code>, the HTTP request URI and six protocol stacks. Confidence is <code>derived</code> (TShark's dissection, not raw bytes).</p>
+<figure><img src="img/w05-doc-pcap.png" alt="REA's pcap-analysis doc: &quot;Inspect only the needed facts&quot;"/><figcaption>REA's pcap-analysis doc: &quot;Inspect only the needed facts&quot;</figcaption></figure>
+<p>Now the exact fields, page 3 of the TCP packets (<code>--match_offset 6 --match_limit 3</code>), and the raw payload of my UDP "ping":</p>
+<figure><img src="img/33-term-packets.png" alt="Real capture: inspect-packet-capture fields, paging window and payload bytes"/><figcaption>Real capture: inspect-packet-capture fields, paging window and payload bytes</figcaption></figure>
+<pre><code class="language-text">$ rea inspect-packet-capture pcap/lab65.pcap --fields ip.dst --fields tcp.dstport --fields tls.handshake.extensions_server_name --display_filter tcp --match_limit 3 --match_offset 6 --format json | jq -c '.normalized_result | .packets[], .output_window'
+{&quot;frame.number&quot;:[&quot;11&quot;],&quot;ip.dst&quot;:[&quot;192.0.2.10&quot;],&quot;tcp.dstport&quot;:[&quot;40001&quot;]}
+{&quot;frame.number&quot;:[&quot;12&quot;],&quot;ip.dst&quot;:[&quot;203.0.113.44&quot;],&quot;tcp.dstport&quot;:[&quot;443&quot;]}
+{&quot;frame.number&quot;:[&quot;13&quot;],&quot;ip.dst&quot;:[&quot;203.0.113.44&quot;],&quot;tcp.dstport&quot;:[&quot;443&quot;],&quot;tls.handshake.extensions_server_name&quot;:[&quot;api.example.org&quot;]}
+{&quot;matching_packets&quot;:9,&quot;returned_packets&quot;:3,&quot;has_more&quot;:false}
+
+$ rea inspect-packet-capture pcap/lab65.pcap --fields udp.port --fields data.data --display_filter 'udp.port==5555' --format json | jq -c '.normalized_result.packets[]'
+{&quot;frame.number&quot;:[&quot;14&quot;],&quot;udp.port&quot;:[&quot;50555&quot;,&quot;5555&quot;],&quot;data.data&quot;:[&quot;01026c616236352d70696e67&quot;]}
+</code></pre>
+<p><code>01026c616236352d70696e67</code> is <code>\x01\x02lab65-ping</code>, exactly what I sent. Recorded upstream coverage is Wireshark 4.6.6; I used Debian's <strong>4.4.19</strong>, and it worked.</p>
+<h2>9. WebAssembly: inspect and compare, never execute</h2>
+<figure><img src="img/w07-doc-wasm.png" alt="REA's wasm-artifacts doc at 6.5.0"/><figcaption>REA's wasm-artifacts doc at 6.5.0</figcaption></figure>
+<p><code>inspect-wasm-artifact</code> uses your own <a href="https://github.com/WebAssembly/wabt/releases/tag/1.0.42">WABT 1.0.42</a> to validate and list imports and exports, and it can scan loader "glue" JS for references to the module. It <strong>never runs the module</strong> and never fetches anything:</p>
+<figure><img src="img/34-term-wasm.png" alt="Real capture: inspect-wasm-artifact. Valid, not executed, 1 import, 3 exports, glue reference found"/><figcaption>Real capture: inspect-wasm-artifact. Valid, not executed, 1 import, 3 exports, glue reference found</figcaption></figure>
+<pre><code class="language-text">$ rea inspect-wasm-artifact $PWD/wasm/calc-v1.wasm --glue_paths $PWD/wasm/glue.js --format json &gt; notes/wasm-v1.json; jq -c '.confidence, (.normalized_result | {validation, runtime_execution, network_fetch}), .normalized_result.imports, .normalized_result.exports, .normalized_result.glue[0].references[0]' notes/wasm-v1.json
+&quot;observed&quot;
+{&quot;validation&quot;:&quot;valid&quot;,&quot;runtime_execution&quot;:&quot;not-performed&quot;,&quot;network_fetch&quot;:&quot;not-performed&quot;}
+[&quot;(import \&quot;env\&quot; \&quot;log_i32\&quot; (func $log (type 0)))&quot;]
+[&quot;(export \&quot;memory\&quot; (memory 0))&quot;,&quot;(export \&quot;add\&quot; (func $add))&quot;,&quot;(export \&quot;checksum\&quot; (func 2))&quot;]
+{&quot;value&quot;:&quot;calc-v1.wasm&quot;,&quot;line&quot;:4,&quot;column&quot;:68,&quot;candidate_paths&quot;:[&quot;/workspace/re/lab65/wasm/calc-v1.wasm&quot;],&quot;association&quot;:&quot;local-path-candidate&quot;,&quot;evidence_kind&quot;:&quot;static-literal&quot;}
+</code></pre>
+<p>It found the <code>fetch("calc-v1.wasm")</code> literal in my glue file at line 4, column 68, and labeled it a <code>local-path-candidate</code> (a static literal, not proof of what loads at runtime).</p>
+<figure><img src="img/w14-wabt.png" alt="WABT 1.0.42 release page"/><figcaption>WABT 1.0.42 release page</figcaption></figure>
+<p><code>compare-wasm-interfaces</code> diffs two inspection Evidence records (no WABT needed at compare time). It caught exactly my two additions:</p>
+<figure><img src="img/35-term-wasm-compare.png" alt="Real capture: compare v1 → v2. mul and now_ms added, 4 unchanged"/><figcaption>Real capture: compare v1 → v2. mul and now_ms added, 4 unchanged</figcaption></figure>
+<pre><code class="language-text">$ rea inspect-wasm-artifact $PWD/wasm/calc-v2.wasm --format json &gt; notes/wasm-v2.json
+
+$ jq -n --slurpfile l notes/wasm-v1.json --slurpfile r notes/wasm-v2.json '{left: $l[0], right: $r[0], scope: &quot;both&quot;}' &gt; notes/wasm-compare-input.json
+
+$ rea compare-wasm-interfaces notes/wasm-compare-input.json --format json | jq -c '.normalized_result | (.changes[] | &quot;\(.direction) \(.module // &quot;-&quot;).\(.name): \(.state)&quot;), .summary'
+&quot;export -.add: unchanged&quot;
+&quot;export -.checksum: unchanged&quot;
+&quot;export -.memory: unchanged&quot;
+&quot;export -.mul: added&quot;
+&quot;import env.log_i32: unchanged&quot;
+&quot;import env.now_ms: added&quot;
+{&quot;added&quot;:2,&quot;removed&quot;:0,&quot;changed&quot;:0,&quot;unchanged&quot;:4,&quot;unknown&quot;:0}
+</code></pre>
+<p>Snag: the input wants the raw Evidence objects as <code>left</code>/<code>right</code>. The <code>{kind:"inline", evidence}</code> wrapper that <code>inspect-analysis-view</code> uses is rejected (§15).</p>
+<h2>10. Go build metadata</h2>
+<figure><img src="img/w08-doc-go.png" alt="REA's go-binaries doc at 6.5.0"/><figcaption>REA's go-binaries doc at 6.5.0</figcaption></figure>
+<p><code>inspect-go-binary</code> reads the embedded buildinfo from ELF, PE or thin Mach-O, without running the file (<a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/go-binaries.md">go-binaries.md</a>):</p>
+<figure><img src="img/36-term-go.png" alt="Real capture: inspect-go-binary. go1.24.4, main module, dependency versions, build settings"/><figcaption>Real capture: inspect-go-binary. go1.24.4, main module, dependency versions, build settings</figcaption></figure>
+<pre><code class="language-text">$ rea inspect-go-binary go/hellogo --format json | jq -c '.confidence, (.normalized_result | {format, architecture}), (.normalized_result.build_info | {go_version, main: .module.main.path}), (.normalized_result.build_info.module.dependencies[] | {path, version}), [.normalized_result.build_info.module.settings[] | &quot;\(.key)=\(.value)&quot;]'
+&quot;observed&quot;
+{&quot;format&quot;:&quot;elf&quot;,&quot;architecture&quot;:&quot;amd64&quot;}
+{&quot;go_version&quot;:&quot;go1.24.4&quot;,&quot;main&quot;:&quot;example.com/hellogo&quot;}
+{&quot;path&quot;:&quot;golang.org/x/text&quot;,&quot;version&quot;:&quot;v0.0.0-20170915032832-14c0d48ead0c&quot;}
+{&quot;path&quot;:&quot;rsc.io/quote&quot;,&quot;version&quot;:&quot;v1.5.2&quot;}
+{&quot;path&quot;:&quot;rsc.io/sampler&quot;,&quot;version&quot;:&quot;v1.3.0&quot;}
+[&quot;-buildmode=exe&quot;,&quot;-compiler=gc&quot;,&quot;-trimpath=true&quot;,&quot;CGO_ENABLED=0&quot;,&quot;GOARCH=amd64&quot;,&quot;GOOS=linux&quot;,&quot;GOAMD64=v1&quot;]
+</code></pre>
+<p>That's the exact compiler, module graph and build flags (<code>-trimpath=true</code>, <code>CGO_ENABLED=0</code>), all <code>observed</code>. This is the fastest supply-chain question you can ask of a Go binary.</p>
+<h2>11. Rust dependency lists (cargo-auditable)</h2>
+<figure><img src="img/w16-cargo-auditable.png" alt="cargo-auditable on GitHub: embeds the dependency tree in a .dep-v0 section"/><figcaption>cargo-auditable on GitHub: embeds the dependency tree in a .dep-v0 section</figcaption></figure>
+<p><code>inspect-rust-binary</code> reads the <code>.dep-v0</code> section that <a href="https://github.com/rust-secure-code/cargo-auditable">cargo-auditable</a> embeds (<a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/rust-binaries.md">rust-binaries.md</a>). I built the same crate twice:</p>
+<figure><img src="img/37-term-rust.png" alt="Real capture: auditable build lists hellorust → itoa 1.0.18; plain build returns null with an honest limitation"/><figcaption>Real capture: auditable build lists hellorust → itoa 1.0.18; plain build returns null with an honest limitation</figcaption></figure>
+<pre><code class="language-text">$ rea inspect-rust-binary rust/hellorust-auditable --format json | jq -c '.confidence, (.normalized_result.auditable_metadata | {section_name, file_offset, compressed_bytes, uncompressed_bytes}), .normalized_result.auditable_metadata.packages[], .normalized_result.auditable_metadata.dependency_edges'
+&quot;observed&quot;
+{&quot;section_name&quot;:&quot;.dep-v0&quot;,&quot;file_offset&quot;:393425,&quot;compressed_bytes&quot;:117,&quot;uncompressed_bytes&quot;:157}
+{&quot;name&quot;:&quot;hellorust&quot;,&quot;version&quot;:&quot;0.1.0&quot;,&quot;source&quot;:&quot;local&quot;,&quot;kind&quot;:null,&quot;dependencies&quot;:[1],&quot;root&quot;:true}
+{&quot;name&quot;:&quot;itoa&quot;,&quot;version&quot;:&quot;1.0.18&quot;,&quot;source&quot;:&quot;crates.io&quot;,&quot;kind&quot;:null,&quot;dependencies&quot;:[],&quot;root&quot;:false}
+[{&quot;from_index&quot;:0,&quot;to_index&quot;:1}]
+
+$ rea inspect-rust-binary rust/hellorust-plain --format json | jq -c '.normalized_result.auditable_metadata, (.normalized_result.limitations[] | select(test(&quot;dep-v0 section was found&quot;)))'
+null
+&quot;No .dep-v0 section was found. Absence of .dep-v0 does not mean the binary has no dependencies.&quot;
+</code></pre>
+<p>The plain build gets the right answer, which is "don't know": <em>"Absence of .dep-v0 does not mean the binary has no dependencies."</em> (I used cargo-auditable <strong>0.6.6</strong>. 0.7.7 needs rustc ≥ 1.86.)</p>
+<figure><img src="img/w09-doc-rust.png" alt="REA's rust-binaries doc at 6.5.0"/><figcaption>REA's rust-binaries doc at 6.5.0</figcaption></figure>
+<h2>12. Electron fuses: stock vs hardened</h2>
+<figure><img src="img/w15-electron-fuses.png" alt="Electron's fuses documentation"/><figcaption>Electron's fuses documentation</figcaption></figure>
+<p><a href="https://www.electronjs.org/docs/latest/tutorial/fuses">Electron fuses</a> are build-time switches like <code>RunAsNode</code> and <code>EnableNodeCliInspectArguments</code>. <code>inspect-electron-fuses</code> reads the fuse wire bytes <strong>without launching the app</strong>, then states what each one implies at runtime (<a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/electron-fuses.md">electron-fuses.md</a>). I took Electron 44.7.2 and made a hardened copy with <code>@electron/fuses</code>:</p>
+<figure><img src="img/38-term-fuses.png" alt="Real capture: stock fuses honor --inspect and RunAsNode; hardened fuses do not"/><figcaption>Real capture: stock fuses honor --inspect and RunAsNode; hardened fuses do not</figcaption></figure>
+<pre><code class="language-text">$ cat electron/stock/version; echo
+44.7.2
+
+$ rea inspect-electron-fuses electron/stock/electron --format json | jq -r '.normalized_result | &quot;sentinel@\(.slices[0].sentinels[0].sentinel_offset)&quot;, (.slices[0].sentinels[0].fuses[0:6][] | &quot;  \(.index) \(.name) = \(.state)&quot;), (.runtime_implications[] | &quot;  =&gt; \(.subject): \(.outcome)&quot;)'
+sentinel@37022720
+  0 RunAsNode = enabled
+  1 EnableCookieEncryption = disabled
+  2 EnableNodeOptionsEnvironmentVariable = enabled
+  3 EnableNodeCliInspectArguments = enabled
+  4 EnableEmbeddedAsarIntegrityValidation = disabled
+  5 OnlyLoadAppFromAsar = disabled
+  =&gt; node_cli_inspect_arguments: honored
+  =&gt; electron_run_as_node: honored
+  =&gt; embedded_asar_integrity_validation: unknown
+  =&gt; only_load_app_from_asar: not_restricted_to_app_asar
+
+$ rea inspect-electron-fuses electron/hardened/electron --format json | jq -r '.normalized_result | (.slices[0].sentinels[0].fuses[0:6][] | &quot;  \(.index) \(.name) = \(.state)&quot;), (.runtime_implications[] | &quot;  =&gt; \(.subject): \(.outcome)&quot;)'
+  0 RunAsNode = disabled
+  1 EnableCookieEncryption = disabled
+  2 EnableNodeOptionsEnvironmentVariable = disabled
+  3 EnableNodeCliInspectArguments = disabled
+  4 EnableEmbeddedAsarIntegrityValidation = enabled
+  5 OnlyLoadAppFromAsar = enabled
+  =&gt; node_cli_inspect_arguments: not_honored
+  =&gt; electron_run_as_node: not_honored
+  =&gt; embedded_asar_integrity_validation: unknown
+  =&gt; only_load_app_from_asar: restricted_to_app_asar
+</code></pre>
+<p>The stock binary honors <code>ELECTRON_RUN_AS_NODE</code> and <code>--inspect</code>. The hardened one doesn't, and it only loads <code>app.asar</code>. ASAR integrity validation stays <strong>unknown</strong> on Linux even when the fuse is on, because REA won't claim what the platform doesn't enforce. As the changelog puts it, fuse observations <em>"do not prove other Inspector-enablement paths."</em></p>
+<figure><img src="img/w10-doc-fuses.png" alt="REA's electron-fuses doc at 6.5.0"/><figcaption>REA's electron-fuses doc at 6.5.0</figcaption></figure>
+<h2>13. Android, firmware and .NET (the routes I skipped yesterday)</h2>
+<figure><img src="img/w19-doc-android.png" alt="REA's android-analysis doc at 6.5.0"/><figcaption>REA's android-analysis doc at 6.5.0</figcaption></figure>
+<p>Yesterday I left §10.3 (Android), §10.5 (firmware) and §10.7 (.NET) as docs-only. Today I installed the engines and ran them. Everything is also saved as a standalone addendum (<code>addendum-android-firmware-dotnet.md</code>).</p>
+<figure><img src="img/40-term-tools.png" alt="Real capture: pinned JADX jar and APK hashes match REA's fixtures; adb, Apktool, Binwalk, Unblob, sasquatch, .NET SDK versions"/><figcaption>Real capture: pinned JADX jar and APK hashes match REA's fixtures; adb, Apktool, Binwalk, Unblob, sasquatch, .NET SDK versions</figcaption></figure>
+<pre><code class="language-text">$ sha256sum ~/.local/android/jadx-headless-mcp-0.7.1-all.jar ~/.local/android/ApiDemos-debug.apk
+6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75  /home/box/.local/android/jadx-headless-mcp-0.7.1-all.jar
+a9eecf37b26cd084855c530db81c2bb1b91f4c1b095a04f47aa7c20e2791f686  /home/box/.local/android/ApiDemos-debug.apk
+
+$ $REA_ADB_PATH version | head -2; $REA_APKTOOL_COMMAND --version; binwalk --version 2&gt;&amp;1 | head -1; unblob --version; sasquatch -version 2&gt;&amp;1 | head -1; dotnet --version
+Android Debug Bridge version 1.0.41
+Version 37.0.1-15733141
+3.0.3
+binwalk 3.1.0
+26.6.4
+unsquashfs version 4.5.1 (2022/03/17)
+8.0.426
+</code></pre>
+<h3>13.1 Android (JADX headless + Apktool + adb)</h3>
+<figure><img src="img/41-term-android.png" alt="Real capture: inspect-android-package and search-android-classes via jadx-headless-mcp 0.7.1"/><figcaption>Real capture: inspect-android-package and search-android-classes via jadx-headless-mcp 0.7.1</figcaption></figure>
+<pre><code class="language-text">$ rea inspect-android-package $PWD/android/ApiDemos-debug.apk --format json | jq -c '.confidence, (.normalized_result | {package_name, version_name, min_sdk, target_sdk, class_count, resource_count, signature_verification}), .normalized_result.permissions[0:6], (.normalized_result.engine | {name, version})'
+&quot;observed&quot;
+{&quot;package_name&quot;:&quot;io.appium.android.apis&quot;,&quot;version_name&quot;:&quot;6.0.18&quot;,&quot;min_sdk&quot;:&quot;26&quot;,&quot;target_sdk&quot;:&quot;33&quot;,&quot;class_count&quot;:2876,&quot;resource_count&quot;:869,&quot;signature_verification&quot;:&quot;not_performed&quot;}
+[&quot;android.permission.READ_CONTACTS&quot;,&quot;android.permission.WRITE_CONTACTS&quot;,&quot;android.permission.VIBRATE&quot;,&quot;android.permission.ACCESS_COARSE_LOCATION&quot;,&quot;android.permission.INTERNET&quot;,&quot;android.permission.SET_WALLPAPER&quot;]
+{&quot;name&quot;:&quot;jadx-headless-mcp&quot;,&quot;version&quot;:&quot;0.7.1&quot;}
+
+$ rea search-android-classes $PWD/android/ApiDemos-debug.apk ApiDemos --format json | jq -c '.normalized_result | {total_classes, matches, coverage}'
+{&quot;total_classes&quot;:2876,&quot;matches&quot;:[&quot;io.appium.android.apis.ApiDemos&quot;,&quot;io.appium.android.apis.ApiDemosApplication&quot;],&quot;coverage&quot;:&quot;complete&quot;}
+</code></pre>
+<figure><img src="img/42-term-android-method.png" alt="Real capture: one method decompiled to Java, Apktool resource decode, adb device list"/><figcaption>Real capture: one method decompiled to Java, Apktool resource decode, adb device list</figcaption></figure>
+<pre><code class="language-text">$ rea inspect-android-method $PWD/android/ApiDemos-debug.apk io.appium.android.apis.ApiDemos onCreate --format json | jq -r '.normalized_result | &quot;\(.method.reported_signature)  [\(.representation), body \(.body_status)]&quot;, .source.text'
+onCreate(android.os.Bundle): void  [java, body available]
+    @Override // android.app.Activity
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Intent intent = getIntent();
+        String path = intent.getStringExtra(&quot;io.appium.android.apis.Path&quot;);
+        if (path == null) {
+            path = &quot;&quot;;
+        }
+        setListAdapter(new SimpleAdapterWithDesc(this, getData(path), android.R.layout.simple_list_item_1, new String[]{&quot;title&quot;, &quot;contentDescription&quot;}, new int[]{android.R.id.text1, android.R.id.text2}));
+        getListView().setTextFilterEnabled(true);
+    }
+
+$ rea decode-android-resources $PWD/android/ApiDemos-debug.apk --no-strings --format json | jq -c '.normalized_result | .client, .metadata, {decoded_file_count, coverage}'
+{&quot;command&quot;:&quot;/home/box/.local/apktool/apktool&quot;,&quot;command_source&quot;:&quot;environment&quot;,&quot;apktool_version&quot;:&quot;3.0.3&quot;}
+{&quot;version_name&quot;:&quot;6.0.18&quot;,&quot;version_code&quot;:&quot;44&quot;,&quot;min_sdk_version&quot;:&quot;26&quot;,&quot;target_sdk_version&quot;:&quot;33&quot;,&quot;package_name&quot;:&quot;io.appium.android.apis&quot;}
+{&quot;decoded_file_count&quot;:983,&quot;coverage&quot;:&quot;complete&quot;}
+
+$ rea list-adb-devices --format json | jq -c '.normalized_result // {code, message}'
+{&quot;client&quot;:{&quot;binary_path&quot;:&quot;/home/box/.local/android/platform-tools/adb&quot;,&quot;path_source&quot;:&quot;environment&quot;,&quot;version&quot;:&quot;37.0.1-15733141&quot;,&quot;installed_path&quot;:&quot;/home/box/.local/android/platform-tools/adb&quot;},&quot;devices&quot;:[],&quot;may_have_started_adb_server&quot;:true}
+</code></pre>
+<p><code>signature_verification: "not_performed"</code> is stated, not hidden. <code>list-adb-devices</code> honestly reports <code>may_have_started_adb_server: true</code>. It did, so I ran <code>adb kill-server</code> afterwards. I didn't touch the device-changing tools (install, push, start) because there's no device.</p>
+<figure><img src="img/w22-doc-apktool.png" alt="REA's apktool-resource-analysis doc at 6.5.0"/><figcaption>REA's apktool-resource-analysis doc at 6.5.0</figcaption></figure>
+<h3>13.2 Firmware (Binwalk 3.1.0 + Unblob 26.6.4 → Ghidra)</h3>
+<figure><img src="img/w20-doc-firmware.png" alt="REA's firmware-analysis doc at 6.5.0"/><figcaption>REA's firmware-analysis doc at 6.5.0</figcaption></figure>
+<figure><img src="img/43-term-firmware.png" alt="Real capture: Binwalk regions, Unblob extraction, extracted rootfs files"/><figcaption>Real capture: Binwalk regions, Unblob extraction, extracted rootfs files</figcaption></figure>
+<pre><code class="language-text">$ ls -la firmware/lab65-fw.bin
+-r--r--r-- 1 box box 188416 Oct 14 15:01 firmware/lab65-fw.bin
+
+$ rea inspect-firmware-regions $PWD/firmware/lab65-fw.bin --format json | jq -c '.provider, (.normalized_result.regions[] | {offset, reported_size, signature})'
+{&quot;id&quot;:&quot;binwalk&quot;,&quot;name&quot;:&quot;Binwalk&quot;,&quot;version&quot;:&quot;3.1.0&quot;}
+{&quot;offset&quot;:512,&quot;reported_size&quot;:179527,&quot;signature&quot;:&quot;squashfs&quot;}
+{&quot;offset&quot;:184320,&quot;reported_size&quot;:152,&quot;signature&quot;:&quot;gzip&quot;}
+
+$ rea extract-firmware $PWD/firmware/lab65-fw.bin $PWD/notes/fw-x --format json | jq -c '.provider, (.normalized_result | {coverage, gaps: [.extraction_gaps[] | {kind, range}]})'
+{&quot;id&quot;:&quot;unblob&quot;,&quot;name&quot;:&quot;Unblob&quot;,&quot;version&quot;:&quot;26.6.4&quot;}
+{&quot;coverage&quot;:&quot;partial&quot;,&quot;gaps&quot;:[{&quot;kind&quot;:&quot;unknown-chunk-handler&quot;,&quot;range&quot;:{&quot;offset&quot;:0,&quot;length&quot;:512}}]}
+
+$ cd notes/fw-x &amp;&amp; find . -type f | sort &amp;&amp; cat firmware.bin_extract/512-180736.squashfs_v4_le_extract/etc/device.conf
+./firmware.bin_extract/0-512.unknown
+./firmware.bin_extract/180736-184320.padding
+./firmware.bin_extract/184320-184472.gzip_extract/gzip.uncompressed
+./firmware.bin_extract/184320-184472.gzip_extract/gzip.uncompressed_extract/wifi.conf
+./firmware.bin_extract/184472-188416.padding
+./firmware.bin_extract/512-180736.squashfs_v4_le_extract/bin/hellod
+./firmware.bin_extract/512-180736.squashfs_v4_le_extract/etc/device.conf
+./firmware.bin_extract/512-180736.squashfs_v4_le_extract/www/index.html
+hostname=lab65-router
+admin_ui=enabled
+fw_version=6.5.0-lab
+</code></pre>
+<p>Coverage is <code>partial</code>, and the <strong>only</strong> gap is my own 512-byte custom header, which no handler knows. That's correct. The first time, the gap was <code>missing-extractor-dependency: sasquatch</code> and the squashfs stayed packed (§15). Then the extracted daemon goes straight into the native flow:</p>
+<figure><img src="img/44-term-firmware-ghidra.png" alt="Real capture: the extracted ELF opened with Ghidra; string found at 0x14c000"/><figcaption>Real capture: the extracted ELF opened with Ghidra; string found at 0x14c000</figcaption></figure>
+<pre><code class="language-text">$ rea search notes/fw-x/firmware.bin_extract/512-180736.squashfs_v4_le_extract/bin/hellod hello-rust --provider ghidra --format json | jq -c '.subject.format, .subject.architecture, (.normalized_result | if type==&quot;array&quot; then .[0:2] else (.matches // .)[0:2] end), .confidence'
+&quot;elf&quot;
+&quot;x86_64&quot;
+[{&quot;address&quot;:&quot;0x14c000&quot;,&quot;value&quot;:&quot;hello-rust \n&quot;}]
+&quot;observed&quot;
+</code></pre>
+<h3>13.3 .NET (static metadata and CIL, no engine)</h3>
+<figure><img src="img/w21-doc-managed.png" alt="REA's managed-code-analysis doc at 6.5.0"/><figcaption>REA's managed-code-analysis doc at 6.5.0</figcaption></figure>
+<p>My assembly is a harmless promo-code <em>format</em> checker with one P/Invoke:</p>
+<pre><code class="language-csharp">public static bool IsWellFormed(string code) =&gt; code.Length == 8 &amp;&amp; code.StartsWith(&quot;LAB-&quot;) &amp;&amp; Checksum(code) % 7 == 3;
+[DllImport(&quot;libc&quot;, EntryPoint = &quot;getpid&quot;)] public static extern int GetPid();
+</code></pre>
+<figure><img src="img/45-term-dotnet.png" alt="Real capture: inspect-managed-artifact, inspect-managed-members (new ldstr literals and declaring types), native boundaries"/><figcaption>Real capture: inspect-managed-artifact, inspect-managed-members (new ldstr literals and declaring types), native boundaries</figcaption></figure>
+<pre><code class="language-text">$ rea inspect-managed-artifact dotnet/target/PromoLab.dll --format json | jq -c '(.normalized_result.classification | {status, runtime_family, implementation, managed_architecture}), (.normalized_result.assembly | {name, version}), .normalized_result.metadata.table_row_counts'
+{&quot;status&quot;:&quot;managed&quot;,&quot;runtime_family&quot;:&quot;modern-dotnet&quot;,&quot;implementation&quot;:&quot;cil&quot;,&quot;managed_architecture&quot;:&quot;anycpu&quot;}
+{&quot;name&quot;:&quot;PromoLab&quot;,&quot;version&quot;:&quot;1.0.0.0&quot;}
+{&quot;Module&quot;:1,&quot;TypeRef&quot;:19,&quot;TypeDef&quot;:4,&quot;Field&quot;:1,&quot;MethodDef&quot;:6,&quot;Param&quot;:3,&quot;MemberRef&quot;:23,&quot;Constant&quot;:1,&quot;CustomAttribute&quot;:14,&quot;StandAloneSig&quot;:2,&quot;ModuleRef&quot;:1,&quot;ImplMap&quot;:1,&quot;Assembly&quot;:1,&quot;AssemblyRef&quot;:2,&quot;MethodSpec&quot;:1}
+
+$ rea inspect-managed-members dotnet/target/PromoLab.dll --type PromoLab.PromoCode --format json | jq -c '(.normalized_result.methods[] | {name, sig: &quot;\(.signature.return_type) (\(.signature.parameter_types|join(&quot;, &quot;)))&quot;, il_bytes: .body.il_size}), .normalized_result.user_strings.literals, (.normalized_result.call_edges[] | &quot;\(.caller) -&gt; \(.target_declaring_type).\(.target_name)&quot;)'
+{&quot;name&quot;:&quot;IsWellFormed&quot;,&quot;sig&quot;:&quot;bool (string)&quot;,&quot;il_bytes&quot;:36}
+{&quot;name&quot;:&quot;Checksum&quot;,&quot;sig&quot;:&quot;i4 (string)&quot;,&quot;il_bytes&quot;:43}
+{&quot;name&quot;:&quot;Describe&quot;,&quot;sig&quot;:&quot;string ()&quot;,&quot;il_bytes&quot;:6}
+{&quot;name&quot;:&quot;.ctor&quot;,&quot;sig&quot;:&quot;void ()&quot;,&quot;il_bytes&quot;:7}
+[{&quot;token&quot;:&quot;0x70000001&quot;,&quot;offset&quot;:2381,&quot;value&quot;:&quot;LAB-&quot;},{&quot;token&quot;:&quot;0x7000000b&quot;,&quot;offset&quot;:2391,&quot;value&quot;:&quot;PromoLab code formatter v1&quot;}]
+&quot;PromoLab.PromoCode.IsWellFormed -&gt; System.String.get_Length&quot;
+&quot;PromoLab.PromoCode.IsWellFormed -&gt; System.String.StartsWith&quot;
+&quot;PromoLab.PromoCode.IsWellFormed -&gt; PromoLab.PromoCode.Checksum&quot;
+&quot;PromoLab.PromoCode.Checksum -&gt; System.String.get_Chars&quot;
+&quot;PromoLab.PromoCode.Checksum -&gt; System.String.get_Length&quot;
+&quot;PromoLab.PromoCode.Checksum -&gt; System.Math.Abs&quot;
+&quot;PromoLab.PromoCode..ctor -&gt; System.Object..ctor&quot;
+
+$ rea inspect-managed-native-boundaries dotnet/target/PromoLab.dll --format json | jq -c '.normalized_result.pinvoke_imports[] | {member_name, import_scope_name, import_name}'
+{&quot;member_name&quot;:&quot;GetPid&quot;,&quot;import_scope_name&quot;:&quot;libc&quot;,&quot;import_name&quot;:&quot;getpid&quot;}
+</code></pre>
+<p>New in 6.5 and visible here: decoded <strong><code>ldstr</code> literals</strong> (<code>"LAB-"</code>, the banner) and a <strong>declaring type on every call target</strong>. The P/Invoke boundary <code>GetPid → libc!getpid</code> is found without loading the assembly.</p>
+<h2>14. rea doctor, the agent connector, and what passes</h2>
+<figure><img src="img/w12-doc-grokbot.png" alt="REA's client-configuration doc: how Grok Bot connectors are detected"/><figcaption>REA's client-configuration doc: how Grok Bot connectors are detected</figcaption></figure>
+<p>After installing everything, here's the unscoped doctor:</p>
+<figure><img src="img/46-term-doctor-all.png" alt="Real capture: unscoped rea doctor plus the per-route client inspectors"/><figcaption>Real capture: unscoped rea doctor plus the per-route client inspectors</figcaption></figure>
+<pre><code class="language-text">$ rea doctor --json | jq -r '&quot;healthy: \(.healthy)&quot;, (.checks[] | &quot;  \(if .ok then &quot;PASS&quot; else &quot;FAIL&quot; end)  \(.classification)  \(.name)&quot;)'
+healthy: false
+  PASS  healthy  node
+  PASS  healthy  host
+  FAIL  missing_analysis_engine  hopper
+  PASS  healthy  ghidra
+  PASS  healthy  ghidra-platform
+  PASS  healthy  ghidra-architecture
+  PASS  healthy  ghidra-installation
+  PASS  healthy  ghidra-version
+  PASS  healthy  ghidra-headless
+  PASS  healthy  ghidra-native_decompiler
+  PASS  healthy  ghidra-java
+  FAIL  missing_analysis_engine  ida-registration
+  PASS  healthy  jadx
+  FAIL  config_drift  skill:identity
+  FAIL  config_drift  registration:cursor
+
+$ rea inspect-apktool-client --format json | jq -c '.normalized_result.client // .normalized_result'
+{&quot;command&quot;:&quot;/home/box/.local/apktool/apktool&quot;,&quot;command_source&quot;:&quot;environment&quot;,&quot;apktool_version&quot;:&quot;3.0.3&quot;}
+
+$ rea inspect-adb-client --format json | jq -c '.normalized_result | {version: (.client.version // .version)}'
+{&quot;version&quot;:&quot;37.0.1-15733141&quot;}
+
+$ rea inspect-pcap-client --format json | jq -c '.normalized_result.client | {tshark_version, capinfos_version}'
+{&quot;tshark_version&quot;:&quot;TShark (Wireshark) 4.4.19.&quot;,&quot;capinfos_version&quot;:&quot;Capinfos (Wireshark) 4.4.19.&quot;}
+</code></pre>
+<ul>
+<li><strong>PASS (12):</strong> node, host, ghidra and its 7 sub-checks, <strong>jadx</strong>. <code>host</code> passes on Debian 13 today; yesterday's 6.4.0 doctor called it unsupported.</li>
+<li><strong>FAIL (4):</strong> <code>hopper</code> and <code>ida-registration</code> (engines I don't have; Hopper is macOS), <code>skill:identity</code> and <code>registration:cursor</code> (config drift: doctor suggests <code>rea setup</code>, which I didn't run because it edits client configs).</li>
+<li>Doctor doesn't check Binwalk, Unblob, WABT or TShark. Use each route's <code>inspect-*-client</code> command, or just run the route.</li>
+</ul>
+<p>My Grok Bot <code>rea</code> connector restarted onto 6.5.0. The proof is that the connector and the CLI produce <strong>the same content-addressed Evidence ID</strong> for the same file:</p>
+<figure><img src="img/39-term-connector.png" alt="Real capture: Grok Bot's rea connector on 6.5.0, same Evidence ID as the CLI"/><figcaption>Real capture: Grok Bot's rea connector on 6.5.0, same Evidence ID as the CLI</figcaption></figure>
+<pre><code class="language-text">$ grep -o '&quot;version&quot;:&quot;6[^&quot;]*&quot;' /home/box/.cursor/projects/workspace/agent-tools/1fa1225f-a97b-4f2b-abff-f7fe288fdd1e.txt | sort -u   # Grok Bot rea connector: binary_session
+&quot;version&quot;:&quot;6.5.0&quot;
+
+$ sed -n 3p notes/connector-sqlite.txt | jq -c '{evidence_id, operation, tables: [.normalized_result.schema.tables[].name]}'   # connector call inspect_sqlite_database
+{&quot;evidence_id&quot;:&quot;ev_ef0682312cecc391309aa48113ddd1c0841f5a30bb81439ac5461c005edf94cf&quot;,&quot;operation&quot;:&quot;inspect_sqlite_database&quot;,&quot;tables&quot;:[&quot;users&quot;,&quot;notes&quot;]}
+
+$ rea inspect-sqlite-database sqlite/notes.db --format json | jq -r .evidence_id   # same file through the CLI
+ev_ef0682312cecc391309aa48113ddd1c0841f5a30bb81439ac5461c005edf94cf
+</code></pre>
+<h2>15. Troubleshooting: real snags from today</h2>
+<figure><img src="img/50-term-snags.png" alt="Real capture: four real errors and what fixes them"/><figcaption>Real capture: four real errors and what fixes them</figcaption></figure>
+<pre><code class="language-text">$ env -u REA_TSHARK_COMMAND rea inspect-packet-capture pcap/lab65.pcap --fields ip.src --format json | jq -c '{code, message}'
+{&quot;code&quot;:&quot;capability_unavailable&quot;,&quot;message&quot;:&quot;Supply absolute REA_TSHARK_COMMAND for TShark 4.x. On Linux, configure TShark 4.x through REA_TSHARK_COMMAND and util-linux prlimit through REA_TSHARK_PRLIMIT_COMMAND (default /usr/bin/prlimit).&quot;}
+
+$ PATH=/usr/bin:$PATH node --version; PATH=/usr/bin:$PATH node ~/.local/bin/rea inspect-sqlite-database sqlite/notes.db --format json | jq -c '{code, message}'
+v20.19.2
+{&quot;code&quot;:&quot;execution_failure&quot;,&quot;message&quot;:&quot;Analysis could not complete. Run `rea doctor` and review the reported details; repeating the unchanged request is not expected to succeed.&quot;}
+
+$ jq -n --slurpfile l notes/wasm-v1.json --slurpfile r notes/wasm-v2.json '{left: {kind: &quot;inline&quot;, evidence: $l[0]}, right: {kind: &quot;inline&quot;, evidence: $r[0]}, scope: &quot;both&quot;}' &gt; /tmp/bad-compare.json; rea compare-wasm-interfaces /tmp/bad-compare.json --format json | jq -c '{code, first_issues: [.details.issues[0:2][] | {path, reason}]}'
+{&quot;code&quot;:&quot;invalid_request&quot;,&quot;first_issues&quot;:[{&quot;path&quot;:[&quot;left&quot;,&quot;evidence_id&quot;],&quot;reason&quot;:&quot;missing_argument&quot;},{&quot;path&quot;:[&quot;left&quot;,&quot;subject&quot;],&quot;reason&quot;:&quot;missing_argument&quot;}]}
+
+$ jq -c '.normalized_result.extraction_gaps[0] | {kind, handler, dependencies}' notes/fw-extract.json   # first extract-firmware run, before installing sasquatch
+{&quot;kind&quot;:&quot;missing-extractor-dependency&quot;,&quot;handler&quot;:&quot;squashfs_v4_le&quot;,&quot;dependencies&quot;:[&quot;sasquatch&quot;]}
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>capability_unavailable: Supply absolute REA_TSHARK_COMMAND</code></td>
+<td><code>export REA_TSHARK_COMMAND=/usr/bin/tshark</code>. <code>inspect-pcap-capture</code> finds tshark on PATH; <code>inspect-packet-capture</code> insists on an absolute path</td>
+</tr>
+<tr>
+<td>SQLite → vague <code>execution_failure</code></td>
+<td>You're on Node 20 (or Node 22 / early 24). Use Node 24 ≥ 24.15 or 26+</td>
+</tr>
+<tr>
+<td><code>compare-wasm-interfaces</code> → <code>missing_argument left.evidence_id</code></td>
+<td>Pass the raw Evidence JSON as <code>left</code>/<code>right</code>, not <code>{kind:"inline",evidence}</code></td>
+</tr>
+<tr>
+<td>Unblob gap <code>missing-extractor-dependency: sasquatch</code></td>
+<td>Install <a href="https://github.com/onekey-sec/sasquatch/releases">onekey-sec/sasquatch</a> (I used v4.5.1-6). Also <code>libmagic1</code>, <code>lz4</code>, <code>zstd</code>, <code>p7zip-full</code>, <code>e2fsprogs</code></td>
+</tr>
+<tr>
+<td><code>apt</code> can't find <code>tshark</code></td>
+<td><code>sudo apt-get update</code> first</td>
+</tr>
+<tr>
+<td>Binwalk 3.1.0 has no Linux release binary</td>
+<td><code>cargo install binwalk --version 3.1.0 --locked</code></td>
+</tr>
+<tr>
+<td><code>cargo install cargo-auditable</code> fails on older Rust</td>
+<td><code>cargo install cargo-auditable --version 0.6.6</code> (0.7.7 needs rustc 1.86)</td>
+</tr>
+<tr>
+<td>Agent connector still advertises 6.4.0 tools</td>
+<td>Restart or reconnect it, or pin it to <code>npx -y rea-agents@6.5.0 mcp</code></td>
+</tr>
+<tr>
+<td>npm warns about <code>frida</code> install scripts</td>
+<td>Harmless unless you use the Frida tools; allow them explicitly if you do</td>
+</tr>
+</tbody>
+</table>
+<h2>16. Hype vs receipts (short version)</h2>
+<figure><img src="img/51-term-stars.png" alt="Real capture: GitHub API star count at 3:03 PM ET"/><figcaption>Real capture: GitHub API star count at 3:03 PM ET</figcaption></figure>
+<pre><code class="language-text">$ curl -s https://api.github.com/repos/morluto/rea | jq '{full_name, stargazers_count, forks_count, pushed_at}'
+{
+  &quot;full_name&quot;: &quot;morluto/rea&quot;,
+  &quot;stargazers_count&quot;: 236820,
+  &quot;forks_count&quot;: 59053,
+  &quot;pushed_at&quot;: &quot;2026-10-14T19:02:50Z&quot;
+}
+
+$ TZ=America/New_York date
+Wed Oct 14 15:03:50 EDT 2026
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Claim going around today</th>
+<th>Receipt</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"Pick the JS files you want… trace how pieces connect across bundles" (<a href="https://x.com/_ttejas_/status/2110363026419503576">@<em>ttejas</em></a>)</td>
+<td><strong>Confirmed.</strong> §4–5: 2 of 4 files parsed, cross-chunk edges and bindings resolved, unselected files marked unknown</td>
+</tr>
+<tr>
+<td>"893 commits, 529 merged PRs" (<a href="https://x.com/DavidCabezaAI/status/2110380913779523836">@DavidCabezaAI</a>)</td>
+<td><strong>Matches the release notes' own</strong> <a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/releases/6.5.0.contributions.json">contribution record</a>. For scale: <code>git rev-list</code> between the two tags in my clone counts 266 commits on the tag line</td>
+</tr>
+<tr>
+<td>"334 MB Obsidian analysis → ~10 KB summary" (<a href="https://x.com/Alexcyzhou/status/2110378930448511031">@Alexcyzhou</a>)</td>
+<td><strong>That's the docs' example</strong>, not something I reproduced. My own receipt: 266,827 → 9,827 bytes on a small app (§6)</td>
+</tr>
+<tr>
+<td>"6.5 is noticeably faster" (<a href="https://x.com/qwerty__cs/status/2110396867918057724">@qwerty__cs</a>)</td>
+<td><strong>Not measured.</strong> I didn't benchmark 6.4 vs 6.5</td>
+</tr>
+<tr>
+<td>"REA + Opus 5.5 finds exactly why any app is slow, down to the line" (<a href="https://x.com/0xMitto/status/2110343371122200787">@0xMitto</a>)</td>
+<td><strong>Not a documented REA route.</strong> REA reads code and recorded evidence; it isn't a profiler. Treat line-level "why it's slow" claims as the model's inference</td>
+</tr>
+<tr>
+<td>Stars</td>
+<td>GitHub API: <strong>236,820</strong> at 3:03 PM ET, Oct 14 (yesterday's capture: 204,859 at 6:28 PM ET)</td>
+</tr>
+</tbody>
+</table>
+<h2>17. What I did <em>not</em> test (documented only)</h2>
+<figure><img src="img/w03-release-rust-fuses.png" alt="6.5.0 release notes highlights"/><figcaption>6.5.0 release notes highlights</figcaption></figure>
+<p>These are in 6.5.0's release notes, but I didn't run them, so take them as documented, not verified: <strong>sigrok</strong> signal-recording decode (Linux, sigrok-cli 0.7.2), <strong>QUIC qlog</strong> (aioquic 1.5.0), <strong>Fiddler SAZ</strong>, <strong>HarmonyOS</strong> HAP/HSP, <strong>Flutter</strong> APK AOT, <strong>Frida</strong> instrumentation, attached native <strong>IDA</strong> MCP, new <strong>Ghidra</strong> profiles (MIPS, RISC-V, PowerPC, PSP, raw 6502), Ghidra <strong>byte search</strong>, AArch64 recorded crashes, HAR API-surface derivation, and the ADB device-changing tools. Nothing here was run on <strong>Windows</strong> or <strong>macOS</strong>. Two recorded-coverage notes: upstream tested pcap with Wireshark 4.6.6 (I used 4.4.19), and WASM's real-tool lane is macOS arm64 (I ran it on Linux x64).</p>
+<h2>18. Links</h2>
+<figure><img src="img/w13-rea-tools.png" alt="rea.tools, the project site"/><figcaption>rea.tools, the project site</figcaption></figure>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6.5.0 release</td>
+<td><a href="https://github.com/morluto/rea/releases/tag/rea-agents-6.5.0">https://github.com/morluto/rea/releases/tag/rea-agents-6.5.0</a></td>
+</tr>
+<tr>
+<td>Changelog at 6.5.0</td>
+<td><a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/CHANGELOG.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/CHANGELOG.md</a></td>
+</tr>
+<tr>
+<td>npm package</td>
+<td><a href="https://www.npmjs.com/package/rea-agents">https://www.npmjs.com/package/rea-agents</a></td>
+</tr>
+<tr>
+<td>Project site</td>
+<td><a href="https://rea.tools/">https://rea.tools/</a></td>
+</tr>
+<tr>
+<td>JS recovery</td>
+<td><a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/javascript-recovery.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/javascript-recovery.md</a></td>
+</tr>
+<tr>
+<td>MCP contracts (summary / views)</td>
+<td><a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/mcp-contracts.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/mcp-contracts.md</a></td>
+</tr>
+<tr>
+<td>CLI guide</td>
+<td><a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/cli.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/cli.md</a></td>
+</tr>
+<tr>
+<td>SQLite</td>
+<td><a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/sqlite-databases.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/sqlite-databases.md</a></td>
+</tr>
+<tr>
+<td>Packet captures</td>
+<td><a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/pcap-analysis.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/pcap-analysis.md</a></td>
+</tr>
+<tr>
+<td>WASM</td>
+<td><a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/wasm-artifacts.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/wasm-artifacts.md</a></td>
+</tr>
+<tr>
+<td>Go</td>
+<td><a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/go-binaries.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/go-binaries.md</a></td>
+</tr>
+<tr>
+<td>Rust</td>
+<td><a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/rust-binaries.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/rust-binaries.md</a></td>
+</tr>
+<tr>
+<td>Electron fuses</td>
+<td><a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/electron-fuses.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/electron-fuses.md</a></td>
+</tr>
+<tr>
+<td>Android</td>
+<td><a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/android-analysis.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/android-analysis.md</a></td>
+</tr>
+<tr>
+<td>Apktool resources</td>
+<td><a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/apktool-resource-analysis.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/apktool-resource-analysis.md</a></td>
+</tr>
+<tr>
+<td>Firmware</td>
+<td><a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/firmware-analysis.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/firmware-analysis.md</a></td>
+</tr>
+<tr>
+<td>.NET / managed</td>
+<td><a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/managed-code-analysis.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/managed-code-analysis.md</a></td>
+</tr>
+<tr>
+<td>Client setup (incl. Grok Bot)</td>
+<td><a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/client-configuration.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/client-configuration.md</a></td>
+</tr>
+<tr>
+<td>Testing / recorded scope</td>
+<td><a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/testing.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/testing.md</a></td>
+</tr>
+<tr>
+<td>Disclaimer</td>
+<td><a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/DISCLAIMER.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/DISCLAIMER.md</a></td>
+</tr>
+<tr>
+<td>WABT 1.0.42</td>
+<td><a href="https://github.com/WebAssembly/wabt/releases/tag/1.0.42">https://github.com/WebAssembly/wabt/releases/tag/1.0.42</a></td>
+</tr>
+<tr>
+<td>Wakaru 1.14.0</td>
+<td><a href="https://github.com/pionxzh/wakaru/releases/tag/v1.14.0">https://github.com/pionxzh/wakaru/releases/tag/v1.14.0</a></td>
+</tr>
+<tr>
+<td>cargo-auditable</td>
+<td><a href="https://github.com/rust-secure-code/cargo-auditable">https://github.com/rust-secure-code/cargo-auditable</a></td>
+</tr>
+<tr>
+<td>Electron fuses</td>
+<td><a href="https://www.electronjs.org/docs/latest/tutorial/fuses">https://www.electronjs.org/docs/latest/tutorial/fuses</a></td>
+</tr>
+<tr>
+<td>sasquatch</td>
+<td><a href="https://github.com/onekey-sec/sasquatch/releases">https://github.com/onekey-sec/sasquatch/releases</a></td>
+</tr>
+<tr>
+<td>Appium ApiDemos (Apache-2.0)</td>
+<td><a href="https://github.com/appium/android-apidemos">https://github.com/appium/android-apidemos</a></td>
+</tr>
+</tbody>
+</table>
+<p><em>Analyze only what you own or are authorized to analyze. Every target above is my own build or an Apache-2.0 sample.</em></p></body></html>

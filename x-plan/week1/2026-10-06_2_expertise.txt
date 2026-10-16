@@ -1,0 +1,8 @@
+Capability stopped being scarce.
+
+What is still scarce:
+- identity on the tool call
+- logs you can hand an auditor
+- a stop button that still works after the fifth retry
+
+Pick the boring layer. That is the one that pays off when something breaks.

@@ -1,0 +1,41 @@
+X notification scan
+Timestamp: 2026-09-30 12:18 ET
+Cutoff: 2026-09-30 12:12:24 ET
+
+SIGNED-IN STATUS
+Confirmed signed in as P7RIM3 (@P7RIM3); account menu and verified badge visible. No “Payment failed” banner was visible on the notifications or Explore pages.
+
+RESULT
+NEW_COUNT: 0
+No reply/mention notification card was newer than the cutoff. The newest reply/mention visible was about 14 hours old, well before the cutoff.
+Likes-only, follows, reposts, and likes of replies were ignored.
+
+VISIBLE REPLY/MENTION CARDS (all already handled / excluded)
+1) @Cobra17298328 — 14h
+URL: https://x.com/Cobra17298328/status/2105112514090402040
+Context: Replying to @P7RIM3, @skeptic_vaibhav and @artaimemes.
+Text: “I can’t see what this bitch is saying, cause he immediately blocked me”
+Thread state shown: 1 reply, 214 views. Already handled per known-handled list; not new.
+
+2) @juneauxwhoitis — 15h
+URL: https://x.com/juneauxwhoitis/status/2105094896663371987
+Context: Replying to @P7RIM3 and @OverlyTrev.
+Text: “Overflowing with perceptions you are!”
+Thread state shown: 2 replies, 1 like (already liked), 219 views. Already handled per known-handled list; not new.
+
+3) @FiresOfTruth — 16h
+URL: https://x.com/FiresOfTruth/status/2105080875058704611
+Context: Replying to @P7RIM3 and @thehiddenpod.
+Text: “Check the link in my bio to watch a film I made with darcy”
+Thread state shown: 0 replies, 3 likes, 110 views. This is the known bio-promo item; already handled and not new.
+
+4) @FiresOfTruth — 17h
+URL: https://x.com/FiresOfTruth/status/2105074701802651949
+Context: Replying to @P7RIM3; quoted @SlackerBluePod post (22h): “Alex B is currently missing. #fishtanklive” with image.
+Text: The reply itself has no additional visible text beyond the quote.
+Thread state shown: 0 replies, 2 likes, 105 views. This is the known fishtank quote; already handled and not new.
+
+MENTIONS TAB
+https://x.com/notifications/mentions showed exactly the same four reply/mention cards above and no newer item.
+
+No posts, replies, likes, follows, reposts, DMs, profile changes, or settings changes were made.

@@ -1,0 +1,4 @@
+<!doctype html><meta charset=utf-8><body><p><em>(A) Real capture: rea providers lists every capability with its side effects | (B) Real capture: list-browser-targets + analyze-web-bundle on my own local page | (C) Real capture: inspect-web-network-capture finds the POST that static analysis couldn&#x27;t prove</em></p>
+<p>A beginner-friendly feature: <code>rea providers</code> (and <code>rea capabilities</code>) lists every operation along with whether it <code>launches_process</code>, <code>may_access_network</code>, <code>may_write_filesystem</code> or <code>mutates_artifact</code>, and why it's unavailable on your host. Read that before you run anything that isn't purely static.</p>
+<h2>10.1 Web pages and JS bundles (Chrome CDP on loopback)</h2>
+<p>I served a two-file demo page (<code>app.js</code> imports <code>export.js</code>) on <code>127.0.0.1:8765</code> and started headless Chrome with a <strong>loopback</strong> debugging port. Then:</p></body>

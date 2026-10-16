@@ -1,0 +1,28 @@
+X notification scan — 2026-09-29 17:58 EDT
+Threshold: approximately 17:52 America/New_York (EDT)
+Scope: inbound replies/mentions to @P7RIM3 only; likes, follows, reposts, and recommendation cards excluded.
+Observation: the newest candidate shown in both tabs was displayed as 1h; opening it showed 1:13 PM · Sep 29, 2026. No candidate was near or after the 17:52 threshold.
+
+ALL
+handle | status_url | time | text | already_answered_yes_no | notes
+@jammusnu | https://x.com/jammusnu/status/2105028160488087682 | 1h (status page: 1:13 PM EDT) | literally done so twice. | yes | Luke/bot thread; a later @P7RIM3 reply is visible in-thread; user-listed handled thread, stop after over two beats.
+@jammusnu | https://x.com/jammusnu/status/2105021044033814880 | 2h | 100 dollars real lmao get out of my hair u fully fledged retard. read the thread back it is beyond obvious where u have gone wrong. may the Lord have mercy on u for ur inadequate use of the gift of quantum computing that’s housed inside your skull. | yes | Luke/bot thread; @P7RIM3 reply visible in-thread; user-listed handled.
+@jammusnu | https://x.com/jammusnu/status/2105019955515453443 | 2h | are u a fucking bot? | yes | Includes a quote of an earlier @P7RIM3 post; @P7RIM3 replies are visible in-thread; user-listed handled.
+@jammusnu | https://x.com/jammusnu/status/2105016153927974930 | 2h | yes. that is exactly what Luke 22:36 is & exsctly what i was referring to when you stated that selling my cloak was a stupid idea. you’re literally changing your whole narrative now. | yes | Quote included in X card; @P7RIM3 replies are visible in-thread; user-listed handled.
+@Only_Ryan02 | https://x.com/Only_Ryan02/status/2105016091038884088 | 2h | I’m saying it’s been proven this is a satellite. | yes | Satellite/orb thread; user-listed already handled.
+@Only_Ryan02 | https://x.com/Only_Ryan02/status/2105015964190548268 | 2h | That’s literally what I’m saying. | yes | Satellite/orb thread; user-listed already handled.
+@Hronom | https://x.com/Hronom/status/2105015420440953146 | 2h | Fair — that came across as a canned pitch. I'm Yevhen, Hronaut's maintainer, and I should have engaged with your boundary point before linking a product. You're right that browser control isn't agent authority. | yes | Hronaut apology; user-listed already handled.
+@jammusnu | https://x.com/jammusnu/status/2105014666548351069 | 2h | luke 22:36 | yes | Luke/bot thread; @P7RIM3 reply visible in-thread; user-listed handled.
+@Only_Ryan02 | https://x.com/Only_Ryan02/status/2105014229233254594 | 2h | The clip Astral showed is showing Chris Bledsoe a known fraud thinking he’s summoning an orb UFO. I’m not saying UFOs or orbs don’t exist because they do. But what we’re seeing is a satellite, it looks like that due to the camera and reflections. | yes | Satellite/orb thread; user-listed already handled.
+
+MENTIONS
+handle | status_url | time | text | already_answered_yes_no | notes
+@jammusnu | https://x.com/jammusnu/status/2105028160488087682 | 1h (status page: 1:13 PM EDT) | literally done so twice. | yes | Luke/bot thread; a later @P7RIM3 reply is visible in-thread; user-listed handled thread, stop after over two beats.
+@jammusnu | https://x.com/jammusnu/status/2105021044033814880 | 2h | 100 dollars real lmao get out of my hair u fully fledged retard. read the thread back it is beyond obvious where u have gone wrong. may the Lord have mercy on u for ur inadequate use of the gift of quantum computing that’s housed inside your skull. | yes | Luke/bot thread; @P7RIM3 reply visible in-thread; user-listed handled.
+@jammusnu | https://x.com/jammusnu/status/2105016153927974930 | 2h | yes. that is exactly what Luke 22:36 is & exsctly what i was referring to when you stated that selling my cloak was a stupid idea. you’re literally changing your whole narrative now. | yes | Quote included in X card; @P7RIM3 replies are visible in-thread; user-listed handled.
+@Only_Ryan02 | https://x.com/Only_Ryan02/status/2105016091038884088 | 2h | I’m saying it’s been proven this is a satellite. | yes | Satellite/orb thread; user-listed already handled.
+@Only_Ryan02 | https://x.com/Only_Ryan02/status/2105015964190548268 | 2h | That’s literally what I’m saying. | yes | Satellite/orb thread; user-listed already handled.
+@Hronom | https://x.com/Hronom/status/2105015420440953146 | 2h | Fair — that came across as a canned pitch. I'm Yevhen, Hronaut's maintainer, and I should have engaged with your boundary point before linking a product. You're right that browser control isn't agent authority. | yes | Hronaut apology; user-listed already handled.
+@jammusnu | https://x.com/jammusnu/status/2105014666548351069 | 2h | luke 22:36 | yes | Luke/bot thread; @P7RIM3 reply visible in-thread; user-listed handled.
+@Only_Ryan02 | https://x.com/Only_Ryan02/status/2105014229233254594 | 2h | The clip Astral showed is showing Chris Bledsoe a known fraud thinking he’s summoning an orb UFO. I’m not saying UFOs or orbs don’t exist because they do. But what we’re seeing is a satellite, it looks like that due to the camera and reflections. | yes | Satellite/orb thread; user-listed already handled.
+@Only_Ryan02 | https://x.com/Only_Ryan02/status/2105010897273983310 | 2h | How am I brainwashed if I’m saying orbs are real? It’s just the ones being shown here aren’t not. | yes | Satellite/orb thread; user-listed already handled.

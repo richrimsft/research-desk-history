@@ -1,0 +1,116 @@
+{
+  "tag": "0832",
+  "symbol": "CAT",
+  "mint": "9nQNALg2SqBC9HT3e8dEG2EeoFZBBfBmFRoN19xXpump",
+  "mc": 10340.06,
+  "age_h": 0.16,
+  "h1": 142,
+  "m5": -15.44,
+  "dex": "pumpfun",
+  "tag_role": "YOUNG_prescreen",
+  "phase": "pumpfun/on-curve",
+  "verdict": "FAIL",
+  "reasons": [
+    "creatorBal 0 (dev sold early)",
+    "19\u00d71\u20135% band on 359 holders (cabal)",
+    "top10ex\u224825.2%",
+    "age 0.16h <30m narrative-age (no-buy)",
+    "no socials / links"
+  ],
+  "creatorBalance": 0,
+  "creator": "D3Kw4WUp5KZ18dv7xeq3V8vvds2WzT17JrLi5XBuniTn",
+  "creator_pct": 0,
+  "band_1_5": 19,
+  "top10ex_est": 25.19,
+  "top10_raw": 69.71,
+  "excl_lp": [
+    [
+      46.30206868756975,
+      "CNKWkpdazWcqjeem"
+    ]
+  ],
+  "totalHolders": 359,
+  "score": 1,
+  "score_normalised": 1,
+  "risks": [],
+  "top_holders_kept": [
+    [
+      3.45,
+      "ECzLjhAW2LNoLWi1"
+    ],
+    [
+      3.06,
+      "7MGYmzc9q2iLxzNG"
+    ],
+    [
+      2.98,
+      "B9K2wTQcRDLRLhMK"
+    ],
+    [
+      2.57,
+      "DYjYBNy24Wv5Uowq"
+    ],
+    [
+      2.51,
+      "3cZgVv8pVtFGzhXp"
+    ],
+    [
+      2.42,
+      "AoEug19qHvVdYCup"
+    ],
+    [
+      2.31,
+      "6ZJEatADKDPqS51M"
+    ],
+    [
+      2.19,
+      "Bxxxi2wtVfcKM7Fh"
+    ]
+  ],
+  "top_holders_raw": [
+    [
+      46.3,
+      "CNKWkpdazWcqjeem"
+    ],
+    [
+      3.45,
+      "ECzLjhAW2LNoLWi1"
+    ],
+    [
+      3.06,
+      "7MGYmzc9q2iLxzNG"
+    ],
+    [
+      2.98,
+      "B9K2wTQcRDLRLhMK"
+    ],
+    [
+      2.57,
+      "DYjYBNy24Wv5Uowq"
+    ],
+    [
+      2.51,
+      "3cZgVv8pVtFGzhXp"
+    ],
+    [
+      2.42,
+      "AoEug19qHvVdYCup"
+    ],
+    [
+      2.31,
+      "6ZJEatADKDPqS51M"
+    ],
+    [
+      2.19,
+      "Bxxxi2wtVfcKM7Fh"
+    ],
+    [
+      1.9,
+      "CFxV5thMrC2zePzD"
+    ]
+  ],
+  "rc": "rc-CAT-0832.json",
+  "graphInsiders": 0,
+  "links_n": 0,
+  "note": "young pre-screen; cabal band + creatorBal 0"
+}

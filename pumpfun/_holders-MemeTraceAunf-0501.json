@@ -1,0 +1,90 @@
+{
+  "mint": "Aunf8ZYfEgRozzi3ddBqu6bnAFgTVC882Ab2y4zVpump",
+  "creator": "G3p92QcWzCfSGJi3cwm5vtgbKAiakZPhEkuoXv4YtcBB",
+  "creatorBal": 0.0,
+  "topHolders": [
+    {
+      "owner": "2wNsWenWrk2DduvxZ1NtH72d95nPtGxAjJg9VBMKk2Lo",
+      "pct": 57.09345952715984
+    },
+    {
+      "owner": "9keCU8mgA23XV8LCgSCJEo4Lspmo9fRBA3MyxJmZKQSp",
+      "pct": 4.061856908174891
+    },
+    {
+      "owner": "6G8Cu53PRgm5aPHxMaZRguYHJfaNxmnmgoR129cKMvJk",
+      "pct": 4.044181060555829
+    },
+    {
+      "owner": "CokYjTJ4wbYj6Ss8iRN1uj8cUXRXAYXF6PFdc9joTaBs",
+      "pct": 2.270092988969541
+    },
+    {
+      "owner": "72TSzkorjDg957UPHSR3yQvJmSxtKPNh7dxZUTRJX9dk",
+      "pct": 2.1289296911642333
+    },
+    {
+      "owner": "B8nHKn4uk9nHCCoum24Ui2h7LbKhmDc579RqMxzAH8ep",
+      "pct": 1.9651416030499185
+    },
+    {
+      "owner": "Yfe3vGNcBKBf2eFGjniPnb9Lr23xXNPgHKeqoCwYe39",
+      "pct": 1.6335603661878233
+    },
+    {
+      "owner": "HzcyMsxPbuZEx8fGV7R7CMpAiUgpDve4R1XJ7YrZaRTT",
+      "pct": 1.5573282486079887
+    },
+    {
+      "owner": "4kP7hgH7koYK5Ht59iX8FKNPX8XdzWmeFdvdYwB41uuW",
+      "pct": 1.5254848053110959
+    },
+    {
+      "owner": "H9A3ExDpK9rsnohMkikLg346yT55JPpSczJfLgLZeVqN",
+      "pct": 1.475402424978064
+    },
+    {
+      "owner": "Gzq3NSX6FxiA7f4ZypWwbMe71eXDgCgFpFAbyab5Mn8i",
+      "pct": 1.4334344712039464
+    },
+    {
+      "owner": "Fqz9vBnaUoFVtEatjruMns16CLqEZFaK7fWW2xK63ZZ7",
+      "pct": 1.3473977184054666
+    },
+    {
+      "owner": "sssssDdMNAWKingjpEojkTNdVuZrBe7FsJLaGtexe7d",
+      "pct": 1.3450644345391647
+    },
+    {
+      "owner": "9TdcwyDVLbGUPMQPndQZc1JPBUhyLzurAJbzaAdDkfS2",
+      "pct": 1.2596369191600307
+    },
+    {
+      "owner": "5ZuV8eqkvzYFVEKbLvGBdexL2tFv7E5BCd2HZpjqbdg",
+      "pct": 1.1821367563024217
+    },
+    {
+      "owner": "B2hMWoKQ6RgMDSc4N2Koc6BDKUnD7xXjDPzfTqdBZAq1",
+      "pct": 1.1482396724285577
+    },
+    {
+      "owner": "Fq7jozd5scjoqNx844eRnRqiAfW5fQaRZVPSFFwVwzto",
+      "pct": 1.1288114074424342
+    },
+    {
+      "owner": "E8jLeB1YCX33xjtvg426dxm2ERxiwoVBUawZCovnzKkX",
+      "pct": 0.912602321278066
+    },
+    {
+      "owner": "EZduKTPmiQkJFdyphjBZqP6RnW4LGfNQvNPxeuDoQ3E1",
+      "pct": 0.8606250585778485
+    },
+    {
+      "owner": "3AisCFBYwAqyswiT7aSwff2ynZdPJsGz9EhdmWaVg1DW",
+      "pct": 0.8098019722874861
+    }
+  ],
+  "rugScore": 1,
+  "score_norm": 1,
+  "risks": []
+}

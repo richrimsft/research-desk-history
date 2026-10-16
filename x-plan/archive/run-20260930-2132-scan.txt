@@ -1,0 +1,25 @@
+X notification scan report
+Run: 2026-09-30 21:32 ET
+Cutoff: 2026-09-30T21:26:29-04:00
+Account confirmed: @P7RIM3 (account menu showed P7RIM3 / @P7RIM3)
+
+All notifications (visible reply/mention cards)
+- @MadamHaus | https://x.com/MadamHaus/status/2105460336006672836 | ~43m | [GIF/image-only] | older than cutoff | SKIP_0HOUR_CANCELLED
+- @DrumondArt | https://x.com/DrumondArt/status/2105451230445154557 | ~1h | "Deep mastery across fields"... followed by repeated 🤣 emoji spam | older than cutoff | SKIP_EMOJI_SPAM
+- @SafetyNotorious | https://x.com/SafetyNotorious/status/2105431749333602704 | ~2h | "P7RIM3 - Retard of the Day 🏆" (quote-post of P7RIM3's @__0HOUR1_ post) | older than cutoff | SKIP_FLAG_NO_ENGAGE; abuse/slur flag
+Likes-only/follows seen in All and not treated as reply targets: Brian Edward and B Laidlaw,P.I. liked a reply (~2m, newer than cutoff); Mom liked a post (~1h); Austin Biel and rilo liked a post (~1h); Johnny liked a reply (~1h); Abyss and fishn game liked a reply (~2h).
+
+Mentions timeline (visible cards)
+- @MadamHaus | https://x.com/MadamHaus/status/2105460336006672836 | ~42m | [GIF/image-only] | older than cutoff | SKIP_0HOUR_CANCELLED
+- @DrumondArt | https://x.com/DrumondArt/status/2105451230445154557 | ~1h | "Deep mastery across fields"... followed by repeated 🤣 emoji spam | older than cutoff | SKIP_EMOJI_SPAM
+- @stonkspark | https://x.com/stonkspark/status/2105435508927005103 | ~2h | on it | older than cutoff | already replied; skip
+- @GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | ~3h | [image-only] | older than cutoff | already replied; skip
+- @zebralife2002 | https://x.com/zebralife2002/status/2105361123503440350 | ~7h | Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day | older than cutoff | already replied; skip
+- @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105343324580143460 | ~8h | This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh [quote-post attached] | older than cutoff | over two beats; skip
+
+Result
+NEW_COUNT actionable inbound newer than cutoff: 0
+Replies posted: 0
+Flags: @SafetyNotorious abuse/slur quote-post; no engagement.
+No replies were warranted and nothing newer than cutoff required a reply.
+Screenshots: /workspace/x-plan/run-20260930-2132-notifications.png ; /workspace/x-plan/run-20260930-2132-mentions.png

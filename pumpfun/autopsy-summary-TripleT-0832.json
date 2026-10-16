@@ -1,0 +1,119 @@
+{
+  "tag": "0832",
+  "symbol": "TripleT",
+  "mint": "8TB7iWUaUrtf9BApnESAaRLjTB5Faj7Tm2eGm9Yopump",
+  "mc": 18908.33,
+  "age_h": 0.17,
+  "h1": 424,
+  "m5": 1.27,
+  "dex": "pumpfun",
+  "tag_role": "YOUNG_prescreen",
+  "phase": "pumpfun/on-curve",
+  "verdict": "FAIL",
+  "reasons": [
+    "RC Copycat token (verified-symbol clone of J8PS\u2026pump)",
+    "creatorBal 0 (dev sold early)",
+    "19\u00d71\u20135% band on 218 holders; tight ~2.1\u20132.3% cluster \u00d716",
+    "top10ex\u224821.1%",
+    "age 0.17h <30m narrative-age (no-buy)",
+    "no socials / links"
+  ],
+  "creatorBalance": 0,
+  "creator": "9dGDS4sTMmk9xoDwKVSJyhNHEPFLCqZvNR43w2x15i86",
+  "creator_pct": 0,
+  "band_1_5": 19,
+  "top10ex_est": 21.12,
+  "top10_raw": 59.24,
+  "excl_lp": [
+    [
+      40.0524604083948,
+      "3Sd2xdWzdipFMRnK"
+    ]
+  ],
+  "totalHolders": 218,
+  "score": 2001,
+  "score_normalised": 29,
+  "risks": [
+    "Copycat token"
+  ],
+  "top_holders_kept": [
+    [
+      2.27,
+      "3XFKrE7wgr2PaRr1"
+    ],
+    [
+      2.22,
+      "Ck7YnBoefD87DZFS"
+    ],
+    [
+      2.18,
+      "2b7TNTRLdc9f9ESs"
+    ],
+    [
+      2.18,
+      "FfXsciKsLJsesPeb"
+    ],
+    [
+      2.15,
+      "3JY89Jj2MAaHECAu"
+    ],
+    [
+      2.14,
+      "39k6cxDmkYmwt1AW"
+    ],
+    [
+      2.13,
+      "7hpPmNdE2qDiL92W"
+    ],
+    [
+      1.97,
+      "CpJdEEdiezfTyuSA"
+    ]
+  ],
+  "top_holders_raw": [
+    [
+      40.05,
+      "3Sd2xdWzdipFMRnK"
+    ],
+    [
+      2.27,
+      "3XFKrE7wgr2PaRr1"
+    ],
+    [
+      2.22,
+      "Ck7YnBoefD87DZFS"
+    ],
+    [
+      2.18,
+      "2b7TNTRLdc9f9ESs"
+    ],
+    [
+      2.18,
+      "FfXsciKsLJsesPeb"
+    ],
+    [
+      2.15,
+      "3JY89Jj2MAaHECAu"
+    ],
+    [
+      2.14,
+      "39k6cxDmkYmwt1AW"
+    ],
+    [
+      2.13,
+      "7hpPmNdE2qDiL92W"
+    ],
+    [
+      1.97,
+      "CpJdEEdiezfTyuSA"
+    ],
+    [
+      1.96,
+      "1a2MY3aAN6J9f1Hg"
+    ]
+  ],
+  "rc": "rc-TripleT-0832.json",
+  "graphInsiders": 0,
+  "links_n": 0,
+  "note": "young copycat; creatorBal 0 + identical-% cluster"
+}

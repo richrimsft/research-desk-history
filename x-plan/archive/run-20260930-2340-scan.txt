@@ -1,0 +1,38 @@
+X NOTIFICATIONS SCAN
+Run: 2026-09-30 23:40-23:43 ET
+Account: @P7RIM3 (confirmed signed in)
+Cutoff: 2026-09-30T23:38:23-04:00
+Completion: 2026-09-30T23:43:27-04:00
+Screenshots: /workspace/x-plan/run-20260930-2340-notifications.png ; /workspace/x-plan/run-20260930-2340-mentions.png
+
+RESULT
+NEW_COUNT=0. No qualifying new unreplied reply or mention. No originals posted. No replies posted.
+The same cards visible in both All and Mentions are listed once below with source noted.
+
+ITEMIZED VISIBLE REPLY/MENTION CARDS
+1. [ALL + MENTIONS] @misterg792000 | Steve G | 1h | https://x.com/misterg792000/status/2105483189200261612 | "Buddy, he didn't invent either one of those things. He just bought the company that did." | newer_than_cutoff=NO | SKIP: older; known Meridian/Elon thread already at two beats.
+2. [ALL + MENTIONS] @misterg792000 | Steve G | 1h | https://x.com/misterg792000/status/2105479038823178432 | "Name a single field he has demonstrated \"deep mastery\" of. Name a single thing he has invented." | newer_than_cutoff=NO | SKIP: older; same-person two-beat limit.
+3. [ALL + MENTIONS] @Cuzzo_TM | Cuzzo | 1h | https://x.com/Cuzzo_TM/status/2105484203005812936 | "Welcome to Pump.Fun .......DORK" (quote of the $0HOUR1 post) | newer_than_cutoff=NO | SKIP: cancelled 0hour/$0HOUR1/pump.fun thread.
+4. [ALL] @SafetyNotorious | SafetySwipe | 4h | https://x.com/SafetyNotorious/status/2105431749333602704 | "P7RIM3 - Retard of the Day 🏆" (quote of cancelled 0hour post) | newer_than_cutoff=NO | FLAG only; abusive slur/quote troll, no engagement.
+5. [ALL + MENTIONS] @MadamHaus | MadamHaus | 2h | https://x.com/MadamHaus/status/2105460336006672836 | Media/GIF-only reply addressed to @P7RIM3 and @__0HOUR1_; no text exposed in card. | newer_than_cutoff=NO | SKIP: cancelled 0hour thread.
+6. [ALL + MENTIONS] @DrumondArt | Drumond | 3h | https://x.com/DrumondArt/status/2105451230445154557 | "Deep mastery across fields" followed by a large run of laughing emojis. | newer_than_cutoff=NO | SKIP: emoji-only spam/old.
+7. [ALL + MENTIONS] @stonkspark | STONKS PARK | 4h | https://x.com/stonkspark/status/2105435508927005103 | "on it" | newer_than_cutoff=NO | SKIP: older; already handled.
+8. [ALL + MENTIONS] @GilliRoth | Gillian Roth | 5h | https://x.com/GilliRoth/status/2105422493200875658 | Image-only reply (polymath definition image). | newer_than_cutoff=NO | SKIP: older; already handled.
+9. [ALL + MENTIONS] @zebralife2002 | Paul Kelly | 9h | https://x.com/zebralife2002/status/2105361123503440350 | "Your first sentence made absolutely no sense\n\"you guys are handing outside of a person\"\n\nI stop reading and I stopped paying attention to you at that point. Have a good day" | newer_than_cutoff=NO | SKIP: older; already replied.
+10. [ALL + MENTIONS] @KittyMcFeisty2 | Piper Paprikas #2nd account | 10h | link not exposed | "This. Since you clearly missed what I reposted & what I'm referring to. Males taking on women shit? How much clearer do I need to be? Duh." (quoted Libs of TikTok card) | newer_than_cutoff=NO | SKIP: older; already over two beats.
+11. [ALL + MENTIONS] @KittyMcFeisty2 | Piper Paprikas #2nd account | 10h | link not exposed | Emoji-only card (two visible emoji glyphs; no words). | newer_than_cutoff=NO | SKIP: emoji-only/old; same-person over two beats.
+12. [ALL + MENTIONS] @KittyMcFeisty2 | Piper Paprikas #2nd account | 11h | link not exposed | "What's new is this shit needs to stop.\nBeyond ridiculous" | newer_than_cutoff=NO | SKIP: older; same-person over two beats.
+13. [MENTIONS] @juneauxwhoitis | Juneaux | Sep 29 | https://x.com/juneauxwhoitis/status/2105094896663371987 | "Overflowing with perceptions you are!" | newer_than_cutoff=NO | SKIP: old; thread already at two beats.
+14. [MENTIONS] @FiresOfTruth | spooky | Sep 29 | https://x.com/FiresOfTruth/status/2105080875058704611 | "Check the link in my bio to watch a film I made with darcy" | newer_than_cutoff=NO | SKIP: old promo/spam.
+15. [MENTIONS] @FiresOfTruth | spooky | Sep 29 | link not exposed | "He's a human being" (image/GIF attached). | newer_than_cutoff=NO | SKIP: old; no action.
+16. [MENTIONS] @jammusnu | BRUCE iLLest | Sep 29 | link not exposed | "literally done so twice." | newer_than_cutoff=NO | SKIP: old; no action.
+17. [MENTIONS] @jammusnu | BRUCE iLLest | Sep 29 | link not exposed | "100 dollars real lmao get out of hair u fully fledged retard. read the thread back it is beyond obvious where u have gone wrong. may the Lord have mercy on u for inadequate use of the gift of quantum computing that's housed inside your skull." | newer_than_cutoff=NO | SKIP: old abusive content; no engagement.
+18. [MENTIONS] @jammusnu | BRUCE iLLest | Sep 29 | link not exposed | "You pawned the cover and went looking for a handout blade. A gaff that shoots swords don't make you armed. It makes you rented. You already spent the cloak. Don't spend the rest of the night waiting on somebody else's steel." | newer_than_cutoff=NO | SKIP: old; no action.
+
+NON-ACTIONABLE ALL-TAB ITEMS OBSERVED: likes, follows, reposts, sports/news cards, and other engagement notifications were ignored per instructions. No threats, self-harm, or illegal-content items were found. Blocked handles @skunkbutters and @RyanILoveYouSo did not appear.
+
+FLAGS
+@SafetyNotorious old abusive slur quote noted above; no engagement. No new flags.
+
+BLOCKERS
+None.

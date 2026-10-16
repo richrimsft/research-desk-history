@@ -1,0 +1,110 @@
+{
+  "tag": "0433",
+  "symbol": "GULP",
+  "mint": "8BwEQTbuKD6DyHsr57FpF8L6RRvzr8Gm4TRMMqfbpump",
+  "recheck": true,
+  "prior": "0409",
+  "rugcheck": {
+    "score": 1,
+    "score_normalised": 1,
+    "rugged": false,
+    "creator": "AEp5RxwH8AGpCHkqKGUanoazaVwYaBmuX91iMHbrnty",
+    "creatorBalance": 0,
+    "mintAuthority": null,
+    "freezeAuthority": null,
+    "totalHolders": 726,
+    "graphInsidersDetected": 7,
+    "risks": [],
+    "topHolders": [
+      {
+        "owner": "HnLE6WLJXjFSR2cmL3p4GNNtV1GrbEyw8DXz43amY3TQ",
+        "pct": 27.743670199482008
+      },
+      {
+        "owner": "HF2Lw2tYs4B3y1iqz6iw2f4wTjrn14KppvAezcm7TAT3",
+        "pct": 3.2452220270296492
+      },
+      {
+        "owner": "2dSwmLD7mAnVsrcAAsgLqBx3xRfUAvjyBTDpPmActbLz",
+        "pct": 2.9518655752497183
+      },
+      {
+        "owner": "52SybfpzrdgH65eYEwtYTnWKrHDTXenJcdgf9Kn2TTta",
+        "pct": 2.8741525844001057
+      },
+      {
+        "owner": "9LXWa7V3AE15VfBupcx5gDts2ix3Y9NzbcKZKjkkq6hV",
+        "pct": 2.8520684457594845
+      },
+      {
+        "owner": "A7QQmsxq6a59xve7EXRf5aBGZ3aUraqNBxDnJutgfzmL",
+        "pct": 2.840227737598713
+      },
+      {
+        "owner": "9cdZg6xR4c9kZiqKSzqjn4QHCXNQuC9HEWBzzMJ3mzqw",
+        "pct": 2.719363452258428
+      },
+      {
+        "owner": "5adpm2PA5zJr8YxZc5D9QedMy6HBuK17ZvYkaNAHH76k",
+        "pct": 2.665341099593622
+      },
+      {
+        "owner": "6Zp61o1Dppgi7viUdiHi7JD5s9AACCii2db6yUUxjXWf",
+        "pct": 1.9428302813046088
+      },
+      {
+        "owner": "5QmY71d7eSZFMSHnyu93Unvo2ewqEyCa2UTd877ZsuzK",
+        "pct": 1.6360543507641638
+      },
+      {
+        "owner": "8q12nd8U5Y1yDqkAH1f3xbcUxC4SCBR28geHP28BzNgB",
+        "pct": 1.243479127555119
+      },
+      {
+        "owner": "5dvWFVCESm7F16FctHvgzL3SwNAquoNFS6m1bGAm3EBZ",
+        "pct": 1.1912216188999962
+      },
+      {
+        "owner": "7aaiiCG92LbJQCnZTxGtwZ8iMuAVeEJ8ZkZQuyGyuxWb",
+        "pct": 1.0548207375865495
+      },
+      {
+        "owner": "F4b9T5X1rvRLSPPXwaZtWK9i3bFBay2HTiTNQ9W3KQq8",
+        "pct": 1.046584693308038
+      },
+      {
+        "owner": "7S5tGe9nbLyNEuFkjo5zCY3Xrx9GbZmYYhbdSEn82UWW",
+        "pct": 1.0219683093654115
+      }
+    ]
+  },
+  "dex": {
+    "dexId": "pumpfun",
+    "mc": 29715.87,
+    "age_h": 0.6,
+    "priceChange": {
+      "m5": 8.11,
+      "h1": 414,
+      "h6": 414,
+      "h24": 414
+    },
+    "volume_h1": 122696.82,
+    "txns_h1": {
+      "buys": 1954,
+      "sells": 1193
+    },
+    "socials": [
+      {
+        "url": "https://x.com/playgulpfun",
+        "type": "twitter"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://playgulp.fun",
+        "label": "Website"
+      }
+    ]
+  },
+  "pf_coin": "404"
+}

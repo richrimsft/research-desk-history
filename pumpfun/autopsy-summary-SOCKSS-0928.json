@@ -1,0 +1,48 @@
+{
+  "tag": "0928",
+  "symbol": "SOCKSS",
+  "mint": "Egk3cjzrq86WF1hxL7SzcKiiTDghMXb7y1BKueQHpump",
+  "mc": 48755,
+  "age_h": 0.51,
+  "h1": 8.75,
+  "m5": 13.24,
+  "dex": "pumpswap",
+  "tag_role": "NEW",
+  "phase": "pumpswap/post-grad",
+  "verdict": "FAIL",
+  "reasons": [
+    "creatorBal 0 (dev sold out early)",
+    "11\u00d7 tight 1.0\u20131.1% sniper band (identical-size buys)",
+    "Fresh post-grad chase (~30m); prefer not chasing fresh PumpSwap pumps",
+    "RC score 1 / risks empty but structure fails on band + creator"
+  ],
+  "creatorBalance": 0,
+  "creator": "3W8rSyuYr1pv1BVwizVXsPhPmLMGDnWpFr6HqaNMp1sr",
+  "creator_pct": 0,
+  "band_1_5": 11,
+  "band_pcts": [
+    1.096,
+    1.092,
+    1.089,
+    1.083,
+    1.08,
+    1.066,
+    1.058,
+    1.042,
+    1.032,
+    1.026,
+    1.026
+  ],
+  "top10ex_est": 10.66,
+  "excl_lp": [
+    [
+      20.482968927444173,
+      "DV3Nad8jpZGM6NrK"
+    ]
+  ],
+  "totalHolders": 233,
+  "score": 1,
+  "risks": [],
+  "fetched_at": "2026-10-16T09:28ET",
+  "rc_file": "rc-SOCKSS-0928.json"
+}

@@ -1,0 +1,42 @@
+X NOTIFICATIONS SCAN REPORT
+Run: 2026-09-30 01:23 AM America/New_York (UTC-4)
+Cutoff: approximately 2026-09-30 01:07 AM America/New_York
+
+SIGNED_IN: yes
+HANDLE: @P7RIM3
+BLOCKERS: none (notifications and Mentions loaded normally; no login wall or captcha)
+NEW_COUNT: 0
+
+RESULT
+No new unreplied reply/mention candidates were visible. Every reply/mention shown was older than the cutoff and matched the supplied known-handled list. No posts, likes, follows, reposts, or DMs were made.
+
+ALL TAB — visible cards, top to bottom
+1. Mweh (@Mweah22) and 6 others — 18m — likes-only (liked your reply). Text: “Do the complete opposite of whatever Cramer says!” Status URL: not exposed in notification card.
+2. Ace (@TheReal78Ace) and 6 others — 2h — likes-only. Text: “Do the opposite of whether Kramer says! Trust me” Status URL: not exposed.
+3. Darcy Weir Films (@Occultjourneys) — 2h — likes-only. Text: “The dude claimed he was on different planets and a secret space force run by reptiles. What did he expect the public’s reaction would be? Ufology in general is about as asinine as the flat earth community. I follow it for the laughs!” Status URL: not exposed.
+4. G Reed (@KEKerboxerGlory) — 2h — likes-only. Text: “Nvidia and X.ai yes! Meta, absolutely not” Status URL: not exposed.
+5. mine (@DelBerrX) — 2h — likes-only. Text: “This screams the movie Wall-E” Status URL: not exposed.
+6. h (@Cobra17298328) — 3h — reply/mention. Text: “I can’t see what this bitch is saying, cause he immediately blocked me” Parent: @P7RIM3, @skeptic_vaibhav, and @artaimemes. URL: https://x.com/Cobra17298328/status/2105112514090402040. Known: already replied, beat 2/2; skip.
+7. FormOverTime (@pullingUp22) — 4h — likes-only. Text: “The guy is clueless. You can tell he has ZERO technical skills. I know everyone has a giant boner for anthropic right now. I don’t see him being the leader for the long haul. I just don’t” Status URL: not exposed.
+8. Juneaux (@juneauxwhoitis) — 4h — reply/mention. Text: “Overflowing with perceptions you are!” Parent: @P7RIM3 and @OverlyTrev. URL: https://x.com/juneauxwhoitis/status/2105094896663371987. Known: two-beat done; skip.
+9. Robin (@snowtrees32283) — 4h — likes-only. Text: “Time to crank out the money printing machine.” Status URL: not exposed.
+10. King Chess (@thechillguy_07) — 5h — likes-only. Text: “Their fees are ridiculous. Stick with @krakenfx” Status URL: not exposed.
+11. John Galt (@JohnGGalt) and 12 others — 5h — likes-only. Text: “Do the opposite of whether Kramer says! Trust me” Status URL: not exposed.
+12. spooky (@FiresOfTruth) — 5h — reply/mention. Text: “Check the link in my bio to watch a film I made with darcy” Parent: @P7RIM3, @thehiddenpod, and 2 others. URL: https://x.com/FiresOfTruth/status/2105080875058704611. Known skip_known.
+13. Mr. Fugazi (@StochStocks) and 5 others — 5h — likes-only. Text: “Do the complete opposite of whatever Cramer says!” Status URL: not exposed.
+14. Hemingwaypaws (@Hemingwaypaws) and Ibn Yahya (@dispenseofgrace) — 5h — likes-only. Text: “The guy is clueless. You can tell he has ZERO technical skills. I know everyone has a giant boner for anthropic right now. I don’t see him being the leader for the long haul. I just don’t” Status URL: not exposed.
+15. Meh (@Mehdalon) and Sir Doge of the Coin (@dogeofficialceo) — 6h — likes-only. Text: “A hilarious meme” Status URL: not exposed.
+
+MENTIONS TAB — visible cards, top to bottom
+1. h (@Cobra17298328) — 3h — reply. Text: “I can’t see what this bitch is saying, cause he immediately blocked me” Parent: @P7RIM3, @skeptic_vaibhav, and @artaimemes. URL: https://x.com/Cobra17298328/status/2105112514090402040. Known already handled (beat 2/2); not new.
+2. Juneaux (@juneauxwhoitis) — 4h — reply. Text: “Overflowing with perceptions you are!” Parent: @P7RIM3 and @OverlyTrev. URL: https://x.com/juneauxwhoitis/status/2105094896663371987. Known two-beat done; not new.
+3. spooky (@FiresOfTruth) — 5h — reply. Text: “Check the link in my bio to watch a film I made with darcy” Parent: @P7RIM3, @thehiddenpod, and 2 others. URL: https://x.com/FiresOfTruth/status/2105080875058704611. Known skip_known; not new.
+4. spooky (@FiresOfTruth) — 6h — mention/reply with quoted post. Visible text: quoted @SlackerBluePod post: “Alex B is currently missing. #fishtanklive”. Parent: @P7RIM3. URL: https://x.com/FiresOfTruth/status/2105074701802651949. Known skip_known; not new.
+5. spooky (@FiresOfTruth) — 6h — reply/mention. Text: “He’s a human being” (image attached). Parent: @P7RIM3. URL: https://x.com/FiresOfTruth/status/2105073376268345355. Known skip_known; not new.
+6. Grok (@grok) — 6h — reply/mention. Visible text (truncated by Show more): “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the” Parent: @P7RIM3, @elonmusk, and 6 others. URL: https://x.com/grok/status/2105068070892912851. Known beat 3+; skip.
+
+NEW CANDIDATE DETAILS
+None. Therefore no status needed to be opened for a new candidate, and there is no new unreplied thread requiring a parent-context or reply-presence check.
+
+SCREENSHOT
+Final Mentions view saved to: /workspace/x-plan/last-desktop.webp

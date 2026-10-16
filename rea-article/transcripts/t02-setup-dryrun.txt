@@ -1,0 +1,62 @@
+$ rea setup --client cursor --client claude_code --dry-run 2>&1 | head -60
+status: planned
+plannedActions[4]{id,kind,label,target,detail,external,operation}:
+  "configure_client:cursor",configure_client,Cursor,/home/box/.cursor/mcp.json,"Add the REA MCP registration for Cursor; preserve unrelated configuration. Command: \"/home/box/.local/bin/rea\" \"mcp\". Detected provider environment: GHIDRA_INSTALL_DIR=/workspace/ghidra/ghidra_12.1.4_PUBLIC, JAVA_HOME=/home/box/.local/jdk21. Existing server environment overrides are retained; detected values replace matching keys.",false,create
+  "configure_client:claude_code",configure_client,Claude Code,/home/box/.claude.json,"Add the REA MCP registration for Claude Code; preserve unrelated configuration. Command: \"/home/box/.local/bin/rea\" \"mcp\". Detected provider environment: GHIDRA_INSTALL_DIR=/workspace/ghidra/ghidra_12.1.4_PUBLIC, JAVA_HOME=/home/box/.local/jdk21. Existing server environment overrides are retained; detected values replace matching keys.",false,create
+  install_skill,install_skill,REA reverse-engineering skill,/home/box/.agents/skills/reverse-engineer-anything,Install or update the bundled REA reverse-engineering skill and on-demand references.,false,install
+  "install_skill:claude_code",install_skill,REA skill for Claude Code,/home/box/.claude/skills/reverse-engineer-anything,Install or update the REA skill in Claude Code's personal skill directory.,false,install
+appliedActions: []
+clients:
+doctor:
+  healthy: false
+  environment_healthy: false
+  scope:
+    mode: explicit
+    clients[2]: claude_code,cursor
+    providers: []
+    skill: true
+    target: null
+  availableProviders[1]: ghidra
+  providerInspections[2]:
+    - id: ghidra
+      configured: true
+      available: true
+      providerVersion: 12.1.4
+      registrationEnvironment:
+        GHIDRA_INSTALL_DIR: /workspace/ghidra/ghidra_12.1.4_PUBLIC
+        JAVA_HOME: /home/box/.local/jdk21
+      checks[8]{name,ok,code,detail,remediation,classification}:
+        configuration,true,null,/workspace/ghidra/ghidra_12.1.4_PUBLIC,null,config_drift
+        platform,true,null,linux,null,unsupported_host
+        architecture,true,null,x64,null,unsupported_host
+        installation,true,null,/workspace/ghidra/ghidra_12.1.4_PUBLIC/Ghidra/application.properties,null,config_drift
+        version,true,null,12.1.4,null,config_drift
+        headless,true,null,/workspace/ghidra/ghidra_12.1.4_PUBLIC/support/analyzeHeadless,null,config_drift
+        native_decompiler,true,null,"/workspace/ghidra/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/os/linux_x86_64/decompile reports elf x86_64, which matches linux/x64",null,config_drift
+        java,true,null,21.0.12.1; 64-bit; JDK; /home/box/.local/jdk21; accepted a 64-bit full JDK 21 or newer,null,config_drift
+    - id: ida
+      configured: false
+      available: false
+      providerVersion: null
+      registrationEnvironment:
+      checks[1]{name,ok,code,detail,remediation,classification}:
+        registration,false,not_configured,IDA MCP registration is not configured.,Set REA_IDA_MCP_CONFIG to your upstream IDA MCP registration JSON; see docs/ida-provider.md.,missing_analysis_engine
+  identity:
+    skill:
+      installed_version: null
+      installed_tool_count: null
+      state: missing
+      remediation: Run rea setup to update the installed REA skill.
+    registrations[1]:
+      - client: cursor
+        config_path: /home/box/.cursor/mcp.json
+        command: []
+        state: missing
+        remediation: "Run rea setup to refresh this registration, then restart the client."
+clientStates[18]:
+  - client:
+      name: claude_code
+      displayName: Claude Code
+      configPath: /home/box/.claude.json
+      markerPath: /home/box/.claude
+

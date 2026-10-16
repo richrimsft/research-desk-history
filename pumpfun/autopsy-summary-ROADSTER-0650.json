@@ -1,0 +1,24 @@
+{
+ "tag": "0650",
+ "symbol": "ROADSTER",
+ "mint": "GDNGMNnSyJK4iohEbigiVbUz8tM4UvFRSGw3d73Wpump",
+ "age_h": 0.0,
+ "mc": 10125,
+ "phase": "too_young",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "age 0.0h <30m no-buy",
+  "19\u00d71-5% sniper band among top holders (209 holders)",
+  "creatorBalance raw 737672 \u22480% of supply (effectively burner/sold)",
+  "curve H0 ~50.9%"
+ ],
+ "creatorBalance": 737672,
+ "graphInsidersDetected": 0,
+ "totalHolders": 209,
+ "rc_score": 1,
+ "band_1_5": 19,
+ "h0_pct": 50.86447913806024,
+ "top10ex_approx": 30.31747412168945,
+ "creatorBalance_raw": 737672,
+ "creatorBal_pct_approx": 0.0
+}

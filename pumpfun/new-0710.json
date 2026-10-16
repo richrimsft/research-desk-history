@@ -1,0 +1,20 @@
+[
+ {
+  "symbol": "USDC",
+  "name": "UpSide Down Cat",
+  "mint": "6We2unR6HXgEdHFvb4d29XUr77sZzXk8paQaZxU9pump",
+  "mc": 105104,
+  "age_h": 0.61,
+  "h1": 90.79,
+  "m5": -7.54,
+  "h24": 90.79,
+  "buys": 4401,
+  "sells": 2882,
+  "vol_h1": 330652.41,
+  "dex": "pumpswap",
+  "liq": 32223.75,
+  "url": "https://dexscreener.com/solana/7qw9xpbmh4qud2qjwtzqcqhv4ek5jnu6sz2akeobgmyu",
+  "pairCreatedAt": 1792146954000,
+  "tag": "NEW"
+ }
+]

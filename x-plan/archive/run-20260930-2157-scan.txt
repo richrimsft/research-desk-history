@@ -1,0 +1,38 @@
+X notification scan report
+Run started: 2026-09-30T21:58:01-04:00
+Requested cutoff: 2026-09-30T21:47:36-04:00
+Scan completed: 2026-09-30T21:59:05-04:00
+Account confirmed: @P7RIM3
+NEW_COUNT: 0
+Replies posted: none
+Originals posted: none
+Flags: @SafetyNotorious abuse/slur item; flag only, no engage. It is older than cutoff and contains 0hour context. No new safety items.
+
+ALL notifications (11 visible cards)
+1. @Kramer_not and 2 others — 12m — like — profile-only links /Kramer_not, /Sonic1994DC, /rilo0x — borderline/likely newer than cutoff by displayed age, likes-only ignored.
+2. @BrianEdwardMKE and @laidlaw76 — 35m — like — profile-only links /BrianEdwardMKE, /laidlaw76 — older than cutoff, likes-only ignored.
+3. @MadamHaus — 1h — reply — https://x.com/MadamHaus/status/2105460336006672836 — older; known 0hour content, skipped.
+4. @mom_agency_ — 1h — like — profile-only /mom_agency_ — older, likes-only ignored.
+5. @Eagles — 1h — other/news card — profile-only /Eagles — older and not inbound reply/mention, ignored.
+6. @DrumondArt — 1h — reply — https://x.com/DrumondArt/status/2105451230445154557 — older; emoji spam, skipped.
+7. @Maskedrider26 — 1h — like — profile-only /Maskedrider26 — older, likes-only ignored.
+8. @MaverickDarby and 6 others — 2h — like — profile-only /MaverickDarby plus listed likers — older, likes-only ignored.
+9. @stareatmehuman and @RUNjOutdoors — 2h — like — profile-only /stareatmehuman, /RUNjOutdoors — older, likes-only ignored.
+10. @stonkspark — 2h — reply — https://x.com/stonkspark/status/2105435508927005103 — older; already handled/existing reply, skipped.
+11. @SafetyNotorious — 3h — mention/quote — https://x.com/SafetyNotorious/status/2105431749333602704 — older; abuse/slur, flag only, no engage; 0hour context.
+
+MENTIONS notifications (6 visible cards)
+1. @MadamHaus — 1h — reply — https://x.com/MadamHaus/status/2105460336006672836 — older; known 0hour content, skipped.
+2. @DrumondArt — 1h — reply — https://x.com/DrumondArt/status/2105451230445154557 — older; emoji spam, skipped.
+3. @stonkspark — 2h — reply — https://x.com/stonkspark/status/2105435508927005103 — older; already handled/existing reply, skipped.
+4. @GilliRoth — 3h — reply/mention — https://x.com/GilliRoth/status/2105422493200875658 — older; already replied, skipped.
+5. @zebralife2002 — 7h — reply — https://x.com/zebralife2002/status/2105361123503440350 — older; already replied, skipped.
+6. @KittyMcfeisty2 — 8h — reply/mention — https://x.com/KittyMcfeisty2/status/2105343324580143460 — older; over-two-beats thread, skipped.
+
+Actions
+- Both All and Mentions pages scanned while signed in as @P7RIM3.
+- Screenshots saved:
+  /workspace/x-plan/run-20260930-2157-notifications.png
+  /workspace/x-plan/run-20260930-2157-mentions.png
+- No parent opened because there were no new warranted inbound replies.
+- No replies posted, no originals posted, no likes/follows/reposts/DMs, no 0hour engagement.

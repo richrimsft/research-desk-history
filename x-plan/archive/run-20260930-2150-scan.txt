@@ -1,0 +1,23 @@
+scanned_at: 2026-09-30T21:50:00-04:00
+cutoff: 2026-09-30T21:47:36-04:00
+signed_in_as: @P7RIM3 (confirmed)
+NEW_COUNT_ALL: 0
+NEW_COUNT_MENTIONS: 0
+
+ITEM_CONSIDERED:
+- @Kramer | URL: aggregated likes-only notification (no inbound post URL exposed) | age: about 4m, at/before cutoff on the scan clock | text summary: Kramer and 2 others liked your post; We need more of this | action: SKIP likes-only and not newer than cutoff
+- @BrianEdward | URL: aggregated likes-only notification (no inbound post URL exposed) | age: about 27m | text summary: Brian Edward and B Laidlaw, P.I. liked your reply | action: SKIP likes-only and before cutoff
+- @MadamHaus | https://x.com/MadamHaus/status/2105460336006672836 | age: about 1h | text summary: GIF reply in the 0hour thread | action: SKIP; old known 0hour item and 0hour replies cancelled
+- @DrumondArt | https://x.com/DrumondArt/status/2105451230445154557 | age: about 1h | text summary: emoji-only reply spam | action: SKIP; old known spam
+- @stonkspark | https://x.com/stonkspark/status/2105435508927005103 | age: about 2h | text summary: “on it” reply | action: SKIP; old known already-replied thread
+- @SafetyNotorious | https://x.com/SafetyNotorious/status/2105431749333602704 | age: about 2h | text summary: abusive/slur quote, “Retard of the Day” | action: SKIP; old known item already flagged, no engagement
+- @GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | age: about 3h | text summary: reply in existing conversation | action: SKIP; old known already-replied thread
+- @zebralife2002 | https://x.com/zebralife2002/status/2105361123503440350 | age: about 7h | text summary: criticism of prior post | action: SKIP; old known already-replied thread
+- @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105343324580143460 | age: about 8h | text summary: reply in existing conversation | action: SKIP; old known over-two-beats thread
+
+replies_posted: none
+flags: none new; previously flagged @SafetyNotorious item remained skipped
+blockers: none
+screenshots:
+- /workspace/x-plan/run-20260930-2150-notifications.png
+- /workspace/x-plan/run-20260930-2150-mentions.png

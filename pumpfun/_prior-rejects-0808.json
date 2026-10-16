@@ -1,0 +1,171 @@
+{
+  "tag": "0808",
+  "ts": "2026-10-16T08:08:00-04:00",
+  "wallet_sol": 0.29760554,
+  "sol_usd": 106.21,
+  "est_total_usd": 31.61,
+  "scout": {
+    "scan_mints": 137,
+    "cands": 75,
+    "expanded_mints": 481,
+    "expanded_pairs": 460,
+    "inwindow": 9,
+    "new": 0,
+    "young": 6
+  },
+  "inwindow_prior_fails": [
+    {
+      "mint": "9TXNTWV5v7M3Ch4bBVFNknXJGaJTW2NQDMKkuD3vSLEm",
+      "symbol": "Chase",
+      "verdict": "PRIOR_FAIL_STANDS",
+      "mc": 9344013,
+      "age_h": 1.35,
+      "h1": 76.92,
+      "m5": null,
+      "reason": "99% single-holder / post-grad chase"
+    },
+    {
+      "mint": "pFibPnQk8ekCCtuBoQFJqeJjHVo92dAME3uH8A4pump",
+      "symbol": "ElonThrust",
+      "verdict": "PRIOR_FAIL_STANDS",
+      "mc": 1468753,
+      "age_h": 2.69,
+      "h1": 29.31,
+      "m5": 1.75,
+      "reason": "whale structure / prior FAIL"
+    },
+    {
+      "mint": "4tf5GEXU1dt7Vfj21oCu4P96ZEKEm3zMYqpzZsoCDeer",
+      "symbol": "Deer",
+      "verdict": "FAIL_RECHECKED",
+      "mc": 176535,
+      "age_h": 3.66,
+      "h1": 82.88,
+      "m5": 22.99,
+      "reason": "recheck FAIL: creatorBal 0; 19\u00d7 band; top10ex\u224827.5%"
+    },
+    {
+      "mint": "NqZaNi1v6qjFeyRyMpXFWnebBx47tTu5WcWQAwtRWGU",
+      "symbol": "Irene",
+      "verdict": "PRIOR_FAIL_STANDS",
+      "mc": 124986,
+      "age_h": 1.38,
+      "h1": 46.96,
+      "m5": null,
+      "reason": "Irene copycat theme \u2014 skip"
+    },
+    {
+      "mint": "DdVXE425xZe27FhY41PR8dwfL3VczYdyJJAWDC1jpump",
+      "symbol": "OPTIMA",
+      "verdict": "FAIL_RECHECKED",
+      "mc": 110856,
+      "age_h": 0.76,
+      "h1": 159,
+      "m5": 24.45,
+      "reason": "recheck FAIL: 13\u00d7 band, top10ex\u224827.8%, post-grad chase"
+    },
+    {
+      "mint": "Aoh85TCPn6yYuumHhDi7tJoTT3x3pCvWLqcaa8A6J5rm",
+      "symbol": "Irene",
+      "verdict": "PRIOR_FAIL_STANDS",
+      "mc": 44629,
+      "age_h": 1.77,
+      "h1": 64.69,
+      "m5": null,
+      "reason": "Irene copycat theme \u2014 skip"
+    },
+    {
+      "mint": "6N4BHPN8rvN2aGLKHF8XRcSdzugvcFz2s1379qUyXDbo",
+      "symbol": "Irene",
+      "verdict": "PRIOR_FAIL_STANDS",
+      "mc": 35892,
+      "age_h": 0.75,
+      "h1": 281,
+      "m5": 1.96,
+      "reason": "Irene copycat theme \u2014 skip"
+    },
+    {
+      "mint": "62tKjqdvzKrNHb8KrugUFUmKSC291sWHkp1RGbeipump",
+      "symbol": "SocialFrnk",
+      "verdict": "PRIOR_FAIL_STANDS",
+      "mc": 13601.28,
+      "age_h": 3.82,
+      "h1": 9.98,
+      "m5": -6.22,
+      "reason": "prior FAIL / creatorBal-band"
+    },
+    {
+      "mint": "G6NnKQTgN7Dmo9yrJXwoqiDm35FznQmQ1qXVFAXPpump",
+      "symbol": "BDOG",
+      "verdict": "PRIOR_FAIL_STANDS",
+      "mc": 11613.93,
+      "age_h": 3.74,
+      "h1": 4.65,
+      "m5": null,
+      "reason": "prior FAIL / thin book"
+    }
+  ],
+  "young_fails": [
+    {
+      "mint": "GjuiYGJi3QNtsa9PEsEyvpDwpVxejBQoQrrGRpyFpump",
+      "symbol": "FI",
+      "verdict": "FAIL",
+      "mc": 28479.39,
+      "age_h": 0.17,
+      "h1": 441,
+      "m5": 16.07,
+      "reason": "creatorBal 0; 14\u00d7 band"
+    },
+    {
+      "mint": "6KEm7GHTspmvVtf4qwNNDNPGqxse8UBHYttSX87apump",
+      "symbol": "Tesla",
+      "verdict": "FAIL",
+      "mc": 21767.91,
+      "age_h": 0.2,
+      "h1": 627,
+      "m5": null,
+      "reason": "RC 6153; single holder 51%; 7 holders"
+    },
+    {
+      "mint": "5aGRLchKmNDvNtzZ7qv2sPW1v349pPYWQZu88uNcTTLG",
+      "symbol": "DJT",
+      "verdict": "FAIL",
+      "mc": 19957.25,
+      "age_h": 0.21,
+      "h1": 395,
+      "m5": 120,
+      "reason": "NEW young: RC Copycat; creatorBal 0; 19\u00d7 band"
+    },
+    {
+      "mint": "4ti7DQpMPKHcC72t8WBCQj2M8q9CkNu7Fbhwp1u1pump",
+      "symbol": "DTR",
+      "verdict": "FAIL",
+      "mc": 164819,
+      "age_h": 0.29,
+      "h1": 265,
+      "m5": 2.89,
+      "reason": "prior FAIL stands / post-grad young chase"
+    },
+    {
+      "mint": "63UjR7d4xfCDjBqAwS2fJWaZPz7JfN32WtbzSAX3pump",
+      "symbol": "Caramel",
+      "verdict": "FAIL",
+      "mc": 63432,
+      "age_h": 0.36,
+      "h1": 42.39,
+      "m5": -46.66,
+      "reason": "prior FAIL stands"
+    },
+    {
+      "mint": "DG5cR2W2Ms5QnWz5VrAoCbq5xQCB9UWVTCtkugsSpump",
+      "symbol": "Cub",
+      "verdict": "FAIL",
+      "mc": 10311.82,
+      "age_h": 0.38,
+      "h1": 186,
+      "m5": -7.52,
+      "reason": "prior FAIL stands"
+    }
+  ],
+  "decision": "none \u2014 stay in SOL"
+}

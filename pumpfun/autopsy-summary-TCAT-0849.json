@@ -1,0 +1,138 @@
+{
+  "symbol": "TCAT",
+  "mint": "AD7WvdutwV3XyJypm5VrDG7bbtxLFgdqMLkMKndLpump",
+  "tag": "0849",
+  "fetched_at": "2026-10-16T08:49ET",
+  "score": 1,
+  "risks": [],
+  "creator": "GN5sgiP3ULCtbT7TTuFX3pk3kLRwf32GQYFYBY3EV8VD",
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "rugged": false,
+  "topHolders_ex_pool": [
+    {
+      "owner": "G4qPCbncuofA\u2026",
+      "pct": 18.3784,
+      "uiAmount": 180864121.092666,
+      "label": ""
+    },
+    {
+      "owner": "A3W8psibkTUv\u2026",
+      "pct": 3.6089,
+      "uiAmount": 35588073.550962,
+      "label": ""
+    },
+    {
+      "owner": "FXZB6wnXmr15\u2026",
+      "pct": 3.0805,
+      "uiAmount": 30377669.330894,
+      "label": ""
+    },
+    {
+      "owner": "HyN7rhL2f1MT\u2026",
+      "pct": 2.7406,
+      "uiAmount": 27025569.63665,
+      "label": ""
+    },
+    {
+      "owner": "2hqVcNBv5evp\u2026",
+      "pct": 2.7122,
+      "uiAmount": 26745430.357712,
+      "label": ""
+    },
+    {
+      "owner": "7XUAo3ugnHFt\u2026",
+      "pct": 2.6786,
+      "uiAmount": 26414053.125853,
+      "label": ""
+    },
+    {
+      "owner": "8FE8iX3cgrc5\u2026",
+      "pct": 2.3452,
+      "uiAmount": 23126376.85549,
+      "label": ""
+    },
+    {
+      "owner": "HfcwWknerHdJ\u2026",
+      "pct": 2.3277,
+      "uiAmount": 22953620.97362,
+      "label": ""
+    },
+    {
+      "owner": "6WveoGoZzH5N\u2026",
+      "pct": 2.091,
+      "uiAmount": 20619490.783542,
+      "label": ""
+    },
+    {
+      "owner": "9LVkAadw39aJ\u2026",
+      "pct": 1.8087,
+      "uiAmount": 17836119.46785,
+      "label": ""
+    },
+    {
+      "owner": "6GC1BDUBgwn9\u2026",
+      "pct": 1.5804,
+      "uiAmount": 15584956.846953,
+      "label": ""
+    },
+    {
+      "owner": "67Q1NscZdLxB\u2026",
+      "pct": 1.4799,
+      "uiAmount": 14593560.597887,
+      "label": ""
+    },
+    {
+      "owner": "9B3R9F54rtug\u2026",
+      "pct": 1.1984,
+      "uiAmount": 11817211.778344,
+      "label": ""
+    },
+    {
+      "owner": "2KCBzMwqj11M\u2026",
+      "pct": 1.1413,
+      "uiAmount": 11254175.797632,
+      "label": ""
+    },
+    {
+      "owner": "9iLxFrewrn7s\u2026",
+      "pct": 1.1032,
+      "uiAmount": 10879308.291442,
+      "label": ""
+    }
+  ],
+  "band_1_5_count": 15,
+  "top10ex_approx": 41.77,
+  "creatorBalance_field": 0,
+  "totalHolders": 992,
+  "graphInsiders": null,
+  "markets_n": 2,
+  "lpLockedPct": 100,
+  "fail_reasons": [
+    "creatorBal 0",
+    "15\u00d7 1\u20135% band",
+    "top10ex\u224841.8%",
+    "copycat Tesla Cat theme / prior FAIL"
+  ],
+  "verdict": "FAIL",
+  "dex": {
+    "symbol": "TCAT",
+    "dexId": "pumpswap",
+    "mc": 54917,
+    "liq": 18679.29,
+    "h1": 28.7,
+    "m5": 28.7,
+    "age_h": 0.04,
+    "txns_h1": {
+      "buys": 275,
+      "sells": 245
+    },
+    "vol_h1": 21461.23,
+    "url": "https://dexscreener.com/solana/g4qpcbncuofas6pkasfpj3grzg2vgcj1ppywttxyixbh",
+    "socials": null,
+    "websites": null
+  },
+  "creatorBalance": 0,
+  "name": "Tesla Cat",
+  "note": "prior FAIL stands (0844); still young post-grad"
+}

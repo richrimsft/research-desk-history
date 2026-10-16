@@ -1,0 +1,86 @@
+{
+  "mint": "21aory2QsMHai8BJUQnRHnZ7Hq3Y9mPcaxctmHgLpump",
+  "symbol": "PUMPKEYS",
+  "name": "Pumpkeys",
+  "score": 1,
+  "rugged": false,
+  "creator": "GSo5eJ65QZmTtT6y1B4CHemMUEXadCLP3ugeb9u4mBTw",
+  "creatorBalance": 0,
+  "creator_pct": null,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalHolders": 444,
+  "graphInsiders": 0,
+  "top10_ex_curve_pct": 22.46,
+  "band_1_5": 17,
+  "whale_pct": 3.28,
+  "phase": "pumpfun mc~13426.72 age=0.14h h1=225 m5=15.03 buys=889",
+  "socials": [
+    [
+      "twitter",
+      "https://x.com/PumpkeysPF/status/2111005130560856151"
+    ],
+    [
+      "website",
+      "https://www.pumpkeys.lol/"
+    ]
+  ],
+  "mc": 13426.72,
+  "age_h": 0.14,
+  "h1": 225,
+  "m5": 15.03,
+  "buys_h1": 889,
+  "sells_h1": 490,
+  "risks": [],
+  "decision": "FAIL",
+  "reasons": [
+    "age 0.14h <30m entry window FAIL",
+    "creatorBalance 0 (dev sold/out)",
+    "17 wallets in 1-5% band",
+    "botty churn: 889 buys/h on mc~13426.72",
+    "status-tweet X only (PumpkeysPF/status/\u2026) \u2014 no project X profile"
+  ],
+  "top10_owners": [
+    {
+      "owner": "Bz1wjfhLd6TL\u2026",
+      "pct": 3.2807339133016997
+    },
+    {
+      "owner": "6WxiAPEuDrKn\u2026",
+      "pct": 2.459360269026
+    },
+    {
+      "owner": "CcJX975YTw8o\u2026",
+      "pct": 2.4406583011633
+    },
+    {
+      "owner": "Hh1LXE9ZfVmU\u2026",
+      "pct": 2.4002568081751
+    },
+    {
+      "owner": "8ujBWo8cUNnE\u2026",
+      "pct": 2.1651008727152
+    },
+    {
+      "owner": "7djZvJGNvke9\u2026",
+      "pct": 2.0449295770869997
+    },
+    {
+      "owner": "EjtQrPTbcMev\u2026",
+      "pct": 1.9534802670833
+    },
+    {
+      "owner": "CzsxDQz6kPqr\u2026",
+      "pct": 1.9204258768037001
+    },
+    {
+      "owner": "75SeDT9h24Ls\u2026",
+      "pct": 1.9076681861919
+    },
+    {
+      "owner": "YARSciE3tFur\u2026",
+      "pct": 1.88396086096
+    }
+  ],
+  "socials_detail": "status-tweet X only (PumpkeysPF/status/\u2026) \u2014 no project X profile"
+}

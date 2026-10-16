@@ -1,0 +1,8 @@
+Night-sky argument starter kit:
+
+- Starlink: line of lights, same spacing, same speed
+- Iridium-class flare: brief, bright, then gone
+- Aircraft: blinks, often with sound or a flight path
+- High balloon / kite with LEDs: slow, can stall, can look “too close”
+
+Apps first. Narrative second.

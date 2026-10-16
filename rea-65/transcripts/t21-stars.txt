@@ -1,0 +1,11 @@
+$ curl -s https://api.github.com/repos/morluto/rea | jq '{full_name, stargazers_count, forks_count, pushed_at}'
+{
+  "full_name": "morluto/rea",
+  "stargazers_count": 236820,
+  "forks_count": 59053,
+  "pushed_at": "2026-10-14T19:02:50Z"
+}
+
+$ TZ=America/New_York date
+Wed Oct 14 15:03:50 EDT 2026
+

@@ -1,0 +1,30 @@
+{
+  "symbol": "GULP",
+  "name": "Gulp",
+  "mint": "8BwEQTbuKD6DyHsr57FpF8L6RRvzr8Gm4TRMMqfbpump",
+  "mc": 29715.87,
+  "age_h": 0.6,
+  "phase": "pumpfun curve",
+  "creator": "AEp5RxwH8AGpCHkqKGUanoazaVwYaBmuX91iMHbrnty",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "top10_ex_curve_pct": 24.97,
+  "band_1_5pct": 15,
+  "graphInsiders": 7,
+  "socials": "project X @playgulpfun + playgulp.fun",
+  "vol_h1": 122696.82,
+  "buys_sells_h1": [
+    1954,
+    1193
+  ],
+  "decision": "FAIL",
+  "reasons": [
+    "creatorBal now 0 (dev sold since 0409)",
+    "15 wallets in 1-5% band",
+    "botty churn: 1954 buys/h on mc~29716",
+    "prior 0409 also flagged creator history of rugged tokens",
+    "age gate cleared (~0.6h) but structure still FAIL \u2014 not a clean buy"
+  ],
+  "note": "recheck after clearing 30m age gate; still NO-BUY"
+}

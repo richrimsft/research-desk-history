@@ -1,0 +1,55 @@
+{
+  "mint": "5b8F5y5uK3JgRTowCxfKbtMS3397DtSwxKMHjRZhpump",
+  "symbol": "Optimus",
+  "decision": "FAIL",
+  "mc": 19782,
+  "age_h": 2.57,
+  "h1": 43.85,
+  "m5": -3.77,
+  "curve_pct": 35.56,
+  "top10_ex_curve_pct": 26.49,
+  "holder_pcts": [
+    3.92,
+    2.7,
+    2.69,
+    2.66,
+    2.57,
+    2.55,
+    2.51,
+    2.39,
+    2.32,
+    2.19
+  ],
+  "uniform_band_1_5_4_5": "10/10",
+  "creator": "CsuNfZEg5z8YEDLFEq2WNvXJZgiLzALmVxgAGagXUu1N",
+  "creatorBal": 0,
+  "creator_sol": 0,
+  "rc_score": 1,
+  "mint_freeze_revoked": true,
+  "socials": {
+    "x": "OptimusRobotX",
+    "created": "2026-10-16T04:06:32Z",
+    "followers": 0,
+    "tweets": 2,
+    "note": "brand-new empty fan account"
+  },
+  "shared_funders": {
+    "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9": 2,
+    "A77HErqtfN1hLLpvZ9pCtu66FEtM8BveoaKbbMoZ4RiR": 2,
+    "u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w": 3
+  },
+  "identical_funder_amts": {
+    "A77HErqt@1.007908": [
+      "B7W3ok3s",
+      "AvkHVcF8"
+    ]
+  },
+  "fail_reasons": [
+    "uniform ~2.1-2.7% top-holder band (10/10 in 1.5-4.5%) = OPENSTOCK cabal tell",
+    "shared funders: A77HErqt\u2026 funds 2 w/ identical 1.007908 SOL; u6PJ8DtQ\u2026 funds 3",
+    "brand-new X @OptimusRobotX (0 followers, 2 tweets, created ~2h ago)",
+    "creatorBal 0 + creator SOL 0",
+    "top10 ex-curve ~26.5% (borderline)"
+  ],
+  "ts": "2026-10-16 02:14 ET"
+}

@@ -1,0 +1,53 @@
+X live reply/mention scan
+==========================
+signed_in_as: @P7RIM3 (confirmed via account menu/avatar)
+cutoff: 2026-09-30T18:19:23-04:00 (6:19:23 PM EDT)
+scanned_at: 2026-09-30 18:29:32 EDT
+notifications_url: https://x.com/notifications
+mentions_url: https://x.com/notifications/mentions
+NEW_COUNT: 1
+
+Visible reply/mention cards (deduped by status URL; cards seen in both tabs are marked):
+
+1. handle: @GilliRoth
+   url: https://x.com/GilliRoth/status/2105422493200875658
+   seen_in: All, Mentions
+   age: 8m (status page exact time: 6:20 PM · Sep 30, 2026)
+   text: [image-only reply; no body text. Post metadata shows: @P7RIM3 @cb_doge https://t.co/ryDOAZ5sKG]
+   reply_state: 0 replies shown
+   classification: new_unreplied
+   newer_than_cutoff: yes
+
+2. handle: @zebralife2002
+   url: https://x.com/zebralife2002/status/2105361123503440350
+   seen_in: All, Mentions
+   age: 4h
+   text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+   classification: pre_cutoff_known
+   newer_than_cutoff: no (known already handled)
+
+3. handle: @KittyMcfeisty2
+   url: https://x.com/KittyMcfeisty2/status/2105343324580143460
+   seen_in: All, Mentions
+   age: 5h
+   text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh
+   classification: over_two_beats
+   newer_than_cutoff: no (known already handled)
+
+4. handle: @KittyMcfeisty2
+   url: https://x.com/KittyMcfeisty2/status/2105339423638651351
+   seen_in: Mentions
+   age: 5h
+   text: 🙄 🤦‍♀️
+   classification: over_two_beats
+   newer_than_cutoff: no (known already handled)
+
+Notes:
+- No other visible reply/mention cards were present in the loaded All or Mentions timelines.
+- The Kitty card above appeared in both tabs; the emoji card appeared in Mentions. The known-handled instruction says KittyMcfeisty2 x3 overall; no Kitty card beyond these loaded visible cards was exposed in this pass.
+- Non-reply notifications were ignored as requested: a like on an own reply (20m), a four-person like notification (1h), and follows (1h/5h). The own $0HOUR1 posts around 18:05–18:07 ET appeared only as liked-post content, not as inbound reply/mention cards, and were excluded.
+
+NEW UNREPLIED SUMMARY
+- @GilliRoth — image-only reply, posted 6:20 PM EDT (8m), after the 6:19:23 PM cutoff; 0 replies shown.
+  URL: https://x.com/GilliRoth/status/2105422493200875658
+  Full visible text/metadata: @P7RIM3 @cb_doge https://t.co/ryDOAZ5sKG (image; no text body)

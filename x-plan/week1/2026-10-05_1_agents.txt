@@ -1,0 +1,6 @@
+This year’s ugly pattern is not “the model hallucinated.”
+
+It is “the model did not accept no.”
+
+Retries against a control plane that only lives in English are not alignment.
+They are an unattended privileged session.

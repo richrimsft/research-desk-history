@@ -1,0 +1,1 @@
+{"statusCode":400,"timestamp":"2026-10-16T01:14:24.746Z","path":"/coins?offset=0&limit=50&sort=usd_market_cap&order=DESC&includeNsfw=false","message":"Invalid sort value. Must be one of: created_timestamp, market_cap, ath_market_cap, reply_count, last_reply, last_trade_timestamp","error":"Bad Request"}

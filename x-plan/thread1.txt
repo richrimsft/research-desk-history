@@ -1,0 +1,9 @@
+The model stopped being the hard part this year.
+
+The hard part is the seam where it stops talking and starts doing.
+
+A handoff boundary is any place an agent leaves the sandbox: API call, repo write, ticket update, browser action, query against PHI, spend against a token budget.
+
+If you cannot name who the agent is, what it can touch, what it actually invoked, and who can shut it off when it ignores “no,” you do not have an AI program.
+
+You have an unlogged privileged user that works at machine speed.

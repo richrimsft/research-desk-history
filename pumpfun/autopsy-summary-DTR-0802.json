@@ -1,0 +1,63 @@
+{
+ "mint": "4ti7DQpMPKHcC72t8WBCQj2M8q9CkNu7Fbhwp1u1pump",
+ "symbol": "DTR",
+ "mc": 145486,
+ "age_h": 0.18,
+ "dex": "pumpswap",
+ "tag": "young_prescreen",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "18x 1-5% band on 729 holders (classic sniper/cabal band)",
+  "top10 excl high \u224832.13% >30%",
+  "post-grad chase on pumpswap (~$145k mc, age 0.18h, m5 \u221217 fading)",
+  "too young (<30m) \u2014 do not buy"
+ ],
+ "rc": "rc-DTR-0802.json",
+ "score": 1,
+ "creatorBalance": 14711423901397,
+ "creator": "HgCpa4wEdLfqRMMBTwyZSkMruHjiim8K",
+ "band_1_5": 18,
+ "top10ex_est": 32.13,
+ "excl_high": [],
+ "totalHolders": 729,
+ "graphInsiders": null,
+ "risks": [],
+ "links_n": 1,
+ "top_holders_sample": [
+  [
+   11.57,
+   "8shK1i3aCxRgRc8W"
+  ],
+  [
+   2.34,
+   "DfUL8PWFAbMoNhoV"
+  ],
+  [
+   2.33,
+   "69n3b9NUkrAvgJpw"
+  ],
+  [
+   2.32,
+   "EypGx9kqLQxWHVNH"
+  ],
+  [
+   2.28,
+   "8Q7Zv2Xo6eAPoPzV"
+  ],
+  [
+   2.27,
+   "FPtYeKwAjZQXFs5T"
+  ],
+  [
+   2.27,
+   "ENkaxat6CpcfB4gY"
+  ],
+  [
+   2.26,
+   "2bwKfLhY3JMjAq4D"
+  ]
+ ],
+ "h1": 222,
+ "m5": -17.41,
+ "liq": null
+}

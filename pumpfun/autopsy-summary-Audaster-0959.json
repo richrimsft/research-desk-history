@@ -1,0 +1,43 @@
+{
+  "tag": "0959",
+  "symbol": "Audaster",
+  "mint": "3xmzHi86JTUdye7bUuT9TdBPZLeBK9nBCA44JHRdpump",
+  "age_h": 0.51,
+  "mc": 1608001,
+  "h1": 2672,
+  "m5": 80.53,
+  "dex": "pumpswap",
+  "phase": "inwindow_recheck",
+  "verdict": "FAIL",
+  "reasons": [
+    "creatorBal 0 (dev sold out early)"
+  ],
+  "rc_score": 1,
+  "top10ex_pct": 6.57,
+  "band_1_5_count": 1,
+  "max_identical_0.1": 1,
+  "identical_band_val": 3.4,
+  "creator": "AsMnEHpsPtV2mymQeWhD2QkZj4a7LV7i77sSmiX5Vh5v",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "graphInsiders": 0,
+  "totalHolders": 5964,
+  "risks": [],
+  "meta_name": "AUDACITY ROADSTER",
+  "creator_pct": 0.0,
+  "top_pcts": [
+    3.41,
+    0.4,
+    0.4,
+    0.37,
+    0.36,
+    0.33,
+    0.33,
+    0.33,
+    0.33,
+    0.32,
+    0.32,
+    0.31
+  ]
+}

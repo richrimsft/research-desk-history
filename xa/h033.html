@@ -1,0 +1,9 @@
+<html><head><meta charset="utf-8"></head><body><p>My paper simulator has polled both order books every second since Oct 14 at 3:07 PM ET. When the pair plus fees drops under $1, it waits a simulated 300 to 500 milliseconds (a realistic delay), checks the book again, and "buys" up to $9 of matched pairs.</p>
+<p>Here's what it recorded for the 197 markets it completed between Oct 14, 3:25 PM and Oct 15, 10:40 AM ET:</p>
+<ol>
+<li><strong>Opportunities after fees: 0.</strong> Not one moment where Up + Down + fees cost under $1.</li>
+<li><strong>Cheapest pair ever seen:</strong> $0.970 before fees, $1.0012 after fees.</li>
+<li><strong>Typical pair:</strong> the median of each market's median was $1.010 before fees. The book is built to cost a penny more than it pays.</li>
+<li><strong>Best-case backtest:</strong> I also gave it perfect, zero-delay fills at the single best moment of every market, with the first 70% of markets as in-sample and the last 30% held out. With real fees: 0 hits at every margin. With <strong>no fees at all</strong> (a fantasy), 4 tiny hits worth $0.30 in total.</li>
+<li><strong>Live paper result:</strong> $100.00 of $100.00 cash. Zero fills.</li>
+</ol></body></html>

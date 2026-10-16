@@ -1,0 +1,24 @@
+X notification scan report
+Account: @P7RIM3
+Scan time: 2026-09-30 16:21 ET (approx.)
+Cutoff: 2026-09-30T16:13:42-04:00
+
+NEW_COUNT: 0
+
+Result: No genuinely new inbound replies/mentions after the cutoff. All visible inbound items were displayed as 2h or older (3h, 18h, 19h, 20h) and therefore pre-cutoff. No replies posted. No breaking-trend original posted.
+
+Screenshots:
+- /workspace/x-plan/run-20260930-1620-notifications.png
+- /workspace/x-plan/run-20260930-1620-mentions.png
+
+Visible reply/mention cards and dispositions (All and Mentions timelines; likes/follows/reposts ignored):
+1. Paul Kelly @zebralife2002 — 2h — https://x.com/zebralife2002/status/2105361123503440350 — "Your first sentence made absolutely no sense \"you guys are handing outside of a person\" I stop reading and I stopped paying attention to you at that point. Have a good day" — 1 reply; already handled per instruction, skip.
+2. Piper Paprikas #2nd account @KittyMcfeisty2 — 3h — https://x.com/KittyMcfeisty2/status/2105343324580143460 — "This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh" — 0 replies shown; thread already has two beats/known handled Kitty thread, stop and skip.
+3. Piper Paprikas #2nd account @KittyMcfeisty2 — 3h — https://x.com/KittyMcfeisty2/status/2105339423638651351 — emoji-only (🙄 🤦‍♀️) — 1 reply; already handled Kitty thread, skip.
+4. Piper Paprikas #2nd account @KittyMcfeisty2 — 3h — https://x.com/KittyMcfeisty2/status/2105333564132712947 — "What’s new is this shit needs to stop. Beyond ridiculous" — 1 reply; already handled Kitty thread, skip.
+5. h @Cobra17298328 — 18h — https://x.com/Cobra17298328/status/2105112514090402040 — "I can’t see what this bitch is saying, cause he immediately blocked me" — 1 reply; two beats done and approved reply already live, skip.
+6. Juneaux @juneauxwhoitis — 19h — https://x.com/juneauxwhoitis/status/2105094896663371987 — "Overflowing with perceptions you are!" — 2 replies; over two beats, skip.
+7. spooky @FiresOfTruth — 20h — https://x.com/FiresOfTruth/status/2105080875058704611 — "Check the link in my bio to watch a film I made with darcy" — 0 replies; known bio/sales promo, no reply.
+
+Account check: signed in as P7RIM3 (account menu showed P7RIM3 / @P7RIM3).
+Vaibhav/Cobra: not re-posted. Cobra was visible only as the pre-cutoff handled item; Vaibhav was not visible in the scan. No sign-in, captcha, or other blocker.

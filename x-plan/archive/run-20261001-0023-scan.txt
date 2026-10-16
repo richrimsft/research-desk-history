@@ -1,0 +1,34 @@
+RUN 2026-10-01 00:23 ET
+ACCOUNT: @P7RIM3 (confirmed in Account menu; user ID 1995219682186452992)
+CUTOFF: 2026-10-01T00:05:00-04:00
+SCANNED_AT: 2026-10-01T00:23:31-04:00
+WINDOW: overnight; notifications only, no originals or trends
+
+ALL: https://x.com/notifications
+Screenshot: /workspace/x-plan/run-20261001-0023-notifications.png
+Visible item newer than cutoff:
+- @Kungfoo559 and 3 others; like notification (liked your reply); 15m (approximately 00:08 ET); notification URL not exposed; non-qualifying, skipped because likes are not replied to.
+Visible items at or before cutoff / reviewed for context:
+- @mark_ippol51515; liked your reply; 19m (approximately 00:04 ET); non-qualifying and at/before cutoff.
+- @iLLuminuttee; liked your reply; 1h; skipped like.
+- @zachrf1014; liked your reply; 1h; skipped like.
+- @MchStereo; liked your reply; 1h; skipped like.
+- @scullyspier; reposted your post; 1h; skipped repost.
+- @Cuzzo_TM; quote post https://x.com/Cuzzo_TM/status/2105484203005812936; 1h; related to cancelled $0HOUR1; skipped.
+- @misterg792000; reply https://x.com/misterg792000/status/2105483189200261612; 2h; old, skipped.
+- @misterg792000; reply https://x.com/misterg792000/status/2105479038823178432; 2h; old and same-person two-beat thread, skipped.
+- @misterg792000; liked your reply; 2h; skipped like.
+- @MadamHaus; reply https://x.com/MadamHaus/status/2105460336006672836; 3h; $0HOUR1-related, skipped per cancellation.
+
+MENTIONS: https://x.com/notifications/mentions
+Screenshot: /workspace/x-plan/run-20261001-0023-mentions.png
+No visible mention/reply newer than cutoff. Visible older items reviewed:
+- @misterg792000 replies https://x.com/misterg792000/status/2105483189200261612 and https://x.com/misterg792000/status/2105479038823178432; 2h; old/two-beat, skipped.
+- @MadamHaus reply https://x.com/MadamHaus/status/2105460336006672836; 3h; $0HOUR1-related, skipped.
+- @DrumondArt; emoji-only reply; 4h; skipped.
+- @stonkspark; reply; 5h; old, skipped.
+- @GillianRoth; reply; 6h; old, skipped.
+- @zebralife2002; reply; 10h; old, skipped.
+- @KittyMcfeisty2; reply mentioning @KittyMcFeisty; 11h; old, skipped.
+
+RESULT: 0 new qualifying replies/mentions; 1 new non-qualifying like notification; 0 replies posted; 0 flags; 0 blockers.

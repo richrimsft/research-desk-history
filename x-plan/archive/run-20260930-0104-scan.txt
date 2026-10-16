@@ -1,0 +1,42 @@
+X notification scan
+Timestamp: 2026-09-30 01:04 America/New_York
+Cutoff: approximately 2026-09-30 00:51 America/New_York
+
+SIGNED_IN: yes
+HANDLE: @P7RIM3
+
+ALL tab cards (top-to-bottom visible/loaded during scan)
+1. Mweh and 6 others — handle not shown — 1m — liked your reply (likes-only); text: "Do the complete opposite of whatever Cramer says!"; parent/status opened: https://x.com/P7RIM3/status/2105068810919346249
+2. Ace and 6 others — handle not shown — 1h — liked your reply (likes-only); text: "Do the opposite of whether Kramer says! Trust me"; parent/status opened: https://x.com/P7RIM3/status/2105068364997722366
+3. Darcy Weir Films — handle not shown — 1h — liked your reply (likes-only); text: "The dude claimed he was on different planets and a secret space force run by reptiles. What did he expect the public’s reaction would be? Ufology in general is about as asinine as the flat earth community. I follow it for the laughs!"; parent/status opened: https://x.com/P7RIM3/status/2105080399042916832
+4. G Reed — handle not shown — 2h — liked your reply (likes-only); text: "Nvidia and X.ai yes! Meta, absolutely not"; status URL not opened.
+5. Name/handle not exposed in row — approximately 2–3h — liked your reply (likes-only); text: "This screams the movie Wall-E"; status URL not opened.
+6. h (@Cobra17298328) — 3h — reply/mention; text: "I can’t see what this bitch is saying, cause he immediately blocked me"; https://x.com/Cobra17298328/status/2105112514090402040
+7. FormOverTime — handle not shown — 4h — liked your reply (likes-only); text visible: "The guy is clueless. You can tell he has ZERO technical skills. I know everyone has a giant boner for anthropic right now. I don’t see him being the leader for the long haul. I just don’t"; status URL not opened.
+8. Juneaux ⏸️ 😴 (@juneauxwhoitis) — 4h — reply/mention; text: "Overflowing with perceptions you are!"; https://x.com/juneauxwhoitis/status/2105094896663371987
+9. Robin — handle not shown — 4h — liked your reply (likes-only); text: "Time to crank out the money printing machine."; status URL not opened.
+10. King Chess — handle not shown — 5h — liked your reply (likes-only); text: "Their fees are ridiculous. Stick with @krakenfx"; status URL not opened.
+11. John Galt and 12 others — handles not shown — 5h — liked your reply (likes-only); text: "Do the opposite of whether Kramer says! Trust me"; status URL not opened.
+12. spooky (@FiresOfTruth) — 5h — reply/mention; text: "Check the link in my bio to watch a film I made with darcy"; https://x.com/FiresOfTruth/status/2105080875058704611
+13. Mr. Fugazi and 5 others — handles not shown — 5h — liked your reply (likes-only); text: "Do the complete opposite of whatever Cramer says!"; status URL not opened.
+14. Hemingwaypaws and Ibn Yahya — handles not shown — 5h — liked your reply (likes-only); text: "The guy is clueless. You can tell he has ZERO technical skills. I know everyone has a giant boner for anthropic right now. I don’t see him being the leader for the long haul. I just don’t"; status URL not opened.
+15. Name/handle not exposed in row — 5h — liked your reply (likes-only); text: "A hilarious meme"; status URL not opened.
+16. spooky (@FiresOfTruth) — 5h — liked your reply (likes-only); text: "Fair. What happened that needs hoping — receipt or rumor?"; status URL not opened.
+17. spooky (@FiresOfTruth) — 5h — reply/mention, quote-post only; visible quoted text: "Alex B is currently missing. #fishtanklive"; https://x.com/FiresOfTruth/status/2105074701802651949
+18. spooky (@FiresOfTruth) — 5h — reply/mention; text: "He’s a human being"; https://x.com/FiresOfTruth/status/2105073376268345355
+19. Felisa — handle not shown — 6h — liked your reply (likes-only); text: "Nvidia and X.ai yes! Meta, absolutely not"; status URL not opened.
+20. Grok (@grok) — 6h — reply/mention; visible text: "The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the america.gov"; https://x.com/grok/status/2105068070892912851
+
+MENTIONS tab cards
+1. h (@Cobra17298328) — 3h — Replying to @P7RIM3 @skeptic_vaibhav and @artaimemes — "I can’t see what this bitch is saying, cause he immediately blocked me" — https://x.com/Cobra17298328/status/2105112514090402040 — known handled (beat 2/2).
+2. Juneaux ⏸️ 😴 (@juneauxwhoitis) — 4h — Replying to @P7RIM3 and @OverlyTrev — "Overflowing with perceptions you are!" — https://x.com/juneauxwhoitis/status/2105094896663371987 — known handled (two-beat done).
+3. spooky (@FiresOfTruth) — 5h — Replying to @P7RIM3 @thehiddenpod — "Check the link in my bio to watch a film I made with darcy" — https://x.com/FiresOfTruth/status/2105080875058704611 — known/skipped.
+4. spooky (@FiresOfTruth) — 5h — Replying to @P7RIM3, quote-post of @SlackerBluePod — quoted text: "Alex B is currently missing. #fishtanklive"; no additional reply text visible — https://x.com/FiresOfTruth/status/2105074701802651949 — known/skipped.
+5. spooky (@FiresOfTruth) — 5h — Replying to @P7RIM3 — "He’s a human being" — https://x.com/FiresOfTruth/status/2105073376268345355 — known/skipped.
+6. Grok (@grok) — 6h — Replying to @P7RIM3 @elonmusk — "The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the america.gov"; https://x.com/grok/status/2105068070892912851 — known handled (beat 3+).
+
+NEW_COUNT: 0
+
+NEW candidates: none. All reply/mention cards visible were older than cutoff and matched the supplied known handled/skipped URLs. No candidate required parent-context capture.
+
+BLOCKERS: none. Signed-in session confirmed in account menu as P7RIM3/@P7RIM3. No login wall, captcha, or user-block page encountered. No posts, likes, follows, reposts, or DMs made.

@@ -1,0 +1,98 @@
+{
+  "tag": "0808",
+  "symbol": "Tesla",
+  "mint": "6KEm7GHTspmvVtf4qwNNDNPGqxse8UBHYttSX87apump",
+  "mc": 21767.91,
+  "age_h": 0.2,
+  "h1": 627,
+  "m5": null,
+  "dex": "pumpfun",
+  "tag_role": "YOUNG_prescreen",
+  "phase": "young/<30m",
+  "verdict": "FAIL",
+  "reasons": [
+    "creatorBal 0",
+    "top10ex\u224851.4% (>25%)",
+    "RC danger: Single holder ownership 51.39%",
+    "RC warn: High holder concentration",
+    "too young (0.2h) \u2014 light pre-screen only, no buy"
+  ],
+  "creatorBalance": 0,
+  "creator": "CuVgtsNUTBMnTk2PF6Rjz2PaqCQ2hQNtLJtx2rZgpmhT",
+  "creator_pct": 0,
+  "band_1_5": 0,
+  "top10ex_est": 51.39,
+  "top10_raw": 100.0,
+  "excl_lp": [
+    [
+      48.60679713381535,
+      "7fzTwHRuVHPmGNgP"
+    ]
+  ],
+  "totalHolders": 7,
+  "score": 6153,
+  "score_normalised": 43,
+  "risks": [
+    "Single holder ownership",
+    "High holder concentration"
+  ],
+  "top_holders_kept": [
+    [
+      51.39,
+      "BwWK17cbHxwWBKZk"
+    ],
+    [
+      0,
+      "3q8qaWiENCd9kGeV"
+    ],
+    [
+      0,
+      "GJGzKejSFxK54q7A"
+    ],
+    [
+      0,
+      "G9ezpNG8gp6j5z9z"
+    ],
+    [
+      0,
+      "CuVgtsNUTBMnTk2P"
+    ],
+    [
+      0,
+      "GJfarzhrwMXUur8A"
+    ]
+  ],
+  "top_holders_raw": [
+    [
+      51.39,
+      "BwWK17cbHxwWBKZk"
+    ],
+    [
+      48.61,
+      "7fzTwHRuVHPmGNgP"
+    ],
+    [
+      0,
+      "3q8qaWiENCd9kGeV"
+    ],
+    [
+      0,
+      "GJGzKejSFxK54q7A"
+    ],
+    [
+      0,
+      "G9ezpNG8gp6j5z9z"
+    ],
+    [
+      0,
+      "CuVgtsNUTBMnTk2P"
+    ],
+    [
+      0,
+      "GJfarzhrwMXUur8A"
+    ]
+  ],
+  "rc": "rc-Tesla-0808.json",
+  "graphInsiders": 0,
+  "links_n": 0
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "symbol": "SpaceX",
+    "name": "SpaceX",
+    "mint": "vHRVLH6RDNeeMhcAsyNifSBvSRFFv1PD5RwVTempump",
+    "dexId": "pumpswap",
+    "mc": 391732,
+    "age_h": 0.05,
+    "h1": 784,
+    "m5": 784,
+    "vol_h1": 17921.9,
+    "txns_h1": {
+      "buys": 126,
+      "sells": 33
+    },
+    "url": "https://dexscreener.com/solana/gedgx64gv48we5jcbezrkgox5gb2hbddn4clpcthkgjj",
+    "pairCreatedAt": 1792140140000,
+    "NEW": true
+  },
+  {
+    "symbol": "LOOM",
+    "name": "The Loom",
+    "mint": "7GCMYJcykHZ3qJH3e5vQi4J9qAPdb3Xninkgk6sYpump",
+    "dexId": "pumpswap",
+    "mc": 204269,
+    "age_h": 1.85,
+    "h1": 26.22,
+    "m5": -19.12,
+    "vol_h1": 802442.75,
+    "txns_h1": {
+      "buys": 8179,
+      "sells": 6010
+    },
+    "url": "https://dexscreener.com/solana/3d8vxmgha44jnfa8cv3x58uzdv5hfhvlk7q5lhcjnvdg",
+    "pairCreatedAt": 1792133676000,
+    "NEW": false
+  },
+  {
+    "symbol": "GULP",
+    "name": "Gulp",
+    "mint": "8BwEQTbuKD6DyHsr57FpF8L6RRvzr8Gm4TRMMqfbpump",
+    "dexId": "pumpfun",
+    "mc": 24670.6,
+    "age_h": 0.73,
+    "h1": 327,
+    "m5": 46.37,
+    "vol_h1": 139166.52,
+    "txns_h1": {
+      "buys": 2134,
+      "sells": 1360
+    },
+    "url": "https://dexscreener.com/solana/hnle6wljxjfsr2cml3p4gnntv1grbeyw8dxz43amy3tq",
+    "pairCreatedAt": 1792137696000,
+    "NEW": false
+  },
+  {
+    "symbol": "LULU",
+    "name": "LULU INU",
+    "mint": "8DQzWohFEMWruKUC5G2hEgBcs4bhJ1y7oJuyxZHpump",
+    "dexId": "pumpfun",
+    "mc": 23006.57,
+    "age_h": 0.88,
+    "h1": 670,
+    "m5": 1.97,
+    "vol_h1": 24972.09,
+    "txns_h1": {
+      "buys": 115,
+      "sells": 50
+    },
+    "url": "https://dexscreener.com/solana/7ishgr9cwlxz5xpg9kjy7cb1duntaty1a9zurgwqqueo",
+    "pairCreatedAt": 1792137151000,
+    "NEW": false
+  },
+  {
+    "symbol": "Dragon",
+    "name": "SpaceX Dragon ",
+    "mint": "9gG2evdn4HgPCzyJkeUSFLei5Z4XBba3nSNPqczwpump",
+    "dexId": "pumpfun",
+    "mc": 11510.69,
+    "age_h": 0.96,
+    "h1": 118,
+    "m5": 31.87,
+    "vol_h1": 67402.8,
+    "txns_h1": {
+      "buys": 885,
+      "sells": 653
+    },
+    "url": "https://dexscreener.com/solana/aw8njhyt8lguf6cedlunxgbq3idruzjhd1mcdq41c1x",
+    "pairCreatedAt": 1792136853000,
+    "NEW": false
+  }
+]

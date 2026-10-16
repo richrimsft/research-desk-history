@@ -1,0 +1,18 @@
+{
+  "sym": "RUNNER",
+  "mint": "Fko4w9HoVqbZvtEobjYjm4nDG5aVmKQ3zjVJunXvpump",
+  "verdict": "REJECT",
+  "why": "creatorBal 0 + h1 -4% + top10 heavy",
+  "mc": 42197,
+  "liq": 16200.38,
+  "h1": -4.37,
+  "tx1h": {
+    "buys": 38,
+    "sells": 20
+  },
+  "creatorBalance": 0,
+  "creator": "8H1vLHzLgmCutLaCgtcjTq9tPm8HATsUZfmktWgSDEm5",
+  "top10_pct": 74.92,
+  "graphInsiders": 0,
+  "score": 1
+}

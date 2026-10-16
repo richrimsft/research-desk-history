@@ -1,0 +1,53 @@
+{
+  "CZ3X9XUxSTc1hN9iGPteG3iKoXGC4q332bmWi4JBpump": {
+    "name": "SPOOKY",
+    "mc": 205902.0,
+    "price": 0.0002156,
+    "val": 4.825751084,
+    "pct": -38.53671641791044,
+    "m5": 0.95,
+    "h1": 14.62,
+    "h6": 107,
+    "m5b": 27,
+    "m5s": 13,
+    "h1b": 749,
+    "h1s": 442,
+    "liq": 41734.55,
+    "age_h": 46.80976710279677,
+    "pair": "3hUwrAajx6NyWezqkAXW3nHCmKLv1Vq7wDcBZVetoqy1"
+  },
+  "3EC7gRDGKgqPHc9ipJxxChoeyseE2xAbQHZUSSTfpump": {
+    "name": "SYCAMORE",
+    "mc": 326817.0,
+    "price": 0.000337,
+    "val": 6.70771877,
+    "pct": 8.939000000000007,
+    "m5": -1.98,
+    "h1": 6.08,
+    "h6": 33.1,
+    "m5b": 21,
+    "m5s": 15,
+    "h1b": 259,
+    "h1s": 191,
+    "liq": 54610.58,
+    "age_h": 15.684307119072809,
+    "pair": "5cX7awH9czi1VKK2SFabfCSzyVbytf7KBExiJiP6jYDq"
+  },
+  "31GYUbJW5vjF1o7VM5SGP9Emj5WDBHb1cdcR8BM6pump": {
+    "name": "NULLCASH",
+    "mc": 38586.86,
+    "price": 3.858e-05,
+    "val": 6.4154612556,
+    "pct": 59.44983471074381,
+    "m5": 6.37,
+    "h1": 105,
+    "h6": 183,
+    "m5b": 37,
+    "m5s": 18,
+    "h1b": 239,
+    "h1s": 120,
+    "liq": null,
+    "age_h": 6.849688254123264,
+    "pair": "7VWTxyQJuoVLrbmwRTWFMqqxNpGABPxgHZVbZhMAnoXq"
+  }
+}

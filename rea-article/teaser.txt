@@ -1,0 +1,3 @@
+I installed REA (github.com/morluto/rea), the open-source MCP server that lets coding agents reverse engineer software they didn't write, then cracked a practice binary with it.
+
+Every command, every real output, and what the viral posts get wrong. Receipts inside 👇

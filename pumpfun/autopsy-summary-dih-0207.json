@@ -1,0 +1,65 @@
+{
+  "symbol": "dih",
+  "name": "dog in helmet",
+  "creator": "6N2AqdWRTpekKU6P5Cqb523kmGVu63Ci4eJMcT8Usjzd",
+  "creatorBalance": 0,
+  "score": 1,
+  "risks": [],
+  "graphInsiders": 0,
+  "totalHolders": 212,
+  "top10_ex_curve_pct": 22.76,
+  "top10": [
+    {
+      "pct": 4.33,
+      "owner": "11111111111111111111111111111111",
+      "ui": 0
+    },
+    {
+      "pct": 3.19,
+      "owner": "B4tWmhfCBLvRYugPcu6bgP36DVweLc457pywc1a3QJju",
+      "ui": 31942730.727812
+    },
+    {
+      "pct": 2.32,
+      "owner": "W9zsWBCWvSXA15UfTGpmNckZha2nF7QBF88dRxFmBCZ",
+      "ui": 23157073.133685
+    },
+    {
+      "pct": 2.03,
+      "owner": "Had6pusVmdPaXzoWCEAQJQ4dMttPx7YCvii1Udd4nnPT",
+      "ui": 20292387.165046
+    },
+    {
+      "pct": 2.01,
+      "owner": "4fYFLhTLahrZU6B5sw5GFGGrtyxNXi7pdEHtki7nf3S5",
+      "ui": 20103883.647573
+    },
+    {
+      "pct": 1.92,
+      "owner": "4JwcPbdN17rTfWgG62Hz7BP14CgKT45EhyqaUBG4yHjs",
+      "ui": 19240604.247741
+    },
+    {
+      "pct": 1.77,
+      "owner": "6shoJFcYEHjj95hMUEgnMV8dk5QGhZQcAkDxBSwo9CUp",
+      "ui": 17729274.002678
+    },
+    {
+      "pct": 1.73,
+      "owner": "AaGtv5joDMGRWkK3CgU9EAK5T6jtXEfgjrybVtcbabpm",
+      "ui": 17293347.466275
+    },
+    {
+      "pct": 1.73,
+      "owner": "2pidmg2QDs8j98W4ZZrPNgTiMdzbqmRxtFLjbkX2i6ic",
+      "ui": 17290038.500507
+    },
+    {
+      "pct": 1.72,
+      "owner": "CyT2UQZET4JrXSKLNbnGbyPMm1pb1gr5qKHc6XeRjUjD",
+      "ui": 17249212.647801
+    }
+  ],
+  "mintAuthority": null,
+  "freezeAuthority": null
+}

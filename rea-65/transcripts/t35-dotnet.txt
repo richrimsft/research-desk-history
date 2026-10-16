@@ -1,0 +1,22 @@
+$ rea inspect-managed-artifact dotnet/target/PromoLab.dll --format json | jq -c '(.normalized_result.classification | {status, runtime_family, implementation, managed_architecture}), (.normalized_result.assembly | {name, version}), .normalized_result.metadata.table_row_counts'
+{"status":"managed","runtime_family":"modern-dotnet","implementation":"cil","managed_architecture":"anycpu"}
+{"name":"PromoLab","version":"1.0.0.0"}
+{"Module":1,"TypeRef":19,"TypeDef":4,"Field":1,"MethodDef":6,"Param":3,"MemberRef":23,"Constant":1,"CustomAttribute":14,"StandAloneSig":2,"ModuleRef":1,"ImplMap":1,"Assembly":1,"AssemblyRef":2,"MethodSpec":1}
+
+$ rea inspect-managed-members dotnet/target/PromoLab.dll --type PromoLab.PromoCode --format json | jq -c '(.normalized_result.methods[] | {name, sig: "\(.signature.return_type) (\(.signature.parameter_types|join(", ")))", il_bytes: .body.il_size}), .normalized_result.user_strings.literals, (.normalized_result.call_edges[] | "\(.caller) -> \(.target_declaring_type).\(.target_name)")'
+{"name":"IsWellFormed","sig":"bool (string)","il_bytes":36}
+{"name":"Checksum","sig":"i4 (string)","il_bytes":43}
+{"name":"Describe","sig":"string ()","il_bytes":6}
+{"name":".ctor","sig":"void ()","il_bytes":7}
+[{"token":"0x70000001","offset":2381,"value":"LAB-"},{"token":"0x7000000b","offset":2391,"value":"PromoLab code formatter v1"}]
+"PromoLab.PromoCode.IsWellFormed -> System.String.get_Length"
+"PromoLab.PromoCode.IsWellFormed -> System.String.StartsWith"
+"PromoLab.PromoCode.IsWellFormed -> PromoLab.PromoCode.Checksum"
+"PromoLab.PromoCode.Checksum -> System.String.get_Chars"
+"PromoLab.PromoCode.Checksum -> System.String.get_Length"
+"PromoLab.PromoCode.Checksum -> System.Math.Abs"
+"PromoLab.PromoCode..ctor -> System.Object..ctor"
+
+$ rea inspect-managed-native-boundaries dotnet/target/PromoLab.dll --format json | jq -c '.normalized_result.pinvoke_imports[] | {member_name, import_scope_name, import_name}'
+{"member_name":"GetPid","import_scope_name":"libc","import_name":"getpid"}
+

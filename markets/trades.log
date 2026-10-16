@@ -1,0 +1,5 @@
+2026-10-09 11:05:09 XBTUSD buy limit 0.00054272 @ 82915.6 (user-approved) {"error": [], "result": {"txid": ["OCIUCN-S6JS3-LJV4K6"], "descr": {"order": "buy 0.00054 XBTUSD @ limit 82915.6"}}}
+2026-10-09 11:05:11 ETHUSD buy limit 0.01406306 @ 2488.79 (user-approved) {"error": [], "result": {"txid": ["OPRDIS-NRNHI-QGPSFE"], "descr": {"order": "buy 0.01406 ETHUSD @ limit 2488.79"}}}
+2026-10-09 11:05:13 SOLUSD buy limit 0.2276867 @ 109.8 (user-approved) {"error": [], "result": {"txid": ["OEZBAK-AS2JF-ICZHEJ"], "descr": {"order": "buy 0.22768 SOLUSD @ limit 109.80"}}}
+2026-10-10 12:29:36 SOLUSD sell limit 0.27 @ 110.13 (rotate into ADA, user-approved) {"error": [], "result": {"txid": ["OLTPU2-OG3LZ-ZEGY3Y"], "descr": {"order": "sell 0.27000 SOLUSD @ limit 110.13"}}}
+2026-10-10 12:29:47 ADAUSD buy limit 129.37574244 @ 0.255071 (rotate from SOL, user-approved) {"error": [], "result": {"txid": ["ONWYBF-M54CT-UDPTUM"], "descr": {"order": "buy 129.375742 ADAUSD @ limit 0.255071"}}}

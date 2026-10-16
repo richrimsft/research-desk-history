@@ -1,0 +1,81 @@
+{
+  "mint": "BULfSqtuj5HQLxQTGDQ2AXZ4x7a7uXLTuK4qGoTGpump",
+  "symbol": "BUDDY",
+  "name": "Little Earth Buddy",
+  "score": 1,
+  "rugged": false,
+  "creator": "DcnKnYZQt2w7PscsSsLyR9Xh73EcgfCsSVPKdmBRYFA8",
+  "creatorBalance": 0,
+  "creator_pct": null,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalHolders": 398,
+  "graphInsiders": 0,
+  "top10_ex_curve_pct": 20.6,
+  "band_1_5": 18,
+  "whale_pct": 2.79,
+  "phase": "pumpfun mc~11288.2 age=0.13h h1=165 m5=-18.43 buys=860",
+  "socials": [
+    "https://x.com/Sizeyon/status/2111007723999404133",
+    "https://celestialbuddies.com/products/earth-buddy"
+  ],
+  "mc": 11288.2,
+  "age_h": 0.13,
+  "h1": 165,
+  "m5": -18.43,
+  "buys_h1": 860,
+  "sells_h1": 491,
+  "risks": [],
+  "decision": "FAIL",
+  "reasons": [
+    "age 0.13h <30m entry gate",
+    "creatorBalance 0 (dev sold/out)",
+    "18 wallets in 1-5% band",
+    "botty churn: 860 buys/h on mc~11288.2",
+    "status-tweet-only / thin socials",
+    "deployPlatform uxento (bot-launch tooling common)"
+  ],
+  "top10_owners": [
+    {
+      "owner": "EjtQrPTbcMev\u2026",
+      "pct": 2.793367518865758
+    },
+    {
+      "owner": "DePxtKV64Qag\u2026",
+      "pct": 2.616066087511267
+    },
+    {
+      "owner": "Dfzkna1Tgvbe\u2026",
+      "pct": 2.603554070400161
+    },
+    {
+      "owner": "G4rV4RGPvny8\u2026",
+      "pct": 2.1139698429833875
+    },
+    {
+      "owner": "75SeDT9h24Ls\u2026",
+      "pct": 2.09417772489199
+    },
+    {
+      "owner": "9hER4RZogJ5p\u2026",
+      "pct": 1.7851221045674543
+    },
+    {
+      "owner": "CDrigZkn5E64\u2026",
+      "pct": 1.7192330347234313
+    },
+    {
+      "owner": "GSd4UsYSdwPb\u2026",
+      "pct": 1.6418941012762205
+    },
+    {
+      "owner": "5c1tLUG4qHkV\u2026",
+      "pct": 1.6146822459418286
+    },
+    {
+      "owner": "Ao6LRczc1Xuh\u2026",
+      "pct": 1.6130525548842534
+    }
+  ],
+  "funders_note": null
+}

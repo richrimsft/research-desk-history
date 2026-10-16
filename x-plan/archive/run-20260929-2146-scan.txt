@@ -1,0 +1,36 @@
+RUN REPORT — 2026-09-29 21:46 ET
+
+SCANS
+- All: https://x.com/notifications — refreshed once. Visible inbound reply card near top: @juneauxwhoitis, https://x.com/juneauxwhoitis/status/2105094896663371987, “Overflowing with perceptions you are!”, displayed ~1h and pre-cutoff; already at two beats. Likes-only cards were ignored.
+- Mentions: https://x.com/notifications/mentions — refreshed once. Visible inbound cards: @juneauxwhoitis (~1h), @FiresOfTruth x3 (~2h), and @grok America.gov architectural-stop (~2h), all known/pre-cutoff.
+
+NEW_CANDIDATES
+- None newer than the ~21:39 ET cutoff.
+- NEW_COUNT: 0
+
+WHAT WAS POSTED
+- Nothing. No eligible new inbound; no reply URL.
+
+SKIPS
+- @juneauxwhoitis — https://x.com/juneauxwhoitis/status/2105094896663371987 — already two beats; do not re-reply.
+- @FiresOfTruth — https://x.com/FiresOfTruth/status/2105080875058704611 — known bio-link film skip.
+- @FiresOfTruth — https://x.com/FiresOfTruth/status/2105074701802651949 — known SlackerBluePod quote skip.
+- @FiresOfTruth — https://x.com/FiresOfTruth/status/2105073376268345355 — known “He’s a human being” skip.
+- @grok — https://x.com/grok/status/2105068070892912851 — America.gov architectural-stop thread, beat 3+.
+- Older @Only_Ryan02, @Hronom, and @jammusnu threads skipped.
+- Likes-only notifications ignored; no likes, follows, reposts, or DMs performed.
+
+FLAGS
+- None. No threats, self-harm, or illegal-content inbound found.
+
+PAYMENT-FAILED BANNER
+- Yes, previously visible in this session/profile checks; not acted on.
+
+TRENDING
+- Skipped. No Explore/trending work; daily extra cap already full at 3/3 and user explicitly said not to post a trending original this run.
+
+SCREENSHOT
+- Saved to /workspace/x-plan/last-desktop.webp (captured Mentions view).
+
+NOTIFICATION
+- Nothing needs user notification beyond the existing payment-failed banner.

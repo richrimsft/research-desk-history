@@ -1,0 +1,87 @@
+{
+ "tag": "0710",
+ "inwindow_prior_fails": [
+  {
+   "mint": "pFibPnQk8ekCCtuBoQFJqeJjHVo92dAME3uH8A4pump",
+   "symbol": "ElonThrust",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "6VdcMnBTCj4tJVwtNdJZNzWeYmxzMnygVSzcfY35pump",
+   "symbol": "Irene",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "4tf5GEXU1dt7Vfj21oCu4P96ZEKEm3zMYqpzZsoCDeer",
+   "symbol": "Deer",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "5j7gTphd94qDXTft1ccXZZqdZo19dinTz4aFyJBXnEUY",
+   "symbol": "Irene",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "HiKU8Lsa8aUFkhtCMWp3ySCcpZ899zEhRqzvEgnSpump",
+   "symbol": "FSR",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "8DQzWohFEMWruKUC5G2hEgBcs4bhJ1y7oJuyxZHpump",
+   "symbol": "LULU",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "Aoh85TCPn6yYuumHhDi7tJoTT3x3pCvWLqcaa8A6J5rm",
+   "symbol": "Irene",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "YwCKitMEdf7nagejZbvpDvxDui5CdoQ3NuJsE5Tpump",
+   "symbol": "Chase",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "PdtREY9H6Fp9jVMpG36aywtCgxTtsQZetmehKqgyern",
+   "symbol": "YERN",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "62tKjqdvzKrNHb8KrugUFUmKSC291sWHkp1RGbeipump",
+   "symbol": "SocialFrnk",
+   "verdict": "PRIOR_FAIL_STANDS"
+  },
+  {
+   "mint": "Gmh5hNtCycP6YSyU1Cd4Q77oDL9BdgoBoTWcSMvQpump",
+   "symbol": "PITBULL",
+   "verdict": "PRIOR_FAIL_STANDS"
+  }
+ ],
+ "new": [
+  {
+   "mint": "6We2unR6HXgEdHFvb4d29XUr77sZzXk8paQaZxU9pump",
+   "symbol": "USDC",
+   "verdict": "FAIL",
+   "reasons": [
+    "USDC impersonation/copycat",
+    "creatorBal 0",
+    "18x band",
+    "stolen coinbase social"
+   ]
+  }
+ ],
+ "young_prescreen_fails": [
+  "ONE_creatorBal0_band",
+  "GRAB_19x_band",
+  "TCAT_copycat",
+  "normie_prior",
+  "Chase9TXN_prior",
+  "Irene_NqZa_copycat"
+ ],
+ "dropped_vs_0703": [
+  "ELON",
+  "BOUNCER",
+  "HASHED",
+  "Irene_was_in_window_count_same"
+ ]
+}

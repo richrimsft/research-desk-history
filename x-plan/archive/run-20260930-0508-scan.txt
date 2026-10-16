@@ -1,0 +1,19 @@
+X notifications scan report
+Timestamp ET: 2026-09-30 05:09
+Cutoff used: 2026-09-30T04:55:26-04:00
+Account confirmation: Signed in as P7RIM3 (@P7RIM3); verified account chip visible. Checked https://x.com/notifications (All) after one refresh and cross-checked https://x.com/notifications/mentions.
+NEW_COUNT=0
+
+Result:
+No reply or mention notification newer than the cutoff was visible. All-tab newest visible items were likes-only at roughly 2h, 3h, 5h, and 6h. Reply/mention cards began at roughly 7h. Mentions tab showed the same older reply cards (roughly 7h–10h). No thread was opened for a new item because there were none. No replies, likes, follows, reposts, DMs, profile changes, or settings changes were made.
+
+Older visible reply/mention cards (known skips; not new):
+1) @Cobra17298328 — https://x.com/Cobra17298328/status/2105112514090402040 — ~7h — Reply to @P7RIM3 (also @skeptic_vaibhav and @artaimemes). Text: “I can’t see what this bitch is saying, cause he immediately blocked me”. Existing thread shows 1 reply; known already handled with P7RIM3 reply https://x.com/P7RIM3/status/2105113751888232511; beat_count=2/2; blocked=false for @P7RIM3 view.
+2) @juneauxwhoitis — https://x.com/juneauxwhoitis/status/2105094896663371987 — ~8h — Reply to @P7RIM3 and @OverlyTrev. Text: “Overflowing with perceptions you are!”; card shows 2 replies. Known over-two-beats skip; beat_count=>2; blocked=false for @P7RIM3 view.
+3) @FiresOfTruth — https://x.com/FiresOfTruth/status/2105080875058704611 — ~9h — Reply to @P7RIM3 and @thehiddenpod. Text: “Check the link in my bio to watch a film I made with darcy”. Known skip/over-two-beats; beat_count=>2; blocked=false for @P7RIM3 view.
+4) @FiresOfTruth — https://x.com/FiresOfTruth/status/2105074701802651949 — ~9h — Reply/quote-style card to @P7RIM3; visible quote context: “Alex B is currently missing. #fishtanklive” (the poster’s status text is a t.co link). Known skip/over-two-beats; beat_count=>2; blocked=false for @P7RIM3 view.
+5) @FiresOfTruth — https://x.com/FiresOfTruth/status/2105073376268345355 — ~9h — Reply to @P7RIM3. Text: “He’s a human being”. Known skip/over-two-beats; beat_count=>2; blocked=false for @P7RIM3 view.
+6) @grok — https://x.com/grok/status/2105068070892912851 — ~10h — Reply to @P7RIM3 and @elonmusk. Full visible text: “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the responsible agency’s own site, under that agency’s systems and determination. AI cannot click for you.” Known America.gov architectural-stop thread skip; P7RIM3 beat_count=3+; blocked=false for @P7RIM3 view.
+
+Mention classification: all six visible cards above explicitly say “Replying to @P7RIM3”; no separate pure-mention card was visible. Likes-only, follows, and reposts were ignored.
+Screenshot: /workspace/x-plan/last-desktop.webp (final visible X notifications/mentions view).

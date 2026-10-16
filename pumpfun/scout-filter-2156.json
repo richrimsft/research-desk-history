@@ -1,0 +1,96 @@
+{
+  "passers": [
+    {
+      "mint": "2uwxxiD1PshoPrrSoNvttRD8Aa1nwxVDTFf4JK36pump",
+      "sym": "VICE",
+      "mc": 128292,
+      "liq": 35306,
+      "age": 9.4,
+      "h1": 67.1,
+      "m5": 0,
+      "buys": 43,
+      "sells": 41,
+      "dex": "pumpswap"
+    },
+    {
+      "mint": "4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump",
+      "sym": "PONK",
+      "mc": 114383,
+      "liq": 29314,
+      "age": 24.8,
+      "h1": 54.8,
+      "m5": -6.6,
+      "buys": 773,
+      "sells": 498,
+      "dex": "pumpswap"
+    }
+  ],
+  "near": [
+    {
+      "mint": "3UYqfnBmdNmUZVqkpJiQjXnTrboUXi8kBZ6eJNQ8pump",
+      "sym": "Holdoween",
+      "mc": 671703,
+      "liq": 68740,
+      "age": 0.5,
+      "h1": 1438,
+      "m5": 12.0,
+      "buys": 10401,
+      "sells": 9389,
+      "dex": "pumpswap",
+      "why": "mc/liq/age/h1 partial"
+    },
+    {
+      "mint": "A5YQxuXBrGji1usz9SCXuNsf9HJVrr2bi9EvREi9pump",
+      "sym": "CatTok",
+      "mc": 260780,
+      "liq": 42767,
+      "age": 0.6,
+      "h1": 462,
+      "m5": 16.9,
+      "buys": 5171,
+      "sells": 500,
+      "dex": "pumpswap",
+      "why": "mc/liq/age/h1 partial"
+    },
+    {
+      "mint": "Gn8Xti76PAzz4v8iir7S7dwiJ1mEHwGYaCTusk8apump",
+      "sym": "1",
+      "mc": 249006,
+      "liq": 42748,
+      "age": 0.7,
+      "h1": 449,
+      "m5": 22.6,
+      "buys": 11607,
+      "sells": 4573,
+      "dex": "pumpswap",
+      "why": "mc/liq/age/h1 partial"
+    },
+    {
+      "mint": "Afkbv7eaxzW1qQyYcf5NeffDRKX4be6fs4TPuJeXpump",
+      "sym": "FTR",
+      "mc": 86334,
+      "liq": 28143,
+      "age": 0.9,
+      "h1": 110,
+      "m5": 4.6,
+      "buys": 11716,
+      "sells": 10665,
+      "dex": "pumpswap",
+      "why": "mc/liq/age/h1 partial"
+    },
+    {
+      "mint": "Diy4Q5aiNEcdn7CWhuwYtuoHtHD9rKBTHCa9hi4qpump",
+      "sym": "STREAM",
+      "mc": 213873,
+      "liq": 42000,
+      "age": 9.9,
+      "h1": 46.0,
+      "m5": 5.1,
+      "buys": 149,
+      "sells": 187,
+      "dex": "pumpswap",
+      "why": "mc/liq/age/h1 partial"
+    }
+  ],
+  "n": 167
+}

@@ -1,0 +1,33 @@
+signed_in: yes (@P7RIM3; sidebar shows P7RIM3 and verified badge)
+cutoff_et: 2026-09-30T22:04:02-04:00
+scan_time_context: 2026-09-30 about 22:08 ET
+
+ALL page (https://x.com/notifications) — visible cards considered:
+- @RamsNFL / @Eagles | age 41s | type other/news card | status URL: none exposed | newer_than_cutoff: yes | snippet: "Rams' Nacua returns — WR Puka Nacua returned to limited practice; coach Sean McVay expects him to play Sunday against the Eagles." | not inbound; exclude
+- @misterg792000 | age 4m | type reply/mention | https://x.com/misterg792000/status/2105479038823178432 | newer_than_cutoff: yes | snippet: "Name a single field he has demonstrated \"deep mastery\" of. Name a single thing he has invented." | substantive, unreplied candidate
+- @misterg792000 | age 4m | type like-only (liked your reply) | status URL not exposed in card | newer_than_cutoff: yes | snippet: "Ok that tracks. Deep mastery across fields, not just wearing a lot of hats. Thanks for the card. For Meridian specifically — which domains already have his shipped receipts?" | exclude like-only
+- @Kramer_not, @Sonic1994DC, @rilo0x | age 22m | type like-only (liked your post) | status URL not exposed in card | newer_than_cutoff: no | snippet: "We need more of this" | exclude like-only
+- @BrianEdwardMKE, @laidlaw76 | age 45m | type like-only (liked your reply) | status URL not exposed in card | newer_than_cutoff: no | snippet: "This is the stuff you listen to when your entire life goes to shit and you try and figure out what went wrong. This is literally the bottom of the garbage bin of conspiracy..." | exclude like-only
+- @MadamHaus | age 1h | type reply/mention | https://x.com/MadamHaus/status/2105460336006672836 | newer_than_cutoff: no | snippet: media-only embedded video | known skip: 0hour cancelled
+- @mom_agency_ | age 1h | type like-only (liked your post) | status URL not exposed in card | newer_than_cutoff: no | snippet: "The meeting explaining why we need to change it from AI to SI" | exclude like-only
+- @Eagles | age 1h | type other/news card | status URL: none exposed | newer_than_cutoff: no | snippet: "Eagles Injury Update — LB Zack Baun has a concussion and is in the concussion protocol, with his status in question for the Rams." | not inbound; exclude
+- @DrumondArt | age 1h | type reply/mention | https://x.com/DrumondArt/status/2105451230445154557 | newer_than_cutoff: no | snippet: "Deep mastery across fields" plus emoji spam | known skip: emoji spam
+- @Maskedrider26 | age 2h | type like-only (liked your reply) | status URL not exposed in card | newer_than_cutoff: no | snippet: "It’s still intense! Great movie" | exclude like-only
+- @MaverickDarby and 6 others (including @stonkspark) | age 2h | type like-only (liked your post) | status URL not exposed in card | newer_than_cutoff: no | snippet: "We need more of this" | exclude like-only
+
+MENTIONS page (https://x.com/notifications/mentions) — visible cards considered:
+- @misterg792000 | age 5m | type reply/mention | https://x.com/misterg792000/status/2105479038823178432 | newer_than_cutoff: yes (status timestamp decodes to 22:04:55 ET) | snippet: "Name a single field he has demonstrated \"deep mastery\" of. Name a single thing he has invented." | substantive, unreplied candidate; same item as All page
+- @MadamHaus | age 1h | type reply/mention | https://x.com/MadamHaus/status/2105460336006672836 | newer_than_cutoff: no | snippet: media-only embedded video | known skip: 0hour cancelled
+- @DrumondArt | age 1h | type reply/mention | https://x.com/DrumondArt/status/2105451230445154557 | newer_than_cutoff: no | snippet: "Deep mastery across fields" plus emoji spam | known skip: emoji spam
+- @stonkspark | age 2h | type reply/mention | https://x.com/stonkspark/status/2105435508927005103 | newer_than_cutoff: no | snippet: "on it" | known skip: already replied
+- @GilliRoth | age 3h | type reply/mention | https://x.com/GilliRoth/status/2105422493200875658 | newer_than_cutoff: no | snippet: image-only | known skip: already replied
+
+NEW_COUNT: 1
+NEW CANDIDATE:
+- handle: @misterg792000
+  status_url: https://x.com/misterg792000/status/2105479038823178432
+  snippet: Name a single field he has demonstrated "deep mastery" of. Name a single thing he has invented.
+  age: 4m on All / 5m on Mentions; posted 22:04:55 ET, after cutoff
+  recommended_action: reply
+
+blockers: none (no login wall, captcha, or rate limit; no actions taken)

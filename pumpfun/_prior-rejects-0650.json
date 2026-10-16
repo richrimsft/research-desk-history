@@ -1,0 +1,93 @@
+[
+ {
+  "tag": "0650",
+  "symbol": "ROADSTER",
+  "mint": "GDNGMNnSyJK4iohEbigiVbUz8tM4UvFRSGw3d73Wpump",
+  "age_h": 0.0,
+  "mc": 10125,
+  "phase": "too_young",
+  "verdict": "FAIL_PRESCREEN",
+  "reasons": [
+   "age 0.0h <30m no-buy",
+   "19\u00d71-5% sniper band among top holders (209 holders)",
+   "creatorBalance raw 737672 \u22480% of supply (effectively burner/sold)",
+   "curve H0 ~50.9%"
+  ],
+  "creatorBalance": 737672,
+  "graphInsidersDetected": 0,
+  "totalHolders": 209,
+  "rc_score": 1,
+  "band_1_5": 19,
+  "h0_pct": 50.86447913806024,
+  "top10ex_approx": 30.31747412168945,
+  "creatorBalance_raw": 737672,
+  "creatorBal_pct_approx": 0.0
+ },
+ {
+  "tag": "0650",
+  "symbol": "normie",
+  "mint": "4673spr9Zth4E3ZtZ493RTvqhdD8hW9o6pWjCd5Spump",
+  "age_h": 0.05,
+  "mc": 21211,
+  "phase": "too_young",
+  "verdict": "FAIL_PRESCREEN",
+  "reasons": [
+   "age 0.05h <30m no-buy",
+   "19\u00d71-5% sniper band",
+   "creator not in topHolders (creatorBal~0)",
+   "curve H0 ~28.5%"
+  ],
+  "creatorBalance": 0,
+  "graphInsidersDetected": 0,
+  "totalHolders": 460,
+  "rc_score": 1,
+  "band_1_5": 19,
+  "h0_pct": 28.5349654168274,
+  "top10ex_approx": 16.6486473646706
+ },
+ {
+  "tag": "0650",
+  "symbol": "Chase",
+  "mint": "9TXNTWV5v7M3Ch4bBVFNknXJGaJTW2NQDMKkuD3vSLEm",
+  "age_h": 0.06,
+  "mc": 3287215,
+  "phase": "too_young_postgrad",
+  "verdict": "FAIL_PRESCREEN",
+  "reasons": [
+   "age 0.06h <30m no-buy",
+   "RC score 32839: LP unlocked / single holder 99.2% / top10 high ownership",
+   "post-grad chase ~$3.3M mc in minutes",
+   "non-pump mint suffix SLEm"
+  ],
+  "creatorBalance": 0,
+  "graphInsidersDetected": 0,
+  "totalHolders": 387,
+  "rc_score": 32839,
+  "band_1_5": 0,
+  "h0_pct": 99.2039800995024,
+  "top10ex_approx": 0.7499778171466001
+ },
+ {
+  "tag": "0650",
+  "symbol": "Mika",
+  "mint": "7ar3KGnkcHXc3cgTvzg5YFkgXLWWmQCzrHuhTDCepump",
+  "age_h": 0.41,
+  "mc": 13101,
+  "phase": "too_young",
+  "verdict": "FAIL_PRESCREEN",
+  "reasons": [
+   "age 0.41h still <30m",
+   "prior FAIL at 0647 stands",
+   "17\u00d71-5% band",
+   "graphInsidersDetected/list present",
+   "creator not in topHolders"
+  ],
+  "creatorBalance": 0,
+  "graphInsidersDetected": 21,
+  "totalHolders": 515,
+  "rc_score": 1,
+  "band_1_5": 17,
+  "h0_pct": 39.8830596906081,
+  "top10ex_approx": 20.4065519922269
+ }
+]

@@ -1,0 +1,31 @@
+LIVE X NOTIFICATIONS SCAN
+signed_in: @P7RIM3 (account menu visibly showed P7RIM3 and @P7RIM3; verified account)
+cutoff: 2026-09-30T18:37:59-04:00
+scanned_at: 2026-09-30T18:40:30-04:00
+scope: https://x.com/notifications (All) and https://x.com/notifications/mentions (Mentions)
+
+ALL TAB — visible inbound reply/mention cards
+1. @GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | displayed 19m ago (approximately 18:21 ET) | PRE-CUTOFF: yes | full text: [image-only card; no body text exposed in the notification; Replying to @P7RIM3 and @cb_doge] | classification: skip_already_handled (GilliRoth/Meridian/polymath thread; two posts already), also pre-cutoff
+2. @zebralife2002 | https://x.com/zebralife2002/status/2105361123503440350 | displayed 4h ago | PRE-CUTOFF: yes | full text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day | classification: skip_already_handled; also pre-cutoff
+3. @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105343324580143460 | displayed 5h ago | PRE-CUTOFF: yes | full text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh | classification: skip_over_two_beats; also pre-cutoff
+4. @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105339423638651351 | displayed 5h ago | PRE-CUTOFF: yes | full text: 🙄 🤦‍♀️ | classification: skip_over_two_beats; also pre-cutoff
+
+ALL TAB — visible non-inbound notifications ignored per instruction
+- @mariam_wayman32 | displayed 2m ago | liked your reply | text: The comments here are hilarious! Wow | ignore: like, not inbound reply
+- @Elonmusk183737 | displayed 10m ago | reposted your reply | text: The comments here are hilarious! Wow | ignore: repost, not inbound reply
+- @yagirl | displayed 31m ago | liked your reply | text: 1/ $0HOUR1 on pump.fun, launched Sep 26. Public chart as of 6pm ET today: about $4.5k market cap, down 52% in 24 hours, 33 sells and 0 buys in that window. dexscreener.com/solana/6fteage … | ignore: like, not inbound reply
+- @wojsick and 3 others | displayed 1h ago | liked your reply | text: The dude claimed he was on different planets and a secret space force run by reptiles. What did he expect the public’s reaction would be? Ufology in general is about as asinine as the flat earth community. I follow it for the laughs! | ignore: like, not inbound reply
+- @satoshigoy | displayed 2h ago | followed you | no post text | ignore: follow, not inbound reply
+
+MENTIONS TAB — visible reply/mention cards
+1. @GilliRoth | https://x.com/GilliRoth/status/2105422493200875658 | displayed 19m ago (approximately 18:21 ET) | PRE-CUTOFF: yes | full text: [image-only card; no body text exposed in the notification; Replying to @P7RIM3 and @cb_doge] | classification: skip_already_handled (GilliRoth/Meridian/polymath thread; two posts already), also pre-cutoff
+2. @zebralife2002 | https://x.com/zebralife2002/status/2105361123503440350 | displayed 4h ago | PRE-CUTOFF: yes | full text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day | classification: skip_already_handled; also pre-cutoff
+3. @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105343324580143460 | displayed 5h ago | PRE-CUTOFF: yes | full text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh | classification: skip_over_two_beats; also pre-cutoff
+4. @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105339423638651351 | displayed 5h ago | PRE-CUTOFF: yes | full text: 🙄 🤦‍♀️ | classification: skip_over_two_beats; also pre-cutoff
+
+NEW_COUNT_ALL: 0
+NEW_COUNT_MENTIONS: 0
+posted this run: none
+No threats, self-harm, illegal, work, Main Line Health, PHI, or credential content encountered.
+Trending: skipped; extras already 3/3 today and no Explore deep-dive per instruction.
+Screenshots: /workspace/x-plan/run-20260930-1839-notifications.png ; /workspace/x-plan/run-20260930-1839-mentions.png

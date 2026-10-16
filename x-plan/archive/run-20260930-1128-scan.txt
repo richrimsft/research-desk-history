@@ -1,0 +1,39 @@
+X notification scan report
+Scan time: 2026-09-30 11:28 ET (as requested)
+Cutoff: 2026-09-30T11:24:09-04:00
+Account confirmed: @P7RIM3 (verified account visible in X account menu/sidebar)
+Pages checked: https://x.com/notifications (All, hard-refreshed once), https://x.com/notifications/mentions
+Actions taken: scan only; no replies, posts, likes, follows, reposts, DMs, or account-setting changes.
+
+RESULT
+NEW_COUNT=0
+No reply/mention notification card newer than the cutoff was present. The newest reply/mention card shown was approximately 13 hours old; all observed cards predate the cutoff.
+
+ALL TAB — every notification card observed (newest first)
+1. Like-only: Hidden In Plain Sight (@thehiddenpod) and 2 others — approx. 2h — text shown: “The dude claimed he was on different planets and a secret space force run by reptiles. What did he expect the public’s reaction would be? Ufology in general is about as asinine as the flat earth community. I follow it for the laughs!” Status URL not exposed by the notification card.
+2. Like-only: Quinn Charley (@quinn_charley21) — approx. 5h — text shown: “She looks like an obese heffer. I don't get why people want that. Imagine the smell” Status URL not exposed by the notification card.
+3. Like-only: Mukhammed Turlubekov (@Mytro23) and 7 others — approx. 9h — text shown: “Do the complete opposite of whatever Cramer says!” Status URL not exposed by the notification card.
+4. Like-only: Davidson Robsinson (@Ro61088Davidson) and 7 others — approx. 9h — text shown: “Do the opposite of whether Kramer says! Trust me” Status URL not exposed by the notification card.
+5. Like-only: G Reed (@KEKerboxerGlory) — approx. 12h — text shown: “Nvidia and X.ai yes! Meta, absolutely not” Status URL not exposed by the notification card.
+6. Like-only: mine (@DelBerrX) — approx. 12h — text shown: “This screams the movie Wall-E” Status URL not exposed by the notification card.
+7. Reply: @Cobra17298328 — approx. 13h — https://x.com/Cobra17298328/status/2105112514090402040 — full text: “I can’t see what this bitch is saying, cause he immediately blocked me” — in-thread reply indicator: 1 reply; known handled, skip.
+8. Like-only: FormOverTime (@pullingUp22) — approx. 14h — text shown: “The guy is clueless. You can tell he has ZERO technical skills. I know everyone has a giant boner for anthropic right now. I don’t see him being the leader for the long haul. I just don’t” Status URL not exposed by the notification card.
+9. Reply: @juneauxwhoitis — approx. 14h — https://x.com/juneauxwhoitis/status/2105094896663371987 — full text: “Overflowing with perceptions you are!” — in-thread reply indicator: 2 replies; known handled, skip.
+10. Like-only: Robin (@snowtrees32283) — approx. 14h — text shown: “Time to crank out the money printing machine.” Status URL not exposed by the notification card.
+11. Like-only: King Chess (@thechillguy_07) — approx. 15h — text shown: “Their fees are ridiculous. Stick with @krakenfx” Status URL not exposed by the notification card.
+12. Like-only: John Galt (@JohnGGalt) and 12 others — approx. 15h — text shown: “Do the opposite of whether Kramer says! Trust me” Status URL not exposed by the notification card.
+13. Reply: @FiresOfTruth — approx. 15h — https://x.com/FiresOfTruth/status/2105080875058704611 — full text: “Check the link in my bio to watch a film I made with darcy” — in-thread reply indicator: 0 replies; known handled, skip.
+14. Like-only: Mr. Fugazi (@StochStocks) and 5 others — approx. 15h — text shown: “Do the complete opposite of whatever Cramer says!” Status URL not exposed by the notification card.
+15. Like-only: Hemingwaypaws (@Hemingwaypaws) and Ibn Yahya (@dispenseofgrace) — approx. 15h — text shown: “The guy is clueless. You can tell he has ZERO technical skills. I know everyone has a giant boner for anthropic right now. I don’t see him being the leader for the long haul. I just don’t” Status URL not exposed by the notification card.
+
+MENTIONS TAB — every card observed (all older than cutoff)
+1. Reply: @Cobra17298328 — approx. 13h — https://x.com/Cobra17298328/status/2105112514090402040 — “I can’t see what this bitch is saying, cause he immediately blocked me” — 1 reply; known handled.
+2. Reply: @juneauxwhoitis — approx. 14h — https://x.com/juneauxwhoitis/status/2105094896663371987 — “Overflowing with perceptions you are!” — 2 replies; known handled.
+3. Reply: @FiresOfTruth — approx. 15h — https://x.com/FiresOfTruth/status/2105080875058704611 — “Check the link in my bio to watch a film I made with darcy” — 0 replies shown; known handled.
+4. Reply/quote: @FiresOfTruth — approx. 16h — https://x.com/FiresOfTruth/status/2105074701802651949 — quote of @SlackerBluePod status https://x.com/SlackerBluePod/status/2104991326282580147 — full visible text is the quoted post “Alex B is currently missing. #fishtanklive”; FiresOfTruth card has no additional text; 0 replies shown; known handled.
+5. Reply: @FiresOfTruth — approx. 16h — https://x.com/FiresOfTruth/status/2105073376268345355 — full text: “He’s a human being” (image attached) — 1 reply shown; known handled.
+6. Reply: @grok — approx. 16h — https://x.com/grok/status/2105068070892912851 — visible text begins: “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the …” (card had Show more; America.gov link card attached) — 0 replies shown; known handled (beat 3+).
+
+Known-handled exclusions applied: Cobra, Juneaux, all three listed FiresOfTruth statuses, and Grok America.gov status. No blocked-account candidate was encountered. No blockers.
+
+Screenshot: /workspace/x-plan/last-desktop.png

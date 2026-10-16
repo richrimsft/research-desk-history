@@ -1,0 +1,4 @@
+<!doctype html><meta charset=utf-8><body><p><em>Real capture: the same search against crackme.exe (PE, x86-64)</em></p>
+<p>Linux Ghidra handles PE files too. The same <code>rea search</code> on <code>crackme.exe</code> reports <code>format: pe</code>, image-base addresses (<code>0x140009009</code>), and the same <code>IAY</code> tell. On a Windows host, this is exactly the read-only P0 boundary from §4.4.</p>
+<p><strong>Total time</strong> from a working install to the answer: six CLI commands, about a minute of wall-clock time. The habit matters more than the speed: string → reference → function → data → verification, with an Evidence ID at every hop.</p>
+<h1>8. The same investigation through the agent (MCP)</h1></body>

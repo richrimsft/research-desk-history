@@ -1,0 +1,21 @@
+[
+  {
+    "mint": "E3Mpo3FvNdmCtmjVLTzCHYdR6xTSaVcbCQ1DRzg9pump",
+    "symbol": "TESLON",
+    "dex": "pumpfun",
+    "mc": 21499.59,
+    "liq": null,
+    "age_h": 0.85,
+    "h1": 435,
+    "m5": 45.4,
+    "h6": 435,
+    "h24": 435,
+    "h1_buys": 626,
+    "h1_sells": 354,
+    "vol_h1": 58973.66,
+    "url": "https://dexscreener.com/solana/5acnzhbvpmhg6oax5hlqxeokikyrlkdbhyjdcecxc833",
+    "priceUsd": "0.00002149",
+    "autopsy": "REJECT",
+    "autopsy_one_liner": "FAIL top10 ex-curve ~37.8% + borrowed/single-tweet socials; chasing +435% (same mint as 22:32 reject)"
+  }
+]

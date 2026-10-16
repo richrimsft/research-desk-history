@@ -1,0 +1,7 @@
+Scoped identity means the action has a name, a clock, and a tool list.
+
+Observable tool calls mean you can replay the chain.
+
+A kill path that survives model retries means “stop” is enforced outside the model.
+
+Miss any one of those and the demo will look fine until the first production incident.

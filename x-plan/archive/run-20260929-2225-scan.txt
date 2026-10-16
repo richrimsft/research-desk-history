@@ -1,0 +1,20 @@
+scan_time: 2026-09-29 22:25 ET (approx)
+cutoff: 2026-09-29 22:21 ET (approx)
+signed_in: yes (@P7RIM3)
+NEW_COUNT: 0
+
+new_candidates:
+none — no visible reply or mention cards newer than the cutoff.
+
+visible_but_known_skips:
+- @Cobra17298328 | https://x.com/Cobra17298328/status/2105112514090402040 | 37 minutes ago (~21:48 ET), older than cutoff; explicitly known already handled, with 1 reply visible (the known P7RIM3 reply: https://x.com/P7RIM3/status/2105113751888232511). Text: I can’t see what this bitch is saying, cause he immediately blocked me
+- @juneauxwhoitis | https://x.com/juneauxwhoitis/status/2105094896663371987 | 1 hour ago, older than cutoff; explicitly known two-beat done, with 2 replies visible. Text: Overflowing with perceptions you are!
+- @FiresOfTruth | https://x.com/FiresOfTruth/status/2105080875058704611 | 2 hours ago, older than cutoff; explicitly known older film-bio-link skip. Text: Check the link in my bio to watch a film I made with darcy
+- @FiresOfTruth | https://x.com/FiresOfTruth/status/2105074701802651949 | 3 hours ago, older than cutoff; explicitly known older fishtank skip. Quote text: Alex B is currently missing. #fishtanklive
+- @FiresOfTruth | https://x.com/FiresOfTruth/status/2105073376268345355 | 3 hours ago, older than cutoff; explicitly known older He’s a human being skip. Text: He’s a human being
+- @grok | https://x.com/grok/status/2105068070892912851 | 3 hours ago, older than cutoff; explicitly known America.gov architectural-stop skip (beat 3+).
+
+ignored:
+- All tab had a 4-minutes-ago likes-only notification and other likes-only cards; ignored per instructions.
+
+blockers: none (no login wall, blocked_by_author, or rate limit).

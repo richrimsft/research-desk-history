@@ -1,0 +1,31 @@
+<html><head><meta charset="utf-8"></head><body><p>Save this as <code>arb_check.py</code>. It finds the current 5-minute BTC and ETH markets, reads the best ask on each side five times, adds the market's own fee schedule, and tells you whether the pair costs less than $1.</p>
+<pre><code class="language-python">#!/usr/bin/env python3
+&quot;&quot;&quot;arb_check.py: is there a free dollar in Polymarket's 5-minute BTC/ETH Up/Down markets right now?
+Buys 1 Up + 1 Down at the best asks. One of them pays $1 at the end. Public data only.&quot;&quot;&quot;
+import json, time, urllib.request
+def get(url, data=None):
+    req = urllib.request.Request(url, data=json.dumps(data).encode() if data else None,
+                                 headers={&quot;content-type&quot;: &quot;application/json&quot;, &quot;user-agent&quot;: &quot;arb-check&quot;})
+    with urllib.request.urlopen(req, timeout=10) as r: return json.load(r)
+w = int(time.time()) // 300 * 300
+for coin in (&quot;btc&quot;, &quot;eth&quot;):
+    m = get(f&quot;https://gamma-api.polymarket.com/markets?slug={coin}-updown-5m-{w}&quot;)[0]
+    fs = m[&quot;feeSchedule&quot;]; up, dn = json.loads(m[&quot;clobTokenIds&quot;])
+    print(m[&quot;question&quot;], &quot;| fee:&quot;, fs)
+    for i in range(5):
+        books = {b[&quot;asset_id&quot;]: b for b in get(&quot;https://clob.polymarket.com/books&quot;, [{&quot;token_id&quot;: up}, {&quot;token_id&quot;: dn}])}
+        a = [min(float(x[&quot;price&quot;]) for x in books[t][&quot;asks&quot;]) for t in (up, dn)]
+        fee = sum(fs[&quot;rate&quot;] * (p * (1 - p)) ** fs[&quot;exponent&quot;] for p in a)   # docs: fee = rate x p(1-p) per share
+        tot = a[0] + a[1] + fee
+        print(f&quot;  Up {a[0]:.3f} + Down {a[1]:.3f} = {a[0]+a[1]:.3f}  + taker fees {fee:.4f}  = ${tot:.4f}  -&gt; &quot;
+              + (&quot;ARB: profit %.2fc/set&quot; % ((1-tot)*100) if tot &lt; 1 else &quot;no arb (costs more than the $1 payout)&quot;))
+        time.sleep(2)
+</code></pre>
+<pre><code class="language-bash">python3 arb_check.py
+</code></pre>
+<p>Expected output (10:31 AM ET, near the end of a 5-minute window):</p>
+<pre><code class="language-text">Bitcoin Up or Down - October 15, 10:30AM-10:35AM ET | fee: {'exponent': 1, 'rate': 0.07, 'takerOnly': True, 'rebateRate': 0.2}
+  Up 0.050 + Down 0.960 = 1.010  + taker fees 0.0060  = $1.0160  -&gt; no arb (costs more than the $1 payout)
+</code></pre>
+<p>One snapshot proves nothing, so I left a simulator watching every market for 19 hours.</p>
+<h2>17. Step 8: 19 hours, 197 markets, zero free dollars</h2></body></html>

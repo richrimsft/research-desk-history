@@ -1,0 +1,9 @@
+$ rea function $PWD/target/crackme check_password --provider ghidra --json | jq -c '{code, message: .details.issues[0].message}'
+{"code":"invalid_request","message":"Unknown Ghidra procedure name or address: check_password"}
+
+$ rea read-bytes $PWD/target/crackme 0x102008 --provider ghidra --json | jq -c '.normalized_result | {requested_bytes, returned_bytes, complete}'
+{"requested_bytes":256,"returned_bytes":89,"complete":false}
+
+$ rea doctor --json | jq -c '{healthy, failing: [.informational_checks[]?, .scope_checks[]? | select(.ok==false) | .name]}'
+{"healthy":false,"failing":["host","hopper","ida-registration","skill:identity","registration:cursor"]}
+

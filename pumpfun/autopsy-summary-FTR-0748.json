@@ -1,0 +1,80 @@
+{
+  "mint": "BPVUcKX5ASPNsAFnBqByBHkfVc9ysQj7ZmSsFAmapump",
+  "symbol": "FTR",
+  "mc": 10879.71,
+  "age_h": 0.53,
+  "dex": "pumpfun",
+  "tag": "PRIOR_aged_in",
+  "verdict": "FAIL",
+  "reasons": [
+    "creatorBal 0",
+    "19x 1-5% band on top holders (299 holders)",
+    "no socials/links in RC"
+  ],
+  "rc": "rc-FTR-0748.json",
+  "score": 1,
+  "creatorBalance": 0,
+  "creator": "CuZkSJdHdHWKQQrNmQn9iKs1s2QcnHFn",
+  "band_1_5": 19,
+  "top10ex_est": 22.89,
+  "excl_high": [
+    [
+      "2nv7VkfhVNJ3",
+      49.42537443952623
+    ]
+  ],
+  "totalHolders": 299,
+  "graphInsiders": null,
+  "risks": [],
+  "links_n": 0,
+  "top_holders_sample": [
+    [
+      49.43,
+      "2nv7VkfhVNJ3LhJa"
+    ],
+    [
+      3.54,
+      "taMhtmb4C9C3w8pi"
+    ],
+    [
+      3.06,
+      "BZcwSKfAtP1WTQDf"
+    ],
+    [
+      2.93,
+      "8P9siRwx94aJXbvu"
+    ],
+    [
+      2.39,
+      "9CkhWPUxvEVWZxWa"
+    ],
+    [
+      2.35,
+      "7cr6VxjS9dxK99s9"
+    ],
+    [
+      2.2,
+      "Fk8NyRmhxhTdbpcB"
+    ],
+    [
+      1.88,
+      "D8du1z9SFQLJavHv"
+    ],
+    [
+      1.61,
+      "FZU56d9iPqohXM5X"
+    ],
+    [
+      1.5,
+      "DnWZJD25pt6Ziih6"
+    ],
+    [
+      1.43,
+      "HFm3V5B9qeAHhuyD"
+    ],
+    [
+      1.4,
+      "3Wk5P7aSNxDGEXnv"
+    ]
+  ]
+}

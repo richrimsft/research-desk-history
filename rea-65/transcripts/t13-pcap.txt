@@ -1,0 +1,9 @@
+$ rea inspect-pcap-capture pcap/lab65.pcap --format json | jq -c '.confidence, (.normalized_result | {packet_count, file_type, capture_duration_seconds}), .normalized_result.endpoints, .normalized_result.dns_queries, .normalized_result.tls_sni_values, .normalized_result.http_request_uris, [.normalized_result.protocol_distribution[] | "\(.packet_count) \(.protocol)"]'
+"derived"
+{"packet_count":14,"file_type":"pcap","capture_duration_seconds":0.3}
+[{"address":"192.0.2.10","port":null,"packet_count":14},{"address":"203.0.113.44","port":null,"packet_count":5},{"address":"203.0.113.80","port":null,"packet_count":5},{"address":"198.51.100.53","port":null,"packet_count":4}]
+[{"query":"app.example.com","response_addresses":["203.0.113.80"],"response_address_count":1},{"query":"api.example.org","response_addresses":["203.0.113.44"],"response_address_count":1}]
+["api.example.org"]
+["http://app.example.com/v1/status?build=65"]
+["6 eth:ethertype:ip:tcp","4 eth:ethertype:ip:udp:dns","1 eth:ethertype:ip:tcp:http","1 eth:ethertype:ip:tcp:http:data","1 eth:ethertype:ip:tcp:tls","1 eth:ethertype:ip:udp:data"]
+

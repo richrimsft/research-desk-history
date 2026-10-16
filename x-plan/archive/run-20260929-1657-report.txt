@@ -1,0 +1,9 @@
+X mention/reply report — 2026-09-29 17:08 ET
+COBRA_REPLY_URL=https://x.com/P7RIM3/status/2105039656379445659
+VAIBHAV_REPLY_URL=https://x.com/P7RIM3/status/2105039551156662565
+MENTION
+handle=@Only_Ryan02
+url=unknown
+text=Idk why people can’t understand what I’m trying to say.
+our_reply=unknown
+DONE

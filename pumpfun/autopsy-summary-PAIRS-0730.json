@@ -1,0 +1,22 @@
+{
+ "symbol": "PAIRS",
+ "mint": "45wXkAu6MCii9m8n7ohQ48DBkyaht3YkGy2YPC73pump",
+ "tag": "0730",
+ "age_h": 0.16,
+ "mc": 13516.43,
+ "dex": "pumpfun",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "creatorBal 0",
+  "19x 1-5% band on top20 non-pool (293 holders)",
+  "too young (<30m) \u2014 do not buy"
+ ],
+ "rc": "rc-PAIRS-0730.json",
+ "score": 1,
+ "creatorBalance": 0,
+ "band_1_5": 19,
+ "top10_ex_pool_pct": 27.07,
+ "totalHolders": 293,
+ "graphInsiders": 0,
+ "risks": []
+}

@@ -1,0 +1,270 @@
+{
+  "3d2LndChut5d4pvzfFDMG8Tg9qDqY6hv7Je4S3o7pump": {
+    "symbol": "neuron",
+    "safe": "",
+    "file": "autopsy-summary-neuron-0250.json",
+    "fails": [],
+    "mc": 12011,
+    "age_h": 0.47
+  },
+  "HUARGQHB7ovbPkUaYUmsqGBCLG4uHpCEr3q8zGcupump": {
+    "symbol": "MemeTrace",
+    "safe": "MemeTraceHUAR",
+    "file": "autopsy-summary-MemeTraceHUAR-0501.json",
+    "fails": [
+      "age 0.1h <30m",
+      "creatorBal 0",
+      "19\u00d71-5% band",
+      "no socials",
+      "shared funders 1 groups",
+      "copycat MemeTrace symbol (2 concurrent mints)"
+    ],
+    "mc": 16670,
+    "age_h": 0.1
+  },
+  "Aunf8ZYfEgRozzi3ddBqu6bnAFgTVC882Ab2y4zVpump": {
+    "symbol": "MemeTrace",
+    "safe": "MemeTraceAunf",
+    "file": "autopsy-summary-MemeTraceAunf-0501.json",
+    "fails": [
+      "age 0.13h <30m",
+      "creatorBal 0",
+      "16\u00d71-5% band",
+      "no socials",
+      "cabal funders: 1 hit(s)",
+      "copycat MemeTrace symbol (2 concurrent mints)"
+    ],
+    "mc": 6128,
+    "age_h": 0.13
+  },
+  "Fko4w9HoVqbZvtEobjYjm4nDG5aVmKQ3zjVJunXvpump": {
+    "symbol": "",
+    "file": "autopsy-summary-RUNNER-0004.json",
+    "fails": []
+  },
+  "9HwgyhM3gPP5GNoqeb5SWPiF83qFnMvbhaao75bZpump": {
+    "symbol": "",
+    "file": "autopsy-summary-VIMP-0004.json",
+    "fails": []
+  },
+  "zVXkMzD6TL5mvbNzV46D61k5crc6cpfGLEcvoBipump": {
+    "symbol": "",
+    "file": "autopsy-summary-WAITIE-0016.json",
+    "fails": []
+  },
+  "DDaqBWhR5YsAg8vVaMJatrmNdm9GpcBH2UUpnnPqpump": {
+    "symbol": "",
+    "file": "autopsy-summary-EI-0016.json",
+    "fails": []
+  },
+  "hps4Xy4goXuV9zxdTAuF35tN58Gpks8Ho5zX529pump": {
+    "symbol": "",
+    "file": "autopsy-summary-123456-0020.json",
+    "fails": []
+  },
+  "CbAeScGTv9sjGHtDRQsfqHzgSWupueN4Nduz7mBSpump": {
+    "symbol": "",
+    "file": "autopsy-summary-roadster-0020.json",
+    "fails": []
+  },
+  "Eizz6UJUBmoH4CxqLR5XBRyEGfoaKeckjmsraobSpump": {
+    "symbol": "",
+    "file": "autopsy-summary-ROADSTER-0020.json",
+    "fails": []
+  },
+  "ABmp7kvhMFXEUvjq9cybBPPbrju8uv8GTQPCDbvLpump": {
+    "symbol": "",
+    "file": "autopsy-summary-GUILD-0031.json",
+    "fails": []
+  },
+  "9JYbTj84nzPQrS3zpkNGdwDRmmDA6i6wVaEtu1x5pump": {
+    "symbol": "",
+    "file": "autopsy-summary-DarkStar-0036.json",
+    "fails": []
+  },
+  "6zVwic7BRVTcMjhuEruV52HV8iXgcaRA3UsgSv6zpump": {
+    "symbol": "",
+    "file": "autopsy-summary-RDSTRWHALE-0043.json",
+    "fails": []
+  },
+  "2AX8GEVb2P6hVBVPVjjb1eSsRdgWVsnopArAt94tpump": {
+    "symbol": "RIZO",
+    "file": "autopsy-summary-RIZO-0050.json",
+    "fails": []
+  },
+  "5b8F5y5uK3JgRTowCxfKbtMS3397DtSwxKMHjRZhpump": {
+    "symbol": "Optimus",
+    "file": "autopsy-summary-Optimus-0214.json",
+    "fails": []
+  },
+  "DjrijJNopHheVub1JdtJ7snqHS55kNY6kC5HNViTpump": {
+    "symbol": "CLAUDEMAN",
+    "file": "autopsy-summary-CLAUDEMAN-0231.json",
+    "fails": []
+  },
+  "5xqdoeabeV7T9dwpMgM6BVKcg8ZZUgjKcwi8hNwCpump": {
+    "symbol": "ELON",
+    "file": "autopsy-summary-ELON-0240.json",
+    "fails": []
+  },
+  "D4rzv9WAXJh9QZw1MjqfrtuSrmrkV4DckPTKBoMnpump": {
+    "symbol": "CCAT",
+    "file": "autopsy-summary-CCAT-0247.json",
+    "fails": []
+  },
+  "UZcE4ws4kERR6prnmgGMCSfUL1XynhZbzJCyKo5pump": {
+    "symbol": "Muskpad",
+    "file": "autopsy-summary-Muskpad-0303.json",
+    "fails": []
+  },
+  "7GCMYJcykHZ3qJH3e5vQi4J9qAPdb3Xninkgk6sYpump": {
+    "symbol": "LOOM",
+    "file": "autopsy-summary-LOOM-0303.json",
+    "fails": []
+  },
+  "TB6QtGti9j2zadAryKYKCm7tX1zVvTH4ZQcoXd9pump": {
+    "symbol": "ROADSTER",
+    "file": "autopsy-summary-ROADSTER-0311.json",
+    "fails": []
+  },
+  "7m8uQMAD1hkKuf4ooWFhJuBq4hSD8PoBcwojDLfQpump": {
+    "symbol": "miBrains",
+    "file": "autopsy-summary-miBrains-0311.json",
+    "fails": []
+  },
+  "8EtQDY7hUddahsbJ8stYYe64ZV9NkGhdrY44Df3npump": {
+    "symbol": "Cloudboi",
+    "file": "autopsy-summary-Cloudboi-0335.json",
+    "fails": []
+  },
+  "8rAhJEyM72smDNgGUcPETXoVi21x7k2R8u2AMXGQpump": {
+    "symbol": "FMTR",
+    "file": "autopsy-summary-FMTR-0335.json",
+    "fails": []
+  },
+  "79euwaxxwh8qYbHLpKvk9isQiuzpqTNobBsqPXvipump": {
+    "symbol": "Alex",
+    "file": "autopsy-summary-Alex-0335.json",
+    "fails": []
+  },
+  "34HExr1pEVFWkx99AXVwSBPcy3XmBYKkSyorxPzVpump": {
+    "symbol": "TCAT",
+    "file": "autopsy-summary-TCAT-0346.json",
+    "fails": []
+  },
+  "GgmAS6ibUzxNnABcMnGtNiYEdJSP8FiDpa8DqM2Zpump": {
+    "symbol": "CatNose",
+    "file": "autopsy-summary-CatNose-0346.json",
+    "fails": []
+  },
+  "94BfFHQrAHewvj2aCb1vdCTViCRFGRPnvAu7SJG1pump": {
+    "symbol": "GALAX",
+    "file": "autopsy-summary-GALAX-0356.json",
+    "fails": []
+  },
+  "4oaW1mEAHjToJpjhfMffPMUqjUF7PWpEfbHYEvdepump": {
+    "symbol": "Tesla",
+    "file": "autopsy-summary-Tesla-0409.json",
+    "fails": []
+  },
+  "DZVADw7Qkfqg2mqQCQBYD2kNsNbq4c2Q9nhBmhtNpump": {
+    "symbol": "EVERYTHING",
+    "file": "autopsy-summary-EVERYTHING-0409.json",
+    "fails": []
+  },
+  "DkXumTAaaE32vGcjo2nbkFmxbcXrx2nceayjwCwWpump": {
+    "symbol": "POKESQUAD",
+    "file": "autopsy-summary-POKESQUAD-0409.json",
+    "fails": []
+  },
+  "21aory2QsMHai8BJUQnRHnZ7Hq3Y9mPcaxctmHgLpump": {
+    "symbol": "PUMPKEYS",
+    "file": "autopsy-summary-PUMPKEYS-0409.json",
+    "fails": []
+  },
+  "8BwEQTbuKD6DyHsr57FpF8L6RRvzr8Gm4TRMMqfbpump": {
+    "symbol": "GULP",
+    "file": "autopsy-summary-GULP-0409.json",
+    "fails": []
+  },
+  "8DQzWohFEMWruKUC5G2hEgBcs4bhJ1y7oJuyxZHpump": {
+    "symbol": "LULU",
+    "file": "autopsy-summary-LULU-0417.json",
+    "fails": []
+  },
+  "9gG2evdn4HgPCzyJkeUSFLei5Z4XBba3nSNPqczwpump": {
+    "symbol": "Dragon",
+    "file": "autopsy-summary-Dragon-0417.json",
+    "fails": []
+  },
+  "BULfSqtuj5HQLxQTGDQ2AXZ4x7a7uXLTuK4qGoTGpump": {
+    "symbol": "BUDDY",
+    "file": "autopsy-summary-BUDDY-0417.json",
+    "fails": []
+  },
+  "AgeZ7y4L6KhxXCVyvyrgFvmCPfaNWKbXbmd3hRRKpump": {
+    "symbol": "TURBO",
+    "file": "autopsy-summary-TURBO-0427.json",
+    "fails": []
+  },
+  "vHRVLH6RDNeeMhcAsyNifSBvSRFFv1PD5RwVTempump": {
+    "symbol": "SpaceX",
+    "file": "autopsy-summary-SpaceX-0442.json",
+    "fails": []
+  },
+  "62tKjqdvzKrNHb8KrugUFUmKSC291sWHkp1RGbeipump": {
+    "symbol": "SocialFrnk",
+    "file": "autopsy-summary-SocialFrnk-0456.json",
+    "fails": []
+  },
+  "G6NnKQTgN7Dmo9yrJXwoqiDm35FznQmQ1qXVFAXPpump": {
+    "symbol": "BDOG",
+    "file": "autopsy-summary-BDOG-0456.json",
+    "fails": []
+  },
+  "3xas9JZy5GP16YSVbq79txxnxDFZznA3TCurrJmGpump": {
+    "mint": "3xas9JZy5GP16YSVbq79txxnxDFZznA3TCurrJmGpump"
+  },
+  "41B7wzwVJH6suqfed5Au1HfZrYtm7gNggCJUAyCcpump": {
+    "mint": "41B7wzwVJH6suqfed5Au1HfZrYtm7gNggCJUAyCcpump"
+  },
+  "6US32XFjLauSjfvd4tWu5u1F6aSP5zd6HnUc4TSppump": {
+    "mint": "6US32XFjLauSjfvd4tWu5u1F6aSP5zd6HnUc4TSppump"
+  },
+  "7z48GsSZqhU7wkAcpv6zBJDrJC6T8SYZWWJXFzD8XrDQ": {
+    "mint": "7z48GsSZqhU7wkAcpv6zBJDrJC6T8SYZWWJXFzD8XrDQ"
+  },
+  "99ArpWd1yD41CS3rFTGhZiYueGjqLc8UeS8YSqSNpump": {
+    "mint": "99ArpWd1yD41CS3rFTGhZiYueGjqLc8UeS8YSqSNpump"
+  },
+  "A4Ppe8FtJC8YetpnJTXmURbZpFKhbjnYv4QtXtp9pump": {
+    "mint": "A4Ppe8FtJC8YetpnJTXmURbZpFKhbjnYv4QtXtp9pump"
+  },
+  "Av9FWAxskP79aNirbcmj8t1Wbcy1sYC42GPBo4gtpump": {
+    "mint": "Av9FWAxskP79aNirbcmj8t1Wbcy1sYC42GPBo4gtpump"
+  },
+  "CGKLJQbyWdByW655s3JQb69UaYjWAm4bsFswfUv5pump": {
+    "mint": "CGKLJQbyWdByW655s3JQb69UaYjWAm4bsFswfUv5pump"
+  },
+  "D7R5P4nzNqnj2yp9ZHSMnLNYMTpgMYNw15UaakH4pump": {
+    "mint": "D7R5P4nzNqnj2yp9ZHSMnLNYMTpgMYNw15UaakH4pump"
+  },
+  "DGp1oDcnbrPpVxiGXHV43ga8MSJkYLhEv71x2Uh1pump": {
+    "mint": "DGp1oDcnbrPpVxiGXHV43ga8MSJkYLhEv71x2Uh1pump"
+  },
+  "EgcvNJ8D1iy5Wi2LjA4xUE4n5LjVgYP6QqWaJE5cpump": {
+    "mint": "EgcvNJ8D1iy5Wi2LjA4xUE4n5LjVgYP6QqWaJE5cpump"
+  },
+  "EnGnwy5koQkE8i2HLAfmNqyCmjdPhyG12yyPutTQpump": {
+    "mint": "EnGnwy5koQkE8i2HLAfmNqyCmjdPhyG12yyPutTQpump"
+  },
+  "GbfbU3ntsqoLwvH6PdqCS32WFZLa62edAp1PDkASpump": {
+    "mint": "GbfbU3ntsqoLwvH6PdqCS32WFZLa62edAp1PDkASpump"
+  },
+  "H7Fec9JJXuAC818fzYSpsk1RDaksYv5MaNVWVP8Wpump": {
+    "mint": "H7Fec9JJXuAC818fzYSpsk1RDaksYv5MaNVWVP8Wpump"
+  },
+  "vzF27mwq9dHZKZ4aqhBGvYvXiAtaQq6F1q5DTFwpump": {
+    "mint": "vzF27mwq9dHZKZ4aqhBGvYvXiAtaQq6F1q5DTFwpump"
+  }
+}

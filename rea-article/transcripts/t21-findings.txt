@@ -1,0 +1,13 @@
+$ cat notes/FINDINGS.md
+# FINDINGS: crackme (sha256 66781b3e…9c92), REA 6.4.0 + Ghidra 12.1.4
+
+| # | Tag | Claim | Receipt |
+|---|-----|-------|---------|
+| 1 | CONFIRMED | Prompt and failure strings live at 0x102011 / 0x102046 | ev_bdafc8cd… (search_strings) |
+| 2 | CONFIRMED | "Wrong password" is referenced from 0x101276/0x10127d inside FUN_001011f5 (main) | ev_942e2d33… (trace_feature) |
+| 3 | CONFIRMED | main calls FUN_00101179(input); non-zero → "Access granted" | ev_58d1381a… (decompile 0x1011f5) |
+| 4 | CONFIRMED | FUN_00101179 requires strlen==12 and input[i]^0x2A == DAT_00102008[i] | ev_3da1294c… (decompile 0x101179) |
+| 5 | CONFIRMED | 12 bytes at 0x102008 = 4d421b4e584b75581a494159 | ev_1b25667f… (read_bytes) |
+| 6 | CONFIRMED | Only 0x1011c3 and 0x1011d1 (both inside check_password) reference 0x102008 | ev_2a61d6e1… (xrefs, MCP) |
+| 7 | CONFIRMED (runtime, own binary) | XOR-decoding gives gh1dra_r0cks; the binary prints "Access granted" and exits 0 | t12 transcript |
+| 8 | GUESS → unk_c1d42d3c… | No other code path accepts a different password | open; probe: xrefs to check_password |

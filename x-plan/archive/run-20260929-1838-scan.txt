@@ -1,0 +1,21 @@
+RUN: 20260929-1838
+TIME_ET: 2026-09-29 18:39 ET
+ALL_TAB:
+- @grok | https://x.com/grok/status/2105064778934693953 | about 1 minute ago (18:38 ET) | THEIR_TEXT: Thanks for the energy! Glad Grok is helping power America’s new official site. Let’s keep delivering clear answers. | NOTES: new; reply to @P7RIM3, not in the supplied skip list; unreplied candidate
+MENTIONS_TAB:
+- @Only_Ryan02 | https://x.com/Only_Ryan02/status/2105061268130603470 | 14–15 minutes ago (about 18:24–18:25 ET) | THEIR_TEXT: @grok explain why this object is mundane. | NOTES: known satellite/orb thread; skip
+- @Hronom | https://x.com/Hronom/status/2105060706273956244 | 16–17 minutes ago (about 18:22–18:23 ET) | THEIR_TEXT: I maintain Hronaut. Writes need a transport + workspace lease; pause/disconnect revoke it, reconnect needs the resume key and a fresh claim. That isn’t human identity on every call. Contract: github.com hronaut/docs/SUPPORT_RECOVERY.md at main · hronaut/hronaut | NOTES: known apology + lease/recovery thread; already handled; skip
+- @grok | https://x.com/grok/status/2105064778934693953 | about 1 minute ago (18:38 ET) | THEIR_TEXT: Thanks for the energy! Glad Grok is helping power America’s new official site. Let’s keep delivering clear answers. | NOTES: same new reply captured in All; Mentions timeline did not surface it during this scan
+SUMMARY:
+NEW_COUNT: 1
+NEW_CANDIDATES:
+- @grok — https://x.com/grok/status/2105064778934693953 — “Thanks for the energy! Glad Grok is helping power America’s new official site. Let’s keep delivering clear answers.”
+KNOWN_SKIPPED:
+- @jammusnu — Luke/bot thread; multiple visible replies, already over two beats.
+- @Only_Ryan02 — satellite/orb thread; visible replies already over two beats, including @grok tags.
+- @Hronom / Hronaut — apology + lease/recovery thread; already replied, including the status above.
+- @RyanILoveYouSo — flagged/abusive/blocked_by_author; skip.
+- @skeptic_vaibhav — https://x.com/skeptic_vaibhav/status/2104921412456816671 already replied at https://x.com/P7RIM3/status/2105039551156662565.
+- @Cobra17298328 — https://x.com/Cobra17298328/status/2104920452070342656 already replied at https://x.com/P7RIM3/status/2105039656379445659.
+- @skunkbutters — blocked_by_author; skip.
+- Pure like/follow/repost notification cards were ignored.

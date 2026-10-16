@@ -1,0 +1,10 @@
+How to identify a thing in the sky without sounding unserious:
+
+1. Time, direction, angular speed, color, whether it blinks.
+2. FlightRadar24 for planes.
+3. Heavens-Above / Find Starlink for satellites.
+4. If it matches a catalog, you are done.
+5. If it does not match, write “uncatalogued,” not “craft.”
+
+Uncatalogued is an interesting sentence.
+Aliens is a conclusion you have not earned.

@@ -1,0 +1,22 @@
+{
+ "tag": "0650",
+ "symbol": "normie",
+ "mint": "4673spr9Zth4E3ZtZ493RTvqhdD8hW9o6pWjCd5Spump",
+ "age_h": 0.05,
+ "mc": 21211,
+ "phase": "too_young",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "age 0.05h <30m no-buy",
+  "19\u00d71-5% sniper band",
+  "creator not in topHolders (creatorBal~0)",
+  "curve H0 ~28.5%"
+ ],
+ "creatorBalance": 0,
+ "graphInsidersDetected": 0,
+ "totalHolders": 460,
+ "rc_score": 1,
+ "band_1_5": 19,
+ "h0_pct": 28.5349654168274,
+ "top10ex_approx": 16.6486473646706
+}

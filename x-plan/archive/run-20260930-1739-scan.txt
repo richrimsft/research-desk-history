@@ -1,0 +1,63 @@
+SIGNED_IN: yes (@P7RIM3 confirmed in account menu)
+CUTOFF: 2026-09-30T17:38:20-04:00
+SCAN_TIME: 2026-09-30T17:39:00-04:00
+
+ALL TAB (https://x.com/notifications)
+Visible reply/mention cards:
+1. handle: @zebralife2002
+   url: https://x.com/zebralife2002/status/2105361123503440350
+   text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+   displayed_age: 3 hours ago
+   after_cutoff: no
+   already_answered_by_P7RIM3: yes (P7RIM3 reply visible in thread; known handled URL https://x.com/P7RIM3/status/2105362879817925052)
+2. handle: @KittyMcfeisty2
+   url: https://x.com/KittyMcfeisty2/status/2105343324580143460
+   text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh
+   displayed_age: 4 hours ago
+   after_cutoff: no
+   already_answered_by_P7RIM3: handled/skip (known multi-beat thread)
+3. handle: @KittyMcfeisty2
+   url: https://x.com/KittyMcfeisty2/status/2105339423638651351
+   text: 🙄 🤦‍♀️
+   displayed_age: 4 hours ago
+   after_cutoff: no
+   already_answered_by_P7RIM3: handled/skip (known multi-beat thread)
+4. handle: @KittyMcfeisty2
+   url: https://x.com/KittyMcfeisty2/status/2105333564132712947
+   text: What’s new is this shit needs to stop. Beyond ridiculous
+   displayed_age: 5 hours ago
+   after_cutoff: no
+   already_answered_by_P7RIM3: handled/skip (known multi-beat thread)
+5. handle: @Cobra17298328
+   url: https://x.com/Cobra17298328/status/2105112514090402040
+   text: I can’t see what this bitch is saying, cause he immediately blocked me
+   displayed_age: 19 hours ago
+   after_cutoff: no
+   already_answered_by_P7RIM3: handled/skip (known handled beat 2)
+6. handle: @juneauxwhoitis
+   url: https://x.com/juneauxwhoitis/status/2105094896663371987
+   text: Overflowing with perceptions you are!
+   displayed_age: 21 hours ago
+   after_cutoff: no
+   already_answered_by_P7RIM3: handled/skip (known multi-beat thread)
+7. handle: @FiresOfTruth
+   url: https://x.com/FiresOfTruth/status/2105080875058704611
+   text: Check the link in my bio to watch a film I made with darcy
+   displayed_age: 21 hours ago
+   after_cutoff: no
+   already_answered_by_P7RIM3: no visible answer in card; skipped as promo/sales per instructions
+
+MENTIONS TAB (https://x.com/notifications/mentions)
+The same seven visible reply/mention cards appeared:
+- @zebralife2002 | https://x.com/zebralife2002/status/2105361123503440350 | "Your first sentence made absolutely no sense \"you guys are handing outside of a person\" I stop reading and I stopped paying attention to you at that point. Have a good day" | 3 hours ago | after cutoff: no | already answered: yes
+- @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105343324580143460 | "This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh" | 4 hours ago | after cutoff: no | handled/skip, multi-beat thread
+- @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105339423638651351 | "🙄 🤦‍♀️" | 4 hours ago | after cutoff: no | handled/skip, multi-beat thread
+- @KittyMcfeisty2 | https://x.com/KittyMcfeisty2/status/2105333564132712947 | "What’s new is this shit needs to stop. Beyond ridiculous" | 5 hours ago | after cutoff: no | handled/skip, multi-beat thread
+- @Cobra17298328 | https://x.com/Cobra17298328/status/2105112514090402040 | "I can’t see what this bitch is saying, cause he immediately blocked me" | 19 hours ago | after cutoff: no | handled/skip, known handled beat 2
+- @juneauxwhoitis | https://x.com/juneauxwhoitis/status/2105094896663371987 | "Overflowing with perceptions you are!" | 21 hours ago | after cutoff: no | handled/skip, multi-beat thread
+- @FiresOfTruth | https://x.com/FiresOfTruth/status/2105080875058704611 | "Check the link in my bio to watch a film I made with darcy" | 21 hours ago | after cutoff: no | no visible answer; skipped promo/sales
+
+NEW_COUNT: 0
+NEW_ITEMS: none
+
+No replies, likes, follows, reposts, or DMs were sent.

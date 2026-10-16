@@ -1,0 +1,18 @@
+$ npm install -g rea-agents@latest 2>&1 | grep -v -E 'EBADENGINE|package:|required:|current:|^npm WARN EBADENGINE }|^}' | tail -3
+npm warn install-scripts   frida@17.23.2 (install: node scripts/install.js)
+npm warn install-scripts
+npm warn install-scripts Run `npm install -g --allow-scripts=frida` to allow these scripts once, or `npm config set allow-scripts=frida --location=user` to allow them for all global installs.
+
+$ rea --version
+6.5.0
+
+$ npm view rea-agents dist-tags --json
+{
+  "latest": "6.5.0"
+}
+
+$ cd /workspace/rea-src && git pull --ff-only 2>&1 | tail -1 && git log --oneline -1 && git describe --tags --match 'rea-agents-*'
+ create mode 100644 website/templates/contributors.html.tmpl
+75104040d fix(javascript): track public CommonJS export receiver lifetimes (#3567)
+rea-agents-6.5.0-25-g75104040d
+

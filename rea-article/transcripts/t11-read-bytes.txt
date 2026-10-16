@@ -1,0 +1,10 @@
+$ rea read-bytes /workspace/re/crackme/target/crackme 0x102008 --length 12 --provider ghidra --filter-output evidence_id,normalized_result,confidence
+evidence_id: ev_1b25667fd32f0b7673b27db4d609bf64e72feef157368ef7ee37fb31897e03c4
+normalized_result:
+  address: 0x102008
+  requested_bytes: 12
+  returned_bytes: 12
+  bytes_hex: 4d421b4e584b75581a494159
+  complete: true
+confidence: observed
+

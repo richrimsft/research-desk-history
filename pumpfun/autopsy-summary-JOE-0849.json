@@ -1,0 +1,142 @@
+{
+  "symbol": "JOE",
+  "mint": "6yfQL6Fqfe9SnhLVxZxjGaWAQboBb8YYqZBYceP4pump",
+  "tag": "0849",
+  "fetched_at": "2026-10-16T08:49ET",
+  "score": 1,
+  "risks": [],
+  "creator": "BG9Jw48LkBCPcBiEP8AoprSRWgyGkeXx7CC9rwqYTeLm",
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "rugged": false,
+  "topHolders_ex_pool": [
+    {
+      "owner": "3qLZk9FoLERa\u2026",
+      "pct": 37.612,
+      "uiAmount": 376120051.461344,
+      "label": ""
+    },
+    {
+      "owner": "HVY8uBp1LuS1\u2026",
+      "pct": 2.9359,
+      "uiAmount": 29358517.663425,
+      "label": ""
+    },
+    {
+      "owner": "6WxiAPEuDrKn\u2026",
+      "pct": 2.6599,
+      "uiAmount": 26598562.495094,
+      "label": ""
+    },
+    {
+      "owner": "pwZpq97vcUqG\u2026",
+      "pct": 2.5731,
+      "uiAmount": 25730806.938823,
+      "label": ""
+    },
+    {
+      "owner": "5rUeP4nqztLx\u2026",
+      "pct": 2.5659,
+      "uiAmount": 25659076.607682,
+      "label": ""
+    },
+    {
+      "owner": "ASVzakePP6GN\u2026",
+      "pct": 2.1447,
+      "uiAmount": 21447418.479059,
+      "label": ""
+    },
+    {
+      "owner": "jrnbY2jn6dce\u2026",
+      "pct": 1.941,
+      "uiAmount": 19410486.381481,
+      "label": ""
+    },
+    {
+      "owner": "E5KPzhc3NdWz\u2026",
+      "pct": 1.9094,
+      "uiAmount": 19094080.994061,
+      "label": ""
+    },
+    {
+      "owner": "VampPCKcUxhy\u2026",
+      "pct": 1.891,
+      "uiAmount": 18909567.082304,
+      "label": ""
+    },
+    {
+      "owner": "2CCjpoKaf1Sv\u2026",
+      "pct": 1.6026,
+      "uiAmount": 16025626.645783,
+      "label": ""
+    },
+    {
+      "owner": "EFpNHr2wdbn2\u2026",
+      "pct": 1.5161,
+      "uiAmount": 15161357.96153,
+      "label": ""
+    },
+    {
+      "owner": "4HBgvKCCSbYg\u2026",
+      "pct": 1.4943,
+      "uiAmount": 14942987.311806,
+      "label": ""
+    },
+    {
+      "owner": "222PLrJKAcqX\u2026",
+      "pct": 1.4774,
+      "uiAmount": 14773796.501888,
+      "label": ""
+    },
+    {
+      "owner": "52dfZYg8ALkw\u2026",
+      "pct": 1.3928,
+      "uiAmount": 13927715.204467,
+      "label": ""
+    },
+    {
+      "owner": "GF4LWU7KE4VL\u2026",
+      "pct": 1.3651,
+      "uiAmount": 13651000.670036,
+      "label": ""
+    }
+  ],
+  "band_1_5_count": 18,
+  "top10ex_approx": 57.84,
+  "creatorBalance_field": 0,
+  "totalHolders": 703,
+  "graphInsiders": null,
+  "markets_n": 1,
+  "lpLockedPct": 100,
+  "fail_reasons": [
+    "creatorBal 0",
+    "18\u00d7 1\u20135% band",
+    "top10ex\u224857.8% (incl curve; still heavy sniper bands)"
+  ],
+  "verdict": "FAIL",
+  "dex": {
+    "symbol": "JOE",
+    "dexId": "pumpfun",
+    "mc": 16751.11,
+    "liq": null,
+    "h1": 367,
+    "m5": 367,
+    "age_h": 0.1,
+    "txns_h1": {
+      "buys": 1473,
+      "sells": 1121
+    },
+    "vol_h1": 109510.71,
+    "url": "https://dexscreener.com/solana/3qlzk9folera46vhxvczz2ngxhnx7ewnwnld1pljgnh4",
+    "socials": [
+      {
+        "url": "https://x.com/3DUniverse/status/2111075454777975123",
+        "type": "twitter"
+      }
+    ],
+    "websites": []
+  },
+  "creatorBalance": 0,
+  "name": "EmotiGuy",
+  "note": "too young (<30m); no-buy by narrative-age; structure FAIL"
+}

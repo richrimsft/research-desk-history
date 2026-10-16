@@ -1,0 +1,15 @@
+{
+  "mint": "4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump",
+  "symbol": "PONK",
+  "result": "REJECT",
+  "checks": {
+    "bundle_early": "INCONCLUSIVE_recent_trades_only; graphInsiders=61 + 6 insider transfer nets \u2192 treat FAIL",
+    "dev_hold": "PASS (creatorBalance=0)",
+    "deployer_history": "INCONCLUSIVE (creatorTokens empty; prior scouts rejected)",
+    "holders_top10_ex_lp": "FAIL 36.15% (>30%)",
+    "fake_volume_insiders": "FAIL (61 graph insiders; nets ~10.8% supply)",
+    "socials": "SOFT_PASS (@PEPEBONKK joined 2026-10-07, 374 foll / 218 tweets \u2014 not empty)",
+    "narrative_age": "FAIL 25.0h (prefer 0.5\u20133h; past window)"
+  },
+  "one_liner": "FAIL holders top10 ex-LP 36% + 61 graph-insiders; age 25h past narrative (prior reject)"
+}

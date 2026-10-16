@@ -1,0 +1,23 @@
+<html><head><meta charset="utf-8"></head><body><p>Polymarket's own <a href="https://docs.polymarket.com/migrate/data-api-v1-to-v2">Data API v1 to v2 migration guide</a> tells you where the losers are. The new <code>/v2/positions</code> route has a status filter, and <em>"<code>REDEEMABLE_LOST</code> narrows to still-held losing positions."</em> The same page warns that <strong>Data API v1 is retired on October 24, 2026</strong>, so new tools should use v2.</p>
+<pre><code class="language-bash">curl -s &quot;https://data-api.polymarket.com/v2/positions?user=$W&amp;status=REDEEMABLE_LOST&amp;limit=100&quot; \
+  | jq '{dead_bets: (.data | length), dead_pnl: (.data | map(.total_pnl) | add | floor), next: .pagination.next_cursor}'
+</code></pre>
+<p>Expected output:</p>
+<pre><code class="language-json">{
+  &quot;dead_bets&quot;: 38,
+  &quot;dead_pnl&quot;: -1616813,
+  &quot;next&quot;: null
+}
+</code></pre>
+<p>There they are: <strong>38 losing bets worth -$1.62M</strong> (v2's <code>total_pnl</code> includes entry fees). The "41-0" wallet is really 41-38. Its real all-time realized profit, from the same API:</p>
+<pre><code class="language-bash">curl -s &quot;https://data-api.polymarket.com/v2/user-stats?user=$W&quot; | jq '.data.all_time_pnl | {realized_pnl, fees_paid, volume_usdc}'
+</code></pre>
+<pre><code class="language-json">{
+  &quot;realized_pnl&quot;: 349331.516196,
+  &quot;fees_paid&quot;: -54474.41835,
+  &quot;volume_usdc&quot;: 3543944.933222
+}
+</code></pre>
+<p>So $349K, not $1.97M. Still a good result for this wallet. It's just not a wallet that never loses. It wins about half the time with big sizes.</p>
+<p>If <code>next</code> isn't <code>null</code>, the wallet has more than 100 dead bets. Repeat the call with <code>&amp;cursor=&lt;that value&gt;</code> until it is.</p>
+<h2>8. See it in Polymarket's own app</h2></body></html>

@@ -1,0 +1,11 @@
+markets=134 in-sample=93 held-out=41  (2026-10-14T15:25 .. 2026-10-15T03:36 ET)
+lowest raw sum 0.97 lowest after fees 1.0012
+real taker fees      margin 0    : IS hits/$ (0, 0)  HO hits/$ (0, 0)
+real taker fees      margin 0.005: IS hits/$ (0, 0)  HO hits/$ (0, 0)
+real taker fees      margin 0.01 : IS hits/$ (0, 0)  HO hits/$ (0, 0)
+real taker fees      margin 0.02 : IS hits/$ (0, 0)  HO hits/$ (0, 0)
+ZERO fees (fantasy)  margin 0    : IS hits/$ (1, 0.15)  HO hits/$ (1, 0.05)
+ZERO fees (fantasy)  margin 0.005: IS hits/$ (1, 0.15)  HO hits/$ (1, 0.05)
+ZERO fees (fantasy)  margin 0.01 : IS hits/$ (1, 0.15)  HO hits/$ (0, 0)
+ZERO fees (fantasy)  margin 0.02 : IS hits/$ (1, 0.15)  HO hits/$ (0, 0)
+wallets 3166 >=30 resolved 2648 zero-loss 1186 capped1000 1375

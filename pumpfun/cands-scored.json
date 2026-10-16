@@ -1,0 +1,1057 @@
+{
+  "as_of": "2026-10-15T19:19-04:00",
+  "scanned_mints": 103,
+  "mints_with_pairs": 103,
+  "passers": [
+    {
+      "symbol": "MEMEOS",
+      "name": "MEMEOS",
+      "mint": "5q5pEZZwhkuazS4rGa66LcNotdsnUE9KcJ7xQmXSpump",
+      "mc": 266341.0,
+      "liq": 46080.41,
+      "age_h": 49.0,
+      "h1chg": 2.9,
+      "m5chg": 18.93,
+      "h1buys": 49,
+      "h1sells": 26,
+      "m5buys": 13,
+      "m5sells": 1,
+      "vol_h1": 7003.78,
+      "url": "https://dexscreener.com/solana/cxq6t1fqqwpwbnvkgp492qruzvvlzxqafkquptmqd3l3",
+      "pairAddress": "Cxq6T1FqqwpwbnvKGP492qRUzvvLzxqAfKQupTMQd3L3",
+      "sources": [
+        "search-meme-pump.json"
+      ],
+      "reasons": [],
+      "pass": true
+    }
+  ],
+  "near_misses": [],
+  "top_rejects": [
+    {
+      "symbol": "Whaleoween",
+      "name": "Whaleoween",
+      "mint": "9hv1i7xafDRDV6nEWtFZvqWYN19m6GThc2dSnZaEpump",
+      "mc": 20874.47,
+      "liq": 0.0,
+      "age_h": 4.92,
+      "h1chg": 112.0,
+      "m5chg": 2.46,
+      "h1buys": 317,
+      "h1sells": 218,
+      "m5buys": 2,
+      "m5sells": 0,
+      "vol_h1": 18672.1,
+      "url": "https://dexscreener.com/solana/faem12atlb3yxh946ftx63atdgiketoswkxrzyhbb3fn",
+      "pairAddress": "FAEM12aTLb3YXH946FTX63atDGiKEtoSWKXRZYHbB3fn",
+      "sources": [
+        "search-new-pump.json"
+      ],
+      "reasons": [
+        "mc=20874 out of band"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "Starman",
+      "name": "Roadster Starman",
+      "mint": "H2pkmDKUio79yzzj5cRF6fqf6Xeq6AmpTsVVGG9wpump",
+      "mc": 810995.0,
+      "liq": 78465.01,
+      "age_h": 3.03,
+      "h1chg": 38.13,
+      "m5chg": -4.7,
+      "h1buys": 3140,
+      "h1sells": 901,
+      "m5buys": 246,
+      "m5sells": 79,
+      "vol_h1": 157244.13,
+      "url": "https://dexscreener.com/solana/aw1npki2jc6zw17huv4gttimdecoengd6ewg62wrusfy",
+      "pairAddress": "AW1NPKi2JC6zw17hUv4GttiMDECoengd6eWG62WRusFy",
+      "sources": [
+        "boosts-latest",
+        "boosts-top"
+      ],
+      "reasons": [
+        "mc=810995 out of band",
+        "botty h1buys=3140"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "$LARSON",
+      "name": "OFFICIAL LARSON MEMECOIN",
+      "mint": "Fy4t71n8UUW3pgrYtXQvsrAoEqAtqnZCAxpsUZFQpump",
+      "mc": 12013.04,
+      "liq": 0.0,
+      "age_h": 2480.0,
+      "h1chg": 30.13,
+      "m5chg": -1.96,
+      "h1buys": 23,
+      "h1sells": 9,
+      "m5buys": 0,
+      "m5sells": 3,
+      "vol_h1": 1342.27,
+      "url": "https://dexscreener.com/solana/beyv74xn3urhyxnzncmhntjc8lsejfjidfu5oaecbeyh",
+      "pairAddress": "BEyv74Xn3UrHYxnzncMHntJC8LseJFJidfU5oaEcBeYH",
+      "sources": [
+        "search-meme-pump.json"
+      ],
+      "reasons": [
+        "mc=12013 out of band"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "DICKBUTTIFIER",
+      "name": "Dickbuttifier",
+      "mint": "8QtbrC9d3BezyCwzBFUQbNsWJGte7ckrZ7HWcn81pump",
+      "mc": 27788.0,
+      "liq": 13040.92,
+      "age_h": 5.16,
+      "h1chg": 25.38,
+      "m5chg": 0.98,
+      "h1buys": 50,
+      "h1sells": 50,
+      "m5buys": 1,
+      "m5sells": 1,
+      "vol_h1": 5912.71,
+      "url": "https://dexscreener.com/solana/b2ajnvwamef1xfjsw3qdrf7qwelb7dtbwcr6va4pmb21",
+      "pairAddress": "B2ajNVWAMef1xfjSW3QDrF7qWeLB7dTBwCR6va4pMB21",
+      "sources": [
+        "boosts-latest"
+      ],
+      "reasons": [
+        "mc=27788 out of band",
+        "h1 sells>=buys 50/50"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "QUENTRA",
+      "name": "QUENTRA",
+      "mint": "3h4poyYGABrfoRBMzD11sF5fuLq1hvGZpNdtoeQfpump",
+      "mc": 27324.22,
+      "liq": 0.0,
+      "age_h": 5.43,
+      "h1chg": 19.45,
+      "m5chg": 1.21,
+      "h1buys": 196,
+      "h1sells": 103,
+      "m5buys": 8,
+      "m5sells": 11,
+      "vol_h1": 13213.62,
+      "url": "https://dexscreener.com/solana/gzkq94gmblcaqhciwnp25u59c6xhj55rp2yryyiav5rn",
+      "pairAddress": "GZkq94GmbLcaqHCiWNp25u59c6XhJ55rp2YRYYiAV5RN",
+      "sources": [
+        "boosts-latest"
+      ],
+      "reasons": [
+        "mc=27324 out of band",
+        "weak mom h1=19.4 m5=1.2"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "Solana",
+      "name": "Solana",
+      "mint": "AevWRpvNQAKkLpfgaYJ6epHBgJY9693fBYtM1R53pump",
+      "mc": 4365.6,
+      "liq": 0.0,
+      "age_h": 2189.23,
+      "h1chg": 11.59,
+      "m5chg": 5.71,
+      "h1buys": 3,
+      "h1sells": 0,
+      "m5buys": 2,
+      "m5sells": 0,
+      "vol_h1": 213.21,
+      "url": "https://dexscreener.com/solana/hbksyzzsiazmmx8ngeadwdpdatkn2rexwmueuryyztcm",
+      "pairAddress": "HbKsYzZSiaZmmx8ngEaDWDPdaTkn2REXwmUeUryYztCM",
+      "sources": [
+        "search-meme-pump.json",
+        "search-new-pump.json",
+        "search-pumpswap.json",
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "mc=4366 out of band",
+        "weak mom h1=11.6 m5=5.7"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "SI276",
+      "name": "Super Intelligence SI276",
+      "mint": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+      "mc": 1006343.0,
+      "liq": 101568.59,
+      "age_h": 219.89,
+      "h1chg": 8.15,
+      "m5chg": -0.77,
+      "h1buys": 1303,
+      "h1sells": 655,
+      "m5buys": 96,
+      "m5sells": 56,
+      "vol_h1": 21127.03,
+      "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
+      "pairAddress": "12jc1DzJpzbCDaKuM4brAKh9jcFry2TLG1FfGsL4ftCG",
+      "sources": [
+        "boosts-top"
+      ],
+      "reasons": [
+        "mc=1006343 out of band",
+        "weak mom h1=8.2 m5=-0.8"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "GTA",
+      "name": "GTA memes",
+      "mint": "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump",
+      "mc": 1555079.0,
+      "liq": 144545.53,
+      "age_h": 1208.34,
+      "h1chg": 6.98,
+      "m5chg": 1.65,
+      "h1buys": 85,
+      "h1sells": 132,
+      "m5buys": 6,
+      "m5sells": 6,
+      "vol_h1": 19490.86,
+      "url": "https://dexscreener.com/solana/5isvs31h7hmdggmyuvzmhdsywv7cydd6czjtbqzctlii",
+      "pairAddress": "5iSVs31h7HMdGGmyUvzmHDsYwV7cydD6CZJTbqzCtLii",
+      "sources": [
+        "search-meme-pump.json"
+      ],
+      "reasons": [
+        "mc=1555079 out of band",
+        "weak mom h1=7.0 m5=1.6",
+        "h1 sells>=buys 85/132"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "Groklet",
+      "name": "Grok Mascot",
+      "mint": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
+      "mc": 276781.0,
+      "liq": 53395.48,
+      "age_h": 11691.1,
+      "h1chg": 3.01,
+      "m5chg": 0.53,
+      "h1buys": 132,
+      "h1sells": 157,
+      "m5buys": 4,
+      "m5sells": 5,
+      "vol_h1": 14950.41,
+      "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
+      "pairAddress": "7oDjba4hZozvNWboKSRwFetStnM4iA5WiTKwFr1Lsy8t",
+      "sources": [
+        "boosts-top"
+      ],
+      "reasons": [
+        "weak mom h1=3.0 m5=0.5",
+        "h1 sells>=buys 132/157"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "CAKE",
+      "name": "CAKE CAT ",
+      "mint": "12kQB4WCZj1Kr61maq4M1APGSa4ynrjTmYUWWPhppump",
+      "mc": 28363.04,
+      "liq": 0.0,
+      "age_h": 15.35,
+      "h1chg": 2.61,
+      "m5chg": 0.0,
+      "h1buys": 20,
+      "h1sells": 9,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 970.5,
+      "url": "https://dexscreener.com/solana/2q6rfxjnh4nx2tmwwkmmynbzz33runv649nndrheyg3o",
+      "pairAddress": "2q6Rfxjnh4nx2tmWWKmmYnBzz33RUNv649nNDRHeyg3o",
+      "sources": [
+        "boosts-latest"
+      ],
+      "reasons": [
+        "mc=28363 out of band",
+        "weak mom h1=2.6 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "$OTCATWALK",
+      "name": "OTCatwalk",
+      "mint": "9UDNU3zn32BdB8s82gxC7aJwKHii7PYaKH9dyQ5spump",
+      "mc": 2419.0,
+      "liq": 2692.55,
+      "age_h": 7.04,
+      "h1chg": 1.98,
+      "m5chg": 0.0,
+      "h1buys": 1,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 2.09,
+      "url": "https://dexscreener.com/solana/7n3bmktqd2sjtkrpjskxfpvkrmuybwlqwc8fcqq6oe7m",
+      "pairAddress": "7n3BMktqd2sJTkrpJSkxfpVKrmUybwLqWC8FCQq6oe7M",
+      "sources": [
+        "boosts-latest",
+        "boosts-top"
+      ],
+      "reasons": [
+        "mc=2419 out of band",
+        "weak mom h1=2.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "ROULANA",
+      "name": "Roulana",
+      "mint": "ttH5rJWVxCFBdjd3x2AnBxtYDJtRCFa9ty4QpmUpump",
+      "mc": 12388.69,
+      "liq": 0.0,
+      "age_h": 55.32,
+      "h1chg": 1.93,
+      "m5chg": 0.0,
+      "h1buys": 2,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 39.5,
+      "url": "https://dexscreener.com/solana/3gxecpjy2v5vkeqzbkjamxizafearhgzr7wxsfuodnyw",
+      "pairAddress": "3GxECPjy2v5VKeqzBkjaMxiZafearHGzr7wxsfUoDNyW",
+      "sources": [
+        "boosts-top"
+      ],
+      "reasons": [
+        "mc=12389 out of band",
+        "weak mom h1=1.9 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "DOBBY",
+      "name": "DOBBY",
+      "mint": "CPcf58MNikQw2G23kTVWQevRDeFDpdxMH7KkR7Lhpump",
+      "mc": 188233.0,
+      "liq": 289.46,
+      "age_h": 7869.89,
+      "h1chg": 1.86,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 1,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.25,
+      "url": "https://dexscreener.com/solana/35d3jmscgvtnqhp7fhprsu9ifebqhgjtjz3iuhutfjic",
+      "pairAddress": "35D3jMscgvtnQHP7fHPrSu9ifEBqhgjtJz3iuhUTFjiC",
+      "sources": [
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "weak mom h1=1.9 m5=0.0",
+        "h1 sells>=buys 0/1",
+        "thin liq=289"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "SSE",
+      "name": "Solana Social Explorer",
+      "mint": "H4phNbsqjV5rqk8u6FUACTLB6rNZRTAPGnBb8KXJpump",
+      "mc": 85236.0,
+      "liq": 84415.21,
+      "age_h": 14825.55,
+      "h1chg": 1.58,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 1,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.98,
+      "url": "https://dexscreener.com/solana/hdt4asuvnjwn1y5mv2r3spxf54hc911anyihu8htmk7z",
+      "pairAddress": "HDt4asuvNjWn1Y5mV2R3sPXf54hC911ANYihU8HtmK7z",
+      "sources": [
+        "search-meme-pump.json",
+        "search-new-pump.json",
+        "search-pumpswap.json",
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "weak mom h1=1.6 m5=0.0",
+        "h1 sells>=buys 0/1"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "$HTW",
+      "name": "HeatWave",
+      "mint": "HKrTVBPVF9B8LEkNvZDm4PeNScnvoHv8JxNMTahVpump",
+      "mc": 25632.89,
+      "liq": 0.0,
+      "age_h": 18.17,
+      "h1chg": 1.52,
+      "m5chg": -0.56,
+      "h1buys": 40,
+      "h1sells": 41,
+      "m5buys": 1,
+      "m5sells": 2,
+      "vol_h1": 3970.17,
+      "url": "https://dexscreener.com/solana/4zijl9s6c8igudhexcwjmevdedktm3wpqsaxjdtymx7w",
+      "pairAddress": "4ZiJL9S6C8igudhExcWJmEvdEdkTM3WPqsAXjDtYmx7W",
+      "sources": [
+        "boosts-latest"
+      ],
+      "reasons": [
+        "mc=25633 out of band",
+        "weak mom h1=1.5 m5=-0.6",
+        "h1 sells>=buys 40/41"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Meme Solana Feline Token",
+      "mint": "28ZHuzqJwtg97KhJzuUwypC82vMCKuZa629FaCmrpump",
+      "mc": 2676.0,
+      "liq": 2983.11,
+      "age_h": 893.73,
+      "h1chg": 1.5,
+      "m5chg": -0.1,
+      "h1buys": 11,
+      "h1sells": 8,
+      "m5buys": 1,
+      "m5sells": 0,
+      "vol_h1": 1.19,
+      "url": "https://dexscreener.com/solana/c3hbhdcl3rwkjsc1dmfz4d3tcvg7zmwqntguftwsemp7",
+      "pairAddress": "C3hbHDcL3RWkjSc1DMFZ4d3Tcvg7zmwQNtgUftWsemP7",
+      "sources": [
+        "search-meme-pump.json",
+        "search-meme-solana.json"
+      ],
+      "reasons": [
+        "mc=2676 out of band",
+        "weak mom h1=1.5 m5=-0.1"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "BOMBERS",
+      "name": "Solana Bombers",
+      "mint": "CZiwA6eLUthZFLvTVEWG9v1K9Pc7p3eiBKRba2G7pump",
+      "mc": 479119.0,
+      "liq": 60431.46,
+      "age_h": 195.34,
+      "h1chg": 1.29,
+      "m5chg": -0.16,
+      "h1buys": 33,
+      "h1sells": 34,
+      "m5buys": 1,
+      "m5sells": 1,
+      "vol_h1": 2309.17,
+      "url": "https://dexscreener.com/solana/7uqnr3qvet7gcvba4bbpwevfap4l3sttrjhxdugygq41",
+      "pairAddress": "7uQNr3qvET7GcVbA4bbpwevfaP4L3sttrJhxDugYgq41",
+      "sources": [
+        "search-meme-pump.json",
+        "search-new-pump.json",
+        "search-pumpswap.json",
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "mc=479119 out of band",
+        "weak mom h1=1.3 m5=-0.2",
+        "h1 sells>=buys 33/34"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "memecoin",
+      "name": "just a memecoin",
+      "mint": "Bb4jR951QtVjeFAYFLBYXDSMKjbTDroCLPbFLdd7pump",
+      "mc": 278462.0,
+      "liq": 60235.26,
+      "age_h": 5093.79,
+      "h1chg": 1.2,
+      "m5chg": -0.67,
+      "h1buys": 3,
+      "h1sells": 2,
+      "m5buys": 1,
+      "m5sells": 0,
+      "vol_h1": 247.65,
+      "url": "https://dexscreener.com/solana/ebpudz8eke1tavcrasmaaegzk3wjveesrxmidmxuyxay",
+      "pairAddress": "EbpUDz8ekE1TavcRAsMAaeGZk3wJveESRxMiDmxUYXAY",
+      "sources": [
+        "search-meme-pump.json"
+      ],
+      "reasons": [
+        "weak mom h1=1.2 m5=-0.7"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "Solana ",
+      "name": "neath the truth ",
+      "mint": "AARYePwa2r1oSBfjWt5AbC5RgCRkRd2549FeYRX2pump",
+      "mc": 4877.59,
+      "liq": 0.0,
+      "age_h": 127.53,
+      "h1chg": 0.51,
+      "m5chg": 0.0,
+      "h1buys": 3,
+      "h1sells": 1,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 55.09,
+      "url": "https://dexscreener.com/solana/gqcpxxok5apqqkv4lng572dv2g8bxg2wzxw3gkpswpmi",
+      "pairAddress": "GqcpXXoK5apqQKv4LNG572DV2G8Bxg2WZXw3gKPSWPmi",
+      "sources": [
+        "search-new-pump.json",
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "mc=4878 out of band",
+        "weak mom h1=0.5 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "DADOGE",
+      "name": "Dacity Doge",
+      "mint": "HDbLsAiamKHCDLu4CgKqMvSQC71eAVTTi9CjcpjTpump",
+      "mc": 2249.0,
+      "liq": 2493.8,
+      "age_h": 6.9,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/ghfrsdc54ylvwrwn83evkkenh2ahyammfv1tqn1fikdh",
+      "pairAddress": "GHfRSdC54YLVwRWN83EvKkENh2ahyAMMfv1tQN1fiKDh",
+      "sources": [
+        "boosts-latest",
+        "boosts-top"
+      ],
+      "reasons": [
+        "mc=2249 out of band",
+        "weak mom h1=0.0 m5=0.0",
+        "known-bad DADOGE"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "LLD",
+      "name": "Lucky Legend",
+      "mint": "64MWN63e19qaw2HEecX6btUJSSbWwZgrw74bjFVVpump",
+      "mc": 56903.0,
+      "liq": 21017.45,
+      "age_h": 5857.83,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/h2zmzdvwp1gwh9xf4lrm1bu4xg96sgkwjff5ntiusdhf",
+      "pairAddress": "H2zmZDvWp1gwH9xF4Lrm1BU4xG96sGKWjfF5NtiUsdHf",
+      "sources": [
+        "boosts-latest"
+      ],
+      "reasons": [
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "ALTAIDOPE",
+      "name": "ALTAIDOPE",
+      "mint": "bLip6GWmVHURBCsKqAjLqzdbutfUJ4YiatJMaR6pump",
+      "mc": 41959.08,
+      "liq": 0.0,
+      "age_h": 12.41,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/6krwhdsuapxk5l1sasjwtj8znhtgcpkn5q5htw2brzg3",
+      "pairAddress": "6krWhDSuAPXk5L1saSjwtj8ZNhTgcPkn5q5Htw2Brzg3",
+      "sources": [
+        "boosts-top"
+      ],
+      "reasons": [
+        "mc=41959 out of band",
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "Staccana",
+      "name": "Solana Fork Staccana ",
+      "mint": "73edX6xoGY4v5y2hzuKdrUbJXLntqgmo74au1Ki1pump",
+      "mc": 347232.0,
+      "liq": 74391.66,
+      "age_h": 3961.45,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/j6f4eb4ijwa29gnpfxwak5j8jgcj6dwqovdqlcpdmxkg",
+      "pairAddress": "J6F4eB4iJwa29gNPFXwaK5j8jGCJ6dWQovdqLcPDmxkG",
+      "sources": [
+        "search-meme-pump.json",
+        "search-new-pump.json",
+        "search-pumpswap.json",
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "CLAWD",
+      "name": "solanaclawd",
+      "mint": "8cHzQHUS2s2h8TzCmfqPKYiM4dSt4roa3n7MyRLApump",
+      "mc": 109298.0,
+      "liq": 41261.73,
+      "age_h": 4580.49,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/gbzd5oomfkytygzumkfzyaejpvzxvm5fk4fdjcpvjjch",
+      "pairAddress": "GBzd5ooMFkYtYgzUMKfzyaEJpvzxvm5FK4FDJcpVJJcH",
+      "sources": [
+        "search-meme-pump.json",
+        "search-new-pump.json",
+        "search-pumpswap.json",
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "CURB",
+      "name": "The Solana Bull",
+      "mint": "6UGNg119LV6YjSCQ5K6Z6jsLLLetpMJ1vPdhiU8qpump",
+      "mc": 108509.0,
+      "liq": 32090.05,
+      "age_h": 2457.02,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/8lvi23yktg2damhynyboggnflnphrhlkveu2irqvscgg",
+      "pairAddress": "8LVi23yKtg2daMhyNYBoggnFLnPHrhLkveU2irqVSCgG",
+      "sources": [
+        "search-new-pump.json",
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "LUMIO",
+      "name": "Solana Mascot",
+      "mint": "evShR7tKJBiKLWjLzJFmqkLLCmozqMyYWREjejMpump",
+      "mc": 4720.76,
+      "liq": 0.0,
+      "age_h": null,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/85jqvzxch7yvep2e8fkjtt4fub3tunu8y1f6pqegfepa",
+      "pairAddress": "85JQvZxcH7yveP2E8FKjTt4FuB3TUnu8y1f6pqEGfePa",
+      "sources": [
+        "search-new-pump.json",
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "mc=4721 out of band",
+        "no age",
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "VIRUSEM",
+      "name": "ANSEM is the Solana virus.",
+      "mint": "3rbh7vzmyMgSmgssKHLn8iprVbsNgnWEj4h98hQhpump",
+      "mc": 18700.08,
+      "liq": 0.0,
+      "age_h": 1419.71,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/aqucqke8j8a7zp8ziowcejf2acqwft4tnpah94dqwber",
+      "pairAddress": "AQUcQke8J8A7zP8ZiowCejF2ACQwFT4tnpAH94dqwBeR",
+      "sources": [
+        "search-new-pump.json",
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "mc=18700 out of band",
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "LayoWif",
+      "name": "LayoWifHelmet",
+      "mint": "AfiznkNprkjL6o2PXJinfCUjx79KE6iwUTrebkQvpump",
+      "mc": 0.0,
+      "liq": 0.0,
+      "age_h": 52.36,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/ahkpfpep9r7ednvdcm5kj3llceflvwce2oaexfp4oah8",
+      "pairAddress": "AHKpFpEP9r7ednvDCm5Kj3LLCEFLvWCe2oaexFp4oaH8",
+      "sources": [
+        "search-new-pump.json",
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "mc=0 out of band",
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "$MAXBTC",
+      "name": "Max Bitcoin Solana",
+      "mint": "2mzqMhShWKobxdoQQ1b8YfNcER9LLoZWGn3WufGUpump",
+      "mc": 4869.59,
+      "liq": 0.0,
+      "age_h": 2778.06,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/9rubzfff8wtfxhvyfjszfo1ajatmqgzfsrmhn1nie4vx",
+      "pairAddress": "9rUBZffF8WtFXhVYFJSzfo1AjaTmqgZFSRmhN1NiE4vX",
+      "sources": [
+        "search-new-pump.json",
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "mc=4870 out of band",
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "HOME",
+      "name": "SOLANA IS HOME",
+      "mint": "5WWbQoTzvCbpo9VJuZrbxcZd8k8T7KL7WVhyHSk1pump",
+      "mc": 4190.38,
+      "liq": 0.0,
+      "age_h": null,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/fu476zvmsvv8aekxwffyadnmaqlbfgojz7pvrvxhvl2h",
+      "pairAddress": "FU476ZvMSVV8aekxWFFyAdnMaQLBfgoJz7pVRvxhVL2h",
+      "sources": [
+        "search-new-pump.json",
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "mc=4190 out of band",
+        "no age",
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "SOLANATOWER",
+      "name": "Solana Tower",
+      "mint": "3PcPPTEi2SAEtzLAD5WLPPfH2zNHYPdrMT1nEsL7pump",
+      "mc": 3166.56,
+      "liq": 0.0,
+      "age_h": 22.13,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/fdhwrgjcqerz5s3nem3176gsymhsbxbvcsh3itcr1qnc",
+      "pairAddress": "FdHWRGJCQerZ5S3NeM3176gsymhsbXbVCsH3itcR1qNC",
+      "sources": [
+        "search-new-pump.json",
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "mc=3167 out of band",
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "STORE",
+      "name": "Solana Spaces",
+      "mint": "FLJYGHpCCcfYUdzhcfHSeSd2peb5SMajNWaCsRnhpump",
+      "mc": 79222.0,
+      "liq": 35637.9,
+      "age_h": 15124.97,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/3rzcrvdu4osdjkdmhcykqhu5ef8f8lsy9bdgham8rmva",
+      "pairAddress": "3RZcRvdU4osDJKDmhCyKqhU5eF8F8Lsy9BDghAM8RmvA",
+      "sources": [
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "XRP",
+      "name": "XRP on Solana",
+      "mint": "AZZyEKLE288XgF795nkktMC9poBgsq93mkcZQxRrpump",
+      "mc": 40454.0,
+      "liq": 31966.39,
+      "age_h": 16419.52,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/5iktvxj3dckq8huws7nxzqjzwkhigwy8josg3rguxk5g",
+      "pairAddress": "5iKtVxj3dCkQ8hUws7NxZQjZWkHigWY8JoSg3Rguxk5g",
+      "sources": [
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "mc=40454 out of band",
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "AGENT",
+      "name": "Solana Agent",
+      "mint": "5tFRno9GXBP5gt2Kjx2MeEaFL8zGBMw4cujTLGerpump",
+      "mc": 55960.0,
+      "liq": 30786.05,
+      "age_h": 16040.19,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/bpm1gwkb5xfjdly1ftz4o3m1amxmms9bbgfdolpggh2k",
+      "pairAddress": "BPM1GwKB5xfjDLY1ftZ4o3M1AMxmMs9BbgfDoLPgGh2K",
+      "sources": [
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "BABYSOL",
+      "name": "Baby Solana",
+      "mint": "54meDtup2K7pqyhUK24AymoLzMPtrkhNTbEzQ6gSpump",
+      "mc": 69649.0,
+      "liq": 23393.77,
+      "age_h": 16705.93,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/j61fedaj3uyyl7gfueojn7e2koyz6th88t6wpc5n2hjw",
+      "pairAddress": "J61feDAJ3UyYL7gFUeoJN7E2koYz6th88t6wPC5n2HJw",
+      "sources": [
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "$CrepSol",
+      "name": "Crepe on Solana ",
+      "mint": "HW2B2wvyEir3iqvYbYqbHWyR7rA6DqCR3WQSy4USpump",
+      "mc": 26842.0,
+      "liq": 14251.71,
+      "age_h": 9373.93,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/fiavfzfe7jkcxy8k4sj1hznqzfv3xe14c7gnaxbhdb3k",
+      "pairAddress": "FiAvfZFE7JkcXY8k4sj1HznQzFV3Xe14c7gNAXbhdb3k",
+      "sources": [
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "mc=26842 out of band",
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "RETARDIO",
+      "name": "RETARDIO",
+      "mint": "CSRRgTwf9o5KLgguS2M16aEAhV5PUUzfshrAAQ8opump",
+      "mc": 1553773.0,
+      "liq": 56.65,
+      "age_h": 1052.03,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/hxvzypgcuybq8skhpvmqzgravbhmuw17rvqhfa7hfzqu",
+      "pairAddress": "HXVzYPgCuyBq8SkhPvmqzgrAvbHmUW17rvQHfa7Hfzqu",
+      "sources": [
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "mc=1553773 out of band",
+        "weak mom h1=0.0 m5=0.0",
+        "thin liq=57"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "SDOGE",
+      "name": "DOGE on Solana",
+      "mint": "BvSyXBvy76mUgzLSbvvT4NQw5rSM4P5zAsdnvqUJpump",
+      "mc": 18386.0,
+      "liq": 21630.89,
+      "age_h": 17711.4,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/f3kis7xz3enx9cqv7aknhcfbqvwg8uxh9bg2sryyxdch",
+      "pairAddress": "F3kiS7Xz3eNX9Cqv7aknhcFbqVWG8uxH9BG2sryYXDch",
+      "sources": [
+        "search-solana-pump.json"
+      ],
+      "reasons": [
+        "mc=18386 out of band",
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "pump",
+      "name": "Pump.fun",
+      "mint": "9rZ1r7f2uE754fgmYAGQSuNrAMeyi4vCvC46HbfZpump",
+      "mc": 12.92,
+      "liq": 0.0,
+      "age_h": 7.77,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/a9teyzn2jpq9vguhiw4h57ji3qxdyvkqttg1wgb5pvr3",
+      "pairAddress": "A9teyzN2jPq9vGuhiW4h57Ji3qxDyVKqTtg1wgB5pvr3",
+      "sources": [
+        "search-pf-trending.json"
+      ],
+      "reasons": [
+        "mc=13 out of band",
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    },
+    {
+      "symbol": "HOTLINE",
+      "name": "Pump.fun Mental Health Hotline",
+      "mint": "EhhGRVTrCRecXoq25UoonE7dBUESzMd5uibohm28pump",
+      "mc": 2171.0,
+      "liq": 2255.52,
+      "age_h": 716.18,
+      "h1chg": 0.0,
+      "m5chg": 0.0,
+      "h1buys": 0,
+      "h1sells": 0,
+      "m5buys": 0,
+      "m5sells": 0,
+      "vol_h1": 0.0,
+      "url": "https://dexscreener.com/solana/a7bwenbpag8bpzvfoztw17tjemayhrrra8pqejbnyrjj",
+      "pairAddress": "A7bWENbPaG8BPZVfozTW17tJEMAyhRRRA8PQejBnYrJJ",
+      "sources": [
+        "search-pf-trending.json"
+      ],
+      "reasons": [
+        "mc=2171 out of band",
+        "weak mom h1=0.0 m5=0.0"
+      ],
+      "pass": false
+    }
+  ]
+}

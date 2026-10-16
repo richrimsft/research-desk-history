@@ -1,0 +1,63 @@
+SpaceX and Tesla are worth more together right now than the US government borrowed in all of fiscal 2026. Almost twice as much.
+
+My math, not Elon's. Not investment advice, just math.
+
+### The math
+
+As of 10:36am ET today, Oct 9, SpaceX (SPCX) is at $163.82. Market cap about $2.23 trillion. (https://www.nasdaq.com/market-activity/stocks/spcx)
+
+Tesla (TSLA) is at $386.96. About $1.53 trillion. (https://www.nasdaq.com/market-activity/stocks/tsla)
+
+Add them up and you get about $3.75 trillion.
+
+The FY2026 federal deficit came in at $2.0 trillion. That's CBO's number, reported by the Committee for a Responsible Federal Budget. (https://www.crfb.org/press-releases/cbo-estimates-20-trillion-deficit-fiscal-year-2026)
+
+$3.75T vs $2.0T. That's 1.88x. Two companies, almost two full years of deficit.
+
+And no, this isn't the national debt. Different number. I'm only talking about one year of borrowing.
+
+[IMAGE: chart.png | Market caps from Nasdaq.com as of Oct 9, 2026, 10:36am ET. FY2026 deficit: CBO via CRFB.]
+
+[IMAGE: sec1.jpg | Starship's Super Heavy booster caught by the launch tower during Flight 5, Starbase, Texas. Photo: Steve Jurvetson (edits: Bech, Prospectprospekt), CC BY 2.0, via Wikimedia Commons]
+
+### Starlink is the money printer
+
+Starlink subscribers doubled to 12 million in a year. SpaceX's connectivity segment, mostly Starlink, made about $5.3 billion in operating income over the last four quarters. All of Tesla made about $4.4 billion over the same stretch. Credit to Daniel Sparks at Motley Fool for lining that up. (https://www.fool.com/investing/2026/10/09/spacex-is-worth-about-usd800-billion-more-than-tesla-on-less-than-a-quarter-of-its-sales/)
+
+A satellite internet business out-earning the whole car company. Wild.
+
+And it's coming for your phone next. SpaceX signed a deal to buy Grain Management's nationwide 800 MHz spectrum for Starlink Mobile. It still needs FCC approval, so it's not done yet. (https://www.prnewswire.com/news-releases/grain-management-announces-definitive-agreement-to-sell-nationwide-800-mhz-spectrum-portfolio-to-spacex-302902974.html)
+
+[IMAGE: sec2.jpg | Starlink flat panel dish on the roof of an overlanding truck. Photo: Tony Webster, CC BY 2.0, via Wikimedia Commons]
+
+### The comeback nobody priced in
+
+CNBC on Oct 5: SpaceX shares climbed about 58% from the early August bottom, after a week with a crewed NASA mission and Google's AI chips sent to orbit. (https://www.cnbc.com/2026/10/05/spacex-stock-climbs-highest-since-june-returning-musk-to-trillionaire.html)
+
+Morgan Stanley's Adam Jonas kept his $300 target and called SpaceX "cheap and getting cheaper." (https://finviz.com/news/398657/morgan-stanley-reiterates-300-spacex-target-citing-growth-adjusted-valuation)
+
+Fair is fair though. The stock fell 4.2% yesterday to $160.57, per MarketBeat. It doesn't go up in a straight line. (https://www.marketbeat.com/instant-alerts/price-spacex-nasdaq-spcx-stock-falls-42-whats-next-2026-10-08/)
+
+[IMAGE: sec3.jpg | Starship on the pad at Starbase, Texas, the night before Flight 5, Oct 12, 2024. Photo: Steve Jurvetson, CC BY 2.0, via Wikimedia Commons]
+
+### Tesla beat the Street
+
+Tesla delivered 486,532 cars in Q3. Per Fred Lambert at Electrek, that's about 25,000 over the 461,974 consensus, roughly 5% above. It beat every estimate on the list. Still down 2.1% from last year's record, to be fair. (https://electrek.co/2026/10/02/tesla-q3-2026-deliveries-486532/)
+
+People keep calling Tesla a dead car company. Dead car companies don't beat every estimate.
+
+[IMAGE: sec4.jpg | The refreshed 2025 Tesla Model Y at Santana Row, San Jose. Photo: Dllu, CC BY-SA 4.0, via Wikimedia Commons]
+
+### Elon's "super crazy" path, and his own fine print
+
+Yesterday Elon posted: "This will sound super crazy, but I see a path to SpaceX being worth orders of magnitude more than the current Earth economy." (https://x.com/elonmusk/status/2108315261044445330) Benzinga picked it up fast. (https://www.benzinga.com/markets/tech/26/10/62266293/elon-musk-says-spcx-could-be-worth-orders-of-magnitude-more-than-the-entire-earth-economy-super-crazy)
+
+Then at 10:14am ET today he added the fine print himself: "'Seeing a path' is not a statement of extreme confidence that we will achieve that outcome. Just means that I believe there is such a path and the probability of achieving it is not zero." (https://x.com/elonmusk/status/2108561824400691429)
+
+Respect for saying that out loud. Not zero isn't a promise.
+
+My take: you don't need the crazy number. Two of his companies already outweigh a full year of federal borrowing. That's the story.
+
+So is $3.75 trillion for two Musk companies earned, or is it hype?
+
+[IMAGE: sec5.jpg | Elon Musk at the U.S. Air Force Academy, Colorado, April 7, 2022. Photo: U.S. Air Force/Trevor Cokley (public domain), via Wikimedia Commons]

@@ -1,0 +1,32 @@
+X notification scan report
+Timestamp: 2026-09-29 22:43 ET (UTC-4)
+Account confirmed: @P7RIM3 (P7RIM3), signed in
+Cutoff: approximately 22:36 ET
+
+NEW_COUNT: 0
+
+New candidates:
+None. No genuinely new unreplied inbound reply/mention newer than the cutoff or clearly unseen was visible.
+
+Top notification/mention review
+- All notifications was refreshed once. The recent non-inbound items were likes on @P7RIM3 replies (for example, “This screams the movie Wall-E” at ~5m and “Do the opposite of whether Kramer says! Trust me” at ~21m); these were ignored as likes-only/own-post engagement.
+- Visible inbound reply/mention cards were all known skips and older than the cutoff: @Cobra17298328 (~54m), @juneauxwhoitis (~2h), @FiresOfTruth (three cards, ~3h), and @grok (~3h).
+- Mentions timeline was refreshed once. It showed the same seven known cards and no newer candidate.
+
+Known skips observed
+- @Cobra17298328 — https://x.com/Cobra17298328/status/2105112514090402040 — ~54m — “I can’t see what this bitch is saying, cause he immediately blocked me” — already replied.
+- @juneauxwhoitis — https://x.com/juneauxwhoitis/status/2105094896663371987 — ~2h — “Overflowing with perceptions you are!” — two-beat done.
+- @FiresOfTruth — https://x.com/FiresOfTruth/status/2105080875058704611 — ~3h — “Check the link in my bio to watch a film I made with darcy” — film-bio skip.
+- @FiresOfTruth — https://x.com/FiresOfTruth/status/2105074701802651949 — ~3h — quote of @SlackerBluePod: “Alex B is currently missing. #fishtanklive” — fishtank quote skip.
+- @FiresOfTruth — https://x.com/FiresOfTruth/status/2105073376268345355 — ~3h — “He’s a human being” — already handled.
+- @grok — https://x.com/grok/status/2105068070892912851 — ~3h — “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the america.gov” — beat 3+.
+- Older supplied skips (@Only_Ryan02, @Hronom, @jammusnu, @RyanILoveYouSo, @skeptic_vaibhav) were not treated as new.
+
+Tone samples from recent @P7RIM3 original posts
+1. https://x.com/P7RIM3/status/2105124253280481451 — “The way people look in my dreams” (quote post; ~8m).
+2. https://x.com/P7RIM3/status/2105097516798923200 — “Big Tech all at the main table. Buy their stock. ESP the ones sitting next to @POTUS” (~1h).
+3. https://x.com/P7RIM3/status/2105063458303791146 — “Not gonna lie. This is ridiculous.” (quote post; ~4h).
+
+For new candidates: none, so no parent context, thread type, or Reply-button test was needed.
+Blockers: no login issue, captcha, rate limit, or reply restriction encountered. A “Payment failed” banner was visible on the profile and was not touched.
+No posts, replies, likes, follows, reposts, DMs, or settings/billing changes were made.

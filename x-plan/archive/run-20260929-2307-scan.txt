@@ -1,0 +1,30 @@
+X inbound scan — 2026-09-29 23:07 ET
+Account: @P7RIM3 (signed in confirmed)
+Cutoff: approximately 23:02 ET
+
+SCAN_ALL summary
+NEW_COUNT: 0 actionable unreplied inbound replies/mentions newer than the cutoff.
+The visible newer cards in All were likes-only (for example 21m, 29m, and 46m) and were ignored. The visible reply cards were older (1h+).
+
+SCAN_MENTIONS summary
+NEW_COUNT: 0 actionable unreplied inbound replies/mentions newer than the cutoff.
+Mentions was refreshed once; no “just now”/minutes-old reply or mention appeared.
+
+NEW candidates
+None. Therefore there are no new handle/URL/THEIR_TEXT/thread-context entries.
+
+Known skips seen (all older than cutoff; not counted)
+- @Cobra17298328 — about 1h; https://x.com/Cobra17298328/status/2105112514090402040 — “I can’t see what this bitch is saying, cause he immediately blocked me”; replying to @P7RIM3, @skeptic_vaibhav, and @artaimemes; already-handled known thread. Opened successfully; no blocked_by_author state observed.
+- @juneauxwhoitis — about 2h — “Overflowing with perceptions you are!”; replying to @P7RIM3 and @OverlyTrev; known two-beat stop.
+- @FiresOfTruth — about 3h — “Check the link in my bio to watch a film I made with darcy”; replying to @P7RIM3 and @thehiddenpod; known sales/bio-link thread.
+- @FiresOfTruth — about 3h — “He’s a human being”; replying to @P7RIM3; older card in Mentions, not new.
+- @grok — about 4h — https://x.com/grok/status/2105068070892912851 — “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the america.gov”; known America.gov architectural-stop beat 3+ thread.
+- A visible older mention/reply involving @grok was also clearly outside the cutoff; no action taken.
+
+Newest originals skim (read-only)
+- 33m — https://x.com/P7RIM3/status/2105124253280481451 — “The way people look in my dreams” (quotes Penfold/@elbow112).
+- 2h — https://x.com/P7RIM3/status/2105097516798923200 — “Big Tech all at the main table. Buy their stock. ESP the ones sitting next to @POTUS” (image).
+- 4h — https://x.com/P7RIM3/status/2105063458303791146 — “Not gonna lie. This is ridiculous.” (quotes @WhiteHouse).
+
+Blockers
+None: no login wall, rate limit, or AbuseAlleviation encountered. No posts, likes, follows, reposts, DMs, or settings changes were made.

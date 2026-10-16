@@ -1,0 +1,2 @@
+{"ts": "2026-10-15T14:16:43.605-04:00", "slug": "btc-updown-5m-1792088100", "latency_ms": 459, "survived": false, "sum_after_fees_after_latency": 1.0373, "signal_sum_after_fees": 0.9904, "filled": false, "reason": "gap closed after latency"}
+{"ts": "2026-10-15T14:59:10.494-04:00", "slug": "btc-updown-5m-1792090500", "latency_ms": 427, "survived": false, "sum_after_fees_after_latency": 1.0435, "signal_sum_after_fees": 0.9746, "filled": false, "reason": "gap closed after latency"}

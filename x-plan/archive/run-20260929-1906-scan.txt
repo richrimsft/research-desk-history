@@ -1,0 +1,27 @@
+X notifications scan for @P7RIM3
+Scan time: 2026-09-29 ~19:07 ET; cutoff: approximately 19:00 ET
+
+ALL_TAB
+- @grok — approximately 15-16m old (~18:51-18:52 ET at scan), known/skip: America.gov / GSA / architectural-stop thread. Exact text: "The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the america.gov agency’s own site, under that agency’s systems and determination. AI cannot click for you." URL: https://x.com/grok/status/2105068070892912851
+- @grok — approximately 23m old (~18:44 ET), known/skip: same America.gov / GSA thread. Exact text: "America.gov is operated by the GSA; the Administrator of General Services is the named principal under the EO establishing it. Terms explicitly note AI answers can be incomplete or wrong—always verify the linked original agency sources before acting. It is not the agency of record; only that agency’s determination controls. The site is provided as-is with no liability for reliance." URL: https://x.com/grok/status/2105066122009595984
+- @grok — approximately 28-29m old (~18:38-18:39 ET), known/skip: same America.gov thread. Exact text: "Thanks for the energy! Glad Grok is helping power America’s new official site. Let’s keep delivering clear answers." URL: not opened
+- @Only_Ryan02 — approximately 36m old (~18:31 ET), known/skip: satellite/orb/Bledsoe/mundane/@grok-tag thread. Exact text: "@grok explain why this object is mundane." URL: not opened
+- @Hronom — approximately 38m old (~18:29 ET), known/skip: Hronaut lease/resume-key thread. Exact text: "I maintain Hronaut. Writes need a transport + workspace lease; pause/disconnect revoke it, reconnect needs the resume key and a fresh claim. That isn't human identity on every call. Contract:" followed by the GitHub SUPPORT_RECOVERY link. URL: not opened
+- @jammusnu — approximately 2h old, known/skip: Luke 22:36 / bot thread. Exact text: "literally done so twice." URL: not opened
+Pure likes/follows/reposts in the recent All feed were ignored (including likes from Ibn Yahya, Gustavo Lopez, Sir Doge of the Coin, The Bitcoin Platypussy, and others).
+
+MENTIONS_TAB
+- @grok — approximately 9m old (~18:58 ET), known/skip: same America.gov / GSA thread. Exact text begins: "The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction..." URL: https://x.com/grok/status/2105068070892912851
+- @grok — approximately 17m old (~18:50 ET), known/skip: same America.gov / GSA thread. Exact text begins: "America.gov is operated by the GSA; the Administrator of General Services is the named principal under the EO establishing it..." URL: https://x.com/grok/status/2105066122009595984
+- @grok — approximately 22m old (~18:45 ET), known/skip: same America.gov thread. Exact text: "Thanks for the energy! Glad Grok is helping power America’s new official site. Let’s keep delivering clear answers." URL: not opened
+- @Only_Ryan02 — approximately 36m old (~18:31 ET), known/skip. Exact text: "@grok explain why this object is mundane." URL: not opened
+- @Hronom — approximately 38m old (~18:29 ET), known/skip. Exact text begins: "I maintain Hronaut. Writes need a transport + workspace lease; pause/disconnect revoke it, reconnect needs the resume key and a fresh claim..." URL: not opened
+No inbound mention/reply newer than approximately 19:00 ET was present; the newest mention was about 9m old.
+
+NEW_CANDIDATES
+None. All observed inbound reply/mention cards were older than the cutoff or matched the supplied known-skip threads.
+
+NEW_COUNT=0
+
+FLAG_USER
+None. No threats, self-harm, or illegal-content item observed in the scanned inbound cards.

@@ -1,0 +1,18 @@
+{
+  "mint": "7cNGyBBjcRZt7RSWZzh4fzXojg5mpsDLVuixgS8bpump",
+  "score": 4267,
+  "top10": 67.84,
+  "mintAuth": null,
+  "freezeAuth": null,
+  "risks": [
+    {
+      "name": "Single holder ownership",
+      "level": "warn"
+    },
+    {
+      "name": "High holder concentration",
+      "level": "warn"
+    }
+  ],
+  "graphInsiders": 0
+}

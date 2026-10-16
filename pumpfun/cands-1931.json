@@ -1,0 +1,102 @@
+{
+  "as_of": "2026-10-15T19:34:00-04:00",
+  "serious_rotate_candidates": [],
+  "numeric_passers_rejected": [
+    {
+      "symbol": "APU",
+      "mint": "E7eCZS2cq655qJ7uVx3dSHR2zK31kwNQsWS6P6Hpump",
+      "status": "numeric_pass_qualitative_reject",
+      "reason": "graphInsidersDetected high (EGO=64, APU=54); not a clean rotate vs holdings",
+      "mc": 105489.0,
+      "liq": 26594.77,
+      "age_h": 231.98190222222223,
+      "h1": 21.96,
+      "m5": 23.47,
+      "buys1": 49,
+      "sells1": 31,
+      "buys5": 45,
+      "sells5": 27,
+      "dex": "pumpswap",
+      "url": "https://dexscreener.com/solana/2ps7z7frhsurdtssvczrmoyqrh4gutkwknuks2jjy23w",
+      "rugcheck": {
+        "label": "APU",
+        "mint": "E7eCZS2cq655qJ7uVx3dSHR2zK31kwNQsWS6P6Hpump",
+        "score": 1,
+        "top10_ex_lp": 30.12241823859902,
+        "graph_insiders": 54,
+        "insider_nets": 2,
+        "total_holders": 2311,
+        "name": "APU",
+        "symbol": "APU",
+        "mint_revoked": true,
+        "freeze_revoked": true,
+        "rugged": false,
+        "liq": 25164.386160570146
+      }
+    },
+    {
+      "symbol": "EGO",
+      "mint": "BbJJUTuGV2B7tJ99YeryiCBFLG39Hoc4RTzEwchtpump",
+      "status": "numeric_pass_qualitative_reject",
+      "reason": "graphInsidersDetected high (EGO=64, APU=54); not a clean rotate vs holdings",
+      "mc": 70996.0,
+      "liq": 29645.69,
+      "age_h": 270.78384666666665,
+      "h1": 65.3,
+      "m5": -5.77,
+      "buys1": 348,
+      "sells1": 229,
+      "buys5": 0,
+      "sells5": 4,
+      "dex": "pumpswap",
+      "url": "https://dexscreener.com/solana/azbssg82zpspef97t1g7phwjaikntxmatwc3tgdqpkxk",
+      "rugcheck": {
+        "label": "EGO",
+        "mint": "BbJJUTuGV2B7tJ99YeryiCBFLG39Hoc4RTzEwchtpump",
+        "score": 1,
+        "top10_ex_lp": 25.357219121637787,
+        "graph_insiders": 64,
+        "insider_nets": 9,
+        "total_holders": 13949,
+        "name": "EGO",
+        "symbol": "EGO",
+        "mint_revoked": true,
+        "freeze_revoked": true,
+        "rugged": false,
+        "liq": 31944.542211677697
+      }
+    }
+  ],
+  "near_misses": [
+    {
+      "symbol": "Chinese",
+      "mint": "Tm2iqbxYjKpW8xCMe6q1xUraNMNzcG5xMztAir3pump",
+      "status": "near_miss_h1",
+      "fail": [
+        "h1=14.4"
+      ],
+      "mc": 222743.0,
+      "liq": 45077.43,
+      "age_h": 818.7066244444444,
+      "h1": 14.45,
+      "buys1": 12,
+      "sells1": 4,
+      "rugcheck": {
+        "label": "Chinese",
+        "mint": "Tm2iqbxYjKpW8xCMe6q1xUraNMNzcG5xMztAir3pump",
+        "score": 1,
+        "top10_ex_lp": 25.612816350334782,
+        "graph_insiders": 7,
+        "insider_nets": 1,
+        "total_holders": 4725,
+        "name": "Chinese time in my life",
+        "symbol": "Chinese",
+        "mint_revoked": true,
+        "freeze_revoked": true,
+        "rugged": false,
+        "liq": 43175.60994850395
+      }
+    }
+  ],
+  "recommendation": "HOLD"
+}

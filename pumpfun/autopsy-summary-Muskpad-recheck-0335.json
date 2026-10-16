@@ -1,0 +1,14 @@
+{
+  "symbol": "Muskpad",
+  "mint": "UZcE4ws4kERR6prnmgGMCSfUL1XynhZbzJCyKo5pump",
+  "mc": 49246,
+  "age_h": 0.49,
+  "h1": 17.73,
+  "m5": 16.23,
+  "buys_h1": 4497,
+  "decision": "FAIL stands",
+  "reasons": [
+    "prior FAIL: creatorBal 0; no real socials; 13-wallet 1-5% band",
+    "post-grad (~$49k) still ~29m old / botty 4.5k buys \u2014 not chasing spike"
+  ]
+}

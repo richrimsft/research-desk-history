@@ -1,0 +1,156 @@
+[
+  {
+    "symbol": "CLAUDEMAN",
+    "mint": "DjrijJNopHheVub1JdtJ7snqHS55kNY6kC5HNViTpump",
+    "dexId": "pumpfun",
+    "marketCap": 27739.15,
+    "age_h": 0.61,
+    "h1": 594,
+    "h6": 594,
+    "h24": 594,
+    "volume_h1": 92513.39,
+    "txns_h1": {
+      "buys": 1486,
+      "sells": 1022
+    },
+    "liquidity": null,
+    "url": "https://dexscreener.com/solana/5pp84mw9yvjtnuidnipmb98mu66w8sh5gn5ehfsdrukw",
+    "prior": false,
+    "priceUsd": "0.00002773",
+    "fdv": 27739.15,
+    "info": null
+  },
+  {
+    "symbol": "RL",
+    "mint": "DRNqV2V6WxjjgDqa4tgf1KfpsGLDNSvraSc9k6L9pump",
+    "dexId": "pumpfun",
+    "marketCap": 17017.74,
+    "age_h": 0.84,
+    "h1": 378,
+    "h6": 378,
+    "h24": 378,
+    "volume_h1": 56948.29,
+    "txns_h1": {
+      "buys": 588,
+      "sells": 471
+    },
+    "liquidity": null,
+    "url": "https://dexscreener.com/solana/79kzkfy9xyawmdqzteqq5rithkghnuqintlscsfffjxd",
+    "prior": true,
+    "priceUsd": "0.00001701",
+    "fdv": 17017.74,
+    "info": {
+      "imageUrl": "https://cdn.dexscreener.com/cms/images/9YeXLSfV35GVvxyX?width=800&height=800&quality=95&format=auto",
+      "header": "https://cdn.dexscreener.com/cms/images/_8ZPSUeDxVv0_r6e?width=1500&height=500&quality=95&format=auto",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DRNqV2V6WxjjgDqa4tgf1KfpsGLDNSvraSc9k6L9pump?timestamp=1792132200000",
+      "websites": [
+        {
+          "url": "https://roadsterleague.online/",
+          "label": "Website"
+        }
+      ],
+      "socials": [
+        {
+          "url": "https://x.com/tr1nkt/status/2110962924030480670?s=20",
+          "type": "twitter"
+        }
+      ]
+    }
+  },
+  {
+    "symbol": "ERIC",
+    "mint": "DuaSA2YynBhqyW26n48EX7qtdRWKHtnVjR8fsE5spump",
+    "dexId": "pumpfun",
+    "marketCap": 16333.1,
+    "age_h": 0.98,
+    "h1": 328,
+    "h6": 328,
+    "h24": 328,
+    "volume_h1": 66136.53,
+    "txns_h1": {
+      "buys": 692,
+      "sells": 492
+    },
+    "liquidity": null,
+    "url": "https://dexscreener.com/solana/2ll9sdk7pgwat3tcj6y4sny7onzkncf7wmnpm1hbrqpq",
+    "prior": true,
+    "priceUsd": "0.00001633",
+    "fdv": 16333.1,
+    "info": {
+      "imageUrl": "https://cdn.dexscreener.com/cms/images/kcaVNk0Jc_mQYapx?width=800&height=800&quality=95&format=auto",
+      "header": "https://cdn.dexscreener.com/cms/images/S0WMMe2N1BhZUug7?width=1500&height=500&quality=95&format=auto",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DuaSA2YynBhqyW26n48EX7qtdRWKHtnVjR8fsE5spump?timestamp=1792132200000",
+      "websites": [],
+      "socials": [
+        {
+          "url": "https://x.com/i/communities/2030601718241874288",
+          "type": "twitter"
+        }
+      ]
+    }
+  },
+  {
+    "symbol": "Optimus",
+    "mint": "5b8F5y5uK3JgRTowCxfKbtMS3397DtSwxKMHjRZhpump",
+    "dexId": "pumpfun",
+    "marketCap": 19596.91,
+    "age_h": 2.87,
+    "h1": 30.63,
+    "h6": 273,
+    "h24": 273,
+    "volume_h1": 12835.47,
+    "txns_h1": {
+      "buys": 68,
+      "sells": 54
+    },
+    "liquidity": null,
+    "url": "https://dexscreener.com/solana/atzk7ngymuigeebehxbwtcjek1bryc88rc2qsjmrerby",
+    "prior": true,
+    "priceUsd": "0.00001959",
+    "fdv": 19596.91,
+    "info": {
+      "imageUrl": "https://cdn.dexscreener.com/cms/images/BwmObpyib02AQZhR?width=800&height=800&quality=95&format=auto",
+      "header": "https://cdn.dexscreener.com/cms/images/0qGQmrzrpsfQeiZI?width=1500&height=500&quality=95&format=auto",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5b8F5y5uK3JgRTowCxfKbtMS3397DtSwxKMHjRZhpump?timestamp=1792132200000",
+      "websites": [],
+      "socials": [
+        {
+          "url": "https://x.com/OptimusRobotX",
+          "type": "twitter"
+        }
+      ]
+    }
+  },
+  {
+    "symbol": "ELON-SAN",
+    "mint": "DkKywKToJSbMFzWDU79Lga9CjMhX6NWfMgkQurQZpump",
+    "dexId": "pumpswap",
+    "marketCap": 93008,
+    "age_h": 1.9,
+    "h1": 24.12,
+    "h6": 69.95,
+    "h24": 69.95,
+    "volume_h1": 47804.6,
+    "txns_h1": {
+      "buys": 679,
+      "sells": 422
+    },
+    "liquidity": 28837.2,
+    "url": "https://dexscreener.com/solana/6bk8hnufrs3wfnayz6z8fz1abty7czxwudtyyfnspw7z",
+    "prior": true,
+    "priceUsd": "0.00009602",
+    "fdv": 93008,
+    "info": {
+      "imageUrl": "https://cdn.dexscreener.com/cms/images/_mSUkfu7RRXKSE8O?width=800&height=800&quality=95&format=auto",
+      "header": "https://cdn.dexscreener.com/cms/images/-gy2jF-eUtIzBxsr?width=1500&height=500&quality=95&format=auto",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DkKywKToJSbMFzWDU79Lga9CjMhX6NWfMgkQurQZpump?timestamp=1792132200000",
+      "websites": [],
+      "socials": [
+        {
+          "url": "https://x.com/elonmusk/status/2110951176871227825",
+          "type": "twitter"
+        }
+      ]
+    }
+  }
+]

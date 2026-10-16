@@ -1,0 +1,35 @@
+X notifications scan — 2026-09-30 00:49 America/New_York
+Cutoff: approximately 2026-09-30 00:40 America/New_York
+
+SIGNED_IN: yes — @P7RIM3
+
+ALL tab — visible cards (newer_than_cutoff: no for all; likes-only ignored for candidates)
+AL_Pichito (+ 5 others)|profiles AL_pichito, GarbanzoBean4, paynej247, dhandha786, waxplot, Christi23601200|Do the complete opposite of whatever Cramer says!|35m|status: likes_only
+Ace (+ 6 others)|profiles TheReal78Ace, _Tempus__Fugit_, DerekAzyan, report451, icyfrees, TodorSapunarov, DavidAcosta__|Do the opposite of whether Kramer says! Trust me|1h|status: likes_only
+Darcy Weir Films|profile https://x.com/Occultjourneys|The dude claimed he was on different planets and a secret space force run by reptiles...|1h|status: likes_only
+G Reed|profile https://x.com/KEKerboxerGlory|Nvidia and X.ai yes! Meta, absolutely not|2h|status: likes_only
+mine|profile https://x.com/DelBerrX|This screams the movie Wall-E|2h|status: likes_only
+@Cobra17298328|https://x.com/Cobra17298328/status/2105112514090402040|I can't see what this bitch is saying, cause he immediately blocked me|3h|status: skip_known (already replied beat 2/2)
+FormOverTime|profile https://x.com/pullingUp22|The guy is clueless...|4h|status: likes_only
+@juneauxwhoitis|https://x.com/juneauxwhoitis/status/2105094896663371987|Overflowing with perceptions you are!|4h|status: skip_over_two_beats
+Robin|profile https://x.com/snowtrees32283|Time to crank out the money printing machine.|4h|status: likes_only
+King Chess|profile https://x.com/thechillguy_07|Their fees are ridiculous. Stick with @krakenfx|4h|status: likes_only
+John Galt (+ 12 others)|profile https://x.com/JohnGGalt|Do the opposite of whether Kramer says! Trust me|4h|status: likes_only
+@FiresOfTruth|https://x.com/FiresOfTruth/status/2105080875058704611|Check the link in my bio to watch a film I made with darcy|5h|status: skip_known
+Mr. Fugazi (+ 5 others)|profile https://x.com/StochStocks|Do the complete opposite of whatever Cramer says!|5h|status: likes_only
+Hemingwaypaws + Ibn Yahya|profiles Hemingwaypaws, dispenseofgrace|The guy is clueless...|5h|status: likes_only
+Meh + Sir Doge of the Coin|profiles Mehdalon, dogeofficialceo|A hilarious meme|5h|status: likes_only
+
+MENTIONS tab — visible cards (all older than cutoff / known)
+@Cobra17298328|https://x.com/Cobra17298328/status/2105112514090402040|same|3h|skip_known
+@juneauxwhoitis|https://x.com/juneauxwhoitis/status/2105094896663371987|Overflowing with perceptions you are!|4h|skip_over_two_beats
+@FiresOfTruth|https://x.com/FiresOfTruth/status/2105080875058704611|film bio link|5h|skip_known
+@FiresOfTruth|https://x.com/FiresOfTruth/status/2105074701802651949|Alex B missing fishtanklive|5h|skip_known
+@FiresOfTruth|https://x.com/FiresOfTruth/status/2105073376268345355|He's a human being|5h|skip_known
+@grok|https://x.com/grok/status/2105068070892912851|America.gov architectural-stop|5h|skip_over_two_beats
+
+NEW_COUNT: 0
+NEW_UNREPLIED_CANDIDATES: none
+FINAL: Signed in as @P7RIM3; All and Mentions scanned; no reply/mention card newer than the 00:40 ET cutoff; no reply posted.
+BLOCKERS: none
+SCREENSHOT: /workspace/x-plan/last-desktop.webp

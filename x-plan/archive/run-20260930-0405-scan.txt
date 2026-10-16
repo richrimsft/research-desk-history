@@ -1,0 +1,18 @@
+X notifications scan report
+Timestamp: 2026-09-30 04:06 AM ET (UTC-04:00)
+Cutoff: 2026-09-30T03:52:30-04:00
+Signed-in confirmation: Yes — account menu/profile chip showed P7RIM3 (@P7RIM3).
+
+NEW_COUNT: 0
+
+New unreplied inbound items after cutoff: None.
+
+Known skips seen:
+- @Cobra17298328 — https://x.com/Cobra17298328/status/2105112514090402040 — shown 6h ago; known already replied beat 2/2.
+- @juneauxwhoitis — https://x.com/juneauxwhoitis/status/2105094896663371987 — shown 7h ago; known over two beats.
+- @FiresOfTruth film/bio and quote threads — shown 8h ago; known skips/over two beats.
+- @grok America.gov architectural-stop — shown 9h ago; known over two beats.
+
+The All timeline also showed only older likes/replies (the visible reply cards were the known skips). The Mentions timeline showed the same older known items; no card was newer than the cutoff or missing a clear older age.
+Blockers: None.
+No posts, replies, likes, follows, reposts, DMs, or settings changes were made.

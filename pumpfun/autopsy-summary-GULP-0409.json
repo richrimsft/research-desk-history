@@ -1,0 +1,92 @@
+{
+  "mint": "8BwEQTbuKD6DyHsr57FpF8L6RRvzr8Gm4TRMMqfbpump",
+  "symbol": "GULP",
+  "name": "Gulp",
+  "score": 26401,
+  "rugged": false,
+  "creator": "AEp5RxwH8AGpCHkqKGUanoazaVwYaBmuX91iMHbrnty",
+  "creatorBalance": 4215680375246,
+  "creator_pct": null,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalHolders": 419,
+  "graphInsiders": 7,
+  "top10_ex_curve_pct": 19.34,
+  "band_1_5": 16,
+  "whale_pct": 2.92,
+  "phase": "pumpfun mc~11270.99 age=0.18h h1=95.06 m5=-25.45 buys=1026",
+  "socials": [
+    [
+      "twitter",
+      "https://x.com/playgulpfun"
+    ],
+    [
+      "website",
+      "https://playgulp.fun"
+    ]
+  ],
+  "mc": 11270.99,
+  "age_h": 0.18,
+  "h1": 95.06,
+  "m5": -25.45,
+  "buys_h1": 1026,
+  "sells_h1": 599,
+  "risks": [
+    {
+      "name": "Creator history of rugged tokens",
+      "level": "danger",
+      "value": "",
+      "description": "Creator has a history of rugging tokens."
+    }
+  ],
+  "decision": "FAIL",
+  "reasons": [
+    "age 0.18h <30m entry window FAIL",
+    "16 wallets in 1-5% band",
+    "botty churn: 1026 buys/h on mc~11270.99",
+    "has project X @playgulpfun + playgulp.fun but age<30m + 16\u00d71-5% band + botty"
+  ],
+  "top10_owners": [
+    {
+      "owner": "2dSwmLD7mAnV\u2026",
+      "pct": 2.9168061637794547
+    },
+    {
+      "owner": "9LXWa7V3AE15\u2026",
+      "pct": 2.818194328313341
+    },
+    {
+      "owner": "5MTeXNZ6ZMtF\u2026",
+      "pct": 2.301830951216078
+    },
+    {
+      "owner": "E12wbjwE8yvK\u2026",
+      "pct": 1.7876987025657372
+    },
+    {
+      "owner": "B6H5dzzJK9sB\u2026",
+      "pct": 1.7152457811847928
+    },
+    {
+      "owner": "7TYRvy1y3bbc\u2026",
+      "pct": 1.6982603293340721
+    },
+    {
+      "owner": "5dvWFVCESm7F\u2026",
+      "pct": 1.6501460682877742
+    },
+    {
+      "owner": "2KHEnceZVMUP\u2026",
+      "pct": 1.595936584349844
+    },
+    {
+      "owner": "8PQxd6VmfGPM\u2026",
+      "pct": 1.566554678713554
+    },
+    {
+      "owner": "H8UTeeuxFKUo\u2026",
+      "pct": 1.2927850941527594
+    }
+  ],
+  "socials_detail": "has project X @playgulpfun + playgulp.fun but age<30m + 16\u00d71-5% band + botty"
+}

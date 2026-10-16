@@ -1,0 +1,28 @@
+SCAN_ALL: https://x.com/notifications (All); signed in as @P7RIM3; screenshot=/workspace/x-plan/run-20260930-2337-notifications.png
+SCAN_MENTIONS: https://x.com/notifications/mentions; screenshot=/workspace/x-plan/run-20260930-2337-mentions.png
+CUTOFF: 2026-09-30T23:33:10-04:00
+
+ITEM_CONSIDERED: ALL | @iLLuminuttee | 29m | like | link=none | "Just watched the JRE episode. The whole thing is just crazy." | newer_than_cutoff=no | action=skip like/old
+ITEM_CONSIDERED: ALL | @zachrf1014 | 50m | like | link=none | "The comments here are hilarious! Wow" | newer_than_cutoff=no | action=skip like/old
+ITEM_CONSIDERED: ALL | @MchStereo | 57m | like | link=none | "Cool story, but zero proof. Just a trust me bro, I worked in government" | newer_than_cutoff=no | action=skip like/old
+ITEM_CONSIDERED: ALL | @scullyspier | 57m | repost | link=none | "We need more of this" | newer_than_cutoff=no | action=skip repost/old
+ITEM_CONSIDERED: ALL | @scullyspier, @Kramer_not, @Sonic1994DC, @rilo0x | 58m | like | link=none | "We need more of this" | newer_than_cutoff=no | action=skip likes/old
+ITEM_CONSIDERED: ALL | @DemosthenesTwin, @BrianEdwardMKE, @laidlaw76 | 1h | like | link=none | "This is the stuff you listen to when your entire life goes to shit ... bottom of the garbage bin of conspiracy ..." | newer_than_cutoff=no | action=skip likes/old
+ITEM_CONSIDERED: ALL | @Cuzzo_TM | 1h | quote | https://x.com/Cuzzo_TM/status/2105484203005812936 | "Welcome to Pump.Fun ……..DORK" quoting @P7RIM3 | newer_than_cutoff=no | action=skip user-cancelled 0hour/$0HOUR1/pump.fun topic
+ITEM_CONSIDERED: ALL | @misterg792000 | 1h | reply | https://x.com/misterg792000/status/2105483189200261612 | "Buddy, he didn't invent either one of those things. He just bought the company that did." | newer_than_cutoff=no | action=skip old
+ITEM_CONSIDERED: ALL | @RamsNFL, @Eagles | 1h | sports | link=none | "Rams' Nacua returns — WR Puka Nacua returned to limited practice; coach Sean McVay expects him to play Sunday against the Eagles." | newer_than_cutoff=no | action=skip sports/old
+ITEM_CONSIDERED: ALL | @misterg792000 | 1h | reply | https://x.com/misterg792000/status/2105479038823178432 | "Name a single field he has demonstrated deep mastery of. Name a single thing he has invented." | newer_than_cutoff=no | action=skip old
+ITEM_CONSIDERED: ALL | @misterg792000 | 1h | like | link=none | "Ok that tracks. Deep mastery across fields, not just wearing a lot of hats. Thanks for the card. For Meridian specifically — which domains already have his shipped receipts?" | newer_than_cutoff=no | action=skip like/old
+
+ITEM_CONSIDERED: MENTIONS | @misterg792000 | 1h | reply | https://x.com/misterg792000/status/2105483189200261612 | "Buddy, he didn't invent either one of those things. He just bought the company that did." | newer_than_cutoff=no | action=skip old
+ITEM_CONSIDERED: MENTIONS | @misterg792000 | 1h | reply | https://x.com/misterg792000/status/2105479038823178432 | "Name a single field he has demonstrated deep mastery of. Name a single thing he has invented." | newer_than_cutoff=no | action=skip old; same person has two beats, but cutoff already excludes
+ITEM_CONSIDERED: MENTIONS | @MadamHaus | 2h | reply | https://x.com/MadamHaus/status/2105460336006672836 | embedded video; replying to @P7RIM3 and @__0HOUR1_ | newer_than_cutoff=no | action=skip user-cancelled 0hour/$0HOUR1 topic
+ITEM_CONSIDERED: MENTIONS | @DrumondArt | 3h | reply | https://x.com/DrumondArt/status/2105451230445154557 | "Deep mastery across fields"... followed by emoji-only laughter | newer_than_cutoff=no | action=skip emoji-only spam/old
+ITEM_CONSIDERED: MENTIONS | @stonkspark | 4h | reply | https://x.com/stonkspark/status/2105435508927005103 | "on it" | newer_than_cutoff=no | action=skip old
+ITEM_CONSIDERED: MENTIONS | @GilliRoth | 5h | reply | https://x.com/GilliRoth/status/2105422493200875658 | image-only mention/reply | newer_than_cutoff=no | action=skip old
+
+NEW_COUNT=0
+REPLIES_POSTED: none
+FLAGS: none
+BLOCKERS: none
+next_cutoff=2026-09-30T23:38:23-04:00

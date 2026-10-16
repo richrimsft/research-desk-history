@@ -1,0 +1,22 @@
+$ rea inspect-android-method $PWD/android/ApiDemos-debug.apk io.appium.android.apis.ApiDemos onCreate --format json | jq -r '.normalized_result | "\(.method.reported_signature)  [\(.representation), body \(.body_status)]", .source.text'
+onCreate(android.os.Bundle): void  [java, body available]
+    @Override // android.app.Activity
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Intent intent = getIntent();
+        String path = intent.getStringExtra("io.appium.android.apis.Path");
+        if (path == null) {
+            path = "";
+        }
+        setListAdapter(new SimpleAdapterWithDesc(this, getData(path), android.R.layout.simple_list_item_1, new String[]{"title", "contentDescription"}, new int[]{android.R.id.text1, android.R.id.text2}));
+        getListView().setTextFilterEnabled(true);
+    }
+
+$ rea decode-android-resources $PWD/android/ApiDemos-debug.apk --no-strings --format json | jq -c '.normalized_result | .client, .metadata, {decoded_file_count, coverage}'
+{"command":"/home/box/.local/apktool/apktool","command_source":"environment","apktool_version":"3.0.3"}
+{"version_name":"6.0.18","version_code":"44","min_sdk_version":"26","target_sdk_version":"33","package_name":"io.appium.android.apis"}
+{"decoded_file_count":983,"coverage":"complete"}
+
+$ rea list-adb-devices --format json | jq -c '.normalized_result // {code, message}'
+{"client":{"binary_path":"/home/box/.local/android/platform-tools/adb","path_source":"environment","version":"37.0.1-15733141","installed_path":"/home/box/.local/android/platform-tools/adb"},"devices":[],"may_have_started_adb_server":true}
+

@@ -1,0 +1,70 @@
+{
+ "mint": "DdVXE425xZe27FhY41PR8dwfL3VczYdyJJAWDC1jpump",
+ "symbol": "OPTIMA",
+ "mc": 60221,
+ "age_h": 0.65,
+ "dex": "pumpswap",
+ "tag": "PRIOR_recheck",
+ "verdict": "FAIL",
+ "reasons": [
+  "PRIOR FAIL stands (0720: creatorBal\u22480; 13\u00d71\u20135% band) \u2014 m5 rebound not structural clean",
+  "12\u00d71\u20135% band still elevated on 1552 holders",
+  "top holders 17.9%+10.4%; top10 excl high \u224828.49%",
+  "post-grad pumpswap (~$60k); early sniper-style distribution persists",
+  "has X+website now (optimabots / optimalabs.trade) \u2014 socials alone insufficient"
+ ],
+ "rc": "rc-OPTIMA-0802.json",
+ "score": 1,
+ "creatorBalance": 2926144450393,
+ "creator": "C9J2i7mSqRcWdUZekvhu2QHExDeriJYc",
+ "band_1_5": 12,
+ "top10ex_est": 28.49,
+ "excl_high": [],
+ "totalHolders": 1552,
+ "graphInsiders": null,
+ "risks": [],
+ "links_n": 3,
+ "top_holders_sample": [
+  [
+   17.88,
+   "wbHpaxRxYvY89jkV"
+  ],
+  [
+   10.44,
+   "FqzhQAvrUXwNVttC"
+  ],
+  [
+   3.0,
+   "EJ6UZvfKMersEND8"
+  ],
+  [
+   2.18,
+   "AV2C6yCgfrxwgj9h"
+  ],
+  [
+   2.12,
+   "8LcXkXiZySYoUvG8"
+  ],
+  [
+   1.96,
+   "Co6Tx35prjyYaiFQ"
+  ],
+  [
+   1.93,
+   "4AbvU4WcYqb6NgKY"
+  ],
+  [
+   1.92,
+   "CNbYVjcsrRgxnfuG"
+  ]
+ ],
+ "h1": 40.82,
+ "m5": 55.14,
+ "liq": 20445.88,
+ "prior_rc": "rc-OPTIMA-0720.json",
+ "note": "m5 +55 / h1 +40 looks hot but holder/band structure unchanged from prior FAIL",
+ "socials": [
+  "twitter:x.com/optimabots",
+  "website:optimalabs.trade"
+ ]
+}

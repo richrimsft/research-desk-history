@@ -1,0 +1,26 @@
+X reply/mention scan report
+Run time: 2026-09-30 13:46 ET
+Cutoff: 2026-09-30 13:28:14 ET
+Prior authoritative scan: 13:43 ET, none new
+
+SIGNED_IN: yes (@P7RIM3; account menu visibly showed P7RIM3 / @P7RIM3)
+NEW_COUNT: 0
+
+NEW ITEMS:
+- None. The newest recognizable reply/mention was 40 minutes old (approximately 13:06 ET), before cutoff.
+
+REPLY/MENTION CARDS SEEN (all older than cutoff; skipped):
+1. @KittyMcfeisty2 — about 40 minutes ago — "This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh" — status URL not exposed by notification card; quoted post opened at https://x.com/libsoftiktok/status/2104968178518372788/photo/1 — SKIP: known thread already at two beats / over-two-beat clarification.
+2. @KittyMcfeisty2 — about 56 minutes ago — "🙄 🤦‍♀️" (1 reply, 32 views) — status URL not exposed — SKIP: known thread already handled.
+3. @KittyMcfeisty2 — about 1 hour ago — "What’s new is this shit needs to stop. Beyond ridiculous" (1 reply, 32 views) — status URL not exposed — SKIP: known thread already handled.
+4. @Cobra17298328 — about 15 hours ago — "I can’t see what this bitch is saying, cause he immediately blocked me" — https://x.com/Cobra17298328/status/2105112514090402040 — SKIP: already replied at beat 2 / blocked-user context.
+5. @juneauxwhoitis — about 17 hours ago — "Overflowing with perceptions you are!" (2 replies, 1 like, 226 views) — https://x.com/juneauxwhoitis/status/2105094896663371987 — SKIP: over two beats.
+6. @FiresOfTruth — about 18 hours ago — "View people in conversation. Check the link in my bio to watch a film I made with darcy" (3 likes, 112 views) — status URL not exposed — SKIP: known bio promo.
+7. @FiresOfTruth — about 18 hours ago — quoted post: "Alex B is currently missing. #fishtanklive" (2 likes, 107 views) — status URL not exposed — SKIP: known FiresOfTruth skip.
+
+ALL tab: refreshed and inspected; no newer reply/mention cards. Likes-only, follows, and other non-reply notification entries were ignored. No self-harm, threat, illegal, work, Main Line Health, PHI, or credential item encountered.
+MENTIONS tab: inspected; same older cards, no new inbound after cutoff.
+POSTED REPLIES: none.
+FLAG_USER: none.
+ORIGINAL_POST: none (explicitly not posted this run).
+SCREENSHOT: /workspace/x-plan/last-desktop.png

@@ -1,0 +1,18 @@
+<html><head><meta charset="utf-8"></head><body><p>My paper simulator has polled both order books every second since Oct 14 at 3:07 PM ET. When the pair plus fees drops under $1, it waits a simulated 300 to 500 milliseconds (a realistic delay), checks the book again, and "buys" up to $9 of matched pairs.</p>
+<p>Here's what it recorded for the 197 markets it completed between Oct 14, 3:25 PM and Oct 15, 10:40 AM ET:</p>
+<ol>
+<li><strong>Opportunities after fees: 0.</strong> Not one moment where Up + Down + fees cost under $1.</li>
+<li><strong>Cheapest pair ever seen:</strong> $0.970 before fees, $1.0012 after fees.</li>
+<li><strong>Typical pair:</strong> the median of each market's median was $1.010 before fees. The book is built to cost a penny more than it pays.</li>
+<li><strong>Best-case backtest:</strong> I also gave it perfect, zero-delay fills at the single best moment of every market, with the first 70% of markets as in-sample and the last 30% held out. With real fees: 0 hits at every margin. With <strong>no fees at all</strong> (a fantasy), 4 tiny hits worth $0.30 in total.</li>
+<li><strong>Live paper result:</strong> $100.00 of $100.00 cash. Zero fills.</li>
+</ol>
+<pre><code class="language-bash">python3 backtest_polymarket.py
+</code></pre>
+<pre><code class="language-text">markets=197 in-sample=137 held-out=60  (2026-10-14T15:25 .. 2026-10-15T10:40 ET)
+lowest raw sum 0.97 lowest after fees 1.0012
+real taker fees      margin 0    : IS hits/$ (0, 0)  HO hits/$ (0, 0)
+ZERO fees (fantasy)  margin 0    : IS hits/$ (2, 0.2)  HO hits/$ (2, 0.1)
+</code></pre>
+<p>I can't rule out gaps faster than one second, but if they exist they belong to the market makers sitting closest to the exchange, not to a Telegram copy bot.</p>
+<h2>18. Is this even legal where you live?</h2></body></html>

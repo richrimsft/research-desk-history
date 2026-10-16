@@ -1,0 +1,34 @@
+Explore/trending check — https://x.com/explore/tabs/trending
+
+Visible trending topics at check time (counts were not displayed by the topic rows):
+- Kroger — count not displayed
+- Flydubai — count not displayed
+- ETBs — count not displayed
+- Politics — count not displayed
+- Mahle — count not displayed
+- WNBA — count not displayed
+- Iraq — count not displayed
+- Family Guy — count not displayed
+- #OlandriaxVaqueraSS27 — count not displayed
+- Bulletproof — count not displayed
+- Sanchez — count not displayed
+- Brandon Marsh — count not displayed
+- Senate Democrats — count not displayed
+- Matty O — count not displayed
+- Cullman — count not displayed
+- Tinashe — count not displayed
+- Death to America — count not displayed
+- David Grusch — count not displayed
+- Pokemon Center — count not displayed
+- Shayy — count not displayed
+- $LQDA — count not displayed
+- #GuardrailsForAI — count not displayed
+
+Promoted row: WebullTrading (not a trend; skipped).
+
+Today’s News panel (visible counts):
+- “David Grusch appears on Joe Rogan Experience podcast episode #2560” — 721 posts
+- “xAI Owns dot.com Domain Redirecting to Grok Bot Following OpenAI's Dots Launch” — 121 posts
+- “Debate on X over whether vibe coding requires basic programming knowledge” — 139 posts
+
+Decision: no original posted. Nothing was a clearly new, fast-rising, verifiable fit for the allowed sky/satellites/launches, security/agentic-AI, OSINT, homelab, or other safe true-angle topics. Avoided political/tragedy-risk topics and promotional noise. LASST + Nvidia extras already posted today; no additional breaking post used.

@@ -1,0 +1,95 @@
+X notification scan
+Run time: 2026-09-30 16:26 UTC-4
+Cutoff: 2026-09-30 16:22:40 UTC-4 (secondary review threshold 16:13:42)
+
+ACCOUNT CHECK
+- Notifications and Mentions both loaded at x.com/notifications and x.com/notifications/mentions.
+- Sidebar account menu visibly showed P7RIM3 / @P7RIM3 (verified).
+- No sign-in wall, captcha, or block.
+- Screenshots: /workspace/x-plan/run-20260930-1625-notifications.png and /workspace/x-plan/run-20260930-1625-mentions.png
+
+CARDS (unique inbound reply/mention cards; All and Mentions overlap)
+
+1. handle: @zebralife2002 (Paul Kelly)
+   displayed age: 2h (All; 2h Mentions)
+   url: https://x.com/zebralife2002/status/2105361123503440350
+   replying to: @P7RIM3, @Brand0n, and 2 others
+   text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+   in-thread status: already replied; our reply is https://x.com/P7RIM3/status/2105362879817925052
+   action: skip_already_handled
+
+2. handle: @KittyMcfeisty2 (Piper Paprikas #2nd account)
+   displayed age: 3h (All and Mentions)
+   url: https://x.com/KittyMcfeisty2/status/2105343324580143460
+   replying to: @P7RIM3 and @KittyMcFeisty
+   text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh
+   quoted context visible: @libsoftiktok, Sep 29, “BREAKING: MAJOR Controversy at PA High School after MALE crowned \"Homecoming Queen\" ...”
+   in-thread status: user-supplied Kitty thread skip; over two beats (card itself showed 0 replies)
+   action: skip_over_two_beats
+
+3. handle: @KittyMcfeisty2 (Piper Paprikas #2nd account)
+   displayed age: 3h (All and Mentions)
+   url: https://x.com/KittyMcfeisty2/status/2105339423638651351
+   replying to: @P7RIM3 and @KittyMcFeisty
+   text: 🙄 🤦‍♀️
+   in-thread status: user-supplied Kitty thread skip; over two beats; card showed 1 reply
+   action: skip_over_two_beats
+
+4. handle: @KittyMcfeisty2 (Piper Paprikas #2nd account)
+   displayed age: 3h (All), 4h (Mentions)
+   url: https://x.com/KittyMcfeisty2/status/2105333564132712947
+   replying to: @P7RIM3 and @KittyMcFeisty
+   text: What’s new is this shit needs to stop. Beyond ridiculous
+   in-thread status: user-supplied Kitty thread skip; over two beats; card showed 1 reply
+   action: skip_over_two_beats
+
+5. handle: @Cobra17298328 (h)
+   displayed age: 18h (All and Mentions)
+   url: https://x.com/Cobra17298328/status/2105112514090402040
+   replying to: @P7RIM3, @skeptic_vaibhav, and @artaimemes
+   text: I can’t see what this bitch is saying, cause he immediately blocked me
+   in-thread status: beat 2 already done per user instruction; card showed 1 reply
+   action: skip_already_handled
+
+6. handle: @juneauxwhoitis (Juneaux)
+   displayed age: 19h (All and Mentions)
+   url: https://x.com/juneauxwhoitis/status/2105094896663371987
+   replying to: @P7RIM3 and @OverlyTrev
+   text: Overflowing with perceptions you are!
+   in-thread status: user-supplied thread skip; over two beats; card showed 2 replies
+   action: skip_over_two_beats
+
+7. handle: @FiresOfTruth (spooky)
+   displayed age: 20h (Mentions; not visible in All viewport)
+   url: https://x.com/FiresOfTruth/status/2105080875058704611
+   replying to: @P7RIM3, @thehiddenpod, and 2 others
+   text: Check the link in my bio to watch a film I made with darcy
+   in-thread status: known promo; card showed 0 replies
+   action: skip_known_promo
+
+8. handle: @FiresOfTruth (spooky)
+   displayed age: 21h (Mentions)
+   url: https://x.com/FiresOfTruth/status/2105074701802651949
+   replying to: @P7RIM3
+   text: [no standalone text; quoted post visible: @SlackerBluePod, “Alex B is currently missing. #fishtanklive”]
+   in-thread status: no reply visible (card showed 0 replies); not in supplied skip list, but far outside cutoff
+   action: skip_outside_cutoff_unreplied
+
+9. handle: @FiresOfTruth (spooky)
+   displayed age: 21h (Mentions)
+   url: https://x.com/FiresOfTruth/status/2105073376268345355
+   replying to: @P7RIM3
+   text: He’s a human being
+   in-thread status: card showed 1 reply; not in supplied skip list; whether that reply is ours was not confirmed
+   action: skip_outside_cutoff
+
+SELF-AUTHORED / NON-INBOUND ITEMS
+- Mentions also contained older @grok-authored replies to @P7RIM3; omitted from inbound scan because they are self-authored, not inbound from another account.
+- All contained non-reply notification cards (e.g., other users’ posts); ignored per instruction to ignore likes/follows/reposts and non-inbound cards.
+
+NEW_COUNT=0
+
+NOTES
+- Newest inbound card displayed 2h, so no visible inbound reply/mention is after 16:22:40 or plausibly after 16:13:42 based on displayed age.
+- No reply was posted, and no like/follow/repost/DM/settings change was performed.
+- Review flag (not counted in NEW_COUNT): @FiresOfTruth status 2105074701802651949 is outside cutoff and not on the supplied skip list; it displayed 0 replies.

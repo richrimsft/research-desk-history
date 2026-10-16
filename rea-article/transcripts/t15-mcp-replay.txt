@@ -1,0 +1,9 @@
+$ jq -c '{tool: "trace_feature", evidence_id, confidence, match: .normalized_result.matches[0].value, refs: [.normalized_result.references[].source_address], in: .normalized_result.references[0].containing_procedure.procedure.name}' notes/mcp-trace-access-granted.json
+{"tool":"trace_feature","evidence_id":"ev_83a9d141ff8447f5d95cfb0b0d198f0f266f87750468f23f52522a48a971d590","confidence":"derived","match":"Access granted. Nice work!","refs":["0x101260","0x101267"],"in":"FUN_001011f5"}
+
+$ jq -c '{tool: "annotate_native_function", evidence_id, name: .normalized_result.annotations.name, comment: .normalized_result.annotations.comment}' notes/mcp-annotate.json
+{"tool":"annotate_native_function","evidence_id":"ev_7f21b4960068c05c996dacf5bb2a67c7b3ae42e0715895373d0e5b086eb9ace1","name":"check_password","comment":"CONFIRMED: len==12; input[i]^0x2A == DAT_00102008[i]"}
+
+$ jq -c '{exported_records: .records|length, unknowns: [.unknowns[]? | {unknown_id, status, severity}]}' notes/evidence.json
+{"exported_records":4,"unknowns":[{"unknown_id":"unk_c1d42d3c14e4151ba3da937130e7d74d9b1c39d9385f2a2ee960e619c5acbebe","status":"open","severity":"low"}]}
+

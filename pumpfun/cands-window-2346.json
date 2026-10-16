@@ -1,0 +1,312 @@
+[
+  {
+    "sym": "1",
+    "mint": "FSJbL5UjbZkkMWNeKnUgjG6PHQKdbhhycugDo1LCpump",
+    "mc": 94653.0,
+    "liq": 25031.78,
+    "age": 0.49,
+    "m5": -11.85,
+    "h1": 102,
+    "buys": 4535,
+    "sells": 416,
+    "m5b": 678,
+    "m5s": 76,
+    "dex": "pumpswap",
+    "reject": false,
+    "socials": [
+      {
+        "url": "https://x.com/inu1coin",
+        "type": "twitter"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://inu1coin.lol",
+        "label": "Website"
+      }
+    ]
+  },
+  {
+    "sym": "RIZO",
+    "mint": "24chbLd52BvQsqoJeNaZcirARSsvqmJg7Ucz2Tr9pump",
+    "mc": 9326.0,
+    "liq": 6752.82,
+    "age": 0.66,
+    "m5": 2.69,
+    "h1": -77.84,
+    "buys": 4102,
+    "sells": 3240,
+    "m5b": 44,
+    "m5s": 30,
+    "dex": "pumpswap",
+    "reject": false,
+    "socials": [
+      {
+        "url": "https://x.com/PurpTheQuant/status/2110929551761039710",
+        "type": "twitter"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://otcdesks.cash/coin/24chbLd52BvQsqoJeNaZcirARSsvqmJg7Ucz2Tr9pump",
+        "label": "Website"
+      }
+    ]
+  },
+  {
+    "sym": "AKITA",
+    "mint": "HLSh9nsmPnNNmGau97z3uwsuFPS6sXBpdkYiHYJcpump",
+    "mc": 34023.0,
+    "liq": 478.21,
+    "age": 2.0,
+    "m5": null,
+    "h1": null,
+    "buys": 0,
+    "sells": 0,
+    "m5b": 0,
+    "m5s": 0,
+    "dex": "meteora",
+    "reject": false,
+    "socials": [
+      {
+        "url": "https://x.com/i/communities/2026469258159599652",
+        "type": "twitter"
+      }
+    ],
+    "websites": []
+  },
+  {
+    "sym": "ETERNAL",
+    "mint": "4XUmT22L7LN2e1us3bLHpPFKtkGUk9cAKQXEr3wXpump",
+    "mc": 14572.76,
+    "liq": 0.0,
+    "age": 1.19,
+    "m5": 2.47,
+    "h1": 138,
+    "buys": 121,
+    "sells": 44,
+    "m5b": 5,
+    "m5s": 0,
+    "dex": "pumpfun",
+    "reject": true,
+    "socials": null,
+    "websites": null
+  },
+  {
+    "sym": "ROADSTER",
+    "mint": "Eizz6UJUBmoH4CxqLR5XBRyEGfoaKeckjmsraobSpump",
+    "mc": 19404.0,
+    "liq": 10635.88,
+    "age": 1.37,
+    "m5": 22.97,
+    "h1": 28.65,
+    "buys": 203,
+    "sells": 154,
+    "m5b": 20,
+    "m5s": 6,
+    "dex": "pumpswap",
+    "reject": true,
+    "socials": [
+      {
+        "url": "https://x.com/zerohedge/status/2088251202056176024",
+        "type": "twitter"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://youtu.be/O4wBUysNe2k?si=9LPJaTYL154Ve5aG",
+        "label": "Website"
+      }
+    ]
+  },
+  {
+    "sym": "GTA",
+    "mint": "6S7jwQuVipHuEaASAZ9Kn7r3Zy3jkebhAMFxnuWnpump",
+    "mc": 32150.0,
+    "liq": 13894.5,
+    "age": 1.55,
+    "m5": -3.82,
+    "h1": 17.47,
+    "buys": 253,
+    "sells": 203,
+    "m5b": 1,
+    "m5s": 8,
+    "dex": "pumpswap",
+    "reject": true,
+    "socials": [
+      {
+        "url": "https://x.com/grandtheftcoi",
+        "type": "twitter"
+      },
+      {
+        "url": "https://discord.gg/SxvMvxA3f2",
+        "type": "discord"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://gtacoin.tech/",
+        "label": "Website"
+      }
+    ]
+  },
+  {
+    "sym": "BOT",
+    "mint": "FR2kf3htna5puoSxAjPedG7rgTkxfXvZjrL8x4zQpump",
+    "mc": 8867.75,
+    "liq": 0.0,
+    "age": 2.9,
+    "m5": -0.72,
+    "h1": 16.94,
+    "buys": 48,
+    "sells": 23,
+    "m5b": 2,
+    "m5s": 2,
+    "dex": "pumpfun",
+    "reject": true,
+    "socials": [
+      {
+        "url": "https://x.com/botsnetfamily",
+        "type": "twitter"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://botsnet.family/",
+        "label": "Website"
+      }
+    ]
+  },
+  {
+    "sym": "RDSTR",
+    "mint": "7uXeapeKSTv4fr2mSDrC9KTCLqgnoECBttd6h1NYpump",
+    "mc": 59085.0,
+    "liq": 23672.63,
+    "age": 2.7,
+    "m5": -0.83,
+    "h1": 8.51,
+    "buys": 509,
+    "sells": 320,
+    "m5b": 13,
+    "m5s": 11,
+    "dex": "pumpswap",
+    "reject": true,
+    "socials": [
+      {
+        "url": "https://x.com/Ultrahodlerr/status/2110918150724174048",
+        "type": "twitter"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://www.tesla.com/roadster",
+        "label": "Website"
+      },
+      {
+        "url": "https://otcdesks.cash/coin/7uXeapeKSTv4fr2mSDrC9KTCLqgnoECBttd6h1NYpump",
+        "label": "OTC"
+      }
+    ]
+  },
+  {
+    "sym": "BANANA",
+    "mint": "6vs4oxwMnHjoZzdQ7YVNTxjUivqoNjF6Dz8vaAe9pump",
+    "mc": 98479.0,
+    "liq": 28556.49,
+    "age": 1.31,
+    "m5": -30.3,
+    "h1": 5.32,
+    "buys": 10096,
+    "sells": 7340,
+    "m5b": 288,
+    "m5s": 152,
+    "dex": "pumpswap",
+    "reject": true,
+    "socials": [
+      {
+        "url": "https://x.com/IzCryptoG/status/2110928119326793988",
+        "type": "twitter"
+      },
+      {
+        "url": "https://www.reddit.com/r/MemeEconomy/comments/7eh97r/tesla_roadster_meme_are_rising_invest/",
+        "type": "reddit"
+      }
+    ],
+    "websites": []
+  },
+  {
+    "sym": "MENTOR",
+    "mint": "7XoHiioxfPewqysZRQDbS3MuwY69pJ3GuTpgsmgrpump",
+    "mc": 14307.39,
+    "liq": 0.0,
+    "age": 1.13,
+    "m5": -8.36,
+    "h1": -18.88,
+    "buys": 412,
+    "sells": 342,
+    "m5b": 23,
+    "m5s": 28,
+    "dex": "pumpfun",
+    "reject": true,
+    "socials": [
+      {
+        "url": "https://x.com/MentorAgents",
+        "type": "twitter"
+      }
+    ],
+    "websites": [
+      {
+        "url": "https://www.mentoragents.fun/",
+        "label": "Website"
+      }
+    ]
+  },
+  {
+    "sym": "BANANA",
+    "mint": "6vs4oxwMnHjoZzdQ7YVNTxjUivqoNjF6Dz8vaAe9pump",
+    "mc": 112208.0,
+    "liq": 4171.44,
+    "age": 0.6,
+    "m5": -20.6,
+    "h1": -28.33,
+    "buys": 403,
+    "sells": 491,
+    "m5b": 20,
+    "m5s": 33,
+    "dex": "meteora",
+    "reject": true,
+    "socials": [
+      {
+        "url": "https://x.com/IzCryptoG/status/2110928119326793988",
+        "type": "twitter"
+      },
+      {
+        "url": "https://www.reddit.com/r/MemeEconomy/comments/7eh97r/tesla_roadster_meme_are_rising_invest/",
+        "type": "reddit"
+      }
+    ],
+    "websites": []
+  },
+  {
+    "sym": "BANANA",
+    "mint": "FAvr8awFPPEaUnS1D7YjSWPjGCeSLWMzLeV6yWGDpump",
+    "mc": 24424.0,
+    "liq": 11838.89,
+    "age": 1.04,
+    "m5": 137,
+    "h1": -31.03,
+    "buys": 417,
+    "sells": 349,
+    "m5b": 16,
+    "m5s": 13,
+    "dex": "pumpswap",
+    "reject": true,
+    "socials": [
+      {
+        "url": "https://x.com/PurpTheQuant/status/2110924762901782725",
+        "type": "twitter"
+      }
+    ],
+    "websites": []
+  }
+]

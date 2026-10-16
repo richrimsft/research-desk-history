@@ -1,0 +1,31 @@
+{
+  "tag": "0946",
+  "symbol": "Konasu",
+  "mint": "93RFugk8jVwxBjAL3WY1uiGgA2UNqE9oRuHNrGMipump",
+  "age_h": 0.17,
+  "mc": 12321.75,
+  "h1": 209,
+  "m5": -4.09,
+  "dex": "pumpfun",
+  "phase": "too_young",
+  "verdict": "FAIL",
+  "reasons": [
+    "age 0.17h <30m \u2014 no-buy by narrative-age",
+    "creatorBalance 0 / sold out"
+  ],
+  "rc_score": 1,
+  "top10ex_pct": 18.6,
+  "lp_pct_guess": 46.13,
+  "band_1_5_count": 15,
+  "max_identical_0.1": 4,
+  "identical_band_val": 1.5,
+  "tight_2.3_2.5_count": 1,
+  "creator": "AufoBVvehNrFg6i8CFxS1npQ3sBGFkbGMLcEvvhsmify",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "graphInsiders": 0,
+  "totalHolders": 496,
+  "risks": [],
+  "meta_name": "Konasu"
+}

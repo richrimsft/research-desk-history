@@ -1,0 +1,116 @@
+{
+  "tag": "0808",
+  "symbol": "OPTIMA",
+  "mint": "DdVXE425xZe27FhY41PR8dwfL3VczYdyJJAWDC1jpump",
+  "mc": 110856,
+  "age_h": 0.76,
+  "h1": 159,
+  "m5": 24.45,
+  "dex": "pumpswap",
+  "tag_role": "PRIOR_recheck",
+  "phase": "pumpswap/post-grad",
+  "verdict": "FAIL",
+  "reasons": [
+    "PRIOR FAIL stands (0720/0802: sniper-band / creator\u22480 structure)",
+    "13\u00d71\u20135% band on 1646 holders",
+    "top wallets ~10.4%+ after LP excl; top10ex\u224827.82%",
+    "post-grad pumpswap (~$111k); h1 +159 / m5 +24 momentum \u2260 clean structure",
+    "socials alone insufficient (prior note)"
+  ],
+  "creatorBalance": 2926144450393,
+  "creator": "C9J2i7mSqRcWdUZekvhu2QHExDeriJYc8cbAApd6VVex",
+  "creator_pct": 0,
+  "band_1_5": 13,
+  "top10ex_est": 27.82,
+  "top10_raw": 39.64,
+  "excl_lp": [
+    [
+      13.122024355915892,
+      "Fc7TgUyshk8gYHbN"
+    ]
+  ],
+  "totalHolders": 1646,
+  "score": 1,
+  "score_normalised": 1,
+  "risks": [],
+  "top_holders_kept": [
+    [
+      10.38,
+      "FqzhQAvrUXwNVttC"
+    ],
+    [
+      3.0,
+      "98AAcSx1g481St7Z"
+    ],
+    [
+      2.34,
+      "GbHcGc9mjCRH7jiP"
+    ],
+    [
+      2.12,
+      "BLxPDprR4ukJ7dD4"
+    ],
+    [
+      2.07,
+      "7zyowp3jJHuVTm5V"
+    ],
+    [
+      1.87,
+      "DMheFGa512n2fqJ5"
+    ],
+    [
+      1.66,
+      "H5T9MYu8SA9PCrhX"
+    ],
+    [
+      1.59,
+      "7B7Jzhas4ZzJmY9K"
+    ]
+  ],
+  "top_holders_raw": [
+    [
+      13.12,
+      "Fc7TgUyshk8gYHbN"
+    ],
+    [
+      10.38,
+      "FqzhQAvrUXwNVttC"
+    ],
+    [
+      3.0,
+      "98AAcSx1g481St7Z"
+    ],
+    [
+      2.34,
+      "GbHcGc9mjCRH7jiP"
+    ],
+    [
+      2.12,
+      "BLxPDprR4ukJ7dD4"
+    ],
+    [
+      2.07,
+      "7zyowp3jJHuVTm5V"
+    ],
+    [
+      1.87,
+      "DMheFGa512n2fqJ5"
+    ],
+    [
+      1.66,
+      "H5T9MYu8SA9PCrhX"
+    ],
+    [
+      1.59,
+      "7B7Jzhas4ZzJmY9K"
+    ],
+    [
+      1.49,
+      "9phNJAWW7HehoSk4"
+    ]
+  ],
+  "rc": "rc-OPTIMA-0808.json",
+  "graphInsiders": 5,
+  "links_n": 0,
+  "note": "hot price action but holder/band structure unchanged from prior FAIL"
+}

@@ -1,0 +1,9 @@
+1/ Receipts on $0HOUR1, as promised. Everything below is on-chain and public. The creator wallet, which Solscan tags "Token Creator," is 7XeZg14uM8bqyoj95NaeeRDELDcXQNXwaVucoT8LYkon
+
+2/ Sep 26: the creator wallet buys 80.7M tokens, about 8% of supply, for about 3.3 SOL. Four of those buys land in the first 30 seconds after launch. That night it sells 6.8M for about $50.
+
+3/ Sep 28: the creator moves its remaining 73.96M tokens (7.4% of supply) to a second wallet, BLzCkNPGJvLKgVvU393VuQxW7wr2YjPq3YBQWjyLKBTo. https://solscan.io/tx/3wh1RHe2KoaK5dEaGhTvMe18X1JQ18LfmMTwLx4u4isEXvSebLonELkFrg2DHu15o9aHMMfCzWS3VzNQegPGgcze
+
+4/ Sep 29, 8:04pm ET: that second wallet sells the entire bag in one transaction for 5.07 SOL, about $603. Both wallets now hold zero. https://solscan.io/tx/3VhtfHAwDqtetd3b8K7hDp7YMG1y3fb4oFhbKttAg4Pg4qMvAjN6aVyvkWMT6QWpgfRJQV25qiXJxWEwzJm73brq
+
+5/ That second wallet is the one on the REAL0HOUR1 pump.fun profile, and it's in @__0HOUR1_'s bio. The dev's side put in about 3.3 SOL and took out about 5.5 SOL. The buyers are left holding a coin that went a whole day without a single buy.

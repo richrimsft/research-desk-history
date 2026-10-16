@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "MemeTrace",
+    "name": "Meme Trace",
+    "mint": "HUARGQHB7ovbPkUaYUmsqGBCLG4uHpCEr3q8zGcupump",
+    "dexId": "pumpfun",
+    "mc": 16670,
+    "age_h": 0.1,
+    "h1": 377,
+    "m5": 49.03,
+    "vol_h1": 49065.13,
+    "txns_h1": {
+      "buys": 508,
+      "sells": 353
+    },
+    "url": "https://dexscreener.com/solana/7k5xprcoxgey4ykpxefkm7gat8k8izj89y2ca5r1xkhg",
+    "pairCreatedAt": 1792141225000,
+    "NEW": true
+  },
+  {
+    "symbol": "MemeTrace",
+    "name": "Meme Trace",
+    "mint": "Aunf8ZYfEgRozzi3ddBqu6bnAFgTVC882Ab2y4zVpump",
+    "dexId": "pumpfun",
+    "mc": 6128,
+    "age_h": 0.13,
+    "h1": 69.73,
+    "m5": -31.67,
+    "vol_h1": 45695.92,
+    "txns_h1": {
+      "buys": 579,
+      "sells": 424
+    },
+    "url": "https://dexscreener.com/solana/2wnswenwrk2dduvxz1nth72d95nptgxajjg9vbmkk2lo",
+    "pairCreatedAt": 1792141194000,
+    "NEW": true
+  }
+]

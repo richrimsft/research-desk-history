@@ -1,0 +1,613 @@
+<!doctype html><html><head><meta charset='utf-8'><title>REA, hands-on</title><style>@page{size:A4;margin:16mm 14mm}
+body{font-family:'DejaVu Sans',sans-serif;font-size:10.5pt;line-height:1.5;color:#1f2328}
+h1{font-size:21pt;line-height:1.2} h2{font-size:15pt;border-bottom:1px solid #d0d7de;padding-bottom:3px;margin-top:22px;page-break-after:avoid} h3{font-size:12pt;page-break-after:avoid}
+figure{margin:10px 0;page-break-inside:avoid;text-align:center} figure img{max-width:100%;max-height:200mm;border:1px solid #d0d7de}
+figcaption{font-size:8.5pt;color:#57606a;margin-top:3px}
+pre{background:#f6f8fa;border:1px solid #d0d7de;padding:8px;font-size:8.3pt;white-space:pre-wrap;word-break:break-all;page-break-inside:avoid}
+code{font-family:'DejaVu Sans Mono',monospace;font-size:8.8pt;background:#f6f8fa}
+table{border-collapse:collapse;width:100%;font-size:8.6pt;margin:8px 0} th,td{border:1px solid #d0d7de;padding:4px 6px;vertical-align:top;word-break:break-word} th{background:#f6f8fa}
+blockquote{border-left:4px solid #d0d7de;margin:8px 0;padding:2px 12px;color:#424a53}
+a{color:#0969da;word-break:break-all}</style></head><body><h1>REA, hands-on: install it, connect it to your agent, and crack your first binary (with receipts)</h1>
+<p><em>By Richard (<a href="https://x.com/P7RIM3">@P7RIM3</a>) · October 13, 2026 (ET)</em></p>
+<figure><img src="img/00-cover-1500x500.png" alt="Cover: REA, hands-on. Composite of a real REA terminal capture from this article."/><figcaption>Cover: REA, hands-on. Composite of a real REA terminal capture from this article.</figcaption></figure>
+<blockquote>
+<p><strong>About the receipts.</strong> Everything below was checked against the official repo <a href="https://github.com/morluto/rea">morluto/rea</a> (clone at commit <code>f104500</code>, Oct 13, 2026 12:57 PM ET) and the published npm package <strong>rea-agents 6.4.0</strong> on <strong>October 13, 2026 (ET)</strong>. Every terminal image is real output I captured on my Grok Bot box (Debian 13, x64) running REA 6.4.0 with Ghidra 12.1.4 and JDK 21. Each image shows the exact command, and the raw JSON is saved next to it. Every web image is a real screenshot of the live page. The cover is the one composite, built from one of those real captures. I didn't test anything on Windows. The Windows steps are quoted from REA's docs and labeled that way.</p>
+</blockquote>
+<hr />
+<h2>1. The hook</h2>
+<figure><img src="img/01-github-repo.png" alt="The official morluto/rea repository on GitHub, Oct 13, 2026"/><figcaption>The official morluto/rea repository on GitHub, Oct 13, 2026</figcaption></figure>
+<p>You find a feature in an app and want to know how it really works. The usual answer is "read the source." Most of the time there's no source to read. You have a binary, an Electron bundle, an APK, a web page or a firmware image.</p>
+<p><strong>REA ("Reverse Engineer Anything")</strong> is an open-source, MIT-licensed MCP server and CLI that gives a coding agent a real reverse-engineering toolbox. The agent can open software it didn't write, trace a feature through it, and come back with <strong>evidence</strong>: addresses, bytes, pseudocode and call sites, with every claim marked as an observation, an inference or an unknown.</p>
+<p>It's also one of the most-starred repos on GitHub right now. The GitHub API showed <strong>204,859 stars</strong> when I checked at 6:28 PM ET today. Stars aren't receipts, though, so I installed REA, pointed it at a practice binary, and wrote down exactly what happened. This is the guide I wish I'd had: every command, every output, and every place where the posts about REA don't match its docs.</p>
+<p>Links: repo <a href="https://github.com/morluto/rea">https://github.com/morluto/rea</a> · website <a href="https://rea.tools/">https://rea.tools/</a> · npm <a href="https://www.npmjs.com/package/rea-agents">https://www.npmjs.com/package/rea-agents</a> · release notes <a href="https://github.com/morluto/rea/releases/tag/rea-agents-6.4.0">https://github.com/morluto/rea/releases/tag/rea-agents-6.4.0</a></p>
+<hr />
+<h2>2. What REA is: ask → inspect and trace → read the evidence → use it</h2>
+<figure><img src="img/03-readme-how-it-works.png" alt="REA's own &quot;How REA works&quot; diagram in the README"/><figcaption>REA's own &quot;How REA works&quot; diagram in the README</figcaption></figure>
+<p>REA's README sums it up in one line: <em>"See a feature you like. Understand how it works, down to the binary level."</em> In practice, it's a loop with four steps.</p>
+<ol>
+<li><strong>Ask.</strong> You give your agent a specific, testable question about a local target, like "How does this binary decide the password is correct?" A vague "reverse this app" gets vague results.</li>
+<li><strong>Inspect and trace.</strong> The agent calls REA tools over MCP: <code>open_binary</code>, <code>search_strings</code>, <code>trace_feature</code>, <code>xrefs</code>, <code>procedure_pseudo_code</code> and <code>read_bytes</code>, out of roughly 170 tools in 6.4.0. REA drives a real analysis engine underneath (Ghidra, Hopper or IDA for native code; its own static analyzers for JavaScript, Electron, .NET, EVM and more). README: <em>"Analysis runs locally, and results include the evidence and limitations behind each conclusion."</em></li>
+<li><strong>Read the evidence.</strong> Every result is an <strong>Evidence record</strong> with a content-addressed ID (<code>ev_…</code>), the target's SHA-256, the provider and version, a <code>confidence</code> (<code>observed</code>, <code>derived</code> or <code>inferred</code>) and a list of <code>limitations</code>. Gaps become <strong>residual unknowns</strong> (<code>unk_…</code>) that you can record, list and resolve later.</li>
+<li><strong>Use what you learn.</strong> Explain the behavior, write your own implementation from a behavioral spec, write tests, or flag a security issue. REA's showcases do exactly this. One is a <a href="https://rea.tools/showcase/dx-ball/">DX-Ball sound-pan reconstruction</a> that, per the README, <em>"passes 3,205 original-x86 cases and reproduces all 63 compiled function bytes."</em></li>
+</ol>
+<p><strong>A 60-second glossary for absolute beginners:</strong></p>
+<ul>
+<li><strong>Binary / executable:</strong> the compiled program your computer runs (<code>.exe</code> on Windows, ELF on Linux, Mach-O on macOS). It's machine code, not readable source.</li>
+<li><strong>Disassembler / decompiler:</strong> tools that turn machine code back into assembly (disassembler) or C-like <strong>pseudocode</strong> (decompiler). Ghidra, Hopper and IDA do both.</li>
+<li><strong>String:</strong> readable text stored inside a binary, like error messages and prompts. Strings are usually the fastest clue to where a feature lives.</li>
+<li><strong>Cross-reference (xref):</strong> a place in the code that uses an address, such as "this instruction loads that string." Following xrefs is how you get from visible text to the code behind it.</li>
+<li><strong>MCP (Model Context Protocol):</strong> the standard that lets an AI agent call external tools. REA is an MCP server, so your agent can call <code>trace_feature</code> the same way it calls a web search.</li>
+<li><strong>Evidence record (<code>ev_…</code>):</strong> REA's receipt for one result. It carries the target hash, tool, parameters, result, confidence and limitations.</li>
+<li><strong>Residual unknown (<code>unk_…</code>):</strong> a question REA (or you) recorded because the evidence doesn't settle it yet.</li>
+<li><strong>Static vs runtime:</strong> <em>static</em> reads files without running them; <em>runtime</em> runs or observes the program. REA keeps the two strictly apart.</li>
+</ul>
+<p>The same workflows are available from your terminal through the <code>rea</code> CLI. I use both below: first the CLI, so you can see every raw output, then the same investigation through my agent over MCP.</p>
+<p>A quick note on privacy, from the README FAQ: <em>"REA analyzes targets locally. Your agent receives the tool results, and its model provider has its own data policy."</em> So REA doesn't upload your target, but whatever results your agent reads go to your model provider.</p>
+<hr />
+<h2>3. Legal and ethical limits, in REA's own words</h2>
+<figure><img src="img/04-disclaimer.png" alt="REA's DISCLAIMER.md on GitHub"/><figcaption>REA's DISCLAIMER.md on GitHub</figcaption></figure>
+<p>Read this section before you touch any tool. REA's <a href="https://github.com/morluto/rea/blob/main/DISCLAIMER.md">DISCLAIMER.md</a> is unusually clear, so I'll quote it directly.</p>
+<blockquote>
+<p><em>"REA is built for lawful analysis: security research, malware and incident analysis, vulnerability research and coordinated disclosure, CTFs and education, interoperability, software preservation, and debugging or auditing software you own or are authorized to examine."</em></p>
+</blockquote>
+<p>It also lists what the project <strong>will not help with</strong>:</p>
+<blockquote>
+<p><em>"circumventing DRM, license checks, anti-cheat systems or other technical protection measures; developing game cheats or tampering with online services; bypassing authentication, bot protection or access controls on systems you are not authorized to test; copying proprietary software or reproducing its protected code and assets; evading the usage policies or safety measures of AI model providers; reselling or sharing AI accounts or API access."</em></p>
+</blockquote>
+<p>Three more lines are easy to miss and matter most in practice:</p>
+<blockquote>
+<p><em>"Public availability of software, possession of a file, or access to a debugging endpoint does not by itself establish permission for every operation."</em></p>
+<p><em>"Authorization to inspect an artifact does not necessarily authorize execution, interception, device changes, or interaction with another party's system."</em></p>
+<p><em>"Obtaining source-like output or an analysis report does not grant rights to the original program, its data, or the generated output."</em></p>
+</blockquote>
+<p>On tools: you must legally own any commercial engine you connect (IDA Pro and Hex-Rays, Hopper, JEB). REA <em>"provides no commercial-tool license, key, or activation entitlement."</em> Ghidra is free and open source, which is why I use it here.</p>
+<p>My rule for this guide: <strong>every target is something I built myself.</strong> That's the practice crackme, a tiny Electron-style app, a local web page and a hand-assembled EVM contract. That's the safest way to learn.</p>
+<hr />
+<h2>4. Step-by-step install (Linux and Windows)</h2>
+<figure><img src="img/02-readme-quickstart.png" alt="README &quot;Quick start&quot;: one command, npx rea-agents setup"/><figcaption>README &quot;Quick start&quot;: one command, npx rea-agents setup</figcaption></figure>
+<p><strong>What you need before you start (checklist):</strong></p>
+<ul>
+<li>A computer running Linux x64/arm64, macOS, or Windows 10+ x64 (Windows native analysis is experimental, see §4.4).</li>
+<li><strong>Node.js</strong> 22.19+, 24.11+ or 26+ with npm (§4.1).</li>
+<li>An <strong>agent</strong> that supports local MCP servers: Claude Code, Cursor, Codex, Gemini CLI and so on, or Grok Bot through its hosted connector (§5).</li>
+<li><em>For native binaries only:</em> <strong>Ghidra 12.1.x + a 64-bit JDK 21+</strong> (free), or Hopper/IDA if you already own a license.</li>
+<li><em>For Android only:</em> headless JADX + JDK. <em>For firmware only:</em> Binwalk/Unblob on Linux.</li>
+<li>A <strong>target you're allowed to analyze.</strong> Build your own, use a CTF binary, or use software you own and are authorized to examine (§3).</li>
+</ul>
+<p>REA has two layers: the <strong>REA package</strong> (MCP server, CLI and agent skill) and an optional <strong>native analysis engine</strong> for binaries. Static JavaScript/Electron, .NET and EVM analysis need no engine at all. Native binaries need Ghidra, Hopper or IDA.</p>
+<h3>4.1 Prerequisite: Node.js in a supported range</h3>
+<figure><img src="img/17-nodejs-download.png" alt="nodejs.org download page"/><figcaption>nodejs.org download page</figcaption></figure>
+<p>The README says: <em>"REA requires Node.js 22.x (&gt;=22.19), 24.x (&gt;=24.11), or 26+, plus npm."</em> The installation guide adds that <em>"Node.js 23, 25, and prereleases are unsupported."</em> So "Node 22 or newer," as some posts put it, isn't quite right. Node 23 or 25 won't work. Get an LTS build from <a href="https://nodejs.org/en/download">https://nodejs.org/en/download</a>.</p>
+<p>My box had Node 20 on the default PATH, which isn't supported, so I put a Node 24 build first on PATH. Here's what I verified before going further:</p>
+<figure><img src="img/40-term-prereqs.png" alt="Real capture: node, npm, java, Ghidra path, rea and npm versions"/><figcaption>Real capture: node, npm, java, Ghidra path, rea and npm versions</figcaption></figure>
+<p><code>npm view rea-agents dist-tags.latest</code> printing <code>6.4.0</code> is the quickest way to confirm which release you're getting.</p>
+<h3>4.2 Linux, step by step</h3>
+<figure><img src="img/24-install-start-setup.png" alt="REA docs: &quot;Start setup&quot;, the reviewed setup transaction"/><figcaption>REA docs: &quot;Start setup&quot;, the reviewed setup transaction</figcaption></figure>
+<ol>
+<li><strong>Check Node:</strong> <code>node --version</code> must print v22.19+, v24.11+ or v26+.</li>
+<li><strong>Run guided setup:</strong> <code>npx rea-agents setup</code>. The docs say: <em>"Choose the agents to configure, review the proposed paths and changes, and approve the plan."</em> npm's download prompt and REA's own approval are separate. Setup <em>"asks before changing agent configuration or installing Hopper"</em> and makes backups of existing config. To pin the newest release, use <code>npx rea-agents@latest setup</code>.</li>
+<li><strong>Restart the agents</strong> named in the completion message.</li>
+<li><strong>(Optional) Install the CLI for regular use:</strong> <code>npm install --global rea-agents</code>, then <code>rea --help</code>. The docs also describe an optional curl wrapper (<code>curl -fsSL https://raw.githubusercontent.com/morluto/rea/main/install.sh | bash</code>). It only installs the global npm package, and <code>bash -s -- --dry-run</code> previews what it would do.</li>
+<li><strong>(Optional, for native binaries) Add Ghidra.</strong> REA <em>"connects to an existing Ghidra installation"</em>. It never downloads Ghidra or Java for you. See §4.3.</li>
+<li><strong>Check readiness for your actual task, not everything:</strong> <code>rea doctor --provider ghidra --json</code>. Without a scope, <code>rea doctor</code> audits every integration, and <em>"its overall <code>healthy</code> value can be false while your chosen workflow works."</em></li>
+</ol>
+<p>If you want to see what setup would change before it touches anything, there's a read-only plan mode. Here's mine for Cursor plus Claude Code: <code>status: planned</code>, <code>appliedActions: []</code>, nothing written.</p>
+<figure><img src="img/41-term-setup-dryrun.png" alt="Real capture: rea setup --client cursor --client claude_code --dry-run"/><figcaption>Real capture: rea setup --client cursor --client claude_code --dry-run</figcaption></figure>
+<p>It shows the exact files it would write: <code>~/.cursor/mcp.json</code> and <code>~/.claude.json</code> for the MCP registrations, plus the skill under <code>~/.agents/skills/</code> and <code>~/.claude/skills/</code>. It also picked up my Ghidra and JDK paths to add to the registration environment.</p>
+<h3>4.3 Ghidra on Linux (what I ran)</h3>
+<figure><img src="img/16-ghidra-release.png" alt="Ghidra 12.1.4 official release page (NationalSecurityAgency/ghidra)"/><figcaption>Ghidra 12.1.4 official release page (NationalSecurityAgency/ghidra)</figcaption></figure>
+<p>REA's docs: <em>"It accepts Ghidra 12.1.x and the 64-bit full JDK declared by that installation… Current 12.1 releases require JDK 21 or newer… The bridge is verified with Ghidra 12.1.4 and JDK 21."</em></p>
+<figure><img src="img/18-adoptium-jdk21.png" alt="Adoptium Temurin JDK downloads"/><figcaption>Adoptium Temurin JDK downloads</figcaption></figure>
+<ol>
+<li>Install a <strong>64-bit full JDK 21+</strong> (for example Temurin from <a href="https://adoptium.net/temurin/releases/?version=21">https://adoptium.net/temurin/releases/?version=21</a>).</li>
+<li>Download <strong>Ghidra 12.1.4</strong> only from the official release page, <a href="https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.1.4_build">https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.1.4_build</a>, and extract it.</li>
+<li>Export the paths exactly as the docs show:</li>
+</ol>
+<pre><code class="language-bash">export GHIDRA_INSTALL_DIR=/absolute/path/to/ghidra_12.1.4_PUBLIC
+export JAVA_HOME=/absolute/path/to/jdk-21 # optional if java/javac are on PATH
+rea doctor --json
+rea setup
+</code></pre>
+<figure><img src="img/09-ghidra-docs.png" alt="REA docs: the Ghidra provider section"/><figcaption>REA docs: the Ghidra provider section</figcaption></figure>
+<p>On my box, Ghidra lives at <code>/workspace/ghidra/ghidra_12.1.4_PUBLIC</code>. The scoped check came back fully healthy: version, headless launcher, native decompiler (<code>reports elf x86_64, which matches linux/x64</code>) and Java.</p>
+<figure><img src="img/43-term-doctor-ghidra.png" alt="Real capture: rea doctor --provider ghidra, all nine checks healthy"/><figcaption>Real capture: rea doctor --provider ghidra, all nine checks healthy</figcaption></figure>
+<p>One honest note: an unscoped <code>rea doctor</code> on this box flags <code>host: debian 13</code> as <code>unsupported_host</code>. That list (<em>"macOS 12+, Ubuntu 24.04+, Fedora 41+…"</em>) is about REA's automated Hopper installer and supported-host matrix. The Ghidra path still worked end to end on Debian 13, as you'll see. I'm reporting what I observed, not claiming Debian is officially supported.</p>
+<p>How REA treats your files with Ghidra (docs): each session uses <em>"an ephemeral temporary project,"</em> passes <code>-readOnly</code> and <code>-deleteProject</code>, and <em>"never opens an existing user project."</em> Annotations only change the session database; <em>"original executable bytes are never written"</em> (that's from the tool's own <code>limitations</code> field).</p>
+<h3>4.4 Windows, step by step (quoted from the docs; I didn't test it)</h3>
+<figure><img src="img/10-windows-ghidra-p0.png" alt="REA docs: experimental Windows Ghidra P0"/><figcaption>REA docs: experimental Windows Ghidra P0</figcaption></figure>
+<ol>
+<li>Install Node.js <strong>22.19+, 24.11+ or 26+</strong> with npm.</li>
+<li>In a normal terminal (<em>not</em> one started by Claude Desktop, see below), run <code>npx rea-agents setup</code>, pick your agents, review the plan, approve, then restart them. Per the docs, <em>"On Windows, setup wraps either command in <code>cmd.exe /d /c</code> so clients can start the runner's command shim."</em></li>
+<li>Optionally install the CLI: <code>npm install --global rea-agents</code>, then <code>rea --help</code>. Windows paths work in commands, for example <code>"D:/apps/example"</code> (README).</li>
+<li>For native binaries, install a 64-bit JDK 21+, extract Ghidra 12.1.4, and set the paths in <strong>PowerShell</strong> exactly as documented:</li>
+</ol>
+<pre><code class="language-powershell">$env:GHIDRA_INSTALL_DIR = &quot;C:\tools\ghidra_12.1.4_PUBLIC&quot;
+$env:JAVA_HOME = &quot;C:\Program Files\Java\jdk-21&quot;
+rea doctor --json
+rea providers --json
+</code></pre>
+<ol>
+<li>Run <code>rea setup</code> again so the verified Ghidra/JDK paths are saved into your agent registrations (<em>"It preserves valid detected Ghidra/JDK settings in agent registrations."</em>)</li>
+</ol>
+<p>Know the Windows limits before you start. Windows Ghidra support is <strong>experimental "P0"</strong>: Windows 10+ x64, <em>"fixed local NTFS target and temporary volumes,"</em> native <strong>x86/x86-64 PE</strong> EXEs and DLLs (plus raw 6502 images), and <em>"the 25 read-only Ghidra inventory, memory, and function-analysis operations."</em> Renaming and annotating functions (<code>annotate_native_function</code>) is Linux/macOS only, and <em>"Hopper installation remains unavailable on Windows."</em> If you use <strong>Claude Desktop</strong> on Windows, <em>"Quit Claude Desktop fully before approving,"</em> because the MSIX build can overwrite the registration. Full guide: <a href="https://github.com/morluto/rea/blob/main/docs/windows-ghidra-p0.md">https://github.com/morluto/rea/blob/main/docs/windows-ghidra-p0.md</a>.</p>
+<hr />
+<h2>5. Connect REA to your agent: Grok Bot, Claude Code or Cursor</h2>
+<figure><img src="img/07-supported-agents.png" alt="REA docs: the supported-agents table with --client IDs"/><figcaption>REA docs: the supported-agents table with --client IDs</figcaption></figure>
+<p>The docs say the npm 6.4.0 package accepted setup plans for 17 client IDs (<code>main</code> lists 23). The three I care about are documented like this.</p>
+<table>
+<thead>
+<tr>
+<th>Agent</th>
+<th>How REA documents it</th>
+<th>What it writes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Claude Code</strong></td>
+<td><code>npx rea-agents setup</code> and select Claude Code, or <code>rea setup --client claude_code</code></td>
+<td><code>mcpServers.rea</code> in <code>~/.claude.json</code>, plus the skill in Claude Code's personal skill dir (my dry-run: <code>~/.claude/skills/reverse-engineer-anything</code>)</td>
+</tr>
+<tr>
+<td><strong>Cursor</strong></td>
+<td><code>npx rea-agents setup</code> and select Cursor, or <code>rea setup --client cursor</code></td>
+<td><code>~/.cursor/mcp.json</code> (my dry-run), plus the shared skill</td>
+</tr>
+<tr>
+<td><strong>Grok Bot</strong></td>
+<td><strong>Manual hosted connector.</strong> Setup doesn't write anything for it</td>
+<td>You ask Grok Bot to add a custom MCP server named <code>rea</code></td>
+</tr>
+</tbody>
+</table>
+<p>Restart the agent after setup. To check a single registration, run <code>rea doctor --client claude_code --json</code> (or <code>cursor</code>).</p>
+<h3>Grok Bot: the one that works differently</h3>
+<figure><img src="img/08-grok-bot-config.png" alt="REA docs: Grok Bot connector instructions in client-configuration.md"/><figcaption>REA docs: Grok Bot connector instructions in client-configuration.md</figcaption></figure>
+<p>REA's client docs say: <em>"Grok Bot keeps connectors in the signed-in account and runs them on its hosted computer. It does not import <code>mcp.json</code> from the data directory, and it does not attach a stdio server running on this machine."</em> The documented step is: <em>"Ask the Grok Bot chat to add a custom MCP server named <code>rea</code> that runs on the Bot's computer"</em> with:</p>
+<pre><code class="language-bash">npx -y rea-agents@&lt;version&gt; mcp
+</code></pre>
+<p>Use an exact version, for example <code>rea-agents@6.4.0</code>, and <em>"Do not put credentials in that command or its arguments."</em> <code>rea doctor --client grok_bot</code> reports this as a manual step, so a "not registered" result there is expected:</p>
+<figure><img src="img/42-term-doctor-grokbot.png" alt="Real capture: rea doctor --client grok_bot explains the manual connector step"/><figcaption>Real capture: rea doctor --client grok_bot explains the manual connector step</figcaption></figure>
+<p>On my account, the <code>rea</code> connector runs on the Bot's computer (the same box as everything above), and section 8 shows real tool calls through it.</p>
+<p>For any other MCP client, the documented manual registration is:</p>
+<pre><code class="language-json">{ &quot;mcpServers&quot;: { &quot;rea&quot;: { &quot;command&quot;: &quot;npx&quot;, &quot;args&quot;: [&quot;-y&quot;, &quot;rea-agents@6.4.0&quot;, &quot;mcp&quot;] } } }
+</code></pre>
+<hr />
+<h2>6. Route the target first: REA's official agent skill, as a step-by-step</h2>
+<figure><img src="img/21-skill-md-top.png" alt="The official REA skill, .agents/skills/reverse-engineer-anything/SKILL.md, on GitHub"/><figcaption>The official REA skill, .agents/skills/reverse-engineer-anything/SKILL.md, on GitHub</figcaption></figure>
+<p>Setup also installs REA's <strong>agent skill</strong>, the instructions your agent follows: <a href="https://github.com/morluto/rea/blob/main/.agents/skills/reverse-engineer-anything/SKILL.md"><code>.agents/skills/reverse-engineer-anything/SKILL.md</code></a>. It's the best guide to <em>how to use</em> REA, and it's written for the agent, not for marketing. Some viral posts present these as secret prompts "in the repo the whole time." They're documented, and you should read them.</p>
+<p><strong>Step 1: decide whether you need REA at all.</strong> The skill: <em>"Use REA when a claim depends on a shipped binary or package, decompilation, passive application runtime evidence, or comparison with behavior not established by available source. For ordinary analysis of a complete source repository, use normal repository tools."</em></p>
+<p><strong>Step 2: connect only when needed.</strong> <em>"If REA tools are available and their registration is not known to be stale, proceed directly to the target. Do not run diagnostics or setup before every investigation."</em> When tools are missing: <em>"Prefer an existing <code>rea</code> CLI. When none is installed and REA package acquisition is within the authorized scope, use <code>npx -y rea-agents@latest</code> in its place."</em> Repairs start <em>"with a read-only setup plan"</em> (the <code>--dry-run</code> from §4.2).</p>
+<p><strong>Step 3: route the target to its first tool.</strong> <em>"Choose the first tool from the target the user supplied."</em> The routing map:</p>
+<figure><img src="img/22-skill-md-route.png" alt="SKILL.md: &quot;Route the target first&quot;"/><figcaption>SKILL.md: &quot;Route the target first&quot;</figcaption></figure>
+<table>
+<thead>
+<tr>
+<th>If your target is…</th>
+<th>First tool</th>
+<th>Notes from the skill and docs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Native executable, library or analysis DB (ELF, PE, Mach-O)</td>
+<td><code>open_binary</code></td>
+<td>Then focused tools (<code>search_strings</code>, <code>trace_feature</code>, <code>xrefs</code>, <code>procedure_pseudo_code</code>). <code>binary_overview</code> when useful</td>
+</tr>
+<tr>
+<td>ASAR or extracted JavaScript/Electron tree</td>
+<td><code>analyze_javascript_application</code></td>
+<td>No disassembler. Use <code>"detail": "summary"</code> for big apps</td>
+</tr>
+<tr>
+<td>Archive or package inventory (ZIP/APK/IPA/MSIX/AppX/DMG)</td>
+<td><code>open_binary</code>, then <code>inspect_artifact</code></td>
+<td><code>inspect_artifact</code> returns the artifact graph and findings</td>
+</tr>
+<tr>
+<td>Android APK code, classes, methods</td>
+<td><code>inspect_android_package</code></td>
+<td>Needs a caller-supplied headless JADX + JDK</td>
+</tr>
+<tr>
+<td>Managed .NET PE/CLI assembly</td>
+<td><code>inspect_managed_artifact</code></td>
+<td>Static only, no engine</td>
+</tr>
+<tr>
+<td>Firmware image</td>
+<td><code>inspect_firmware_regions</code></td>
+<td>Caller-supplied Binwalk (Linux). <code>extract_firmware</code> needs a new output dir</td>
+</tr>
+<tr>
+<td>A browser page you own, already open</td>
+<td><code>list_browser_targets</code></td>
+<td>Loopback Chrome CDP</td>
+</tr>
+<tr>
+<td>Saved HAR / mitmproxy capture</td>
+<td><code>inspect_web_network_capture</code></td>
+<td>Never fetches recorded URLs</td>
+</tr>
+<tr>
+<td>An Electron app you own, already running</td>
+<td><code>list_electron_targets</code></td>
+<td>Loopback CDP</td>
+</tr>
+<tr>
+<td>Recorded packet capture (fields)</td>
+<td><code>inspect_packet_capture</code></td>
+<td><strong>Main branch only.</strong> Not in npm 6.4.0 (see below)</td>
+</tr>
+<tr>
+<td>Packet summaries (DNS/SNI/endpoints)</td>
+<td><code>inspect_pcap_capture</code></td>
+<td><strong>Main branch only.</strong> Not in npm 6.4.0</td>
+</tr>
+<tr>
+<td>Local EVM bytecode</td>
+<td><code>inspect_evm_interface</code></td>
+<td>Offline. Selectors and arguments are <em>inferred</em></td>
+</tr>
+</tbody>
+</table>
+<p><strong>A receipt the posts miss:</strong> the skill on <code>main</code> is <strong>version 41</strong>, but npm 6.4.0 bundles <strong>version 37</strong>. <code>inspect_packet_capture</code>, <code>inspect_pcap_capture</code>, <code>inspect_go_binary</code>, <code>inspect_wasm_artifact</code> and <code>inspect_sqlite_database</code> appear in the main-branch skill and docs, but the 6.4.0 MCP server connected to my agent <strong>doesn't advertise them</strong>, and the 6.4.0 CLI has no <code>inspect-go-binary</code>:</p>
+<figure><img src="img/58-term-go-main-only.png" alt="Real capture: inspect-go-binary is not a command in npm 6.4.0"/><figcaption>Real capture: inspect-go-binary is not a command in npm 6.4.0</figcaption></figure>
+<p>The skill itself warns you: <em>"Use the connected server's actual tool list and input schemas; a skill installed from repository main may describe capabilities absent from an older npm release."</em> Trust your server's tool list over any blog post, this one included.</p>
+<p><strong>Step 4: work summary-first.</strong> <em>"Start with the default result… Make a focused follow-up only when the returned result leaves a specific question unanswered."</em> And the rule that matters most: <em>"Every conclusion must distinguish observations, inferences, and unknowns. Cite Evidence IDs… never imply that static analysis observed execution."</em></p>
+<p><strong>Step 5: finish cleanly.</strong> <em>"Close an opened native session with <code>close_binary</code> when the investigation is complete."</em></p>
+<hr />
+<h2>7. Your first investigation: a practice crackme, start to finish</h2>
+<figure><img src="img/44-term-readonly-workspace.png" alt="Real capture: the read-only workspace with the target, its SHA-256, and a refused write"/><figcaption>Real capture: the read-only workspace with the target, its SHA-256, and a refused write</figcaption></figure>
+<p><strong>The target.</strong> A tiny, harmless practice program built for this guide: <code>/workspace/crackme/crackme</code> (Linux ELF x86-64) and <code>crackme.exe</code> (Windows PE x86-64). It asks for a password and prints <em>"Access granted"</em> or <em>"Wrong password."</em> The goal is to find the password <strong>without reading the source</strong>. It's my own binary, so analyzing and running it is fully authorized.</p>
+<p><strong>Step 0: make a read-only workspace.</strong> I copied the binaries into <code>/workspace/re/crackme/target/</code>, ran <code>chmod -R a-w</code> on it, and keep all notes in <code>notes/</code>. The capture above shows the file hash and that writing to <code>target/</code> fails. More on why in §9.</p>
+<p>From here on, <code>T=/workspace/re/crackme/target/crackme</code>. Each CLI call takes about 10 seconds on this box, because every CLI invocation is a separate process that re-imports the binary into a fresh, ephemeral Ghidra project. The MCP route in §8 keeps one session open instead.</p>
+<h3>Step 1: search for the visible text</h3>
+<figure><img src="img/45-term-search.png" alt="Real capture: rea search for &quot;password&quot;"/><figcaption>Real capture: rea search for &quot;password&quot;</figcaption></figure>
+<pre><code class="language-bash">rea search $T password --provider ghidra --json
+</code></pre>
+<p>You get two strings, at <code>0x102011</code> and <code>0x102046</code>, with <code>confidence: observed</code>. Look closely at the first one: <code>"IAYEnter the password: "</code>. Those three stray bytes, <code>IAY</code>, aren't part of the prompt. Something is stored right before it. Remember that.</p>
+<h3>Step 2: trace the failure message to the code that uses it</h3>
+<figure><img src="img/46-term-trace.png" alt="Real capture: rea trace &quot;Wrong password&quot;"/><figcaption>Real capture: rea trace &quot;Wrong password&quot;</figcaption></figure>
+<pre><code class="language-bash">rea trace $T 'Wrong password' --provider ghidra --json
+</code></pre>
+<p><code>trace_feature</code> follows the string through its cross-references. It's used at <code>0x101276</code> and <code>0x10127d</code>, both inside the function at <strong><code>0x1011f5</code></strong> (Ghidra calls it <code>FUN_001011f5</code>, because the binary has no symbol names). <code>confidence: derived</code>: REA composed this from observed facts.</p>
+<h3>Step 3: decompile that function</h3>
+<figure><img src="img/47-term-decompile-main.png" alt="Real capture: rea decompile 0x1011f5, the program's main logic"/><figcaption>Real capture: rea decompile 0x1011f5, the program's main logic</figcaption></figure>
+<pre><code class="language-bash">rea decompile $T 0x1011f5 --provider ghidra --json
+</code></pre>
+<p>This is <code>main</code>. It reads up to 64 bytes with <code>fgets</code>, strips the newline, calls <strong><code>FUN_00101179(local_48)</code></strong> and prints "Access granted" if the result is non-zero. So the real check lives at <code>0x101179</code>.</p>
+<h3>Step 4: decompile the check</h3>
+<figure><img src="img/48-term-decompile-check.png" alt="Real capture: rea decompile 0x101179, the password check"/><figcaption>Real capture: rea decompile 0x101179, the password check</figcaption></figure>
+<pre><code class="language-bash">rea decompile $T 0x101179 --provider ghidra --json
+</code></pre>
+<p>The logic in plain English: the input must be exactly <strong>12</strong> characters (<code>0xc</code>), and for each position <code>input[i] XOR 0x2A</code> must equal byte <code>i</code> of a data array at <strong><code>0x102008</code></strong>. That's a classic XOR-obfuscated secret, and <code>0x102008</code> is 9 bytes before the prompt string at <code>0x102011</code>. That's where the stray <code>IAY</code> came from.</p>
+<p>Here's the same function in the Ghidra GUI, from my earlier manual walkthrough of this binary, for comparison:</p>
+<figure><img src="img/30-ghidra-gui-check-password.png" alt="Ghidra 12.1.4 GUI on the same crackme: the check function at 0x00101179"/><figcaption>Ghidra 12.1.4 GUI on the same crackme: the check function at 0x00101179</figcaption></figure>
+<h3>Step 5: read the exact bytes</h3>
+<figure><img src="img/49-term-read-bytes.png" alt="Real capture: rea read-bytes 0x102008, 12 bytes"/><figcaption>Real capture: rea read-bytes 0x102008, 12 bytes</figcaption></figure>
+<pre><code class="language-bash">rea read-bytes $T 0x102008 --length 12 --provider ghidra --json
+</code></pre>
+<p>Result: <code>4d421b4e584b75581a494159</code>, <code>returned_bytes: 12</code>, <code>complete: true</code>, <code>confidence: observed</code>. One beginner trap I hit: without <code>--length</code> you get 256 bytes requested and 89 returned, because the read <em>"stop[s] at a segment boundary."</em> Always ask for exactly what you need.</p>
+<figure><img src="img/31-ghidra-gui-secret-array.png" alt="Ghidra GUI: the same 12-byte array at 0x00102008"/><figcaption>Ghidra GUI: the same 12-byte array at 0x00102008</figcaption></figure>
+<h3>Step 6: decode, then verify by running your own binary</h3>
+<figure><img src="img/50-term-decode-verify.png" alt="Real capture: XOR-decode and run the crackme with the recovered password"/><figcaption>Real capture: XOR-decode and run the crackme with the recovered password</figcaption></figure>
+<p>XOR each byte with <code>0x2A</code> and you get a 12-character password. Spoiler: it's in the capture above. Running <strong>my own</strong> binary with it prints <em>"Access granted. Nice work!"</em> with exit code 0, and a wrong guess exits 1. This is the only step that executed the target, and it's labeled as runtime evidence, separate from the static findings. That separation is what the skill means by <em>"never imply that static analysis observed execution."</em></p>
+<h3>Step 7: same question, Windows build</h3>
+<figure><img src="img/51-term-pe.png" alt="Real capture: the same search against crackme.exe (PE, x86-64)"/><figcaption>Real capture: the same search against crackme.exe (PE, x86-64)</figcaption></figure>
+<p>Linux Ghidra handles PE files too. The same <code>rea search</code> on <code>crackme.exe</code> reports <code>format: pe</code>, image-base addresses (<code>0x140009009</code>), and the same <code>IAY</code> tell. On a Windows host, this is exactly the read-only P0 boundary from §4.4.</p>
+<p><strong>Total time</strong> from a working install to the answer: six CLI commands, about a minute of wall-clock time. The habit matters more than the speed: string → reference → function → data → verification, with an Evidence ID at every hop.</p>
+<hr />
+<h2>8. The same investigation through the agent (MCP)</h2>
+<figure><img src="img/52-term-mcp-results.png" alt="Real capture: the MCP tool results from my agent's REA session, projected with jq"/><figcaption>Real capture: the MCP tool results from my agent's REA session, projected with jq</figcaption></figure>
+<p>The CLI is great for learning. Day to day, your agent drives REA over MCP and keeps <strong>one session</strong> open, so it doesn't re-import the binary for every question. Through the Grok Bot <code>rea</code> connector, I made these real calls on the same file:</p>
+<ol>
+<li><code>open_binary</code> with <code>{"path": ".../target/crackme", "provider_id": "ghidra"}</code> returned <code>format: elf</code>, <code>architecture: x86_64</code> and the same SHA-256.</li>
+<li><code>trace_feature</code> with <code>{"query": "Access granted"}</code> matched <code>0x10202b</code>, referenced from <code>0x101260</code> and <code>0x101267</code> in <code>FUN_001011f5</code> (<code>ev_83a9d141…</code>).</li>
+<li><code>xrefs</code> with <code>{"address": "0x102008"}</code> showed that only <code>0x1011c3</code> and <code>0x1011d1</code> reference the secret array, both inside the check function (<code>ev_2a61d6e1…</code>).</li>
+<li><code>annotate_native_function</code> renamed <code>0x101179</code> to <code>check_password</code> and attached a comment. Ghidra re-decompiled it with the new name, and REA's own limitation applies: <em>"original executable bytes are never written."</em></li>
+<li><code>record_unknown</code> logged an open question (is there any other password path?) as <code>unk_c1d42d3c…</code>, severity low, with a recommended probe.</li>
+<li><code>export_evidence_bundle</code> wrote <code>notes/evidence.json</code>: <strong>4 records, 1 unknown</strong>.</li>
+</ol>
+<p>One real snag worth knowing: my first <code>record_unknown</code> call failed with <code>evidence_integrity_mismatch</code>, because I cited an Evidence ID from a <strong>CLI</strong> run. CLI processes and the MCP session have separate ledgers. Cite IDs from the same session you're writing to.</p>
+<hr />
+<h2>9. The CONFIRMED/GUESS findings log and the read-only workspace</h2>
+<figure><img src="img/53-term-findings.png" alt="Real capture: my FINDINGS.md for the crackme, every claim tagged and receipted"/><figcaption>Real capture: my FINDINGS.md for the crackme, every claim tagged and receipted</figcaption></figure>
+<p>The single best habit I picked up comes from a community guide by @zodchiii ("How to Turn Opus 5.5 Into Your Personal Reverse Engineer"), and it lines up with REA's own rules. <strong>Every claim goes in a findings log tagged CONFIRMED or GUESS.</strong></p>
+<p><strong>CONFIRMED</strong> means the line cites an Evidence ID plus an address or <code>file:line</code>. <strong>GUESS</strong> means it doesn't yet, so it becomes a <code>record_unknown</code> entry with a probe that would settle it. My log has seven CONFIRMED lines (six static, one runtime on my own binary) and one GUESS that's still open as <code>unk_c1d42d3c…</code>. The xrefs result in §8 points toward "no second path," but I haven't closed it, because "points toward" isn't proof.</p>
+<p>The workspace layout:</p>
+<pre><code class="language-text">/workspace/re/&lt;target&gt;/
+  target/   # chmod -R a-w : analysis input only, never edited
+  notes/    # FINDINGS.md, ARCHITECTURE.md, evidence.json, spec/
+</code></pre>
+<p>Why make <code>target/</code> read-only at the <strong>filesystem</strong> level? Agent permission settings (like Claude Code's allow/deny lists) are useful, but they aren't a security boundary. A <code>Permission denied</code> from the OS is (§7, step 0). REA already never writes target bytes. The read-only folder protects you from <em>everything else</em>: a stray script, an over-eager agent, or you at 2 a.m.</p>
+<p>Five failure modes to avoid, from the same guide: skipping the CONFIRMED/GUESS tags; analyzing raw HARs that still contain tokens (redact first); letting the model write to <code>target/</code>; opening a fresh session for every question; and trusting AI renames without spot-checking about 10% of them against the pseudocode.</p>
+<hr />
+<h2>10. Where REA gives you the biggest wins: a tour of the tool groups</h2>
+<figure><img src="img/60-term-providers.png" alt="Real capture: rea providers lists every capability with its side effects"/><figcaption>Real capture: rea providers lists every capability with its side effects</figcaption></figure>
+<p>A beginner-friendly feature: <code>rea providers</code> (and <code>rea capabilities</code>) lists every operation along with whether it <code>launches_process</code>, <code>may_access_network</code>, <code>may_write_filesystem</code> or <code>mutates_artifact</code>, and why it's unavailable on your host. Read that before you run anything that isn't purely static.</p>
+<h3>10.1 Web pages and JS bundles (Chrome CDP on loopback)</h3>
+<figure><img src="img/56-term-web.png" alt="Real capture: list-browser-targets + analyze-web-bundle on my own local page"/><figcaption>Real capture: list-browser-targets + analyze-web-bundle on my own local page</figcaption></figure>
+<p>I served a two-file demo page (<code>app.js</code> imports <code>export.js</code>) on <code>127.0.0.1:8765</code> and started headless Chrome with a <strong>loopback</strong> debugging port. Then:</p>
+<pre><code class="language-bash">rea list-browser-targets http://127.0.0.1:9333 --allowed-origins http://127.0.0.1:8765
+rea analyze-web-bundle http://127.0.0.1:9333 &lt;targetId&gt; --allowed-origins http://127.0.0.1:8765 --observation-ms 1500 --json
+</code></pre>
+<p>REA listed only the page matching my exact origin (it excluded the browser's other targets), captured both scripts with SHA-256s, and mapped the <code>static_import</code> edge from <code>app.js</code> line 1. The receipt: it reported <strong><code>endpoints: []</code></strong>, even though my code POSTs to <code>/api/v1/exports</code>. The URL is built inside an object and passed around, and REA's limitations say so honestly: <em>"String-built routes and endpoints… may remain unknown."</em> An empty result here doesn't mean "no endpoint." It means "not provable statically." <strong>Close the gap with a saved capture (runtime evidence).</strong> I recorded a HAR of <em>my own</em> page while clicking "Export CSV" (no cookies or auth headers in it), then ran REA's offline capture inspector:</p>
+<pre><code class="language-bash">rea inspect-web-network-capture /workspace/re/lab/web/demo.har har --json
+</code></pre>
+<figure><img src="img/61-term-har.png" alt="Real capture: inspect-web-network-capture finds the POST that static analysis couldn't prove"/><figcaption>Real capture: inspect-web-network-capture finds the POST that static analysis couldn't prove</figcaption></figure>
+<p>Record 3 is the missing piece: <strong><code>POST http://127.0.0.1:8765/api/v1/exports</code></strong> with the body <code>{"format":"csv","range":"30d"}</code> (my toy server answered 501, which is expected). REA marks it <code>confidence: observed</code> but <code>runtime_attribution: "unknown"</code>, and its limitations say <em>"Recorded URLs are never fetched"</em> and <em>"Known authentication headers/cookies… are excluded."</em> Static analysis gives you the structure; a capture of your own session gives you the actual request. Use both, and label which is which. Before you analyze a real HAR, strip tokens yourself. REA's <code>--sensitive-value</code> flag lets you mark extra literal values as sensitive.</p>
+<p>Version 6.4.0 also added tRPC, HTTP-link and named GraphQL operation discovery (<a href="https://github.com/morluto/rea/releases/tag/rea-agents-6.4.0">release notes</a>). Only point this at pages you're entitled to use, in your own logged-in session.</p>
+<h3>10.2 Electron and JavaScript apps (no disassembler)</h3>
+<figure><img src="img/54-term-js-electron.png" alt="Real capture: analyze-javascript-application on my demo Electron app"/><figcaption>Real capture: analyze-javascript-application on my demo Electron app</figcaption></figure>
+<p>This is where REA saves beginners the most time. If the app is Electron, <strong>don't open a disassembler</strong>. I wrote a five-file Electron-style app (main, preload, renderer, an IPC handler) and ran:</p>
+<pre><code class="language-bash">rea analyze-javascript-application /workspace/re/lab/jsapp --json &gt; jsapp-evidence.json
+</code></pre>
+<p>In under 2 seconds, it found 1 BrowserWindow, 1 preload entrypoint, 1 <code>contextBridge</code> API (<code>notes</code>, member <code>copy</code>), and the IPC channel <strong><code>note:copy</code></strong> with its main-process handler, paired with the renderer's call:</p>
+<figure><img src="img/55-term-js-ipc.png" alt="Real capture: the Electron boundary nodes REA recovered"/><figcaption>Real capture: the Electron boundary nodes REA recovered</figcaption></figure>
+<p>Look at <strong><code>sender_validation_observations: 0</code></strong>. My <code>ipcMain.handle</code> never checks who sent the message. That's the kind of thing you'd flag in a security review of your own app. It's the same technique as REA's <a href="https://rea.tools/showcase/notion/">Notion clipboard showcase</a>: renderer → preload → IPC → main. For real apps, the CLI guide says a 334 MB Obsidian Evidence file projects to a ~10 KB summary with <code>inspect-analysis-view</code>.</p>
+<h3>10.3 Android</h3>
+<figure><img src="img/13-android-docs.png" alt="REA docs: Static Android APK analysis"/><figcaption>REA docs: Static Android APK analysis</figcaption></figure>
+<p>The Android tools are <code>inspect_android_package</code> (manifest, SDK, permissions, class counts), <code>search_android_classes</code>, <code>inspect_android_method</code> (decompile one method), <code>trace_android_references</code>, plus ADB device tools added in 6.4.0. They need a caller-supplied headless JADX (<code>REA_JADX_MCP_JAR</code>, jadx-headless-mcp 0.7.1) and a full JDK. <strong>I didn't run these.</strong> My box has no JADX, no adb and no APK I'm authorized to analyze, so I'm showing the docs instead of faking output. Guide: <a href="https://github.com/morluto/rea/blob/main/docs/android-analysis.md">https://github.com/morluto/rea/blob/main/docs/android-analysis.md</a>. Device tools that change state (<code>install_adb_package</code>, <code>push_adb_file</code>, <code>start_adb_app</code>) are flagged as side effects. Use them only on your own device or emulator.</p>
+<h3>10.4 Native binaries (ELF, PE, Mach-O)</h3>
+<figure><img src="img/05-release-6.4.0.png" alt="REA 6.4.0 release notes: Ghidra PE DLLs, MIPS ELF, import language and seeds"/><figcaption>REA 6.4.0 release notes: Ghidra PE DLLs, MIPS ELF, import language and seeds</figcaption></figure>
+<p>You've already seen the core flow in §7: <code>open_binary</code> → <code>search_strings</code> / <code>trace_feature</code> → <code>xrefs</code> → <code>procedure_pseudo_code</code> / <code>analyze_function</code> → <code>read_bytes</code> → <code>annotate_native_function</code> → <code>export_evidence_bundle</code> → <code>close_binary</code>. Beyond that there are call graphs (<code>get_call_graph</code>, <code>build_call_path</code>), <code>inspect_pe_resources</code> for Windows resources, Apple extras (<code>inspect_macho</code>, <code>get_objc_classes</code>, <code>analyze_swift_types</code>), and Ghidra import controls added in 6.4.0 (<code>REA_GHIDRA_LANGUAGE_ID</code>, seed files). Hopper is the default on macOS, where setup can install it with approval. IDA plugs in through an existing IDA MCP. Guide: <a href="https://rea.tools/guides/native/">https://rea.tools/guides/native/</a>.</p>
+<h3>10.5 Firmware</h3>
+<figure><img src="img/14-firmware-docs.png" alt="REA docs: Firmware analysis with Binwalk/Unblob"/><figcaption>REA docs: Firmware analysis with Binwalk/Unblob</figcaption></figure>
+<p><code>inspect_firmware_regions</code> lists signature candidates (offsets, lengths, descriptions) using caller-supplied <strong>Binwalk 3.1.x</strong>. <code>extract_firmware</code> extracts with <strong>Unblob 26.6.x</strong> into a new directory you choose. Then you <code>open_binary</code> the extracted images and continue with the native flow. The docs say <em>"This first firmware milestone is verified on Linux x64."</em> <strong>I didn't run it</strong>, because Binwalk and Unblob aren't installed on my box. Guide: <a href="https://github.com/morluto/rea/blob/main/docs/firmware-analysis.md">https://github.com/morluto/rea/blob/main/docs/firmware-analysis.md</a>.</p>
+<h3>10.6 Smart contracts (EVM bytecode, offline)</h3>
+<figure><img src="img/15-evm-docs.png" alt="REA docs: Offline EVM bytecode"/><figcaption>REA docs: Offline EVM bytecode</figcaption></figure>
+<p>I hand-assembled a 62-byte runtime that dispatches two well-known selectors, <code>0xa9059cbb</code> (ERC-20 <code>transfer(address,uint256)</code>) and <code>0x70a08231</code> (<code>balanceOf(address)</code>), and ran:</p>
+<pre><code class="language-bash">rea inspect-evm-interface /workspace/re/lab/evm/demo-runtime.hex hex --json
+</code></pre>
+<figure><img src="img/57-term-evm.png" alt="Real capture: inspect-evm-interface recovers both selectors, as inferences"/><figcaption>Real capture: inspect-evm-interface recovers both selectors, as inferences</figcaption></figure>
+<p>It found both selectors at the right byte offsets (29 and 49), with <code>runtime_execution: not-performed</code> and <code>discovery_completeness: unknown</code>. The lesson is in the details. It inferred <code>transfer</code> arguments as <code>uint256,uint256</code>, not <code>address,uint256</code>, because my toy code never masks the address. It labeled <code>balanceOf</code> <strong>payable</strong>, which is <em>correct for my bytecode</em>, since I left out the <code>CALLVALUE</code> check. That's exactly why the docs say selectors, arguments and mutability <em>"are inferences."</em> No chain, RPC or wallet is touched. It's audit support, not a trading bot.</p>
+<h3>10.7 .NET and the rest</h3>
+<p><code>inspect_managed_artifact</code> and <code>inspect_managed_members</code> read .NET metadata and CIL without loading the assembly (<a href="https://github.com/morluto/rea/blob/main/docs/managed-code-analysis.md">guide</a>). I had no .NET assembly to test on, so this one's docs-only. The 6.4.0 CLI also has commands for saved HAR/mitmproxy captures (<code>inspect-web-network-capture</code>), recorded Linux crashes (<code>inspect-recorded-crash</code>) and PE resources (<code>inspect-pe-resources</code>). The README on <code>main</code> lists more, such as SQLite snapshots and Flutter APKs. Those aren't all in 6.4.0 (there's no <code>inspect-sqlite-database</code> in my 6.4.0 <code>rea --help</code>). Check the <a href="https://github.com/morluto/rea/blob/main/docs/mcp-contracts.md#generated-catalog">generated tool catalog</a> against your own server.</p>
+<hr />
+<h2>11. Five ready-to-paste prompts</h2>
+<figure><img src="img/23-mcp-prompts-doc.png" alt="REA docs: the six built-in MCP prompts"/><figcaption>REA docs: the six built-in MCP prompts</figcaption></figure>
+<p>REA ships six guided MCP prompts: <code>investigate_feature</code>, <code>compare_application_versions</code>, <code>verify_reconstruction</code>, <code>trace_crash</code>, <code>audit_residual_unknowns</code> and <code>prepare_bounded_process_capture</code> (<a href="https://github.com/morluto/rea/blob/main/docs/mcp-prompts.md">docs</a>). These five paste-ready versions build on them. Replace the brackets.</p>
+<p><strong>1. Route and map (start every job here)</strong></p>
+<pre><code class="language-text">Using REA, I want to understand how [FEATURE] works in [APP] at [ABSOLUTE PATH].
+I own it / am authorized to analyze it. First tell me what kind of target this is and
+which REA tool you'll open it with (route the target first). Static only, no execution.
+Give me a one-paragraph map, keeping observations, inferences and unknowns separate,
+with Evidence IDs.
+</code></pre>
+<p><strong>2. Investigate one feature (native)</strong></p>
+<pre><code class="language-text">Run investigate_feature for &quot;[FEATURE TEXT]&quot; in [PATH] with provider ghidra.
+Path: search_strings → trace_feature → xrefs → procedure_pseudo_code → read_bytes.
+Log every claim in notes/FINDINGS.md as CONFIRMED (Evidence ID + address) or GUESS
+(+ record_unknown). Stop after 30 functions and check direction with me.
+Finish with export_evidence_bundle to notes/evidence.json and close_binary.
+</code></pre>
+<p><strong>3. Electron / JS feature trace</strong></p>
+<pre><code class="language-text">Run analyze_javascript_application on [APP DIR OR .asar] with detail &quot;summary&quot;, then
+inspect_analysis_view. Trace &quot;[FEATURE]&quot; from the renderer through preload/contextBridge
+and IPC to the main-process handler. Report channel names, handler locations and any
+missing sender validation, with Evidence IDs. Don't execute the app.
+</code></pre>
+<p><strong>4. What changed between versions</strong></p>
+<pre><code class="language-text">Run compare_application_versions on [OLD PATH] and [NEW PATH]. List behavior changes with
+Evidence IDs, flag anything security-relevant, and record_unknown anything static
+analysis can't settle. No execution.
+</code></pre>
+<p><strong>5. Audit before you call it done</strong></p>
+<pre><code class="language-text">Run audit_residual_unknowns. List open unk_ items by severity, say which ones can be
+resolved statically and with which tool, then mark each original question answered,
+partially answered, or unresolved. Don't call the investigation complete while
+required questions are open.
+</code></pre>
+<hr />
+<h2>12. Hype vs receipts (short version)</h2>
+<figure><img src="img/59-term-github-api-stars.png" alt="Real capture: the GitHub API star count at 6:28 PM ET"/><figcaption>Real capture: the GitHub API star count at 6:28 PM ET</figcaption></figure>
+<table>
+<thead>
+<tr>
+<th>Claim going around</th>
+<th>Receipt</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"REA has 130K stars" (@zodchiii), "154K" (@woody_research)</td>
+<td><strong>Outdated.</strong> GitHub API: 204,103 at 5:43 PM ET (earlier project check) and <strong>204,859 at 6:28 PM ET</strong> (my capture), Oct 13. The README's own banner still says "180,000"</td>
+</tr>
+<tr>
+<td>"Unlocked TradingView premium / free premium indicators" (@Bober_smart)</td>
+<td><strong>Excluded.</strong> That's paywall/license circumvention, which REA's DISCLAIMER explicitly rules out. I won't show it</td>
+</tr>
+<tr>
+<td>"Opus 5.5: $5.60 vs $43.20 for a 400K-token RE session"</td>
+<td><strong>Confirmed</strong>, <em>within the 5-minute cache window</em> (see below)</td>
+</tr>
+<tr>
+<td>"$10M AI trading desk" video</td>
+<td><strong>A paper-trading demo.</strong> The dashboard is labeled <em>DESK · PAPER BOOK</em>. Nothing shows live returns</td>
+</tr>
+<tr>
+<td>"List every tracker inside an APK" (@woody_research)</td>
+<td><strong>Not a documented REA feature.</strong> <code>inspect_android_package</code> reports declarations, permissions and classes. Spotting tracker SDKs is your own inference</td>
+</tr>
+<tr>
+<td><code>/mcp</code> shows tools named <code>decompile</code>, <code>search</code>, <code>trace</code> (@0xMovez course, quoted by @woody_research)</td>
+<td>Those are <strong>CLI</strong> command names. The MCP tools are <code>procedure_pseudo_code</code>, <code>search_strings</code> and <code>trace_feature</code></td>
+</tr>
+</tbody>
+</table>
+<figure><img src="img/20-anthropic-pricing.png" alt="claude.com/pricing: Opus 5.5 API rates, prompt caching at a 5-minute TTL"/><figcaption>claude.com/pricing: Opus 5.5 API rates, prompt caching at a 5-minute TTL</figcaption></figure>
+<p><strong>The cost math, recomputed.</strong> Opus 5.5 lists $4/MTok input, $20/MTok output, $5/MTok cache write and $0.20/MTok cache read, and the page notes <em>"Prompt caching pricing reflects 5-minute TTL"</em> (<a href="https://claude.com/pricing">claude.com/pricing</a>). Take a 400K-token context, 25 follow-ups and 80K output tokens in total. Cached: $2.00 to write + 25 × $0.08 in reads = $2.00, plus $1.60 output, for <strong>$5.60</strong>. Fresh every time: 26 × $1.60 = $41.60, plus $1.60, for <strong>$43.20</strong>. Both numbers check out, but <strong>only if each follow-up lands within 5 minutes of the last one</strong>. Otherwise you pay the $2 write again. The practical lesson is the same as in §8: keep one warm session per target.</p>
+<hr />
+<h2>13. Troubleshooting (real snags and documented fixes)</h2>
+<figure><img src="img/62-term-real-errors.png" alt="Real capture: three snags I actually hit, with REA's own error output"/><figcaption>Real capture: three snags I actually hit, with REA's own error output</figcaption></figure>
+<p>Every problem below either happened to me on this box (marked <strong>hit</strong>) or is a documented fix from REA's <a href="https://github.com/morluto/rea/blob/main/docs/installation.md">installation</a> and <a href="https://github.com/morluto/rea/blob/main/docs/client-configuration.md">client configuration</a> guides (marked <strong>docs</strong>).</p>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Cause</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Unknown Ghidra procedure name or address: check_password</code> (<strong>hit</strong>)</td>
+<td>The binary is stripped. Your guessed name doesn't exist yet</td>
+<td>Find the function with <code>rea search</code> / <code>rea trace</code> first, then use its <strong>address</strong> (<code>0x101179</code>). Rename it in an MCP session with <code>annotate_native_function</code></td>
+</tr>
+<tr>
+<td><code>read-bytes</code> returns 89 of 256 bytes, <code>complete: false</code> (<strong>hit</strong>)</td>
+<td>Reads stop at a segment boundary. The default length is 256</td>
+<td>Pass <code>--length N</code> with exactly what you need</td>
+</tr>
+<tr>
+<td><code>rea doctor</code> says <code>healthy: false</code> even though analysis works (<strong>hit</strong>)</td>
+<td>Unscoped doctor audits <em>everything</em> (Hopper, IDA, every client, host list)</td>
+<td>Scope it: <code>rea doctor --provider ghidra --json</code> or <code>--client cursor --json</code>. Read <code>scope_checks</code></td>
+</tr>
+<tr>
+<td><code>record_unknown</code> fails with <code>evidence_integrity_mismatch</code> (<strong>hit</strong>)</td>
+<td>You cited an Evidence ID from a different process (a CLI run)</td>
+<td>Cite IDs produced in the same MCP session</td>
+</tr>
+<tr>
+<td><code>'inspect-go-binary' is not a command</code> (<strong>hit</strong>)</td>
+<td>A main-branch feature that isn't in npm 6.4.0</td>
+<td>Use your server's tool list (<code>rea --help</code>, MCP <code>tools/list</code>). Wait for a release that includes it</td>
+</tr>
+<tr>
+<td>Node 20 on PATH (<strong>hit</strong>)</td>
+<td>Unsupported runtime (needs 22.19+/24.11+/26+, not 23/25)</td>
+<td>Install a supported Node and put it first on PATH. Check with <code>node --version</code></td>
+</tr>
+<tr>
+<td>REA tools don't appear in the agent after setup (<strong>docs</strong>)</td>
+<td>The agent wasn't restarted, or the registration is stale</td>
+<td>Restart the agent. Run <code>rea doctor --client &lt;id&gt; --json</code>, then <code>rea setup --client &lt;id&gt; --dry-run --json</code> and approve the plan</td>
+</tr>
+<tr>
+<td>Grok Bot shows no REA tools (<strong>docs</strong>)</td>
+<td>Grok Bot doesn't read local <code>mcp.json</code></td>
+<td>In Grok Bot chat, add a custom MCP server named <code>rea</code> running <code>npx -y rea-agents@&lt;version&gt; mcp</code></td>
+</tr>
+<tr>
+<td>First Ghidra query times out on a big binary (<strong>docs</strong>)</td>
+<td>Import plus auto-analysis exceeds the deadline (default 330,000 ms)</td>
+<td>Set <code>REA_GHIDRA_STARTUP_TIMEOUT_MS</code> in the server environment, and raise your MCP client's own tool timeout</td>
+</tr>
+<tr>
+<td>Ghidra runs out of memory (<strong>docs</strong>)</td>
+<td>Default JVM heap is <code>2G</code></td>
+<td>Set <code>GHIDRA_HEADLESS_MAXMEM</code> (e.g. <code>4G</code>) in the environment that starts REA</td>
+</tr>
+<tr>
+<td><code>native_decompiler</code> missing on macOS (<strong>docs</strong>)</td>
+<td>The Ghidra archive lacks the macOS decompiler binary</td>
+<td>Build it with <code>make ghidra_opt</code> as shown in the installation guide (x64 and arm64 recipes)</td>
+</tr>
+<tr>
+<td>Claude Desktop loses the registration (<strong>docs</strong>)</td>
+<td>The running app rewrote its config (seen with the Windows MSIX build)</td>
+<td>Quit Claude Desktop <strong>fully</strong> before approving setup, then start it again</td>
+</tr>
+<tr>
+<td>Claude Code "autocompact is thrashing" with a non-Anthropic endpoint (<strong>docs</strong>)</td>
+<td>Tool search is off, so all ~170 tool schemas load upfront</td>
+<td>Add <code>"REA_MCP_INPUT_SCHEMA_PROFILE": "compact"</code> to <code>mcpServers.rea.env</code> in <code>~/.claude.json</code> and restart</td>
+</tr>
+<tr>
+<td>Hopper says <code>Cannot launch Hopper! Connection is invalid.</code> (<strong>docs</strong>)</td>
+<td>A pending demo/license/loader dialog</td>
+<td>Complete the dialog in the same user session, then retry</td>
+</tr>
+<tr>
+<td>Anything else (<strong>docs</strong>)</td>
+<td>Often already fixed upstream</td>
+<td>Run <code>rea update</code> (global install) or <code>npx rea-agents@latest setup</code>, restart, retry. Then open an issue with your REA version, target type, steps and error output</td>
+</tr>
+</tbody>
+</table>
+<figure><img src="img/26-doctor-readiness-docs.png" alt="REA docs: scoped readiness checks, the fastest way to diagnose one task"/><figcaption>REA docs: scoped readiness checks, the fastest way to diagnose one task</figcaption></figure>
+<hr />
+<h2>14. FAQ</h2>
+<figure><img src="img/25-readme-faq.png" alt="The README's own FAQ"/><figcaption>The README's own FAQ</figcaption></figure>
+<p><strong>Is REA free?</strong> Yes. REA-authored code is MIT-licensed. Ghidra is free too. Hopper, IDA and JEB are commercial and need your own license.</p>
+<p><strong>Does REA upload my app?</strong> No. From the README: <em>"REA analyzes targets locally. Your agent receives the tool results, and its model provider has its own data policy."</em> Treat tool results as data you're sending to your model provider.</p>
+<p><strong>Do I need Ghidra, Hopper or IDA?</strong> Only for native binaries. Static JavaScript/Electron, .NET, EVM and saved-capture analysis need no engine (README FAQ).</p>
+<p><strong>Which agents work?</strong> <em>"Any agent that supports local MCP servers."</em> Setup configures the supported list automatically (§5). Grok Bot uses a hosted connector you add in chat.</p>
+<p><strong>Is it legal to use REA on app X?</strong> REA can't answer that for you. Its DISCLAIMER says you must establish <em>"the legal authority and scope required"</em> yourself, and that reverse engineering <em>"may be restricted in your jurisdiction or by the license of the software you analyze."</em> If you're not sure, practice on your own builds and CTFs.</p>
+<p><strong>Will it run the program?</strong> Static tools don't. Runtime tools (process capture, browser scenarios, ADB app start) do, and <code>rea providers</code> lists each one's <code>launches_process</code> and other side effects. In this guide, the only execution was me running my own crackme.</p>
+<p><strong>Does REA modify the binary?</strong> No. With Ghidra it imports an ephemeral, read-only copy, and annotations live only in the session database.</p>
+<p><strong>What does REA return: source code?</strong> No. You get pseudocode and assembly for native code, and modules and relationships for JS. The README FAQ: <em>"Your agent uses these findings to write and test an implementation."</em> Pseudocode isn't the original source.</p>
+<p><strong>Why do Evidence IDs repeat between runs?</strong> They're content-addressed. Running the same search on the same file gave me the same <code>ev_bdafc8cd…</code> both times, which makes results easy to cite and check.</p>
+<p><strong>What's the difference between <code>main</code> and npm?</strong> <code>main</code> is newer than the release. Features documented on <code>main</code> (packet captures, Go metadata and more) may not be in npm 6.4.0. Check <code>npm view rea-agents dist-tags.latest</code> and your server's actual tool list.</p>
+<p><strong>How do I update or uninstall?</strong> <code>rea update</code> for global installs, or <code>npx rea-agents@latest setup</code> for package-runner setups. <code>rea uninstall</code> removes REA's registrations and skill files. <code>rea uninstall --purge-data</code> also removes <code>~/.rea</code> cache and state, while preserving Hopper, Node.js, Evidence files and other MCP servers.</p>
+<hr />
+<h2>15. Next steps and links</h2>
+<figure><img src="img/12-rea-showcase.png" alt="REA case studies at rea.tools/showcase"/><figcaption>REA case studies at rea.tools/showcase</figcaption></figure>
+<ol>
+<li>Install Node in a supported range, run <code>npx rea-agents setup</code>, then restart your agent.</li>
+<li>Add Ghidra 12.1.4 + JDK 21 and check with <code>rea doctor --provider ghidra --json</code>.</li>
+<li>Build a crackme of your own (or grab a CTF binary you're allowed to use) and repeat §7 with a findings log.</li>
+<li>Point <code>analyze_javascript_application</code> at an Electron app <em>you</em> wrote.</li>
+<li>Read the skill, then the six MCP prompts, then one showcase end to end.</li>
+<li>Run <code>rea update</code> (global installs) or <code>npx rea-agents@latest setup</code> regularly. The README says <em>"REA changes quickly."</em></li>
+</ol>
+<figure><img src="img/11-rea-tools-site.png" alt="The REA website, rea.tools"/><figcaption>The REA website, rea.tools</figcaption></figure>
+<p><strong>Official links (all checked Oct 13, 2026 ET)</strong></p>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Repo</td>
+<td><a href="https://github.com/morluto/rea">https://github.com/morluto/rea</a></td>
+</tr>
+<tr>
+<td>Release 6.4.0 (Oct 11, 2026)</td>
+<td><a href="https://github.com/morluto/rea/releases/tag/rea-agents-6.4.0">https://github.com/morluto/rea/releases/tag/rea-agents-6.4.0</a></td>
+</tr>
+<tr>
+<td>Disclaimer</td>
+<td><a href="https://github.com/morluto/rea/blob/main/DISCLAIMER.md">https://github.com/morluto/rea/blob/main/DISCLAIMER.md</a></td>
+</tr>
+<tr>
+<td>Installation</td>
+<td><a href="https://github.com/morluto/rea/blob/main/docs/installation.md">https://github.com/morluto/rea/blob/main/docs/installation.md</a></td>
+</tr>
+<tr>
+<td>Client configuration (Grok Bot, Claude, Cursor…)</td>
+<td><a href="https://github.com/morluto/rea/blob/main/docs/client-configuration.md">https://github.com/morluto/rea/blob/main/docs/client-configuration.md</a></td>
+</tr>
+<tr>
+<td>Agent skill</td>
+<td><a href="https://github.com/morluto/rea/blob/main/.agents/skills/reverse-engineer-anything/SKILL.md">https://github.com/morluto/rea/blob/main/.agents/skills/reverse-engineer-anything/SKILL.md</a></td>
+</tr>
+<tr>
+<td>CLI and Evidence</td>
+<td><a href="https://github.com/morluto/rea/blob/main/docs/cli.md">https://github.com/morluto/rea/blob/main/docs/cli.md</a></td>
+</tr>
+<tr>
+<td>MCP prompts</td>
+<td><a href="https://github.com/morluto/rea/blob/main/docs/mcp-prompts.md">https://github.com/morluto/rea/blob/main/docs/mcp-prompts.md</a></td>
+</tr>
+<tr>
+<td>Windows Ghidra P0</td>
+<td><a href="https://github.com/morluto/rea/blob/main/docs/windows-ghidra-p0.md">https://github.com/morluto/rea/blob/main/docs/windows-ghidra-p0.md</a></td>
+</tr>
+<tr>
+<td>Website, guides, showcases</td>
+<td><a href="https://rea.tools/">https://rea.tools/</a> · <a href="https://rea.tools/guides/">https://rea.tools/guides/</a> · <a href="https://rea.tools/showcase/">https://rea.tools/showcase/</a></td>
+</tr>
+<tr>
+<td>Ghidra 12.1.4</td>
+<td><a href="https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.1.4_build">https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.1.4_build</a></td>
+</tr>
+</tbody>
+</table>
+<p><em>If you use REA on something interesting (and legal), the project asks you to share the target, your question, how REA helped and what you found in an issue or PR. I'd love to see it too. Reply with your receipts.</em></p></body></html>

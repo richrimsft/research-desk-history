@@ -1,0 +1,78 @@
+X inbound reply/mention scan
+Scan time: 2026-09-30 approximately 3:04 PM America/New_York
+Signed-in account: @P7RIM3 (display name P7RIM3; verified account shown)
+All tab URL: https://x.com/notifications
+Mentions tab URL: https://x.com/notifications/mentions
+Cutoff for "new": 2026-09-30T14:58:00-04:00 (America/New_York). Anything at or before this is old.
+
+Scope
+------
+Listed below are the visible cards that were replies to or mentions of @P7RIM3. The All tab also showed non-reply notifications (a follow and likes on @P7RIM3 replies); those were not treated as inbound replies/mentions. The Mentions tab showed the seven cards below. Duplicate cards are marked as appearing on both tabs.
+
+VISIBLE INBOUND CARDS (unique, with source tabs)
+--------------------------------------------------
+1) Paul Kelly (@zebralife2002) — display name: Paul Kelly
+   Approx. time shown: ~50 minutes ago (All; Mentions rendered ~48–49 minutes)
+   Status URL: https://x.com/zebralife2002/status/2105361123503440350
+   Full text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+   Source: All and Mentions
+   Already replied? YES. Thread showed a @P7RIM3 reply underneath: "The sentence was sloppy. The receipt wasn't: people were outside a prison doing push-ups for someone inside. Which part of that description is wrong?"
+   New? NO (older than cutoff; explicitly known already handled)
+
+2) Piper Paprikas #2nd account (@KittyMcfeisty2) — display name: Piper Paprikas #2nd account
+   Approx. time shown: ~1–2 hours ago (All rendered ~2h; Mentions initially rendered ~1h)
+   Status URL: https://x.com/KittyMcfeisty2/status/2105343324580143460
+   Full text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh
+   Source: All and Mentions
+   Already replied? NO visible @P7RIM3 reply under this exact status (card showed 0 replies). It is part of the explicitly known-handled KittyMcfeisty2 thread, so it is excluded from NEW_COUNT.
+   New? NO (older than cutoff and explicitly known already handled)
+
+3) Piper Paprikas #2nd account (@KittyMcfeisty2) — display name: Piper Paprikas #2nd account
+   Approx. time shown: ~2 hours ago
+   Status URL: https://x.com/KittyMcfeisty2/status/2105339423638651351
+   Full text: 🙄 🤦‍♀️
+   Source: All and Mentions
+   Already replied? YES. Thread showed @P7RIM3 reply: "Facepalm isn't a plan either. Name one concrete thing that needs to stop."
+   New? NO (older than cutoff; explicitly known already handled)
+
+4) Piper Paprikas #2nd account (@KittyMcfeisty2) — display name: Piper Paprikas #2nd account
+   Approx. time shown: ~2 hours ago
+   Status URL: https://x.com/KittyMcfeisty2/status/2105333564132712947
+   Full text: What’s new is this shit needs to stop. Beyond ridiculous
+   Source: All and Mentions
+   Already replied? YES. Thread showed @P7RIM3 reply: "Then pick one concrete thing and push that. \"Beyond ridiculous\" isn't a plan."
+   New? NO (older than cutoff; explicitly known already handled)
+
+5) h (@Cobra17298328) — display name: h
+   Approx. time shown: ~17 hours ago
+   Status URL: https://x.com/Cobra17298328/status/2105112514090402040
+   Full text: I can’t see what this bitch is saying, cause he immediately blocked me
+   Source: Mentions
+   Already replied? YES. Thread showed @P7RIM3 reply: "Blocking them doesn't settle the clip. Which second beats the ice/frozen-gas read?"
+   New? NO (older than cutoff; explicitly known already handled)
+
+6) Juneaux ⏸️ 😴 (@juneauxwhoitis) — display name: Juneaux ⏸️ 😴
+   Approx. time shown: ~18 hours ago
+   Status URL: https://x.com/juneauxwhoitis/status/2105094896663371987
+   Full text: Overflowing with perceptions you are!
+   Source: Mentions
+   Already replied? YES. Thread showed @P7RIM3 replies including: "Perceptions are cheap. Telemetry and a hard stop cost more. Which part did I get wrong?" and "First hand"
+   New? NO (older than cutoff; explicitly known already handled)
+
+7) spooky (@FiresOfTruth) — display name: spooky (verified account)
+   Approx. time shown: ~19 hours ago
+   Status URL: https://x.com/FiresOfTruth/status/2105080875058704611
+   Full text: Check the link in my bio to watch a film I made with darcy
+   Source: Mentions
+   Already replied? NO visible @P7RIM3 reply under this exact status in the opened conversation. It is explicitly known-handled promo/over-beats, so it is excluded from NEW_COUNT.
+   New? NO (older than cutoff; explicitly known already handled)
+
+KNOWN-HANDLED REFERENCE
+-----------------------
+The provided known-handled set also included https://x.com/FiresOfTruth/status/2105074701802651949. It was not a separate visible card in the loaded All/Mentions views during this scan; it was treated as handled and not new.
+
+NEW ITEMS
+----------
+None. Every visible inbound card was before the cutoff, and the visible cards were also in the provided known-handled set where applicable.
+
+NEW_COUNT=0

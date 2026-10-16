@@ -1,0 +1,3 @@
+$ rea inspect-go-binary $PWD/go/hello --json 2>&1 | jq -c '{code, message}'
+{"code":"COMMAND_NOT_FOUND","message":"'inspect-go-binary' is not a command for 'rea'. Did you mean 'inspect-artifact'?"}
+

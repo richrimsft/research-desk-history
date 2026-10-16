@@ -1,0 +1,12 @@
+$ rea doctor --provider ghidra --json | jq -r '"healthy: \(.healthy)", (.scope_checks[] | "  \(.classification)  \(.name)  \(.detail)")'
+healthy: true
+  healthy  node  24.21.0
+  healthy  ghidra  /home/box/.local/ghidra/ghidra_12.1.4_PUBLIC
+  healthy  ghidra-platform  linux
+  healthy  ghidra-architecture  x64
+  healthy  ghidra-installation  /home/box/.local/ghidra/ghidra_12.1.4_PUBLIC/Ghidra/application.properties
+  healthy  ghidra-version  12.1.4
+  healthy  ghidra-headless  /home/box/.local/ghidra/ghidra_12.1.4_PUBLIC/support/analyzeHeadless
+  healthy  ghidra-native_decompiler  /home/box/.local/ghidra/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/os/linux_x86_64/decompile reports elf x86_64, which matches linux/x64
+  healthy  ghidra-java  21.0.12.1; 64-bit; JDK; /home/box/.local/jdk21; accepted a 64-bit full JDK 21 or newer
+

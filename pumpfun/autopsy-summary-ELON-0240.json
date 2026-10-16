@@ -1,0 +1,68 @@
+{
+  "mint": "5xqdoeabeV7T9dwpMgM6BVKcg8ZZUgjKcwi8hNwCpump",
+  "symbol": "ELON",
+  "score": 1,
+  "rugged": false,
+  "creator": "CfXdZSg8bp7LmKRGcDRfQckbCem9NDceHPmk3LiT7866",
+  "creatorBalance": 0,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalHolders": 212,
+  "top10_ex_curve_pct": 18.69,
+  "top10_ex_curve": [
+    {
+      "addr": "3PwXa9BRA2sU",
+      "pct": 4.02
+    },
+    {
+      "addr": "3ugm1ZFfDuYB",
+      "pct": 2.73
+    },
+    {
+      "addr": "VArQ2KwjBbMc",
+      "pct": 2.24
+    },
+    {
+      "addr": "CoAtUPbtjDmK",
+      "pct": 1.74
+    },
+    {
+      "addr": "AwiFerUh3Xjc",
+      "pct": 1.65
+    },
+    {
+      "addr": "2ove4cpL5Ahd",
+      "pct": 1.32
+    },
+    {
+      "addr": "2Qa9TpW6zzLB",
+      "pct": 1.32
+    },
+    {
+      "addr": "6DfTNndNpPRu",
+      "pct": 1.23
+    },
+    {
+      "addr": "9QdoVcnPwUiW",
+      "pct": 1.22
+    },
+    {
+      "addr": "DbPzFfzmaFq1",
+      "pct": 1.22
+    }
+  ],
+  "uniform_1_4_5_band_in_top10": 10,
+  "uniform_band_top20_ex_curve": 14,
+  "risks": [],
+  "socials": null,
+  "age_h": 0.17,
+  "mc": 10214,
+  "decision": "FAIL",
+  "reasons": [
+    "age 0.17h < 30m entry window",
+    "creatorBalance 0",
+    "empty socials (dex info null; pf-coin empty)",
+    "ELON exhausted copycat narrative",
+    "top10 ex-curve ~18.7% OK alone but 14 wallets in 1-4.5% band"
+  ]
+}

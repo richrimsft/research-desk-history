@@ -1,0 +1,25 @@
+days=721 in-sample 2024-10-24..2026-03-11 | held-out 2026-03-12..2026-10-14
+
+== IN-SAMPLE ==
+buy&hold mix: {'ret_%': -41.3, 'maxDD_%': 57.0, 'trades': 3, 'end_$': 61.99}
+do nothing:   {'ret_%': 0.0, 'end_$': 105.69}
+trend SMA5  : {'ret_%': -69.2, 'maxDD_%': 69.7, 'trades': 415, 'end_$': 32.6}
+trend SMA10 : {'ret_%': -55.5, 'maxDD_%': 56.8, 'trades': 279, 'end_$': 47.03}
+trend SMA20 : {'ret_%': -33.1, 'maxDD_%': 38.2, 'trades': 143, 'end_$': 70.71}
+trend SMA30 : {'ret_%': -13.4, 'maxDD_%': 30.9, 'trades': 115, 'end_$': 91.53}
+trend SMA50 : {'ret_%': -0.3, 'maxDD_%': 23.2, 'trades': 70, 'end_$': 105.39}
+trend SMA100: {'ret_%': 9.2, 'maxDD_%': 21.8, 'trades': 48, 'end_$': 115.42}
+
+== HELD-OUT ==
+buy&hold mix: {'ret_%': 14.9, 'maxDD_%': 30.9, 'trades': 3, 'end_$': 121.45}
+do nothing:   {'ret_%': 0.0, 'end_$': 105.69}
+
+best in-sample N=100; frozen and applied to held-out once:
+held-out SMA5   : {'ret_%': -27.6, 'maxDD_%': 36.4, 'trades': 194, 'end_$': 76.51}
+held-out SMA10  : {'ret_%': -6.0, 'maxDD_%': 21.3, 'trades': 126, 'end_$': 99.37}
+held-out SMA20  : {'ret_%': 2.0, 'maxDD_%': 23.9, 'trades': 82, 'end_$': 107.83}
+held-out SMA30  : {'ret_%': 9.4, 'maxDD_%': 16.4, 'trades': 64, 'end_$': 115.62}
+held-out SMA50  : {'ret_%': 7.9, 'maxDD_%': 20.3, 'trades': 47, 'end_$': 114.02}
+held-out SMA100*: {'ret_%': 7.2, 'maxDD_%': 14.9, 'trades': 21, 'end_$': 113.35}
+held-out SMA100 maker-fee 0.25%: {'ret_%': 8.3, 'maxDD_%': 14.5, 'trades': 21, 'end_$': 114.5}
+held-out SMA100 2x costs:       {'ret_%': 3.7, 'maxDD_%': 16.1, 'trades': 21, 'end_$': 109.58}

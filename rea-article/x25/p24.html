@@ -1,0 +1,12 @@
+<!doctype html><meta charset=utf-8><body><p><em>Real capture: the MCP tool results from my agent&#x27;s REA session, projected with jq</em></p>
+<p>The CLI is great for learning. Day to day, your agent drives REA over MCP and keeps <strong>one session</strong> open, so it doesn't re-import the binary for every question. Through the Grok Bot <code>rea</code> connector, I made these real calls on the same file:</p>
+<ol>
+<li><code>open_binary</code> with <code>{"path": ".../target/crackme", "provider_id": "ghidra"}</code> returned <code>format: elf</code>, <code>architecture: x86_64</code> and the same SHA-256.</li>
+<li><code>trace_feature</code> with <code>{"query": "Access granted"}</code> matched <code>0x10202b</code>, referenced from <code>0x101260</code> and <code>0x101267</code> in <code>FUN_001011f5</code> (<code>ev_83a9d141…</code>).</li>
+<li><code>xrefs</code> with <code>{"address": "0x102008"}</code> showed that only <code>0x1011c3</code> and <code>0x1011d1</code> reference the secret array, both inside the check function (<code>ev_2a61d6e1…</code>).</li>
+<li><code>annotate_native_function</code> renamed <code>0x101179</code> to <code>check_password</code> and attached a comment. Ghidra re-decompiled it with the new name, and REA's own limitation applies: <em>"original executable bytes are never written."</em></li>
+<li><code>record_unknown</code> logged an open question (is there any other password path?) as <code>unk_c1d42d3c…</code>, severity low, with a recommended probe.</li>
+<li><code>export_evidence_bundle</code> wrote <code>notes/evidence.json</code>: <strong>4 records, 1 unknown</strong>.</li>
+</ol>
+<p>One real snag worth knowing: my first <code>record_unknown</code> call failed with <code>evidence_integrity_mismatch</code>, because I cited an Evidence ID from a <strong>CLI</strong> run. CLI processes and the MCP session have separate ledgers. Cite IDs from the same session you're writing to.</p>
+<h1>9. The CONFIRMED/GUESS findings log and the read-only workspace</h1></body>

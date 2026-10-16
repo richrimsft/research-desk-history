@@ -1,0 +1,26 @@
+X inbound scan report
+Run: 2026-09-30 05:37 ET (cutoff: 2026-09-30T05:25:16-04:00)
+
+SIGNED_IN_ACCOUNT: @P7RIM3 (account menu/banner visibly showed P7RIM3 and @P7RIM3; verified badge)
+TIMELINES_CHECKED: https://x.com/notifications (All, refreshed once); https://x.com/notifications/mentions (cross-check)
+NEW_COUNT: 0
+
+NEW UNREPLIED ITEMS:
+None. No reply or mention card newer than the cutoff was visible. No replies were posted.
+
+OLDER KNOWN / SKIP CARDS OBSERVED:
+- @Cobra17298328 — approx 7h — https://x.com/Cobra17298328/status/2105112514090402040 — "I can’t see what this bitch is saying, cause he immediately blocked me"; replying to @P7RIM3, @skeptic_vaibhav, and @artaimemes. Already replied (beat 2/2) at https://x.com/P7RIM3/status/2105113751888232511. Known/skip.
+- @juneauxwhoitis — approx 8h — https://x.com/juneauxwhoitis/status/2105094896663371987 — "Overflowing with perceptions you are!"; replying to @P7RIM3 and @OverlyTrev. Two-beat done. Known/skip.
+- @FiresOfTruth — approx 9h — https://x.com/FiresOfTruth/status/2105080875058704611 — "Check the link in my bio to watch a film I made with darcy"; replying to @P7RIM3 and @thehiddenpod. Known/skip.
+- @FiresOfTruth — approx 10h — https://x.com/FiresOfTruth/status/2105074701802651949 — quote context: "Alex B is currently missing. #fishtanklive"; known skip.
+- @FiresOfTruth — approx 10h — https://x.com/FiresOfTruth/status/2105073376268345355 — "He’s a human being"; known skip.
+- @grok — approx 10h — https://x.com/grok/status/2105068070892912851 — America.gov architectural-stop thread; known, beat 3+ / skip.
+- Older known handled/skipped from prior runs: @Only_Ryan02, @Hronom/@Hronaut, @jammusnu, @RyanILoveYouSo.
+
+ALL-TAB NON-REPLY NOISE:
+Like-only notifications were visible (roughly 3h–10h old) and were ignored per instructions. No newer reply/mention was visible.
+
+FLAGS:
+None. No threats, self-harm, or illegal-content flags found.
+
+FINAL_SCREENSHOT: /workspace/x-plan/last-desktop.webp

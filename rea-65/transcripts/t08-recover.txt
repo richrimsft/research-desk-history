@@ -1,0 +1,23 @@
+$ ls js/wp-dist
+main.js
+runtime.js
+shared.js
+src_checkout_js.chunk.js
+src_settings_js.chunk.js
+
+$ rea recover-javascript-sources $PWD/js/wp-dist/src_checkout_js.chunk.js $PWD/notes/rec-one --format json | tail -1 | jq -c '.raw_result.report | {detected_formats, modules: [.modules[].filename]}'
+{"detected_formats":["webpack5"],"modules":["src/checkout.js"]}
+
+$ sed -n 1,3p notes/rec-one/modules/src/checkout.js
+import _shared_js__WEBPACK_IMPORTED_MODULE_0__ from "./src/shared.js";
+async function startCheckout(order) {
+    const res = await fetch(`${_shared_js__WEBPACK_IMPORTED_MODULE_0__.a}/checkout/session`, {
+
+$ rea recover-javascript-sources $PWD/js/wp-dist/main.js $PWD/notes/rec-all --additional-path $PWD/js/wp-dist/runtime.js --additional-path $PWD/js/wp-dist/shared.js --additional-path $PWD/js/wp-dist/src_checkout_js.chunk.js --additional-path $PWD/js/wp-dist/src_settings_js.chunk.js --format json | tail -1 | jq -c '{status: .normalized_result.status, runtime_equivalence: .normalized_result.runtime_equivalence, report: (.raw_result.report | {detected_formats, modules: [.modules[].filename]})}'
+{"status":"complete","runtime_equivalence":"unknown","report":{"detected_formats":["webpack5"],"modules":["src/index.js","runtime.js","src/shared.js","src/checkout.js","src/settings.js"]}}
+
+$ sed -n 1,3p notes/rec-all/modules/src/checkout.js
+import { $, a } from "./src/shared.js";
+async function startCheckout(order) {
+    const res = await fetch(`${a}/checkout/session`, {
+

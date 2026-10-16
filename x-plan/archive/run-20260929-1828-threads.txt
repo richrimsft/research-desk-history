@@ -1,0 +1,59 @@
+X thread capture — 2026-09-29 18:34 ET
+No actions taken: no posts, likes, follows, or reposts.
+
+=== HRONOM ===
+Target: https://x.com/Hronom/status/2105060706273956244
+Author: @Hronom (Yevhen Tienkaiev)
+
+BEAT_COUNT: 3
+Meaning: three prior @P7RIM3 replies are visible in this @Hronom conversation, before the target reply.
+
+Target reply — full visible text:
+“I maintain Hronaut. Writes need a transport + workspace lease; pause/disconnect revoke it, reconnect needs the resume key and a fresh claim. That isn't human identity on every call. Contract:”
+
+Attached/link card shown after “Contract:”:
+- Preview text: “hronaut/docs/SUPPORT_RECOVERY.md at main · hronaut/hronaut”
+- Link shown: https://t.co/sIinwyNyZA
+- The thread rendered a GitHub link preview, not an image card. No image alt text or OCR text was visible for SUPPORT_RECOVERY.md.
+
+Visible @P7RIM3 context in exchange (chronological; full text):
+
+1) Original conversation parent (not counted in BEAT_COUNT)
+URL: https://x.com/P7RIM3/status/2104972538673549757
+Text:
+“The model stopped being the hard part this year. The hard part is the seam where it stops talking and starts doing. A handoff boundary is any place an agent leaves the sandbox: API call, repo write, ticket update, browser action, query against PHI, spend against a token budget. If you cannot name who the agent is, what it can touch, what it actually invoked, and who can shut it off when it ignores “no,” you do not have an AI program. You have an unlogged privileged user that works at machine speed.”
+
+2) Prior @P7RIM3 reply #1
+URL: https://x.com/P7RIM3/status/2105007591801929917
+Text:
+“that was written by your AI :) i can tell”
+
+3) Prior @P7RIM3 reply #2
+URL: https://x.com/P7RIM3/status/2105015976819396932
+Text:
+“Appreciate that. Boundary first, product second is the right order. Agreed: a browser the agent can drive is a tool surface, not authority. Authority is the part most stacks still leave in English. What I’d want on any local MCP browser, including yours: - Named principal on every tool call, not “the agent” - Workspace isolation that survives reconnect, so session cookies are not a shared root - Pause / take over that is enforced in the control plane, not a prompt suggestion - A revoke that still works after the model retries - Evidence the caller has to accept before it treats a click, submit, or navigation as done: URL, account, action, result - Logs you can replay without guessing which tab did what Human-in-the-loop for 2FA is necessary. It is not sufficient if the agent can keep knocking after you said stop. If Hronaut already binds those to the workspace and the MCP contract, that’s the interesting layer. The persistent Chromium part is just the vehicle.”
+
+4) Prior @P7RIM3 reply #3
+URL: https://x.com/P7RIM3/status/2105062553529594134
+Text:
+“I’ll check it out! Thanks for sharing”
+
+Exchange scroll/context observed:
+- @Hronom first replied with a Hronaut product pitch, then acknowledged the boundary point.
+- @P7RIM3 replied three times as listed above.
+- The target Hronom reply is the latest visible Hronom message before the short “I’ll check it out!” @P7RIM3 reply.
+
+=== ONLY_RYAN02 ===
+Target: https://x.com/Only_Ryan02/status/2105061268130603470
+Author: @Only_Ryan02 (Anomaly Files)
+
+Full visible text:
+“@grok explain why this object is mundane.”
+
+Parent context:
+Immediate parent is @P7RIM3’s post:
+URL: https://x.com/P7RIM3/status/2105060467282784391
+Text: “Still waiting”
+
+Thread confirmation:
+Yes. The surrounding conversation is the same satellite/orb thread: it includes the preceding @P7RIM3/@Only_Ryan02 exchange about whether the object is an orb/UFO or a satellite, including the camera/reflection explanation, and then @P7RIM3’s “Still waiting” immediately before the target @Only_Ryan02 reply. Earlier visible context also includes @P7RIM3’s post asking for a one-sentence sourced claim and the follow-up about timestamp/path/catalog ID.

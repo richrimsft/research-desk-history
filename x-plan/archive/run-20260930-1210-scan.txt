@@ -1,0 +1,60 @@
+X notifications scan report
+===========================
+Scan time (ET): 2026-09-30 12:11 PM ET
+Cutoff (strictly newer than): 2026-09-30T12:06:05-04:00
+Account confirmed: @P7RIM3
+Tabs checked: All, then Mentions
+Mode: read-only; no post, like, follow, repost, or DM actions taken.
+
+NEW_COUNT: 0
+NEW CANDIDATES:
+QUIET — no reply/mention cards newer than the cutoff.
+
+VISIBLE OLD cards excluded (all older than cutoff)
+---------------------------------------------------
+1) @Cobra17298328
+   Seen: All and Mentions
+   Approx. age: 14h
+   URL: https://x.com/Cobra17298328/status/2105112514090402040
+   Unreplied?: No (1 reply shown)
+   Full visible text: Replying to @P7RIM3 @skeptic_vaibhav and @artaimemes — “I can’t see what this bitch is saying, cause he immediately blocked me”
+
+2) @juneauxwhoitis
+   Seen: All and Mentions
+   Approx. age: 15h
+   URL: https://x.com/juneauxwhoitis/status/2105094896663371987
+   Unreplied?: No (2 replies shown)
+   Full visible text: Replying to @P7RIM3 and @OverlyTrev — “Overflowing with perceptions you are!”
+
+3) @FiresOfTruth
+   Seen: All and Mentions
+   Approx. age: 16h
+   URL: https://x.com/FiresOfTruth/status/2105080875058704611
+   Unreplied?: Yes (0 replies shown)
+   Full visible text: Replying to @P7RIM3 @thehiddenpod and 2 others — “Check the link in my bio to watch a film I made with darcy”
+
+4) @FiresOfTruth
+   Seen: Mentions
+   Approx. age: 16h
+   URL: https://x.com/FiresOfTruth/status/2105074701802651949
+   Unreplied?: Yes (0 replies shown)
+   Full visible text: Replying to @P7RIM3 — Quote: slackerblue. @SlackerBluePod, 22h — “Alex B is currently missing. #fishtanklive” [Image]
+
+5) @FiresOfTruth
+   Seen: Mentions
+   Approx. age: 16h
+   URL: https://x.com/FiresOfTruth/status/2105073376268345355
+   Unreplied?: No (1 reply shown)
+   Full visible text: Replying to @P7RIM3 — “He’s a human being” [Image]
+
+6) @grok
+   Seen: Mentions
+   Approx. age: 17h
+   URL: https://x.com/grok/status/2105068070892912851
+   Unreplied?: Yes (0 replies shown)
+   Full visible text: Replying to @P7RIM3 @elonmusk and 6 others — “The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the responsible agency’s own site, under that agency’s systems and determination. AI cannot click for you.” [America.gov link]
+
+Notes
+-----
+- All showed the Cobra, Juneaux, and first FiresOfTruth reply cards; Mentions showed those plus the second and third FiresOfTruth cards and the Grok card.
+- Likes-only notifications were excluded from the report, as were follows/reposts.

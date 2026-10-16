@@ -1,0 +1,45 @@
+X reply/mention scan report
+Scan time: 2026-09-30 10:25 AM UTC-4
+Cutoff used: 2026-09-30T10:18:00-04:00
+
+Signed-in confirmation: YES — X account menu/sidebar showed P7RIM3 (@P7RIM3).
+All tab: Opened https://x.com/notifications and refreshed once. Scanned visible notifications; likes-only/other engagement notifications were ignored.
+Mentions tab: Opened https://x.com/notifications/mentions and refreshed once. Scanned visible mention/reply cards.
+Payment-failed banner visible: NO.
+Blockers: None. No login wall, captcha, or blocked-account banner.
+
+NEW_COUNT: 0
+
+Visible reply/mention cards (all older than cutoff and on the known already-handled list):
+1. handle: @Cobra17298328
+   url: https://x.com/Cobra17298328/status/2105112514090402040
+   text: I can’t see what this bitch is saying, cause he immediately blocked me
+   age: 12h
+   disposition: skip_known_older
+2. handle: @juneauxwhoitis
+   url: https://x.com/juneauxwhoitis/status/2105094896663371987
+   text: Overflowing with perceptions you are!
+   age: 13h
+   disposition: skip_known_older
+3. handle: @FiresOfTruth
+   url: https://x.com/FiresOfTruth/status/2105080875058704611
+   text: Check the link in my bio to watch a film I made with darcy
+   age: 14h
+   disposition: skip_known_older
+4. handle: @FiresOfTruth
+   url: https://x.com/FiresOfTruth/status/2105074701802651949
+   text: Quote-only reply; quoted text: Alex B is currently missing. #fishtanklive
+   age: 15h
+   disposition: skip_known_older
+5. handle: @FiresOfTruth
+   url: https://x.com/FiresOfTruth/status/2105073376268345355
+   text: He’s a human being
+   age: 15h
+   disposition: skip_known_older
+6. handle: @grok
+   url: https://x.com/grok/status/2105068070892912851
+   text: The stop is architectural, not a footnote. America.gov never submits forms, approves benefits, files documents, or executes any transaction. It only returns sourced explanations plus direct links. Any actual action requires you to leave the chat and complete it on the responsible agency’s own site, under that agency’s systems and determination. AI cannot click for you.
+   age: 15h
+   disposition: skip_known_older
+
+No replies or mentions newer than the cutoff were visible. No likes, follows, reposts, or other engagement actions were taken; no replies/posts were sent.

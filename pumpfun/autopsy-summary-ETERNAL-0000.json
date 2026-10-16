@@ -1,0 +1,30 @@
+{
+  "symbol": "ETERNAL",
+  "score": 1,
+  "creatorBalance": 0,
+  "top10_ex_curve": 25.92,
+  "top_pcts": [
+    6.93,
+    3.62,
+    2.86,
+    2.28,
+    2.24,
+    1.7,
+    1.65,
+    1.6,
+    1.6,
+    1.44
+  ],
+  "insiderNetworks": [
+    {
+      "id": "intense-blossom-goat",
+      "size": 4,
+      "type": "transfer",
+      "tokenAmount": 66323714223523,
+      "currentHolding": 66323714223523,
+      "activeAccounts": 4
+    }
+  ],
+  "totalHolders": 129,
+  "verdict": "FAIL"
+}

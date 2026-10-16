@@ -1,0 +1,13 @@
+$ sha256sum ~/.local/android/jadx-headless-mcp-0.7.1-all.jar ~/.local/android/ApiDemos-debug.apk
+6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75  /home/box/.local/android/jadx-headless-mcp-0.7.1-all.jar
+a9eecf37b26cd084855c530db81c2bb1b91f4c1b095a04f47aa7c20e2791f686  /home/box/.local/android/ApiDemos-debug.apk
+
+$ $REA_ADB_PATH version | head -2; $REA_APKTOOL_COMMAND --version; binwalk --version 2>&1 | head -1; unblob --version; sasquatch -version 2>&1 | head -1; dotnet --version
+Android Debug Bridge version 1.0.41
+Version 37.0.1-15733141
+3.0.3
+binwalk 3.1.0
+26.6.4
+unsquashfs version 4.5.1 (2022/03/17)
+8.0.426
+

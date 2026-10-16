@@ -1,0 +1,8 @@
+$ rea inspect-sqlite-database sqlite/notes.db --table notes --column title --column big --column blob_val --row-limit 2 --format json | jq -c '.normalized_result.rows | (.values[]), {row_limit, returned_rows, truncated, order}'
+[{"type":"text","value":"Shopping list","bytes_hex":"53686f7070696e67206c697374","encoding":"UTF-8"},{"type":"integer","value":"9223372036854775807"},{"type":"blob","hex":"deadbeef"}]
+[{"type":"text","value":"Ideas","bytes_hex":"4964656173","encoding":"UTF-8"},{"type":"null"},{"type":"null"}]
+{"row_limit":2,"returned_rows":2,"truncated":true,"order":"unspecified"}
+
+$ rea inspect-sqlite-database sqlite/notes.db --table pinned_notes --format json | jq -c '{code, details}'
+{"code":"invalid_request","details":{"operation":"inspect_sqlite_database","issues":[{"path":["table"],"reason":"invalid_format","message":"Selected ordinary table does not exist with that exact name: pinned_notes"}],"captured_output":{"stdout":"","stderr":"","truncated":false}}}
+

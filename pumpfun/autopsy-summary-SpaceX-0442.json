@@ -1,0 +1,38 @@
+{
+  "symbol": "SpaceX",
+  "name": "SpaceX",
+  "mint": "vHRVLH6RDNeeMhcAsyNifSBvSRFFv1PD5RwVTempump",
+  "mc": 391732,
+  "age_h": 0.05,
+  "phase": "pumpswap post-grad (pair ~3m old)",
+  "creator": "AANH2mrAMGknPvFgHz8jpyuNey11nKf8oGkHZgt7zfxb",
+  "creatorBalance": 0,
+  "creatorSolRpc": 602.42,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "top10_ex_curve_pct": 7.3,
+  "band_1_5pct": 0,
+  "identical_dust_holders": 17,
+  "graphInsiders": 0,
+  "socials": "none (pf coin API 404; no twitter/telegram/website recovered)",
+  "vol_h1": 17921.9,
+  "buys_sells_h1": [
+    126,
+    33
+  ],
+  "rugcheck_score_norm": 40,
+  "risks": [
+    "High holder correlation",
+    "Copycat token"
+  ],
+  "decision": "FAIL",
+  "reasons": [
+    "age gate FAIL: ~0.05h (<30m entry window)",
+    "already PumpSwap post-grad spike (~$392k) \u2014 do not chase graduation",
+    "creator token balance 0 (RPC); sold/never holding",
+    "bot/bundle pattern: 17 holders with identical ~464072.557 token amounts; RugCheck high holder correlation (17)",
+    "copycat: using verified SpaceX symbol (RugCheck)",
+    "no project socials (PF meta 404)"
+  ],
+  "note": "NEW this cycle; hard NO-BUY on age+structure"
+}

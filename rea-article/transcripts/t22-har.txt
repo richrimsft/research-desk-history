@@ -1,0 +1,14 @@
+$ rea inspect-web-network-capture $PWD/web/demo.har har --json > har-evidence.json; jq -c '.evidence_id, .confidence, {total_records: .normalized_result.total_records, redactions: .normalized_result.container.redactions}' har-evidence.json
+"ev_7a897d124dc198156bd8c53f2551590d750069496151b7e987ba071b104079b9"
+"observed"
+{"total_records":4,"redactions":[]}
+
+$ jq -c '.normalized_result.records[] | {ordinal, method: .reported.request.method, url: .reported.request.url, status: .reported.response.status, body: .reported.request.postData.text}' har-evidence.json
+{"ordinal":0,"method":"GET","url":"http://127.0.0.1:8765/","status":200,"body":null}
+{"ordinal":1,"method":"GET","url":"http://127.0.0.1:8765/app.js","status":200,"body":null}
+{"ordinal":2,"method":"GET","url":"http://127.0.0.1:8765/export.js","status":200,"body":null}
+{"ordinal":3,"method":"POST","url":"http://127.0.0.1:8765/api/v1/exports","status":501,"body":"{\"format\":\"csv\",\"range\":\"30d\"}"}
+
+$ jq -c '.normalized_result.runtime_attribution' har-evidence.json
+"unknown"
+

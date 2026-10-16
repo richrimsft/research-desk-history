@@ -1,0 +1,18 @@
+$ python3 check_wallet.py 0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e
+RAW  /closed-positions : 1000 closed, 1000 wins, 0 losses  (hit the 1,000 cap: older history is invisible)
+     /positions        : 39 open rows, 28 expired worthless (price 0), 0 unredeemed winners
+     dead-bet P&L      : $-2,144,086
+REAL record            : 1000 wins, 28 losses -> win rate 97.3%  (raw said 100.0%)
+     worst dead bet    : $-337,071  Counter-Strike: 9z vs Aurora Gaming (BO3) - Thunderpick Worl (Aurora Gaming)
+     worst dead bet    : $-249,190  LoL: GAM Esports vs Shopify Rebellion (BO3) - Demacia Cup Gl (GAM Esports)
+     worst dead bet    : $-232,564  Counter-Strike: Vitality vs MOUZ (BO5) - ESL Pro League Play (MOUZ)
+
+$ python3 check_wallet.py 0x918b42a06ff25eaaa4a79eca9da6a9de46f4ea63
+RAW  /closed-positions : 41 closed, 41 wins, 0 losses
+     /positions        : 38 open rows, 38 expired worthless (price 0), 0 unredeemed winners
+     dead-bet P&L      : $-1,591,915
+REAL record            : 41 wins, 38 losses -> win rate 51.9%  (raw said 100.0%)
+     worst dead bet    : $-151,586  Will San Diego FC win on 2026-09-09? (Yes)
+     worst dead bet    : $-117,179  Will Atlanta United FC win on 2026-09-09? (Yes)
+     worst dead bet    : $-102,305  Will Clube do Remo win on 2026-10-07? (Yes)
+

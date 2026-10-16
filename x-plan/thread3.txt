@@ -1,0 +1,10 @@
+Boards will not ask which flagship model you picked.
+
+They will ask:
+- who the agent was
+- what it was allowed to touch
+- what it actually called
+- who could shut it off when it kept going
+
+Capability is table stakes.
+Governance is the product.

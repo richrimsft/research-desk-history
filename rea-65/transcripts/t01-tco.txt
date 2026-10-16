@@ -1,0 +1,15 @@
+$ curl -sI https://t.co/8VhocJiXYK | grep -i -E '^(HTTP|location)'
+HTTP/2 301 
+location: https://github.com/morluto/rea/releases/tag/rea-agents-6.5.0
+
+$ curl -s https://api.github.com/repos/morluto/rea/releases/tags/rea-agents-6.5.0 | jq '{name, tag_name, published_at, url: .html_url}'
+{
+  "name": "rea-agents: v6.5.0",
+  "tag_name": "rea-agents-6.5.0",
+  "published_at": "2026-10-14T12:32:45Z",
+  "url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.5.0"
+}
+
+$ TZ=America/New_York date -d 2026-10-14T12:32:45Z
+Wed Oct 14 08:32:45 EDT 2026
+

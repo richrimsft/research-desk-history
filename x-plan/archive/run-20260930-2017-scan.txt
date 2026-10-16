@@ -1,0 +1,37 @@
+X notifications scan report
+Run label: run-20260930-2017
+Account: @P7RIM3
+Scanned at: 2026-09-30T20:22:39-04:00
+Cutoff: 2026-09-30T20:12:18-04:00
+Screenshots:
+- /workspace/x-plan/run-20260930-2017-notifications.png
+- /workspace/x-plan/run-20260930-2017-mentions.png
+
+Result
+- NEW_COUNT=0 actionable replies posted.
+- One inbound reply was newer than cutoff: @DrumondArt, about 7 minutes old. It was unreplied, but was only an emoji-laugh/troll-style response with no substantive claim, so it was skipped as low-value spam/trolling. No reply was posted.
+- No accidental duplicate replies were created. No likes, follows, reposts, DMs, original posts, profile changes, or settings changes were made.
+- No blocked-account cards for @skunkbutters or @RyanILoveYouSo appeared.
+
+All notifications (visible reply/mention-related cards)
+1. @DrumondArt — https://x.com/DrumondArt/status/2105451230445154557 — about 3 minutes old when the All screenshot was taken (about 7 minutes by report time) — full text: "Deep mastery across fields"... followed by a long run of laughing-face emojis. Replying to @P7RIM3 and @cb_doge. No reply count/our reply visible; treated as unreplied. Newer than cutoff. SKIP: emoji-only troll/spam, no substantive point. No action.
+2. @stonkspark — https://x.com/stonkspark/status/2105435508927005103 — 1 hour ago — "on it". Replying to @P7RIM3. Card showed 1 reply, so already handled under the parent. SKIP as older/already handled.
+3. @SafetyNotorious (SafetySwipe) — card surfaced the quoted target https://x.com/P7RIM3/status/2105427390197547463/photo/1 — 1 hour ago — "P7RIM3 - Retard of the Day 🏆" quoting @P7RIM3's post. Quote-only slur/troll. SKIP and flag; no reply.
+4. @GilliRoth — https://x.com/GilliRoth/status/2105422493200875658 — about 1–2 hours ago — reply card had an image and was replying to @P7RIM3 and @cb_doge; the opened status text is: "I would not want to go to war with him. We should give Elon every role--because he's good at everything. I think he must be a polymath -- he doesn't wear just one hat." Card showed 1 reply, already handled. SKIP as older/already handled.
+5–8. Additional All-tab articles between the new Drumond item and the older named cards had no accessible reply/mention text in the accessibility tree and were treated as non-reply activity (likes/reposts/follows/media activity); skipped per scope.
+
+Mentions tab (every visible reply card)
+1. @DrumondArt — https://x.com/DrumondArt/status/2105451230445154557 — 4 minutes old on Mentions load — "Deep mastery across fields"... plus a long run of laughing-face emojis, replying to @P7RIM3 and @cb_doge. No reply shown; newer than cutoff. SKIP as emoji-only troll/spam. No action.
+2. @stonkspark — https://x.com/stonkspark/status/2105435508927005103 — 1 hour — "on it". Replying to @P7RIM3. 1 reply shown; already handled. SKIP.
+3. @GilliRoth — https://x.com/GilliRoth/status/2105422493200875658 — 1 hour — image reply to @P7RIM3 and @cb_doge; text: "I would not want to go to war with him. We should give Elon every role--because he's good at everything. I think he must be a polymath -- he doesn't wear just one hat." 1 reply shown; already handled. SKIP.
+4. @zebralife2002 (Paul Kelly) — https://x.com/zebralife2002/status/2105361123503440350 — 6 hours — "Your first sentence made absolutely no sense \"you guys are handing outside of a person\" I stop reading and I stopped paying attention to you at that point. Have a good day"; replying to @P7RIM3 and @Brand0n. 1 reply shown; already handled. SKIP.
+5. @KittyMcfeisty2 (Piper Paprikas #2nd account) — X opened the nested quoted target https://x.com/libsoftiktok/status/2104968178518372788/photo/1 — 7 hours — "This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh" quoting a Libs of TikTok post. 1 reply shown; already handled. SKIP.
+6. @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105339423638651351 — 7 hours — "🙄 🤦‍♀️" replying to @P7RIM3 and @KittyMcFeisty. 1 reply shown; already handled. SKIP.
+7. @KittyMcfeisty2 — https://x.com/KittyMcfeisty2/status/2105333564132712947 — 7 hours — "What’s new is this shit needs to stop. Beyond ridiculous" replying to @P7RIM3 and @KittyMcFeisty. 1 reply shown; already handled. SKIP.
+8. @Cobra17298328 (h) — https://x.com/Cobra17298328/status/2105112514090402040 — 22 hours — "I can’t see what this bitch is saying, cause he immediately blocked me" replying to @P7RIM3, @skeptic_vaibhav, and @artaimemes. 1 reply shown; older, already handled, and contains a slur. SKIP and flag.
+9. @juneauxwhoitis (Juneaux) — https://x.com/juneauxwhoitis/status/2105094896663371987 — 23 hours — "Overflowing with perceptions you are!" replying to @P7RIM3 and @OverlyTrev. 2 replies shown; already handled / two-beat thread. SKIP.
+
+Flags
+- @SafetyNotorious quote-only slur/troll card (older than cutoff); no reply.
+- @Cobra17298328 older reply contains a slur; no reply.
+- No threats, self-harm, or illegal-content cards found.

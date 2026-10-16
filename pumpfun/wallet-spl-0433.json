@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "accounts": 2,
+  "nonzero": [
+    {
+      "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "uiAmount": 6e-06,
+      "decimals": 6
+    }
+  ],
+  "note": "dust USDC only; no meme positions"
+}

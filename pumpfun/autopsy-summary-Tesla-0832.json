@@ -1,0 +1,76 @@
+{
+  "tag": "0832",
+  "symbol": "Tesla",
+  "mint": "6KEm7GHTspmvVtf4qwNNDNPGqxse8UBHYttSX87apump",
+  "mc": 21767.91,
+  "age_h": 0.6,
+  "h1": 627,
+  "m5": null,
+  "dex": "pumpfun",
+  "tag_role": "PRIOR_recheck",
+  "phase": "pumpfun/on-curve",
+  "verdict": "FAIL",
+  "reasons": [
+    "PRIOR FAIL stands (0802/0808) \u2014 aged into window but worse/same",
+    "RC score 114153; Creator history of rugged tokens",
+    "Single holder ownership 51.39%; only 4 holders",
+    "High holder concentration; creatorBal 0",
+    "Tesla copycat narrative skip"
+  ],
+  "creatorBalance": 0,
+  "creator": "CuVgtsNUTBMnTk2PF6Rjz2PaqCQ2hQNtLJtx2rZgpmhT",
+  "creator_pct": 0,
+  "band_1_5": 0,
+  "top10ex_est": 48.61,
+  "top10_raw": 100.0,
+  "excl_lp": [
+    [
+      51.39320286618465,
+      "BwWK17cbHxwWBKZk"
+    ]
+  ],
+  "totalHolders": 4,
+  "score": 114153,
+  "score_normalised": 80,
+  "risks": [
+    "Creator history of rugged tokens",
+    "Single holder ownership",
+    "High holder concentration"
+  ],
+  "top_holders_kept": [
+    [
+      48.61,
+      "7fzTwHRuVHPmGNgP"
+    ],
+    [
+      0,
+      "3q8qaWiENCd9kGeV"
+    ],
+    [
+      0,
+      "GJfarzhrwMXUur8A"
+    ]
+  ],
+  "top_holders_raw": [
+    [
+      51.39,
+      "BwWK17cbHxwWBKZk"
+    ],
+    [
+      48.61,
+      "7fzTwHRuVHPmGNgP"
+    ],
+    [
+      0,
+      "3q8qaWiENCd9kGeV"
+    ],
+    [
+      0,
+      "GJfarzhrwMXUur8A"
+    ]
+  ],
+  "rc": "rc-Tesla-0832.json",
+  "graphInsiders": 0,
+  "links_n": 0,
+  "note": "aged into 0.5\u20134h window; structural FAIL unchanged"
+}

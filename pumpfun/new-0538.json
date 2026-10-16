@@ -1,0 +1,40 @@
+[
+ {
+  "symbol": "Deer",
+  "name": "The Kafkaesque Deer",
+  "mint": "4tf5GEXU1dt7Vfj21oCu4P96ZEKEm3zMYqpzZsoCDeer",
+  "mc": 44075,
+  "age_h": 1.18,
+  "h1": 111,
+  "m5": 2.59,
+  "h24": 7.74,
+  "buys": 737,
+  "sells": 613,
+  "vol_h1": 53968.24,
+  "dex": "pumpswap",
+  "liq": 16831.43,
+  "url": "https://dexscreener.com/solana/6ykyyed8s1pxyyhy2ns57jyq1zho6h5a9kk3svuqz9x2",
+  "pairCreatedAt": 1792139432000,
+  "tag": "NEW",
+  "prior_reason": null
+ },
+ {
+  "symbol": "DEER",
+  "name": "Deer In Subway",
+  "mint": "DYhpuvytVM4SCiR56q8oz4nXAN2BPFaYnxVftS9wpump",
+  "mc": 10804.27,
+  "age_h": 0.59,
+  "h1": 182,
+  "m5": -5.81,
+  "h24": 182,
+  "buys": 488,
+  "sells": 434,
+  "vol_h1": 47682.65,
+  "dex": "pumpfun",
+  "liq": null,
+  "url": "https://dexscreener.com/solana/23f8qrnhwj6xybhx7zybdd4h16fpgu1zepfddt9ctl84",
+  "pairCreatedAt": 1792141554000,
+  "tag": "NEW",
+  "prior_reason": null
+ }
+]

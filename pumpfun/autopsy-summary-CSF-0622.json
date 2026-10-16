@@ -1,0 +1,50 @@
+{
+ "tag": "0622",
+ "symbol": "CSF",
+ "safe": "CSF",
+ "mint": "6aNXLr6d9m2gAZKmGn448f2PhuMeFqWhdDsnPs3Zpump",
+ "verdict": "FAIL",
+ "fails": [
+  "creatorBal 0 (no visible dev bag / fee-share or dumped)",
+  "12\u00d7 wallets in 1\u20135% band (sniper/distribution pattern) on 898 holders",
+  "botty churn ~4242 tx/h on ~$10k mc (volh1 $148164.91)",
+  "no socials / no website",
+  "twin-mint CSF copycat (other mint DDw2yrhh\u2026pump fading ~$6k)",
+  "m5 \u221231.28 hard fade just after aging into window",
+  "deployer burner-ish (wallet age ~0.41h, \u22651000 tx, 0.0059 SOL)"
+ ],
+ "age_h": 0.54,
+ "mc": 10177.03,
+ "h1": 152,
+ "m5": -31.28,
+ "dexId": "pumpfun",
+ "phase": "pumpfun curve (curve/AMM+locker ~51.1%: Pump Fun:51.15%)",
+ "creator": "5EHkmYwUjL8pvP3r7LQJbciNznDaFfn4fQGwqZYdAYwd",
+ "creatorBal": 0,
+ "creator_pct": 0,
+ "creator_wallet": {
+  "creator": "5EHkmYwUjL8pvP3r7LQJbciNznDaFfn4fQGwqZYdAYwd",
+  "sol": 0.00585216,
+  "ntx": 1000,
+  "oldest": 1792144769,
+  "age_h": 0.41
+ },
+ "band_1_5": 12,
+ "top10_ex_curve_pct": 21.63,
+ "rugScore": 1,
+ "score_normalised": 1,
+ "risks": [],
+ "graphInsiders": 0,
+ "txh1": {
+  "buys": 2409,
+  "sells": 1833
+ },
+ "volh1": 148164.91,
+ "totalHolders": 898,
+ "socials": [],
+ "websites": [],
+ "whales": [],
+ "structure_notes": "3.91 ozyAFSW3 ntx 1000 age_h 183.1 funder None\n2.97 zU8L1aTn ntx 1000 age_h 168.7 funder None\n2.75 4Qi2ytNw ntx 88 age_h 43.7 funder ['Biw4eeaiYYYq6xSqEd7GzdwsrrndxA8mqdxfAtG3PTUU', 1.34]\n2.34 Frrj3315 ntx 1000 age_h 5849.8 funder None\n2.26 6sZBHLzc ntx 1000 age_h 94.8 funder None\n2.03 Emqu7tid ntx 139 age_h 26.4 funder ['3Mbj13VTokXtvwEtJSJn8LiHgVP64XQhRB5gQj8y8zwm', 17.882911]\n1.48 8ybq4331 ntx 1000 age_h 304.2 funder None\n1.43 8bcEsD4u ntx 43 age_h 2.7 funder ['5F1seMKUqSNhv45f6FhB2cFmgJbk8U1avJw7M6TexUq1', 0.911510725]\n1.33 FiYj64Xk ntx 361 age_h 192.4 funder None\n1.14 7yUTK1S9 ntx 1000 age_h 738.2 funder None\n1.04 GcqbG2Gd ntx 1000 age_h 39.3 funder None\n1.01 AZu3dizz ntx 1000 age_h 3748.7 funder None\n",
+ "pf_note": "frontend-api-v3 /coins/<mint> returned 404 Not Found",
+ "twin_mint": "DDw2yrhhZNCpcVDPVwzHLedeZnN79W2tg7gWLoNDpump"
+}

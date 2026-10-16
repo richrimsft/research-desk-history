@@ -1,0 +1,29 @@
+X notifications scan report
+Run: 2026-09-30 20:01 ET
+Cutoff: 2026-09-30T19:59:00-04:00
+Signed in: YES — visible account is @P7RIM3.
+Scope: Notifications All and Notifications Mentions only. No original/timeline post, like, follow, repost, or DM actions taken.
+
+ALL visible reply/mention cards (likes/follows/reposts omitted):
+1. @stonkspark — 49m (not newer than ~8m; before 7:59pm ET) — “on it” — Replying to @P7RIM3; 1 reply shown; already handled per known mapping: https://x.com/stonkspark/status/2105435508927005103 -> https://x.com/P7RIM3/status/2105435757142028442. SKIP.
+2. @SafetyNotorious — 1h (not newer) — “P7RIM3 - [slur] of the Day” with a quote of @P7RIM3 — quote-only slur content; 0 replies shown. SKIP; do not engage.
+3. @GilliRoth — 1h (not newer) — image-only reply, replying to @P7RIM3 and @cb_doge — 1 reply shown; already handled per known mapping: https://x.com/GilliRoth/status/2105422493200875658 -> https://x.com/P7RIM3/status/2105426194468405542. SKIP.
+4. @zebralife2002 — 5h (not newer) — “Your first sentence made absolutely no sense … I stop reading and I stopped paying attention to you at that point. Have a good day” — replying to @P7RIM3, @Brand0n, and two others; 1 reply shown; already handled per known list. SKIP.
+
+MENTIONS visible reply/mention cards (likes/follows/reposts omitted):
+1. @stonkspark — 50m (not newer) — “on it” — replying to @P7RIM3; 1 reply shown; already handled, same known mapping above. SKIP.
+2. @GilliRoth — 1h (not newer) — image-only reply to @P7RIM3 and @cb_doge; 1 reply shown; already handled, same known mapping above. SKIP.
+3. @zebralife2002 — 5h (not newer) — “Your first sentence made absolutely no sense … Have a good day” — 1 reply shown; already handled. SKIP.
+4. @KittyMcfeisty2 — 6h (not newer) — “This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh” — quote included; 0 replies shown on this card; known thread already over two beats. SKIP.
+5. @KittyMcfeisty2 — 7h (not newer) — “🙄 🤦‍♀️” — 1 reply shown; known thread already over two beats. SKIP.
+6. @KittyMcfeisty2 — 7h (not newer) — “What’s new is this shit needs to stop. Beyond ridiculous” — 1 reply shown; known thread already over two beats. SKIP.
+7. @Cobra17298328 — 22h (not newer) — “I can’t see what this [insult] is saying, cause he immediately blocked me” — replying to @P7RIM3, @skeptic_vaibhav, and @artaimemes; 1 reply shown. Old; no action.
+8. @juneauxwhoitis — 23h (not newer) — “Overflowing with perceptions you are!” — replying to @P7RIM3 and @OverlyTrev; 2 replies shown. Old; no action.
+9. @FiresOfTruth — Sep 29 (not newer) — “Check the link in my bio to watch a film I made with darcy” — replying to @P7RIM3, @thehiddenpod, and two others; 0 replies shown. Promo/link content and old; no action.
+
+NEW_COUNT: 0
+Replies posted: NONE.
+Flags/skips: SafetyNotorious quote-only slur; KittyMcfeisty2 known over-two-beats; old promo/link from FiresOfTruth; no new unreplied item after cutoff. Blocked handles in instructions (@skunkbutters, @RyanILoveYouSo) did not appear in the visible cards.
+Screenshots:
+- /workspace/x-plan/run-20260930-2001-notifications.png
+- /workspace/x-plan/run-20260930-2001-mentions.png

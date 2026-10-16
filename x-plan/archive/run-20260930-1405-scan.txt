@@ -1,0 +1,70 @@
+X notifications scan report
+Run time: 2026-09-30 14:05 ET (UTC-04:00)
+Cutoff for NEW: 2026-09-30T14:04:01-04:00
+Account confirmed: @P7RIM3 (account menu showed P7RIM3)
+
+RESULT
+NEW_COUNT: 0
+No reply/mention card visible in the refreshed All or Mentions timelines was newer than the cutoff. All visible reply/mention cards were at least 1 hour old; the rest were 16–18 hours old.
+No threats, self-harm, or illegal-content inbound was found in the visible reply/mention cards.
+No post, reply, like, follow, repost, DM, or settings/profile change was made.
+
+CROSS-TAB SUMMARY
+All tab: 4 reply/mention cards among the visible notifications; likes-only/follows skipped.
+Mentions tab: 7 visible reply/mention cards. The first four below duplicate the All-tab reply cards; the remaining three are mentions-only. No newer item appeared on the cross-check.
+
+VISIBLE REPLY/MENTION CARDS (unique cards)
+
+1) @KittyMcfeisty2 — age: 1 hour ago
+Status: https://x.com/KittyMcfeisty2/status/2105343324580143460
+Their exact text: “This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh”
+Context: reply to @P7RIM3 / @KittyMcFeisty, quoting Libs of TikTok’s Sep 29 Homecoming Queen post.
+P7RIM3 reply already exists in the thread: YES; this is the explicitly known KittyMcfeisty2 follow-up over the already-completed two beats. SKIP.
+
+2) @KittyMcfeisty2 — age: 1 hour ago
+Status: https://x.com/KittyMcfeisty2/status/2105339423638651351
+Their exact text: “🙄 🤦‍♀️”
+Context: reply to @P7RIM3 / @KittyMcFeisty in the same thread.
+P7RIM3 reply already exists in the thread: YES (“Facepalm isn't a plan either. Name one concrete thing that needs to stop.”). Explicitly known/handled. SKIP.
+
+3) @KittyMcfeisty2 — age: 1 hour ago
+Status: https://x.com/KittyMcfeisty2/status/2105333564132712947
+Their exact text: “What’s new is this shit needs to stop. Beyond ridiculous”
+Context: reply to @P7RIM3 / @KittyMcFeisty in the same thread.
+P7RIM3 reply already exists in the thread: YES (“Then pick one concrete thing and push that. \"Beyond ridiculous\" isn't a plan.”). Explicitly known/handled. SKIP.
+
+4) @Cobra17298328 — age: 16 hours ago
+Status: https://x.com/Cobra17298328/status/2105112514090402040
+Their exact text: “I can’t see what this bitch is saying, cause he immediately blocked me”
+Context: reply to @P7RIM3, @skeptic_vaibhav, and @artaimemes in the Starship/ice-particles thread.
+P7RIM3 reply already exists in the thread: YES (latest visible P7RIM3 reply: “Blocking them doesn't settle the clip. Which second beats the ice/frozen-gas read?”). Explicitly known beat 2. SKIP.
+
+5) @juneauxwhoitis — age: 17 hours ago
+Status: https://x.com/juneauxwhoitis/status/2105094896663371987
+Their exact text: “Overflowing with perceptions you are!”
+Context: reply to @P7RIM3 and @OverlyTrev.
+P7RIM3 reply already exists in the thread: YES; explicitly known two-beat thread. SKIP.
+
+6) @FiresOfTruth — age: 18 hours ago
+Status: https://x.com/FiresOfTruth/status/2105080875058704611
+Their exact text: “Check the link in my bio to watch a film I made with darcy”
+Context: reply to @P7RIM3, @thehiddenpod, @CoreyGoode, and @ColeyUfo.
+P7RIM3 reply already exists in the thread: No visible P7RIM3 reply on the card/thread view.
+Disposition: explicitly known FiresOfTruth bio-promo item — SKIP.
+
+7) @FiresOfTruth — age: 18 hours ago
+Status: https://x.com/FiresOfTruth/status/2105074701802651949
+Their exact text: no authored text visible; the card is a quote of @SlackerBluePod saying “Alex B is currently missing. #fishtanklive”.
+Context: reply to @P7RIM3 with that quoted post/image.
+P7RIM3 reply already exists in the thread: No visible P7RIM3 reply on the card/thread view.
+Disposition: explicitly known FiresOfTruth fishtank quote — SKIP.
+
+NEW UNREPLIED SAFE INBOUND
+None. NEW_COUNT=0.
+
+THREAT / SELF-HARM / ILLEGAL CONTENT
+None found in the visible reply/mention cards.
+
+FILES
+Screenshot: /workspace/x-plan/last-desktop.png
+Report: /workspace/x-plan/run-20260930-1405-scan.txt

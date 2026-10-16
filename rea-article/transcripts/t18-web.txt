@@ -1,0 +1,21 @@
+$ curl -s http://127.0.0.1:9333/json/version | jq -r .Browser
+Chrome/154.0.8037.97
+
+$ rea list-browser-targets http://127.0.0.1:9333 --allowed-origins http://127.0.0.1:8765 --filter-output evidence_id,normalized_result.targets,normalized_result.excluded
+evidence_id: ev_553ef0397aa1424b84dc8e7dbf3cdb1b384be7d35e742fcad609a211e2c57465
+normalized_result:
+  targets[1]{target_id,type,title,url,origin,attached}:
+    41DAC25A4D76D9793754752B1EEE9BC4,page,REA web demo (my own page),"http://127.0.0.1:8765/","http://127.0.0.1:8765",false
+  excluded:
+    disallowed_origin: 0
+    unsupported_url: 0
+    non_page: 2
+
+$ rea analyze-web-bundle http://127.0.0.1:9333 41DAC25A4D76D9793754752B1EEE9BC4 --allowed-origins http://127.0.0.1:8765 --observation-ms 1500 --json | jq -c '.evidence_id, (.normalized_result.observations.chunks.nodes[] | {url, bytes}), (.normalized_result.observations.chunks.edges[] | {kind, specifier, line: .location.line}), {endpoints: .normalized_result.observations.endpoints, routes: .normalized_result.observations.routes}, .normalized_result.completeness'
+"ev_65973234564924ffa793fcfbfc54e3a8db4b29cd2ac8f5ad9e681c806f9a69dc"
+{"url":"http://127.0.0.1:8765/app.js","bytes":271}
+{"url":"http://127.0.0.1:8765/export.js","bytes":132}
+{"kind":"static_import","specifier":"./export.js","line":1}
+{"endpoints":[],"routes":[]}
+{"status":"complete","parsed_scripts":2,"parse_failures":0,"visited_ast_nodes":76}
+

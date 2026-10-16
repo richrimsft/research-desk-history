@@ -1,0 +1,24 @@
+{
+ "tag": "0710",
+ "symbol": "GRAB",
+ "mint": "5rB2Z8xPrUGX75mL8Q7BZLjdKFtzaJYHhtPKMazSpump",
+ "name": "LandGrab",
+ "age_h": 0.18,
+ "mc": 11941,
+ "h1": 279,
+ "m5": 37.32,
+ "dexId": "pumpfun",
+ "phase": "too_young_curve",
+ "verdict": "FAIL_PRESCREEN",
+ "reasons": [
+  "age 0.18h <30m \u2014 no-buy",
+  "creatorBal \u22480/1 (burner pattern)",
+  "19\u00d71\u20135% holder band on 84 holders \u2014 classic FAIL",
+  "RC Low Liquidity warn ~$2688",
+  "curve ~51% top holder"
+ ],
+ "creatorBalance": 1,
+ "rc_score": 312,
+ "band_1_5": 19,
+ "rc_file": "rc-GRAB-0710.json"
+}

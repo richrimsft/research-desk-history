@@ -1,0 +1,72 @@
+{
+ "too_young": [
+  {
+   "symbol": "CHIPTO",
+   "name": "Ch\u00edp t\u1ed3",
+   "mint": "2paFXNaod76USEWLxQCa1diCL6Vp84DruwbGmv19pump",
+   "mc": 11336.04,
+   "age_h": 0.05,
+   "h1": 71.77,
+   "m5": 71.77,
+   "h24": 71.77,
+   "buys": 464,
+   "sells": 268,
+   "vol_h1": 31484.54,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/6fg7dlksuncoayobe9f5nqpntc6pxsgrbtfutic7ez4w",
+   "pairCreatedAt": 1792146039000
+  },
+  {
+   "symbol": "USDC",
+   "name": "UpSide Down Cat",
+   "mint": "JCaa73V2VdbF813zmmp9Q1giorD5ziKQdVLikxmxpump",
+   "mc": 21734.67,
+   "age_h": 0.09,
+   "h1": 472,
+   "m5": 472,
+   "h24": 472,
+   "buys": 544,
+   "sells": 326,
+   "vol_h1": 45675.94,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/3jwctew1pjl1xqsetjrsxupchwj1rrh8jfr4hyzbbn6z",
+   "pairCreatedAt": 1792145897000
+  },
+  {
+   "symbol": "ECONOMY",
+   "name": "economy",
+   "mint": "HesfyHKTEu2VFfE5o7kNscLiqoiv1uVvxw4nHU4fpump",
+   "mc": 11657.83,
+   "age_h": 0.22,
+   "h1": 286,
+   "m5": 45.35,
+   "h24": 286,
+   "buys": 543,
+   "sells": 336,
+   "vol_h1": 37542.79,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/xqo8ftzkrqzcznxjs1vfjgj659d6uken2aqxjfm4d5b",
+   "pairCreatedAt": 1792145422000
+  },
+  {
+   "symbol": "Irene",
+   "name": "Irene The Orangutan",
+   "mint": "5j7gTphd94qDXTft1ccXZZqdZo19dinTz4aFyJBXnEUY",
+   "mc": 78729,
+   "age_h": 0.42,
+   "h1": 769,
+   "m5": 36.11,
+   "h24": 769,
+   "buys": 3345,
+   "sells": 1364,
+   "vol_h1": 827649.91,
+   "dex": "pumpswap",
+   "liq": 43249.11,
+   "url": "https://dexscreener.com/solana/g15pnbj4yjcy13msehcqigxwwxhft1af6rlrr7evxjxs",
+   "pairCreatedAt": 1792144705000
+  }
+ ]
+}

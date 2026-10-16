@@ -1,0 +1,311 @@
+[
+  {
+    "mint": "2bQcQFdqp62Wo99noGRYdWdLrCZ3SAVXtjTP2jUspump",
+    "symbol": "dih",
+    "name": "dog in helmet",
+    "dex": "pumpfun",
+    "mc": 31110.0,
+    "liq": 0,
+    "age_h": 0.1,
+    "h1": 774,
+    "m5": 594,
+    "h1_bs": [
+      797,
+      592
+    ],
+    "m5_bs": [
+      781,
+      589
+    ],
+    "vol_h1": 70507.0,
+    "priceUsd": "0.00003111",
+    "pair": "7oq2c9s7GD1RAxFRccybGc4kZDMzwHSLBaKrEbXA9mJG",
+    "fail": [
+      "age=0.10h<0.5"
+    ]
+  },
+  {
+    "mint": "27tsMiH5MB8CB39eEVRaAEGxNC61zBQ5YsbXM5xWpump",
+    "symbol": "ROGCAN",
+    "name": "Rogue Cannon",
+    "dex": "pumpfun",
+    "mc": 18657.0,
+    "liq": 0,
+    "age_h": 0.04,
+    "h1": 531,
+    "m5": 531,
+    "h1_bs": [
+      40,
+      23
+    ],
+    "m5_bs": [
+      40,
+      23
+    ],
+    "vol_h1": 755.0,
+    "priceUsd": "0.00001865",
+    "pair": "3o2XvX5QpJKouHZYoeNo7AeiaoEq8Sx9cCXiBzhmm5Sm",
+    "fail": [
+      "age=0.04h<0.5"
+    ]
+  },
+  {
+    "mint": "Gn8Xti76PAzz4v8iir7S7dwiJ1mEHwGYaCTusk8apump",
+    "symbol": "1",
+    "name": "Melania $1 Coin",
+    "dex": "pumpswap",
+    "mc": 290654,
+    "liq": 45693.0,
+    "age_h": 0.57,
+    "h1": 529,
+    "m5": 38.47,
+    "h1_bs": [
+      9259,
+      3597
+    ],
+    "m5_bs": [
+      871,
+      422
+    ],
+    "vol_h1": 420339.0,
+    "priceUsd": "0.0002908",
+    "pair": "BvyZQp6d6P8XRVSVFvmXuH8TH2hMxazULMpG7g1z5ng5",
+    "fail": [
+      "botty buys=9259"
+    ]
+  },
+  {
+    "mint": "7d7XuJK65UummdJpNTQnpt53Wb4DhpAcwLPB89z1pump",
+    "symbol": "Vwhale",
+    "name": "Veil Whale",
+    "dex": "pumpswap",
+    "mc": 73632,
+    "liq": 14366.0,
+    "age_h": 49.14,
+    "h1": 27.53,
+    "m5": 2.69,
+    "h1_bs": [
+      55,
+      41
+    ],
+    "m5_bs": [
+      2,
+      3
+    ],
+    "vol_h1": 10700.0,
+    "priceUsd": "0.00007702",
+    "pair": "353XQXnxs6pRH7di7oQPpEPibhpcpZAwW46vSQTrNgRr",
+    "fail": [
+      "liq=14366",
+      "age=49.1h late/not-leader h1=27.53"
+    ]
+  },
+  {
+    "mint": "41dJCyDUHiQfeSzF5rq8WoEKgSizRroeynUKEKC5pump",
+    "symbol": "ZeroStake",
+    "name": "ZeroStake",
+    "dex": "pumpfun",
+    "mc": 23311.0,
+    "liq": 0,
+    "age_h": 2.76,
+    "h1": 12.09,
+    "m5": -1,
+    "h1_bs": [
+      124,
+      71
+    ],
+    "m5_bs": [
+      2,
+      6
+    ],
+    "vol_h1": 9920.0,
+    "priceUsd": "0.00002331",
+    "pair": "4LnDPRzjSDoqTRu8SxiW6BAGyri65xSHA5kASzFyvG2c",
+    "fail": [
+      "h1=12.09"
+    ]
+  },
+  {
+    "mint": "HQgMPJbGctpP9P27DdJW5f8rncz7gvg4vEL3hT7hpump",
+    "symbol": "LILANSEM",
+    "name": "The Lil Black Bull",
+    "dex": "pumpswap",
+    "mc": 38482,
+    "liq": 16777.0,
+    "age_h": 75.67,
+    "h1": 12.03,
+    "m5": null,
+    "h1_bs": [
+      12,
+      2
+    ],
+    "m5_bs": [
+      0,
+      0
+    ],
+    "vol_h1": 815.0,
+    "priceUsd": "0.00003864",
+    "pair": "9UpATtjBw3fYX1fmWxahVhGGt6SY5QHmstb5AzMJMGwQ",
+    "fail": [
+      "mc=38482",
+      "age=75.7h late/not-leader h1=12.03",
+      "h1=12.03"
+    ]
+  },
+  {
+    "mint": "4nCmpwne7hCoWTSpAd54uENmCgHJrHTyn4DMPCEMpump",
+    "symbol": "SDICE",
+    "name": "SoltoshiDice",
+    "dex": "pumpswap",
+    "mc": 116973,
+    "liq": 29793.0,
+    "age_h": 905.32,
+    "h1": 3.79,
+    "m5": null,
+    "h1_bs": [
+      6,
+      3
+    ],
+    "m5_bs": [
+      0,
+      0
+    ],
+    "vol_h1": 425.0,
+    "priceUsd": "0.0001214",
+    "pair": "B88u4SDr4GdM6nnfeWdDqGE4VaU3naxtYPnSunECZpGE",
+    "fail": [
+      "age=905.3h late/not-leader h1=3.79",
+      "h1=3.79"
+    ]
+  },
+  {
+    "mint": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
+    "symbol": "GOMO",
+    "name": "Gomo App",
+    "dex": "pumpswap",
+    "mc": 446709,
+    "liq": 73613.0,
+    "age_h": 267.97,
+    "h1": -8.18,
+    "m5": -0.73,
+    "h1_bs": [
+      62,
+      22
+    ],
+    "m5_bs": [
+      9,
+      4
+    ],
+    "vol_h1": 12393.0,
+    "priceUsd": "0.0005381",
+    "pair": "5a7QurJLARt146JajJYPe5nh6vLyFpN2QrHUSLqbsCZy",
+    "fail": [
+      "age=268.0h late/not-leader h1=-8.18",
+      "h1=-8.18"
+    ]
+  },
+  {
+    "mint": "JCsfUhtjjHpfMuRTDk2VXTStGU2z1Uz17aWHjkPdpump",
+    "symbol": "QPF",
+    "name": "QuantumProof",
+    "dex": "pumpswap",
+    "mc": 41903,
+    "liq": 17474.0,
+    "age_h": 24.28,
+    "h1": -15.93,
+    "m5": -10.38,
+    "h1_bs": [
+      76,
+      63
+    ],
+    "m5_bs": [
+      14,
+      7
+    ],
+    "vol_h1": 5393.0,
+    "priceUsd": "0.00004342",
+    "pair": "9vxJnC1er9jyK1VxUHJEV21BddEyQnVqezTs89XpZBN2",
+    "fail": [
+      "age=24.3h late/not-leader h1=-15.93",
+      "h1=-15.93"
+    ]
+  },
+  {
+    "mint": "7kYRaqETekkYVZw5JLe5UKBCSqjoxPqJJVz9c6NApump",
+    "symbol": "dipcat",
+    "name": "dip cat ",
+    "dex": "pumpfun",
+    "mc": 27745.0,
+    "liq": 0,
+    "age_h": 18.05,
+    "h1": -23.03,
+    "m5": -6.65,
+    "h1_bs": [
+      77,
+      51
+    ],
+    "m5_bs": [
+      15,
+      4
+    ],
+    "vol_h1": 6427.0,
+    "priceUsd": "0.00002774",
+    "pair": "HxE7NZLBCBDgVNkLz8dFhAjUJjRPRsKdKa5ftyiC6EmJ",
+    "fail": [
+      "age=18.0h late/not-leader h1=-23.03",
+      "h1=-23.03"
+    ]
+  },
+  {
+    "mint": "5LUvAQHZbDWzHaknGKWEKNVTZcSMAUiUxvvsjo2Npump",
+    "symbol": "0",
+    "name": "Epstein $0 Coin ",
+    "dex": "pumpswap",
+    "mc": 29696,
+    "liq": 13356.0,
+    "age_h": 0.62,
+    "h1": -28.37,
+    "m5": 6.36,
+    "h1_bs": [
+      382,
+      352
+    ],
+    "m5_bs": [
+      13,
+      18
+    ],
+    "vol_h1": 26781.0,
+    "priceUsd": "0.00003120",
+    "pair": "2bYBLp11uqnND78VGS4qNwCQzsSsoga8dYTDyG9mfaEE",
+    "fail": [
+      "liq=13356",
+      "h1=-28.37"
+    ]
+  },
+  {
+    "mint": "6x4Z2dr5DgHUBCKvta8T8GNsFTxJhsBZxNrycWQ8pump",
+    "symbol": "hi",
+    "name": "hi",
+    "dex": "pumpswap",
+    "mc": 37295,
+    "liq": 17684.0,
+    "age_h": 74.29,
+    "h1": -30.29,
+    "m5": 4.4,
+    "h1_bs": [
+      86,
+      49
+    ],
+    "m5_bs": [
+      7,
+      7
+    ],
+    "vol_h1": 8502.0,
+    "priceUsd": "0.00003918",
+    "pair": "GLN7Dr7AsP9GRxAjxiVBk9Rnwyn74ar2R3BuGk8ZxQn1",
+    "fail": [
+      "age=74.3h late/not-leader h1=-30.29",
+      "h1=-30.29"
+    ]
+  }
+]

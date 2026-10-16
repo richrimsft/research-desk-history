@@ -1,0 +1,305 @@
+<!doctype html><html><head><meta charset='utf-8'><title>What's new in REA 6.5</title><style>@page{size:A4;margin:16mm 14mm}
+body{font-family:'DejaVu Sans',sans-serif;font-size:10.5pt;line-height:1.5;color:#1f2328}
+h1{font-size:21pt;line-height:1.2} h2{font-size:15pt;border-bottom:1px solid #d0d7de;padding-bottom:3px;margin-top:22px;page-break-after:avoid} h3{font-size:12pt;page-break-after:avoid}
+figure{margin:10px 0;page-break-inside:avoid;text-align:center} figure img{max-width:100%;max-height:200mm;border:1px solid #d0d7de}
+figcaption{font-size:8.5pt;color:#57606a;margin-top:3px}
+pre{background:#f6f8fa;border:1px solid #d0d7de;padding:8px;font-size:8.3pt;white-space:pre-wrap;word-break:break-all;page-break-inside:avoid}
+code{font-family:'DejaVu Sans Mono',monospace;font-size:8.8pt;background:#f6f8fa}
+table{border-collapse:collapse;width:100%;font-size:8.6pt;margin:8px 0} th,td{border:1px solid #d0d7de;padding:4px 6px;vertical-align:top;word-break:break-word} th{background:#f6f8fa}
+blockquote{border-left:4px solid #d0d7de;margin:8px 0;padding:2px 12px;color:#424a53}
+a{color:#0969da;word-break:break-all}</style></head><body><h1>Addendum: Android, firmware and .NET routes, now tested (REA 6.5.0)</h1>
+<p><em>By Richard (<a href="https://x.com/P7RIM3">@P7RIM3</a>) · October 14, 2026 (ET) · update for "REA, hands-on" (Oct 13, REA 6.4.0), §10.3, §10.5 and §10.7</em></p>
+<blockquote>
+<p>Yesterday these three sections were docs-only because the engines weren't installed. Today I installed them on the same Grok Bot box (Debian 13, x64, Node 24.21.0, JDK 21, Ghidra 12.1.4) and ran each route with <strong>REA 6.5.0</strong> (npm <code>rea-agents@6.5.0</code>) on safe targets: an Apache-2.0 sample APK that REA's own tests pin, and a firmware image and .NET assembly I built myself. All output below is real. Nothing was run on Windows or macOS, and nothing was posted anywhere.</p>
+</blockquote>
+<h2>What changed vs the 6.4.0 article</h2>
+<table>
+<thead>
+<tr>
+<th>6.4.0 article section</th>
+<th>Status yesterday</th>
+<th>Status now</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>§10.3 Android</td>
+<td>"I didn't run these. My box has no JADX, no adb and no APK"</td>
+<td>✅ Package, class search, method decompile (JADX headless 0.7.1), Apktool 3.0.3 resource decode, adb client + device list</td>
+</tr>
+<tr>
+<td>§10.5 Firmware</td>
+<td>"I didn't run it, because Binwalk and Unblob aren't installed"</td>
+<td>✅ Binwalk 3.1.0 regions, Unblob 26.6.4 extraction (with sasquatch), extracted ELF → Ghidra</td>
+</tr>
+<tr>
+<td>§10.7 .NET</td>
+<td>"I had no .NET assembly to test on, so this one's docs-only"</td>
+<td>✅ Artifact metadata, members with IL sizes, <code>ldstr</code> literals, call edges, P/Invoke boundary</td>
+</tr>
+<tr>
+<td><code>rea doctor</code></td>
+<td><code>host</code> unsupported, no JADX check passing</td>
+<td><code>host</code> PASS, <code>jadx</code> PASS (12 PASS / 4 FAIL; see below)</td>
+</tr>
+</tbody>
+</table>
+<h2>1. Installing the engines</h2>
+<figure><img src="img/40-term-tools.png" alt="Real capture: tool versions and pinned hashes"/><figcaption>Real capture: tool versions and pinned hashes</figcaption></figure>
+<pre><code class="language-text">$ sha256sum ~/.local/android/jadx-headless-mcp-0.7.1-all.jar ~/.local/android/ApiDemos-debug.apk
+6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75  /home/box/.local/android/jadx-headless-mcp-0.7.1-all.jar
+a9eecf37b26cd084855c530db81c2bb1b91f4c1b095a04f47aa7c20e2791f686  /home/box/.local/android/ApiDemos-debug.apk
+
+$ $REA_ADB_PATH version | head -2; $REA_APKTOOL_COMMAND --version; binwalk --version 2&gt;&amp;1 | head -1; unblob --version; sasquatch -version 2&gt;&amp;1 | head -1; dotnet --version
+Android Debug Bridge version 1.0.41
+Version 37.0.1-15733141
+3.0.3
+binwalk 3.1.0
+26.6.4
+unsquashfs version 4.5.1 (2022/03/17)
+8.0.426
+</code></pre>
+<p>What I installed, and where REA finds it:</p>
+<table>
+<thead>
+<tr>
+<th>Engine</th>
+<th>Version</th>
+<th>How</th>
+<th>REA variable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>JADX headless MCP</td>
+<td>0.7.1 (<code>-all.jar</code>, SHA-256 matches REA's pin)</td>
+<td>download from the JADX headless MCP release</td>
+<td><code>REA_JADX_MCP_JAR</code></td>
+</tr>
+<tr>
+<td>Android platform-tools (adb)</td>
+<td>37.0.1 (adb 1.0.41)</td>
+<td>Google's platform-tools zip</td>
+<td><code>REA_ADB_PATH</code></td>
+</tr>
+<tr>
+<td>Apktool</td>
+<td>3.0.3</td>
+<td>jar + wrapper script</td>
+<td><code>REA_APKTOOL_COMMAND</code></td>
+</tr>
+<tr>
+<td>Binwalk</td>
+<td>3.1.0</td>
+<td><code>cargo install binwalk --version 3.1.0 --locked</code> (no Linux release binary)</td>
+<td><code>REA_BINWALK_COMMAND</code></td>
+</tr>
+<tr>
+<td>Unblob</td>
+<td>26.6.4</td>
+<td>Python venv, plus <code>libmagic1 lz4 zstd p7zip-full e2fsprogs</code> and <a href="https://github.com/onekey-sec/sasquatch/releases">sasquatch</a> v4.5.1-6</td>
+<td><code>REA_UNBLOB_COMMAND</code></td>
+</tr>
+<tr>
+<td>.NET SDK</td>
+<td>8.0.426</td>
+<td>user-local SDK in <code>~/.local/dotnet</code> (only to <em>build</em> my test assembly; REA's managed route needs no engine)</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<p>Test APK: <a href="https://github.com/appium/android-apidemos">Appium ApiDemos</a> 6.0.18 debug build (Apache-2.0). Its SHA-256 <code>a9eecf37…f686</code> matches the fixture REA's tests use.</p>
+<h2>2. Android (replaces §10.3)</h2>
+<figure><img src="img/w19-doc-android.png" alt="REA's android-analysis doc at 6.5.0"/><figcaption>REA's android-analysis doc at 6.5.0</figcaption></figure>
+<figure><img src="img/41-term-android.png" alt="Real capture: inspect-android-package + search-android-classes"/><figcaption>Real capture: inspect-android-package + search-android-classes</figcaption></figure>
+<pre><code class="language-text">$ rea inspect-android-package $PWD/android/ApiDemos-debug.apk --format json | jq -c '.confidence, (.normalized_result | {package_name, version_name, min_sdk, target_sdk, class_count, resource_count, signature_verification}), .normalized_result.permissions[0:6], (.normalized_result.engine | {name, version})'
+&quot;observed&quot;
+{&quot;package_name&quot;:&quot;io.appium.android.apis&quot;,&quot;version_name&quot;:&quot;6.0.18&quot;,&quot;min_sdk&quot;:&quot;26&quot;,&quot;target_sdk&quot;:&quot;33&quot;,&quot;class_count&quot;:2876,&quot;resource_count&quot;:869,&quot;signature_verification&quot;:&quot;not_performed&quot;}
+[&quot;android.permission.READ_CONTACTS&quot;,&quot;android.permission.WRITE_CONTACTS&quot;,&quot;android.permission.VIBRATE&quot;,&quot;android.permission.ACCESS_COARSE_LOCATION&quot;,&quot;android.permission.INTERNET&quot;,&quot;android.permission.SET_WALLPAPER&quot;]
+{&quot;name&quot;:&quot;jadx-headless-mcp&quot;,&quot;version&quot;:&quot;0.7.1&quot;}
+
+$ rea search-android-classes $PWD/android/ApiDemos-debug.apk ApiDemos --format json | jq -c '.normalized_result | {total_classes, matches, coverage}'
+{&quot;total_classes&quot;:2876,&quot;matches&quot;:[&quot;io.appium.android.apis.ApiDemos&quot;,&quot;io.appium.android.apis.ApiDemosApplication&quot;],&quot;coverage&quot;:&quot;complete&quot;}
+</code></pre>
+<figure><img src="img/42-term-android-method.png" alt="Real capture: inspect-android-method, decode-android-resources, list-adb-devices"/><figcaption>Real capture: inspect-android-method, decode-android-resources, list-adb-devices</figcaption></figure>
+<pre><code class="language-text">$ rea inspect-android-method $PWD/android/ApiDemos-debug.apk io.appium.android.apis.ApiDemos onCreate --format json | jq -r '.normalized_result | &quot;\(.method.reported_signature)  [\(.representation), body \(.body_status)]&quot;, .source.text'
+onCreate(android.os.Bundle): void  [java, body available]
+    @Override // android.app.Activity
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Intent intent = getIntent();
+        String path = intent.getStringExtra(&quot;io.appium.android.apis.Path&quot;);
+        if (path == null) {
+            path = &quot;&quot;;
+        }
+        setListAdapter(new SimpleAdapterWithDesc(this, getData(path), android.R.layout.simple_list_item_1, new String[]{&quot;title&quot;, &quot;contentDescription&quot;}, new int[]{android.R.id.text1, android.R.id.text2}));
+        getListView().setTextFilterEnabled(true);
+    }
+
+$ rea decode-android-resources $PWD/android/ApiDemos-debug.apk --no-strings --format json | jq -c '.normalized_result | .client, .metadata, {decoded_file_count, coverage}'
+{&quot;command&quot;:&quot;/home/box/.local/apktool/apktool&quot;,&quot;command_source&quot;:&quot;environment&quot;,&quot;apktool_version&quot;:&quot;3.0.3&quot;}
+{&quot;version_name&quot;:&quot;6.0.18&quot;,&quot;version_code&quot;:&quot;44&quot;,&quot;min_sdk_version&quot;:&quot;26&quot;,&quot;target_sdk_version&quot;:&quot;33&quot;,&quot;package_name&quot;:&quot;io.appium.android.apis&quot;}
+{&quot;decoded_file_count&quot;:983,&quot;coverage&quot;:&quot;complete&quot;}
+
+$ rea list-adb-devices --format json | jq -c '.normalized_result // {code, message}'
+{&quot;client&quot;:{&quot;binary_path&quot;:&quot;/home/box/.local/android/platform-tools/adb&quot;,&quot;path_source&quot;:&quot;environment&quot;,&quot;version&quot;:&quot;37.0.1-15733141&quot;,&quot;installed_path&quot;:&quot;/home/box/.local/android/platform-tools/adb&quot;},&quot;devices&quot;:[],&quot;may_have_started_adb_server&quot;:true}
+</code></pre>
+<p>Notes:
+- <code>signature_verification: "not_performed"</code>: REA reports the APK's declarations; it doesn't vouch for the signature.
+- <code>list-adb-devices</code> says <code>may_have_started_adb_server: true</code>. It had, so I ran <code>adb kill-server</code> afterwards.
+- The device-changing tools (<code>install_adb_package</code>, <code>push_adb_file</code>, <code>start_adb_app</code>) were <strong>not</strong> run. There's no device, and they're side-effecting by design.</p>
+<figure><img src="img/w22-doc-apktool.png" alt="REA's apktool-resource-analysis doc at 6.5.0"/><figcaption>REA's apktool-resource-analysis doc at 6.5.0</figcaption></figure>
+<h2>3. Firmware (replaces §10.5)</h2>
+<figure><img src="img/w20-doc-firmware.png" alt="REA's firmware-analysis doc at 6.5.0"/><figcaption>REA's firmware-analysis doc at 6.5.0</figcaption></figure>
+<p>My image <code>lab65-fw.bin</code> (188,416 bytes) is a 512-byte custom <code>LAB65FW</code> header, then an xz-compressed squashfs root filesystem (a Rust daemon <code>bin/hellod</code>, <code>etc/device.conf</code>, <code>www/index.html</code>), then a gzip'd tar with <code>wifi.conf</code>, padded to 4 KiB.</p>
+<figure><img src="img/43-term-firmware.png" alt="Real capture: Binwalk regions → Unblob extraction → extracted files"/><figcaption>Real capture: Binwalk regions → Unblob extraction → extracted files</figcaption></figure>
+<pre><code class="language-text">$ ls -la firmware/lab65-fw.bin
+-r--r--r-- 1 box box 188416 Oct 14 15:01 firmware/lab65-fw.bin
+
+$ rea inspect-firmware-regions $PWD/firmware/lab65-fw.bin --format json | jq -c '.provider, (.normalized_result.regions[] | {offset, reported_size, signature})'
+{&quot;id&quot;:&quot;binwalk&quot;,&quot;name&quot;:&quot;Binwalk&quot;,&quot;version&quot;:&quot;3.1.0&quot;}
+{&quot;offset&quot;:512,&quot;reported_size&quot;:179527,&quot;signature&quot;:&quot;squashfs&quot;}
+{&quot;offset&quot;:184320,&quot;reported_size&quot;:152,&quot;signature&quot;:&quot;gzip&quot;}
+
+$ rea extract-firmware $PWD/firmware/lab65-fw.bin $PWD/notes/fw-x --format json | jq -c '.provider, (.normalized_result | {coverage, gaps: [.extraction_gaps[] | {kind, range}]})'
+{&quot;id&quot;:&quot;unblob&quot;,&quot;name&quot;:&quot;Unblob&quot;,&quot;version&quot;:&quot;26.6.4&quot;}
+{&quot;coverage&quot;:&quot;partial&quot;,&quot;gaps&quot;:[{&quot;kind&quot;:&quot;unknown-chunk-handler&quot;,&quot;range&quot;:{&quot;offset&quot;:0,&quot;length&quot;:512}}]}
+
+$ cd notes/fw-x &amp;&amp; find . -type f | sort &amp;&amp; cat firmware.bin_extract/512-180736.squashfs_v4_le_extract/etc/device.conf
+./firmware.bin_extract/0-512.unknown
+./firmware.bin_extract/180736-184320.padding
+./firmware.bin_extract/184320-184472.gzip_extract/gzip.uncompressed
+./firmware.bin_extract/184320-184472.gzip_extract/gzip.uncompressed_extract/wifi.conf
+./firmware.bin_extract/184472-188416.padding
+./firmware.bin_extract/512-180736.squashfs_v4_le_extract/bin/hellod
+./firmware.bin_extract/512-180736.squashfs_v4_le_extract/etc/device.conf
+./firmware.bin_extract/512-180736.squashfs_v4_le_extract/www/index.html
+hostname=lab65-router
+admin_ui=enabled
+fw_version=6.5.0-lab
+</code></pre>
+<figure><img src="img/44-term-firmware-ghidra.png" alt="Real capture: the extracted ELF opened with REA's Ghidra provider"/><figcaption>Real capture: the extracted ELF opened with REA's Ghidra provider</figcaption></figure>
+<pre><code class="language-text">$ rea search notes/fw-x/firmware.bin_extract/512-180736.squashfs_v4_le_extract/bin/hellod hello-rust --provider ghidra --format json | jq -c '.subject.format, .subject.architecture, (.normalized_result | if type==&quot;array&quot; then .[0:2] else (.matches // .)[0:2] end), .confidence'
+&quot;elf&quot;
+&quot;x86_64&quot;
+[{&quot;address&quot;:&quot;0x14c000&quot;,&quot;value&quot;:&quot;hello-rust \n&quot;}]
+&quot;observed&quot;
+</code></pre>
+<p>The one remaining gap (<code>unknown-chunk-handler</code>, bytes 0–512) is my custom header, which is correct. On the first run, before sasquatch was installed, Unblob reported <code>missing-extractor-dependency: sasquatch</code> for <code>squashfs_v4_le</code> and left the rootfs packed. REA surfaced that as an explicit gap instead of a silent "done".</p>
+<h2>4. .NET (replaces §10.7)</h2>
+<figure><img src="img/w21-doc-managed.png" alt="REA's managed-code-analysis doc at 6.5.0"/><figcaption>REA's managed-code-analysis doc at 6.5.0</figcaption></figure>
+<p>My assembly <code>PromoLab.dll</code> (.NET 8) is a harmless promo-code <em>format</em> checker with one P/Invoke:</p>
+<pre><code class="language-csharp">public sealed class PromoCode
+{
+    private const string Banner = &quot;PromoLab code formatter v1&quot;;
+    public static bool IsWellFormed(string code) =&gt; code.Length == 8 &amp;&amp; code.StartsWith(&quot;LAB-&quot;) &amp;&amp; Checksum(code) % 7 == 3;
+    internal static int Checksum(string s) { int acc = 0; foreach (char c in s) acc = acc * 31 + c; return Math.Abs(acc); }
+    public string Describe() =&gt; Banner;
+}
+public static class Native { [DllImport(&quot;libc&quot;, EntryPoint = &quot;getpid&quot;)] public static extern int GetPid(); }
+</code></pre>
+<figure><img src="img/45-term-dotnet.png" alt="Real capture: inspect-managed-artifact, inspect-managed-members, inspect-managed-native-boundaries"/><figcaption>Real capture: inspect-managed-artifact, inspect-managed-members, inspect-managed-native-boundaries</figcaption></figure>
+<pre><code class="language-text">$ rea inspect-managed-artifact dotnet/target/PromoLab.dll --format json | jq -c '(.normalized_result.classification | {status, runtime_family, implementation, managed_architecture}), (.normalized_result.assembly | {name, version}), .normalized_result.metadata.table_row_counts'
+{&quot;status&quot;:&quot;managed&quot;,&quot;runtime_family&quot;:&quot;modern-dotnet&quot;,&quot;implementation&quot;:&quot;cil&quot;,&quot;managed_architecture&quot;:&quot;anycpu&quot;}
+{&quot;name&quot;:&quot;PromoLab&quot;,&quot;version&quot;:&quot;1.0.0.0&quot;}
+{&quot;Module&quot;:1,&quot;TypeRef&quot;:19,&quot;TypeDef&quot;:4,&quot;Field&quot;:1,&quot;MethodDef&quot;:6,&quot;Param&quot;:3,&quot;MemberRef&quot;:23,&quot;Constant&quot;:1,&quot;CustomAttribute&quot;:14,&quot;StandAloneSig&quot;:2,&quot;ModuleRef&quot;:1,&quot;ImplMap&quot;:1,&quot;Assembly&quot;:1,&quot;AssemblyRef&quot;:2,&quot;MethodSpec&quot;:1}
+
+$ rea inspect-managed-members dotnet/target/PromoLab.dll --type PromoLab.PromoCode --format json | jq -c '(.normalized_result.methods[] | {name, sig: &quot;\(.signature.return_type) (\(.signature.parameter_types|join(&quot;, &quot;)))&quot;, il_bytes: .body.il_size}), .normalized_result.user_strings.literals, (.normalized_result.call_edges[] | &quot;\(.caller) -&gt; \(.target_declaring_type).\(.target_name)&quot;)'
+{&quot;name&quot;:&quot;IsWellFormed&quot;,&quot;sig&quot;:&quot;bool (string)&quot;,&quot;il_bytes&quot;:36}
+{&quot;name&quot;:&quot;Checksum&quot;,&quot;sig&quot;:&quot;i4 (string)&quot;,&quot;il_bytes&quot;:43}
+{&quot;name&quot;:&quot;Describe&quot;,&quot;sig&quot;:&quot;string ()&quot;,&quot;il_bytes&quot;:6}
+{&quot;name&quot;:&quot;.ctor&quot;,&quot;sig&quot;:&quot;void ()&quot;,&quot;il_bytes&quot;:7}
+[{&quot;token&quot;:&quot;0x70000001&quot;,&quot;offset&quot;:2381,&quot;value&quot;:&quot;LAB-&quot;},{&quot;token&quot;:&quot;0x7000000b&quot;,&quot;offset&quot;:2391,&quot;value&quot;:&quot;PromoLab code formatter v1&quot;}]
+&quot;PromoLab.PromoCode.IsWellFormed -&gt; System.String.get_Length&quot;
+&quot;PromoLab.PromoCode.IsWellFormed -&gt; System.String.StartsWith&quot;
+&quot;PromoLab.PromoCode.IsWellFormed -&gt; PromoLab.PromoCode.Checksum&quot;
+&quot;PromoLab.PromoCode.Checksum -&gt; System.String.get_Chars&quot;
+&quot;PromoLab.PromoCode.Checksum -&gt; System.String.get_Length&quot;
+&quot;PromoLab.PromoCode.Checksum -&gt; System.Math.Abs&quot;
+&quot;PromoLab.PromoCode..ctor -&gt; System.Object..ctor&quot;
+
+$ rea inspect-managed-native-boundaries dotnet/target/PromoLab.dll --format json | jq -c '.normalized_result.pinvoke_imports[] | {member_name, import_scope_name, import_name}'
+{&quot;member_name&quot;:&quot;GetPid&quot;,&quot;import_scope_name&quot;:&quot;libc&quot;,&quot;import_name&quot;:&quot;getpid&quot;}
+</code></pre>
+<p>REA never loads or runs the assembly. 6.5.0 adds the decoded <code>ldstr</code> literals and a declaring type on every call target, and both show up here.</p>
+<h2>5. rea doctor afterwards</h2>
+<figure><img src="img/46-term-doctor-all.png" alt="Real capture: unscoped rea doctor and per-route client inspectors"/><figcaption>Real capture: unscoped rea doctor and per-route client inspectors</figcaption></figure>
+<pre><code class="language-text">$ rea doctor --json | jq -r '&quot;healthy: \(.healthy)&quot;, (.checks[] | &quot;  \(if .ok then &quot;PASS&quot; else &quot;FAIL&quot; end)  \(.classification)  \(.name)&quot;)'
+healthy: false
+  PASS  healthy  node
+  PASS  healthy  host
+  FAIL  missing_analysis_engine  hopper
+  PASS  healthy  ghidra
+  PASS  healthy  ghidra-platform
+  PASS  healthy  ghidra-architecture
+  PASS  healthy  ghidra-installation
+  PASS  healthy  ghidra-version
+  PASS  healthy  ghidra-headless
+  PASS  healthy  ghidra-native_decompiler
+  PASS  healthy  ghidra-java
+  FAIL  missing_analysis_engine  ida-registration
+  PASS  healthy  jadx
+  FAIL  config_drift  skill:identity
+  FAIL  config_drift  registration:cursor
+
+$ rea inspect-apktool-client --format json | jq -c '.normalized_result.client // .normalized_result'
+{&quot;command&quot;:&quot;/home/box/.local/apktool/apktool&quot;,&quot;command_source&quot;:&quot;environment&quot;,&quot;apktool_version&quot;:&quot;3.0.3&quot;}
+
+$ rea inspect-adb-client --format json | jq -c '.normalized_result | {version: (.client.version // .version)}'
+{&quot;version&quot;:&quot;37.0.1-15733141&quot;}
+
+$ rea inspect-pcap-client --format json | jq -c '.normalized_result.client | {tshark_version, capinfos_version}'
+{&quot;tshark_version&quot;:&quot;TShark (Wireshark) 4.4.19.&quot;,&quot;capinfos_version&quot;:&quot;Capinfos (Wireshark) 4.4.19.&quot;}
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Check</th>
+<th>Result</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>node, host</td>
+<td>PASS</td>
+<td>Node 24.21.0; Debian 13 is now a supported host</td>
+</tr>
+<tr>
+<td>ghidra (+7 sub-checks)</td>
+<td>PASS</td>
+<td>Ghidra 12.1.4, JDK 21.0.12.1</td>
+</tr>
+<tr>
+<td>jadx</td>
+<td>PASS</td>
+<td><code>REA_JADX_MCP_JAR</code> → jadx-headless-mcp 0.7.1</td>
+</tr>
+<tr>
+<td>hopper</td>
+<td>FAIL</td>
+<td>Not installed (Hopper is the macOS default)</td>
+</tr>
+<tr>
+<td>ida-registration</td>
+<td>FAIL</td>
+<td>No IDA MCP configured</td>
+</tr>
+<tr>
+<td>skill:identity, registration:cursor</td>
+<td>FAIL (config drift)</td>
+<td>Doctor suggests <code>rea setup</code>; I didn't run it because it edits client configs</td>
+</tr>
+</tbody>
+</table>
+<p>Doctor has no Binwalk, Unblob, Apktool, adb or TShark check. Apktool, adb and TShark have their own <code>inspect-*-client</code> commands (shown above). Binwalk and Unblob are verified by running the route (§3).</p>
+<h2>Links</h2>
+<ul>
+<li>Android: <a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/android-analysis.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/android-analysis.md</a></li>
+<li>Apktool resources: <a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/apktool-resource-analysis.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/apktool-resource-analysis.md</a></li>
+<li>Firmware: <a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/firmware-analysis.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/firmware-analysis.md</a></li>
+<li>Managed / .NET: <a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/managed-code-analysis.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/managed-code-analysis.md</a></li>
+<li>Testing / recorded scope: <a href="https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/testing.md">https://github.com/morluto/rea/blob/rea-agents-6.5.0/docs/testing.md</a></li>
+<li>sasquatch: <a href="https://github.com/onekey-sec/sasquatch/releases">https://github.com/onekey-sec/sasquatch/releases</a></li>
+<li>Appium ApiDemos: <a href="https://github.com/appium/android-apidemos">https://github.com/appium/android-apidemos</a></li>
+</ul></body></html>

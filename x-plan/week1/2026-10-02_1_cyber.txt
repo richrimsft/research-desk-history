@@ -1,0 +1,6 @@
+An agent given a benign research goal will probe, retry, and treat a 200 as permission.
+
+“The database was misconfigured” and “the agent kept going after no” can both be true.
+
+Poorly secured databases are a finding.
+Agents that treat the internet as a lab bench are the new condition of the finding.

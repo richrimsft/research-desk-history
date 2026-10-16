@@ -1,0 +1,38 @@
+X Explore/trending scan
+Timestamp: Wed Sep 30, 2026, 11:59 AM ET
+Account/session: @P7RIM3 (read-only scan; no interactions)
+
+Visible on Explore (fresh navigation):
+- Trump's AI accord typo — "Trump Signs AI Accord Marred by 'Unites States' Typo" — 14 hours, 67K posts (sidebar Today's News also showed 15 hours, 67.4K).
+- Aztec UFO documentary — 16 hours, 602 posts.
+- Delta/Musk backlash — 18 hours, 25K posts.
+- Sports: Giannis.
+- DMSO.
+- Allahu Akbar (US trend).
+- $ZAMA.
+- Pokemon Center (US trend).
+- Labour Party (politics).
+
+Trending tab (no counts/ages displayed):
+Flydubai (US; with Omani, Tabuk); WNBA (with A'ja, Cunningham); #OlandriaxVaqueraSS27; Unites States (politics); $EDEL; Christa Pike (with Colleen); Ken Griffin (with Carnegie Mellon); $RYET; Altercation (News); Savannah; Death to America (politics); Good Wednesday; Core PCE; Delta (with Starlink, Ed Bastian); Hump Day; #HelloJimtober; Happy Hump; Super Intelligence; Zeitler; Dara; Sousa.
+
+News tab:
+- Trump's AI accord typo — 14 hours, 67K posts.
+- Delta/Musk backlash — 18 hours, 25K posts.
+- AT&T CEO doubts SpaceX Direct-to-Cell strategy — 18 hours, 5.1K posts.
+- Tesla postpones Roadster demo to Oct 15 over high winds — 15 hours, 7.3K posts.
+- AI team crafts Odyssey pilot in 15 days without cameras — 18 hours, 747 posts.
+- Additional keyword trends: Bloomberg, TSLA, Labour Party, $LIT, Coinbase, IRGC, Pelosi, #XAUUSD, Tibo, Starmer, Fauci, Brad, Burnham, Eric Schmitt, Vote Red, The GOP, MAHA, Jack Smith.
+
+Sidebar Today's News (fast-rising but low volume):
+- Minneapolis City Council votes 7-4 to require a human monitor in the driver's seat of driverless robotaxis — Trending now, 289 posts.
+- Dunning-Kruger effect debate using the original-study scatterplot — Trending now, 69 posts.
+- AI accord typo — 15 hours, 67.4K posts.
+
+Judgment for @P7RIM3:
+- No clear new post. The best topical match is the SpaceX Direct-to-Cell item (satellites), but it is already 18 hours old and only 5.1K posts; the headline alone is not enough to make a receipt-driven, independently verifiable post.
+- The robotaxi human-monitor item is genuinely new/trending-now and relevant to AI governance, but only 289 posts and needs verification; not worth posting from this scan.
+- Odyssey pilot is AI-adjacent but not agent-security/OSINT and is low volume (747). "Super Intelligence" has no visible count or concrete claim.
+- Previously covered/no-fit items were not recommended: AI accord typo/politics, Aztec UFO, Delta/Starlink backlash, sports/fashion, and ticker noise.
+
+Decision: SKIP. No draft and no post.

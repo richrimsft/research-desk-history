@@ -1,0 +1,26 @@
+X notifications scan
+Scan time: 2026-09-30 13:07 ET
+Cutoff: 2026-09-30T12:55:58-04:00
+Account confirmed: @P7RIM3
+All tab refreshed: yes
+Mentions-only checked: yes
+
+NEW_COUNT: 0
+
+NEW/RECENT BUT EXCLUDED (already handled; do not reply)
+- @KittyMcfeisty2 — 1m — "This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh" — reply/quote context: Libs of TikTok post — already replied/known Kitty beat-2 thread; explicit stop further replies. Notification opens quoted post; direct reply URL not exposed without opening unrelated quoted post.
+
+OLDER / KNOWN (before cutoff; skip)
+- @KittyMcfeisty2 — 17m — "🙄 🤦‍♀️" — https://x.com/KittyMcfeisty2/status/2105339423638651351 — already handled; our reply exists in thread; beat-2 stop.
+- @KittyMcfeisty2 — 40m — "What’s new is this shit needs to stop. Beyond ridiculous" — https://x.com/KittyMcfeisty2/status/2105333564132712947 — already handled/our reply exists; beat-2 stop.
+- @Cobra17298328 — 15h — "I can’t see what this bitch is saying, cause he immediately blocked me" — https://x.com/Cobra17298328/status/2105112514090402040 — older blocked-thread; already replied; skip.
+- @juneauxwhoitis — 16h — "Overflowing with perceptions you are!" — older; over two beats/already handled; skip.
+- @FiresOfTruth — 17h — "Check the link in my bio to watch a film I made with darcy" — older bio promo; already handled/over two beats; skip.
+
+MENTIONS-ONLY ADDITIONAL OLD CARDS
+- @FiresOfTruth — 17h — quote context: "Alex B is currently missing. #fishtanklive" — older; already handled/skip.
+- @FiresOfTruth — 17h — "He’s a human being" — older; already handled/skip.
+
+Ignored non-reply notifications: follow, likes, reposts, and own posts.
+Newest original on @P7RIM3 profile: 12:51 PM Sep 30 (about 9m before the supplied 1:00 PM timestamp), AI-agent safety/LASST lawsuit post: "LASST sued OpenAI ... six companies signed a voluntary AI safety pact ... Kill path outside the prompt, or vibes."
+Screenshot copy: /workspace/x-plan/last-desktop.png

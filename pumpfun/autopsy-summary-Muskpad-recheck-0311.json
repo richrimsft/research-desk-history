@@ -1,0 +1,14 @@
+{
+  "mint": "UZcE4ws4kERR6prnmgGMCSfUL1XynhZbzJCyKo5pump",
+  "symbol": "Muskpad",
+  "recheck": "0311",
+  "mc": 46554,
+  "age_h": 0.11,
+  "creatorBalance": 0,
+  "decision": "FAIL \u2014 prior stands",
+  "reasons": [
+    "age still <30m (0.11h)",
+    "creatorBal 0",
+    "only tweet-link social / thin site"
+  ]
+}

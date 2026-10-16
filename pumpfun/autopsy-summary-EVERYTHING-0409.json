@@ -1,0 +1,86 @@
+{
+  "mint": "DZVADw7Qkfqg2mqQCQBYD2kNsNbq4c2Q9nhBmhtNpump",
+  "symbol": "EVERYTHING",
+  "name": "The Everything Project",
+  "score": 1,
+  "rugged": false,
+  "creator": "84ViU3D2QATqGFyUTZYUfV2rZsgDDJbVLgyvSpn8qycS",
+  "creatorBalance": 0,
+  "creator_pct": null,
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalHolders": 1623,
+  "graphInsiders": 4,
+  "top10_ex_curve_pct": 20.14,
+  "band_1_5": 19,
+  "whale_pct": 3.18,
+  "phase": "pumpswap mc~53234 age=0.37h h1=23.73 m5=-18.64 buys=3337",
+  "socials": [
+    [
+      "twitter",
+      "https://x.com/RoundtableSpace/status/2111000727761867252"
+    ],
+    [
+      "website",
+      "https://puter.com/"
+    ]
+  ],
+  "mc": 53234,
+  "age_h": 0.37,
+  "h1": 23.73,
+  "m5": -18.64,
+  "buys_h1": 3337,
+  "sells_h1": 2913,
+  "risks": [],
+  "decision": "FAIL",
+  "reasons": [
+    "age 0.37h <30m entry window FAIL",
+    "creatorBalance 0 (dev sold/out)",
+    "19 wallets in 1-5% band",
+    "fake/botty volume: 3337 buys/h on mc~53234",
+    "status-tweet X only (RoundtableSpace/status/\u2026) + puter.com \u2014 Puter narrative / no project X"
+  ],
+  "top10_owners": [
+    {
+      "owner": "8NDAQsf93Pgd\u2026",
+      "pct": 3.182567470771056
+    },
+    {
+      "owner": "4nLc3Mieo26t\u2026",
+      "pct": 2.320094181301426
+    },
+    {
+      "owner": "4zQG6oUwbjRr\u2026",
+      "pct": 2.3041197068452277
+    },
+    {
+      "owner": "9pGcr4S4eVai\u2026",
+      "pct": 2.032080709384405
+    },
+    {
+      "owner": "B7MFVt1W1vpd\u2026",
+      "pct": 1.926322640510366
+    },
+    {
+      "owner": "7D5fAcz2LTAR\u2026",
+      "pct": 1.7664505860062685
+    },
+    {
+      "owner": "GZVSEAajExLJ\u2026",
+      "pct": 1.7392517984667215
+    },
+    {
+      "owner": "FmZJhPFtqDJw\u2026",
+      "pct": 1.6590713322431914
+    },
+    {
+      "owner": "9rjqMuCLYuvn\u2026",
+      "pct": 1.6237677471780498
+    },
+    {
+      "owner": "CXVJewdc79TY\u2026",
+      "pct": 1.5863710869875587
+    }
+  ],
+  "socials_detail": "status-tweet X only (RoundtableSpace/status/\u2026) + puter.com \u2014 Puter narrative / no project X"
+}

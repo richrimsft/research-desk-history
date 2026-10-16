@@ -1,0 +1,56 @@
+X reply-responder scan report
+Run time: 2026-09-30T14:24:36-04:00
+Cutoff: 2026-09-30T14:18:02-04:00
+Signed-in account confirmed: @P7RIM3 (visible in account menu on All and Mentions).
+
+ALL notifications: https://x.com/notifications
+Reply/mention cards visible:
+1. @zebralife2002 (Paul Kelly), displayed 8m; status timestamp visibly 2:16 PM Sep 30 (before cutoff). URL: https://x.com/zebralife2002/status/2105361123503440350
+   Text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+   Action: POSTED as a clearly unreplied older exception; no prior log entry and the card/thread showed 0 replies.
+2. @KittyMcfeisty2, displayed 1h. URL: https://x.com/KittyMcfeisty2/status/2105343324580143460
+   Text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh
+   Action: SKIPPED; beat-3 territory after two existing beats.
+3. @KittyMcfeisty2, displayed 1h. URL: https://x.com/KittyMcfeisty2/status/2105339423638651351
+   Text: 🙄 🤦‍♀️
+   Action: SKIPPED; already handled (beat 2 live).
+4. @KittyMcfeisty2, displayed 1h. URL: https://x.com/KittyMcfeisty2/status/2105333564132712947
+   Text: What’s new is this shit needs to stop. Beyond ridiculous
+   Action: SKIPPED; already handled (beat 1 live).
+Other visible All notifications were follow/like activity, not inbound reply/mention cards, and were not acted on.
+
+MENTIONS: https://x.com/notifications/mentions
+Reply/mention cards visible:
+1. @KittyMcfeisty2, 1h. URL: https://x.com/KittyMcfeisty2/status/2105343324580143460
+   Text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh
+   Action: SKIPPED; over two beats.
+2. @KittyMcfeisty2, 1h. URL: https://x.com/KittyMcfeisty2/status/2105339423638651351
+   Text: 🙄 🤦‍♀️
+   Action: SKIPPED; already handled.
+3. @KittyMcfeisty2, 1h. URL: https://x.com/KittyMcfeisty2/status/2105333564132712947
+   Text: What’s new is this shit needs to stop. Beyond ridiculous
+   Action: SKIPPED; already handled.
+4. @Cobra17298328, 16h. URL: https://x.com/Cobra17298328/status/2105112514090402040
+   Text: I can’t see what this bitch is saying, cause he immediately blocked me
+   Action: SKIPPED; older and already replied beat 2 of 2.
+5. @juneauxwhoitis, 17h. URL: https://x.com/juneauxwhoitis/status/2105094896663371987
+   Text: Overflowing with perceptions you are!
+   Action: SKIPPED; older, known two-beat thread.
+6. @FiresOfTruth, 18h. URL: https://x.com/FiresOfTruth/status/2105080875058704611
+   Text: Check the link in my bio to watch a film I made with darcy
+   Action: SKIPPED; older bio/sales-style promo.
+7. @FiresOfTruth, 19h. URL: https://x.com/FiresOfTruth/status/2105074701802651949
+   Text: @P7RIM3 + quote of @SlackerBluePod “Alex B is currently missing. #fishtanklive”
+   Action: SKIPPED; older, over-two-beats/promo and explicitly excluded.
+
+Posted reply
+Target: @zebralife2002
+Their URL: https://x.com/zebralife2002/status/2105361123503440350
+Exact reply: The sentence was sloppy. The receipt wasn't: people were outside a prison doing push-ups for someone inside. Which part of that description is wrong?
+Reply URL: https://x.com/P7RIM3/status/2105362879817925052
+
+Counts and decision
+NEW_COUNT: 0 after cutoff. One clearly unreplied older card was handled under the exception.
+Safety flags: no threat, self-harm, or illegal-content item. Cobra card contained abusive language; it was skipped as already handled.
+Trending: TRENDING_SKIP spacing. Current time remained before 14:25 ET; last original was 13:40 ET, so no Explore deep-dive and no new original. Extras today remain 2/3 (LASST and Nvidia).
+Screenshot: /workspace/x-plan/last-desktop.png

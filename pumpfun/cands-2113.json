@@ -1,0 +1,114 @@
+{
+  "passers": [
+    {
+      "mint": "6MBf1XdZNSAaDKcxxbnCAngRUxBmwbHS5Ybe2rLRpump",
+      "name": "frameXTV",
+      "sym": "XTV",
+      "dex": "pumpswap",
+      "mc": 132332,
+      "liq": 33973.67,
+      "h1": 28.87,
+      "m5": 2.55,
+      "h6": 18.73,
+      "h24": 55.37,
+      "buys": 41,
+      "sells": 29,
+      "vol_h1": 4504.87,
+      "age_h": 75.40724055555556,
+      "late": true
+    }
+  ],
+  "near": [
+    {
+      "mint": "9HmC4jXxkaFchQHQEy873oA3bCcpGziz1hW7aP14pump",
+      "name": "DRAINLOVE",
+      "sym": "DRAINLOVE",
+      "dex": "pumpfun",
+      "mc": 43331.42,
+      "liq": null,
+      "h1": 1341,
+      "m5": null,
+      "h6": 1341,
+      "h24": 1341,
+      "buys": 6,
+      "sells": 0,
+      "vol_h1": 8964.66,
+      "age_h": 0.5711294444444445
+    },
+    {
+      "mint": "FMbjuuEHiE56vqpHpjxDyAfJ5CW3QHeuvaRHVA7ypump",
+      "name": "Trump $1 Coin",
+      "sym": "1",
+      "dex": "pumpswap",
+      "mc": 428413,
+      "liq": 54562.75,
+      "h1": 877,
+      "m5": 18.44,
+      "h6": 877,
+      "h24": 877,
+      "buys": 738,
+      "sells": 647,
+      "vol_h1": 21829.64,
+      "age_h": 0.08029611111111111
+    },
+    {
+      "mint": "Gn8Xti76PAzz4v8iir7S7dwiJ1mEHwGYaCTusk8apump",
+      "name": "Melania $1 Coin",
+      "sym": "1",
+      "dex": "pumpswap",
+      "mc": 113423,
+      "liq": 27273.59,
+      "h1": 146,
+      "m5": 146,
+      "h6": 146,
+      "h24": 146,
+      "buys": 255,
+      "sells": 80,
+      "vol_h1": 25443.59,
+      "age_h": 0.029740555555555555
+    },
+    {
+      "mint": "6MBf1XdZNSAaDKcxxbnCAngRUxBmwbHS5Ybe2rLRpump",
+      "name": "frameXTV",
+      "sym": "XTV",
+      "dex": "pumpswap",
+      "mc": 132332,
+      "liq": 33973.67,
+      "h1": 28.87,
+      "m5": 2.55,
+      "h6": 18.73,
+      "h24": 55.37,
+      "buys": 41,
+      "sells": 29,
+      "vol_h1": 4504.87,
+      "age_h": 75.40724055555556,
+      "late": true
+    }
+  ],
+  "sycamore": {
+    "mint": "3EC7gRDGKgqPHc9ipJxxChoeyseE2xAbQHZUSSTfpump",
+    "mc": 313850,
+    "liq": 53862.34,
+    "priceChange": {
+      "m5": 6,
+      "h1": 31.28,
+      "h6": 9.88,
+      "h24": 538
+    },
+    "txns_h1": {
+      "buys": 430,
+      "sells": 199
+    },
+    "vol_h1": 96814.1,
+    "vol_m5": 19974.16,
+    "txns_m5": {
+      "buys": 72,
+      "sells": 17
+    },
+    "age_h": 17.4,
+    "priceUsd": "0.0003236",
+    "dex": "pumpswap"
+  },
+  "sol_price": 105.6,
+  "n_pairs": 182
+}

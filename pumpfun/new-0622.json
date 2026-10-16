@@ -1,0 +1,20 @@
+[
+ {
+  "symbol": "CSF",
+  "name": "Charles, Solomon & Francesca",
+  "mint": "6aNXLr6d9m2gAZKmGn448f2PhuMeFqWhdDsnPs3Zpump",
+  "mc": 10177.03,
+  "age_h": 0.54,
+  "h1": 152,
+  "m5": -31.28,
+  "h24": 152,
+  "buys": 2409,
+  "sells": 1833,
+  "vol_h1": 148164.91,
+  "dex": "pumpfun",
+  "liq": null,
+  "url": "https://dexscreener.com/solana/2drwussvz8ktzmvnfpskapkt2nsvzgwegwvykxhzbp3g",
+  "pairCreatedAt": 1792144259000,
+  "tag": "NEW"
+ }
+]

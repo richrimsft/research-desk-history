@@ -1,0 +1,99 @@
+X LIVE REPLY/MENTION SCAN
+Observed: 2026-09-30 18:18 ET (UTC-04:00)
+Cutoff: 2026-09-30T18:15:56-04:00
+Signed-in account: @P7RIM3
+
+NEW_COUNT 0
+No visible inbound reply/mention card was newer than the cutoff and unreplied. No new_unreplied cards.
+
+ALL NOTIFICATIONS (https://x.com/notifications)
+Visible reply/mention cards (likes/follows excluded):
+
+1. handle: @zebralife2002
+   url: https://x.com/zebralife2002/status/2105361123503440350
+   displayed_age: 3h
+   text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+   classification: skip_already_handled
+   note: Known handled; existing reply https://x.com/P7RIM3/status/2105362879817925052. Also pre-cutoff.
+
+2. handle: @KittyMcfeisty2
+   url: https://x.com/KittyMcfeisty2/status/2105343324580143460
+   displayed_age: 5h
+   text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh
+   classification: skip_over_two_beats
+   note: Known two-beat stop; pre-cutoff.
+
+3. handle: @KittyMcfeisty2
+   url: https://x.com/KittyMcfeisty2/status/2105339423638651351
+   displayed_age: 5h
+   text: 🙄 🤦‍♀️
+   classification: skip_over_two_beats
+   note: Known two-beat stop; pre-cutoff.
+
+4. handle: @KittyMcfeisty2
+   url: https://x.com/KittyMcfeisty2/status/2105333564132712947
+   displayed_age: 5h
+   text: What’s new is this shit needs to stop. Beyond ridiculous
+   classification: skip_over_two_beats
+   note: Known two-beat stop; pre-cutoff.
+
+5. handle: @Cobra17298328
+   url: https://x.com/Cobra17298328/status/2105112514090402040
+   displayed_age: 20h
+   text: I can’t see what this bitch is saying, cause he immediately blocked me
+   classification: skip_already_handled
+   note: Known handled; pre-cutoff.
+
+MENTIONS (https://x.com/notifications/mentions)
+Visible reply/mention cards:
+
+1. handle: @zebralife2002
+   url: https://x.com/zebralife2002/status/2105361123503440350
+   displayed_age: 4h
+   text: Your first sentence made absolutely no sense "you guys are handing outside of a person" I stop reading and I stopped paying attention to you at that point. Have a good day
+   classification: skip_already_handled
+   note: Known handled; existing reply https://x.com/P7RIM3/status/2105362879817925052. Also pre-cutoff.
+
+2. handle: @KittyMcfeisty2
+   url: https://x.com/KittyMcfeisty2/status/2105343324580143460
+   displayed_age: 5h
+   text: This. Since you clearly missed what I reposted & what I’m referring to. Males taking on women shit? How much clearer do I need to be? Duh
+   classification: skip_over_two_beats
+   note: Known two-beat stop; pre-cutoff.
+
+3. handle: @KittyMcfeisty2
+   url: https://x.com/KittyMcfeisty2/status/2105339423638651351
+   displayed_age: 5h
+   text: 🙄 🤦‍♀️
+   classification: skip_over_two_beats
+   note: Known two-beat stop; pre-cutoff.
+
+4. handle: @KittyMcfeisty2
+   url: https://x.com/KittyMcfeisty2/status/2105333564132712947
+   displayed_age: 5h
+   text: What’s new is this shit needs to stop. Beyond ridiculous
+   classification: skip_over_two_beats
+   note: Known two-beat stop; pre-cutoff.
+
+5. handle: @Cobra17298328
+   url: https://x.com/Cobra17298328/status/2105112514090402040
+   displayed_age: 20h
+   text: I can’t see what this bitch is saying, cause he immediately blocked me
+   classification: skip_already_handled
+   note: Known handled; pre-cutoff.
+
+6. handle: @juneauxwhoitis
+   url: https://x.com/juneauxwhoitis/status/2105094896663371987
+   displayed_age: 21h
+   text: Overflowing with perceptions you are!
+   classification: skip_over_two_beats
+   note: Known two-beat stop; pre-cutoff.
+
+7. handle: @FiresOfTruth
+   url: https://x.com/FiresOfTruth/status/2105080875058704611
+   displayed_age: 22h
+   text: Check the link in my bio to watch a film I made with darcy
+   classification: skip_known_promo
+   note: Known promo; pre-cutoff.
+
+No cards were classified as new_unreplied. No likes, follows, reposts, DMs, bio/pin, or settings were touched.

@@ -1,0 +1,74 @@
+{
+ "too_young": [
+  {
+   "symbol": "Irene",
+   "mint": "6VdcMnBTCj4tJVwtNdJZNzWeYmxzMnygVSzcfY35pump",
+   "age_h": 0.27,
+   "mc": 79700,
+   "h1": 88.6,
+   "m5": 139,
+   "dex": "pumpswap",
+   "prescreen": "FAIL-likely: creatorBal 0; band1-5=14; top10ex~18.0%; holders=1657; post-grad ~$80k <30m (rc-Irene-0538.json)"
+  },
+  {
+   "symbol": "BOUNCER",
+   "mint": "EFxr7QmqvoDBm7nRAHDP1dfpJWbvK5QgjJegxdHppump",
+   "age_h": 0.19,
+   "mc": 13857.5,
+   "h1": 312,
+   "m5": -8,
+   "dex": "pumpfun",
+   "note": "below gate / not fully screened"
+  },
+  {
+   "symbol": "TRELLIS",
+   "mint": "4VucxZWxDstE6at1ZhpjkDYfBejPcaHoKfupHzV4pump",
+   "age_h": 0.31,
+   "mc": 13542.85,
+   "h1": 313,
+   "m5": 14.83,
+   "dex": "pumpfun",
+   "note": "below gate / not fully screened"
+  },
+  {
+   "symbol": "Womb",
+   "mint": "BxUHuVGyP9kKRoJZ5h8LvWamCZNCTZcMasUxp9Pjpump",
+   "age_h": 0.39,
+   "mc": 12263.35,
+   "h1": 286,
+   "m5": 9.36,
+   "dex": "pumpfun",
+   "note": "below gate / not fully screened"
+  },
+  {
+   "symbol": "Chase",
+   "mint": "YwCKitMEdf7nagejZbvpDvxDui5CdoQ3NuJsE5Tpump",
+   "age_h": 0.2,
+   "mc": 10909.6,
+   "h1": 170,
+   "m5": -21.2,
+   "dex": "pumpfun",
+   "note": "below gate / not fully screened"
+  },
+  {
+   "symbol": "GITPAID",
+   "mint": "2MdBA1Yiy3oCFmwyFTQdwaAMNybGWzm1zr9JziVQpump",
+   "age_h": 0.43,
+   "mc": 10632.53,
+   "h1": 193,
+   "m5": 45.03,
+   "dex": "pumpfun",
+   "prescreen": "FAIL-likely: creatorBal 1; band1-5=15; top10ex~29.3%; holders=328 (rc-GITPAID-0538.json)"
+  },
+  {
+   "symbol": "SLUDGE",
+   "mint": "AMwx7UAiSuvME8Ktjz8XWqPf45gGUr6FjmZeeg5spump",
+   "age_h": 0.53,
+   "mc": 8315,
+   "h1": 138,
+   "m5": -26,
+   "note": "age~0.53h but mc<$10k excluded from in-window; dumping",
+   "prescreen": "FAIL-likely: creatorBal 0; band1-5=19; top10ex~17.3% (rc-SLUDGE-0538.json)"
+  }
+ ]
+}

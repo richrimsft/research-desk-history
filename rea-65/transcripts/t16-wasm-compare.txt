@@ -1,0 +1,13 @@
+$ rea inspect-wasm-artifact $PWD/wasm/calc-v2.wasm --format json > notes/wasm-v2.json
+
+$ jq -n --slurpfile l notes/wasm-v1.json --slurpfile r notes/wasm-v2.json '{left: $l[0], right: $r[0], scope: "both"}' > notes/wasm-compare-input.json
+
+$ rea compare-wasm-interfaces notes/wasm-compare-input.json --format json | jq -c '.normalized_result | (.changes[] | "\(.direction) \(.module // "-").\(.name): \(.state)"), .summary'
+"export -.add: unchanged"
+"export -.checksum: unchanged"
+"export -.memory: unchanged"
+"export -.mul: added"
+"import env.log_i32: unchanged"
+"import env.now_ms: added"
+{"added":2,"removed":0,"changed":0,"unchanged":4,"unknown":0}
+

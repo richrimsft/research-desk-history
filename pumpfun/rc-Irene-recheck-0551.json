@@ -1,0 +1,16 @@
+{
+  "mint": "6VdcMnBTCj4tJVwtNdJZNzWeYmxzMnygVSzcfY35pump",
+  "symbol": "Irene",
+  "recheck": "0551",
+  "verdict": "FAIL stands",
+  "creatorBalance": 0,
+  "graphInsiders": 12,
+  "band_1_5": 10,
+  "top10_ex_curve_pct": 15.03,
+  "totalHolders": 2480,
+  "mc": 101685,
+  "m5": -16.61,
+  "h1": 141,
+  "dexId": "pumpswap",
+  "note": "aged into window from watch; creatorBal 0 + 12 insiders + post-grad dump"
+}

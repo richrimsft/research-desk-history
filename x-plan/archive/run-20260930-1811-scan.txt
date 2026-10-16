@@ -1,0 +1,16 @@
+run: 2026-09-30-1811 X reply responder
+signed_in: @P7RIM3
+cutoff: 2026-09-30T18:02:12-04:00
+scanned_at: 2026-09-30T18:15:56-04:00
+NEW_COUNT: 0
+notifications: /workspace/x-plan/run-20260930-1811-notifications.png
+mentions: /workspace/x-plan/run-20260930-1811-mentions.png
+pre_cutoff:
+- zebralife2002 3h already_handled
+- KittyMcfeisty2 x3 5h over_two_beats
+- Cobra17298328 20h already_handled
+- juneauxwhoitis 21h over_two_beats
+- FiresOfTruth 22h known_promo
+held_approvals: none unposted (0hour A+B DONE; Vaibhav/Cobra already_posted)
+trending: SKIP extras_full 3/3 + within 45m of 0HOUR1 original
+replies_posted: none

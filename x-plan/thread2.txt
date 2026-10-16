@@ -1,0 +1,13 @@
+Four questions that decide the next twelve months:
+
+1. Who is the principal?
+Not “the bot.” A named identity, short life, only the tools that job requires.
+
+2. What did it invoke?
+If you cannot replay the tool calls later without guessing, you cannot do IR and you cannot do audit.
+
+3. Where does “stop” live?
+If stop lives in the prompt, it is a suggestion. Stop has to live in the control plane and survive retries.
+
+4. Who can revoke the session in under a minute?
+If the answer is “we’ll retrain the prompt,” you already lost the incident.

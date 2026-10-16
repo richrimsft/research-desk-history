@@ -1,0 +1,97 @@
+{
+  "strict": [
+    {
+      "sym": "RDSTRWHALE",
+      "mint": "6zVwic7BRVTcMjhuEruV52HV8iXgcaRA3UsgSv6zpump",
+      "dex": "pumpfun",
+      "mc": 26364,
+      "liq": 0,
+      "age_h": 0.55,
+      "h1": 493,
+      "m5": -5.79,
+      "b": 1190,
+      "s": 687,
+      "v1": 61995
+    },
+    {
+      "sym": "GUILD",
+      "mint": "ABmp7kvhMFXEUvjq9cybBPPbrju8uv8GTQPCDbvLpump",
+      "dex": "pumpfun",
+      "mc": 26493,
+      "liq": 0,
+      "age_h": 0.77,
+      "h1": 715,
+      "m5": 3.89,
+      "b": 478,
+      "s": 353,
+      "v1": 58369
+    },
+    {
+      "sym": "DarkStar",
+      "mint": "9JYbTj84nzPQrS3zpkNGdwDRmmDA6i6wVaEtu1x5pump",
+      "dex": "pumpfun",
+      "mc": 21729,
+      "liq": 0,
+      "age_h": 2.52,
+      "h1": 330,
+      "m5": 17.28,
+      "b": 233,
+      "s": 151,
+      "v1": 25652
+    }
+  ],
+  "loose": [
+    {
+      "sym": "SXTR",
+      "mint": "GU3JGZr26TXN6TUhWoMurimGbB4fFFW13774bXEipump",
+      "dex": "pumpswap",
+      "mc": 278667,
+      "liq": 45048,
+      "age_h": 0.66,
+      "h1": 451,
+      "m5": 2.72,
+      "b": 6112,
+      "s": 2540,
+      "v1": 501498
+    },
+    {
+      "sym": "BANANA",
+      "mint": "FAvr8awFPPEaUnS1D7YjSWPjGCeSLWMzLeV6yWGDpump",
+      "dex": "pumpswap",
+      "mc": 17901,
+      "liq": 9608,
+      "age_h": 1.96,
+      "h1": 73.72,
+      "m5": 15.35,
+      "b": 74,
+      "s": 105,
+      "v1": 11277
+    },
+    {
+      "sym": "ROADSTER",
+      "mint": "Eizz6UJUBmoH4CxqLR5XBRyEGfoaKeckjmsraobSpump",
+      "dex": "pumpswap",
+      "mc": 17766,
+      "liq": 10114,
+      "age_h": 2.3,
+      "h1": 12.59,
+      "m5": 7.85,
+      "b": 115,
+      "s": 84,
+      "v1": 8414
+    },
+    {
+      "sym": "ROADSTER",
+      "mint": "2B69UeDAHvGLjKawjzBoKDuhk4NaPRC58Df6NCS2pump",
+      "dex": "pumpswap",
+      "mc": 92581,
+      "liq": 25400,
+      "age_h": 0.62,
+      "h1": 105,
+      "m5": 29.44,
+      "b": 11985,
+      "s": 3241,
+      "v1": 445943
+    }
+  ]
+}

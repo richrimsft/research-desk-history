@@ -1,0 +1,72 @@
+{
+ "too_young": [
+  {
+   "symbol": "UMBRA",
+   "name": "Umbra Pool",
+   "mint": "Axbj7JdzBrmqNdiQE7maSz2jrFhDnXJsWwe9NWzSpump",
+   "mc": 37179.55,
+   "age_h": 0.45,
+   "h1": 979,
+   "m5": 60.89,
+   "h24": 979,
+   "buys": 878,
+   "sells": 509,
+   "vol_h1": 75538.65,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/dckmxvxumuyqgxtpvfrxrsfk2bnvtrevfcka6qsbttbs",
+   "pairCreatedAt": 1792157964000
+  },
+  {
+   "symbol": "Konasu",
+   "name": "Konasu",
+   "mint": "93RFugk8jVwxBjAL3WY1uiGgA2UNqE9oRuHNrGMipump",
+   "mc": 16387.68,
+   "age_h": 0.47,
+   "h1": 311,
+   "m5": 34.87,
+   "h24": 311,
+   "buys": 1330,
+   "sells": 996,
+   "vol_h1": 112418.54,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/acyrwjeff43lpcb9kk1x8ehaghpnfipgnptxajqcckju",
+   "pairCreatedAt": 1792157907000
+  },
+  {
+   "symbol": "BFRG",
+   "name": "Blue Frog",
+   "mint": "FMwuYPDgxXBvAr49AcybfuvhFy43LakM94ZTuKgFpump",
+   "mc": 13936.5,
+   "age_h": 0.47,
+   "h1": 282,
+   "m5": 53.91,
+   "h24": 282,
+   "buys": 768,
+   "sells": 603,
+   "vol_h1": 84135.27,
+   "dex": "pumpfun",
+   "liq": null,
+   "url": "https://dexscreener.com/solana/5bxt8gnarwaeafwf4x93kv7gt4nzfgyboaqrv1v3zlcy",
+   "pairCreatedAt": 1792157914000
+  },
+  {
+   "symbol": "Twin",
+   "name": "We Ate Off That",
+   "mint": "7Jain9Efy7C4HvGkEPkNUUiGUmgu5tkff7NWvCvGpump",
+   "mc": 147533,
+   "age_h": 0.48,
+   "h1": 225,
+   "m5": 27.39,
+   "h24": 225,
+   "buys": 3631,
+   "sells": 2296,
+   "vol_h1": 301205.12,
+   "dex": "pumpswap",
+   "liq": 33300.82,
+   "url": "https://dexscreener.com/solana/aukijbz6cqalsxd4eqzymsragq7jzd8gkkbmcztam5hv",
+   "pairCreatedAt": 1792157846000
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+$ rea decompile /workspace/re/crackme/target/crackme 0x1011f5 --provider ghidra --json | jq -r '.evidence_id, .normalized_result'
+ev_58d1381a55f62abdc7c9ec343ca78da3570743d9e32f6a9dfcfcd6a7f5c6cab8
+
+undefined8 FUN_001011f5(void)
+
+{
+  int iVar1;
+  char *pcVar2;
+  undefined8 uVar3;
+  size_t sVar4;
+  char local_48 [64];
+  
+  printf("Enter the password: ");
+  pcVar2 = fgets(local_48,0x40,stdin);
+  if (pcVar2 == (char *)0x0) {
+    uVar3 = 1;
+  }
+  else {
+    sVar4 = strcspn(local_48,"\n");
+    local_48[sVar4] = '\0';
+    iVar1 = FUN_00101179(local_48);
+    if (iVar1 == 0) {
+      puts("Wrong password. Try again.");
+      uVar3 = 1;
+    }
+    else {
+      puts("Access granted. Nice work!");
+      uVar3 = 0;
+    }
+  }
+  return uVar3;
+}
+
+
+
