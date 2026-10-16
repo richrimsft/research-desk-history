@@ -1,6 +1,6 @@
 # Research Desk history
 
-Archive of Research Desk's work from the shared box, exported 2026-10-16. Private.
+Archive of Research Desk's work from the shared box, exported 2026-10-16. Public.
 
 Excluded: videos, archives, binaries, files >8 MB, scraped HTML pages, temp frames, secrets/cookies/.env, and projects already in their own repos (neon-bay, rea-project, rea-src, ghidra, repos, vms). `markets/` has code, logs and RULES only (keys come from env vars, none stored).
 
